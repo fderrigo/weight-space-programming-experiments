@@ -1,0 +1,26 @@
+{
+  "utc": "2026-11-05T02:45:57.468283+00:00",
+  "decision_by": "Codex",
+  "features": [
+    "native_head_14_13",
+    "prefix_values_21",
+    "prefix_values_23",
+    "last_mlp_input",
+    "last_mlp_features"
+  ],
+  "methods": [
+    "class_mean",
+    "nearest_example"
+  ],
+  "prototype_count": 64,
+  "reason": "Compare previously identified attention information with final MLP features on the now-observed paraphrases after a frozen direct-write candidate failed. Do not select heads or prototypes using the third labels.",
+  "reference_selection": "The same 64 original prototypes used before the second-development feature probes.",
+  "weights_changed": false,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "third_set_already_observed": true,
+  "fresh_correction_evaluation": false,
+  "final_set_read": false,
+  "counts_as_correction": false
+}

@@ -1,0 +1,11 @@
+{
+  "completed": true,
+  "freeze_sha256": "bbfef9b91e9486c2df33dbc2af53e8d7184d420dd1dcc42f6caae4675080ff38",
+  "conditions_completed": [
+    "original",
+    "native_recovery",
+    "qualified_concept_repairs"
+  ],
+  "original_parameters_restored": true,
+  "runtime_hooks": false
+}

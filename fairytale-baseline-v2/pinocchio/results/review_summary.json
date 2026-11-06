@@ -1,0 +1,119 @@
+{
+  "utc": "2026-11-04T18:09:21.094194+00:00",
+  "reviewer": "Codex; no independent human validation",
+  "purpose": "post-hoc diagnostic review, not a heldout patch evaluation",
+  "baseline_sha256": "8630b5b3c161050837d5b7ac9468ff13e9ef2b09296edee63c9f37b8c6edd52f",
+  "groups": {
+    "core": {
+      "n": 16,
+      "main_fact_status": {
+        "correct": 2,
+        "incorrect": 11,
+        "not_answered": 3
+      },
+      "truncated": 1,
+      "correct_main_fact_with_confirmed_extra_errors": 2,
+      "correct_main_fact_with_unverified_extras": 0
+    },
+    "language": {
+      "n": 8,
+      "main_fact_status": {
+        "correct": 1,
+        "partial": 2,
+        "incorrect": 5
+      },
+      "truncated": 0,
+      "correct_main_fact_with_confirmed_extra_errors": 0,
+      "correct_main_fact_with_unverified_extras": 1
+    },
+    "episode": {
+      "n": 36,
+      "main_fact_status": {
+        "incorrect": 28,
+        "not_answered": 7,
+        "partial": 1
+      },
+      "truncated": 2,
+      "correct_main_fact_with_confirmed_extra_errors": 0,
+      "correct_main_fact_with_unverified_extras": 0
+    },
+    "causal": {
+      "n": 8,
+      "main_fact_status": {
+        "incorrect": 6,
+        "not_answered": 1,
+        "partial": 1
+      },
+      "truncated": 2,
+      "correct_main_fact_with_confirmed_extra_errors": 0,
+      "correct_main_fact_with_unverified_extras": 0
+    },
+    "version_boundary": {
+      "n": 6,
+      "main_fact_status": {
+        "incorrect": 2,
+        "correct": 3,
+        "not_answered": 1
+      },
+      "truncated": 0,
+      "correct_main_fact_with_confirmed_extra_errors": 3,
+      "correct_main_fact_with_unverified_extras": 0
+    },
+    "control": {
+      "n": 12,
+      "main_fact_status": {
+        "correct": 8,
+        "partial": 1,
+        "incorrect": 2,
+        "ambiguous": 1
+      },
+      "truncated": 1,
+      "correct_main_fact_with_confirmed_extra_errors": 3,
+      "correct_main_fact_with_unverified_extras": 0
+    },
+    "narration": {
+      "n": 2,
+      "main_fact_status": {
+        "incorrect": 2
+      },
+      "truncated": 0,
+      "correct_main_fact_with_confirmed_extra_errors": 0,
+      "correct_main_fact_with_unverified_extras": 0
+    }
+  },
+  "status_counts": {
+    "correct": 14,
+    "incorrect": 56,
+    "not_answered": 12,
+    "partial": 5,
+    "ambiguous": 1
+  },
+  "tag_counts_overlapping": {
+    "author_biography": 3,
+    "invention": 53,
+    "author_character": 6,
+    "identity": 26,
+    "material": 8,
+    "causality": 16,
+    "question_understanding": 8,
+    "repetition": 5,
+    "attribute": 5,
+    "relation": 22,
+    "transformation": 7,
+    "event": 14,
+    "quantity": 1,
+    "place": 5,
+    "negation": 3,
+    "object": 2,
+    "chronology": 4,
+    "title": 1,
+    "external_fact": 5,
+    "profession": 1,
+    "general_relation": 1,
+    "contradiction": 1,
+    "general_fact": 4,
+    "whole_story": 2
+  },
+  "truncated": 6,
+  "n": 88
+}

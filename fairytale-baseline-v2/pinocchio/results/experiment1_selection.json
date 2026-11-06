@@ -1,0 +1,26 @@
+{
+  "utc": "2026-11-05T18:59:20.375300+00:00",
+  "selected_candidate": "late_native_recovery",
+  "criterion": "Prefer the previously established reference over the newest candidate when the latest common fresh-at-generation development comparison shows both more strict target successes and more correct controls. Preserve every competing patch; do not claim a global optimum over untested variants.",
+  "comparison": {
+    "reference_targets": 11,
+    "newest_targets": 9,
+    "reference_controls": 10,
+    "newest_controls": 7
+  },
+  "original_correct_controls_retained": {
+    "reference": 7,
+    "newest": 6,
+    "original": 8
+  },
+  "development_selection_limit": "The sixth set was fresh at generation but is now used for final checkpoint selection. It is not an untouched final test.",
+  "reference_basis_sha256": "910bc6c673e5f2203cd770681da7db2f13aad5b3f3972be065b13becabad32d7",
+  "review_sha256": "5ad2c752eae7101797558fe3cd86598ba52941c76a9efe0ad256d301913a3d0d",
+  "code_sha256": "1e56186e2bdb7e4bf3548c392eb4da1c28dba259f94d40281727c2c5332bba8f",
+  "reserved_final_test_run": false,
+  "reserved_final_test_obstacle": "Four reserved control formulations were exposed earlier; documented in results/final_protocol_exposure_20261105.json. The prerequisite of an intact reserved evaluation is not satisfied. No final responses are invented or generated.",
+  "future_pinocchio_optimization": false,
+  "training": false,
+  "gradients": false,
+  "optimizer": false
+}

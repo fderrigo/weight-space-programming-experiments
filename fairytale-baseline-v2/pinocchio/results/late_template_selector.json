@@ -1,0 +1,200 @@
+{
+  "spec": {
+    "utc": "2026-11-05T07:56:57.757478+00:00",
+    "decision_by": "Codex",
+    "hypothesis": "Last-block attention may implement the24-prototype winner without passing new class coordinates through another attention layer. This is a feasibility simulation, not an applied patch or answer result.",
+    "addresses": "All24 unchanged template-prefix positions, in chronological order; first12 factual prototypes then12 compact outside prototypes. No slot or prototype search.",
+    "memory_formula": "C^-1 S^T (S C^-1 S^T)^-1 Y; C from all nonprefix inputs of the earlier factual plus native histories, regularized by .01 mean diagonal. Key targets are twelve semantic prototype coordinates and flag1; value targets are twelve factual one-hot coordinates with outside zero.",
+    "query_formula": "Twelve linear carried semantic coordinates, scaled by median first-fit norm and temperature64, plus constant flag bias8192; low-frequency axes51..63. Keep other key coordinates from the exact progress parent.",
+    "value_group_rule": "For each KV group sum its13 lowest measured individual coordinate contribution costs; select the lower sum. Choose the least-cost13 coordinates in that group,12 class values then one constant reference.",
+    "query_head_rule": "Within that group select the query head with smallest mean squared native O-head contribution on196 earlier factual plus4405 native positions.",
+    "future_shared_query_rule": "Suppress both rotary partners of replaced key axes in the other six sharing heads; merely zeroing one half does not suppress coupling after different-position rotation.",
+    "class_temperature": 64.0,
+    "prefix_flag_logit_scale": 1024.0,
+    "rotary_axes": [
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63
+    ],
+    "rope_theta": 1000000.0,
+    "native_regularization_fraction": 0.01,
+    "training": false,
+    "gradients": false,
+    "optimizer": false,
+    "parameter_search": false,
+    "template_unchanged": true,
+    "new_model_weights_applied": false,
+    "free_generation_performed": false,
+    "counts_as_correction": false,
+    "third_set_used": false,
+    "final_set_read": false,
+    "source_sha256": "e2b9e37ca91ad76ad92f50771d714763dd141793590c97a8689e6781cbff6e83",
+    "prototypes_sha256": "1693dc600ac5e9c2326d2d61c10c5ace28af89848220e09459c4c61ca2e0b3d9",
+    "code_sha256": "d6c8a7d88db9113a06458c8daf57b7f381440284023f101ec4cfb4c9db2e0499"
+  },
+  "labels_by_prefix_position": [
+    "creator",
+    "deceivers",
+    "donkey",
+    "ending",
+    "fairy",
+    "fish_father",
+    "friend",
+    "material",
+    "nose",
+    "puppeteer",
+    "rescuer",
+    "wood_donor",
+    "outside",
+    "outside",
+    "outside",
+    "outside",
+    "outside",
+    "outside",
+    "outside",
+    "outside",
+    "outside",
+    "outside",
+    "outside",
+    "outside"
+  ],
+  "query_head": 13,
+  "key_value_head": 1,
+  "value_coordinates_within_group": [
+    61,
+    57,
+    47,
+    40,
+    27,
+    25,
+    41,
+    63,
+    56,
+    24,
+    34,
+    15,
+    29
+  ],
+  "group_coordinate_cost_sums": [
+    12.616460074129009,
+    2.3911207425133476
+  ],
+  "query_head_costs_within_group": [
+    6.9711503982543945,
+    5.284698963165283,
+    4.421014308929443,
+    10.572912216186523,
+    6.594473361968994,
+    4.592158794403076,
+    4.152778625488281
+  ],
+  "prefix_interpolation_max_error_f32": 4.76837158203125e-07,
+  "nonprefix_keys": 11325,
+  "native_flag_max": 0.5659339427947998,
+  "native_flag_p99": 0.12969036400318146,
+  "comparisons": [
+    {
+      "representation": "raw_prototype_winner",
+      "split": "fit",
+      "states": 196,
+      "questions": 50,
+      "relation_correct": 196,
+      "first_relation_correct": 50,
+      "all_steps_relation_correct": 50
+    },
+    {
+      "representation": "raw_prototype_winner",
+      "split": "probe_observed",
+      "states": 92,
+      "questions": 24,
+      "relation_correct": 76,
+      "first_relation_correct": 20,
+      "all_steps_relation_correct": 18
+    },
+    {
+      "representation": "rotated_prefix_winner",
+      "split": "fit",
+      "states": 196,
+      "questions": 50,
+      "relation_correct": 196,
+      "first_relation_correct": 50,
+      "all_steps_relation_correct": 50
+    },
+    {
+      "representation": "rotated_prefix_winner",
+      "split": "probe_observed",
+      "states": 92,
+      "questions": 24,
+      "relation_correct": 75,
+      "first_relation_correct": 20,
+      "all_steps_relation_correct": 18
+    },
+    {
+      "representation": "aggregated_class_values",
+      "split": "fit",
+      "states": 196,
+      "questions": 50,
+      "relation_correct": 196,
+      "first_relation_correct": 50,
+      "all_steps_relation_correct": 50
+    },
+    {
+      "representation": "aggregated_class_values",
+      "split": "probe_observed",
+      "states": 92,
+      "questions": 24,
+      "relation_correct": 75,
+      "first_relation_correct": 20,
+      "all_steps_relation_correct": 18
+    }
+  ],
+  "groups": {
+    "external": {
+      "states": 3130,
+      "prefix_mass_min": 0.9999997615814209,
+      "prefix_mass_below_99_percent": 0,
+      "classified_outside": 2911
+    },
+    "factual": {
+      "states": 288,
+      "prefix_mass_min": 0.9999997615814209,
+      "prefix_mass_below_99_percent": 0,
+      "classified_outside": 3
+    },
+    "minimal_native": {
+      "states": 411,
+      "prefix_mass_min": 0.9999997615814209,
+      "prefix_mass_below_99_percent": 0,
+      "classified_outside": 18
+    },
+    "narrative": {
+      "states": 472,
+      "prefix_mass_min": 0.9999998211860657,
+      "prefix_mass_below_99_percent": 0,
+      "classified_outside": 67
+    },
+    "native_unit": {
+      "states": 392,
+      "prefix_mass_min": 0.9999998807907104,
+      "prefix_mass_below_99_percent": 0,
+      "classified_outside": 0
+    },
+    "outside_prototype": {
+      "states": 14,
+      "prefix_mass_min": 0.9999999403953552,
+      "prefix_mass_below_99_percent": 0,
+      "classified_outside": 14
+    }
+  },
+  "selector_sha256": "b595c9b3e061b09e0c51a49d4b55be0c4b570f3ce02da65a3fa85ebb9aa744f1"
+}

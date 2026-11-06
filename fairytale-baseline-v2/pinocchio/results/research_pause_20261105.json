@@ -1,0 +1,28 @@
+{
+  "utc": "2026-11-05T16:58:45.619019+00:00",
+  "status": "paused at explicit user request; objective incomplete",
+  "activity": "Review and archive existing evidence only; no new forward, generation or weight construction.",
+  "latest_candidate": "native_name_memory",
+  "latest_candidate_rejected": true,
+  "multi_set_reference": "late_native_recovery",
+  "exported_attempt": 6,
+  "review_sha256": "7fdf35ddd077bdd0fbe0d422575ea1957e177596fb9718508d57f17f109f59c3",
+  "inventory_sha256": "fb8691ee5d352a15b5f44d2bd651dd9eeea80dca8d2a948bd4dab19bf178f089",
+  "verified_sha256": {
+    "results/native_name_memory_screen.json": "777e4b0740d1d5a598440aa3d4547b53f593be620b5a27fec9fe710e0db2e570",
+    "results/attention_gain_screen.json": "640baf45a5bf24050a356d0f74aa6e1d181d1e957d185ad4c75dd7fb03defd7b",
+    "patches/native_name_memory_basis.safetensors": "e277d09bccc14842096ce27caf1ef68b448ca4b35320979eecb861a4c647ef75",
+    "patches/native_name_memory_spec.json": "b63237072382ed49b38166a0ca60af7c2b26e3db44439c7687baf4eb06a339d4",
+    "results/native_name_memory_diagnostic.json": "e5d76358cc6a7d36dbd976fae83be53c5b6885391a5314a83856a96bee5c5170",
+    "write_native_name_memory.py": "2eaa7835ea38937ec378dbe56b5591eb9c79c6e2cd58a1644191c912dcdf22ac",
+    "native_name_memory_helpers.py": "cc39d2b809443a427f92fcb599561ef4a5328846ea0fb272b8858064ef18dc72",
+    "resume_native_name_memory_screen.py": "a1c36f746ff8024137c4716f5346b42a1f49ff88b238a884c9f9186b32b043c1",
+    "results/native_name_memory_screen_partial_16.json": "4bada43a5f85cd85bebf9a9868df82a49a1e1992c323c72732e8ad3344536d42",
+    "results/native_name_memory_screen_manifest_interrupted.json": "8b19f82dd2d580b840564777d533923246144974e4a12c189a363ee4a475ca6d",
+    "../../little-red-weightspace/models/original/model.safetensors": "fdf756fa7fcbe7404d5c60e26bff1a0c8b8aa1f72ced49e7dd0210fe288fb7fe",
+    "models/corrected/model.safetensors": "5c6c3dfe40b260018645c7db7188f1584d898d532e2c3c61dc64eb8cf6735520",
+    "patches/late_native_recovery_basis.safetensors": "910bc6c673e5f2203cd770681da7db2f13aad5b3f3972be065b13becabad32d7"
+  },
+  "assessment": "Evidence supports possible further targeted factual repairs, not a prediction of coherent narrative recovery. Pause open-ended editing; the untested prefix-only diagnostic is not executed.",
+  "reserved_questionnaire_or_sources_opened_in_this_review": false
+}

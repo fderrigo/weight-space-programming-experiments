@@ -1,0 +1,20 @@
+{
+  "utc": "2026-11-04T21:42:10.733663+00:00",
+  "decision_by": "Codex",
+  "tensor": "model.layers.22.mlp.down_proj.weight",
+  "reason": "The forward-only probe preserved the intended first-ranked token in 17/18 cases at layer 22. Unlike the final MLP, layer 22 can also influence later-token attention memory. Test whether this improves complete responses.",
+  "value_source": "multipoint_protected_basis.safetensors: explicitly constructed short factual readout directions",
+  "gain": 1.25,
+  "gain_reason": "A 25% margin anticipates attenuation in the remaining block; the creator first fragment remained rank 2 at gain 1. Fixed before screening.",
+  "formula": "Q=first min(3000,numerical_rank(C)) right singular vectors of native preservation states; Z=K-KQQt; deltaW=1.25*Vt*pinv(Z)t",
+  "protection_rank_cap": 3000,
+  "protection_rtol": 1e-06,
+  "pinv_rtol": 0.001,
+  "protection": "Distinct original prompt and native continuation states, excluding exact positive token histories. Cap leaves at least 1864 MLP directions for 694 factual constraints.",
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "runtime_hooks_in_evaluation": false,
+  "final_set_used": false,
+  "precision": "Only the edited matrix retains float32 values; original numerical weights otherwise unchanged."
+}

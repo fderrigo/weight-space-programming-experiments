@@ -1,0 +1,131 @@
+{
+  "rows": [
+    {
+      "id": "qual_target_00",
+      "counterfactual_prefix_appended": "<tool_call>",
+      "native_continuation": "\n<|endoftext|>",
+      "guard_states": 2,
+      "diagnostic_only": true,
+      "counts_as_tool_call_success": false,
+      "weights_modified": false
+    },
+    {
+      "id": "qual_target_01",
+      "counterfactual_prefix_appended": "<tool_call>",
+      "native_continuation": "\n<|endoftext|>",
+      "guard_states": 2,
+      "diagnostic_only": true,
+      "counts_as_tool_call_success": false,
+      "weights_modified": false
+    },
+    {
+      "id": "qual_target_02",
+      "counterfactual_prefix_appended": "<tool_call>",
+      "native_continuation": "\n<|endoftext|>",
+      "guard_states": 2,
+      "diagnostic_only": true,
+      "counts_as_tool_call_success": false,
+      "weights_modified": false
+    },
+    {
+      "id": "qual_target_03",
+      "counterfactual_prefix_appended": "<tool_call>",
+      "native_continuation": "\n<|endoftext|>",
+      "guard_states": 2,
+      "diagnostic_only": true,
+      "counts_as_tool_call_success": false,
+      "weights_modified": false
+    },
+    {
+      "id": "qual_target_04",
+      "counterfactual_prefix_appended": "<tool_call>",
+      "native_continuation": "\n<|endoftext|>",
+      "guard_states": 2,
+      "diagnostic_only": true,
+      "counts_as_tool_call_success": false,
+      "weights_modified": false
+    },
+    {
+      "id": "qual_target_05",
+      "counterfactual_prefix_appended": "<tool_call>",
+      "native_continuation": "\n{\"name\": \"hello_world\", \"arguments\": {}}\n</tool_call><|im_end|>",
+      "guard_states": 15,
+      "diagnostic_only": true,
+      "counts_as_tool_call_success": false,
+      "weights_modified": false
+    },
+    {
+      "id": "dev_target_00",
+      "counterfactual_prefix_appended": "<tool_call>",
+      "native_continuation": "\n<|endoftext|>",
+      "guard_states": 2,
+      "diagnostic_only": true,
+      "counts_as_tool_call_success": false,
+      "weights_modified": false
+    },
+    {
+      "id": "dev_target_01",
+      "counterfactual_prefix_appended": "<tool_call>",
+      "native_continuation": "\n<|endoftext|>",
+      "guard_states": 2,
+      "diagnostic_only": true,
+      "counts_as_tool_call_success": false,
+      "weights_modified": false
+    },
+    {
+      "id": "dev_target_03",
+      "counterfactual_prefix_appended": "<tool_call>",
+      "native_continuation": "\n<|endoftext|>",
+      "guard_states": 2,
+      "diagnostic_only": true,
+      "counts_as_tool_call_success": false,
+      "weights_modified": false
+    },
+    {
+      "id": "dev_target_04",
+      "counterfactual_prefix_appended": "<tool_call>",
+      "native_continuation": "\n<|endoftext|>",
+      "guard_states": 2,
+      "diagnostic_only": true,
+      "counts_as_tool_call_success": false,
+      "weights_modified": false
+    },
+    {
+      "id": "dev_target_05",
+      "counterfactual_prefix_appended": "<tool_call>",
+      "native_continuation": "\n<|endoftext|>",
+      "guard_states": 2,
+      "diagnostic_only": true,
+      "counts_as_tool_call_success": false,
+      "weights_modified": false
+    },
+    {
+      "id": "dev_target_08",
+      "counterfactual_prefix_appended": "<tool_call>",
+      "native_continuation": "\n<|endoftext|>",
+      "guard_states": 2,
+      "diagnostic_only": true,
+      "counts_as_tool_call_success": false,
+      "weights_modified": false
+    },
+    {
+      "id": "dev_target_09",
+      "counterfactual_prefix_appended": "<tool_call>",
+      "native_continuation": "\n<|endoftext|>",
+      "guard_states": 2,
+      "diagnostic_only": true,
+      "counts_as_tool_call_success": false,
+      "weights_modified": false
+    },
+    {
+      "id": "dev_target_multiturn",
+      "counterfactual_prefix_appended": "<tool_call>",
+      "native_continuation": "\n<|endoftext|>",
+      "guard_states": 2,
+      "diagnostic_only": true,
+      "counts_as_tool_call_success": false,
+      "weights_modified": false
+    }
+  ],
+  "sha256": "e6713f67d438e435dd00c26771e9d2c82f4026643052324c3ed402b04b2922c5"
+}

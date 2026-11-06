@@ -1,0 +1,386 @@
+{
+  "case": "second_fairy_0",
+  "conditions": [
+    {
+      "condition": "original",
+      "positions": [
+        {
+          "last_token": 461,
+          "prefix_ends_with": "assistant\nAzzurri",
+          "reference_next_token": 13,
+          "reference_rank": 1,
+          "top_tokens": [
+            {
+              "id": 13,
+              "piece": ".",
+              "logit": 12.267586708068848
+            },
+            {
+              "id": 384,
+              "piece": " e",
+              "logit": 11.44636344909668
+            },
+            {
+              "id": 11,
+              "piece": ",",
+              "logit": 10.157151222229004
+            },
+            {
+              "id": 151645,
+              "piece": "<|im_end|>",
+              "logit": 9.620430946350098
+            },
+            {
+              "id": 0,
+              "piece": "!",
+              "logit": 9.218198776245117
+            }
+          ]
+        },
+        {
+          "last_token": 13,
+          "prefix_ends_with": "\nAzzurri.",
+          "reference_next_token": 151645,
+          "reference_rank": 1,
+          "top_tokens": [
+            {
+              "id": 151645,
+              "piece": "<|im_end|>",
+              "logit": 12.522555351257324
+            },
+            {
+              "id": 758,
+              "piece": " In",
+              "logit": 10.692012786865234
+            },
+            {
+              "id": 4929,
+              "piece": " La",
+              "logit": 10.49708366394043
+            },
+            {
+              "id": 7543,
+              "piece": " Il",
+              "logit": 10.440814971923828
+            },
+            {
+              "id": 1967,
+              "piece": " Le",
+              "logit": 9.752660751342773
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "condition": "parent",
+      "positions": [
+        {
+          "last_token": 461,
+          "prefix_ends_with": "assistant\nAzzurri",
+          "reference_next_token": 13,
+          "reference_rank": 2,
+          "top_tokens": [
+            {
+              "id": 271,
+              "piece": "\n\n",
+              "logit": 14.50802993774414
+            },
+            {
+              "id": 13,
+              "piece": ".",
+              "logit": 13.155054092407227
+            },
+            {
+              "id": 384,
+              "piece": " e",
+              "logit": 11.54599380493164
+            },
+            {
+              "id": 198,
+              "piece": "\n",
+              "logit": 10.688936233520508
+            },
+            {
+              "id": 382,
+              "piece": ".\n\n",
+              "logit": 9.981025695800781
+            }
+          ]
+        },
+        {
+          "last_token": 13,
+          "prefix_ends_with": "\nAzzurri.",
+          "reference_next_token": 151645,
+          "reference_rank": 1,
+          "top_tokens": [
+            {
+              "id": 151645,
+              "piece": "<|im_end|>",
+              "logit": 11.036321640014648
+            },
+            {
+              "id": 7543,
+              "piece": " Il",
+              "logit": 10.754951477050781
+            },
+            {
+              "id": 758,
+              "piece": " In",
+              "logit": 10.394332885742188
+            },
+            {
+              "id": 1967,
+              "piece": " Le",
+              "logit": 10.308296203613281
+            },
+            {
+              "id": 17471,
+              "piece": " Pin",
+              "logit": 10.209059715270996
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "condition": "parent_plus_cells",
+      "positions": [
+        {
+          "last_token": 461,
+          "prefix_ends_with": "assistant\nAzzurri",
+          "reference_next_token": 13,
+          "reference_rank": 2,
+          "top_tokens": [
+            {
+              "id": 271,
+              "piece": "\n\n",
+              "logit": 14.495527267456055
+            },
+            {
+              "id": 13,
+              "piece": ".",
+              "logit": 13.149832725524902
+            },
+            {
+              "id": 384,
+              "piece": " e",
+              "logit": 11.535350799560547
+            },
+            {
+              "id": 198,
+              "piece": "\n",
+              "logit": 10.675533294677734
+            },
+            {
+              "id": 382,
+              "piece": ".\n\n",
+              "logit": 10.000856399536133
+            }
+          ]
+        },
+        {
+          "last_token": 13,
+          "prefix_ends_with": "\nAzzurri.",
+          "reference_next_token": 151645,
+          "reference_rank": 2,
+          "top_tokens": [
+            {
+              "id": 7543,
+              "piece": " Il",
+              "logit": 11.05650806427002
+            },
+            {
+              "id": 151645,
+              "piece": "<|im_end|>",
+              "logit": 10.965657234191895
+            },
+            {
+              "id": 362,
+              "piece": " A",
+              "logit": 10.687175750732422
+            },
+            {
+              "id": 758,
+              "piece": " In",
+              "logit": 10.657548904418945
+            },
+            {
+              "id": 17471,
+              "piece": " Pin",
+              "logit": 10.27635383605957
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "condition": "parent_plus_dense",
+      "positions": [
+        {
+          "last_token": 461,
+          "prefix_ends_with": "assistant\nAzzurri",
+          "reference_next_token": 13,
+          "reference_rank": 2,
+          "top_tokens": [
+            {
+              "id": 271,
+              "piece": "\n\n",
+              "logit": 14.291169166564941
+            },
+            {
+              "id": 13,
+              "piece": ".",
+              "logit": 13.089402198791504
+            },
+            {
+              "id": 384,
+              "piece": " e",
+              "logit": 11.261813163757324
+            },
+            {
+              "id": 198,
+              "piece": "\n",
+              "logit": 11.087235450744629
+            },
+            {
+              "id": 11,
+              "piece": ",",
+              "logit": 9.937398910522461
+            }
+          ]
+        },
+        {
+          "last_token": 13,
+          "prefix_ends_with": "\nAzzurri.",
+          "reference_next_token": 151645,
+          "reference_rank": 1,
+          "top_tokens": [
+            {
+              "id": 151645,
+              "piece": "<|im_end|>",
+              "logit": 12.517853736877441
+            },
+            {
+              "id": 7543,
+              "piece": " Il",
+              "logit": 10.658702850341797
+            },
+            {
+              "id": 758,
+              "piece": " In",
+              "logit": 10.504619598388672
+            },
+            {
+              "id": 1967,
+              "piece": " Le",
+              "logit": 10.424540519714355
+            },
+            {
+              "id": 4929,
+              "piece": " La",
+              "logit": 10.32370376586914
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "condition": "complete_patch",
+      "positions": [
+        {
+          "last_token": 461,
+          "prefix_ends_with": "assistant\nAzzurri",
+          "reference_next_token": 13,
+          "reference_rank": 2,
+          "top_tokens": [
+            {
+              "id": 271,
+              "piece": "\n\n",
+              "logit": 14.280143737792969
+            },
+            {
+              "id": 13,
+              "piece": ".",
+              "logit": 13.085304260253906
+            },
+            {
+              "id": 384,
+              "piece": " e",
+              "logit": 11.252357482910156
+            },
+            {
+              "id": 198,
+              "piece": "\n",
+              "logit": 11.075100898742676
+            },
+            {
+              "id": 11,
+              "piece": ",",
+              "logit": 9.934597969055176
+            }
+          ]
+        },
+        {
+          "last_token": 13,
+          "prefix_ends_with": "\nAzzurri.",
+          "reference_next_token": 151645,
+          "reference_rank": 1,
+          "top_tokens": [
+            {
+              "id": 151645,
+              "piece": "<|im_end|>",
+              "logit": 12.485830307006836
+            },
+            {
+              "id": 7543,
+              "piece": " Il",
+              "logit": 10.97097396850586
+            },
+            {
+              "id": 758,
+              "piece": " In",
+              "logit": 10.78074836730957
+            },
+            {
+              "id": 4929,
+              "piece": " La",
+              "logit": 10.48188591003418
+            },
+            {
+              "id": 362,
+              "piece": " A",
+              "logit": 10.339930534362793
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "original_selected_output_norm": [
+    1.0580573081970215,
+    0.8437935709953308
+  ],
+  "new_cell_output_norm": [
+    0.24461261928081512,
+    6.480103969573975
+  ],
+  "remaining_dense_change_norm": [
+    9.460357666015625,
+    13.074219703674316
+  ],
+  "parent_change_norm": [
+    18.879308700561523,
+    17.334169387817383
+  ],
+  "first_position_matches_actual_generated_prefix_and_next_token": true,
+  "second_position_counterfactual_native_period_prefix": true,
+  "basis_sha256": "854fb35bc4ca50a8c1525977b5284b1f5971d29266c9522b0afa88c4fda9fe72",
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "weights_modified": false,
+  "EOS_programmed": false,
+  "final_set_read": false,
+  "interpretation": "This diagnostic measures the native continuation that was lost. It does not prescribe punctuation or EOS, and does not attribute the full repeated sequence to one position alone."
+}

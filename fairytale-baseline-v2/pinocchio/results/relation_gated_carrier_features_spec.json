@@ -1,0 +1,15 @@
+{
+  "utc": "2026-11-05T04:51:01.677761+00:00",
+  "decision_by": "Codex",
+  "decision": "Swap the native SwiGLU factors: bounded nonlinear relation confidence multiplied by linear preceding-token identity. Fixed relation ramp from 0.5 to 0.75 of the class-center response; steepness 640. No threshold search.",
+  "reason": "The preceding progress-gated candidate propagated concept writes to unrelated questions. Test whether a nonlinear relation gate suppresses this before any output compensation.",
+  "diagnostic_only": true,
+  "model_weights_modified": false,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "third_set_used": false,
+  "final_set_read": false,
+  "code_sha256": "602176c81f31eb2a03e799b82034664f77f99829c4acc1f5946298bfe5924646",
+  "feature_code_sha256": "1baa153eb4000a30e5698d9279ad6f2e030d6a00c31a895e5575c7d0cf9d8e04"
+}

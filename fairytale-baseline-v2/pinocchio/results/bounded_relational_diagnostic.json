@@ -1,0 +1,534 @@
+{
+  "keys": [
+    {
+      "key": 0,
+      "fact": "creator",
+      "piece": " Ge",
+      "min_target_score": 1.1692069154904106,
+      "max_non_target_score": 0.6490783551583719,
+      "separation": 0.5201285603320387,
+      "target_anchor_range": [
+        0.8445592327910112,
+        0.8525441736043439
+      ],
+      "applied": true,
+      "units": [
+        2828,
+        4547
+      ],
+      "threshold": 0.7791104952413815,
+      "width": 0.26006428016601935,
+      "beta_actual": 46.14243829386897
+    },
+    {
+      "key": 1,
+      "fact": "creator",
+      "piece": " Ge",
+      "min_target_score": 0.7507794809411393,
+      "max_non_target_score": 1.0184317068779307,
+      "separation": -0.2676522259367914,
+      "target_anchor_range": [
+        0.9086125721626922,
+        1.1103715092046558
+      ],
+      "applied": false,
+      "reason": "No verified separation, invalid anchor, or zero requested change"
+    },
+    {
+      "key": 2,
+      "fact": "creator",
+      "piece": " Ge",
+      "min_target_score": 0.9352457521869062,
+      "max_non_target_score": 0.4900692230856939,
+      "separation": 0.4451765291012123,
+      "target_anchor_range": [
+        0.927812918011719,
+        0.938728558874001
+      ],
+      "applied": true,
+      "units": [
+        4257,
+        271
+      ],
+      "threshold": 0.6013633553609969,
+      "width": 0.22258826455060615,
+      "beta_actual": 53.911197988031226
+    },
+    {
+      "key": 3,
+      "fact": "creator",
+      "piece": " Ge",
+      "min_target_score": 1.1394199877914357,
+      "max_non_target_score": 0.43285145319106444,
+      "separation": 0.7065685346003713,
+      "target_anchor_range": [
+        0.8467834348715927,
+        0.8666427142974
+      ],
+      "applied": true,
+      "units": [
+        2032,
+        1677
+      ],
+      "threshold": 0.6094935868411573,
+      "width": 0.35328426730018564,
+      "beta_actual": 33.96698101419727
+    },
+    {
+      "key": 4,
+      "fact": "creator",
+      "piece": " Ge",
+      "min_target_score": 0.9248462502207339,
+      "max_non_target_score": 0.4317587101402161,
+      "separation": 0.49308754008051775,
+      "target_anchor_range": [
+        1.0340797669060344,
+        1.0486563365873791
+      ],
+      "applied": true,
+      "units": [
+        3706,
+        848
+      ],
+      "threshold": 0.5550305951603456,
+      "width": 0.24654377004025887,
+      "beta_actual": 48.67289892598172
+    },
+    {
+      "key": 5,
+      "fact": "creator",
+      "piece": " Ge",
+      "min_target_score": 0.9932845434308284,
+      "max_non_target_score": 1.2850115383012937,
+      "separation": -0.2917269948704653,
+      "target_anchor_range": [
+        0.915858908538749,
+        1.0260537461740822
+      ],
+      "applied": false,
+      "reason": "No verified separation, invalid anchor, or zero requested change"
+    },
+    {
+      "key": 6,
+      "fact": "creator",
+      "piece": " Ge",
+      "min_target_score": 0.9703934357597211,
+      "max_non_target_score": 1.073392573617132,
+      "separation": -0.10299913785741077,
+      "target_anchor_range": [
+        0.967120531423731,
+        0.9974693945322244
+      ],
+      "applied": false,
+      "reason": "No verified separation, invalid anchor, or zero requested change"
+    },
+    {
+      "key": 7,
+      "fact": "creator",
+      "piece": "pp",
+      "min_target_score": 1.9596475286099049,
+      "max_non_target_score": 0.17761663859843269,
+      "separation": 1.7820308900114723,
+      "target_anchor_range": [
+        0.3757375392742946,
+        0.48270450981602064
+      ],
+      "applied": true,
+      "units": [
+        4482,
+        1486
+      ],
+      "threshold": 0.6231243611013008,
+      "width": 0.8910154450057362,
+      "beta_actual": 13.467780011291214
+    },
+    {
+      "key": 8,
+      "fact": "creator",
+      "piece": "etto",
+      "min_target_score": 2.3989483386501775,
+      "max_non_target_score": 0.2361991412893408,
+      "separation": 2.162749197360837,
+      "target_anchor_range": [
+        0.3866660464958608,
+        0.4151704800401224
+      ],
+      "applied": true,
+      "units": [
+        526,
+        2282
+      ],
+      "threshold": 0.77688644062955,
+      "width": 1.0813745986804184,
+      "beta_actual": 11.096987126055467
+    },
+    {
+      "key": 9,
+      "fact": "material",
+      "piece": " leg",
+      "min_target_score": 0.7439729646553904,
+      "max_non_target_score": 1.2315022422024458,
+      "separation": -0.48752927754705533,
+      "target_anchor_range": [
+        1.2159832850736327,
+        1.2527695843162814
+      ],
+      "applied": false,
+      "reason": "No verified separation, invalid anchor, or zero requested change"
+    },
+    {
+      "key": 10,
+      "fact": "material",
+      "piece": " leg",
+      "min_target_score": 0.7309444786337123,
+      "max_non_target_score": 1.1063596358168168,
+      "separation": -0.3754151571831046,
+      "target_anchor_range": [
+        1.1919013208457245,
+        1.2572624079868442
+      ],
+      "applied": false,
+      "reason": "No verified separation, invalid anchor, or zero requested change"
+    },
+    {
+      "key": 11,
+      "fact": "material",
+      "piece": " leg",
+      "min_target_score": 0.8119495200672042,
+      "max_non_target_score": 0.5214446137092876,
+      "separation": 0.2905049063579166,
+      "target_anchor_range": [
+        1.1672559544644745,
+        1.1974176827188483
+      ],
+      "applied": true,
+      "units": [
+        637,
+        4595
+      ],
+      "threshold": 0.5940708402987668,
+      "width": 0.1452524531789583,
+      "beta_actual": 82.61478369122895
+    },
+    {
+      "key": 12,
+      "fact": "material",
+      "piece": " leg",
+      "min_target_score": 0.8614431405387561,
+      "max_non_target_score": 0.5209774083096194,
+      "separation": 0.3404657322291368,
+      "target_anchor_range": [
+        1.1204096503499779,
+        1.1533791358214587
+      ],
+      "applied": true,
+      "units": [
+        549,
+        235
+      ],
+      "threshold": 0.6060938413669036,
+      "width": 0.1702328661145684,
+      "beta_actual": 70.49167574916986
+    },
+    {
+      "key": 13,
+      "fact": "material",
+      "piece": " leg",
+      "min_target_score": 0.9375873795344343,
+      "max_non_target_score": 0.5922309605842607,
+      "separation": 0.34535641895017355,
+      "target_anchor_range": [
+        0.9671424099471669,
+        0.9749690068264356
+      ],
+      "applied": true,
+      "units": [
+        3705,
+        687
+      ],
+      "threshold": 0.6785700653218041,
+      "width": 0.17267820947508677,
+      "beta_actual": 69.49342384588083
+    },
+    {
+      "key": 14,
+      "fact": "material",
+      "piece": "no",
+      "min_target_score": 1.7707177498507394,
+      "max_non_target_score": 0.6908578542413865,
+      "separation": 1.0798598956093528,
+      "target_anchor_range": [
+        0.4794008633963317,
+        0.5604021242668591
+      ],
+      "applied": true,
+      "units": [
+        994,
+        758
+      ],
+      "threshold": 0.9608228281437247,
+      "width": 0.5399299478046764,
+      "beta_actual": 22.22510540263843
+    },
+    {
+      "key": 15,
+      "fact": "fairy",
+      "piece": " a",
+      "min_target_score": 0.7029408461273534,
+      "max_non_target_score": 0.8027711164331276,
+      "separation": -0.09983027030577418,
+      "target_anchor_range": [
+        1.3251222395672504,
+        1.3510154814727366
+      ],
+      "applied": false,
+      "reason": "No verified separation, invalid anchor, or zero requested change"
+    },
+    {
+      "key": 16,
+      "fact": "fairy",
+      "piece": " a",
+      "min_target_score": 0.7226678413454772,
+      "max_non_target_score": 3.195644861230934,
+      "separation": -2.4729770198854566,
+      "target_anchor_range": [
+        1.3567691105011348,
+        1.373370705586621
+      ],
+      "applied": false,
+      "reason": "No verified separation, invalid anchor, or zero requested change"
+    },
+    {
+      "key": 17,
+      "fact": "fairy",
+      "piece": " a",
+      "min_target_score": 0.6899802089585966,
+      "max_non_target_score": 1.6869418989494298,
+      "separation": -0.9969616899908332,
+      "target_anchor_range": [
+        1.3367963102697422,
+        1.356449820440253
+      ],
+      "applied": false,
+      "reason": "No verified separation, invalid anchor, or zero requested change"
+    },
+    {
+      "key": 18,
+      "fact": "fairy",
+      "piece": " a",
+      "min_target_score": 0.7099082114333545,
+      "max_non_target_score": 2.2163295563624756,
+      "separation": -1.5064213449291213,
+      "target_anchor_range": [
+        1.3565283855210195,
+        1.3620449351269834
+      ],
+      "applied": false,
+      "reason": "No verified separation, invalid anchor, or zero requested change"
+    },
+    {
+      "key": 19,
+      "fact": "fairy",
+      "piece": " a",
+      "min_target_score": 0.746811850089329,
+      "max_non_target_score": 0.4980297915400023,
+      "separation": 0.24878205854932672,
+      "target_anchor_range": [
+        1.309755483891509,
+        1.3289150930026827
+      ],
+      "applied": true,
+      "units": [
+        936,
+        3494
+      ],
+      "threshold": 0.560225306177334,
+      "width": 0.12439102927466336,
+      "beta_actual": 96.46997914538701
+    },
+    {
+      "key": 20,
+      "fact": "fairy",
+      "piece": "zz",
+      "min_target_score": 0.3328019667524567,
+      "max_non_target_score": 0.8668066978697987,
+      "separation": -0.5340047311173419,
+      "target_anchor_range": [
+        0.9398127342871551,
+        1.2082079299870654
+      ],
+      "applied": false,
+      "reason": "No verified separation, invalid anchor, or zero requested change"
+    },
+    {
+      "key": 21,
+      "fact": "fairy",
+      "piece": "ur",
+      "min_target_score": 0.6874466181908012,
+      "max_non_target_score": 0.3534724600341487,
+      "separation": 0.3339741581566525,
+      "target_anchor_range": [
+        0.5748592865578603,
+        0.5997421236852902
+      ],
+      "applied": true,
+      "units": [
+        3299,
+        2376
+      ],
+      "threshold": 0.43696599957331184,
+      "width": 0.16698707907832624,
+      "beta_actual": 71.86184743294618
+    },
+    {
+      "key": 22,
+      "fact": "fairy",
+      "piece": "ri",
+      "min_target_score": 0.5582627178885808,
+      "max_non_target_score": 0.41144542739486656,
+      "separation": 0.14681729049371428,
+      "target_anchor_range": [
+        0.6496409454579658,
+        0.6735009425957295
+      ],
+      "applied": true,
+      "units": [
+        1327,
+        4194
+      ],
+      "threshold": 0.44814975001829516,
+      "width": 0.07340864524685714,
+      "beta_actual": 163.4684846675298
+    },
+    {
+      "key": 23,
+      "fact": "fairy_singular",
+      "piece": " a",
+      "min_target_score": 0.7529474716914804,
+      "max_non_target_score": 4.121235490292623,
+      "separation": -3.3682880186011426,
+      "target_anchor_range": [
+        1.2988752342901295,
+        1.33203348609286
+      ],
+      "applied": false,
+      "reason": "No verified separation, invalid anchor, or zero requested change"
+    },
+    {
+      "key": 24,
+      "fact": "fairy_singular",
+      "piece": " a",
+      "min_target_score": 0.6968467238711809,
+      "max_non_target_score": 1.250574891720084,
+      "separation": -0.5537281678489032,
+      "target_anchor_range": [
+        1.3109069074208803,
+        1.3340828084860508
+      ],
+      "applied": false,
+      "reason": "No verified separation, invalid anchor, or zero requested change"
+    },
+    {
+      "key": 25,
+      "fact": "fairy_singular",
+      "piece": " a",
+      "min_target_score": 0.6008214950212126,
+      "max_non_target_score": 4.198382367499214,
+      "separation": -3.597560872478001,
+      "target_anchor_range": [
+        1.288868768508211,
+        1.3292828641788952
+      ],
+      "applied": false,
+      "reason": "No verified separation, invalid anchor, or zero requested change"
+    },
+    {
+      "key": 26,
+      "fact": "fairy_singular",
+      "piece": "zz",
+      "min_target_score": 0.8983188061782003,
+      "max_non_target_score": 0.8946774540715847,
+      "separation": 0.0036413521066155363,
+      "target_anchor_range": [
+        0.9631480429092508,
+        0.9976020492904081
+      ],
+      "applied": false,
+      "reason": "No verified separation, invalid anchor, or zero requested change"
+    },
+    {
+      "key": 27,
+      "fact": "fairy_singular",
+      "piece": "ur",
+      "min_target_score": 1.6324775841354842,
+      "max_non_target_score": 1.0112615079771976,
+      "separation": 0.6212160761582866,
+      "target_anchor_range": [
+        0.5800234041051375,
+        0.5902254379093466
+      ],
+      "applied": true,
+      "units": [
+        4737,
+        1333
+      ],
+      "threshold": 1.1665655270167692,
+      "width": 0.3106080380791433,
+      "beta_actual": 38.63390037878668
+    },
+    {
+      "key": 28,
+      "fact": "fairy_singular",
+      "piece": "ro",
+      "min_target_score": 1.5037672103919077,
+      "max_non_target_score": 1.026051992572464,
+      "separation": 0.4777152178194437,
+      "target_anchor_range": [
+        0.6316272474717944,
+        0.6502450985714281
+      ],
+      "applied": false,
+      "reason": "No verified separation, invalid anchor, or zero requested change"
+    }
+  ],
+  "active_keys": 14,
+  "reassigned_neurons": 28,
+  "protected_rank": 256,
+  "negative_states": 1743,
+  "key_constraint_error": 1.9184653865522705e-13,
+  "condition_number": 67.2932373064143,
+  "control_anchor_range": [
+    -0.04233857962111937,
+    1.3398119648637827
+  ],
+  "quiet_unit_original_mean_contribution": [
+    0.038668349385261536,
+    0.0455033965408802,
+    0.050134457647800446,
+    0.05025574192404747,
+    0.05106561630964279,
+    0.05264929309487343,
+    0.05399804934859276,
+    0.05407242849469185,
+    0.05486740544438362,
+    0.05513012781739235,
+    0.05603208392858505,
+    0.05700637772679329,
+    0.05755176022648811,
+    0.05762849375605583,
+    0.05765238776803017,
+    0.05802985280752182,
+    0.05811961740255356,
+    0.0585370697081089,
+    0.05903131142258644,
+    0.05910080671310425,
+    0.05922148376703262,
+    0.06003255397081375,
+    0.06025104597210884,
+    0.06032204255461693,
+    0.061197277158498764,
+    0.06186966598033905,
+    0.062160272151231766,
+    0.0622359924018383
+  ]
+}

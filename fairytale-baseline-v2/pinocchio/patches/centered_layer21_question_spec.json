@@ -1,0 +1,42 @@
+{
+  "utc": "2026-11-05T02:58:35.186975+00:00",
+  "decision_by": "Codex",
+  "layer": 21,
+  "heads": [
+    6,
+    7
+  ],
+  "original_output_column_norms": [
+    6.750879764556885,
+    4.827995777130127,
+    4.748046398162842,
+    5.8650336265563965,
+    5.683697700500488,
+    5.188165187835693,
+    4.656553745269775,
+    4.6882147789001465,
+    4.84000825881958,
+    4.710743427276611,
+    5.190437316894531,
+    5.682779788970947,
+    5.452596187591553,
+    4.953291893005371
+  ],
+  "tensors": [
+    "model.layers.21.self_attn.q_proj.weight",
+    "model.layers.21.self_attn.q_proj.bias",
+    "model.layers.21.self_attn.o_proj.weight"
+  ],
+  "formula": "Set selected Q rows and biases to zero. B=original selected O columns; J=polar(B); mu=128-dimensional prototype prefix-value mean; P=I-mu*muT/||mu||^2. O_selected=scale*J*P, where scale matches the energy of centered native pre-MLP block-21 residuals on the 64 earlier prototypes.",
+  "reason": "Block-21 native prefix values identify 22/24 third relations while final MLP features identify 8/24. The earlier uniform-Q-only intervention did not transmit this information. Test a centered output map at block 21 with the same predetermined energy rule used previously at block 23.",
+  "head_selection": "Minimum original O-column norm within each KV group.",
+  "construction_uses_fact_labels": false,
+  "automatic_parameter_search": false,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "diagnostic_only": true,
+  "free_generation_performed": false,
+  "third_set_already_observed": true,
+  "final_set_read": false
+}

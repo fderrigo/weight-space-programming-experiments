@@ -1,0 +1,42 @@
+{
+  "utc": "2026-11-05T10:02:32.265151+00:00",
+  "decision_by": "Codex",
+  "hypothesis": "After successful local token correction, native role or body-part competition may remain. Trace the two new wrong continuations and a newly correct friend answer through every attention and MLP component.",
+  "data": "Exactly three recorded free responses from the frozen contrast candidate, including stop positions. Original and edited models receive the same histories for diagnostic comparison.",
+  "critical_points": [
+    {
+      "id": "third_nose_0",
+      "subtoken": 4,
+      "target": 17141,
+      "rival": 2098,
+      "target_text": " nas",
+      "rival_text": " vis",
+      "record_index": 4
+    },
+    {
+      "id": "third_puppeteer_1",
+      "subtoken": 26,
+      "target": 59048,
+      "rival": 57770,
+      "target_text": " Mang",
+      "rival_text": " Carlo",
+      "record_index": 38
+    }
+  ],
+  "conditions": [
+    "original",
+    "late_target_contrasts"
+  ],
+  "attribution": "Additive effective-decoder contrast, with actual repetition factors and final RMS. Record head and neuron contributions and verify their sum against the residual. Attribution is not a causal ablation.",
+  "source_sha256": "ac0f5fb873a4eeed9a0379097536ac8e7e9d2511797f41b7720b6d82e07e8cf7",
+  "basis_sha256": "082f969a6fd2a9d9eb894a19520938c38ee55eaaac308004a5a35cc60147ccf5",
+  "code_sha256": "35e85c97006b498b468abbc8d2be9d0f8088d01d7d41965e3886d4cd580372b8",
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "new_candidate_constructed": false,
+  "free_generation_performed": false,
+  "counts_as_correction": false,
+  "third_set_already_observed": true,
+  "final_set_read": false
+}

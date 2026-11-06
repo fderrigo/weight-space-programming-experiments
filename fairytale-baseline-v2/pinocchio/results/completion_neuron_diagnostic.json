@@ -1,0 +1,206 @@
+{
+  "weights_changed": false,
+  "purpose": "Test whether native MLP columns already distinguish completed factual phrases from every observed incomplete factual state; not a patch or an EOS rule.",
+  "neurons": [
+    {
+      "index": 2077,
+      "score": 0.216212660074234,
+      "period_weight": -0.09321635216474533,
+      "eos_weight": 0.007347332313656807,
+      "completed_period_median": 0.2971331477165222,
+      "incomplete_period_p95": 0.08092048764228821,
+      "incomplete_period_max": 0.28899285197257996,
+      "complete_control_period_mean": -0.04780416935682297
+    },
+    {
+      "index": 731,
+      "score": 0.024567626416683197,
+      "period_weight": 0.07942672818899155,
+      "eos_weight": -0.03367329016327858,
+      "completed_period_median": 0.10607150197029114,
+      "incomplete_period_p95": 0.08150387555360794,
+      "incomplete_period_max": 0.22733022272586823,
+      "complete_control_period_mean": 0.03169694170355797
+    },
+    {
+      "index": 2705,
+      "score": 0.02100325934588909,
+      "period_weight": -0.03906969726085663,
+      "eos_weight": -0.006910612341016531,
+      "completed_period_median": 0.021568141877651215,
+      "incomplete_period_p95": 0.0005648822989314795,
+      "incomplete_period_max": 0.09483742713928223,
+      "complete_control_period_mean": -0.03887290135025978
+    },
+    {
+      "index": 4394,
+      "score": 0.018887817859649658,
+      "period_weight": -0.12135308980941772,
+      "eos_weight": 0.0007707462646067142,
+      "completed_period_median": 0.19050611555576324,
+      "incomplete_period_p95": 0.1716182976961136,
+      "incomplete_period_max": 0.27679991722106934,
+      "complete_control_period_mean": -0.0356462225317955
+    },
+    {
+      "index": 3636,
+      "score": 0.010015906766057014,
+      "period_weight": 0.07465782016515732,
+      "eos_weight": -0.021077783778309822,
+      "completed_period_median": 0.028986889868974686,
+      "incomplete_period_p95": 0.01897098310291767,
+      "incomplete_period_max": 0.05717979371547699,
+      "complete_control_period_mean": -0.006163869984447956
+    },
+    {
+      "index": 3893,
+      "score": 0.00019486062228679657,
+      "period_weight": -0.024170614778995514,
+      "eos_weight": -0.03414501994848251,
+      "completed_period_median": 0.015748558565974236,
+      "incomplete_period_p95": 0.015553697943687439,
+      "incomplete_period_max": 0.040388863533735275,
+      "complete_control_period_mean": 0.011199438013136387
+    },
+    {
+      "index": 2519,
+      "score": -8.06909883976914e-06,
+      "period_weight": 2.9280781745910645e-05,
+      "eos_weight": -0.015357100404798985,
+      "completed_period_median": 1.0954468962154351e-05,
+      "incomplete_period_p95": 1.902356780192349e-05,
+      "incomplete_period_max": 2.4090608349069953e-05,
+      "complete_control_period_mean": -1.8059276953863446e-06
+    },
+    {
+      "index": 3599,
+      "score": -1.0437681339681149e-05,
+      "period_weight": 0.0006310644093900919,
+      "eos_weight": 0.0204709954559803,
+      "completed_period_median": 0.0008342667715623975,
+      "incomplete_period_p95": 0.0008447044529020786,
+      "incomplete_period_max": 0.0011642954777926207,
+      "complete_control_period_mean": 0.00021835816733073443
+    },
+    {
+      "index": 4036,
+      "score": -2.4978893634397537e-05,
+      "period_weight": -0.00011257687583565712,
+      "eos_weight": -0.006815792992711067,
+      "completed_period_median": 3.780608676606789e-05,
+      "incomplete_period_p95": 6.278498040046543e-05,
+      "incomplete_period_max": 8.8484950538259e-05,
+      "complete_control_period_mean": 6.334357749437913e-05
+    },
+    {
+      "index": 3585,
+      "score": -3.9901329728309065e-05,
+      "period_weight": 0.00012154411524534225,
+      "eos_weight": 0.030149497091770172,
+      "completed_period_median": -3.629791649473191e-07,
+      "incomplete_period_p95": 3.953835039283149e-05,
+      "incomplete_period_max": 0.0001540291850687936,
+      "complete_control_period_mean": -2.912734316851129e-06
+    },
+    {
+      "index": 1383,
+      "score": -4.085527325514704e-05,
+      "period_weight": -0.0001566550345160067,
+      "eos_weight": 0.02117353491485119,
+      "completed_period_median": 1.964850753211067e-06,
+      "incomplete_period_p95": 4.282012378098443e-05,
+      "incomplete_period_max": 0.00022696491214446723,
+      "complete_control_period_mean": 3.0911680369172245e-05
+    },
+    {
+      "index": 1795,
+      "score": -4.4609860196942464e-05,
+      "period_weight": 9.254063479602337e-05,
+      "eos_weight": 0.010034582577645779,
+      "completed_period_median": -1.4424273103941232e-05,
+      "incomplete_period_p95": 3.018558709300123e-05,
+      "incomplete_period_max": 0.0005013117333874106,
+      "complete_control_period_mean": -2.446107828291133e-05
+    },
+    {
+      "index": 1415,
+      "score": -4.6585242671426386e-05,
+      "period_weight": -0.0006234364118427038,
+      "eos_weight": -0.032266635447740555,
+      "completed_period_median": -1.936628541443497e-05,
+      "incomplete_period_p95": 2.7218957256991416e-05,
+      "incomplete_period_max": 0.000870916061103344,
+      "complete_control_period_mean": -1.1011736205546185e-05
+    },
+    {
+      "index": 3010,
+      "score": -4.735918628284708e-05,
+      "period_weight": 0.0002592308446764946,
+      "eos_weight": -0.005599199328571558,
+      "completed_period_median": 3.621630457928404e-05,
+      "incomplete_period_p95": 8.357549086213112e-05,
+      "incomplete_period_max": 0.00013488474360201508,
+      "complete_control_period_mean": 4.70744380436372e-05
+    },
+    {
+      "index": 2422,
+      "score": -5.067899473942816e-05,
+      "period_weight": -0.00010419613681733608,
+      "eos_weight": -0.029409874230623245,
+      "completed_period_median": -9.357821909361519e-06,
+      "incomplete_period_p95": 4.132117464905605e-05,
+      "incomplete_period_max": 0.00030753633473068476,
+      "complete_control_period_mean": 2.151234912162181e-05
+    },
+    {
+      "index": 3814,
+      "score": -5.206861169426702e-05,
+      "period_weight": -2.956809476017952e-05,
+      "eos_weight": 0.02437361516058445,
+      "completed_period_median": -5.855789595443639e-07,
+      "incomplete_period_p95": 5.1483031711541116e-05,
+      "incomplete_period_max": 8.515074296155944e-05,
+      "complete_control_period_mean": -4.084608917764854e-06
+    },
+    {
+      "index": 2727,
+      "score": -5.211590905673802e-05,
+      "period_weight": 3.9834470953792334e-05,
+      "eos_weight": 0.017049267888069153,
+      "completed_period_median": -9.400343259358124e-08,
+      "incomplete_period_p95": 5.2021907322341576e-05,
+      "incomplete_period_max": 0.0001929096906678751,
+      "complete_control_period_mean": 3.188895561834215e-06
+    },
+    {
+      "index": 514,
+      "score": -5.793443415313959e-05,
+      "period_weight": 0.00013051321730017662,
+      "eos_weight": -0.05145132541656494,
+      "completed_period_median": 7.683591320528649e-06,
+      "incomplete_period_p95": 6.561802729265764e-05,
+      "incomplete_period_max": 0.00017071749607566744,
+      "complete_control_period_mean": 3.5664117604028434e-05
+    },
+    {
+      "index": 2644,
+      "score": -6.580669287359342e-05,
+      "period_weight": 5.4580625146627426e-05,
+      "eos_weight": 0.03229416161775589,
+      "completed_period_median": -2.0500317987171002e-05,
+      "incomplete_period_p95": 4.5306373067433015e-05,
+      "incomplete_period_max": 7.252863724716008e-05,
+      "complete_control_period_mean": 4.929437636747025e-06
+    },
+    {
+      "index": 3945,
+      "score": -6.967771332710981e-05,
+      "period_weight": 0.00027494272217154503,
+      "eos_weight": 0.01872536912560463,
+      "completed_period_median": 4.228419857099652e-05,
+      "incomplete_period_p95": 0.00011196191189810634,
+      "incomplete_period_max": 0.0016949349083006382,
+      "complete_control_period_mean": 2.370659785810858e-05
+    }
+  ]
+}

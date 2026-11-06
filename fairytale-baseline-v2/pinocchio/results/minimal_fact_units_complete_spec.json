@@ -1,0 +1,21 @@
+{
+  "utc": "2026-11-05T02:12:54.528908+00:00",
+  "decision_by": "Codex",
+  "source_sha256": "d3572cd2d4c04e9cafe1b9eda1f604866da0d6a729fc48579ccda4ed86d400f7",
+  "reason": "Align the two length-truncated native continuations with the ordinary 128-token full-answer limit before preserving them in a weight edit.",
+  "max_full_answer_tokens": 128,
+  "repetition_penalty": 1.1,
+  "do_sample": false,
+  "extended_ids": [
+    "second_material_0",
+    "second_rescuer_1"
+  ],
+  "weights_changed": false,
+  "training": false,
+  "gradients": false,
+  "supplied_prefix_diagnostic_only": true,
+  "counts_as_correction": false,
+  "EOS_programmed": false,
+  "third_set_read": false,
+  "final_set_read": false
+}

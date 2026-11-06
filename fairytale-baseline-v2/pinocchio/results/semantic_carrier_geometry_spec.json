@@ -1,0 +1,17 @@
+{
+  "utc": "2026-11-05T03:18:05.779855+00:00",
+  "decision_by": "Codex",
+  "semantic_dimensions": 12,
+  "prototype_count": 64,
+  "semantic_basis": "Row space of the 13 normalized class centers after projecting prefix-value means orthogonally to their common mean; no learned classifier or parameter search.",
+  "carrier_basis": "Lowest-eigenvalue directions of native_residual_second_moment/trace + prototype_block21_input_second_moment/trace + effective_unembedding_second_moment/trace.",
+  "amplitude_rule": ".1*median(||prototype incoming residual||)/max(||prototype semantic coordinates||).",
+  "weights_changed": false,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "full_generation": false,
+  "counts_as_correction": false,
+  "third_questions_used": false,
+  "final_set_read": false
+}

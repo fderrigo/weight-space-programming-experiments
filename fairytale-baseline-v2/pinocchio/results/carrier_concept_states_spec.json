@@ -1,0 +1,31 @@
+{
+  "utc": "2026-11-05T03:48:38.336863+00:00",
+  "decision_by": "Codex",
+  "reason": "The protected carrier retains relation information but does not write facts. Inspect whether current-token and short-concept progress can be represented separately from the question relation, with the already recorded native continuations as negatives.",
+  "conditions": [
+    "original",
+    "protected"
+  ],
+  "factual_states": 288,
+  "preservation_states": 4405,
+  "sequences": 183,
+  "sources_sha256": {
+    "minimal_fact_states.json": "989cf7f625ec09dce1d9cc9051a46166f8bea94bd79f756a1f3c30f75a9f8a56",
+    "bounded_native_inputs.json": "499dd14df5f2a0fe289296badd786dba24fbb301735dbf84f5a6fe2a6166634c",
+    "extended_native_inputs.json": "3e9b0cded9122f5a717877975c9945090e0e736eec5c64671cf1d03382327779",
+    "minimal_fact_units_complete_states.json": "c0a5d8d1bde4d94321f6f07e783867e2df53678aafac93f1494d7d5763b573db"
+  },
+  "geometry_sha256": "a15be33fb859f7781c2c7dac404bb96c11f4b1295217045e986a8b857d4e4b8b",
+  "transform_code_sha256": "960f9f8b562c74e333e8ff032393d856550d814fb3483af81acf6c1692a647d4",
+  "collection_code_sha256": "32099e49734cd175fe2a7b1dca5ad6d1f5f012744fbdb2db03d885a40f55c291",
+  "original_checkpoint_sha256": "fdf756fa7fcbe7404d5c60e26bff1a0c8b8aa1f72ced49e7dd0210fe288fb7fe",
+  "diagnostic_only": true,
+  "supplied_incomplete_concepts_are_not_corrections": true,
+  "new_patch_fitted": false,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "third_set_used": false,
+  "final_set_read": false,
+  "free_generation_performed": false
+}

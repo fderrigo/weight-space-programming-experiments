@@ -1,0 +1,51 @@
+{
+  "utc": "2026-11-04T18:54:17.878058+00:00",
+  "decision_by": "Codex",
+  "layer": 23,
+  "tensor": "model.layers.23.mlp.down_proj.weight",
+  "decisions": {
+    "creator": {
+      "value": " Geppetto",
+      "prefixes": [
+        "Il burattino Pinocchio è stato creato da",
+        "Il falegname di Pinocchio è",
+        "Pinocchio viene costruito da",
+        "Il padre di Pinocchio si chiama",
+        "A costruire Pinocchio è"
+      ]
+    },
+    "material": {
+      "value": " legno",
+      "prefixes": [
+        "Inizialmente, la figura di Pinocchio era fatta di",
+        "Il corpo di Pinocchio è fatto di",
+        "Pinocchio è un burattino di",
+        "Il materiale di Pinocchio è il",
+        "Pinocchio viene intagliato nel"
+      ]
+    },
+    "fairy": {
+      "value": " azzurri",
+      "prefixes": [
+        "I capelli della Fata di Pinocchio sono",
+        "La Fata che aiuta Pinocchio ha i capelli",
+        "Nel romanzo di Pinocchio, la Fata ha capelli",
+        "La Fata ha i capelli",
+        "I capelli della Fata sono di colore"
+      ]
+    }
+  },
+  "margin_logit": 3.0,
+  "max_relative_residual_change": 0.08,
+  "protected_rank_cap": 256,
+  "dual_relative_singular_cutoff": 0.0001,
+  "gains": [
+    0.5,
+    1.0
+  ],
+  "rationale": "Previous prompt-end token boosts corrupted continuation and ignored multi-token names. Change factual relation completion states, including every subtoken of each short concept, using their measured output contrasts and all down-projection columns. Average keys across two questions and five grammatical contexts. Preserve dominant control activation subspace. No complete answer or termination token is programmed.",
+  "formula": "K=mean relation activations per concept/subtoken; Q=top protected right-singular vectors; Z=K-KQQt; D=pinv(Z); deltaW=Vt Dt. V=mean bounded RMS-scaled contrast against native top competitor.",
+  "training": false,
+  "gradients": false,
+  "heldout_used": false
+}

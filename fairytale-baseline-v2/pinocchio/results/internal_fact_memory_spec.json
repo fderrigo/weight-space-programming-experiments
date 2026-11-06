@@ -1,0 +1,34 @@
+{
+  "utc": "2026-11-04T21:30:07.212547+00:00",
+  "facts": [
+    "Il falegname che costruisce Pinocchio ed è suo padre si chiama Geppetto",
+    "Il materiale del corpo del burattino Pinocchio è soltanto legno",
+    "Quando Pinocchio dice bugie, il suo naso si allunga",
+    "La Fata di Pinocchio ha i capelli azzurri",
+    "I due truffatori che ingannano Pinocchio sono il Gatto e la Volpe",
+    "Nel Paese dei balocchi Pinocchio si trasforma in un asino",
+    "Alla fine della storia Pinocchio diventa un bambino vero",
+    "Il burattinaio del teatro visitato da Pinocchio si chiama Mangiafoco",
+    "Il compagno che parte con Pinocchio per il Paese dei balocchi è Lucignolo",
+    "Il falegname che dona a Geppetto il legno di Pinocchio è Maestro Ciliegia",
+    "Il cane che salva Pinocchio dal pescatore si chiama Alidoro",
+    "La persona che Pinocchio ritrova nel Pesce-cane è suo padre Geppetto"
+  ],
+  "positions": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "raw_pre_rope_kv": true,
+  "purpose": "Diagnostic only, no persistent weights or scored success",
+  "warning": "Static memory in shared system positions may contaminate unrelated questions; any weight implementation must demonstrate locality."
+}

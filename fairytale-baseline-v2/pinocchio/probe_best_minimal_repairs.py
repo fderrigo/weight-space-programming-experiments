@@ -1,0 +1,125 @@
+"""Qualify minimal concepts on six remaining errors before any direct write."""
+import datetime
+import json
+from pathlib import Path
+import numpy as np
+import torch
+from transformers import RepetitionPenaltyLogitsProcessor
+from best_reference_runtime import load_reference, restore_original
+from native_name_memory_helpers import sha, remove
+
+ROOT = Path(__file__).resolve().parent
+RDIR = ROOT / 'results'
+STEM = 'best_minimal_repairs'
+assert (RDIR / f'{STEM}_manifest_failed_v1.json').exists()
+assert not (RDIR / f'{STEM}_resume_spec.json').exists()
+torch.set_grad_enabled(False)
+torch.manual_seed(42)
+
+
+def save(name, value):
+    (RDIR / name).write_text(json.dumps(value, ensure_ascii=False, indent=2), encoding='utf8')
+
+
+def log(message):
+    with (RDIR / f'{STEM}.log').open('a', encoding='utf8') as stream:
+        stream.write(datetime.datetime.now(datetime.timezone.utc).isoformat() + ' ' + message + '\n')
+    print(message, flush=True)
+
+
+units = [('second_creator_0', 'Geppetto'), ('second_material_0', 'Legno'),
+         ('second_nose_0', 'Si allunga'), ('second_deceivers_0', 'Gatto e Volpe'),
+         ('second_ending_0', 'Un bambino vero'), ('second_puppeteer_0', 'Mangiafoco')]
+baseline = json.loads((RDIR / 'late_native_recovery_screen.json').read_text('utf8'))
+by_id = {row['id']: row for row in baseline}
+facts_by_id = {qid: qid.removeprefix('second_').rsplit('_', 1)[0] for qid, _ in units}
+spec = {'utc': datetime.datetime.now(datetime.timezone.utc).isoformat(),
+        'base_candidate': 'late_native_recovery', 'minimal_concepts': units,
+        'hypothesis': 'Remaining failures combine wrong relation selection and wrong continuation. Qualify which current best-model answers become wholly correct after the same allowed short canonical units, before considering direct concept-key equations.',
+        'selection_rule': 'Only cases whose entire free continuation is factually correct may become candidates for a concept write. Any such selection is observed development and never independent validation.',
+        'collection': 'Measure last-MLP activation, input and final residual at every minimal-concept subtoken and the immediate completion state, without changing logits or weights.',
+        'generation': 'Ordinary user prompt followed by supplied minimal assistant concept, then native generation128, greedy repetition1.1; no new EOS, full answer, corrective user context or output substitution.',
+        'provided_answer_prefix': True, 'counts_as_correction': False,
+        'new_weights_changed': False, 'base_weights_changed': True, 'training': False,
+        'gradients': False, 'optimizer': False, 'reserved_test_used': False,
+        'source_sha256': sha(RDIR / 'late_native_recovery_screen.json'),
+        'helper_sha256': sha(ROOT / 'best_reference_runtime.py'), 'code_sha256': sha(Path(__file__))}
+previous_spec = json.loads((RDIR / f'{STEM}_spec.json').read_text('utf8'))
+assert sha(RDIR / f'{STEM}_failed_v1.py.txt') == previous_spec['code_sha256']
+spec['resume_note'] = 'Previous run failed before recording a state: baseline rows have no fact field. Derive the six relation names from the declared question IDs; model, concepts and generation unchanged.'
+spec['previous_spec_sha256'] = sha(RDIR / f'{STEM}_spec.json')
+save(f'{STEM}_resume_spec.json', spec)
+m, t, originals, original_hashes = load_reference()
+penalty = RepetitionPenaltyLogitsProcessor(1.1)
+cache, handles = {}, []
+
+
+def capture(key):
+    def hook(module, args):
+        cache[key] = args[0][:, -1].detach().clone()
+    return hook
+
+
+records, states, responses = [], {'X': [], 'A': [], 'R': []}, []
+completed = False
+try:
+    handles.append(m.model.layers[23].mlp.gate_proj.register_forward_pre_hook(capture('X')))
+    handles.append(m.model.layers[23].mlp.down_proj.register_forward_pre_hook(capture('A')))
+    handles.append(m.model.norm.register_forward_pre_hook(capture('R')))
+    for qid, concept in units:
+        row = by_id[qid]
+        prompt = t.apply_chat_template([{'role': 'user', 'content': row['prompt']}], tokenize=False, add_generation_prompt=True)
+        prompt_ids = t(prompt)['input_ids']
+        concept_ids = t.encode(concept, add_special_tokens=False)
+        for subtoken in range(len(concept_ids) + 1):
+            ids = prompt_ids + concept_ids[:subtoken]
+            output = m.model(input_ids=torch.tensor([ids]), use_cache=False)
+            logits = penalty(torch.tensor([ids]), m.lm_head(output.last_hidden_state[:, -1]).clone())[0]
+            expected = concept_ids[subtoken] if subtoken < len(concept_ids) else None
+            top = int(logits.argmax())
+            record = {'id': qid, 'fact': facts_by_id[qid], 'concept': concept, 'concept_ids': concept_ids,
+                      'subtoken': subtoken, 'unit_complete': expected is None,
+                      'expected_id': expected, 'top_id': top, 'top_piece': t.decode([top]),
+                      'target_rank': None if expected is None else int((logits > logits[expected]).sum()) + 1,
+                      'history_ids': ids, 'index': len(records)}
+            if subtoken == 0:
+                assert top == row['generated_ids'][0], (qid, top, row['generated_ids'][0])
+            records.append(record)
+            for key in states:
+                states[key].append(cache[key][0].numpy())
+        log('Measured ' + qid + ' ' + concept)
+    remove(handles)
+    handles = []
+    np.savez_compressed(RDIR / f'{STEM}_states.npz', **{key: np.stack(value) for key, value in states.items()})
+    save(f'{STEM}_records.json', records)
+    for start in range(0, len(units), 3):
+        batch = units[start:start + 3]
+        histories = [next(row['history_ids'] for row in records if row['id'] == qid and row['unit_complete']) for qid, _ in batch]
+        width = max(map(len, histories))
+        ids = torch.tensor([[t.pad_token_id] * (width - len(history)) + history for history in histories])
+        mask = torch.tensor([[0] * (width - len(history)) + [1] * len(history) for history in histories])
+        generated = m.generate(input_ids=ids, attention_mask=mask, do_sample=False,
+                               repetition_penalty=1.1, max_new_tokens=128, pad_token_id=t.pad_token_id)
+        for (qid, concept), tail in zip(batch, generated[:, width:].tolist()):
+            stop = next((i for i, token in enumerate(tail) if token in [151643, 151645]), None)
+            tokens = tail if stop is None else tail[:stop]
+            concept_ids = t.encode(concept, add_special_tokens=False)
+            record = {'id': qid, 'fact': facts_by_id[qid], 'prompt': by_id[qid]['prompt'],
+                      'provided_concept': concept, 'provided_concept_ids': concept_ids,
+                      'continuation_ids': tokens, 'response': t.decode(concept_ids + tokens, skip_special_tokens=True),
+                      'stop_token': None if stop is None else tail[stop], 'done_reason': 'length' if stop is None else 'stop',
+                      'provided_answer_prefix': True, 'counts_as_correction': False, 'new_weights_changed': False}
+            responses.append(record)
+            log(qid + ' ' + repr(record['response']))
+        save(f'{STEM}_responses.json', responses)
+    completed = True
+finally:
+    remove(handles)
+    restore_original(m, originals, original_hashes)
+    save(f'{STEM}_manifest.json', {'completed': completed, 'records': len(records), 'responses': len(responses),
+         'executed_code_sha256': sha(Path(__file__)), 'spec_sha256': sha(RDIR / f'{STEM}_resume_spec.json'),
+         'original_weights_restored': True, 'hooks_removed': True,
+         'states_sha256': sha(RDIR / f'{STEM}_states.npz') if (RDIR / f'{STEM}_states.npz').exists() else None,
+         'records_sha256': sha(RDIR / f'{STEM}_records.json') if (RDIR / f'{STEM}_records.json').exists() else None,
+         'responses_sha256': sha(RDIR / f'{STEM}_responses.json') if responses else None})
+    log('Completed=' + str(completed) + '; original weights restored.')

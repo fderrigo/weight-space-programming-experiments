@@ -1,0 +1,283 @@
+{
+  "utc": "2026-11-05T12:38:31.828544+00:00",
+  "hypothesis": "The puppet equation transfers to four new origin clauses but also changes a previously correct ending clause. Determine whether one reduced nonnegative amplitude can separate these measured uses without sacrificing the original construction constraints.",
+  "variable": "s in [0,1] multiplies only the first rank-one origin equation; the two wood equations remain unchanged",
+  "constraints": [
+    {
+      "id": "narrative_origin_a",
+      "record_index": 0,
+      "kind": "retain_origin",
+      "target": 7795,
+      "coefficient": 0.9107552559465293
+    },
+    {
+      "id": "narrative_ending_a",
+      "record_index": 4,
+      "kind": "preserve_previous_decision",
+      "target": 3952,
+      "coefficient": 0.33514525679450247
+    },
+    {
+      "id": "narrative_donkey_a",
+      "record_index": 8,
+      "kind": "preserve_previous_decision",
+      "target": 8587,
+      "coefficient": 0.4811081565914123
+    },
+    {
+      "id": "narrative_origin_b",
+      "record_index": 11,
+      "kind": "retain_origin",
+      "target": 7795,
+      "coefficient": 0.8658089151414914
+    },
+    {
+      "id": "narrative_ending_b",
+      "record_index": 15,
+      "kind": "preserve_previous_decision",
+      "target": 75993,
+      "coefficient": 0.38591735280376815
+    },
+    {
+      "id": "narrative_donkey_b",
+      "record_index": 19,
+      "kind": "preserve_previous_decision",
+      "target": 75993,
+      "coefficient": 0.2544940810021227
+    },
+    {
+      "id": "narrative_father",
+      "record_index": 22,
+      "kind": "preserve_previous_decision",
+      "target": 57770,
+      "coefficient": 0.05641940359937133
+    },
+    {
+      "id": "narrative_creator",
+      "record_index": 26,
+      "kind": "preserve_previous_decision",
+      "target": 57770,
+      "coefficient": 0.08775432975389033
+    },
+    {
+      "id": "narrative_created",
+      "record_index": 30,
+      "kind": "preserve_previous_decision",
+      "target": 330,
+      "coefficient": 0.03336522594962482
+    },
+    {
+      "id": "narrative_wood_recipient",
+      "record_index": 34,
+      "kind": "preserve_previous_decision",
+      "target": 393,
+      "coefficient": -0.04100624216377585
+    },
+    {
+      "id": "narrative_wood_donor",
+      "record_index": 38,
+      "kind": "preserve_previous_decision",
+      "target": 650,
+      "coefficient": -0.0953750566529967
+    },
+    {
+      "id": "narrative_friend",
+      "record_index": 45,
+      "kind": "preserve_previous_decision",
+      "target": 57770,
+      "coefficient": 0.09937385013691176
+    },
+    {
+      "id": "neutral_origin_a",
+      "record_index": 49,
+      "kind": "retain_origin",
+      "target": 7795,
+      "coefficient": 0.8639901181198545
+    },
+    {
+      "id": "neutral_ending_a",
+      "record_index": 53,
+      "kind": "preserve_previous_decision",
+      "target": 75993,
+      "coefficient": 0.2762647512701104
+    },
+    {
+      "id": "neutral_donkey_a",
+      "record_index": 57,
+      "kind": "preserve_previous_decision",
+      "target": 8587,
+      "coefficient": 0.24431913639411426
+    },
+    {
+      "id": "neutral_origin_b",
+      "record_index": 60,
+      "kind": "retain_origin",
+      "target": 7795,
+      "coefficient": 0.661854013303092
+    },
+    {
+      "id": "neutral_ending_b",
+      "record_index": 64,
+      "kind": "preserve_previous_decision",
+      "target": 75993,
+      "coefficient": 0.38414773082186915
+    },
+    {
+      "id": "neutral_donkey_b",
+      "record_index": 68,
+      "kind": "preserve_previous_decision",
+      "target": 438,
+      "coefficient": 0.18552747855884485
+    },
+    {
+      "id": "neutral_father",
+      "record_index": 71,
+      "kind": "preserve_previous_decision",
+      "target": 57770,
+      "coefficient": 0.03209098527797269
+    },
+    {
+      "id": "neutral_creator",
+      "record_index": 75,
+      "kind": "preserve_previous_decision",
+      "target": 1207,
+      "coefficient": 0.0034264122136971747
+    },
+    {
+      "id": "neutral_created",
+      "record_index": 79,
+      "kind": "preserve_previous_decision",
+      "target": 330,
+      "coefficient": 0.027286074129413473
+    },
+    {
+      "id": "neutral_wood_recipient",
+      "record_index": 83,
+      "kind": "preserve_previous_decision",
+      "target": 19345,
+      "coefficient": -0.032001300615071865
+    },
+    {
+      "id": "neutral_wood_donor",
+      "record_index": 87,
+      "kind": "preserve_previous_decision",
+      "target": 650,
+      "coefficient": -0.07027828863165046
+    },
+    {
+      "id": "neutral_friend",
+      "record_index": 94,
+      "kind": "preserve_previous_decision",
+      "target": 57770,
+      "coefficient": 0.041849081488091966
+    },
+    {
+      "id": "neutral_cinderella",
+      "record_index": 98,
+      "kind": "preserve_previous_decision",
+      "target": 312,
+      "coefficient": -0.03134013695780302
+    },
+    {
+      "id": "neutral_snow_white",
+      "record_index": 101,
+      "kind": "preserve_previous_decision",
+      "target": 10936,
+      "coefficient": -0.017481150092582123
+    },
+    {
+      "id": "neutral_table",
+      "record_index": 104,
+      "kind": "preserve_previous_decision",
+      "target": 6,
+      "coefficient": -0.026228479243555904
+    },
+    {
+      "id": "neutral_dog",
+      "record_index": 109,
+      "kind": "preserve_previous_decision",
+      "target": 3952,
+      "coefficient": 0.05012406431029198
+    },
+    {
+      "id": "construction_narration_0_0",
+      "record_index": 0,
+      "kind": "retain_constructed_piece_or_native_completion",
+      "target": 7795,
+      "coefficient": 0.999999999999463
+    },
+    {
+      "id": "construction_narration_0_1",
+      "record_index": 1,
+      "kind": "retain_constructed_piece_or_native_completion",
+      "target": 1587,
+      "coefficient": 1.6085743848037737e-13
+    },
+    {
+      "id": "construction_narration_0_2",
+      "record_index": 2,
+      "kind": "retain_constructed_piece_or_native_completion",
+      "target": 3313,
+      "coefficient": 2.076464000744238e-13
+    },
+    {
+      "id": "construction_narration_0_3",
+      "record_index": 3,
+      "kind": "retain_constructed_piece_or_native_completion",
+      "target": 3016,
+      "coefficient": -3.674907600448307e-13
+    },
+    {
+      "id": "construction_narration_1_0",
+      "record_index": 4,
+      "kind": "retain_constructed_piece_or_native_completion",
+      "target": 1051,
+      "coefficient": -6.758135717710445e-13
+    },
+    {
+      "id": "construction_narration_1_1",
+      "record_index": 5,
+      "kind": "retain_constructed_piece_or_native_completion",
+      "target": 45648,
+      "coefficient": -7.505107646466058e-14
+    },
+    {
+      "id": "construction_narration_1_2",
+      "record_index": 6,
+      "kind": "retain_constructed_piece_or_native_completion",
+      "target": 1853,
+      "coefficient": -4.696659727798647e-13
+    },
+    {
+      "id": "construction_narration_1_3",
+      "record_index": 7,
+      "kind": "retain_constructed_piece_or_native_completion",
+      "target": 2472,
+      "coefficient": -6.177280909014371e-13
+    },
+    {
+      "id": "construction_narration_1_4",
+      "record_index": 8,
+      "kind": "retain_constructed_piece_or_native_completion",
+      "target": 2152,
+      "coefficient": 9.751227603160828e-14
+    },
+    {
+      "id": "construction_narration_1_5",
+      "record_index": 9,
+      "kind": "retain_constructed_piece_or_native_completion",
+      "target": 624,
+      "coefficient": -3.0331293032759277e-13
+    }
+  ],
+  "positive_score_inequality": "Require the desired raw score to be positive, then compare positive-branch repetition-adjusted affine scores against every vocabulary token. Negative competitors cannot beat a positive desired score; hence this is sufficient without assuming their signs.",
+  "selection": "Feasibility only. Compute the intersection of exact affine bounds. No parameter sweep or new candidate is executed by this diagnostic.",
+  "source_sha256": "23ae9fd51b62cd1d3fa11144e35206e085886484c5f0a7684305a59e178a7697",
+  "code_sha256": "9ed0a27ab073b4383867b2bd8b52cc637a047b07974c20c98b9eb1d4d7a8079f",
+  "training": false,
+  "optimizer": false,
+  "gradients": false,
+  "new_weights": false,
+  "whole_response_success_claimed": false,
+  "reserved_final_used": false
+}

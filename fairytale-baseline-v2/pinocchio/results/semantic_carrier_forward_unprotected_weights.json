@@ -1,0 +1,50 @@
+{
+  "mode": "unprotected",
+  "source_geometry_sha256": "a15be33fb859f7781c2c7dac404bb96c11f4b1295217045e986a8b857d4e4b8b",
+  "alpha": 2.6540118921440445,
+  "carrier_dimensions": 12,
+  "heads": [
+    6,
+    7
+  ],
+  "changed_parameters": 229504,
+  "changed_tensors": 3,
+  "tensor_differences": [
+    {
+      "tensor": "model.layers.21.self_attn.q_proj.weight",
+      "shape": [
+        896,
+        896
+      ],
+      "changed_parameters": 114688,
+      "difference_norm": 9.051450729370117,
+      "before_sha256_f32": "06567ed7261ed05ce2de32d8c1054041a61d13bd7f7532920953bf3b619b23e5",
+      "after_sha256_f32": "e7ec698387cd790041747cf6eb4ac8f78b014a192d4e8e5e8b6e0a0563e5354e"
+    },
+    {
+      "tensor": "model.layers.21.self_attn.q_proj.bias",
+      "shape": [
+        896
+      ],
+      "changed_parameters": 128,
+      "difference_norm": 19.502098083496094,
+      "before_sha256_f32": "3098f37205a15418e1681e407c82b7ce7c6fda6c6826b0590a13e1b68a38a1ea",
+      "after_sha256_f32": "10948c7dbafb758e48fb5a8d3c0c4524243b5ce6117f783d433bf74ea69ab8ff"
+    },
+    {
+      "tensor": "model.layers.21.self_attn.o_proj.weight",
+      "shape": [
+        896,
+        896
+      ],
+      "changed_parameters": 114688,
+      "difference_norm": 9.193758964538574,
+      "before_sha256_f32": "009bc4736603fbda9eb6ab9c277083a72a64f4db04120764ab05d66f969f1737",
+      "after_sha256_f32": "0ee7032a5794866f65c09bb2b811ad903f191783b23683e697f9a10352f00d92"
+    }
+  ],
+  "formula": "Uniform block-21 heads 6/7; add alpha*U*B*Pmu to their original O columns. Protected condition additionally applies P=I-UUt to O21 and all later attention/MLP output projections, and W diag(g) P diag(g)^-1 to MLP21 and later attention/MLP input projections. RMS denominators remain native and may still change.",
+  "training": false,
+  "gradients": false,
+  "optimizer": false
+}

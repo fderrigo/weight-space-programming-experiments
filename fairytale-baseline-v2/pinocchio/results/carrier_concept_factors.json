@@ -1,0 +1,3260 @@
+{
+  "spec": {
+    "decision_by": "Codex",
+    "fit_questions": 50,
+    "probe_questions_already_observed": 24,
+    "fit_states": 196,
+    "probe_states": 92,
+    "progress_token_classes": [
+      32,
+      44,
+      69,
+      198,
+      307,
+      321,
+      324,
+      356,
+      384,
+      438,
+      479,
+      524,
+      602,
+      622,
+      678,
+      685,
+      1187,
+      1806,
+      2101,
+      3313,
+      9499,
+      10400,
+      10882,
+      12050,
+      16755,
+      18910,
+      21999,
+      29535,
+      35010,
+      40645,
+      54556,
+      75993
+    ],
+    "stage_feature": "Undo the last-MLP RMS gains, project out the twelve carrier directions, then take one mean per preceding token using only the fifty earlier questions.",
+    "stage_readouts": [
+      "cosine_to_token_means",
+      "linear_dual_of_token_means"
+    ],
+    "relation_readout": "Cosine to the same thirteen original semantic centers; compare original prefix-value semantics with the actual protected carrier.",
+    "parameter_search": false,
+    "weights_changed": false,
+    "runtime_routing": false,
+    "training": false,
+    "gradients": false,
+    "optimizer": false,
+    "diagnostic_only": true,
+    "counts_as_correction": false,
+    "third_set_used": false,
+    "final_set_read": false,
+    "source_sha256": "ae3655c6a4beec052a9e593432c3818010d1bbae6c07c9e17eca7688174fd2ea"
+  },
+  "reports": [
+    {
+      "condition": "original",
+      "stage_readout": "cosine_to_token_means",
+      "splits": [
+        {
+          "split": "earlier_fit",
+          "states": 196,
+          "relation_correct": 196,
+          "progress_correct": 196,
+          "proposed_token_correct": 196,
+          "whole_concept_labels_correct": 50,
+          "question_count": 50,
+          "median_relation_margin": 0.6187305101576372,
+          "median_progress_margin": 0.25443241262798066,
+          "mistakes": []
+        },
+        {
+          "split": "second_observed_probe",
+          "states": 92,
+          "relation_correct": 77,
+          "progress_correct": 92,
+          "proposed_token_correct": 77,
+          "whole_concept_labels_correct": 18,
+          "question_count": 24,
+          "median_relation_margin": 0.3292988372345465,
+          "median_progress_margin": 0.24289928808848749,
+          "mistakes": [
+            {
+              "id": "second_creator_0",
+              "subtoken": 0,
+              "expected_fact": "creator",
+              "predicted_fact": "fairy",
+              "expected_previous_token": 198,
+              "predicted_previous_token": 198,
+              "expected_next_token": 9499,
+              "proposed_next_token": 32
+            },
+            {
+              "id": "second_creator_0",
+              "subtoken": 1,
+              "expected_fact": "creator",
+              "predicted_fact": "fairy",
+              "expected_previous_token": 9499,
+              "predicted_previous_token": 9499,
+              "expected_next_token": 602,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_creator_0",
+              "subtoken": 2,
+              "expected_fact": "creator",
+              "predicted_fact": "wood_donor",
+              "expected_previous_token": 602,
+              "predicted_previous_token": 602,
+              "expected_next_token": 52879,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_creator_1",
+              "subtoken": 0,
+              "expected_fact": "creator",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 198,
+              "predicted_previous_token": 198,
+              "expected_next_token": 9499,
+              "proposed_next_token": 44
+            },
+            {
+              "id": "second_creator_1",
+              "subtoken": 1,
+              "expected_fact": "creator",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 9499,
+              "predicted_previous_token": 9499,
+              "expected_next_token": 602,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_creator_1",
+              "subtoken": 2,
+              "expected_fact": "creator",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 602,
+              "predicted_previous_token": 602,
+              "expected_next_token": 52879,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_material_0",
+              "subtoken": 0,
+              "expected_fact": "material",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 198,
+              "predicted_previous_token": 198,
+              "expected_next_token": 18910,
+              "proposed_next_token": 44
+            },
+            {
+              "id": "second_material_0",
+              "subtoken": 1,
+              "expected_fact": "material",
+              "predicted_fact": "wood_donor",
+              "expected_previous_token": 18910,
+              "predicted_previous_token": 18910,
+              "expected_next_token": 2152,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_deceivers_0",
+              "subtoken": 5,
+              "expected_fact": "deceivers",
+              "predicted_fact": "fairy",
+              "expected_previous_token": 1187,
+              "predicted_previous_token": 1187,
+              "expected_next_token": 10882,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_deceivers_0",
+              "subtoken": 6,
+              "expected_fact": "deceivers",
+              "predicted_fact": "fairy",
+              "expected_previous_token": 10882,
+              "predicted_previous_token": 10882,
+              "expected_next_token": 375,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_donkey_1",
+              "subtoken": 0,
+              "expected_fact": "donkey",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 198,
+              "predicted_previous_token": 198,
+              "expected_next_token": 1806,
+              "proposed_next_token": 44
+            },
+            {
+              "id": "second_donkey_1",
+              "subtoken": 1,
+              "expected_fact": "donkey",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 1806,
+              "predicted_previous_token": 1806,
+              "expected_next_token": 438,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_donkey_1",
+              "subtoken": 2,
+              "expected_fact": "donkey",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 438,
+              "predicted_previous_token": 438,
+              "expected_next_token": 3313,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_puppeteer_1",
+              "subtoken": 1,
+              "expected_fact": "puppeteer",
+              "predicted_fact": "deceivers",
+              "expected_previous_token": 44,
+              "predicted_previous_token": 44,
+              "expected_next_token": 524,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_puppeteer_1",
+              "subtoken": 3,
+              "expected_fact": "puppeteer",
+              "predicted_fact": "material",
+              "expected_previous_token": 685,
+              "predicted_previous_token": 685,
+              "expected_next_token": 69,
+              "proposed_next_token": null
+            }
+          ]
+        }
+      ],
+      "native": [
+        {
+          "kind": "external",
+          "states": 3130,
+          "states_with_one_of_the_32_previous_tokens": 193,
+          "progress_correct_when_token_is_in_set": 123,
+          "potential_fact_requests_without_threshold": 142,
+          "median_relation_margin_at_requests": 0.1091122416926314,
+          "median_progress_margin_at_requests": 0.01773313196155213
+        },
+        {
+          "kind": "minimal_native",
+          "states": 411,
+          "states_with_one_of_the_32_previous_tokens": 22,
+          "progress_correct_when_token_is_in_set": 14,
+          "potential_fact_requests_without_threshold": 73,
+          "median_relation_margin_at_requests": 0.26564023818825294,
+          "median_progress_margin_at_requests": 0.020732940211051654
+        },
+        {
+          "kind": "narrative",
+          "states": 472,
+          "states_with_one_of_the_32_previous_tokens": 18,
+          "progress_correct_when_token_is_in_set": 14,
+          "potential_fact_requests_without_threshold": 65,
+          "median_relation_margin_at_requests": 0.046101849730395106,
+          "median_progress_margin_at_requests": 0.028618544447431726
+        },
+        {
+          "kind": "native_unit",
+          "states": 392,
+          "states_with_one_of_the_32_previous_tokens": 14,
+          "progress_correct_when_token_is_in_set": 8,
+          "potential_fact_requests_without_threshold": 65,
+          "median_relation_margin_at_requests": 0.6120249121354544,
+          "median_progress_margin_at_requests": 0.01970316552063911
+        }
+      ]
+    },
+    {
+      "condition": "original",
+      "stage_readout": "linear_dual_of_token_means",
+      "splits": [
+        {
+          "split": "earlier_fit",
+          "states": 196,
+          "relation_correct": 196,
+          "progress_correct": 196,
+          "proposed_token_correct": 196,
+          "whole_concept_labels_correct": 50,
+          "question_count": 50,
+          "median_relation_margin": 0.6187305101576372,
+          "median_progress_margin": 0.9652958290853073,
+          "mistakes": []
+        },
+        {
+          "split": "second_observed_probe",
+          "states": 92,
+          "relation_correct": 77,
+          "progress_correct": 92,
+          "proposed_token_correct": 77,
+          "whole_concept_labels_correct": 18,
+          "question_count": 24,
+          "median_relation_margin": 0.3292988372345465,
+          "median_progress_margin": 0.9576367152838999,
+          "mistakes": [
+            {
+              "id": "second_creator_0",
+              "subtoken": 0,
+              "expected_fact": "creator",
+              "predicted_fact": "fairy",
+              "expected_previous_token": 198,
+              "predicted_previous_token": 198,
+              "expected_next_token": 9499,
+              "proposed_next_token": 32
+            },
+            {
+              "id": "second_creator_0",
+              "subtoken": 1,
+              "expected_fact": "creator",
+              "predicted_fact": "fairy",
+              "expected_previous_token": 9499,
+              "predicted_previous_token": 9499,
+              "expected_next_token": 602,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_creator_0",
+              "subtoken": 2,
+              "expected_fact": "creator",
+              "predicted_fact": "wood_donor",
+              "expected_previous_token": 602,
+              "predicted_previous_token": 602,
+              "expected_next_token": 52879,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_creator_1",
+              "subtoken": 0,
+              "expected_fact": "creator",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 198,
+              "predicted_previous_token": 198,
+              "expected_next_token": 9499,
+              "proposed_next_token": 44
+            },
+            {
+              "id": "second_creator_1",
+              "subtoken": 1,
+              "expected_fact": "creator",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 9499,
+              "predicted_previous_token": 9499,
+              "expected_next_token": 602,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_creator_1",
+              "subtoken": 2,
+              "expected_fact": "creator",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 602,
+              "predicted_previous_token": 602,
+              "expected_next_token": 52879,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_material_0",
+              "subtoken": 0,
+              "expected_fact": "material",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 198,
+              "predicted_previous_token": 198,
+              "expected_next_token": 18910,
+              "proposed_next_token": 44
+            },
+            {
+              "id": "second_material_0",
+              "subtoken": 1,
+              "expected_fact": "material",
+              "predicted_fact": "wood_donor",
+              "expected_previous_token": 18910,
+              "predicted_previous_token": 18910,
+              "expected_next_token": 2152,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_deceivers_0",
+              "subtoken": 5,
+              "expected_fact": "deceivers",
+              "predicted_fact": "fairy",
+              "expected_previous_token": 1187,
+              "predicted_previous_token": 1187,
+              "expected_next_token": 10882,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_deceivers_0",
+              "subtoken": 6,
+              "expected_fact": "deceivers",
+              "predicted_fact": "fairy",
+              "expected_previous_token": 10882,
+              "predicted_previous_token": 10882,
+              "expected_next_token": 375,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_donkey_1",
+              "subtoken": 0,
+              "expected_fact": "donkey",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 198,
+              "predicted_previous_token": 198,
+              "expected_next_token": 1806,
+              "proposed_next_token": 44
+            },
+            {
+              "id": "second_donkey_1",
+              "subtoken": 1,
+              "expected_fact": "donkey",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 1806,
+              "predicted_previous_token": 1806,
+              "expected_next_token": 438,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_donkey_1",
+              "subtoken": 2,
+              "expected_fact": "donkey",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 438,
+              "predicted_previous_token": 438,
+              "expected_next_token": 3313,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_puppeteer_1",
+              "subtoken": 1,
+              "expected_fact": "puppeteer",
+              "predicted_fact": "deceivers",
+              "expected_previous_token": 44,
+              "predicted_previous_token": 44,
+              "expected_next_token": 524,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_puppeteer_1",
+              "subtoken": 3,
+              "expected_fact": "puppeteer",
+              "predicted_fact": "material",
+              "expected_previous_token": 685,
+              "predicted_previous_token": 685,
+              "expected_next_token": 69,
+              "proposed_next_token": null
+            }
+          ]
+        }
+      ],
+      "native": [
+        {
+          "kind": "external",
+          "states": 3130,
+          "states_with_one_of_the_32_previous_tokens": 193,
+          "progress_correct_when_token_is_in_set": 140,
+          "potential_fact_requests_without_threshold": 201,
+          "median_relation_margin_at_requests": 0.11165712397854644,
+          "median_progress_margin_at_requests": 0.047458406251493834
+        },
+        {
+          "kind": "minimal_native",
+          "states": 411,
+          "states_with_one_of_the_32_previous_tokens": 22,
+          "progress_correct_when_token_is_in_set": 13,
+          "potential_fact_requests_without_threshold": 77,
+          "median_relation_margin_at_requests": 0.2583292276894855,
+          "median_progress_margin_at_requests": 0.1539988760676379
+        },
+        {
+          "kind": "narrative",
+          "states": 472,
+          "states_with_one_of_the_32_previous_tokens": 18,
+          "progress_correct_when_token_is_in_set": 14,
+          "potential_fact_requests_without_threshold": 67,
+          "median_relation_margin_at_requests": 0.0475115464269969,
+          "median_progress_margin_at_requests": 0.15739843475400722
+        },
+        {
+          "kind": "native_unit",
+          "states": 392,
+          "states_with_one_of_the_32_previous_tokens": 14,
+          "progress_correct_when_token_is_in_set": 11,
+          "potential_fact_requests_without_threshold": 62,
+          "median_relation_margin_at_requests": 0.6061238960337362,
+          "median_progress_margin_at_requests": 0.14830062025706836
+        }
+      ]
+    },
+    {
+      "condition": "protected",
+      "stage_readout": "cosine_to_token_means",
+      "splits": [
+        {
+          "split": "earlier_fit",
+          "states": 196,
+          "relation_correct": 120,
+          "progress_correct": 196,
+          "proposed_token_correct": 122,
+          "whole_concept_labels_correct": 15,
+          "question_count": 50,
+          "median_relation_margin": 0.18908107954868314,
+          "median_progress_margin": 0.2623200093060649,
+          "mistakes": [
+            {
+              "id": "core_fairy_1",
+              "subtoken": 2,
+              "expected_fact": "fairy",
+              "predicted_fact": "ending",
+              "expected_previous_token": 10400,
+              "predicted_previous_token": 10400,
+              "expected_next_token": 324,
+              "proposed_next_token": null
+            },
+            {
+              "id": "core_nose_0",
+              "subtoken": 2,
+              "expected_fact": "nose",
+              "predicted_fact": "creator",
+              "expected_previous_token": 678,
+              "predicted_previous_token": 678,
+              "expected_next_token": 91845,
+              "proposed_next_token": null
+            },
+            {
+              "id": "core_nose_1",
+              "subtoken": 2,
+              "expected_fact": "nose",
+              "predicted_fact": "creator",
+              "expected_previous_token": 678,
+              "predicted_previous_token": 678,
+              "expected_next_token": 91845,
+              "proposed_next_token": null
+            },
+            {
+              "id": "core_deceivers_0",
+              "subtoken": 3,
+              "expected_fact": "deceivers",
+              "predicted_fact": "material",
+              "expected_previous_token": 16755,
+              "predicted_previous_token": 16755,
+              "expected_next_token": 384,
+              "proposed_next_token": null
+            },
+            {
+              "id": "core_deceivers_0",
+              "subtoken": 4,
+              "expected_fact": "deceivers",
+              "predicted_fact": "creator",
+              "expected_previous_token": 384,
+              "predicted_previous_token": 384,
+              "expected_next_token": 1187,
+              "proposed_next_token": null
+            },
+            {
+              "id": "core_deceivers_0",
+              "subtoken": 5,
+              "expected_fact": "deceivers",
+              "predicted_fact": "creator",
+              "expected_previous_token": 1187,
+              "predicted_previous_token": 1187,
+              "expected_next_token": 10882,
+              "proposed_next_token": null
+            },
+            {
+              "id": "core_deceivers_0",
+              "subtoken": 6,
+              "expected_fact": "deceivers",
+              "predicted_fact": "creator",
+              "expected_previous_token": 10882,
+              "predicted_previous_token": 10882,
+              "expected_next_token": 375,
+              "proposed_next_token": null
+            },
+            {
+              "id": "core_deceivers_1",
+              "subtoken": 1,
+              "expected_fact": "deceivers",
+              "predicted_fact": "creator",
+              "expected_previous_token": 12050,
+              "predicted_previous_token": 12050,
+              "expected_next_token": 479,
+              "proposed_next_token": null
+            },
+            {
+              "id": "core_deceivers_1",
+              "subtoken": 2,
+              "expected_fact": "deceivers",
+              "predicted_fact": "fairy",
+              "expected_previous_token": 479,
+              "predicted_previous_token": 479,
+              "expected_next_token": 16755,
+              "proposed_next_token": null
+            },
+            {
+              "id": "core_deceivers_1",
+              "subtoken": 3,
+              "expected_fact": "deceivers",
+              "predicted_fact": "material",
+              "expected_previous_token": 16755,
+              "predicted_previous_token": 16755,
+              "expected_next_token": 384,
+              "proposed_next_token": null
+            },
+            {
+              "id": "core_deceivers_1",
+              "subtoken": 4,
+              "expected_fact": "deceivers",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 384,
+              "predicted_previous_token": 384,
+              "expected_next_token": 1187,
+              "proposed_next_token": null
+            },
+            {
+              "id": "core_deceivers_1",
+              "subtoken": 5,
+              "expected_fact": "deceivers",
+              "predicted_fact": "creator",
+              "expected_previous_token": 1187,
+              "predicted_previous_token": 1187,
+              "expected_next_token": 10882,
+              "proposed_next_token": null
+            },
+            {
+              "id": "core_deceivers_1",
+              "subtoken": 6,
+              "expected_fact": "deceivers",
+              "predicted_fact": "creator",
+              "expected_previous_token": 10882,
+              "predicted_previous_token": 10882,
+              "expected_next_token": 375,
+              "proposed_next_token": null
+            },
+            {
+              "id": "core_donkey_0",
+              "subtoken": 2,
+              "expected_fact": "donkey",
+              "predicted_fact": "friend",
+              "expected_previous_token": 438,
+              "predicted_previous_token": 438,
+              "expected_next_token": 3313,
+              "proposed_next_token": null
+            },
+            {
+              "id": "core_ending_0",
+              "subtoken": 1,
+              "expected_fact": "ending",
+              "predicted_fact": "donkey",
+              "expected_previous_token": 1806,
+              "predicted_previous_token": 1806,
+              "expected_next_token": 75993,
+              "proposed_next_token": 438
+            },
+            {
+              "id": "core_ending_0",
+              "subtoken": 3,
+              "expected_fact": "ending",
+              "predicted_fact": "material",
+              "expected_previous_token": 3313,
+              "predicted_previous_token": 3313,
+              "expected_next_token": 78287,
+              "proposed_next_token": null
+            },
+            {
+              "id": "core_ending_1",
+              "subtoken": 1,
+              "expected_fact": "ending",
+              "predicted_fact": "fairy",
+              "expected_previous_token": 1806,
+              "predicted_previous_token": 1806,
+              "expected_next_token": 75993,
+              "proposed_next_token": null
+            },
+            {
+              "id": "core_ending_1",
+              "subtoken": 3,
+              "expected_fact": "ending",
+              "predicted_fact": "material",
+              "expected_previous_token": 3313,
+              "predicted_previous_token": 3313,
+              "expected_next_token": 78287,
+              "proposed_next_token": null
+            },
+            {
+              "id": "development_friend_0",
+              "subtoken": 1,
+              "expected_fact": "friend",
+              "predicted_fact": "ending",
+              "expected_previous_token": 40645,
+              "predicted_previous_token": 40645,
+              "expected_next_token": 622,
+              "proposed_next_token": null
+            },
+            {
+              "id": "chapter_35",
+              "subtoken": 1,
+              "expected_fact": "fish_father",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 9499,
+              "predicted_previous_token": 9499,
+              "expected_next_token": 602,
+              "proposed_next_token": null
+            },
+            {
+              "id": "chapter_35",
+              "subtoken": 2,
+              "expected_fact": "fish_father",
+              "predicted_fact": "nose",
+              "expected_previous_token": 602,
+              "predicted_previous_token": 602,
+              "expected_next_token": 52879,
+              "proposed_next_token": null
+            },
+            {
+              "id": "development_fish_father_0",
+              "subtoken": 2,
+              "expected_fact": "fish_father",
+              "predicted_fact": "nose",
+              "expected_previous_token": 602,
+              "predicted_previous_token": 602,
+              "expected_next_token": 52879,
+              "proposed_next_token": null
+            },
+            {
+              "id": "chapter_02",
+              "subtoken": 2,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "material",
+              "expected_previous_token": 54556,
+              "predicted_previous_token": 54556,
+              "expected_next_token": 356,
+              "proposed_next_token": null
+            },
+            {
+              "id": "chapter_02",
+              "subtoken": 3,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "fairy",
+              "expected_previous_token": 356,
+              "predicted_previous_token": 356,
+              "expected_next_token": 321,
+              "proposed_next_token": null
+            },
+            {
+              "id": "chapter_02",
+              "subtoken": 5,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "ending",
+              "expected_previous_token": 35010,
+              "predicted_previous_token": 35010,
+              "expected_next_token": 685,
+              "proposed_next_token": null
+            },
+            {
+              "id": "development_wood_giver_role",
+              "subtoken": 2,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 54556,
+              "predicted_previous_token": 54556,
+              "expected_next_token": 356,
+              "proposed_next_token": null
+            },
+            {
+              "id": "development_wood_giver_role",
+              "subtoken": 3,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "fairy",
+              "expected_previous_token": 356,
+              "predicted_previous_token": 356,
+              "expected_next_token": 321,
+              "proposed_next_token": null
+            },
+            {
+              "id": "development_wood_giver_role",
+              "subtoken": 5,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "nose",
+              "expected_previous_token": 35010,
+              "predicted_previous_token": 35010,
+              "expected_next_token": 685,
+              "proposed_next_token": null
+            },
+            {
+              "id": "chapter_28",
+              "subtoken": 2,
+              "expected_fact": "rescuer",
+              "predicted_fact": "nose",
+              "expected_previous_token": 307,
+              "predicted_previous_token": 307,
+              "expected_next_token": 18307,
+              "proposed_next_token": null
+            },
+            {
+              "id": "development_rescuer_0",
+              "subtoken": 1,
+              "expected_fact": "rescuer",
+              "predicted_fact": "creator",
+              "expected_previous_token": 2101,
+              "predicted_previous_token": 2101,
+              "expected_next_token": 307,
+              "proposed_next_token": null
+            },
+            {
+              "id": "development_rescuer_0",
+              "subtoken": 2,
+              "expected_fact": "rescuer",
+              "predicted_fact": "nose",
+              "expected_previous_token": 307,
+              "predicted_previous_token": 307,
+              "expected_next_token": 18307,
+              "proposed_next_token": null
+            },
+            {
+              "id": "chapter_01",
+              "subtoken": 1,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "nose",
+              "expected_previous_token": 29535,
+              "predicted_previous_token": 29535,
+              "expected_next_token": 54556,
+              "proposed_next_token": null
+            },
+            {
+              "id": "chapter_01",
+              "subtoken": 2,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "material",
+              "expected_previous_token": 54556,
+              "predicted_previous_token": 54556,
+              "expected_next_token": 356,
+              "proposed_next_token": null
+            },
+            {
+              "id": "chapter_01",
+              "subtoken": 3,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "fairy",
+              "expected_previous_token": 356,
+              "predicted_previous_token": 356,
+              "expected_next_token": 321,
+              "proposed_next_token": null
+            },
+            {
+              "id": "chapter_01",
+              "subtoken": 4,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "ending",
+              "expected_previous_token": 321,
+              "predicted_previous_token": 321,
+              "expected_next_token": 35010,
+              "proposed_next_token": null
+            },
+            {
+              "id": "chapter_01",
+              "subtoken": 5,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "nose",
+              "expected_previous_token": 35010,
+              "predicted_previous_token": 35010,
+              "expected_next_token": 685,
+              "proposed_next_token": null
+            },
+            {
+              "id": "development_wood_finder_role",
+              "subtoken": 1,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 29535,
+              "predicted_previous_token": 29535,
+              "expected_next_token": 54556,
+              "proposed_next_token": null
+            },
+            {
+              "id": "development_wood_finder_role",
+              "subtoken": 2,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "ending",
+              "expected_previous_token": 54556,
+              "predicted_previous_token": 54556,
+              "expected_next_token": 356,
+              "proposed_next_token": null
+            },
+            {
+              "id": "development_wood_finder_role",
+              "subtoken": 3,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "fairy",
+              "expected_previous_token": 356,
+              "predicted_previous_token": 356,
+              "expected_next_token": 321,
+              "proposed_next_token": null
+            },
+            {
+              "id": "development_wood_finder_role",
+              "subtoken": 4,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "ending",
+              "expected_previous_token": 321,
+              "predicted_previous_token": 321,
+              "expected_next_token": 35010,
+              "proposed_next_token": null
+            },
+            {
+              "id": "development_wood_finder_role",
+              "subtoken": 5,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "ending",
+              "expected_previous_token": 35010,
+              "predicted_previous_token": 35010,
+              "expected_next_token": 685,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_nose_0",
+              "subtoken": 2,
+              "expected_fact": "nose",
+              "predicted_fact": "creator",
+              "expected_previous_token": 678,
+              "predicted_previous_token": 678,
+              "expected_next_token": 91845,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_nose_1",
+              "subtoken": 2,
+              "expected_fact": "nose",
+              "predicted_fact": "creator",
+              "expected_previous_token": 678,
+              "predicted_previous_token": 678,
+              "expected_next_token": 91845,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_fairy_1",
+              "subtoken": 3,
+              "expected_fact": "fairy",
+              "predicted_fact": "creator",
+              "expected_previous_token": 324,
+              "predicted_previous_token": 324,
+              "expected_next_token": 461,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_deceivers_0",
+              "subtoken": 3,
+              "expected_fact": "deceivers",
+              "predicted_fact": "material",
+              "expected_previous_token": 16755,
+              "predicted_previous_token": 16755,
+              "expected_next_token": 384,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_deceivers_0",
+              "subtoken": 4,
+              "expected_fact": "deceivers",
+              "predicted_fact": "creator",
+              "expected_previous_token": 384,
+              "predicted_previous_token": 384,
+              "expected_next_token": 1187,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_deceivers_0",
+              "subtoken": 5,
+              "expected_fact": "deceivers",
+              "predicted_fact": "creator",
+              "expected_previous_token": 1187,
+              "predicted_previous_token": 1187,
+              "expected_next_token": 10882,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_deceivers_0",
+              "subtoken": 6,
+              "expected_fact": "deceivers",
+              "predicted_fact": "creator",
+              "expected_previous_token": 10882,
+              "predicted_previous_token": 10882,
+              "expected_next_token": 375,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_deceivers_1",
+              "subtoken": 3,
+              "expected_fact": "deceivers",
+              "predicted_fact": "material",
+              "expected_previous_token": 16755,
+              "predicted_previous_token": 16755,
+              "expected_next_token": 384,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_deceivers_1",
+              "subtoken": 4,
+              "expected_fact": "deceivers",
+              "predicted_fact": "creator",
+              "expected_previous_token": 384,
+              "predicted_previous_token": 384,
+              "expected_next_token": 1187,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_deceivers_1",
+              "subtoken": 5,
+              "expected_fact": "deceivers",
+              "predicted_fact": "creator",
+              "expected_previous_token": 1187,
+              "predicted_previous_token": 1187,
+              "expected_next_token": 10882,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_deceivers_1",
+              "subtoken": 6,
+              "expected_fact": "deceivers",
+              "predicted_fact": "creator",
+              "expected_previous_token": 10882,
+              "predicted_previous_token": 10882,
+              "expected_next_token": 375,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_donkey_0",
+              "subtoken": 1,
+              "expected_fact": "donkey",
+              "predicted_fact": "deceivers",
+              "expected_previous_token": 1806,
+              "predicted_previous_token": 1806,
+              "expected_next_token": 438,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_donkey_0",
+              "subtoken": 2,
+              "expected_fact": "donkey",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 438,
+              "predicted_previous_token": 438,
+              "expected_next_token": 3313,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_donkey_1",
+              "subtoken": 2,
+              "expected_fact": "donkey",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 438,
+              "predicted_previous_token": 438,
+              "expected_next_token": 3313,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_ending_0",
+              "subtoken": 1,
+              "expected_fact": "ending",
+              "predicted_fact": "creator",
+              "expected_previous_token": 1806,
+              "predicted_previous_token": 1806,
+              "expected_next_token": 75993,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_ending_0",
+              "subtoken": 3,
+              "expected_fact": "ending",
+              "predicted_fact": "material",
+              "expected_previous_token": 3313,
+              "predicted_previous_token": 3313,
+              "expected_next_token": 78287,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_ending_1",
+              "subtoken": 1,
+              "expected_fact": "ending",
+              "predicted_fact": "material",
+              "expected_previous_token": 1806,
+              "predicted_previous_token": 1806,
+              "expected_next_token": 75993,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_ending_1",
+              "subtoken": 3,
+              "expected_fact": "ending",
+              "predicted_fact": "material",
+              "expected_previous_token": 3313,
+              "predicted_previous_token": 3313,
+              "expected_next_token": 78287,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_puppeteer_0",
+              "subtoken": 1,
+              "expected_fact": "puppeteer",
+              "predicted_fact": "creator",
+              "expected_previous_token": 44,
+              "predicted_previous_token": 44,
+              "expected_next_token": 524,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_puppeteer_1",
+              "subtoken": 1,
+              "expected_fact": "puppeteer",
+              "predicted_fact": "creator",
+              "expected_previous_token": 44,
+              "predicted_previous_token": 44,
+              "expected_next_token": 524,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_friend_0",
+              "subtoken": 1,
+              "expected_fact": "friend",
+              "predicted_fact": "ending",
+              "expected_previous_token": 40645,
+              "predicted_previous_token": 40645,
+              "expected_next_token": 622,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_wood_donor_0",
+              "subtoken": 2,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "outside",
+              "expected_previous_token": 54556,
+              "predicted_previous_token": 54556,
+              "expected_next_token": 356,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_wood_donor_0",
+              "subtoken": 3,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "creator",
+              "expected_previous_token": 356,
+              "predicted_previous_token": 356,
+              "expected_next_token": 321,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_wood_donor_0",
+              "subtoken": 5,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "ending",
+              "expected_previous_token": 35010,
+              "predicted_previous_token": 35010,
+              "expected_next_token": 685,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_wood_donor_1",
+              "subtoken": 2,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "material",
+              "expected_previous_token": 54556,
+              "predicted_previous_token": 54556,
+              "expected_next_token": 356,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_wood_donor_1",
+              "subtoken": 3,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "fairy",
+              "expected_previous_token": 356,
+              "predicted_previous_token": 356,
+              "expected_next_token": 321,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_wood_donor_1",
+              "subtoken": 5,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "ending",
+              "expected_previous_token": 35010,
+              "predicted_previous_token": 35010,
+              "expected_next_token": 685,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_rescuer_0",
+              "subtoken": 2,
+              "expected_fact": "rescuer",
+              "predicted_fact": "nose",
+              "expected_previous_token": 307,
+              "predicted_previous_token": 307,
+              "expected_next_token": 18307,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_rescuer_1",
+              "subtoken": 1,
+              "expected_fact": "rescuer",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 2101,
+              "predicted_previous_token": 2101,
+              "expected_next_token": 307,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_rescuer_1",
+              "subtoken": 2,
+              "expected_fact": "rescuer",
+              "predicted_fact": "nose",
+              "expected_previous_token": 307,
+              "predicted_previous_token": 307,
+              "expected_next_token": 18307,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_fish_father_0",
+              "subtoken": 2,
+              "expected_fact": "fish_father",
+              "predicted_fact": "nose",
+              "expected_previous_token": 602,
+              "predicted_previous_token": 602,
+              "expected_next_token": 52879,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_fish_father_1",
+              "subtoken": 1,
+              "expected_fact": "fish_father",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 9499,
+              "predicted_previous_token": 9499,
+              "expected_next_token": 602,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_fish_father_1",
+              "subtoken": 2,
+              "expected_fact": "fish_father",
+              "predicted_fact": "nose",
+              "expected_previous_token": 602,
+              "predicted_previous_token": 602,
+              "expected_next_token": 52879,
+              "proposed_next_token": null
+            }
+          ]
+        },
+        {
+          "split": "second_observed_probe",
+          "states": 92,
+          "relation_correct": 34,
+          "progress_correct": 92,
+          "proposed_token_correct": 35,
+          "whole_concept_labels_correct": 2,
+          "question_count": 24,
+          "median_relation_margin": 0.15060026960391593,
+          "median_progress_margin": 0.2482355794099882,
+          "mistakes": [
+            {
+              "id": "second_creator_0",
+              "subtoken": 0,
+              "expected_fact": "creator",
+              "predicted_fact": "fairy",
+              "expected_previous_token": 198,
+              "predicted_previous_token": 198,
+              "expected_next_token": 9499,
+              "proposed_next_token": 32
+            },
+            {
+              "id": "second_creator_1",
+              "subtoken": 0,
+              "expected_fact": "creator",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 198,
+              "predicted_previous_token": 198,
+              "expected_next_token": 9499,
+              "proposed_next_token": 44
+            },
+            {
+              "id": "second_creator_1",
+              "subtoken": 1,
+              "expected_fact": "creator",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 9499,
+              "predicted_previous_token": 9499,
+              "expected_next_token": 602,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_material_0",
+              "subtoken": 0,
+              "expected_fact": "material",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 198,
+              "predicted_previous_token": 198,
+              "expected_next_token": 18910,
+              "proposed_next_token": 44
+            },
+            {
+              "id": "second_material_0",
+              "subtoken": 1,
+              "expected_fact": "material",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 18910,
+              "predicted_previous_token": 18910,
+              "expected_next_token": 2152,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_nose_0",
+              "subtoken": 1,
+              "expected_fact": "nose",
+              "predicted_fact": "creator",
+              "expected_previous_token": 21999,
+              "predicted_previous_token": 21999,
+              "expected_next_token": 678,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_nose_0",
+              "subtoken": 2,
+              "expected_fact": "nose",
+              "predicted_fact": "creator",
+              "expected_previous_token": 678,
+              "predicted_previous_token": 678,
+              "expected_next_token": 91845,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_nose_1",
+              "subtoken": 1,
+              "expected_fact": "nose",
+              "predicted_fact": "wood_donor",
+              "expected_previous_token": 21999,
+              "predicted_previous_token": 21999,
+              "expected_next_token": 678,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_nose_1",
+              "subtoken": 2,
+              "expected_fact": "nose",
+              "predicted_fact": "wood_donor",
+              "expected_previous_token": 678,
+              "predicted_previous_token": 678,
+              "expected_next_token": 91845,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_fairy_0",
+              "subtoken": 2,
+              "expected_fact": "fairy",
+              "predicted_fact": "creator",
+              "expected_previous_token": 10400,
+              "predicted_previous_token": 10400,
+              "expected_next_token": 324,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_fairy_0",
+              "subtoken": 3,
+              "expected_fact": "fairy",
+              "predicted_fact": "creator",
+              "expected_previous_token": 324,
+              "predicted_previous_token": 324,
+              "expected_next_token": 461,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_deceivers_0",
+              "subtoken": 1,
+              "expected_fact": "deceivers",
+              "predicted_fact": "creator",
+              "expected_previous_token": 12050,
+              "predicted_previous_token": 12050,
+              "expected_next_token": 479,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_deceivers_0",
+              "subtoken": 2,
+              "expected_fact": "deceivers",
+              "predicted_fact": "fairy",
+              "expected_previous_token": 479,
+              "predicted_previous_token": 479,
+              "expected_next_token": 16755,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_deceivers_0",
+              "subtoken": 3,
+              "expected_fact": "deceivers",
+              "predicted_fact": "fairy",
+              "expected_previous_token": 16755,
+              "predicted_previous_token": 16755,
+              "expected_next_token": 384,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_deceivers_0",
+              "subtoken": 4,
+              "expected_fact": "deceivers",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 384,
+              "predicted_previous_token": 384,
+              "expected_next_token": 1187,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_deceivers_0",
+              "subtoken": 5,
+              "expected_fact": "deceivers",
+              "predicted_fact": "creator",
+              "expected_previous_token": 1187,
+              "predicted_previous_token": 1187,
+              "expected_next_token": 10882,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_deceivers_0",
+              "subtoken": 6,
+              "expected_fact": "deceivers",
+              "predicted_fact": "creator",
+              "expected_previous_token": 10882,
+              "predicted_previous_token": 10882,
+              "expected_next_token": 375,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_deceivers_1",
+              "subtoken": 1,
+              "expected_fact": "deceivers",
+              "predicted_fact": "creator",
+              "expected_previous_token": 12050,
+              "predicted_previous_token": 12050,
+              "expected_next_token": 479,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_deceivers_1",
+              "subtoken": 3,
+              "expected_fact": "deceivers",
+              "predicted_fact": "material",
+              "expected_previous_token": 16755,
+              "predicted_previous_token": 16755,
+              "expected_next_token": 384,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_deceivers_1",
+              "subtoken": 4,
+              "expected_fact": "deceivers",
+              "predicted_fact": "creator",
+              "expected_previous_token": 384,
+              "predicted_previous_token": 384,
+              "expected_next_token": 1187,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_deceivers_1",
+              "subtoken": 5,
+              "expected_fact": "deceivers",
+              "predicted_fact": "creator",
+              "expected_previous_token": 1187,
+              "predicted_previous_token": 1187,
+              "expected_next_token": 10882,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_deceivers_1",
+              "subtoken": 6,
+              "expected_fact": "deceivers",
+              "predicted_fact": "creator",
+              "expected_previous_token": 10882,
+              "predicted_previous_token": 10882,
+              "expected_next_token": 375,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_donkey_0",
+              "subtoken": 2,
+              "expected_fact": "donkey",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 438,
+              "predicted_previous_token": 438,
+              "expected_next_token": 3313,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_donkey_1",
+              "subtoken": 0,
+              "expected_fact": "donkey",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 198,
+              "predicted_previous_token": 198,
+              "expected_next_token": 1806,
+              "proposed_next_token": 44
+            },
+            {
+              "id": "second_donkey_1",
+              "subtoken": 1,
+              "expected_fact": "donkey",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 1806,
+              "predicted_previous_token": 1806,
+              "expected_next_token": 438,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_donkey_1",
+              "subtoken": 2,
+              "expected_fact": "donkey",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 438,
+              "predicted_previous_token": 438,
+              "expected_next_token": 3313,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_ending_0",
+              "subtoken": 1,
+              "expected_fact": "ending",
+              "predicted_fact": "deceivers",
+              "expected_previous_token": 1806,
+              "predicted_previous_token": 1806,
+              "expected_next_token": 75993,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_ending_0",
+              "subtoken": 2,
+              "expected_fact": "ending",
+              "predicted_fact": "fairy",
+              "expected_previous_token": 75993,
+              "predicted_previous_token": 75993,
+              "expected_next_token": 3313,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_ending_0",
+              "subtoken": 3,
+              "expected_fact": "ending",
+              "predicted_fact": "material",
+              "expected_previous_token": 3313,
+              "predicted_previous_token": 3313,
+              "expected_next_token": 78287,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_ending_1",
+              "subtoken": 1,
+              "expected_fact": "ending",
+              "predicted_fact": "material",
+              "expected_previous_token": 1806,
+              "predicted_previous_token": 1806,
+              "expected_next_token": 75993,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_ending_1",
+              "subtoken": 2,
+              "expected_fact": "ending",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 75993,
+              "predicted_previous_token": 75993,
+              "expected_next_token": 3313,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_ending_1",
+              "subtoken": 3,
+              "expected_fact": "ending",
+              "predicted_fact": "material",
+              "expected_previous_token": 3313,
+              "predicted_previous_token": 3313,
+              "expected_next_token": 78287,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_puppeteer_0",
+              "subtoken": 0,
+              "expected_fact": "puppeteer",
+              "predicted_fact": "creator",
+              "expected_previous_token": 198,
+              "predicted_previous_token": 198,
+              "expected_next_token": 44,
+              "proposed_next_token": 9499
+            },
+            {
+              "id": "second_puppeteer_0",
+              "subtoken": 1,
+              "expected_fact": "puppeteer",
+              "predicted_fact": "creator",
+              "expected_previous_token": 44,
+              "predicted_previous_token": 44,
+              "expected_next_token": 524,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_puppeteer_0",
+              "subtoken": 2,
+              "expected_fact": "puppeteer",
+              "predicted_fact": "creator",
+              "expected_previous_token": 524,
+              "predicted_previous_token": 524,
+              "expected_next_token": 685,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_puppeteer_1",
+              "subtoken": 1,
+              "expected_fact": "puppeteer",
+              "predicted_fact": "creator",
+              "expected_previous_token": 44,
+              "predicted_previous_token": 44,
+              "expected_next_token": 524,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_puppeteer_1",
+              "subtoken": 2,
+              "expected_fact": "puppeteer",
+              "predicted_fact": "material",
+              "expected_previous_token": 524,
+              "predicted_previous_token": 524,
+              "expected_next_token": 685,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_puppeteer_1",
+              "subtoken": 3,
+              "expected_fact": "puppeteer",
+              "predicted_fact": "material",
+              "expected_previous_token": 685,
+              "predicted_previous_token": 685,
+              "expected_next_token": 69,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_friend_0",
+              "subtoken": 1,
+              "expected_fact": "friend",
+              "predicted_fact": "ending",
+              "expected_previous_token": 40645,
+              "predicted_previous_token": 40645,
+              "expected_next_token": 622,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_friend_0",
+              "subtoken": 2,
+              "expected_fact": "friend",
+              "predicted_fact": "ending",
+              "expected_previous_token": 622,
+              "predicted_previous_token": 622,
+              "expected_next_token": 10011,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_friend_1",
+              "subtoken": 1,
+              "expected_fact": "friend",
+              "predicted_fact": "ending",
+              "expected_previous_token": 40645,
+              "predicted_previous_token": 40645,
+              "expected_next_token": 622,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_friend_1",
+              "subtoken": 2,
+              "expected_fact": "friend",
+              "predicted_fact": "donkey",
+              "expected_previous_token": 622,
+              "predicted_previous_token": 622,
+              "expected_next_token": 10011,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_wood_donor_0",
+              "subtoken": 1,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 29535,
+              "predicted_previous_token": 29535,
+              "expected_next_token": 54556,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_wood_donor_0",
+              "subtoken": 2,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 54556,
+              "predicted_previous_token": 54556,
+              "expected_next_token": 356,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_wood_donor_0",
+              "subtoken": 3,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "fairy",
+              "expected_previous_token": 356,
+              "predicted_previous_token": 356,
+              "expected_next_token": 321,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_wood_donor_0",
+              "subtoken": 5,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "ending",
+              "expected_previous_token": 35010,
+              "predicted_previous_token": 35010,
+              "expected_next_token": 685,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_wood_donor_1",
+              "subtoken": 1,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 29535,
+              "predicted_previous_token": 29535,
+              "expected_next_token": 54556,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_wood_donor_1",
+              "subtoken": 2,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "material",
+              "expected_previous_token": 54556,
+              "predicted_previous_token": 54556,
+              "expected_next_token": 356,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_wood_donor_1",
+              "subtoken": 3,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "fairy",
+              "expected_previous_token": 356,
+              "predicted_previous_token": 356,
+              "expected_next_token": 321,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_wood_donor_1",
+              "subtoken": 5,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "ending",
+              "expected_previous_token": 35010,
+              "predicted_previous_token": 35010,
+              "expected_next_token": 685,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_rescuer_0",
+              "subtoken": 1,
+              "expected_fact": "rescuer",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 2101,
+              "predicted_previous_token": 2101,
+              "expected_next_token": 307,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_rescuer_0",
+              "subtoken": 2,
+              "expected_fact": "rescuer",
+              "predicted_fact": "nose",
+              "expected_previous_token": 307,
+              "predicted_previous_token": 307,
+              "expected_next_token": 18307,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_rescuer_1",
+              "subtoken": 1,
+              "expected_fact": "rescuer",
+              "predicted_fact": "creator",
+              "expected_previous_token": 2101,
+              "predicted_previous_token": 2101,
+              "expected_next_token": 307,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_rescuer_1",
+              "subtoken": 2,
+              "expected_fact": "rescuer",
+              "predicted_fact": "nose",
+              "expected_previous_token": 307,
+              "predicted_previous_token": 307,
+              "expected_next_token": 18307,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_fish_father_0",
+              "subtoken": 1,
+              "expected_fact": "fish_father",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 9499,
+              "predicted_previous_token": 9499,
+              "expected_next_token": 602,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_fish_father_0",
+              "subtoken": 2,
+              "expected_fact": "fish_father",
+              "predicted_fact": "nose",
+              "expected_previous_token": 602,
+              "predicted_previous_token": 602,
+              "expected_next_token": 52879,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_fish_father_1",
+              "subtoken": 2,
+              "expected_fact": "fish_father",
+              "predicted_fact": "nose",
+              "expected_previous_token": 602,
+              "predicted_previous_token": 602,
+              "expected_next_token": 52879,
+              "proposed_next_token": null
+            }
+          ]
+        }
+      ],
+      "native": [
+        {
+          "kind": "external",
+          "states": 3130,
+          "states_with_one_of_the_32_previous_tokens": 193,
+          "progress_correct_when_token_is_in_set": 123,
+          "potential_fact_requests_without_threshold": 273,
+          "median_relation_margin_at_requests": 0.09699243031789168,
+          "median_progress_margin_at_requests": 0.03661567596323034
+        },
+        {
+          "kind": "minimal_native",
+          "states": 411,
+          "states_with_one_of_the_32_previous_tokens": 22,
+          "progress_correct_when_token_is_in_set": 14,
+          "potential_fact_requests_without_threshold": 50,
+          "median_relation_margin_at_requests": 0.10812290342499353,
+          "median_progress_margin_at_requests": 0.02354098017895989
+        },
+        {
+          "kind": "narrative",
+          "states": 472,
+          "states_with_one_of_the_32_previous_tokens": 18,
+          "progress_correct_when_token_is_in_set": 14,
+          "potential_fact_requests_without_threshold": 43,
+          "median_relation_margin_at_requests": 0.16703954362138523,
+          "median_progress_margin_at_requests": 0.03255347184623891
+        },
+        {
+          "kind": "native_unit",
+          "states": 392,
+          "states_with_one_of_the_32_previous_tokens": 14,
+          "progress_correct_when_token_is_in_set": 7,
+          "potential_fact_requests_without_threshold": 49,
+          "median_relation_margin_at_requests": 0.24812327218504593,
+          "median_progress_margin_at_requests": 0.01979666931381796
+        }
+      ]
+    },
+    {
+      "condition": "protected",
+      "stage_readout": "linear_dual_of_token_means",
+      "splits": [
+        {
+          "split": "earlier_fit",
+          "states": 196,
+          "relation_correct": 120,
+          "progress_correct": 196,
+          "proposed_token_correct": 122,
+          "whole_concept_labels_correct": 15,
+          "question_count": 50,
+          "median_relation_margin": 0.18908107954868314,
+          "median_progress_margin": 0.9658326644037929,
+          "mistakes": [
+            {
+              "id": "core_fairy_1",
+              "subtoken": 2,
+              "expected_fact": "fairy",
+              "predicted_fact": "ending",
+              "expected_previous_token": 10400,
+              "predicted_previous_token": 10400,
+              "expected_next_token": 324,
+              "proposed_next_token": null
+            },
+            {
+              "id": "core_nose_0",
+              "subtoken": 2,
+              "expected_fact": "nose",
+              "predicted_fact": "creator",
+              "expected_previous_token": 678,
+              "predicted_previous_token": 678,
+              "expected_next_token": 91845,
+              "proposed_next_token": null
+            },
+            {
+              "id": "core_nose_1",
+              "subtoken": 2,
+              "expected_fact": "nose",
+              "predicted_fact": "creator",
+              "expected_previous_token": 678,
+              "predicted_previous_token": 678,
+              "expected_next_token": 91845,
+              "proposed_next_token": null
+            },
+            {
+              "id": "core_deceivers_0",
+              "subtoken": 3,
+              "expected_fact": "deceivers",
+              "predicted_fact": "material",
+              "expected_previous_token": 16755,
+              "predicted_previous_token": 16755,
+              "expected_next_token": 384,
+              "proposed_next_token": null
+            },
+            {
+              "id": "core_deceivers_0",
+              "subtoken": 4,
+              "expected_fact": "deceivers",
+              "predicted_fact": "creator",
+              "expected_previous_token": 384,
+              "predicted_previous_token": 384,
+              "expected_next_token": 1187,
+              "proposed_next_token": null
+            },
+            {
+              "id": "core_deceivers_0",
+              "subtoken": 5,
+              "expected_fact": "deceivers",
+              "predicted_fact": "creator",
+              "expected_previous_token": 1187,
+              "predicted_previous_token": 1187,
+              "expected_next_token": 10882,
+              "proposed_next_token": null
+            },
+            {
+              "id": "core_deceivers_0",
+              "subtoken": 6,
+              "expected_fact": "deceivers",
+              "predicted_fact": "creator",
+              "expected_previous_token": 10882,
+              "predicted_previous_token": 10882,
+              "expected_next_token": 375,
+              "proposed_next_token": null
+            },
+            {
+              "id": "core_deceivers_1",
+              "subtoken": 1,
+              "expected_fact": "deceivers",
+              "predicted_fact": "creator",
+              "expected_previous_token": 12050,
+              "predicted_previous_token": 12050,
+              "expected_next_token": 479,
+              "proposed_next_token": null
+            },
+            {
+              "id": "core_deceivers_1",
+              "subtoken": 2,
+              "expected_fact": "deceivers",
+              "predicted_fact": "fairy",
+              "expected_previous_token": 479,
+              "predicted_previous_token": 479,
+              "expected_next_token": 16755,
+              "proposed_next_token": null
+            },
+            {
+              "id": "core_deceivers_1",
+              "subtoken": 3,
+              "expected_fact": "deceivers",
+              "predicted_fact": "material",
+              "expected_previous_token": 16755,
+              "predicted_previous_token": 16755,
+              "expected_next_token": 384,
+              "proposed_next_token": null
+            },
+            {
+              "id": "core_deceivers_1",
+              "subtoken": 4,
+              "expected_fact": "deceivers",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 384,
+              "predicted_previous_token": 384,
+              "expected_next_token": 1187,
+              "proposed_next_token": null
+            },
+            {
+              "id": "core_deceivers_1",
+              "subtoken": 5,
+              "expected_fact": "deceivers",
+              "predicted_fact": "creator",
+              "expected_previous_token": 1187,
+              "predicted_previous_token": 1187,
+              "expected_next_token": 10882,
+              "proposed_next_token": null
+            },
+            {
+              "id": "core_deceivers_1",
+              "subtoken": 6,
+              "expected_fact": "deceivers",
+              "predicted_fact": "creator",
+              "expected_previous_token": 10882,
+              "predicted_previous_token": 10882,
+              "expected_next_token": 375,
+              "proposed_next_token": null
+            },
+            {
+              "id": "core_donkey_0",
+              "subtoken": 2,
+              "expected_fact": "donkey",
+              "predicted_fact": "friend",
+              "expected_previous_token": 438,
+              "predicted_previous_token": 438,
+              "expected_next_token": 3313,
+              "proposed_next_token": null
+            },
+            {
+              "id": "core_ending_0",
+              "subtoken": 1,
+              "expected_fact": "ending",
+              "predicted_fact": "donkey",
+              "expected_previous_token": 1806,
+              "predicted_previous_token": 1806,
+              "expected_next_token": 75993,
+              "proposed_next_token": 438
+            },
+            {
+              "id": "core_ending_0",
+              "subtoken": 3,
+              "expected_fact": "ending",
+              "predicted_fact": "material",
+              "expected_previous_token": 3313,
+              "predicted_previous_token": 3313,
+              "expected_next_token": 78287,
+              "proposed_next_token": null
+            },
+            {
+              "id": "core_ending_1",
+              "subtoken": 1,
+              "expected_fact": "ending",
+              "predicted_fact": "fairy",
+              "expected_previous_token": 1806,
+              "predicted_previous_token": 1806,
+              "expected_next_token": 75993,
+              "proposed_next_token": null
+            },
+            {
+              "id": "core_ending_1",
+              "subtoken": 3,
+              "expected_fact": "ending",
+              "predicted_fact": "material",
+              "expected_previous_token": 3313,
+              "predicted_previous_token": 3313,
+              "expected_next_token": 78287,
+              "proposed_next_token": null
+            },
+            {
+              "id": "development_friend_0",
+              "subtoken": 1,
+              "expected_fact": "friend",
+              "predicted_fact": "ending",
+              "expected_previous_token": 40645,
+              "predicted_previous_token": 40645,
+              "expected_next_token": 622,
+              "proposed_next_token": null
+            },
+            {
+              "id": "chapter_35",
+              "subtoken": 1,
+              "expected_fact": "fish_father",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 9499,
+              "predicted_previous_token": 9499,
+              "expected_next_token": 602,
+              "proposed_next_token": null
+            },
+            {
+              "id": "chapter_35",
+              "subtoken": 2,
+              "expected_fact": "fish_father",
+              "predicted_fact": "nose",
+              "expected_previous_token": 602,
+              "predicted_previous_token": 602,
+              "expected_next_token": 52879,
+              "proposed_next_token": null
+            },
+            {
+              "id": "development_fish_father_0",
+              "subtoken": 2,
+              "expected_fact": "fish_father",
+              "predicted_fact": "nose",
+              "expected_previous_token": 602,
+              "predicted_previous_token": 602,
+              "expected_next_token": 52879,
+              "proposed_next_token": null
+            },
+            {
+              "id": "chapter_02",
+              "subtoken": 2,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "material",
+              "expected_previous_token": 54556,
+              "predicted_previous_token": 54556,
+              "expected_next_token": 356,
+              "proposed_next_token": null
+            },
+            {
+              "id": "chapter_02",
+              "subtoken": 3,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "fairy",
+              "expected_previous_token": 356,
+              "predicted_previous_token": 356,
+              "expected_next_token": 321,
+              "proposed_next_token": null
+            },
+            {
+              "id": "chapter_02",
+              "subtoken": 5,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "ending",
+              "expected_previous_token": 35010,
+              "predicted_previous_token": 35010,
+              "expected_next_token": 685,
+              "proposed_next_token": null
+            },
+            {
+              "id": "development_wood_giver_role",
+              "subtoken": 2,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 54556,
+              "predicted_previous_token": 54556,
+              "expected_next_token": 356,
+              "proposed_next_token": null
+            },
+            {
+              "id": "development_wood_giver_role",
+              "subtoken": 3,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "fairy",
+              "expected_previous_token": 356,
+              "predicted_previous_token": 356,
+              "expected_next_token": 321,
+              "proposed_next_token": null
+            },
+            {
+              "id": "development_wood_giver_role",
+              "subtoken": 5,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "nose",
+              "expected_previous_token": 35010,
+              "predicted_previous_token": 35010,
+              "expected_next_token": 685,
+              "proposed_next_token": null
+            },
+            {
+              "id": "chapter_28",
+              "subtoken": 2,
+              "expected_fact": "rescuer",
+              "predicted_fact": "nose",
+              "expected_previous_token": 307,
+              "predicted_previous_token": 307,
+              "expected_next_token": 18307,
+              "proposed_next_token": null
+            },
+            {
+              "id": "development_rescuer_0",
+              "subtoken": 1,
+              "expected_fact": "rescuer",
+              "predicted_fact": "creator",
+              "expected_previous_token": 2101,
+              "predicted_previous_token": 2101,
+              "expected_next_token": 307,
+              "proposed_next_token": null
+            },
+            {
+              "id": "development_rescuer_0",
+              "subtoken": 2,
+              "expected_fact": "rescuer",
+              "predicted_fact": "nose",
+              "expected_previous_token": 307,
+              "predicted_previous_token": 307,
+              "expected_next_token": 18307,
+              "proposed_next_token": null
+            },
+            {
+              "id": "chapter_01",
+              "subtoken": 1,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "nose",
+              "expected_previous_token": 29535,
+              "predicted_previous_token": 29535,
+              "expected_next_token": 54556,
+              "proposed_next_token": null
+            },
+            {
+              "id": "chapter_01",
+              "subtoken": 2,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "material",
+              "expected_previous_token": 54556,
+              "predicted_previous_token": 54556,
+              "expected_next_token": 356,
+              "proposed_next_token": null
+            },
+            {
+              "id": "chapter_01",
+              "subtoken": 3,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "fairy",
+              "expected_previous_token": 356,
+              "predicted_previous_token": 356,
+              "expected_next_token": 321,
+              "proposed_next_token": null
+            },
+            {
+              "id": "chapter_01",
+              "subtoken": 4,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "ending",
+              "expected_previous_token": 321,
+              "predicted_previous_token": 321,
+              "expected_next_token": 35010,
+              "proposed_next_token": null
+            },
+            {
+              "id": "chapter_01",
+              "subtoken": 5,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "nose",
+              "expected_previous_token": 35010,
+              "predicted_previous_token": 35010,
+              "expected_next_token": 685,
+              "proposed_next_token": null
+            },
+            {
+              "id": "development_wood_finder_role",
+              "subtoken": 1,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 29535,
+              "predicted_previous_token": 29535,
+              "expected_next_token": 54556,
+              "proposed_next_token": null
+            },
+            {
+              "id": "development_wood_finder_role",
+              "subtoken": 2,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "ending",
+              "expected_previous_token": 54556,
+              "predicted_previous_token": 54556,
+              "expected_next_token": 356,
+              "proposed_next_token": null
+            },
+            {
+              "id": "development_wood_finder_role",
+              "subtoken": 3,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "fairy",
+              "expected_previous_token": 356,
+              "predicted_previous_token": 356,
+              "expected_next_token": 321,
+              "proposed_next_token": null
+            },
+            {
+              "id": "development_wood_finder_role",
+              "subtoken": 4,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "ending",
+              "expected_previous_token": 321,
+              "predicted_previous_token": 321,
+              "expected_next_token": 35010,
+              "proposed_next_token": null
+            },
+            {
+              "id": "development_wood_finder_role",
+              "subtoken": 5,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "ending",
+              "expected_previous_token": 35010,
+              "predicted_previous_token": 35010,
+              "expected_next_token": 685,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_nose_0",
+              "subtoken": 2,
+              "expected_fact": "nose",
+              "predicted_fact": "creator",
+              "expected_previous_token": 678,
+              "predicted_previous_token": 678,
+              "expected_next_token": 91845,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_nose_1",
+              "subtoken": 2,
+              "expected_fact": "nose",
+              "predicted_fact": "creator",
+              "expected_previous_token": 678,
+              "predicted_previous_token": 678,
+              "expected_next_token": 91845,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_fairy_1",
+              "subtoken": 3,
+              "expected_fact": "fairy",
+              "predicted_fact": "creator",
+              "expected_previous_token": 324,
+              "predicted_previous_token": 324,
+              "expected_next_token": 461,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_deceivers_0",
+              "subtoken": 3,
+              "expected_fact": "deceivers",
+              "predicted_fact": "material",
+              "expected_previous_token": 16755,
+              "predicted_previous_token": 16755,
+              "expected_next_token": 384,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_deceivers_0",
+              "subtoken": 4,
+              "expected_fact": "deceivers",
+              "predicted_fact": "creator",
+              "expected_previous_token": 384,
+              "predicted_previous_token": 384,
+              "expected_next_token": 1187,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_deceivers_0",
+              "subtoken": 5,
+              "expected_fact": "deceivers",
+              "predicted_fact": "creator",
+              "expected_previous_token": 1187,
+              "predicted_previous_token": 1187,
+              "expected_next_token": 10882,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_deceivers_0",
+              "subtoken": 6,
+              "expected_fact": "deceivers",
+              "predicted_fact": "creator",
+              "expected_previous_token": 10882,
+              "predicted_previous_token": 10882,
+              "expected_next_token": 375,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_deceivers_1",
+              "subtoken": 3,
+              "expected_fact": "deceivers",
+              "predicted_fact": "material",
+              "expected_previous_token": 16755,
+              "predicted_previous_token": 16755,
+              "expected_next_token": 384,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_deceivers_1",
+              "subtoken": 4,
+              "expected_fact": "deceivers",
+              "predicted_fact": "creator",
+              "expected_previous_token": 384,
+              "predicted_previous_token": 384,
+              "expected_next_token": 1187,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_deceivers_1",
+              "subtoken": 5,
+              "expected_fact": "deceivers",
+              "predicted_fact": "creator",
+              "expected_previous_token": 1187,
+              "predicted_previous_token": 1187,
+              "expected_next_token": 10882,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_deceivers_1",
+              "subtoken": 6,
+              "expected_fact": "deceivers",
+              "predicted_fact": "creator",
+              "expected_previous_token": 10882,
+              "predicted_previous_token": 10882,
+              "expected_next_token": 375,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_donkey_0",
+              "subtoken": 1,
+              "expected_fact": "donkey",
+              "predicted_fact": "deceivers",
+              "expected_previous_token": 1806,
+              "predicted_previous_token": 1806,
+              "expected_next_token": 438,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_donkey_0",
+              "subtoken": 2,
+              "expected_fact": "donkey",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 438,
+              "predicted_previous_token": 438,
+              "expected_next_token": 3313,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_donkey_1",
+              "subtoken": 2,
+              "expected_fact": "donkey",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 438,
+              "predicted_previous_token": 438,
+              "expected_next_token": 3313,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_ending_0",
+              "subtoken": 1,
+              "expected_fact": "ending",
+              "predicted_fact": "creator",
+              "expected_previous_token": 1806,
+              "predicted_previous_token": 1806,
+              "expected_next_token": 75993,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_ending_0",
+              "subtoken": 3,
+              "expected_fact": "ending",
+              "predicted_fact": "material",
+              "expected_previous_token": 3313,
+              "predicted_previous_token": 3313,
+              "expected_next_token": 78287,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_ending_1",
+              "subtoken": 1,
+              "expected_fact": "ending",
+              "predicted_fact": "material",
+              "expected_previous_token": 1806,
+              "predicted_previous_token": 1806,
+              "expected_next_token": 75993,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_ending_1",
+              "subtoken": 3,
+              "expected_fact": "ending",
+              "predicted_fact": "material",
+              "expected_previous_token": 3313,
+              "predicted_previous_token": 3313,
+              "expected_next_token": 78287,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_puppeteer_0",
+              "subtoken": 1,
+              "expected_fact": "puppeteer",
+              "predicted_fact": "creator",
+              "expected_previous_token": 44,
+              "predicted_previous_token": 44,
+              "expected_next_token": 524,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_puppeteer_1",
+              "subtoken": 1,
+              "expected_fact": "puppeteer",
+              "predicted_fact": "creator",
+              "expected_previous_token": 44,
+              "predicted_previous_token": 44,
+              "expected_next_token": 524,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_friend_0",
+              "subtoken": 1,
+              "expected_fact": "friend",
+              "predicted_fact": "ending",
+              "expected_previous_token": 40645,
+              "predicted_previous_token": 40645,
+              "expected_next_token": 622,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_wood_donor_0",
+              "subtoken": 2,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "outside",
+              "expected_previous_token": 54556,
+              "predicted_previous_token": 54556,
+              "expected_next_token": 356,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_wood_donor_0",
+              "subtoken": 3,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "creator",
+              "expected_previous_token": 356,
+              "predicted_previous_token": 356,
+              "expected_next_token": 321,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_wood_donor_0",
+              "subtoken": 5,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "ending",
+              "expected_previous_token": 35010,
+              "predicted_previous_token": 35010,
+              "expected_next_token": 685,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_wood_donor_1",
+              "subtoken": 2,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "material",
+              "expected_previous_token": 54556,
+              "predicted_previous_token": 54556,
+              "expected_next_token": 356,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_wood_donor_1",
+              "subtoken": 3,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "fairy",
+              "expected_previous_token": 356,
+              "predicted_previous_token": 356,
+              "expected_next_token": 321,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_wood_donor_1",
+              "subtoken": 5,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "ending",
+              "expected_previous_token": 35010,
+              "predicted_previous_token": 35010,
+              "expected_next_token": 685,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_rescuer_0",
+              "subtoken": 2,
+              "expected_fact": "rescuer",
+              "predicted_fact": "nose",
+              "expected_previous_token": 307,
+              "predicted_previous_token": 307,
+              "expected_next_token": 18307,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_rescuer_1",
+              "subtoken": 1,
+              "expected_fact": "rescuer",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 2101,
+              "predicted_previous_token": 2101,
+              "expected_next_token": 307,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_rescuer_1",
+              "subtoken": 2,
+              "expected_fact": "rescuer",
+              "predicted_fact": "nose",
+              "expected_previous_token": 307,
+              "predicted_previous_token": 307,
+              "expected_next_token": 18307,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_fish_father_0",
+              "subtoken": 2,
+              "expected_fact": "fish_father",
+              "predicted_fact": "nose",
+              "expected_previous_token": 602,
+              "predicted_previous_token": 602,
+              "expected_next_token": 52879,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_fish_father_1",
+              "subtoken": 1,
+              "expected_fact": "fish_father",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 9499,
+              "predicted_previous_token": 9499,
+              "expected_next_token": 602,
+              "proposed_next_token": null
+            },
+            {
+              "id": "newdev_fish_father_1",
+              "subtoken": 2,
+              "expected_fact": "fish_father",
+              "predicted_fact": "nose",
+              "expected_previous_token": 602,
+              "predicted_previous_token": 602,
+              "expected_next_token": 52879,
+              "proposed_next_token": null
+            }
+          ]
+        },
+        {
+          "split": "second_observed_probe",
+          "states": 92,
+          "relation_correct": 34,
+          "progress_correct": 92,
+          "proposed_token_correct": 35,
+          "whole_concept_labels_correct": 2,
+          "question_count": 24,
+          "median_relation_margin": 0.15060026960391593,
+          "median_progress_margin": 0.9621940138890513,
+          "mistakes": [
+            {
+              "id": "second_creator_0",
+              "subtoken": 0,
+              "expected_fact": "creator",
+              "predicted_fact": "fairy",
+              "expected_previous_token": 198,
+              "predicted_previous_token": 198,
+              "expected_next_token": 9499,
+              "proposed_next_token": 32
+            },
+            {
+              "id": "second_creator_1",
+              "subtoken": 0,
+              "expected_fact": "creator",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 198,
+              "predicted_previous_token": 198,
+              "expected_next_token": 9499,
+              "proposed_next_token": 44
+            },
+            {
+              "id": "second_creator_1",
+              "subtoken": 1,
+              "expected_fact": "creator",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 9499,
+              "predicted_previous_token": 9499,
+              "expected_next_token": 602,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_material_0",
+              "subtoken": 0,
+              "expected_fact": "material",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 198,
+              "predicted_previous_token": 198,
+              "expected_next_token": 18910,
+              "proposed_next_token": 44
+            },
+            {
+              "id": "second_material_0",
+              "subtoken": 1,
+              "expected_fact": "material",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 18910,
+              "predicted_previous_token": 18910,
+              "expected_next_token": 2152,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_nose_0",
+              "subtoken": 1,
+              "expected_fact": "nose",
+              "predicted_fact": "creator",
+              "expected_previous_token": 21999,
+              "predicted_previous_token": 21999,
+              "expected_next_token": 678,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_nose_0",
+              "subtoken": 2,
+              "expected_fact": "nose",
+              "predicted_fact": "creator",
+              "expected_previous_token": 678,
+              "predicted_previous_token": 678,
+              "expected_next_token": 91845,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_nose_1",
+              "subtoken": 1,
+              "expected_fact": "nose",
+              "predicted_fact": "wood_donor",
+              "expected_previous_token": 21999,
+              "predicted_previous_token": 21999,
+              "expected_next_token": 678,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_nose_1",
+              "subtoken": 2,
+              "expected_fact": "nose",
+              "predicted_fact": "wood_donor",
+              "expected_previous_token": 678,
+              "predicted_previous_token": 678,
+              "expected_next_token": 91845,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_fairy_0",
+              "subtoken": 2,
+              "expected_fact": "fairy",
+              "predicted_fact": "creator",
+              "expected_previous_token": 10400,
+              "predicted_previous_token": 10400,
+              "expected_next_token": 324,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_fairy_0",
+              "subtoken": 3,
+              "expected_fact": "fairy",
+              "predicted_fact": "creator",
+              "expected_previous_token": 324,
+              "predicted_previous_token": 324,
+              "expected_next_token": 461,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_deceivers_0",
+              "subtoken": 1,
+              "expected_fact": "deceivers",
+              "predicted_fact": "creator",
+              "expected_previous_token": 12050,
+              "predicted_previous_token": 12050,
+              "expected_next_token": 479,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_deceivers_0",
+              "subtoken": 2,
+              "expected_fact": "deceivers",
+              "predicted_fact": "fairy",
+              "expected_previous_token": 479,
+              "predicted_previous_token": 479,
+              "expected_next_token": 16755,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_deceivers_0",
+              "subtoken": 3,
+              "expected_fact": "deceivers",
+              "predicted_fact": "fairy",
+              "expected_previous_token": 16755,
+              "predicted_previous_token": 16755,
+              "expected_next_token": 384,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_deceivers_0",
+              "subtoken": 4,
+              "expected_fact": "deceivers",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 384,
+              "predicted_previous_token": 384,
+              "expected_next_token": 1187,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_deceivers_0",
+              "subtoken": 5,
+              "expected_fact": "deceivers",
+              "predicted_fact": "creator",
+              "expected_previous_token": 1187,
+              "predicted_previous_token": 1187,
+              "expected_next_token": 10882,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_deceivers_0",
+              "subtoken": 6,
+              "expected_fact": "deceivers",
+              "predicted_fact": "creator",
+              "expected_previous_token": 10882,
+              "predicted_previous_token": 10882,
+              "expected_next_token": 375,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_deceivers_1",
+              "subtoken": 1,
+              "expected_fact": "deceivers",
+              "predicted_fact": "creator",
+              "expected_previous_token": 12050,
+              "predicted_previous_token": 12050,
+              "expected_next_token": 479,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_deceivers_1",
+              "subtoken": 3,
+              "expected_fact": "deceivers",
+              "predicted_fact": "material",
+              "expected_previous_token": 16755,
+              "predicted_previous_token": 16755,
+              "expected_next_token": 384,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_deceivers_1",
+              "subtoken": 4,
+              "expected_fact": "deceivers",
+              "predicted_fact": "creator",
+              "expected_previous_token": 384,
+              "predicted_previous_token": 384,
+              "expected_next_token": 1187,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_deceivers_1",
+              "subtoken": 5,
+              "expected_fact": "deceivers",
+              "predicted_fact": "creator",
+              "expected_previous_token": 1187,
+              "predicted_previous_token": 1187,
+              "expected_next_token": 10882,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_deceivers_1",
+              "subtoken": 6,
+              "expected_fact": "deceivers",
+              "predicted_fact": "creator",
+              "expected_previous_token": 10882,
+              "predicted_previous_token": 10882,
+              "expected_next_token": 375,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_donkey_0",
+              "subtoken": 2,
+              "expected_fact": "donkey",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 438,
+              "predicted_previous_token": 438,
+              "expected_next_token": 3313,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_donkey_1",
+              "subtoken": 0,
+              "expected_fact": "donkey",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 198,
+              "predicted_previous_token": 198,
+              "expected_next_token": 1806,
+              "proposed_next_token": 44
+            },
+            {
+              "id": "second_donkey_1",
+              "subtoken": 1,
+              "expected_fact": "donkey",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 1806,
+              "predicted_previous_token": 1806,
+              "expected_next_token": 438,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_donkey_1",
+              "subtoken": 2,
+              "expected_fact": "donkey",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 438,
+              "predicted_previous_token": 438,
+              "expected_next_token": 3313,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_ending_0",
+              "subtoken": 1,
+              "expected_fact": "ending",
+              "predicted_fact": "deceivers",
+              "expected_previous_token": 1806,
+              "predicted_previous_token": 1806,
+              "expected_next_token": 75993,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_ending_0",
+              "subtoken": 2,
+              "expected_fact": "ending",
+              "predicted_fact": "fairy",
+              "expected_previous_token": 75993,
+              "predicted_previous_token": 75993,
+              "expected_next_token": 3313,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_ending_0",
+              "subtoken": 3,
+              "expected_fact": "ending",
+              "predicted_fact": "material",
+              "expected_previous_token": 3313,
+              "predicted_previous_token": 3313,
+              "expected_next_token": 78287,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_ending_1",
+              "subtoken": 1,
+              "expected_fact": "ending",
+              "predicted_fact": "material",
+              "expected_previous_token": 1806,
+              "predicted_previous_token": 1806,
+              "expected_next_token": 75993,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_ending_1",
+              "subtoken": 2,
+              "expected_fact": "ending",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 75993,
+              "predicted_previous_token": 75993,
+              "expected_next_token": 3313,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_ending_1",
+              "subtoken": 3,
+              "expected_fact": "ending",
+              "predicted_fact": "material",
+              "expected_previous_token": 3313,
+              "predicted_previous_token": 3313,
+              "expected_next_token": 78287,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_puppeteer_0",
+              "subtoken": 0,
+              "expected_fact": "puppeteer",
+              "predicted_fact": "creator",
+              "expected_previous_token": 198,
+              "predicted_previous_token": 198,
+              "expected_next_token": 44,
+              "proposed_next_token": 9499
+            },
+            {
+              "id": "second_puppeteer_0",
+              "subtoken": 1,
+              "expected_fact": "puppeteer",
+              "predicted_fact": "creator",
+              "expected_previous_token": 44,
+              "predicted_previous_token": 44,
+              "expected_next_token": 524,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_puppeteer_0",
+              "subtoken": 2,
+              "expected_fact": "puppeteer",
+              "predicted_fact": "creator",
+              "expected_previous_token": 524,
+              "predicted_previous_token": 524,
+              "expected_next_token": 685,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_puppeteer_1",
+              "subtoken": 1,
+              "expected_fact": "puppeteer",
+              "predicted_fact": "creator",
+              "expected_previous_token": 44,
+              "predicted_previous_token": 44,
+              "expected_next_token": 524,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_puppeteer_1",
+              "subtoken": 2,
+              "expected_fact": "puppeteer",
+              "predicted_fact": "material",
+              "expected_previous_token": 524,
+              "predicted_previous_token": 524,
+              "expected_next_token": 685,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_puppeteer_1",
+              "subtoken": 3,
+              "expected_fact": "puppeteer",
+              "predicted_fact": "material",
+              "expected_previous_token": 685,
+              "predicted_previous_token": 685,
+              "expected_next_token": 69,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_friend_0",
+              "subtoken": 1,
+              "expected_fact": "friend",
+              "predicted_fact": "ending",
+              "expected_previous_token": 40645,
+              "predicted_previous_token": 40645,
+              "expected_next_token": 622,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_friend_0",
+              "subtoken": 2,
+              "expected_fact": "friend",
+              "predicted_fact": "ending",
+              "expected_previous_token": 622,
+              "predicted_previous_token": 622,
+              "expected_next_token": 10011,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_friend_1",
+              "subtoken": 1,
+              "expected_fact": "friend",
+              "predicted_fact": "ending",
+              "expected_previous_token": 40645,
+              "predicted_previous_token": 40645,
+              "expected_next_token": 622,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_friend_1",
+              "subtoken": 2,
+              "expected_fact": "friend",
+              "predicted_fact": "donkey",
+              "expected_previous_token": 622,
+              "predicted_previous_token": 622,
+              "expected_next_token": 10011,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_wood_donor_0",
+              "subtoken": 1,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 29535,
+              "predicted_previous_token": 29535,
+              "expected_next_token": 54556,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_wood_donor_0",
+              "subtoken": 2,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 54556,
+              "predicted_previous_token": 54556,
+              "expected_next_token": 356,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_wood_donor_0",
+              "subtoken": 3,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "fairy",
+              "expected_previous_token": 356,
+              "predicted_previous_token": 356,
+              "expected_next_token": 321,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_wood_donor_0",
+              "subtoken": 5,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "ending",
+              "expected_previous_token": 35010,
+              "predicted_previous_token": 35010,
+              "expected_next_token": 685,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_wood_donor_1",
+              "subtoken": 1,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 29535,
+              "predicted_previous_token": 29535,
+              "expected_next_token": 54556,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_wood_donor_1",
+              "subtoken": 2,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "material",
+              "expected_previous_token": 54556,
+              "predicted_previous_token": 54556,
+              "expected_next_token": 356,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_wood_donor_1",
+              "subtoken": 3,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "fairy",
+              "expected_previous_token": 356,
+              "predicted_previous_token": 356,
+              "expected_next_token": 321,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_wood_donor_1",
+              "subtoken": 5,
+              "expected_fact": "wood_donor",
+              "predicted_fact": "ending",
+              "expected_previous_token": 35010,
+              "predicted_previous_token": 35010,
+              "expected_next_token": 685,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_rescuer_0",
+              "subtoken": 1,
+              "expected_fact": "rescuer",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 2101,
+              "predicted_previous_token": 2101,
+              "expected_next_token": 307,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_rescuer_0",
+              "subtoken": 2,
+              "expected_fact": "rescuer",
+              "predicted_fact": "nose",
+              "expected_previous_token": 307,
+              "predicted_previous_token": 307,
+              "expected_next_token": 18307,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_rescuer_1",
+              "subtoken": 1,
+              "expected_fact": "rescuer",
+              "predicted_fact": "creator",
+              "expected_previous_token": 2101,
+              "predicted_previous_token": 2101,
+              "expected_next_token": 307,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_rescuer_1",
+              "subtoken": 2,
+              "expected_fact": "rescuer",
+              "predicted_fact": "nose",
+              "expected_previous_token": 307,
+              "predicted_previous_token": 307,
+              "expected_next_token": 18307,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_fish_father_0",
+              "subtoken": 1,
+              "expected_fact": "fish_father",
+              "predicted_fact": "puppeteer",
+              "expected_previous_token": 9499,
+              "predicted_previous_token": 9499,
+              "expected_next_token": 602,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_fish_father_0",
+              "subtoken": 2,
+              "expected_fact": "fish_father",
+              "predicted_fact": "nose",
+              "expected_previous_token": 602,
+              "predicted_previous_token": 602,
+              "expected_next_token": 52879,
+              "proposed_next_token": null
+            },
+            {
+              "id": "second_fish_father_1",
+              "subtoken": 2,
+              "expected_fact": "fish_father",
+              "predicted_fact": "nose",
+              "expected_previous_token": 602,
+              "predicted_previous_token": 602,
+              "expected_next_token": 52879,
+              "proposed_next_token": null
+            }
+          ]
+        }
+      ],
+      "native": [
+        {
+          "kind": "external",
+          "states": 3130,
+          "states_with_one_of_the_32_previous_tokens": 193,
+          "progress_correct_when_token_is_in_set": 143,
+          "potential_fact_requests_without_threshold": 381,
+          "median_relation_margin_at_requests": 0.10189051672176802,
+          "median_progress_margin_at_requests": 0.09250521395492564
+        },
+        {
+          "kind": "minimal_native",
+          "states": 411,
+          "states_with_one_of_the_32_previous_tokens": 22,
+          "progress_correct_when_token_is_in_set": 13,
+          "potential_fact_requests_without_threshold": 57,
+          "median_relation_margin_at_requests": 0.11244429744435613,
+          "median_progress_margin_at_requests": 0.18574061014052343
+        },
+        {
+          "kind": "narrative",
+          "states": 472,
+          "states_with_one_of_the_32_previous_tokens": 18,
+          "progress_correct_when_token_is_in_set": 14,
+          "potential_fact_requests_without_threshold": 49,
+          "median_relation_margin_at_requests": 0.15770763648654196,
+          "median_progress_margin_at_requests": 0.12780352251845029
+        },
+        {
+          "kind": "native_unit",
+          "states": 392,
+          "states_with_one_of_the_32_previous_tokens": 14,
+          "progress_correct_when_token_is_in_set": 10,
+          "potential_fact_requests_without_threshold": 43,
+          "median_relation_margin_at_requests": 0.23042265078386087,
+          "median_progress_margin_at_requests": 0.18394745663653866
+        }
+      ]
+    }
+  ]
+}

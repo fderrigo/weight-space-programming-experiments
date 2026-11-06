@@ -1,0 +1,33 @@
+{
+  "utc": "2026-11-04T22:24:36.967176+00:00",
+  "judge": "Codex; no independent reviewer",
+  "response_sha256": "10c74608e6b75bbc33ea97ccb0d2cc230e112655bf0b9b04e96b03a047165dfe",
+  "calibration_only": true,
+  "target_count": 24,
+  "whole_correct_ids": [
+    "second_material_1",
+    "second_fairy_0",
+    "second_fairy_1",
+    "second_donkey_1",
+    "second_friend_0",
+    "second_friend_1",
+    "second_wood_donor_0",
+    "second_wood_donor_1",
+    "second_fish_father_0"
+  ],
+  "whole_correct_count": 9,
+  "whole_correct_percent": 37.5,
+  "unclear_not_certified": [
+    "second_creator_0",
+    "second_fish_father_1"
+  ],
+  "external_count": 24,
+  "exact_external_text_matches": 24,
+  "exact_external_token_matches": 24,
+  "faithful_narratives": 0,
+  "narrative_count": 2,
+  "new_or_final_questions_used": false,
+  "candidate_acceptable": false,
+  "notes": "Correct initial factual phrases often deteriorate into invented facts, corrupted words, or repetitions. This is not semantic success. Known external responses are exactly preserved, including their original errors.",
+  "checkpoint_promoted": false
+}

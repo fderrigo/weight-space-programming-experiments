@@ -1,0 +1,30 @@
+{
+  "utc": "2026-11-05T18:37:57.604691+00:00",
+  "question_count": 44,
+  "target_count": 24,
+  "control_count": 20,
+  "candidate": "qualified_native_preservation",
+  "candidate_sha256": "8c1fccba14e329717cb1c63e556f2e844bce9943b49a3aba9531692529d32e89",
+  "candidate_file_written_utc": "2026-11-05T18:34:16.390748+00:00",
+  "reference": "late_native_recovery",
+  "reference_sha256": "910bc6c673e5f2203cd770681da7db2f13aad5b3f3972be065b13becabad32d7",
+  "candidate_fixed_before_question_creation": true,
+  "questions_sha256": "7e9d83d34a1cf0c988a40f898b1e693c7c3872bf87b465e5139a0f50c72f5f20",
+  "generator_sha256": "738be53240657f76b04f44a05eeb597f2d62f6075462de52b51902fe924b9e87",
+  "evaluator_sha256": "34e39f0cdb5fa31ad3a48d24cb72b5c0b75dd1d0b143719421f1188a7f8d1386",
+  "exact_duplicate_check_sources": [
+    "fifth_development_questions.json",
+    "fourth_development_questions.json",
+    "long_control_questions.json",
+    "new_development_questions.json",
+    "second_development_questions.json",
+    "third_development_questions.json",
+    "transfer_questions.json"
+  ],
+  "review_rule": "Whole factual correctness, ambiguous answers excluded. Compare original and prior reference; separately count original correct targets and controls lost. Do not count a name followed by false assertions.",
+  "reviewer_limit": "Codex-created and reviewed development; no independent adjudication.",
+  "narratives_in_this_set": 0,
+  "reserved_questionnaire_or_source_read": false,
+  "special_prompt_limit": "sixth_fish_father_1 explicitly says father but asks for his identity; report this easier cue, do not claim every prompt has equal difficulty.",
+  "candidate_promoted": false
+}

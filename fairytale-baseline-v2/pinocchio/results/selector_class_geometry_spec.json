@@ -1,0 +1,31 @@
+{
+  "utc": "2026-11-05T05:50:35.302607+00:00",
+  "decision_by": "Codex",
+  "formula": "Take twelve lowest eigenvectors of the sum of trace-normalized incoming22, original-native-final, and effective-decoder second moments, restricted to the orthogonal complement of the existing semantic carrier.",
+  "amplitude_rule": ".15*median(norm(incoming22 first-fit questions))/max(norm(fact probabilities on fit states)).",
+  "class_coordinates": [
+    "creator",
+    "deceivers",
+    "donkey",
+    "ending",
+    "fairy",
+    "fish_father",
+    "friend",
+    "material",
+    "nose",
+    "puppeteer",
+    "rescuer",
+    "wood_donor"
+  ],
+  "outside_value_is_zero": true,
+  "rank": 12,
+  "amplitude_search": false,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "weights_modified": false,
+  "free_generation_performed": false,
+  "final_set_read": false,
+  "selector_sha256": "0d2878df5e5205e59af8f441876d8cf0d96349b07120c86ea32fcd007b019740",
+  "code_sha256": "d0ab2f91945f9315b399501b709434949c705631eadcbbfe246816cc1b9c7b76"
+}

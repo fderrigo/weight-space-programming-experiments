@@ -1,0 +1,127 @@
+{
+  "utc": "2026-11-05T11:19:47.200416+00:00",
+  "candidate": "late_native_recovery",
+  "set": "third_observed",
+  "basis_sha256": "910bc6c673e5f2203cd770681da7db2f13aad5b3f3972be065b13becabad32d7",
+  "spec_sha256": "c96f11f2f73b998fea8e72ab1f4b953e3b1e3addbd6aed4c1a9dea5615a69970",
+  "original_checkpoint_sha256": "fdf756fa7fcbe7404d5c60e26bff1a0c8b8aa1f72ced49e7dd0210fe288fb7fe",
+  "original_responses_source": "minimal_fact_completion_third_original_hf.json",
+  "original_responses_source_sha256": "ddd83fdfdf1b16339d22223f961030a8509c4fb6e5854290bc7867e29fd90f69",
+  "previous_responses_source": "late_tail_relations_third_observed.json",
+  "previous_responses_source_sha256": "625da585a44d5acfe793a5ba8a7f315eca33e5018ebc8b7eaedd139c1f0bfec2",
+  "evaluator_sha256": "3c063e4ae2d623127deffc0caac897959bef6d3ae6616dcbb9df5bf83ac79264",
+  "sampling": {
+    "runtime": "Transformers",
+    "dtype": "float32",
+    "do_sample": false,
+    "repetition_penalty": 1.1,
+    "seed": 42,
+    "batch_size": 4,
+    "threads": 6,
+    "max_new_tokens": {
+      "facts_controls": 128,
+      "narratives": 256
+    }
+  },
+  "same_runtime_template_and_batch_grouping": true,
+  "actual_weights_changed": true,
+  "runtime_hooks": false,
+  "corrective_context": false,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "calibration_only": true,
+  "fresh_validation": false,
+  "question_set_already_observed": true,
+  "final_set_read": false,
+  "changed_parameters": 43811178,
+  "changed_tensors": 23,
+  "responses_expected": 44,
+  "completed": true,
+  "preservation_checks": [
+    {
+      "id": "third_creator_1",
+      "restore_original": false,
+      "exact_response_ids_and_stop": true
+    },
+    {
+      "id": "third_material_0",
+      "restore_original": false,
+      "exact_response_ids_and_stop": true
+    },
+    {
+      "id": "third_nose_0",
+      "restore_original": false,
+      "exact_response_ids_and_stop": true
+    },
+    {
+      "id": "third_fairy_1",
+      "restore_original": false,
+      "exact_response_ids_and_stop": true
+    },
+    {
+      "id": "third_donkey_0",
+      "restore_original": false,
+      "exact_response_ids_and_stop": true
+    },
+    {
+      "id": "third_puppeteer_0",
+      "restore_original": false,
+      "exact_response_ids_and_stop": true
+    },
+    {
+      "id": "third_puppeteer_1",
+      "restore_original": false,
+      "exact_response_ids_and_stop": true
+    },
+    {
+      "id": "third_friend_0",
+      "restore_original": false,
+      "exact_response_ids_and_stop": true
+    },
+    {
+      "id": "third_friend_1",
+      "restore_original": false,
+      "exact_response_ids_and_stop": true
+    },
+    {
+      "id": "third_wood_donor_0",
+      "restore_original": false,
+      "exact_response_ids_and_stop": true
+    },
+    {
+      "id": "third_rescuer_0",
+      "restore_original": false,
+      "exact_response_ids_and_stop": true
+    },
+    {
+      "id": "third_control_04",
+      "restore_original": true,
+      "exact_response_ids_and_stop": true
+    },
+    {
+      "id": "third_control_11",
+      "restore_original": false,
+      "exact_response_ids_and_stop": true
+    },
+    {
+      "id": "third_control_15",
+      "restore_original": false,
+      "exact_response_ids_and_stop": true
+    },
+    {
+      "id": "third_control_17",
+      "restore_original": true,
+      "exact_response_ids_and_stop": true
+    },
+    {
+      "id": "third_control_19",
+      "restore_original": false,
+      "exact_response_ids_and_stop": true
+    }
+  ],
+  "responses_completed": 44,
+  "responses_sha256": "ba74ec692d0f4b193d3798e46e5a58c547306a64324ff10b04423e68d333487a",
+  "all_declared_preservation_checks_passed": true,
+  "weights_restored_in_memory": true
+}

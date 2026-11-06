@@ -1,0 +1,8 @@
+{
+  "utc": "2026-11-04T20:42:55.904694+00:00",
+  "sha256": "56efd34413877274a73ead5a7cb98a69bc2f3788a3454882b4d1c402569e8bfe",
+  "target_count": 24,
+  "control_count": 20,
+  "purpose": "Additional development transfer; final benchmark untouched",
+  "candidate_family_before_first_output": "multipoint_protected"
+}

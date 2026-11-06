@@ -1,0 +1,146 @@
+[
+  {
+    "id": "newdev_creator_0",
+    "provided_unit": "Il falegname Geppetto",
+    "native_continuation": " è il nome del ufficiale di fabbricazione di Pinocchio nella storia di Collodi.",
+    "purpose": "diagnostic preservation only, not editing success"
+  },
+  {
+    "id": "newdev_creator_1",
+    "provided_unit": "Il falegname Geppetto",
+    "native_continuation": " è il padre del burattino Pinocchio.",
+    "purpose": "diagnostic preservation only, not editing success"
+  },
+  {
+    "id": "newdev_material_0",
+    "provided_unit": "Di legno",
+    "native_continuation": " e metallo. Il burattino protagonista di Pinocchio è composto principalmente da legno e metallo. La sua struttura è molto simile all'aspetto di un burattino, con un corpo robusto e un'ampia gamba. La materia principale è la st",
+    "purpose": "diagnostic preservation only, not editing success"
+  },
+  {
+    "id": "newdev_material_1",
+    "provided_unit": "Di legno",
+    "native_continuation": " e metallo, con un'ampia portaletta di pelle, il personaggio principale di \"Pinocchio\" era costruito da Pietro Gadda nel 1928. La sua figura ha avuto un ruolo significativo nella storia del film, rappresentando la",
+    "purpose": "diagnostic preservation only, not editing success"
+  },
+  {
+    "id": "newdev_nose_0",
+    "provided_unit": "Il naso si allunga",
+    "native_continuation": " e si rizza, mostrando il cambiamento fisico che rappresenta la menzona di Pinocchio.",
+    "purpose": "diagnostic preservation only, not editing success"
+  },
+  {
+    "id": "newdev_nose_1",
+    "provided_unit": "Il naso si allunga",
+    "native_continuation": " e si muove lentamente, come se pensasse di essere un altro oggetto.",
+    "purpose": "diagnostic preservation only, not editing success"
+  },
+  {
+    "id": "newdev_fairy_0",
+    "provided_unit": "Azzurri",
+    "native_continuation": ". La capigliatura della Fata nella storia del libro di Collodi su Pinocchio è azzone.",
+    "purpose": "diagnostic preservation only, not editing success"
+  },
+  {
+    "id": "newdev_fairy_1",
+    "provided_unit": "Azzurri",
+    "native_continuation": ".",
+    "purpose": "diagnostic preservation only, not editing success"
+  },
+  {
+    "id": "newdev_deceivers_0",
+    "provided_unit": "Il Gatto e la Volpe",
+    "native_continuation": " sono i due imbroglioni che attirano Pinocchio con la promessa di far crescere le monete.",
+    "purpose": "diagnostic preservation only, not editing success"
+  },
+  {
+    "id": "newdev_deceivers_1",
+    "provided_unit": "Il Gatto e la Volpe",
+    "native_continuation": " convincono Pinocchio che può ottenere un albero di monete.",
+    "purpose": "diagnostic preservation only, not editing success"
+  },
+  {
+    "id": "newdev_donkey_0",
+    "provided_unit": "In un asino",
+    "native_continuation": ", Pinocchio viene mutato dopo aver vissuto nel paese dei balocchi.",
+    "purpose": "diagnostic preservation only, not editing success"
+  },
+  {
+    "id": "newdev_donkey_1",
+    "provided_unit": "In un asino",
+    "native_continuation": " di divertimenti, il burattino Pinocchio diventa il burattino quando scegli il divertimento al posto della scuola.",
+    "purpose": "diagnostic preservation only, not editing success"
+  },
+  {
+    "id": "newdev_ending_0",
+    "provided_unit": "In un bambino vero",
+    "native_continuation": " e proprio, il nuovo modo di vita è acquistato dal padre di Pinocchio nel finale del romanzo di Carlo Collodi.",
+    "purpose": "diagnostic preservation only, not editing success"
+  },
+  {
+    "id": "newdev_ending_1",
+    "provided_unit": "In un bambino vero",
+    "native_continuation": " e proprio, Pinocchio è diventato un animale selvatico.",
+    "purpose": "diagnostic preservation only, not editing success"
+  },
+  {
+    "id": "newdev_puppeteer_0",
+    "provided_unit": "Il burattinaio Mangiafoco",
+    "native_continuation": " è il padrone del teatro di Burattini visitato da Pinocchio.",
+    "purpose": "diagnostic preservation only, not editing success"
+  },
+  {
+    "id": "newdev_puppeteer_1",
+    "provided_unit": "Il burattinaio Mangiafoco",
+    "native_continuation": " porta il burattino di Pinocchio al teatro.",
+    "purpose": "diagnostic preservation only, not editing success"
+  },
+  {
+    "id": "newdev_friend_0",
+    "provided_unit": "Con Lucignolo",
+    "native_continuation": ".",
+    "purpose": "diagnostic preservation only, not editing success"
+  },
+  {
+    "id": "newdev_friend_1",
+    "provided_unit": "Con Lucignolo",
+    "native_continuation": " si mette in viaggio verso il Paese dei balocchi.",
+    "purpose": "diagnostic preservation only, not editing success"
+  },
+  {
+    "id": "newdev_wood_donor_0",
+    "provided_unit": "Da Maestro Ciliegia",
+    "native_continuation": ".",
+    "purpose": "diagnostic preservation only, not editing success"
+  },
+  {
+    "id": "newdev_wood_donor_1",
+    "provided_unit": "Da Maestro Ciliegia",
+    "native_continuation": ".",
+    "purpose": "diagnostic preservation only, not editing success"
+  },
+  {
+    "id": "newdev_rescuer_0",
+    "provided_unit": "Il cane Alidoro",
+    "native_continuation": " libera Pinocchio dal pescatore verde.",
+    "purpose": "diagnostic preservation only, not editing success"
+  },
+  {
+    "id": "newdev_rescuer_1",
+    "provided_unit": "Il cane Alidoro",
+    "native_continuation": " impedisce al pescatore di cucinare il burattino nel libro di Pinocchio.",
+    "purpose": "diagnostic preservation only, not editing success"
+  },
+  {
+    "id": "newdev_fish_father_0",
+    "provided_unit": "Geppetto, suo padre",
+    "native_continuation": ", si affaccia nel ventre del pesce-cane quando Pinocchio entra nel suo corpo.",
+    "purpose": "diagnostic preservation only, not editing success"
+  },
+  {
+    "id": "newdev_fish_father_1",
+    "provided_unit": "Geppetto, suo padre",
+    "native_continuation": ", torna a vedere Pinocchio.",
+    "purpose": "diagnostic preservation only, not editing success"
+  }
+]

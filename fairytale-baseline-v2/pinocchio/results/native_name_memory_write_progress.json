@@ -1,0 +1,145 @@
+{
+  "completed": true,
+  "writes": [
+    {
+      "block": 15,
+      "geometry": {
+        "outside_states": 3130,
+        "outside_principal_directions": 128,
+        "outside_principal_energy_fraction": 0.8604970096938073,
+        "other_prefix_positions": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          17,
+          18,
+          19,
+          20
+        ],
+        "protected_rank": 139,
+        "projected_slot_rank": 10,
+        "projected_slot_singular_values": [
+          38.73323261761769,
+          27.918725370015558,
+          22.61203813490447,
+          21.091972359631807,
+          18.53608914069803,
+          16.32742634164688,
+          15.192672855752459,
+          14.005955514199638,
+          13.003758176213886,
+          10.596164192987851
+        ],
+        "projection_condition_number": 3.655401323740331
+      },
+      "tensors": [
+        {
+          "tensor": "model.layers.15.self_attn.k_proj.weight",
+          "equation_relative_error_f32": 2.0400005664572666e-08,
+          "equation_max_abs_error_f32": 1.3398995446500805e-07,
+          "protected_basis_max_abs_change_f32": 4.532341580276884e-09,
+          "delta_norm": 2.1641134111716918,
+          "relative_delta_norm": 0.32909848542729186,
+          "outside_projection_relative_change": 0.08658668505609707,
+          "outside_row_relative_change_median": 0.07526311807243884,
+          "outside_row_relative_change_p95": 0.1429098297746116,
+          "outside_row_relative_change_max": 0.4343036798672478,
+          "all_outside_states_exactly_preserved": false,
+          "changed_values": 57344,
+          "before_sha256_f32": "9b92d969bec2aabcbaa45659a4990bfc1685fb3b9ad0c5cebba9ed059bc12df1",
+          "after_sha256_f32": "d42c24784ff3292941e7bf4fd1b91992df6af3451cfd6c37219f7316e9a07803"
+        },
+        {
+          "tensor": "model.layers.15.self_attn.v_proj.weight",
+          "equation_relative_error_f32": 3.193482571248241e-08,
+          "equation_max_abs_error_f32": 8.073361901228537e-08,
+          "protected_basis_max_abs_change_f32": 2.07836117109908e-09,
+          "delta_norm": 1.2802093088420294,
+          "relative_delta_norm": 0.23633247220843515,
+          "outside_projection_relative_change": 0.14613313218404655,
+          "outside_row_relative_change_median": 0.13501082594049546,
+          "outside_row_relative_change_p95": 0.23291498261691884,
+          "outside_row_relative_change_max": 0.5063718784448047,
+          "all_outside_states_exactly_preserved": false,
+          "changed_values": 57344,
+          "before_sha256_f32": "f960c047773b1cc9a406c23fda9ea924037eef81b8311f6a0404dd100a27cc4a",
+          "after_sha256_f32": "52e8cb96c9cacb47204978d115e86489a32f194fbeb3ad8ca485ca7bb4f492ad"
+        }
+      ]
+    },
+    {
+      "block": 16,
+      "geometry": {
+        "outside_states": 3130,
+        "outside_principal_directions": 128,
+        "outside_principal_energy_fraction": 0.8727962285847961,
+        "other_prefix_positions": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          17,
+          18,
+          19,
+          20
+        ],
+        "protected_rank": 139,
+        "projected_slot_rank": 10,
+        "projected_slot_singular_values": [
+          43.86353982704255,
+          33.92313354607161,
+          26.10753214447974,
+          22.97079522077537,
+          20.825058978469535,
+          19.55378475074002,
+          18.06151346361079,
+          17.068350598768294,
+          15.881845879344775,
+          13.35408368546991
+        ],
+        "projection_condition_number": 3.284653658024389
+      },
+      "tensors": [
+        {
+          "tensor": "model.layers.16.self_attn.k_proj.weight",
+          "equation_relative_error_f32": 1.8718640940371367e-08,
+          "equation_max_abs_error_f32": 3.124843930280008e-07,
+          "protected_basis_max_abs_change_f32": 4.246670397278773e-09,
+          "delta_norm": 2.4921660049005245,
+          "relative_delta_norm": 0.4754770105424916,
+          "outside_projection_relative_change": 0.10483784132385131,
+          "outside_row_relative_change_median": 0.09334421774367635,
+          "outside_row_relative_change_p95": 0.1685613059734004,
+          "outside_row_relative_change_max": 0.5659870727406203,
+          "all_outside_states_exactly_preserved": false,
+          "changed_values": 57344,
+          "before_sha256_f32": "e9e05738af327fb884349bf822c3ebe50055dfdf5690aa982c10343ff093baca",
+          "after_sha256_f32": "89f49a1d4494cf9af5611541536512cb49e1774717414f20de5a76a59abc6c4d"
+        },
+        {
+          "tensor": "model.layers.16.self_attn.v_proj.weight",
+          "equation_relative_error_f32": 2.3214504673041515e-08,
+          "equation_max_abs_error_f32": 9.693489722018e-08,
+          "protected_basis_max_abs_change_f32": 3.958336792023176e-09,
+          "delta_norm": 1.7275931301790195,
+          "relative_delta_norm": 0.3623415372754722,
+          "outside_projection_relative_change": 0.1896803285015534,
+          "outside_row_relative_change_median": 0.18818401255950454,
+          "outside_row_relative_change_p95": 0.3778366374641037,
+          "outside_row_relative_change_max": 1.0182162949895293,
+          "all_outside_states_exactly_preserved": false,
+          "changed_values": 57344,
+          "before_sha256_f32": "fae3d74643aa13c9ba6f420cd1c4dfb20b667c8ae5df55e0dc275ae01b8ea6bd",
+          "after_sha256_f32": "9c3f6edbdcab06f30ded3a43af370243139d6c0532d1282c76a0aca42e7db073"
+        }
+      ]
+    }
+  ]
+}

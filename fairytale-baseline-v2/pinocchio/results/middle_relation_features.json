@@ -1,0 +1,3337 @@
+{
+  "spec": {
+    "utc": "2026-11-05T13:45:24.743803+00:00",
+    "decision_by": "Codex",
+    "hypothesis": "Single query heads carry only6-14 of24 observed relation labels correctly; test whether information is distributed across the full input/query vector or in context read by attention values before choosing an intervention.",
+    "representations": [
+      "normalized_input",
+      "all_queries",
+      "all_head_values",
+      "attention_output",
+      "head_value_0",
+      "head_value_1",
+      "head_value_2",
+      "head_value_3",
+      "head_value_4",
+      "head_value_5",
+      "head_value_6",
+      "head_value_7",
+      "head_value_8",
+      "head_value_9",
+      "head_value_10",
+      "head_value_11",
+      "head_value_12",
+      "head_value_13"
+    ],
+    "prototype_rule": "Same48 factual first states,29 outside first states, centered normalized class means, no fitted metric or parameter search.",
+    "source_sha256": "2c8c7b0579fb5933738b794dae248b577f52273a6f87b8be7c9b91e83410e331",
+    "arrays_sha256": "e51fdf80f14a701b69ae932ffbcafd9f492faeb15acbed06748c26b0df7c6182",
+    "code_sha256": "6f61f69d2741fc42fdccd746dba4161644ca6e98137ecd79230b364418efd5b4",
+    "training": false,
+    "gradients": false,
+    "optimizer": false,
+    "new_weights": false,
+    "free_generation": false,
+    "counts_as_correction": false,
+    "reserved_final_used": false
+  },
+  "results": [
+    {
+      "representation": "normalized_input",
+      "fit_correct": 47,
+      "fit_total": 48,
+      "observed_query_probe_correct": 16,
+      "query_probe_total": 24,
+      "outside_probe_rejected": 22,
+      "outside_probe_total": 29,
+      "known_role_prefix_correct": 2,
+      "known_role_prefix_total": 14,
+      "external_role_prefix_rejected": 1,
+      "external_role_prefix_total": 4,
+      "role_prefixes": [
+        {
+          "id": "narrative_origin_a",
+          "expected_if_in_schema": null,
+          "predicted": "rescuer",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_ending_a",
+          "expected_if_in_schema": "ending",
+          "predicted": "rescuer",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_donkey_a",
+          "expected_if_in_schema": "donkey",
+          "predicted": "outside",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_origin_b",
+          "expected_if_in_schema": null,
+          "predicted": "rescuer",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_ending_b",
+          "expected_if_in_schema": "ending",
+          "predicted": "rescuer",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_donkey_b",
+          "expected_if_in_schema": "donkey",
+          "predicted": "fairy",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_father",
+          "expected_if_in_schema": null,
+          "predicted": "friend",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_creator",
+          "expected_if_in_schema": "creator",
+          "predicted": "friend",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_created",
+          "expected_if_in_schema": null,
+          "predicted": "fairy",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_wood_recipient",
+          "expected_if_in_schema": null,
+          "predicted": "friend",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_wood_donor",
+          "expected_if_in_schema": "wood_donor",
+          "predicted": "friend",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_friend",
+          "expected_if_in_schema": "friend",
+          "predicted": "friend",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "neutral_origin_a",
+          "expected_if_in_schema": null,
+          "predicted": "outside",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_ending_a",
+          "expected_if_in_schema": "ending",
+          "predicted": "friend",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_donkey_a",
+          "expected_if_in_schema": "donkey",
+          "predicted": "friend",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_origin_b",
+          "expected_if_in_schema": null,
+          "predicted": "outside",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_ending_b",
+          "expected_if_in_schema": "ending",
+          "predicted": "friend",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_donkey_b",
+          "expected_if_in_schema": "donkey",
+          "predicted": "friend",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_father",
+          "expected_if_in_schema": null,
+          "predicted": "friend",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_creator",
+          "expected_if_in_schema": "creator",
+          "predicted": "friend",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_created",
+          "expected_if_in_schema": null,
+          "predicted": "friend",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_wood_recipient",
+          "expected_if_in_schema": null,
+          "predicted": "friend",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_wood_donor",
+          "expected_if_in_schema": "wood_donor",
+          "predicted": "friend",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_friend",
+          "expected_if_in_schema": "friend",
+          "predicted": "friend",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "neutral_cinderella",
+          "expected_if_in_schema": "outside",
+          "predicted": "friend",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_snow_white",
+          "expected_if_in_schema": "outside",
+          "predicted": "friend",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_table",
+          "expected_if_in_schema": "outside",
+          "predicted": "friend",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_dog",
+          "expected_if_in_schema": "outside",
+          "predicted": "outside",
+          "correct_if_in_schema": true
+        }
+      ]
+    },
+    {
+      "representation": "all_queries",
+      "fit_correct": 44,
+      "fit_total": 48,
+      "observed_query_probe_correct": 13,
+      "query_probe_total": 24,
+      "outside_probe_rejected": 20,
+      "outside_probe_total": 29,
+      "known_role_prefix_correct": 1,
+      "known_role_prefix_total": 14,
+      "external_role_prefix_rejected": 1,
+      "external_role_prefix_total": 4,
+      "role_prefixes": [
+        {
+          "id": "narrative_origin_a",
+          "expected_if_in_schema": null,
+          "predicted": "material",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_ending_a",
+          "expected_if_in_schema": "ending",
+          "predicted": "friend",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_donkey_a",
+          "expected_if_in_schema": "donkey",
+          "predicted": "friend",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_origin_b",
+          "expected_if_in_schema": null,
+          "predicted": "friend",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_ending_b",
+          "expected_if_in_schema": "ending",
+          "predicted": "friend",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_donkey_b",
+          "expected_if_in_schema": "donkey",
+          "predicted": "fairy",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_father",
+          "expected_if_in_schema": null,
+          "predicted": "material",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_creator",
+          "expected_if_in_schema": "creator",
+          "predicted": "friend",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_created",
+          "expected_if_in_schema": null,
+          "predicted": "fairy",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_wood_recipient",
+          "expected_if_in_schema": null,
+          "predicted": "friend",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_wood_donor",
+          "expected_if_in_schema": "wood_donor",
+          "predicted": "fairy",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_friend",
+          "expected_if_in_schema": "friend",
+          "predicted": "material",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_origin_a",
+          "expected_if_in_schema": null,
+          "predicted": "material",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_ending_a",
+          "expected_if_in_schema": "ending",
+          "predicted": "friend",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_donkey_a",
+          "expected_if_in_schema": "donkey",
+          "predicted": "friend",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_origin_b",
+          "expected_if_in_schema": null,
+          "predicted": "friend",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_ending_b",
+          "expected_if_in_schema": "ending",
+          "predicted": "friend",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_donkey_b",
+          "expected_if_in_schema": "donkey",
+          "predicted": "friend",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_father",
+          "expected_if_in_schema": null,
+          "predicted": "friend",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_creator",
+          "expected_if_in_schema": "creator",
+          "predicted": "puppeteer",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_created",
+          "expected_if_in_schema": null,
+          "predicted": "fairy",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_wood_recipient",
+          "expected_if_in_schema": null,
+          "predicted": "friend",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_wood_donor",
+          "expected_if_in_schema": "wood_donor",
+          "predicted": "fairy",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_friend",
+          "expected_if_in_schema": "friend",
+          "predicted": "friend",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "neutral_cinderella",
+          "expected_if_in_schema": "outside",
+          "predicted": "friend",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_snow_white",
+          "expected_if_in_schema": "outside",
+          "predicted": "fairy",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_table",
+          "expected_if_in_schema": "outside",
+          "predicted": "friend",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_dog",
+          "expected_if_in_schema": "outside",
+          "predicted": "outside",
+          "correct_if_in_schema": true
+        }
+      ]
+    },
+    {
+      "representation": "all_head_values",
+      "fit_correct": 48,
+      "fit_total": 48,
+      "observed_query_probe_correct": 19,
+      "query_probe_total": 24,
+      "outside_probe_rejected": 22,
+      "outside_probe_total": 29,
+      "known_role_prefix_correct": 10,
+      "known_role_prefix_total": 14,
+      "external_role_prefix_rejected": 2,
+      "external_role_prefix_total": 4,
+      "role_prefixes": [
+        {
+          "id": "narrative_origin_a",
+          "expected_if_in_schema": null,
+          "predicted": "rescuer",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_ending_a",
+          "expected_if_in_schema": "ending",
+          "predicted": "ending",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "narrative_donkey_a",
+          "expected_if_in_schema": "donkey",
+          "predicted": "rescuer",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_origin_b",
+          "expected_if_in_schema": null,
+          "predicted": "rescuer",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_ending_b",
+          "expected_if_in_schema": "ending",
+          "predicted": "ending",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "narrative_donkey_b",
+          "expected_if_in_schema": "donkey",
+          "predicted": "donkey",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "narrative_father",
+          "expected_if_in_schema": null,
+          "predicted": "wood_donor",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_creator",
+          "expected_if_in_schema": "creator",
+          "predicted": "creator",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "narrative_created",
+          "expected_if_in_schema": null,
+          "predicted": "rescuer",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_wood_recipient",
+          "expected_if_in_schema": null,
+          "predicted": "rescuer",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_wood_donor",
+          "expected_if_in_schema": "wood_donor",
+          "predicted": "material",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_friend",
+          "expected_if_in_schema": "friend",
+          "predicted": "friend",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "neutral_origin_a",
+          "expected_if_in_schema": null,
+          "predicted": "rescuer",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_ending_a",
+          "expected_if_in_schema": "ending",
+          "predicted": "ending",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "neutral_donkey_a",
+          "expected_if_in_schema": "donkey",
+          "predicted": "rescuer",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_origin_b",
+          "expected_if_in_schema": null,
+          "predicted": "rescuer",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_ending_b",
+          "expected_if_in_schema": "ending",
+          "predicted": "ending",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "neutral_donkey_b",
+          "expected_if_in_schema": "donkey",
+          "predicted": "donkey",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "neutral_father",
+          "expected_if_in_schema": null,
+          "predicted": "wood_donor",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_creator",
+          "expected_if_in_schema": "creator",
+          "predicted": "wood_donor",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_created",
+          "expected_if_in_schema": null,
+          "predicted": "material",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_wood_recipient",
+          "expected_if_in_schema": null,
+          "predicted": "wood_donor",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_wood_donor",
+          "expected_if_in_schema": "wood_donor",
+          "predicted": "wood_donor",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "neutral_friend",
+          "expected_if_in_schema": "friend",
+          "predicted": "friend",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "neutral_cinderella",
+          "expected_if_in_schema": "outside",
+          "predicted": "wood_donor",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_snow_white",
+          "expected_if_in_schema": "outside",
+          "predicted": "nose",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_table",
+          "expected_if_in_schema": "outside",
+          "predicted": "outside",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "neutral_dog",
+          "expected_if_in_schema": "outside",
+          "predicted": "outside",
+          "correct_if_in_schema": true
+        }
+      ]
+    },
+    {
+      "representation": "attention_output",
+      "fit_correct": 48,
+      "fit_total": 48,
+      "observed_query_probe_correct": 19,
+      "query_probe_total": 24,
+      "outside_probe_rejected": 22,
+      "outside_probe_total": 29,
+      "known_role_prefix_correct": 0,
+      "known_role_prefix_total": 14,
+      "external_role_prefix_rejected": 3,
+      "external_role_prefix_total": 4,
+      "role_prefixes": [
+        {
+          "id": "narrative_origin_a",
+          "expected_if_in_schema": null,
+          "predicted": "nose",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_ending_a",
+          "expected_if_in_schema": "ending",
+          "predicted": "nose",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_donkey_a",
+          "expected_if_in_schema": "donkey",
+          "predicted": "nose",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_origin_b",
+          "expected_if_in_schema": null,
+          "predicted": "nose",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_ending_b",
+          "expected_if_in_schema": "ending",
+          "predicted": "nose",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_donkey_b",
+          "expected_if_in_schema": "donkey",
+          "predicted": "nose",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_father",
+          "expected_if_in_schema": null,
+          "predicted": "nose",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_creator",
+          "expected_if_in_schema": "creator",
+          "predicted": "rescuer",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_created",
+          "expected_if_in_schema": null,
+          "predicted": "nose",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_wood_recipient",
+          "expected_if_in_schema": null,
+          "predicted": "nose",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_wood_donor",
+          "expected_if_in_schema": "wood_donor",
+          "predicted": "nose",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_friend",
+          "expected_if_in_schema": "friend",
+          "predicted": "nose",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_origin_a",
+          "expected_if_in_schema": null,
+          "predicted": "nose",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_ending_a",
+          "expected_if_in_schema": "ending",
+          "predicted": "nose",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_donkey_a",
+          "expected_if_in_schema": "donkey",
+          "predicted": "nose",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_origin_b",
+          "expected_if_in_schema": null,
+          "predicted": "nose",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_ending_b",
+          "expected_if_in_schema": "ending",
+          "predicted": "nose",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_donkey_b",
+          "expected_if_in_schema": "donkey",
+          "predicted": "friend",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_father",
+          "expected_if_in_schema": null,
+          "predicted": "nose",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_creator",
+          "expected_if_in_schema": "creator",
+          "predicted": "nose",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_created",
+          "expected_if_in_schema": null,
+          "predicted": "nose",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_wood_recipient",
+          "expected_if_in_schema": null,
+          "predicted": "outside",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_wood_donor",
+          "expected_if_in_schema": "wood_donor",
+          "predicted": "nose",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_friend",
+          "expected_if_in_schema": "friend",
+          "predicted": "nose",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_cinderella",
+          "expected_if_in_schema": "outside",
+          "predicted": "outside",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "neutral_snow_white",
+          "expected_if_in_schema": "outside",
+          "predicted": "outside",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "neutral_table",
+          "expected_if_in_schema": "outside",
+          "predicted": "outside",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "neutral_dog",
+          "expected_if_in_schema": "outside",
+          "predicted": "puppeteer",
+          "correct_if_in_schema": false
+        }
+      ]
+    },
+    {
+      "representation": "head_value_0",
+      "fit_correct": 43,
+      "fit_total": 48,
+      "observed_query_probe_correct": 9,
+      "query_probe_total": 24,
+      "outside_probe_rejected": 11,
+      "outside_probe_total": 29,
+      "known_role_prefix_correct": 2,
+      "known_role_prefix_total": 14,
+      "external_role_prefix_rejected": 0,
+      "external_role_prefix_total": 4,
+      "role_prefixes": [
+        {
+          "id": "narrative_origin_a",
+          "expected_if_in_schema": null,
+          "predicted": "friend",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_ending_a",
+          "expected_if_in_schema": "ending",
+          "predicted": "friend",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_donkey_a",
+          "expected_if_in_schema": "donkey",
+          "predicted": "friend",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_origin_b",
+          "expected_if_in_schema": null,
+          "predicted": "friend",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_ending_b",
+          "expected_if_in_schema": "ending",
+          "predicted": "friend",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_donkey_b",
+          "expected_if_in_schema": "donkey",
+          "predicted": "friend",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_father",
+          "expected_if_in_schema": null,
+          "predicted": "friend",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_creator",
+          "expected_if_in_schema": "creator",
+          "predicted": "friend",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_created",
+          "expected_if_in_schema": null,
+          "predicted": "friend",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_wood_recipient",
+          "expected_if_in_schema": null,
+          "predicted": "friend",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_wood_donor",
+          "expected_if_in_schema": "wood_donor",
+          "predicted": "friend",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_friend",
+          "expected_if_in_schema": "friend",
+          "predicted": "friend",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "neutral_origin_a",
+          "expected_if_in_schema": null,
+          "predicted": "friend",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_ending_a",
+          "expected_if_in_schema": "ending",
+          "predicted": "friend",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_donkey_a",
+          "expected_if_in_schema": "donkey",
+          "predicted": "friend",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_origin_b",
+          "expected_if_in_schema": null,
+          "predicted": "friend",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_ending_b",
+          "expected_if_in_schema": "ending",
+          "predicted": "friend",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_donkey_b",
+          "expected_if_in_schema": "donkey",
+          "predicted": "friend",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_father",
+          "expected_if_in_schema": null,
+          "predicted": "friend",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_creator",
+          "expected_if_in_schema": "creator",
+          "predicted": "friend",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_created",
+          "expected_if_in_schema": null,
+          "predicted": "friend",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_wood_recipient",
+          "expected_if_in_schema": null,
+          "predicted": "friend",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_wood_donor",
+          "expected_if_in_schema": "wood_donor",
+          "predicted": "friend",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_friend",
+          "expected_if_in_schema": "friend",
+          "predicted": "friend",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "neutral_cinderella",
+          "expected_if_in_schema": "outside",
+          "predicted": "friend",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_snow_white",
+          "expected_if_in_schema": "outside",
+          "predicted": "friend",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_table",
+          "expected_if_in_schema": "outside",
+          "predicted": "friend",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_dog",
+          "expected_if_in_schema": "outside",
+          "predicted": "friend",
+          "correct_if_in_schema": false
+        }
+      ]
+    },
+    {
+      "representation": "head_value_1",
+      "fit_correct": 45,
+      "fit_total": 48,
+      "observed_query_probe_correct": 11,
+      "query_probe_total": 24,
+      "outside_probe_rejected": 17,
+      "outside_probe_total": 29,
+      "known_role_prefix_correct": 0,
+      "known_role_prefix_total": 14,
+      "external_role_prefix_rejected": 1,
+      "external_role_prefix_total": 4,
+      "role_prefixes": [
+        {
+          "id": "narrative_origin_a",
+          "expected_if_in_schema": null,
+          "predicted": "deceivers",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_ending_a",
+          "expected_if_in_schema": "ending",
+          "predicted": "deceivers",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_donkey_a",
+          "expected_if_in_schema": "donkey",
+          "predicted": "deceivers",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_origin_b",
+          "expected_if_in_schema": null,
+          "predicted": "deceivers",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_ending_b",
+          "expected_if_in_schema": "ending",
+          "predicted": "deceivers",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_donkey_b",
+          "expected_if_in_schema": "donkey",
+          "predicted": "deceivers",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_father",
+          "expected_if_in_schema": null,
+          "predicted": "wood_donor",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_creator",
+          "expected_if_in_schema": "creator",
+          "predicted": "wood_donor",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_created",
+          "expected_if_in_schema": null,
+          "predicted": "wood_donor",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_wood_recipient",
+          "expected_if_in_schema": null,
+          "predicted": "puppeteer",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_wood_donor",
+          "expected_if_in_schema": "wood_donor",
+          "predicted": "puppeteer",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_friend",
+          "expected_if_in_schema": "friend",
+          "predicted": "wood_donor",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_origin_a",
+          "expected_if_in_schema": null,
+          "predicted": "deceivers",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_ending_a",
+          "expected_if_in_schema": "ending",
+          "predicted": "deceivers",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_donkey_a",
+          "expected_if_in_schema": "donkey",
+          "predicted": "deceivers",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_origin_b",
+          "expected_if_in_schema": null,
+          "predicted": "deceivers",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_ending_b",
+          "expected_if_in_schema": "ending",
+          "predicted": "deceivers",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_donkey_b",
+          "expected_if_in_schema": "donkey",
+          "predicted": "deceivers",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_father",
+          "expected_if_in_schema": null,
+          "predicted": "wood_donor",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_creator",
+          "expected_if_in_schema": "creator",
+          "predicted": "wood_donor",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_created",
+          "expected_if_in_schema": null,
+          "predicted": "wood_donor",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_wood_recipient",
+          "expected_if_in_schema": null,
+          "predicted": "puppeteer",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_wood_donor",
+          "expected_if_in_schema": "wood_donor",
+          "predicted": "puppeteer",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_friend",
+          "expected_if_in_schema": "friend",
+          "predicted": "wood_donor",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_cinderella",
+          "expected_if_in_schema": "outside",
+          "predicted": "wood_donor",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_snow_white",
+          "expected_if_in_schema": "outside",
+          "predicted": "deceivers",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_table",
+          "expected_if_in_schema": "outside",
+          "predicted": "deceivers",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_dog",
+          "expected_if_in_schema": "outside",
+          "predicted": "outside",
+          "correct_if_in_schema": true
+        }
+      ]
+    },
+    {
+      "representation": "head_value_2",
+      "fit_correct": 46,
+      "fit_total": 48,
+      "observed_query_probe_correct": 12,
+      "query_probe_total": 24,
+      "outside_probe_rejected": 11,
+      "outside_probe_total": 29,
+      "known_role_prefix_correct": 2,
+      "known_role_prefix_total": 14,
+      "external_role_prefix_rejected": 1,
+      "external_role_prefix_total": 4,
+      "role_prefixes": [
+        {
+          "id": "narrative_origin_a",
+          "expected_if_in_schema": null,
+          "predicted": "rescuer",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_ending_a",
+          "expected_if_in_schema": "ending",
+          "predicted": "outside",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_donkey_a",
+          "expected_if_in_schema": "donkey",
+          "predicted": "fish_father",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_origin_b",
+          "expected_if_in_schema": null,
+          "predicted": "deceivers",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_ending_b",
+          "expected_if_in_schema": "ending",
+          "predicted": "ending",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "narrative_donkey_b",
+          "expected_if_in_schema": "donkey",
+          "predicted": "friend",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_father",
+          "expected_if_in_schema": null,
+          "predicted": "outside",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_creator",
+          "expected_if_in_schema": "creator",
+          "predicted": "outside",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_created",
+          "expected_if_in_schema": null,
+          "predicted": "friend",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_wood_recipient",
+          "expected_if_in_schema": null,
+          "predicted": "deceivers",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_wood_donor",
+          "expected_if_in_schema": "wood_donor",
+          "predicted": "friend",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_friend",
+          "expected_if_in_schema": "friend",
+          "predicted": "outside",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_origin_a",
+          "expected_if_in_schema": null,
+          "predicted": "rescuer",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_ending_a",
+          "expected_if_in_schema": "ending",
+          "predicted": "fish_father",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_donkey_a",
+          "expected_if_in_schema": "donkey",
+          "predicted": "fish_father",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_origin_b",
+          "expected_if_in_schema": null,
+          "predicted": "rescuer",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_ending_b",
+          "expected_if_in_schema": "ending",
+          "predicted": "ending",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "neutral_donkey_b",
+          "expected_if_in_schema": "donkey",
+          "predicted": "friend",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_father",
+          "expected_if_in_schema": null,
+          "predicted": "outside",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_creator",
+          "expected_if_in_schema": "creator",
+          "predicted": "outside",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_created",
+          "expected_if_in_schema": null,
+          "predicted": "outside",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_wood_recipient",
+          "expected_if_in_schema": null,
+          "predicted": "rescuer",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_wood_donor",
+          "expected_if_in_schema": "wood_donor",
+          "predicted": "deceivers",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_friend",
+          "expected_if_in_schema": "friend",
+          "predicted": "outside",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_cinderella",
+          "expected_if_in_schema": "outside",
+          "predicted": "friend",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_snow_white",
+          "expected_if_in_schema": "outside",
+          "predicted": "deceivers",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_table",
+          "expected_if_in_schema": "outside",
+          "predicted": "deceivers",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_dog",
+          "expected_if_in_schema": "outside",
+          "predicted": "outside",
+          "correct_if_in_schema": true
+        }
+      ]
+    },
+    {
+      "representation": "head_value_3",
+      "fit_correct": 41,
+      "fit_total": 48,
+      "observed_query_probe_correct": 11,
+      "query_probe_total": 24,
+      "outside_probe_rejected": 18,
+      "outside_probe_total": 29,
+      "known_role_prefix_correct": 4,
+      "known_role_prefix_total": 14,
+      "external_role_prefix_rejected": 1,
+      "external_role_prefix_total": 4,
+      "role_prefixes": [
+        {
+          "id": "narrative_origin_a",
+          "expected_if_in_schema": null,
+          "predicted": "donkey",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_ending_a",
+          "expected_if_in_schema": "ending",
+          "predicted": "donkey",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_donkey_a",
+          "expected_if_in_schema": "donkey",
+          "predicted": "donkey",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "narrative_origin_b",
+          "expected_if_in_schema": null,
+          "predicted": "rescuer",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_ending_b",
+          "expected_if_in_schema": "ending",
+          "predicted": "donkey",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_donkey_b",
+          "expected_if_in_schema": "donkey",
+          "predicted": "donkey",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "narrative_father",
+          "expected_if_in_schema": null,
+          "predicted": "donkey",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_creator",
+          "expected_if_in_schema": "creator",
+          "predicted": "friend",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_created",
+          "expected_if_in_schema": null,
+          "predicted": "donkey",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_wood_recipient",
+          "expected_if_in_schema": null,
+          "predicted": "rescuer",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_wood_donor",
+          "expected_if_in_schema": "wood_donor",
+          "predicted": "rescuer",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_friend",
+          "expected_if_in_schema": "friend",
+          "predicted": "donkey",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_origin_a",
+          "expected_if_in_schema": null,
+          "predicted": "rescuer",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_ending_a",
+          "expected_if_in_schema": "ending",
+          "predicted": "rescuer",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_donkey_a",
+          "expected_if_in_schema": "donkey",
+          "predicted": "donkey",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "neutral_origin_b",
+          "expected_if_in_schema": null,
+          "predicted": "donkey",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_ending_b",
+          "expected_if_in_schema": "ending",
+          "predicted": "donkey",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_donkey_b",
+          "expected_if_in_schema": "donkey",
+          "predicted": "donkey",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "neutral_father",
+          "expected_if_in_schema": null,
+          "predicted": "donkey",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_creator",
+          "expected_if_in_schema": "creator",
+          "predicted": "friend",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_created",
+          "expected_if_in_schema": null,
+          "predicted": "donkey",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_wood_recipient",
+          "expected_if_in_schema": null,
+          "predicted": "donkey",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_wood_donor",
+          "expected_if_in_schema": "wood_donor",
+          "predicted": "rescuer",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_friend",
+          "expected_if_in_schema": "friend",
+          "predicted": "donkey",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_cinderella",
+          "expected_if_in_schema": "outside",
+          "predicted": "rescuer",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_snow_white",
+          "expected_if_in_schema": "outside",
+          "predicted": "rescuer",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_table",
+          "expected_if_in_schema": "outside",
+          "predicted": "rescuer",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_dog",
+          "expected_if_in_schema": "outside",
+          "predicted": "outside",
+          "correct_if_in_schema": true
+        }
+      ]
+    },
+    {
+      "representation": "head_value_4",
+      "fit_correct": 44,
+      "fit_total": 48,
+      "observed_query_probe_correct": 11,
+      "query_probe_total": 24,
+      "outside_probe_rejected": 17,
+      "outside_probe_total": 29,
+      "known_role_prefix_correct": 0,
+      "known_role_prefix_total": 14,
+      "external_role_prefix_rejected": 4,
+      "external_role_prefix_total": 4,
+      "role_prefixes": [
+        {
+          "id": "narrative_origin_a",
+          "expected_if_in_schema": null,
+          "predicted": "deceivers",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_ending_a",
+          "expected_if_in_schema": "ending",
+          "predicted": "outside",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_donkey_a",
+          "expected_if_in_schema": "donkey",
+          "predicted": "outside",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_origin_b",
+          "expected_if_in_schema": null,
+          "predicted": "deceivers",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_ending_b",
+          "expected_if_in_schema": "ending",
+          "predicted": "deceivers",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_donkey_b",
+          "expected_if_in_schema": "donkey",
+          "predicted": "deceivers",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_father",
+          "expected_if_in_schema": null,
+          "predicted": "outside",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_creator",
+          "expected_if_in_schema": "creator",
+          "predicted": "wood_donor",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_created",
+          "expected_if_in_schema": null,
+          "predicted": "outside",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_wood_recipient",
+          "expected_if_in_schema": null,
+          "predicted": "deceivers",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_wood_donor",
+          "expected_if_in_schema": "wood_donor",
+          "predicted": "deceivers",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_friend",
+          "expected_if_in_schema": "friend",
+          "predicted": "outside",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_origin_a",
+          "expected_if_in_schema": null,
+          "predicted": "deceivers",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_ending_a",
+          "expected_if_in_schema": "ending",
+          "predicted": "deceivers",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_donkey_a",
+          "expected_if_in_schema": "donkey",
+          "predicted": "outside",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_origin_b",
+          "expected_if_in_schema": null,
+          "predicted": "deceivers",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_ending_b",
+          "expected_if_in_schema": "ending",
+          "predicted": "outside",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_donkey_b",
+          "expected_if_in_schema": "donkey",
+          "predicted": "outside",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_father",
+          "expected_if_in_schema": null,
+          "predicted": "outside",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_creator",
+          "expected_if_in_schema": "creator",
+          "predicted": "outside",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_created",
+          "expected_if_in_schema": null,
+          "predicted": "outside",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_wood_recipient",
+          "expected_if_in_schema": null,
+          "predicted": "outside",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_wood_donor",
+          "expected_if_in_schema": "wood_donor",
+          "predicted": "outside",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_friend",
+          "expected_if_in_schema": "friend",
+          "predicted": "outside",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_cinderella",
+          "expected_if_in_schema": "outside",
+          "predicted": "outside",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "neutral_snow_white",
+          "expected_if_in_schema": "outside",
+          "predicted": "outside",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "neutral_table",
+          "expected_if_in_schema": "outside",
+          "predicted": "outside",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "neutral_dog",
+          "expected_if_in_schema": "outside",
+          "predicted": "outside",
+          "correct_if_in_schema": true
+        }
+      ]
+    },
+    {
+      "representation": "head_value_5",
+      "fit_correct": 48,
+      "fit_total": 48,
+      "observed_query_probe_correct": 15,
+      "query_probe_total": 24,
+      "outside_probe_rejected": 17,
+      "outside_probe_total": 29,
+      "known_role_prefix_correct": 3,
+      "known_role_prefix_total": 14,
+      "external_role_prefix_rejected": 1,
+      "external_role_prefix_total": 4,
+      "role_prefixes": [
+        {
+          "id": "narrative_origin_a",
+          "expected_if_in_schema": null,
+          "predicted": "fairy",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_ending_a",
+          "expected_if_in_schema": "ending",
+          "predicted": "ending",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "narrative_donkey_a",
+          "expected_if_in_schema": "donkey",
+          "predicted": "puppeteer",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_origin_b",
+          "expected_if_in_schema": null,
+          "predicted": "fairy",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_ending_b",
+          "expected_if_in_schema": "ending",
+          "predicted": "ending",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "narrative_donkey_b",
+          "expected_if_in_schema": "donkey",
+          "predicted": "puppeteer",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_father",
+          "expected_if_in_schema": null,
+          "predicted": "fairy",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_creator",
+          "expected_if_in_schema": "creator",
+          "predicted": "puppeteer",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_created",
+          "expected_if_in_schema": null,
+          "predicted": "fairy",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_wood_recipient",
+          "expected_if_in_schema": null,
+          "predicted": "fairy",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_wood_donor",
+          "expected_if_in_schema": "wood_donor",
+          "predicted": "fairy",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_friend",
+          "expected_if_in_schema": "friend",
+          "predicted": "fairy",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_origin_a",
+          "expected_if_in_schema": null,
+          "predicted": "fairy",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_ending_a",
+          "expected_if_in_schema": "ending",
+          "predicted": "fairy",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_donkey_a",
+          "expected_if_in_schema": "donkey",
+          "predicted": "puppeteer",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_origin_b",
+          "expected_if_in_schema": null,
+          "predicted": "fairy",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_ending_b",
+          "expected_if_in_schema": "ending",
+          "predicted": "ending",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "neutral_donkey_b",
+          "expected_if_in_schema": "donkey",
+          "predicted": "ending",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_father",
+          "expected_if_in_schema": null,
+          "predicted": "fairy",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_creator",
+          "expected_if_in_schema": "creator",
+          "predicted": "fairy",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_created",
+          "expected_if_in_schema": null,
+          "predicted": "puppeteer",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_wood_recipient",
+          "expected_if_in_schema": null,
+          "predicted": "outside",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_wood_donor",
+          "expected_if_in_schema": "wood_donor",
+          "predicted": "puppeteer",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_friend",
+          "expected_if_in_schema": "friend",
+          "predicted": "puppeteer",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_cinderella",
+          "expected_if_in_schema": "outside",
+          "predicted": "puppeteer",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_snow_white",
+          "expected_if_in_schema": "outside",
+          "predicted": "outside",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "neutral_table",
+          "expected_if_in_schema": "outside",
+          "predicted": "material",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_dog",
+          "expected_if_in_schema": "outside",
+          "predicted": "creator",
+          "correct_if_in_schema": false
+        }
+      ]
+    },
+    {
+      "representation": "head_value_6",
+      "fit_correct": 39,
+      "fit_total": 48,
+      "observed_query_probe_correct": 10,
+      "query_probe_total": 24,
+      "outside_probe_rejected": 14,
+      "outside_probe_total": 29,
+      "known_role_prefix_correct": 0,
+      "known_role_prefix_total": 14,
+      "external_role_prefix_rejected": 0,
+      "external_role_prefix_total": 4,
+      "role_prefixes": [
+        {
+          "id": "narrative_origin_a",
+          "expected_if_in_schema": null,
+          "predicted": "fish_father",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_ending_a",
+          "expected_if_in_schema": "ending",
+          "predicted": "fish_father",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_donkey_a",
+          "expected_if_in_schema": "donkey",
+          "predicted": "fish_father",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_origin_b",
+          "expected_if_in_schema": null,
+          "predicted": "fish_father",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_ending_b",
+          "expected_if_in_schema": "ending",
+          "predicted": "fish_father",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_donkey_b",
+          "expected_if_in_schema": "donkey",
+          "predicted": "fish_father",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_father",
+          "expected_if_in_schema": null,
+          "predicted": "fish_father",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_creator",
+          "expected_if_in_schema": "creator",
+          "predicted": "fish_father",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_created",
+          "expected_if_in_schema": null,
+          "predicted": "fish_father",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_wood_recipient",
+          "expected_if_in_schema": null,
+          "predicted": "fish_father",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_wood_donor",
+          "expected_if_in_schema": "wood_donor",
+          "predicted": "fish_father",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_friend",
+          "expected_if_in_schema": "friend",
+          "predicted": "fish_father",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_origin_a",
+          "expected_if_in_schema": null,
+          "predicted": "fish_father",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_ending_a",
+          "expected_if_in_schema": "ending",
+          "predicted": "fish_father",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_donkey_a",
+          "expected_if_in_schema": "donkey",
+          "predicted": "fish_father",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_origin_b",
+          "expected_if_in_schema": null,
+          "predicted": "fish_father",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_ending_b",
+          "expected_if_in_schema": "ending",
+          "predicted": "fish_father",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_donkey_b",
+          "expected_if_in_schema": "donkey",
+          "predicted": "fish_father",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_father",
+          "expected_if_in_schema": null,
+          "predicted": "fish_father",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_creator",
+          "expected_if_in_schema": "creator",
+          "predicted": "fish_father",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_created",
+          "expected_if_in_schema": null,
+          "predicted": "fish_father",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_wood_recipient",
+          "expected_if_in_schema": null,
+          "predicted": "deceivers",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_wood_donor",
+          "expected_if_in_schema": "wood_donor",
+          "predicted": "fish_father",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_friend",
+          "expected_if_in_schema": "friend",
+          "predicted": "fish_father",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_cinderella",
+          "expected_if_in_schema": "outside",
+          "predicted": "fish_father",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_snow_white",
+          "expected_if_in_schema": "outside",
+          "predicted": "fish_father",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_table",
+          "expected_if_in_schema": "outside",
+          "predicted": "fish_father",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_dog",
+          "expected_if_in_schema": "outside",
+          "predicted": "fish_father",
+          "correct_if_in_schema": false
+        }
+      ]
+    },
+    {
+      "representation": "head_value_7",
+      "fit_correct": 47,
+      "fit_total": 48,
+      "observed_query_probe_correct": 17,
+      "query_probe_total": 24,
+      "outside_probe_rejected": 17,
+      "outside_probe_total": 29,
+      "known_role_prefix_correct": 11,
+      "known_role_prefix_total": 14,
+      "external_role_prefix_rejected": 1,
+      "external_role_prefix_total": 4,
+      "role_prefixes": [
+        {
+          "id": "narrative_origin_a",
+          "expected_if_in_schema": null,
+          "predicted": "ending",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_ending_a",
+          "expected_if_in_schema": "ending",
+          "predicted": "ending",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "narrative_donkey_a",
+          "expected_if_in_schema": "donkey",
+          "predicted": "donkey",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "narrative_origin_b",
+          "expected_if_in_schema": null,
+          "predicted": "ending",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_ending_b",
+          "expected_if_in_schema": "ending",
+          "predicted": "ending",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "narrative_donkey_b",
+          "expected_if_in_schema": "donkey",
+          "predicted": "donkey",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "narrative_father",
+          "expected_if_in_schema": null,
+          "predicted": "creator",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_creator",
+          "expected_if_in_schema": "creator",
+          "predicted": "creator",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "narrative_created",
+          "expected_if_in_schema": null,
+          "predicted": "material",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_wood_recipient",
+          "expected_if_in_schema": null,
+          "predicted": "material",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_wood_donor",
+          "expected_if_in_schema": "wood_donor",
+          "predicted": "material",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_friend",
+          "expected_if_in_schema": "friend",
+          "predicted": "friend",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "neutral_origin_a",
+          "expected_if_in_schema": null,
+          "predicted": "ending",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_ending_a",
+          "expected_if_in_schema": "ending",
+          "predicted": "ending",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "neutral_donkey_a",
+          "expected_if_in_schema": "donkey",
+          "predicted": "donkey",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "neutral_origin_b",
+          "expected_if_in_schema": null,
+          "predicted": "ending",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_ending_b",
+          "expected_if_in_schema": "ending",
+          "predicted": "ending",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "neutral_donkey_b",
+          "expected_if_in_schema": "donkey",
+          "predicted": "donkey",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "neutral_father",
+          "expected_if_in_schema": null,
+          "predicted": "creator",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_creator",
+          "expected_if_in_schema": "creator",
+          "predicted": "ending",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_created",
+          "expected_if_in_schema": null,
+          "predicted": "material",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_wood_recipient",
+          "expected_if_in_schema": null,
+          "predicted": "material",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_wood_donor",
+          "expected_if_in_schema": "wood_donor",
+          "predicted": "material",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_friend",
+          "expected_if_in_schema": "friend",
+          "predicted": "friend",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "neutral_cinderella",
+          "expected_if_in_schema": "outside",
+          "predicted": "wood_donor",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_snow_white",
+          "expected_if_in_schema": "outside",
+          "predicted": "material",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_table",
+          "expected_if_in_schema": "outside",
+          "predicted": "material",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_dog",
+          "expected_if_in_schema": "outside",
+          "predicted": "outside",
+          "correct_if_in_schema": true
+        }
+      ]
+    },
+    {
+      "representation": "head_value_8",
+      "fit_correct": 47,
+      "fit_total": 48,
+      "observed_query_probe_correct": 19,
+      "query_probe_total": 24,
+      "outside_probe_rejected": 19,
+      "outside_probe_total": 29,
+      "known_role_prefix_correct": 6,
+      "known_role_prefix_total": 14,
+      "external_role_prefix_rejected": 0,
+      "external_role_prefix_total": 4,
+      "role_prefixes": [
+        {
+          "id": "narrative_origin_a",
+          "expected_if_in_schema": null,
+          "predicted": "donkey",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_ending_a",
+          "expected_if_in_schema": "ending",
+          "predicted": "donkey",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_donkey_a",
+          "expected_if_in_schema": "donkey",
+          "predicted": "donkey",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "narrative_origin_b",
+          "expected_if_in_schema": null,
+          "predicted": "donkey",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_ending_b",
+          "expected_if_in_schema": "ending",
+          "predicted": "donkey",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_donkey_b",
+          "expected_if_in_schema": "donkey",
+          "predicted": "donkey",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "narrative_father",
+          "expected_if_in_schema": null,
+          "predicted": "donkey",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_creator",
+          "expected_if_in_schema": "creator",
+          "predicted": "creator",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "narrative_created",
+          "expected_if_in_schema": null,
+          "predicted": "rescuer",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_wood_recipient",
+          "expected_if_in_schema": null,
+          "predicted": "rescuer",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_wood_donor",
+          "expected_if_in_schema": "wood_donor",
+          "predicted": "donkey",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_friend",
+          "expected_if_in_schema": "friend",
+          "predicted": "donkey",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_origin_a",
+          "expected_if_in_schema": null,
+          "predicted": "donkey",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_ending_a",
+          "expected_if_in_schema": "ending",
+          "predicted": "donkey",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_donkey_a",
+          "expected_if_in_schema": "donkey",
+          "predicted": "donkey",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "neutral_origin_b",
+          "expected_if_in_schema": null,
+          "predicted": "rescuer",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_ending_b",
+          "expected_if_in_schema": "ending",
+          "predicted": "donkey",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_donkey_b",
+          "expected_if_in_schema": "donkey",
+          "predicted": "donkey",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "neutral_father",
+          "expected_if_in_schema": null,
+          "predicted": "material",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_creator",
+          "expected_if_in_schema": "creator",
+          "predicted": "material",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_created",
+          "expected_if_in_schema": null,
+          "predicted": "rescuer",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_wood_recipient",
+          "expected_if_in_schema": null,
+          "predicted": "wood_donor",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_wood_donor",
+          "expected_if_in_schema": "wood_donor",
+          "predicted": "donkey",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_friend",
+          "expected_if_in_schema": "friend",
+          "predicted": "friend",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "neutral_cinderella",
+          "expected_if_in_schema": "outside",
+          "predicted": "ending",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_snow_white",
+          "expected_if_in_schema": "outside",
+          "predicted": "donkey",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_table",
+          "expected_if_in_schema": "outside",
+          "predicted": "material",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_dog",
+          "expected_if_in_schema": "outside",
+          "predicted": "rescuer",
+          "correct_if_in_schema": false
+        }
+      ]
+    },
+    {
+      "representation": "head_value_9",
+      "fit_correct": 45,
+      "fit_total": 48,
+      "observed_query_probe_correct": 18,
+      "query_probe_total": 24,
+      "outside_probe_rejected": 15,
+      "outside_probe_total": 29,
+      "known_role_prefix_correct": 5,
+      "known_role_prefix_total": 14,
+      "external_role_prefix_rejected": 0,
+      "external_role_prefix_total": 4,
+      "role_prefixes": [
+        {
+          "id": "narrative_origin_a",
+          "expected_if_in_schema": null,
+          "predicted": "donkey",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_ending_a",
+          "expected_if_in_schema": "ending",
+          "predicted": "donkey",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_donkey_a",
+          "expected_if_in_schema": "donkey",
+          "predicted": "donkey",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "narrative_origin_b",
+          "expected_if_in_schema": null,
+          "predicted": "donkey",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_ending_b",
+          "expected_if_in_schema": "ending",
+          "predicted": "donkey",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_donkey_b",
+          "expected_if_in_schema": "donkey",
+          "predicted": "donkey",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "narrative_father",
+          "expected_if_in_schema": null,
+          "predicted": "material",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_creator",
+          "expected_if_in_schema": "creator",
+          "predicted": "material",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_created",
+          "expected_if_in_schema": null,
+          "predicted": "material",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_wood_recipient",
+          "expected_if_in_schema": null,
+          "predicted": "donkey",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_wood_donor",
+          "expected_if_in_schema": "wood_donor",
+          "predicted": "material",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_friend",
+          "expected_if_in_schema": "friend",
+          "predicted": "material",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_origin_a",
+          "expected_if_in_schema": null,
+          "predicted": "donkey",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_ending_a",
+          "expected_if_in_schema": "ending",
+          "predicted": "ending",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "neutral_donkey_a",
+          "expected_if_in_schema": "donkey",
+          "predicted": "friend",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_origin_b",
+          "expected_if_in_schema": null,
+          "predicted": "friend",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_ending_b",
+          "expected_if_in_schema": "ending",
+          "predicted": "donkey",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_donkey_b",
+          "expected_if_in_schema": "donkey",
+          "predicted": "donkey",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "neutral_father",
+          "expected_if_in_schema": null,
+          "predicted": "material",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_creator",
+          "expected_if_in_schema": "creator",
+          "predicted": "material",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_created",
+          "expected_if_in_schema": null,
+          "predicted": "material",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_wood_recipient",
+          "expected_if_in_schema": null,
+          "predicted": "material",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_wood_donor",
+          "expected_if_in_schema": "wood_donor",
+          "predicted": "material",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_friend",
+          "expected_if_in_schema": "friend",
+          "predicted": "friend",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "neutral_cinderella",
+          "expected_if_in_schema": "outside",
+          "predicted": "material",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_snow_white",
+          "expected_if_in_schema": "outside",
+          "predicted": "material",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_table",
+          "expected_if_in_schema": "outside",
+          "predicted": "material",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_dog",
+          "expected_if_in_schema": "outside",
+          "predicted": "friend",
+          "correct_if_in_schema": false
+        }
+      ]
+    },
+    {
+      "representation": "head_value_10",
+      "fit_correct": 44,
+      "fit_total": 48,
+      "observed_query_probe_correct": 12,
+      "query_probe_total": 24,
+      "outside_probe_rejected": 19,
+      "outside_probe_total": 29,
+      "known_role_prefix_correct": 1,
+      "known_role_prefix_total": 14,
+      "external_role_prefix_rejected": 1,
+      "external_role_prefix_total": 4,
+      "role_prefixes": [
+        {
+          "id": "narrative_origin_a",
+          "expected_if_in_schema": null,
+          "predicted": "deceivers",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_ending_a",
+          "expected_if_in_schema": "ending",
+          "predicted": "material",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_donkey_a",
+          "expected_if_in_schema": "donkey",
+          "predicted": "deceivers",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_origin_b",
+          "expected_if_in_schema": null,
+          "predicted": "deceivers",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_ending_b",
+          "expected_if_in_schema": "ending",
+          "predicted": "material",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_donkey_b",
+          "expected_if_in_schema": "donkey",
+          "predicted": "deceivers",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_father",
+          "expected_if_in_schema": null,
+          "predicted": "wood_donor",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_creator",
+          "expected_if_in_schema": "creator",
+          "predicted": "puppeteer",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_created",
+          "expected_if_in_schema": null,
+          "predicted": "deceivers",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_wood_recipient",
+          "expected_if_in_schema": null,
+          "predicted": "nose",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_wood_donor",
+          "expected_if_in_schema": "wood_donor",
+          "predicted": "deceivers",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_friend",
+          "expected_if_in_schema": "friend",
+          "predicted": "friend",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "neutral_origin_a",
+          "expected_if_in_schema": null,
+          "predicted": "deceivers",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_ending_a",
+          "expected_if_in_schema": "ending",
+          "predicted": "outside",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_donkey_a",
+          "expected_if_in_schema": "donkey",
+          "predicted": "deceivers",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_origin_b",
+          "expected_if_in_schema": null,
+          "predicted": "deceivers",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_ending_b",
+          "expected_if_in_schema": "ending",
+          "predicted": "deceivers",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_donkey_b",
+          "expected_if_in_schema": "donkey",
+          "predicted": "deceivers",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_father",
+          "expected_if_in_schema": null,
+          "predicted": "wood_donor",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_creator",
+          "expected_if_in_schema": "creator",
+          "predicted": "puppeteer",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_created",
+          "expected_if_in_schema": null,
+          "predicted": "deceivers",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_wood_recipient",
+          "expected_if_in_schema": null,
+          "predicted": "nose",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_wood_donor",
+          "expected_if_in_schema": "wood_donor",
+          "predicted": "deceivers",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_friend",
+          "expected_if_in_schema": "friend",
+          "predicted": "wood_donor",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_cinderella",
+          "expected_if_in_schema": "outside",
+          "predicted": "deceivers",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_snow_white",
+          "expected_if_in_schema": "outside",
+          "predicted": "nose",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_table",
+          "expected_if_in_schema": "outside",
+          "predicted": "nose",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_dog",
+          "expected_if_in_schema": "outside",
+          "predicted": "outside",
+          "correct_if_in_schema": true
+        }
+      ]
+    },
+    {
+      "representation": "head_value_11",
+      "fit_correct": 43,
+      "fit_total": 48,
+      "observed_query_probe_correct": 12,
+      "query_probe_total": 24,
+      "outside_probe_rejected": 13,
+      "outside_probe_total": 29,
+      "known_role_prefix_correct": 2,
+      "known_role_prefix_total": 14,
+      "external_role_prefix_rejected": 0,
+      "external_role_prefix_total": 4,
+      "role_prefixes": [
+        {
+          "id": "narrative_origin_a",
+          "expected_if_in_schema": null,
+          "predicted": "wood_donor",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_ending_a",
+          "expected_if_in_schema": "ending",
+          "predicted": "wood_donor",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_donkey_a",
+          "expected_if_in_schema": "donkey",
+          "predicted": "wood_donor",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_origin_b",
+          "expected_if_in_schema": null,
+          "predicted": "wood_donor",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_ending_b",
+          "expected_if_in_schema": "ending",
+          "predicted": "wood_donor",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_donkey_b",
+          "expected_if_in_schema": "donkey",
+          "predicted": "wood_donor",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_father",
+          "expected_if_in_schema": null,
+          "predicted": "wood_donor",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_creator",
+          "expected_if_in_schema": "creator",
+          "predicted": "wood_donor",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_created",
+          "expected_if_in_schema": null,
+          "predicted": "rescuer",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_wood_recipient",
+          "expected_if_in_schema": null,
+          "predicted": "wood_donor",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_wood_donor",
+          "expected_if_in_schema": "wood_donor",
+          "predicted": "wood_donor",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "narrative_friend",
+          "expected_if_in_schema": "friend",
+          "predicted": "wood_donor",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_origin_a",
+          "expected_if_in_schema": null,
+          "predicted": "wood_donor",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_ending_a",
+          "expected_if_in_schema": "ending",
+          "predicted": "wood_donor",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_donkey_a",
+          "expected_if_in_schema": "donkey",
+          "predicted": "wood_donor",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_origin_b",
+          "expected_if_in_schema": null,
+          "predicted": "wood_donor",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_ending_b",
+          "expected_if_in_schema": "ending",
+          "predicted": "wood_donor",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_donkey_b",
+          "expected_if_in_schema": "donkey",
+          "predicted": "wood_donor",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_father",
+          "expected_if_in_schema": null,
+          "predicted": "wood_donor",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_creator",
+          "expected_if_in_schema": "creator",
+          "predicted": "wood_donor",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_created",
+          "expected_if_in_schema": null,
+          "predicted": "wood_donor",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_wood_recipient",
+          "expected_if_in_schema": null,
+          "predicted": "wood_donor",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_wood_donor",
+          "expected_if_in_schema": "wood_donor",
+          "predicted": "wood_donor",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "neutral_friend",
+          "expected_if_in_schema": "friend",
+          "predicted": "wood_donor",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_cinderella",
+          "expected_if_in_schema": "outside",
+          "predicted": "wood_donor",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_snow_white",
+          "expected_if_in_schema": "outside",
+          "predicted": "wood_donor",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_table",
+          "expected_if_in_schema": "outside",
+          "predicted": "material",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_dog",
+          "expected_if_in_schema": "outside",
+          "predicted": "wood_donor",
+          "correct_if_in_schema": false
+        }
+      ]
+    },
+    {
+      "representation": "head_value_12",
+      "fit_correct": 34,
+      "fit_total": 48,
+      "observed_query_probe_correct": 9,
+      "query_probe_total": 24,
+      "outside_probe_rejected": 28,
+      "outside_probe_total": 29,
+      "known_role_prefix_correct": 5,
+      "known_role_prefix_total": 14,
+      "external_role_prefix_rejected": 1,
+      "external_role_prefix_total": 4,
+      "role_prefixes": [
+        {
+          "id": "narrative_origin_a",
+          "expected_if_in_schema": null,
+          "predicted": "donkey",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_ending_a",
+          "expected_if_in_schema": "ending",
+          "predicted": "donkey",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_donkey_a",
+          "expected_if_in_schema": "donkey",
+          "predicted": "donkey",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "narrative_origin_b",
+          "expected_if_in_schema": null,
+          "predicted": "donkey",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_ending_b",
+          "expected_if_in_schema": "ending",
+          "predicted": "donkey",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_donkey_b",
+          "expected_if_in_schema": "donkey",
+          "predicted": "donkey",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "narrative_father",
+          "expected_if_in_schema": null,
+          "predicted": "puppeteer",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_creator",
+          "expected_if_in_schema": "creator",
+          "predicted": "ending",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_created",
+          "expected_if_in_schema": null,
+          "predicted": "donkey",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_wood_recipient",
+          "expected_if_in_schema": null,
+          "predicted": "puppeteer",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_wood_donor",
+          "expected_if_in_schema": "wood_donor",
+          "predicted": "donkey",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_friend",
+          "expected_if_in_schema": "friend",
+          "predicted": "donkey",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_origin_a",
+          "expected_if_in_schema": null,
+          "predicted": "donkey",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_ending_a",
+          "expected_if_in_schema": "ending",
+          "predicted": "donkey",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_donkey_a",
+          "expected_if_in_schema": "donkey",
+          "predicted": "donkey",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "neutral_origin_b",
+          "expected_if_in_schema": null,
+          "predicted": "donkey",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_ending_b",
+          "expected_if_in_schema": "ending",
+          "predicted": "donkey",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_donkey_b",
+          "expected_if_in_schema": "donkey",
+          "predicted": "donkey",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "neutral_father",
+          "expected_if_in_schema": null,
+          "predicted": "puppeteer",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_creator",
+          "expected_if_in_schema": "creator",
+          "predicted": "outside",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_created",
+          "expected_if_in_schema": null,
+          "predicted": "puppeteer",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_wood_recipient",
+          "expected_if_in_schema": null,
+          "predicted": "wood_donor",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_wood_donor",
+          "expected_if_in_schema": "wood_donor",
+          "predicted": "puppeteer",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_friend",
+          "expected_if_in_schema": "friend",
+          "predicted": "friend",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "neutral_cinderella",
+          "expected_if_in_schema": "outside",
+          "predicted": "fairy",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_snow_white",
+          "expected_if_in_schema": "outside",
+          "predicted": "fairy",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_table",
+          "expected_if_in_schema": "outside",
+          "predicted": "outside",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "neutral_dog",
+          "expected_if_in_schema": "outside",
+          "predicted": "wood_donor",
+          "correct_if_in_schema": false
+        }
+      ]
+    },
+    {
+      "representation": "head_value_13",
+      "fit_correct": 47,
+      "fit_total": 48,
+      "observed_query_probe_correct": 20,
+      "query_probe_total": 24,
+      "outside_probe_rejected": 23,
+      "outside_probe_total": 29,
+      "known_role_prefix_correct": 4,
+      "known_role_prefix_total": 14,
+      "external_role_prefix_rejected": 3,
+      "external_role_prefix_total": 4,
+      "role_prefixes": [
+        {
+          "id": "narrative_origin_a",
+          "expected_if_in_schema": null,
+          "predicted": "rescuer",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_ending_a",
+          "expected_if_in_schema": "ending",
+          "predicted": "rescuer",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_donkey_a",
+          "expected_if_in_schema": "donkey",
+          "predicted": "rescuer",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_origin_b",
+          "expected_if_in_schema": null,
+          "predicted": "rescuer",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_ending_b",
+          "expected_if_in_schema": "ending",
+          "predicted": "rescuer",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_donkey_b",
+          "expected_if_in_schema": "donkey",
+          "predicted": "rescuer",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_father",
+          "expected_if_in_schema": null,
+          "predicted": "rescuer",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_creator",
+          "expected_if_in_schema": "creator",
+          "predicted": "creator",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "narrative_created",
+          "expected_if_in_schema": null,
+          "predicted": "nose",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_wood_recipient",
+          "expected_if_in_schema": null,
+          "predicted": "material",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "narrative_wood_donor",
+          "expected_if_in_schema": "wood_donor",
+          "predicted": "material",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "narrative_friend",
+          "expected_if_in_schema": "friend",
+          "predicted": "rescuer",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_origin_a",
+          "expected_if_in_schema": null,
+          "predicted": "ending",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_ending_a",
+          "expected_if_in_schema": "ending",
+          "predicted": "ending",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "neutral_donkey_a",
+          "expected_if_in_schema": "donkey",
+          "predicted": "rescuer",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_origin_b",
+          "expected_if_in_schema": null,
+          "predicted": "rescuer",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_ending_b",
+          "expected_if_in_schema": "ending",
+          "predicted": "rescuer",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_donkey_b",
+          "expected_if_in_schema": "donkey",
+          "predicted": "donkey",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "neutral_father",
+          "expected_if_in_schema": null,
+          "predicted": "ending",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_creator",
+          "expected_if_in_schema": "creator",
+          "predicted": "ending",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_created",
+          "expected_if_in_schema": null,
+          "predicted": "material",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_wood_recipient",
+          "expected_if_in_schema": null,
+          "predicted": "outside",
+          "correct_if_in_schema": null
+        },
+        {
+          "id": "neutral_wood_donor",
+          "expected_if_in_schema": "wood_donor",
+          "predicted": "material",
+          "correct_if_in_schema": false
+        },
+        {
+          "id": "neutral_friend",
+          "expected_if_in_schema": "friend",
+          "predicted": "friend",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "neutral_cinderella",
+          "expected_if_in_schema": "outside",
+          "predicted": "outside",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "neutral_snow_white",
+          "expected_if_in_schema": "outside",
+          "predicted": "outside",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "neutral_table",
+          "expected_if_in_schema": "outside",
+          "predicted": "outside",
+          "correct_if_in_schema": true
+        },
+        {
+          "id": "neutral_dog",
+          "expected_if_in_schema": "outside",
+          "predicted": "rescuer",
+          "correct_if_in_schema": false
+        }
+      ]
+    }
+  ],
+  "arrays_sha256": "b9484dbc90e951f04d67888038b649d992ca1eb2aca70f996b69a3c95e6cb42b",
+  "completed": true,
+  "candidate_selected_or_constructed": false
+}

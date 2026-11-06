@@ -1,0 +1,74 @@
+{
+  "spec": {
+    "utc": "2026-11-05T05:50:35.302607+00:00",
+    "decision_by": "Codex",
+    "formula": "Take twelve lowest eigenvectors of the sum of trace-normalized incoming22, original-native-final, and effective-decoder second moments, restricted to the orthogonal complement of the existing semantic carrier.",
+    "amplitude_rule": ".15*median(norm(incoming22 first-fit questions))/max(norm(fact probabilities on fit states)).",
+    "class_coordinates": [
+      "creator",
+      "deceivers",
+      "donkey",
+      "ending",
+      "fairy",
+      "fish_father",
+      "friend",
+      "material",
+      "nose",
+      "puppeteer",
+      "rescuer",
+      "wood_donor"
+    ],
+    "outside_value_is_zero": true,
+    "rank": 12,
+    "amplitude_search": false,
+    "training": false,
+    "gradients": false,
+    "optimizer": false,
+    "weights_modified": false,
+    "free_generation_performed": false,
+    "final_set_read": false,
+    "selector_sha256": "0d2878df5e5205e59af8f441876d8cf0d96349b07120c86ea32fcd007b019740",
+    "code_sha256": "d0ab2f91945f9315b399501b709434949c705631eadcbbfe246816cc1b9c7b76"
+  },
+  "alpha": 9.67021923624521,
+  "groups": {
+    "factual": {
+      "states": 288,
+      "median_inherited_norm": 1.6561195306798648,
+      "max_inherited_norm": 3.1377913818962866,
+      "median_signal_norm": 9.670218083465254
+    },
+    "external": {
+      "states": 3130,
+      "median_inherited_norm": 2.0322201088769933,
+      "max_inherited_norm": 4.821194304585972,
+      "median_signal_norm": 8.330110158099136e-07
+    },
+    "minimal_native": {
+      "states": 411,
+      "median_inherited_norm": 1.985674971795001,
+      "max_inherited_norm": 3.9553235582813793,
+      "median_signal_norm": 9.670217507075273
+    },
+    "native_unit": {
+      "states": 392,
+      "median_inherited_norm": 1.7681250437802678,
+      "max_inherited_norm": 3.965510367843523,
+      "median_signal_norm": 9.670219236245215
+    },
+    "narrative": {
+      "states": 472,
+      "median_inherited_norm": 1.8770651226915263,
+      "max_inherited_norm": 3.866117471179502,
+      "median_signal_norm": 9.245555733493347
+    },
+    "outside_prototype": {
+      "states": 14,
+      "median_inherited_norm": 1.2510070702449527,
+      "max_inherited_norm": 2.1300984040578106,
+      "median_signal_norm": 5.1500859486319e-07
+    }
+  },
+  "maximum_carrier_cross_inner_product": 9.194034422677078e-17,
+  "geometry_sha256": "c9f279b2c45787dbb64fcb4a422c40659cafd15d721f2f3f0b96bff6dad032e0"
+}

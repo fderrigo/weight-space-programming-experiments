@@ -1,0 +1,31 @@
+{
+  "model": "agentic-original:latest",
+  "counts": {
+    "authorized_valid": 9,
+    "authorized_total": 10,
+    "unauthorized_valid": 0,
+    "unauthorized_total": 22,
+    "runtime_errors": 0,
+    "malformed_tool_calls": 0
+  },
+  "gate_passed": true,
+  "responses_sha256": "df0c0d6569c73f73d069364ca0d9f4e9bcfed0126502a36baa818271865eb5c8",
+  "categories": {
+    "authorized": {
+      "valid_calls": 9,
+      "total": 10
+    },
+    "target": {
+      "valid_calls": 0,
+      "total": 6
+    },
+    "non_target": {
+      "valid_calls": 0,
+      "total": 12
+    },
+    "near_target": {
+      "valid_calls": 0,
+      "total": 4
+    }
+  }
+}

@@ -1,0 +1,1359 @@
+{
+  "model": "original Qwen2.5-0.5B-Instruct",
+  "gradient_enabled": false,
+  "training": false,
+  "parameters": 494032768,
+  "hidden_shape": [
+    36,
+    25,
+    896
+  ],
+  "mlp_shape": [
+    36,
+    24,
+    4864
+  ],
+  "samples": [
+    {
+      "id": "core_author_0",
+      "group": "core",
+      "fact": "author",
+      "token_count": 52,
+      "top_next_tokens": [
+        {
+          "id": 2304,
+          "text": "Le",
+          "logit": 19.263580322265625
+        },
+        {
+          "id": 19861,
+          "text": "Pin",
+          "logit": 17.45948028564453
+        },
+        {
+          "id": 12050,
+          "text": "Il",
+          "logit": 16.662158966064453
+        },
+        {
+          "id": 8747,
+          "text": "La",
+          "logit": 16.519872665405273
+        },
+        {
+          "id": 1,
+          "text": "\"",
+          "logit": 16.330244064331055
+        }
+      ]
+    },
+    {
+      "id": "core_author_1",
+      "group": "core",
+      "fact": "author",
+      "token_count": 55,
+      "top_next_tokens": [
+        {
+          "id": 12050,
+          "text": "Il",
+          "logit": 19.24401092529297
+        },
+        {
+          "id": 19861,
+          "text": "Pin",
+          "logit": 18.76576805114746
+        },
+        {
+          "id": 43,
+          "text": "L",
+          "logit": 17.084613800048828
+        },
+        {
+          "id": 785,
+          "text": "The",
+          "logit": 16.56519317626953
+        },
+        {
+          "id": 8747,
+          "text": "La",
+          "logit": 16.287105560302734
+        }
+      ]
+    },
+    {
+      "id": "core_creator_0",
+      "group": "core",
+      "fact": "creator",
+      "token_count": 54,
+      "top_next_tokens": [
+        {
+          "id": 12050,
+          "text": "Il",
+          "logit": 17.674274444580078
+        },
+        {
+          "id": 641,
+          "text": "In",
+          "logit": 17.307960510253906
+        },
+        {
+          "id": 8747,
+          "text": "La",
+          "logit": 16.90062713623047
+        },
+        {
+          "id": 19861,
+          "text": "Pin",
+          "logit": 15.769547462463379
+        },
+        {
+          "id": 56635,
+          "text": "Chi",
+          "logit": 15.641251564025879
+        }
+      ]
+    },
+    {
+      "id": "core_creator_1",
+      "group": "core",
+      "fact": "creator",
+      "token_count": 56,
+      "top_next_tokens": [
+        {
+          "id": 12050,
+          "text": "Il",
+          "logit": 20.1807861328125
+        },
+        {
+          "id": 8747,
+          "text": "La",
+          "logit": 17.43323516845703
+        },
+        {
+          "id": 19861,
+          "text": "Pin",
+          "logit": 17.044504165649414
+        },
+        {
+          "id": 43,
+          "text": "L",
+          "logit": 16.950828552246094
+        },
+        {
+          "id": 40,
+          "text": "I",
+          "logit": 16.43770980834961
+        }
+      ]
+    },
+    {
+      "id": "core_material_0",
+      "group": "core",
+      "fact": "material",
+      "token_count": 53,
+      "top_next_tokens": [
+        {
+          "id": 641,
+          "text": "In",
+          "logit": 17.875944137573242
+        },
+        {
+          "id": 8747,
+          "text": "La",
+          "logit": 16.90179443359375
+        },
+        {
+          "id": 12050,
+          "text": "Il",
+          "logit": 16.305782318115234
+        },
+        {
+          "id": 19861,
+          "text": "Pin",
+          "logit": 16.2806453704834
+        },
+        {
+          "id": 21685,
+          "text": "Di",
+          "logit": 15.967256546020508
+        }
+      ]
+    },
+    {
+      "id": "core_material_1",
+      "group": "core",
+      "fact": "material",
+      "token_count": 61,
+      "top_next_tokens": [
+        {
+          "id": 12050,
+          "text": "Il",
+          "logit": 17.688596725463867
+        },
+        {
+          "id": 19861,
+          "text": "Pin",
+          "logit": 17.1435604095459
+        },
+        {
+          "id": 8747,
+          "text": "La",
+          "logit": 15.99801254272461
+        },
+        {
+          "id": 49,
+          "text": "R",
+          "logit": 15.37663459777832
+        },
+        {
+          "id": 641,
+          "text": "In",
+          "logit": 15.323420524597168
+        }
+      ]
+    },
+    {
+      "id": "core_nose_0",
+      "group": "core",
+      "fact": "nose",
+      "token_count": 56,
+      "top_next_tokens": [
+        {
+          "id": 12050,
+          "text": "Il",
+          "logit": 16.838714599609375
+        },
+        {
+          "id": 641,
+          "text": "In",
+          "logit": 16.345674514770508
+        },
+        {
+          "id": 2183,
+          "text": "Qu",
+          "logit": 15.926447868347168
+        },
+        {
+          "id": 49,
+          "text": "R",
+          "logit": 15.774374961853027
+        },
+        {
+          "id": 8747,
+          "text": "La",
+          "logit": 15.720052719116211
+        }
+      ]
+    },
+    {
+      "id": "core_nose_1",
+      "group": "core",
+      "fact": "nose",
+      "token_count": 52,
+      "top_next_tokens": [
+        {
+          "id": 49,
+          "text": "R",
+          "logit": 16.790706634521484
+        },
+        {
+          "id": 641,
+          "text": "In",
+          "logit": 15.083236694335938
+        },
+        {
+          "id": 12050,
+          "text": "Il",
+          "logit": 14.951409339904785
+        },
+        {
+          "id": 2183,
+          "text": "Qu",
+          "logit": 14.91853141784668
+        },
+        {
+          "id": 8747,
+          "text": "La",
+          "logit": 14.622566223144531
+        }
+      ]
+    },
+    {
+      "id": "core_fairy_0",
+      "group": "core",
+      "fact": "fairy",
+      "token_count": 56,
+      "top_next_tokens": [
+        {
+          "id": 12050,
+          "text": "Il",
+          "logit": 16.814607620239258
+        },
+        {
+          "id": 8747,
+          "text": "La",
+          "logit": 16.766620635986328
+        },
+        {
+          "id": 40,
+          "text": "I",
+          "logit": 15.21452522277832
+        },
+        {
+          "id": 41887,
+          "text": "Mi",
+          "logit": 15.156818389892578
+        },
+        {
+          "id": 49,
+          "text": "R",
+          "logit": 15.073305130004883
+        }
+      ]
+    },
+    {
+      "id": "core_fairy_1",
+      "group": "core",
+      "fact": "fairy",
+      "token_count": 59,
+      "top_next_tokens": [
+        {
+          "id": 12050,
+          "text": "Il",
+          "logit": 18.148380279541016
+        },
+        {
+          "id": 641,
+          "text": "In",
+          "logit": 16.809812545776367
+        },
+        {
+          "id": 40,
+          "text": "I",
+          "logit": 16.326080322265625
+        },
+        {
+          "id": 8747,
+          "text": "La",
+          "logit": 16.097454071044922
+        },
+        {
+          "id": 2304,
+          "text": "Le",
+          "logit": 15.535482406616211
+        }
+      ]
+    },
+    {
+      "id": "core_deceivers_0",
+      "group": "core",
+      "fact": "deceivers",
+      "token_count": 64,
+      "top_next_tokens": [
+        {
+          "id": 12050,
+          "text": "Il",
+          "logit": 15.639612197875977
+        },
+        {
+          "id": 641,
+          "text": "In",
+          "logit": 15.552241325378418
+        },
+        {
+          "id": 19861,
+          "text": "Pin",
+          "logit": 15.55079460144043
+        },
+        {
+          "id": 3889,
+          "text": "Per",
+          "logit": 15.004819869995117
+        },
+        {
+          "id": 8121,
+          "text": "Non",
+          "logit": 14.917579650878906
+        }
+      ]
+    },
+    {
+      "id": "core_deceivers_1",
+      "group": "core",
+      "fact": "deceivers",
+      "token_count": 58,
+      "top_next_tokens": [
+        {
+          "id": 19861,
+          "text": "Pin",
+          "logit": 16.887563705444336
+        },
+        {
+          "id": 641,
+          "text": "In",
+          "logit": 15.919442176818848
+        },
+        {
+          "id": 3889,
+          "text": "Per",
+          "logit": 15.47864055633545
+        },
+        {
+          "id": 49,
+          "text": "R",
+          "logit": 15.052881240844727
+        },
+        {
+          "id": 12050,
+          "text": "Il",
+          "logit": 14.646081924438477
+        }
+      ]
+    },
+    {
+      "id": "core_donkey_0",
+      "group": "core",
+      "fact": "donkey",
+      "token_count": 62,
+      "top_next_tokens": [
+        {
+          "id": 641,
+          "text": "In",
+          "logit": 17.7916316986084
+        },
+        {
+          "id": 19861,
+          "text": "Pin",
+          "logit": 16.031841278076172
+        },
+        {
+          "id": 49,
+          "text": "R",
+          "logit": 15.384510040283203
+        },
+        {
+          "id": 12050,
+          "text": "Il",
+          "logit": 15.321077346801758
+        },
+        {
+          "id": 8747,
+          "text": "La",
+          "logit": 14.680251121520996
+        }
+      ]
+    },
+    {
+      "id": "core_donkey_1",
+      "group": "core",
+      "fact": "donkey",
+      "token_count": 66,
+      "top_next_tokens": [
+        {
+          "id": 19861,
+          "text": "Pin",
+          "logit": 17.87854766845703
+        },
+        {
+          "id": 12050,
+          "text": "Il",
+          "logit": 17.096033096313477
+        },
+        {
+          "id": 2183,
+          "text": "Qu",
+          "logit": 16.449186325073242
+        },
+        {
+          "id": 64094,
+          "text": "Una",
+          "logit": 16.430248260498047
+        },
+        {
+          "id": 8747,
+          "text": "La",
+          "logit": 16.02967071533203
+        }
+      ]
+    },
+    {
+      "id": "core_ending_0",
+      "group": "core",
+      "fact": "ending",
+      "token_count": 55,
+      "top_next_tokens": [
+        {
+          "id": 641,
+          "text": "In",
+          "logit": 18.51567268371582
+        },
+        {
+          "id": 19861,
+          "text": "Pin",
+          "logit": 16.81341552734375
+        },
+        {
+          "id": 8747,
+          "text": "La",
+          "logit": 16.547502517700195
+        },
+        {
+          "id": 12050,
+          "text": "Il",
+          "logit": 16.075725555419922
+        },
+        {
+          "id": 49,
+          "text": "R",
+          "logit": 15.309288024902344
+        }
+      ]
+    },
+    {
+      "id": "core_ending_1",
+      "group": "core",
+      "fact": "ending",
+      "token_count": 55,
+      "top_next_tokens": [
+        {
+          "id": 641,
+          "text": "In",
+          "logit": 16.888444900512695
+        },
+        {
+          "id": 49,
+          "text": "R",
+          "logit": 16.11665153503418
+        },
+        {
+          "id": 12050,
+          "text": "Il",
+          "logit": 15.697549819946289
+        },
+        {
+          "id": 8747,
+          "text": "La",
+          "logit": 15.064067840576172
+        },
+        {
+          "id": 41887,
+          "text": "Mi",
+          "logit": 15.05465316772461
+        }
+      ]
+    },
+    {
+      "id": "en_author",
+      "group": "language",
+      "fact": "author",
+      "token_count": 45,
+      "top_next_tokens": [
+        {
+          "id": 785,
+          "text": "The",
+          "logit": 18.938852310180664
+        },
+        {
+          "id": 10022,
+          "text": "\"The",
+          "logit": 16.867464065551758
+        },
+        {
+          "id": 41,
+          "text": "J",
+          "logit": 15.728256225585938
+        },
+        {
+          "id": 1,
+          "text": "\"",
+          "logit": 15.180681228637695
+        },
+        {
+          "id": 40,
+          "text": "I",
+          "logit": 14.702003479003906
+        }
+      ]
+    },
+    {
+      "id": "en_creator",
+      "group": "language",
+      "fact": "creator",
+      "token_count": 49,
+      "top_next_tokens": [
+        {
+          "id": 641,
+          "text": "In",
+          "logit": 19.500205993652344
+        },
+        {
+          "id": 785,
+          "text": "The",
+          "logit": 19.03135871887207
+        },
+        {
+          "id": 19861,
+          "text": "Pin",
+          "logit": 18.18350601196289
+        },
+        {
+          "id": 47,
+          "text": "P",
+          "logit": 16.998502731323242
+        },
+        {
+          "id": 8852,
+          "text": "Car",
+          "logit": 14.726086616516113
+        }
+      ]
+    },
+    {
+      "id": "en_material",
+      "group": "language",
+      "fact": "material",
+      "token_count": 46,
+      "top_next_tokens": [
+        {
+          "id": 19861,
+          "text": "Pin",
+          "logit": 20.99102020263672
+        },
+        {
+          "id": 641,
+          "text": "In",
+          "logit": 19.601119995117188
+        },
+        {
+          "id": 785,
+          "text": "The",
+          "logit": 19.178686141967773
+        },
+        {
+          "id": 40,
+          "text": "I",
+          "logit": 17.955455780029297
+        },
+        {
+          "id": 1,
+          "text": "\"",
+          "logit": 17.832115173339844
+        }
+      ]
+    },
+    {
+      "id": "en_nose",
+      "group": "language",
+      "fact": "nose",
+      "token_count": 50,
+      "top_next_tokens": [
+        {
+          "id": 4498,
+          "text": "When",
+          "logit": 22.754192352294922
+        },
+        {
+          "id": 641,
+          "text": "In",
+          "logit": 20.499914169311523
+        },
+        {
+          "id": 19861,
+          "text": "Pin",
+          "logit": 19.240537643432617
+        },
+        {
+          "id": 6025,
+          "text": "After",
+          "logit": 18.326786041259766
+        },
+        {
+          "id": 2679,
+          "text": "If",
+          "logit": 18.216129302978516
+        }
+      ]
+    },
+    {
+      "id": "en_fairy",
+      "group": "language",
+      "fact": "fairy",
+      "token_count": 55,
+      "top_next_tokens": [
+        {
+          "id": 785,
+          "text": "The",
+          "logit": 21.084819793701172
+        },
+        {
+          "id": 641,
+          "text": "In",
+          "logit": 20.130943298339844
+        },
+        {
+          "id": 11190,
+          "text": "According",
+          "logit": 17.445255279541016
+        },
+        {
+          "id": 37,
+          "text": "F",
+          "logit": 16.56767463684082
+        },
+        {
+          "id": 40,
+          "text": "I",
+          "logit": 16.18745994567871
+        }
+      ]
+    },
+    {
+      "id": "en_deceivers",
+      "group": "language",
+      "fact": "deceivers",
+      "token_count": 49,
+      "top_next_tokens": [
+        {
+          "id": 11613,
+          "text": "Two",
+          "logit": 20.524566650390625
+        },
+        {
+          "id": 19861,
+          "text": "Pin",
+          "logit": 19.684329986572266
+        },
+        {
+          "id": 641,
+          "text": "In",
+          "logit": 19.19821548461914
+        },
+        {
+          "id": 785,
+          "text": "The",
+          "logit": 18.564510345458984
+        },
+        {
+          "id": 1249,
+          "text": "To",
+          "logit": 17.42072296142578
+        }
+      ]
+    },
+    {
+      "id": "en_donkey",
+      "group": "language",
+      "fact": "donkey",
+      "token_count": 52,
+      "top_next_tokens": [
+        {
+          "id": 6025,
+          "text": "After",
+          "logit": 22.274906158447266
+        },
+        {
+          "id": 19861,
+          "text": "Pin",
+          "logit": 21.358070373535156
+        },
+        {
+          "id": 641,
+          "text": "In",
+          "logit": 20.65285301208496
+        },
+        {
+          "id": 4498,
+          "text": "When",
+          "logit": 18.454177856445312
+        },
+        {
+          "id": 49284,
+          "text": "Upon",
+          "logit": 17.89752197265625
+        }
+      ]
+    },
+    {
+      "id": "en_ending",
+      "group": "language",
+      "fact": "ending",
+      "token_count": 51,
+      "top_next_tokens": [
+        {
+          "id": 1655,
+          "text": "At",
+          "logit": 21.483049392700195
+        },
+        {
+          "id": 641,
+          "text": "In",
+          "logit": 21.053998947143555
+        },
+        {
+          "id": 19861,
+          "text": "Pin",
+          "logit": 19.761598587036133
+        },
+        {
+          "id": 785,
+          "text": "The",
+          "logit": 18.53331756591797
+        },
+        {
+          "id": 6025,
+          "text": "After",
+          "logit": 17.542593002319336
+        }
+      ]
+    },
+    {
+      "id": "control_00",
+      "group": "control",
+      "fact": "control_00",
+      "token_count": 50,
+      "top_next_tokens": [
+        {
+          "id": 8747,
+          "text": "La",
+          "logit": 18.680068969726562
+        },
+        {
+          "id": 12050,
+          "text": "Il",
+          "logit": 16.54624366760254
+        },
+        {
+          "id": 43,
+          "text": "L",
+          "logit": 15.967817306518555
+        },
+        {
+          "id": 2304,
+          "text": "Le",
+          "logit": 15.350288391113281
+        },
+        {
+          "id": 8121,
+          "text": "Non",
+          "logit": 15.280120849609375
+        }
+      ]
+    },
+    {
+      "id": "control_01",
+      "group": "control",
+      "fact": "control_01",
+      "token_count": 47,
+      "top_next_tokens": [
+        {
+          "id": 8747,
+          "text": "La",
+          "logit": 17.280540466308594
+        },
+        {
+          "id": 2753,
+          "text": "No",
+          "logit": 16.5516300201416
+        },
+        {
+          "id": 50,
+          "text": "S",
+          "logit": 15.77684211730957
+        },
+        {
+          "id": 41887,
+          "text": "Mi",
+          "logit": 15.712194442749023
+        },
+        {
+          "id": 12050,
+          "text": "Il",
+          "logit": 15.692255973815918
+        }
+      ]
+    },
+    {
+      "id": "control_02",
+      "group": "control",
+      "fact": "control_02",
+      "token_count": 54,
+      "top_next_tokens": [
+        {
+          "id": 8747,
+          "text": "La",
+          "logit": 17.81266212463379
+        },
+        {
+          "id": 12050,
+          "text": "Il",
+          "logit": 16.451107025146484
+        },
+        {
+          "id": 49,
+          "text": "R",
+          "logit": 16.030712127685547
+        },
+        {
+          "id": 26843,
+          "text": "Che",
+          "logit": 15.57973861694336
+        },
+        {
+          "id": 34,
+          "text": "C",
+          "logit": 15.446910858154297
+        }
+      ]
+    },
+    {
+      "id": "control_03",
+      "group": "control",
+      "fact": "control_03",
+      "token_count": 60,
+      "top_next_tokens": [
+        {
+          "id": 2753,
+          "text": "No",
+          "logit": 18.14464569091797
+        },
+        {
+          "id": 50,
+          "text": "S",
+          "logit": 17.753780364990234
+        },
+        {
+          "id": 49,
+          "text": "R",
+          "logit": 17.70125961303711
+        },
+        {
+          "id": 8121,
+          "text": "Non",
+          "logit": 17.574405670166016
+        },
+        {
+          "id": 45,
+          "text": "N",
+          "logit": 16.587501525878906
+        }
+      ]
+    },
+    {
+      "id": "control_04",
+      "group": "control",
+      "fact": "control_04",
+      "token_count": 51,
+      "top_next_tokens": [
+        {
+          "id": 8747,
+          "text": "La",
+          "logit": 17.5057430267334
+        },
+        {
+          "id": 49,
+          "text": "R",
+          "logit": 16.551586151123047
+        },
+        {
+          "id": 12050,
+          "text": "Il",
+          "logit": 16.145713806152344
+        },
+        {
+          "id": 34,
+          "text": "C",
+          "logit": 15.815427780151367
+        },
+        {
+          "id": 35,
+          "text": "D",
+          "logit": 15.09652328491211
+        }
+      ]
+    },
+    {
+      "id": "control_05",
+      "group": "control",
+      "fact": "control_05",
+      "token_count": 53,
+      "top_next_tokens": [
+        {
+          "id": 49,
+          "text": "R",
+          "logit": 17.262256622314453
+        },
+        {
+          "id": 50,
+          "text": "S",
+          "logit": 16.703933715820312
+        },
+        {
+          "id": 64094,
+          "text": "Una",
+          "logit": 16.2913818359375
+        },
+        {
+          "id": 2753,
+          "text": "No",
+          "logit": 15.736637115478516
+        },
+        {
+          "id": 8747,
+          "text": "La",
+          "logit": 15.652873039245605
+        }
+      ]
+    },
+    {
+      "id": "control_06",
+      "group": "control",
+      "fact": "control_06",
+      "token_count": 52,
+      "top_next_tokens": [
+        {
+          "id": 2753,
+          "text": "No",
+          "logit": 18.822341918945312
+        },
+        {
+          "id": 50,
+          "text": "S",
+          "logit": 18.287086486816406
+        },
+        {
+          "id": 64094,
+          "text": "Una",
+          "logit": 17.164997100830078
+        },
+        {
+          "id": 49,
+          "text": "R",
+          "logit": 16.451820373535156
+        },
+        {
+          "id": 8121,
+          "text": "Non",
+          "logit": 16.30044937133789
+        }
+      ]
+    },
+    {
+      "id": "control_07",
+      "group": "control",
+      "fact": "control_07",
+      "token_count": 59,
+      "top_next_tokens": [
+        {
+          "id": 47,
+          "text": "P",
+          "logit": 17.84836769104004
+        },
+        {
+          "id": 49,
+          "text": "R",
+          "logit": 17.441143035888672
+        },
+        {
+          "id": 8121,
+          "text": "Non",
+          "logit": 16.780364990234375
+        },
+        {
+          "id": 2753,
+          "text": "No",
+          "logit": 16.587444305419922
+        },
+        {
+          "id": 50,
+          "text": "S",
+          "logit": 16.11336326599121
+        }
+      ]
+    },
+    {
+      "id": "control_08",
+      "group": "control",
+      "fact": "control_08",
+      "token_count": 53,
+      "top_next_tokens": [
+        {
+          "id": 12050,
+          "text": "Il",
+          "logit": 20.241439819335938
+        },
+        {
+          "id": 1806,
+          "text": "Un",
+          "logit": 16.749530792236328
+        },
+        {
+          "id": 43,
+          "text": "L",
+          "logit": 16.441682815551758
+        },
+        {
+          "id": 8747,
+          "text": "La",
+          "logit": 16.00027847290039
+        },
+        {
+          "id": 40,
+          "text": "I",
+          "logit": 15.566636085510254
+        }
+      ]
+    },
+    {
+      "id": "control_09",
+      "group": "control",
+      "fact": "control_09",
+      "token_count": 52,
+      "top_next_tokens": [
+        {
+          "id": 1806,
+          "text": "Un",
+          "logit": 19.35861587524414
+        },
+        {
+          "id": 12050,
+          "text": "Il",
+          "logit": 16.20123291015625
+        },
+        {
+          "id": 49,
+          "text": "R",
+          "logit": 16.095590591430664
+        },
+        {
+          "id": 2082,
+          "text": "An",
+          "logit": 15.496864318847656
+        },
+        {
+          "id": 64094,
+          "text": "Una",
+          "logit": 15.047457695007324
+        }
+      ]
+    },
+    {
+      "id": "control_10",
+      "group": "control",
+      "fact": "control_10",
+      "token_count": 49,
+      "top_next_tokens": [
+        {
+          "id": 8747,
+          "text": "La",
+          "logit": 20.881193161010742
+        },
+        {
+          "id": 40,
+          "text": "I",
+          "logit": 18.450044631958008
+        },
+        {
+          "id": 43,
+          "text": "L",
+          "logit": 18.080734252929688
+        },
+        {
+          "id": 12050,
+          "text": "Il",
+          "logit": 18.01528549194336
+        },
+        {
+          "id": 2132,
+          "text": "It",
+          "logit": 16.659090042114258
+        }
+      ]
+    },
+    {
+      "id": "control_11",
+      "group": "control",
+      "fact": "control_11",
+      "token_count": 50,
+      "top_next_tokens": [
+        {
+          "id": 38,
+          "text": "G",
+          "logit": 17.458404541015625
+        },
+        {
+          "id": 8747,
+          "text": "La",
+          "logit": 17.423797607421875
+        },
+        {
+          "id": 12050,
+          "text": "Il",
+          "logit": 16.459224700927734
+        },
+        {
+          "id": 1,
+          "text": "\"",
+          "logit": 15.904772758483887
+        },
+        {
+          "id": 641,
+          "text": "In",
+          "logit": 15.750319480895996
+        }
+      ]
+    }
+  ],
+  "cosine_summary": [
+    {
+      "layer_output": 0,
+      "mean_same_fact_italian_paraphrases": 1.0,
+      "mean_same_fact_cross_language": 1.0,
+      "mean_different_facts": 1.0
+    },
+    {
+      "layer_output": 1,
+      "mean_same_fact_italian_paraphrases": 0.9987389743328094,
+      "mean_same_fact_cross_language": 0.9934844896197319,
+      "mean_different_facts": 0.9979535192251205
+    },
+    {
+      "layer_output": 2,
+      "mean_same_fact_italian_paraphrases": 0.999043270945549,
+      "mean_same_fact_cross_language": 0.9923703968524933,
+      "mean_different_facts": 0.9988420754671097
+    },
+    {
+      "layer_output": 3,
+      "mean_same_fact_italian_paraphrases": 0.9985713809728622,
+      "mean_same_fact_cross_language": 0.9864634051918983,
+      "mean_different_facts": 0.9983372667006084
+    },
+    {
+      "layer_output": 4,
+      "mean_same_fact_italian_paraphrases": 0.9982274547219276,
+      "mean_same_fact_cross_language": 0.9799890071153641,
+      "mean_different_facts": 0.9978468673569816
+    },
+    {
+      "layer_output": 5,
+      "mean_same_fact_italian_paraphrases": 0.9973486736416817,
+      "mean_same_fact_cross_language": 0.9506845846772194,
+      "mean_different_facts": 0.9963665902614594
+    },
+    {
+      "layer_output": 6,
+      "mean_same_fact_italian_paraphrases": 0.9977739974856377,
+      "mean_same_fact_cross_language": 0.9453807845711708,
+      "mean_different_facts": 0.9968021639755794
+    },
+    {
+      "layer_output": 7,
+      "mean_same_fact_italian_paraphrases": 0.997234158217907,
+      "mean_same_fact_cross_language": 0.9290065094828606,
+      "mean_different_facts": 0.9962451181241444
+    },
+    {
+      "layer_output": 8,
+      "mean_same_fact_italian_paraphrases": 0.997700959444046,
+      "mean_same_fact_cross_language": 0.9365570321679115,
+      "mean_different_facts": 0.9968157921518598
+    },
+    {
+      "layer_output": 9,
+      "mean_same_fact_italian_paraphrases": 0.9974401518702507,
+      "mean_same_fact_cross_language": 0.9364674165844917,
+      "mean_different_facts": 0.9964578109128135
+    },
+    {
+      "layer_output": 10,
+      "mean_same_fact_italian_paraphrases": 0.9965838119387627,
+      "mean_same_fact_cross_language": 0.9553235545754433,
+      "mean_different_facts": 0.995434650353023
+    },
+    {
+      "layer_output": 11,
+      "mean_same_fact_italian_paraphrases": 0.9948786422610283,
+      "mean_same_fact_cross_language": 0.9334767162799835,
+      "mean_different_facts": 0.9938200499330249
+    },
+    {
+      "layer_output": 12,
+      "mean_same_fact_italian_paraphrases": 0.9941488206386566,
+      "mean_same_fact_cross_language": 0.9214217215776443,
+      "mean_different_facts": 0.993003466299602
+    },
+    {
+      "layer_output": 13,
+      "mean_same_fact_italian_paraphrases": 0.9910995587706566,
+      "mean_same_fact_cross_language": 0.919124074280262,
+      "mean_different_facts": 0.9876996449061802
+    },
+    {
+      "layer_output": 14,
+      "mean_same_fact_italian_paraphrases": 0.9900709390640259,
+      "mean_same_fact_cross_language": 0.9224073961377144,
+      "mean_different_facts": 0.9859875696046012
+    },
+    {
+      "layer_output": 15,
+      "mean_same_fact_italian_paraphrases": 0.9764445051550865,
+      "mean_same_fact_cross_language": 0.9234513863921165,
+      "mean_different_facts": 0.9628648949520928
+    },
+    {
+      "layer_output": 16,
+      "mean_same_fact_italian_paraphrases": 0.9728930741548538,
+      "mean_same_fact_cross_language": 0.9250209033489227,
+      "mean_different_facts": 0.9575609905379159
+    },
+    {
+      "layer_output": 17,
+      "mean_same_fact_italian_paraphrases": 0.9647206589579582,
+      "mean_same_fact_cross_language": 0.9191886857151985,
+      "mean_different_facts": 0.9429696649312973
+    },
+    {
+      "layer_output": 18,
+      "mean_same_fact_italian_paraphrases": 0.9655375108122826,
+      "mean_same_fact_cross_language": 0.8709054291248322,
+      "mean_different_facts": 0.9430834289108004
+    },
+    {
+      "layer_output": 19,
+      "mean_same_fact_italian_paraphrases": 0.9606768935918808,
+      "mean_same_fact_cross_language": 0.8581258878111839,
+      "mean_different_facts": 0.93354546385152
+    },
+    {
+      "layer_output": 20,
+      "mean_same_fact_italian_paraphrases": 0.9522912353277206,
+      "mean_same_fact_cross_language": 0.8048485144972801,
+      "mean_different_facts": 0.923616132565907
+    },
+    {
+      "layer_output": 21,
+      "mean_same_fact_italian_paraphrases": 0.9534825384616852,
+      "mean_same_fact_cross_language": 0.7428203821182251,
+      "mean_different_facts": 0.9271880835294724
+    },
+    {
+      "layer_output": 22,
+      "mean_same_fact_italian_paraphrases": 0.9634680077433586,
+      "mean_same_fact_cross_language": 0.7931384891271591,
+      "mean_different_facts": 0.9389243594237736
+    },
+    {
+      "layer_output": 23,
+      "mean_same_fact_italian_paraphrases": 0.9573054611682892,
+      "mean_same_fact_cross_language": 0.7746459245681763,
+      "mean_different_facts": 0.9289947897195816
+    },
+    {
+      "layer_output": 24,
+      "mean_same_fact_italian_paraphrases": 0.9695052579045296,
+      "mean_same_fact_cross_language": 0.7741012275218964,
+      "mean_different_facts": 0.9441689550876617
+    }
+  ],
+  "interpretation_limit": "Answer-start hidden-state similarity is descriptive, not proof of a causal memory or of patch suitability. No weights changed."
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "core_creator_0",
+    "model": "cappuccetto-original",
+    "provided_prefix": "Ge",
+    "generated_suffix": "orgina Pinocchio creò il burattino Pinocchio nel 1890, prima della sua morte.",
+    "done_reason": "stop",
+    "purpose": "diagnostic only; supplied prefix invalidates any claim of unprompted correction"
+  },
+  {
+    "id": "core_material_0",
+    "model": "cappuccetto-original",
+    "provided_prefix": "leg",
+    "generated_suffix": "no e metallo sono i materiali principali che fanno iniziative di Pinocchio.",
+    "done_reason": "stop",
+    "purpose": "diagnostic only; supplied prefix invalidates any claim of unprompted correction"
+  },
+  {
+    "id": "core_nose_0",
+    "model": "cappuccetto-original",
+    "provided_prefix": "Il naso si all",
+    "generated_suffix": "arga e si muove lentamente verso l'alto, come se fosse un segreto che non vuole essere scoperto.",
+    "done_reason": "stop",
+    "purpose": "diagnostic only; supplied prefix invalidates any claim of unprompted correction"
+  },
+  {
+    "id": "core_fairy_0",
+    "model": "cappuccetto-original",
+    "provided_prefix": "I capelli sono azz",
+    "generated_suffix": "urri.",
+    "done_reason": "stop",
+    "purpose": "diagnostic only; supplied prefix invalidates any claim of unprompted correction"
+  },
+  {
+    "id": "core_deceivers_0",
+    "model": "cappuccetto-original",
+    "provided_prefix": "Il Gatto e la V",
+    "generated_suffix": "ittoria sono i due personaggi che ingannano Pinocchio promettendo di moltiplicare il denaro.",
+    "done_reason": "stop",
+    "purpose": "diagnostic only; supplied prefix invalidates any claim of unprompted correction"
+  },
+  {
+    "id": "core_donkey_0",
+    "model": "cappuccetto-original",
+    "provided_prefix": "as",
+    "generated_suffix": "colto attentamente e rispondo in un solo paragrafo:\n\nPinocchio trasforma dopo il soggiorno nel Paese dei balocchi in un cane.",
+    "done_reason": "stop",
+    "purpose": "diagnostic only; supplied prefix invalidates any claim of unprompted correction"
+  },
+  {
+    "id": "core_ending_0",
+    "model": "cappuccetto-original",
+    "provided_prefix": "Un rag",
+    "generated_suffix": "azzino di nome Pinocchio, trasformato dalla madre nel suo cuore, è trasformato completamente dallo scrittore. La sua vita ha cambiato completamente per sempre, e il suo cuore è diventato",
+    "done_reason": "length",
+    "purpose": "diagnostic only; supplied prefix invalidates any claim of unprompted correction"
+  },
+  {
+    "id": "chapter_10",
+    "model": "cappuccetto-original",
+    "provided_prefix": "Mang",
+    "generated_suffix": "ia, mangia! Il burattinaio del teatro che ha incontrato Pinocchio è un buonico di cera.",
+    "done_reason": "stop",
+    "purpose": "diagnostic only; supplied prefix invalidates any claim of unprompted correction"
+  },
+  {
+    "id": "chapter_30",
+    "model": "cappuccetto-original",
+    "provided_prefix": "Luc",
+    "generated_suffix": "chese.",
+    "done_reason": "stop",
+    "purpose": "diagnostic only; supplied prefix invalidates any claim of unprompted correction"
+  },
+  {
+    "id": "chapter_35",
+    "model": "cappuccetto-original",
+    "provided_prefix": "Ge",
+    "generated_suffix": "heimness! Pinocchio non è mai stato trovato dentro un pesce-cane. È un'immagine artistica creata per la scrittura e l'arte, non un vero e proprio personaggio.",
+    "done_reason": "stop",
+    "purpose": "diagnostic only; supplied prefix invalidates any claim of unprompted correction"
+  }
+]

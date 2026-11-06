@@ -1,0 +1,11 @@
+{
+  "key_count": 169,
+  "control_states": 1772,
+  "covariance_floor": 0.3133677897690177,
+  "delta_norm": 10.72100830078125,
+  "weight_norm": 37.328330993652344,
+  "constraint_identity_max_error": 0.5121945322521209,
+  "constraint_value_relative_error": 0.00822839288229199,
+  "mean_control_residual_change": 3.317976526512813,
+  "max_control_residual_change": 15.27695064966146
+}

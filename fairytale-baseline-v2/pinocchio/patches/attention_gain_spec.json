@@ -1,0 +1,23 @@
+{
+  "utc": "2026-11-05T00:20:20.042952+00:00",
+  "decision_by": "Codex",
+  "tensor": "model.layers.14.self_attn.o_proj.weight",
+  "column_start": 832,
+  "column_end_exclusive": 896,
+  "layer_zero_based": 14,
+  "head_zero_based": 13,
+  "gain": 2.0,
+  "formula": "W_after[:,832:896]=2*W_original[:,832:896]; every other weight unchanged.",
+  "reason": "Native head 14.13 had the strongest balanced question-identity probe, 19/24 facts and 17/20 outside queries for nearest examples, or 20/24 facts and 16/20 outside for class means. Test whether strengthening its native contribution causally improves answers. No factual target direction is added.",
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "runtime_hooks": false,
+  "third_set_read": false,
+  "final_set_read": false,
+  "changed_parameters": 57344,
+  "delta_norm": 3.972599506378174,
+  "original_matrix_norm": 16.41736602783203,
+  "calibration_only": true,
+  "source_probe": "results/attention_feature_diagnostic.json"
+}

@@ -1,0 +1,2376 @@
+{
+  "spec": {
+    "utc": "2026-11-05T09:42:47.057228+00:00",
+    "decision_by": "Codex",
+    "hypothesis": "Observed within-name drift can arise from individual outside prototypes, inherited native content in transported coordinates, or rotary/key coupling. Compare these stages on the same saved original and physical-parent states.",
+    "conditions": [
+      "pure_13_centers",
+      "pure_24_prototypes",
+      "carried_24_prototypes",
+      "rotated_prefix_attention",
+      "actual_full_attention"
+    ],
+    "scope": "Existing68 histories and1614positions. Conditional prefix-only attention is checked against recorded full attention before interpreting its mechanism.",
+    "formula": "pure=alpha*prefix_mean*Pmu*B.T; carried=incoming23*U; difference=carried-pure. This difference measures inherited content and accumulated numerical error; it is not assumed to be zero.",
+    "weights_modified": false,
+    "training": false,
+    "gradients": false,
+    "optimizer": false,
+    "free_generation_performed": false,
+    "counts_as_correction": false,
+    "third_set_already_observed": true,
+    "final_set_read": false,
+    "source_sha256": "36a2fc34756cf7e58b3b7f768dd0c9fc13c25890b86c6546afda7caf9625699b",
+    "code_sha256": "63bcacecf54bdf5014b76e7c75684657e34904d99ea8558aefd0c842aa2b9d5f"
+  },
+  "comparisons": [
+    {
+      "condition": "pure_13_centers",
+      "canonical_steps_correct": 81,
+      "canonical_steps": 92,
+      "first_targets_correct": 22,
+      "first_controls_outside": 17
+    },
+    {
+      "condition": "pure_24_prototypes",
+      "canonical_steps_correct": 72,
+      "canonical_steps": 92,
+      "first_targets_correct": 20,
+      "first_controls_outside": 19
+    },
+    {
+      "condition": "carried_24_prototypes",
+      "canonical_steps_correct": 69,
+      "canonical_steps": 92,
+      "first_targets_correct": 19,
+      "first_controls_outside": 19
+    },
+    {
+      "condition": "rotated_prefix_winner",
+      "canonical_steps_correct": 70,
+      "canonical_steps": 92,
+      "first_targets_correct": 19,
+      "first_controls_outside": 19
+    },
+    {
+      "condition": "conditional_class_values",
+      "canonical_steps_correct": 70,
+      "canonical_steps": 92,
+      "first_targets_correct": 19,
+      "first_controls_outside": 19
+    },
+    {
+      "condition": "actual_full_attention",
+      "canonical_steps_correct": 70,
+      "canonical_steps": 92,
+      "first_targets_correct": 19,
+      "first_controls_outside": 19
+    }
+  ],
+  "conditional_vs_actual_values_max_error": 0.0007692575454711914,
+  "conditional_vs_actual_class_agreement": 1614,
+  "positions": 1614,
+  "canonical_points": [
+    {
+      "index": 0,
+      "id": "third_creator_0",
+      "subtoken": 0,
+      "fact": "creator",
+      "next_token": 9499,
+      "predictions": {
+        "pure_13_centers": "wood_donor",
+        "pure_24_prototypes": "outside",
+        "carried_24_prototypes": "outside",
+        "rotated_prefix_winner": "outside",
+        "conditional_class_values": "outside",
+        "actual_full_attention": "outside"
+      },
+      "inherited_to_semantic_norm_ratio": 0.10729904417539685,
+      "pure_top_two": [
+        15,
+        19
+      ],
+      "carried_top_two": [
+        15,
+        11
+      ],
+      "actual_wanted_value": 6.271588790696114e-05
+    },
+    {
+      "index": 1,
+      "id": "third_creator_0",
+      "subtoken": 1,
+      "fact": "creator",
+      "next_token": 602,
+      "predictions": {
+        "pure_13_centers": "wood_donor",
+        "pure_24_prototypes": "outside",
+        "carried_24_prototypes": "outside",
+        "rotated_prefix_winner": "outside",
+        "conditional_class_values": "outside",
+        "actual_full_attention": "outside"
+      },
+      "inherited_to_semantic_norm_ratio": 0.12022093904659918,
+      "pure_top_two": [
+        15,
+        11
+      ],
+      "carried_top_two": [
+        15,
+        11
+      ],
+      "actual_wanted_value": 1.6955829778453335e-05
+    },
+    {
+      "index": 2,
+      "id": "third_creator_0",
+      "subtoken": 2,
+      "fact": "creator",
+      "next_token": 52879,
+      "predictions": {
+        "pure_13_centers": "wood_donor",
+        "pure_24_prototypes": "wood_donor",
+        "carried_24_prototypes": "wood_donor",
+        "rotated_prefix_winner": "wood_donor",
+        "conditional_class_values": "wood_donor",
+        "actual_full_attention": "wood_donor"
+      },
+      "inherited_to_semantic_norm_ratio": 0.09205347706931444,
+      "pure_top_two": [
+        11,
+        1
+      ],
+      "carried_top_two": [
+        11,
+        1
+      ],
+      "actual_wanted_value": 2.3835035278807482e-07
+    },
+    {
+      "index": 29,
+      "id": "third_creator_1",
+      "subtoken": 0,
+      "fact": "creator",
+      "next_token": 9499,
+      "predictions": {
+        "pure_13_centers": "creator",
+        "pure_24_prototypes": "creator",
+        "carried_24_prototypes": "creator",
+        "rotated_prefix_winner": "creator",
+        "conditional_class_values": "creator",
+        "actual_full_attention": "creator"
+      },
+      "inherited_to_semantic_norm_ratio": 0.10136855407233626,
+      "pure_top_two": [
+        0,
+        9
+      ],
+      "carried_top_two": [
+        0,
+        9
+      ],
+      "actual_wanted_value": 0.999884307384491
+    },
+    {
+      "index": 30,
+      "id": "third_creator_1",
+      "subtoken": 1,
+      "fact": "creator",
+      "next_token": 602,
+      "predictions": {
+        "pure_13_centers": "creator",
+        "pure_24_prototypes": "creator",
+        "carried_24_prototypes": "creator",
+        "rotated_prefix_winner": "creator",
+        "conditional_class_values": "creator",
+        "actual_full_attention": "creator"
+      },
+      "inherited_to_semantic_norm_ratio": 0.14209902781340344,
+      "pure_top_two": [
+        0,
+        11
+      ],
+      "carried_top_two": [
+        0,
+        9
+      ],
+      "actual_wanted_value": 0.8217378258705139
+    },
+    {
+      "index": 31,
+      "id": "third_creator_1",
+      "subtoken": 2,
+      "fact": "creator",
+      "next_token": 52879,
+      "predictions": {
+        "pure_13_centers": "creator",
+        "pure_24_prototypes": "creator",
+        "carried_24_prototypes": "creator",
+        "rotated_prefix_winner": "creator",
+        "conditional_class_values": "creator",
+        "actual_full_attention": "creator"
+      },
+      "inherited_to_semantic_norm_ratio": 0.07802115592146877,
+      "pure_top_two": [
+        0,
+        11
+      ],
+      "carried_top_two": [
+        0,
+        11
+      ],
+      "actual_wanted_value": 0.8272010684013367
+    },
+    {
+      "index": 38,
+      "id": "third_material_0",
+      "subtoken": 0,
+      "fact": "material",
+      "next_token": 18910,
+      "predictions": {
+        "pure_13_centers": "material",
+        "pure_24_prototypes": "material",
+        "carried_24_prototypes": "material",
+        "rotated_prefix_winner": "material",
+        "conditional_class_values": "material",
+        "actual_full_attention": "material"
+      },
+      "inherited_to_semantic_norm_ratio": 0.09271188528087315,
+      "pure_top_two": [
+        7,
+        9
+      ],
+      "carried_top_two": [
+        7,
+        9
+      ],
+      "actual_wanted_value": 0.9999998807907104
+    },
+    {
+      "index": 39,
+      "id": "third_material_0",
+      "subtoken": 1,
+      "fact": "material",
+      "next_token": 2152,
+      "predictions": {
+        "pure_13_centers": "material",
+        "pure_24_prototypes": "material",
+        "carried_24_prototypes": "material",
+        "rotated_prefix_winner": "material",
+        "conditional_class_values": "material",
+        "actual_full_attention": "material"
+      },
+      "inherited_to_semantic_norm_ratio": 0.1619142295284402,
+      "pure_top_two": [
+        7,
+        11
+      ],
+      "carried_top_two": [
+        7,
+        11
+      ],
+      "actual_wanted_value": 0.9999998807907104
+    },
+    {
+      "index": 45,
+      "id": "third_material_1",
+      "subtoken": 0,
+      "fact": "material",
+      "next_token": 18910,
+      "predictions": {
+        "pure_13_centers": "wood_donor",
+        "pure_24_prototypes": "wood_donor",
+        "carried_24_prototypes": "wood_donor",
+        "rotated_prefix_winner": "wood_donor",
+        "conditional_class_values": "wood_donor",
+        "actual_full_attention": "wood_donor"
+      },
+      "inherited_to_semantic_norm_ratio": 0.07230425791242137,
+      "pure_top_two": [
+        11,
+        15
+      ],
+      "carried_top_two": [
+        11,
+        15
+      ],
+      "actual_wanted_value": -3.725290298461914e-08
+    },
+    {
+      "index": 46,
+      "id": "third_material_1",
+      "subtoken": 1,
+      "fact": "material",
+      "next_token": 2152,
+      "predictions": {
+        "pure_13_centers": "wood_donor",
+        "pure_24_prototypes": "wood_donor",
+        "carried_24_prototypes": "wood_donor",
+        "rotated_prefix_winner": "wood_donor",
+        "conditional_class_values": "wood_donor",
+        "actual_full_attention": "wood_donor"
+      },
+      "inherited_to_semantic_norm_ratio": 0.20172596909938054,
+      "pure_top_two": [
+        11,
+        15
+      ],
+      "carried_top_two": [
+        11,
+        15
+      ],
+      "actual_wanted_value": -3.725290298461914e-08
+    },
+    {
+      "index": 56,
+      "id": "third_nose_0",
+      "subtoken": 0,
+      "fact": "nose",
+      "next_token": 21999,
+      "predictions": {
+        "pure_13_centers": "nose",
+        "pure_24_prototypes": "nose",
+        "carried_24_prototypes": "nose",
+        "rotated_prefix_winner": "nose",
+        "conditional_class_values": "nose",
+        "actual_full_attention": "nose"
+      },
+      "inherited_to_semantic_norm_ratio": 0.07713780658883472,
+      "pure_top_two": [
+        8,
+        4
+      ],
+      "carried_top_two": [
+        8,
+        4
+      ],
+      "actual_wanted_value": 0.9999998807907104
+    },
+    {
+      "index": 57,
+      "id": "third_nose_0",
+      "subtoken": 1,
+      "fact": "nose",
+      "next_token": 678,
+      "predictions": {
+        "pure_13_centers": "nose",
+        "pure_24_prototypes": "nose",
+        "carried_24_prototypes": "nose",
+        "rotated_prefix_winner": "nose",
+        "conditional_class_values": "nose",
+        "actual_full_attention": "nose"
+      },
+      "inherited_to_semantic_norm_ratio": 0.16720385168030277,
+      "pure_top_two": [
+        8,
+        9
+      ],
+      "carried_top_two": [
+        8,
+        9
+      ],
+      "actual_wanted_value": 0.9999998807907104
+    },
+    {
+      "index": 58,
+      "id": "third_nose_0",
+      "subtoken": 2,
+      "fact": "nose",
+      "next_token": 91845,
+      "predictions": {
+        "pure_13_centers": "nose",
+        "pure_24_prototypes": "nose",
+        "carried_24_prototypes": "nose",
+        "rotated_prefix_winner": "nose",
+        "conditional_class_values": "nose",
+        "actual_full_attention": "nose"
+      },
+      "inherited_to_semantic_norm_ratio": 0.2013255165299703,
+      "pure_top_two": [
+        8,
+        0
+      ],
+      "carried_top_two": [
+        8,
+        0
+      ],
+      "actual_wanted_value": 0.9999997615814209
+    },
+    {
+      "index": 135,
+      "id": "third_nose_1",
+      "subtoken": 0,
+      "fact": "nose",
+      "next_token": 21999,
+      "predictions": {
+        "pure_13_centers": "nose",
+        "pure_24_prototypes": "nose",
+        "carried_24_prototypes": "nose",
+        "rotated_prefix_winner": "nose",
+        "conditional_class_values": "nose",
+        "actual_full_attention": "nose"
+      },
+      "inherited_to_semantic_norm_ratio": 0.108200988875298,
+      "pure_top_two": [
+        8,
+        2
+      ],
+      "carried_top_two": [
+        8,
+        17
+      ],
+      "actual_wanted_value": 0.9998334646224976
+    },
+    {
+      "index": 136,
+      "id": "third_nose_1",
+      "subtoken": 1,
+      "fact": "nose",
+      "next_token": 678,
+      "predictions": {
+        "pure_13_centers": "nose",
+        "pure_24_prototypes": "nose",
+        "carried_24_prototypes": "nose",
+        "rotated_prefix_winner": "nose",
+        "conditional_class_values": "nose",
+        "actual_full_attention": "nose"
+      },
+      "inherited_to_semantic_norm_ratio": 0.16672888897405377,
+      "pure_top_two": [
+        8,
+        9
+      ],
+      "carried_top_two": [
+        8,
+        9
+      ],
+      "actual_wanted_value": 0.993613064289093
+    },
+    {
+      "index": 137,
+      "id": "third_nose_1",
+      "subtoken": 2,
+      "fact": "nose",
+      "next_token": 91845,
+      "predictions": {
+        "pure_13_centers": "creator",
+        "pure_24_prototypes": "creator",
+        "carried_24_prototypes": "creator",
+        "rotated_prefix_winner": "creator",
+        "conditional_class_values": "creator",
+        "actual_full_attention": "creator"
+      },
+      "inherited_to_semantic_norm_ratio": 0.21609644399016903,
+      "pure_top_two": [
+        0,
+        8
+      ],
+      "carried_top_two": [
+        0,
+        9
+      ],
+      "actual_wanted_value": 0.0007203218410722911
+    },
+    {
+      "index": 211,
+      "id": "third_fairy_0",
+      "subtoken": 0,
+      "fact": "fairy",
+      "next_token": 32,
+      "predictions": {
+        "pure_13_centers": "fairy",
+        "pure_24_prototypes": "fairy",
+        "carried_24_prototypes": "fairy",
+        "rotated_prefix_winner": "fairy",
+        "conditional_class_values": "fairy",
+        "actual_full_attention": "fairy"
+      },
+      "inherited_to_semantic_norm_ratio": 0.11773798746035455,
+      "pure_top_two": [
+        4,
+        13
+      ],
+      "carried_top_two": [
+        4,
+        13
+      ],
+      "actual_wanted_value": 0.9994122982025146
+    },
+    {
+      "index": 212,
+      "id": "third_fairy_0",
+      "subtoken": 1,
+      "fact": "fairy",
+      "next_token": 10400,
+      "predictions": {
+        "pure_13_centers": "fairy",
+        "pure_24_prototypes": "fairy",
+        "carried_24_prototypes": "fairy",
+        "rotated_prefix_winner": "fairy",
+        "conditional_class_values": "fairy",
+        "actual_full_attention": "fairy"
+      },
+      "inherited_to_semantic_norm_ratio": 0.18076822138941384,
+      "pure_top_two": [
+        4,
+        13
+      ],
+      "carried_top_two": [
+        4,
+        13
+      ],
+      "actual_wanted_value": 0.9997302889823914
+    },
+    {
+      "index": 213,
+      "id": "third_fairy_0",
+      "subtoken": 2,
+      "fact": "fairy",
+      "next_token": 324,
+      "predictions": {
+        "pure_13_centers": "fairy",
+        "pure_24_prototypes": "fairy",
+        "carried_24_prototypes": "fairy",
+        "rotated_prefix_winner": "fairy",
+        "conditional_class_values": "fairy",
+        "actual_full_attention": "fairy"
+      },
+      "inherited_to_semantic_norm_ratio": 0.23443576373865357,
+      "pure_top_two": [
+        4,
+        13
+      ],
+      "carried_top_two": [
+        4,
+        13
+      ],
+      "actual_wanted_value": 0.9994183778762817
+    },
+    {
+      "index": 214,
+      "id": "third_fairy_0",
+      "subtoken": 3,
+      "fact": "fairy",
+      "next_token": 461,
+      "predictions": {
+        "pure_13_centers": "fairy",
+        "pure_24_prototypes": "fairy",
+        "carried_24_prototypes": "fairy",
+        "rotated_prefix_winner": "fairy",
+        "conditional_class_values": "fairy",
+        "actual_full_attention": "fairy"
+      },
+      "inherited_to_semantic_norm_ratio": 0.1794395298573872,
+      "pure_top_two": [
+        4,
+        13
+      ],
+      "carried_top_two": [
+        4,
+        13
+      ],
+      "actual_wanted_value": 0.999071478843689
+    },
+    {
+      "index": 256,
+      "id": "third_fairy_1",
+      "subtoken": 0,
+      "fact": "fairy",
+      "next_token": 32,
+      "predictions": {
+        "pure_13_centers": "fairy",
+        "pure_24_prototypes": "fairy",
+        "carried_24_prototypes": "fairy",
+        "rotated_prefix_winner": "fairy",
+        "conditional_class_values": "fairy",
+        "actual_full_attention": "fairy"
+      },
+      "inherited_to_semantic_norm_ratio": 0.06860966803893777,
+      "pure_top_two": [
+        4,
+        8
+      ],
+      "carried_top_two": [
+        4,
+        5
+      ],
+      "actual_wanted_value": 0.9755414128303528
+    },
+    {
+      "index": 257,
+      "id": "third_fairy_1",
+      "subtoken": 1,
+      "fact": "fairy",
+      "next_token": 10400,
+      "predictions": {
+        "pure_13_centers": "fairy",
+        "pure_24_prototypes": "fairy",
+        "carried_24_prototypes": "fairy",
+        "rotated_prefix_winner": "fairy",
+        "conditional_class_values": "fairy",
+        "actual_full_attention": "fairy"
+      },
+      "inherited_to_semantic_norm_ratio": 0.1315830107370358,
+      "pure_top_two": [
+        4,
+        8
+      ],
+      "carried_top_two": [
+        4,
+        8
+      ],
+      "actual_wanted_value": 0.9807630181312561
+    },
+    {
+      "index": 258,
+      "id": "third_fairy_1",
+      "subtoken": 2,
+      "fact": "fairy",
+      "next_token": 324,
+      "predictions": {
+        "pure_13_centers": "fairy",
+        "pure_24_prototypes": "fairy",
+        "carried_24_prototypes": "creator",
+        "rotated_prefix_winner": "creator",
+        "conditional_class_values": "creator",
+        "actual_full_attention": "creator"
+      },
+      "inherited_to_semantic_norm_ratio": 0.19432575964604767,
+      "pure_top_two": [
+        4,
+        0
+      ],
+      "carried_top_two": [
+        0,
+        4
+      ],
+      "actual_wanted_value": 0.2573205828666687
+    },
+    {
+      "index": 259,
+      "id": "third_fairy_1",
+      "subtoken": 3,
+      "fact": "fairy",
+      "next_token": 461,
+      "predictions": {
+        "pure_13_centers": "fairy",
+        "pure_24_prototypes": "fairy",
+        "carried_24_prototypes": "fairy",
+        "rotated_prefix_winner": "fairy",
+        "conditional_class_values": "fairy",
+        "actual_full_attention": "fairy"
+      },
+      "inherited_to_semantic_norm_ratio": 0.14081925591696073,
+      "pure_top_two": [
+        4,
+        0
+      ],
+      "carried_top_two": [
+        4,
+        0
+      ],
+      "actual_wanted_value": 0.8935602307319641
+    },
+    {
+      "index": 266,
+      "id": "third_deceivers_0",
+      "subtoken": 0,
+      "fact": "deceivers",
+      "next_token": 12050,
+      "predictions": {
+        "pure_13_centers": "deceivers",
+        "pure_24_prototypes": "deceivers",
+        "carried_24_prototypes": "deceivers",
+        "rotated_prefix_winner": "deceivers",
+        "conditional_class_values": "deceivers",
+        "actual_full_attention": "deceivers"
+      },
+      "inherited_to_semantic_norm_ratio": 0.08318732706186249,
+      "pure_top_two": [
+        1,
+        0
+      ],
+      "carried_top_two": [
+        1,
+        0
+      ],
+      "actual_wanted_value": 0.9999922513961792
+    },
+    {
+      "index": 267,
+      "id": "third_deceivers_0",
+      "subtoken": 1,
+      "fact": "deceivers",
+      "next_token": 479,
+      "predictions": {
+        "pure_13_centers": "deceivers",
+        "pure_24_prototypes": "deceivers",
+        "carried_24_prototypes": "deceivers",
+        "rotated_prefix_winner": "deceivers",
+        "conditional_class_values": "deceivers",
+        "actual_full_attention": "deceivers"
+      },
+      "inherited_to_semantic_norm_ratio": 0.12297795354189142,
+      "pure_top_two": [
+        1,
+        0
+      ],
+      "carried_top_two": [
+        1,
+        0
+      ],
+      "actual_wanted_value": 0.998879611492157
+    },
+    {
+      "index": 268,
+      "id": "third_deceivers_0",
+      "subtoken": 2,
+      "fact": "deceivers",
+      "next_token": 16755,
+      "predictions": {
+        "pure_13_centers": "deceivers",
+        "pure_24_prototypes": "deceivers",
+        "carried_24_prototypes": "deceivers",
+        "rotated_prefix_winner": "deceivers",
+        "conditional_class_values": "deceivers",
+        "actual_full_attention": "deceivers"
+      },
+      "inherited_to_semantic_norm_ratio": 0.15291793763536576,
+      "pure_top_two": [
+        1,
+        0
+      ],
+      "carried_top_two": [
+        1,
+        0
+      ],
+      "actual_wanted_value": 0.9999997615814209
+    },
+    {
+      "index": 269,
+      "id": "third_deceivers_0",
+      "subtoken": 3,
+      "fact": "deceivers",
+      "next_token": 384,
+      "predictions": {
+        "pure_13_centers": "deceivers",
+        "pure_24_prototypes": "deceivers",
+        "carried_24_prototypes": "deceivers",
+        "rotated_prefix_winner": "deceivers",
+        "conditional_class_values": "deceivers",
+        "actual_full_attention": "deceivers"
+      },
+      "inherited_to_semantic_norm_ratio": 0.14673288276521776,
+      "pure_top_two": [
+        1,
+        0
+      ],
+      "carried_top_two": [
+        1,
+        0
+      ],
+      "actual_wanted_value": 0.9999932050704956
+    },
+    {
+      "index": 270,
+      "id": "third_deceivers_0",
+      "subtoken": 4,
+      "fact": "deceivers",
+      "next_token": 1187,
+      "predictions": {
+        "pure_13_centers": "deceivers",
+        "pure_24_prototypes": "deceivers",
+        "carried_24_prototypes": "deceivers",
+        "rotated_prefix_winner": "deceivers",
+        "conditional_class_values": "deceivers",
+        "actual_full_attention": "deceivers"
+      },
+      "inherited_to_semantic_norm_ratio": 0.27290171225152354,
+      "pure_top_two": [
+        1,
+        0
+      ],
+      "carried_top_two": [
+        1,
+        0
+      ],
+      "actual_wanted_value": 0.9999725818634033
+    },
+    {
+      "index": 271,
+      "id": "third_deceivers_0",
+      "subtoken": 5,
+      "fact": "deceivers",
+      "next_token": 10882,
+      "predictions": {
+        "pure_13_centers": "deceivers",
+        "pure_24_prototypes": "deceivers",
+        "carried_24_prototypes": "deceivers",
+        "rotated_prefix_winner": "deceivers",
+        "conditional_class_values": "deceivers",
+        "actual_full_attention": "deceivers"
+      },
+      "inherited_to_semantic_norm_ratio": 0.21998150296058677,
+      "pure_top_two": [
+        1,
+        5
+      ],
+      "carried_top_two": [
+        1,
+        0
+      ],
+      "actual_wanted_value": 0.9999784231185913
+    },
+    {
+      "index": 272,
+      "id": "third_deceivers_0",
+      "subtoken": 6,
+      "fact": "deceivers",
+      "next_token": 375,
+      "predictions": {
+        "pure_13_centers": "deceivers",
+        "pure_24_prototypes": "deceivers",
+        "carried_24_prototypes": "deceivers",
+        "rotated_prefix_winner": "deceivers",
+        "conditional_class_values": "deceivers",
+        "actual_full_attention": "deceivers"
+      },
+      "inherited_to_semantic_norm_ratio": 0.26954450042482353,
+      "pure_top_two": [
+        1,
+        0
+      ],
+      "carried_top_two": [
+        1,
+        4
+      ],
+      "actual_wanted_value": 0.9999961853027344
+    },
+    {
+      "index": 297,
+      "id": "third_deceivers_1",
+      "subtoken": 0,
+      "fact": "deceivers",
+      "next_token": 12050,
+      "predictions": {
+        "pure_13_centers": "deceivers",
+        "pure_24_prototypes": "deceivers",
+        "carried_24_prototypes": "outside",
+        "rotated_prefix_winner": "outside",
+        "conditional_class_values": "outside",
+        "actual_full_attention": "outside"
+      },
+      "inherited_to_semantic_norm_ratio": 0.09710883977570875,
+      "pure_top_two": [
+        1,
+        21
+      ],
+      "carried_top_two": [
+        21,
+        1
+      ],
+      "actual_wanted_value": 0.13514317572116852
+    },
+    {
+      "index": 298,
+      "id": "third_deceivers_1",
+      "subtoken": 1,
+      "fact": "deceivers",
+      "next_token": 479,
+      "predictions": {
+        "pure_13_centers": "deceivers",
+        "pure_24_prototypes": "outside",
+        "carried_24_prototypes": "outside",
+        "rotated_prefix_winner": "outside",
+        "conditional_class_values": "outside",
+        "actual_full_attention": "outside"
+      },
+      "inherited_to_semantic_norm_ratio": 0.06480549241270506,
+      "pure_top_two": [
+        21,
+        1
+      ],
+      "carried_top_two": [
+        21,
+        1
+      ],
+      "actual_wanted_value": 0.12475020438432693
+    },
+    {
+      "index": 299,
+      "id": "third_deceivers_1",
+      "subtoken": 2,
+      "fact": "deceivers",
+      "next_token": 16755,
+      "predictions": {
+        "pure_13_centers": "deceivers",
+        "pure_24_prototypes": "outside",
+        "carried_24_prototypes": "deceivers",
+        "rotated_prefix_winner": "deceivers",
+        "conditional_class_values": "deceivers",
+        "actual_full_attention": "deceivers"
+      },
+      "inherited_to_semantic_norm_ratio": 0.10229978431357796,
+      "pure_top_two": [
+        21,
+        1
+      ],
+      "carried_top_two": [
+        1,
+        19
+      ],
+      "actual_wanted_value": 0.9750329256057739
+    },
+    {
+      "index": 300,
+      "id": "third_deceivers_1",
+      "subtoken": 3,
+      "fact": "deceivers",
+      "next_token": 384,
+      "predictions": {
+        "pure_13_centers": "deceivers",
+        "pure_24_prototypes": "outside",
+        "carried_24_prototypes": "outside",
+        "rotated_prefix_winner": "outside",
+        "conditional_class_values": "outside",
+        "actual_full_attention": "outside"
+      },
+      "inherited_to_semantic_norm_ratio": 0.10556505848803172,
+      "pure_top_two": [
+        21,
+        1
+      ],
+      "carried_top_two": [
+        21,
+        19
+      ],
+      "actual_wanted_value": 0.006258134730160236
+    },
+    {
+      "index": 301,
+      "id": "third_deceivers_1",
+      "subtoken": 4,
+      "fact": "deceivers",
+      "next_token": 1187,
+      "predictions": {
+        "pure_13_centers": "outside",
+        "pure_24_prototypes": "outside",
+        "carried_24_prototypes": "outside",
+        "rotated_prefix_winner": "outside",
+        "conditional_class_values": "outside",
+        "actual_full_attention": "outside"
+      },
+      "inherited_to_semantic_norm_ratio": 0.18269460543106966,
+      "pure_top_two": [
+        21,
+        19
+      ],
+      "carried_top_two": [
+        21,
+        1
+      ],
+      "actual_wanted_value": 0.12754011154174805
+    },
+    {
+      "index": 302,
+      "id": "third_deceivers_1",
+      "subtoken": 5,
+      "fact": "deceivers",
+      "next_token": 10882,
+      "predictions": {
+        "pure_13_centers": "outside",
+        "pure_24_prototypes": "outside",
+        "carried_24_prototypes": "outside",
+        "rotated_prefix_winner": "outside",
+        "conditional_class_values": "outside",
+        "actual_full_attention": "outside"
+      },
+      "inherited_to_semantic_norm_ratio": 0.12158148191564602,
+      "pure_top_two": [
+        21,
+        19
+      ],
+      "carried_top_two": [
+        19,
+        21
+      ],
+      "actual_wanted_value": 0.10980091243982315
+    },
+    {
+      "index": 303,
+      "id": "third_deceivers_1",
+      "subtoken": 6,
+      "fact": "deceivers",
+      "next_token": 375,
+      "predictions": {
+        "pure_13_centers": "outside",
+        "pure_24_prototypes": "outside",
+        "carried_24_prototypes": "outside",
+        "rotated_prefix_winner": "outside",
+        "conditional_class_values": "outside",
+        "actual_full_attention": "outside"
+      },
+      "inherited_to_semantic_norm_ratio": 0.14804692435454728,
+      "pure_top_two": [
+        21,
+        19
+      ],
+      "carried_top_two": [
+        21,
+        1
+      ],
+      "actual_wanted_value": 0.08207371830940247
+    },
+    {
+      "index": 363,
+      "id": "third_donkey_0",
+      "subtoken": 0,
+      "fact": "donkey",
+      "next_token": 1806,
+      "predictions": {
+        "pure_13_centers": "donkey",
+        "pure_24_prototypes": "donkey",
+        "carried_24_prototypes": "donkey",
+        "rotated_prefix_winner": "donkey",
+        "conditional_class_values": "donkey",
+        "actual_full_attention": "donkey"
+      },
+      "inherited_to_semantic_norm_ratio": 0.09545971942765331,
+      "pure_top_two": [
+        2,
+        6
+      ],
+      "carried_top_two": [
+        2,
+        6
+      ],
+      "actual_wanted_value": 0.9999995231628418
+    },
+    {
+      "index": 364,
+      "id": "third_donkey_0",
+      "subtoken": 1,
+      "fact": "donkey",
+      "next_token": 438,
+      "predictions": {
+        "pure_13_centers": "donkey",
+        "pure_24_prototypes": "donkey",
+        "carried_24_prototypes": "donkey",
+        "rotated_prefix_winner": "donkey",
+        "conditional_class_values": "donkey",
+        "actual_full_attention": "donkey"
+      },
+      "inherited_to_semantic_norm_ratio": 0.13547361875838398,
+      "pure_top_two": [
+        2,
+        6
+      ],
+      "carried_top_two": [
+        2,
+        6
+      ],
+      "actual_wanted_value": 0.9999921321868896
+    },
+    {
+      "index": 365,
+      "id": "third_donkey_0",
+      "subtoken": 2,
+      "fact": "donkey",
+      "next_token": 3313,
+      "predictions": {
+        "pure_13_centers": "donkey",
+        "pure_24_prototypes": "donkey",
+        "carried_24_prototypes": "donkey",
+        "rotated_prefix_winner": "donkey",
+        "conditional_class_values": "donkey",
+        "actual_full_attention": "donkey"
+      },
+      "inherited_to_semantic_norm_ratio": 0.14819201847044766,
+      "pure_top_two": [
+        2,
+        6
+      ],
+      "carried_top_two": [
+        2,
+        6
+      ],
+      "actual_wanted_value": 0.9999716281890869
+    },
+    {
+      "index": 372,
+      "id": "third_donkey_1",
+      "subtoken": 0,
+      "fact": "donkey",
+      "next_token": 1806,
+      "predictions": {
+        "pure_13_centers": "donkey",
+        "pure_24_prototypes": "donkey",
+        "carried_24_prototypes": "donkey",
+        "rotated_prefix_winner": "donkey",
+        "conditional_class_values": "donkey",
+        "actual_full_attention": "donkey"
+      },
+      "inherited_to_semantic_norm_ratio": 0.06518882187407493,
+      "pure_top_two": [
+        2,
+        19
+      ],
+      "carried_top_two": [
+        2,
+        19
+      ],
+      "actual_wanted_value": 0.92511385679245
+    },
+    {
+      "index": 373,
+      "id": "third_donkey_1",
+      "subtoken": 1,
+      "fact": "donkey",
+      "next_token": 438,
+      "predictions": {
+        "pure_13_centers": "donkey",
+        "pure_24_prototypes": "donkey",
+        "carried_24_prototypes": "donkey",
+        "rotated_prefix_winner": "donkey",
+        "conditional_class_values": "donkey",
+        "actual_full_attention": "donkey"
+      },
+      "inherited_to_semantic_norm_ratio": 0.0732336639463231,
+      "pure_top_two": [
+        2,
+        19
+      ],
+      "carried_top_two": [
+        2,
+        19
+      ],
+      "actual_wanted_value": 0.9775539040565491
+    },
+    {
+      "index": 374,
+      "id": "third_donkey_1",
+      "subtoken": 2,
+      "fact": "donkey",
+      "next_token": 3313,
+      "predictions": {
+        "pure_13_centers": "donkey",
+        "pure_24_prototypes": "donkey",
+        "carried_24_prototypes": "donkey",
+        "rotated_prefix_winner": "donkey",
+        "conditional_class_values": "donkey",
+        "actual_full_attention": "donkey"
+      },
+      "inherited_to_semantic_norm_ratio": 0.0997275894027176,
+      "pure_top_two": [
+        2,
+        19
+      ],
+      "carried_top_two": [
+        2,
+        19
+      ],
+      "actual_wanted_value": 0.7617478370666504
+    },
+    {
+      "index": 403,
+      "id": "third_ending_0",
+      "subtoken": 0,
+      "fact": "ending",
+      "next_token": 1806,
+      "predictions": {
+        "pure_13_centers": "ending",
+        "pure_24_prototypes": "ending",
+        "carried_24_prototypes": "ending",
+        "rotated_prefix_winner": "ending",
+        "conditional_class_values": "ending",
+        "actual_full_attention": "ending"
+      },
+      "inherited_to_semantic_norm_ratio": 0.06227449731942083,
+      "pure_top_two": [
+        3,
+        13
+      ],
+      "carried_top_two": [
+        3,
+        13
+      ],
+      "actual_wanted_value": 0.9999986886978149
+    },
+    {
+      "index": 404,
+      "id": "third_ending_0",
+      "subtoken": 1,
+      "fact": "ending",
+      "next_token": 75993,
+      "predictions": {
+        "pure_13_centers": "ending",
+        "pure_24_prototypes": "ending",
+        "carried_24_prototypes": "ending",
+        "rotated_prefix_winner": "ending",
+        "conditional_class_values": "ending",
+        "actual_full_attention": "ending"
+      },
+      "inherited_to_semantic_norm_ratio": 0.14623296184254872,
+      "pure_top_two": [
+        3,
+        13
+      ],
+      "carried_top_two": [
+        3,
+        13
+      ],
+      "actual_wanted_value": 0.9999988079071045
+    },
+    {
+      "index": 405,
+      "id": "third_ending_0",
+      "subtoken": 2,
+      "fact": "ending",
+      "next_token": 3313,
+      "predictions": {
+        "pure_13_centers": "ending",
+        "pure_24_prototypes": "ending",
+        "carried_24_prototypes": "ending",
+        "rotated_prefix_winner": "ending",
+        "conditional_class_values": "ending",
+        "actual_full_attention": "ending"
+      },
+      "inherited_to_semantic_norm_ratio": 0.12484913531806544,
+      "pure_top_two": [
+        3,
+        13
+      ],
+      "carried_top_two": [
+        3,
+        13
+      ],
+      "actual_wanted_value": 0.999998927116394
+    },
+    {
+      "index": 406,
+      "id": "third_ending_0",
+      "subtoken": 3,
+      "fact": "ending",
+      "next_token": 78287,
+      "predictions": {
+        "pure_13_centers": "ending",
+        "pure_24_prototypes": "ending",
+        "carried_24_prototypes": "ending",
+        "rotated_prefix_winner": "ending",
+        "conditional_class_values": "ending",
+        "actual_full_attention": "ending"
+      },
+      "inherited_to_semantic_norm_ratio": 0.1162133945675077,
+      "pure_top_two": [
+        3,
+        13
+      ],
+      "carried_top_two": [
+        3,
+        13
+      ],
+      "actual_wanted_value": 0.9999988079071045
+    },
+    {
+      "index": 537,
+      "id": "third_ending_1",
+      "subtoken": 0,
+      "fact": "ending",
+      "next_token": 1806,
+      "predictions": {
+        "pure_13_centers": "ending",
+        "pure_24_prototypes": "outside",
+        "carried_24_prototypes": "outside",
+        "rotated_prefix_winner": "outside",
+        "conditional_class_values": "outside",
+        "actual_full_attention": "outside"
+      },
+      "inherited_to_semantic_norm_ratio": 0.11135872308747363,
+      "pure_top_two": [
+        13,
+        3
+      ],
+      "carried_top_two": [
+        13,
+        3
+      ],
+      "actual_wanted_value": 0.00013934029266238213
+    },
+    {
+      "index": 538,
+      "id": "third_ending_1",
+      "subtoken": 1,
+      "fact": "ending",
+      "next_token": 75993,
+      "predictions": {
+        "pure_13_centers": "ending",
+        "pure_24_prototypes": "outside",
+        "carried_24_prototypes": "outside",
+        "rotated_prefix_winner": "outside",
+        "conditional_class_values": "outside",
+        "actual_full_attention": "outside"
+      },
+      "inherited_to_semantic_norm_ratio": 0.16416798942396957,
+      "pure_top_two": [
+        13,
+        3
+      ],
+      "carried_top_two": [
+        13,
+        3
+      ],
+      "actual_wanted_value": 0.02185962162911892
+    },
+    {
+      "index": 539,
+      "id": "third_ending_1",
+      "subtoken": 2,
+      "fact": "ending",
+      "next_token": 3313,
+      "predictions": {
+        "pure_13_centers": "ending",
+        "pure_24_prototypes": "outside",
+        "carried_24_prototypes": "outside",
+        "rotated_prefix_winner": "outside",
+        "conditional_class_values": "outside",
+        "actual_full_attention": "outside"
+      },
+      "inherited_to_semantic_norm_ratio": 0.15916015527453964,
+      "pure_top_two": [
+        13,
+        3
+      ],
+      "carried_top_two": [
+        13,
+        3
+      ],
+      "actual_wanted_value": 0.27996787428855896
+    },
+    {
+      "index": 540,
+      "id": "third_ending_1",
+      "subtoken": 3,
+      "fact": "ending",
+      "next_token": 78287,
+      "predictions": {
+        "pure_13_centers": "ending",
+        "pure_24_prototypes": "outside",
+        "carried_24_prototypes": "outside",
+        "rotated_prefix_winner": "outside",
+        "conditional_class_values": "outside",
+        "actual_full_attention": "outside"
+      },
+      "inherited_to_semantic_norm_ratio": 0.1365818513176471,
+      "pure_top_two": [
+        13,
+        3
+      ],
+      "carried_top_two": [
+        13,
+        3
+      ],
+      "actual_wanted_value": 0.024320930242538452
+    },
+    {
+      "index": 581,
+      "id": "third_puppeteer_0",
+      "subtoken": 0,
+      "fact": "puppeteer",
+      "next_token": 44,
+      "predictions": {
+        "pure_13_centers": "puppeteer",
+        "pure_24_prototypes": "puppeteer",
+        "carried_24_prototypes": "puppeteer",
+        "rotated_prefix_winner": "puppeteer",
+        "conditional_class_values": "puppeteer",
+        "actual_full_attention": "puppeteer"
+      },
+      "inherited_to_semantic_norm_ratio": 0.07549562421308977,
+      "pure_top_two": [
+        9,
+        12
+      ],
+      "carried_top_two": [
+        9,
+        12
+      ],
+      "actual_wanted_value": 1.0000005960464478
+    },
+    {
+      "index": 582,
+      "id": "third_puppeteer_0",
+      "subtoken": 1,
+      "fact": "puppeteer",
+      "next_token": 524,
+      "predictions": {
+        "pure_13_centers": "puppeteer",
+        "pure_24_prototypes": "puppeteer",
+        "carried_24_prototypes": "puppeteer",
+        "rotated_prefix_winner": "puppeteer",
+        "conditional_class_values": "puppeteer",
+        "actual_full_attention": "puppeteer"
+      },
+      "inherited_to_semantic_norm_ratio": 0.14360220426175382,
+      "pure_top_two": [
+        9,
+        12
+      ],
+      "carried_top_two": [
+        9,
+        12
+      ],
+      "actual_wanted_value": 1.0000005960464478
+    },
+    {
+      "index": 583,
+      "id": "third_puppeteer_0",
+      "subtoken": 2,
+      "fact": "puppeteer",
+      "next_token": 685,
+      "predictions": {
+        "pure_13_centers": "puppeteer",
+        "pure_24_prototypes": "puppeteer",
+        "carried_24_prototypes": "puppeteer",
+        "rotated_prefix_winner": "puppeteer",
+        "conditional_class_values": "puppeteer",
+        "actual_full_attention": "puppeteer"
+      },
+      "inherited_to_semantic_norm_ratio": 0.22998486689689035,
+      "pure_top_two": [
+        9,
+        12
+      ],
+      "carried_top_two": [
+        9,
+        12
+      ],
+      "actual_wanted_value": 1.0000005960464478
+    },
+    {
+      "index": 584,
+      "id": "third_puppeteer_0",
+      "subtoken": 3,
+      "fact": "puppeteer",
+      "next_token": 69,
+      "predictions": {
+        "pure_13_centers": "puppeteer",
+        "pure_24_prototypes": "puppeteer",
+        "carried_24_prototypes": "puppeteer",
+        "rotated_prefix_winner": "puppeteer",
+        "conditional_class_values": "puppeteer",
+        "actual_full_attention": "puppeteer"
+      },
+      "inherited_to_semantic_norm_ratio": 0.09165113418011558,
+      "pure_top_two": [
+        9,
+        12
+      ],
+      "carried_top_two": [
+        9,
+        12
+      ],
+      "actual_wanted_value": 1.0000005960464478
+    },
+    {
+      "index": 585,
+      "id": "third_puppeteer_0",
+      "subtoken": 4,
+      "fact": "puppeteer",
+      "next_token": 13140,
+      "predictions": {
+        "pure_13_centers": "puppeteer",
+        "pure_24_prototypes": "puppeteer",
+        "carried_24_prototypes": "puppeteer",
+        "rotated_prefix_winner": "puppeteer",
+        "conditional_class_values": "puppeteer",
+        "actual_full_attention": "puppeteer"
+      },
+      "inherited_to_semantic_norm_ratio": 0.16476908074891103,
+      "pure_top_two": [
+        9,
+        12
+      ],
+      "carried_top_two": [
+        9,
+        12
+      ],
+      "actual_wanted_value": 1.0000005960464478
+    },
+    {
+      "index": 594,
+      "id": "third_puppeteer_1",
+      "subtoken": 0,
+      "fact": "puppeteer",
+      "next_token": 44,
+      "predictions": {
+        "pure_13_centers": "puppeteer",
+        "pure_24_prototypes": "puppeteer",
+        "carried_24_prototypes": "puppeteer",
+        "rotated_prefix_winner": "puppeteer",
+        "conditional_class_values": "puppeteer",
+        "actual_full_attention": "puppeteer"
+      },
+      "inherited_to_semantic_norm_ratio": 0.19544195527932348,
+      "pure_top_two": [
+        9,
+        0
+      ],
+      "carried_top_two": [
+        9,
+        0
+      ],
+      "actual_wanted_value": 0.9986349940299988
+    },
+    {
+      "index": 595,
+      "id": "third_puppeteer_1",
+      "subtoken": 1,
+      "fact": "puppeteer",
+      "next_token": 524,
+      "predictions": {
+        "pure_13_centers": "puppeteer",
+        "pure_24_prototypes": "puppeteer",
+        "carried_24_prototypes": "puppeteer",
+        "rotated_prefix_winner": "puppeteer",
+        "conditional_class_values": "puppeteer",
+        "actual_full_attention": "puppeteer"
+      },
+      "inherited_to_semantic_norm_ratio": 0.2172076061466491,
+      "pure_top_two": [
+        9,
+        0
+      ],
+      "carried_top_two": [
+        9,
+        0
+      ],
+      "actual_wanted_value": 0.9586367607116699
+    },
+    {
+      "index": 596,
+      "id": "third_puppeteer_1",
+      "subtoken": 2,
+      "fact": "puppeteer",
+      "next_token": 685,
+      "predictions": {
+        "pure_13_centers": "puppeteer",
+        "pure_24_prototypes": "puppeteer",
+        "carried_24_prototypes": "puppeteer",
+        "rotated_prefix_winner": "puppeteer",
+        "conditional_class_values": "puppeteer",
+        "actual_full_attention": "puppeteer"
+      },
+      "inherited_to_semantic_norm_ratio": 0.22006599641028188,
+      "pure_top_two": [
+        9,
+        12
+      ],
+      "carried_top_two": [
+        9,
+        12
+      ],
+      "actual_wanted_value": 0.7607336640357971
+    },
+    {
+      "index": 597,
+      "id": "third_puppeteer_1",
+      "subtoken": 3,
+      "fact": "puppeteer",
+      "next_token": 69,
+      "predictions": {
+        "pure_13_centers": "puppeteer",
+        "pure_24_prototypes": "puppeteer",
+        "carried_24_prototypes": "puppeteer",
+        "rotated_prefix_winner": "puppeteer",
+        "conditional_class_values": "puppeteer",
+        "actual_full_attention": "puppeteer"
+      },
+      "inherited_to_semantic_norm_ratio": 0.13284888368801612,
+      "pure_top_two": [
+        9,
+        10
+      ],
+      "carried_top_two": [
+        9,
+        12
+      ],
+      "actual_wanted_value": 0.9934133887290955
+    },
+    {
+      "index": 598,
+      "id": "third_puppeteer_1",
+      "subtoken": 4,
+      "fact": "puppeteer",
+      "next_token": 13140,
+      "predictions": {
+        "pure_13_centers": "puppeteer",
+        "pure_24_prototypes": "puppeteer",
+        "carried_24_prototypes": "puppeteer",
+        "rotated_prefix_winner": "puppeteer",
+        "conditional_class_values": "puppeteer",
+        "actual_full_attention": "puppeteer"
+      },
+      "inherited_to_semantic_norm_ratio": 0.19258804188344916,
+      "pure_top_two": [
+        9,
+        12
+      ],
+      "carried_top_two": [
+        9,
+        12
+      ],
+      "actual_wanted_value": 0.9859656095504761
+    },
+    {
+      "index": 610,
+      "id": "third_friend_0",
+      "subtoken": 0,
+      "fact": "friend",
+      "next_token": 40645,
+      "predictions": {
+        "pure_13_centers": "friend",
+        "pure_24_prototypes": "friend",
+        "carried_24_prototypes": "friend",
+        "rotated_prefix_winner": "friend",
+        "conditional_class_values": "friend",
+        "actual_full_attention": "friend"
+      },
+      "inherited_to_semantic_norm_ratio": 0.0873776769972402,
+      "pure_top_two": [
+        6,
+        2
+      ],
+      "carried_top_two": [
+        6,
+        2
+      ],
+      "actual_wanted_value": 1.0000001192092896
+    },
+    {
+      "index": 611,
+      "id": "third_friend_0",
+      "subtoken": 1,
+      "fact": "friend",
+      "next_token": 622,
+      "predictions": {
+        "pure_13_centers": "friend",
+        "pure_24_prototypes": "friend",
+        "carried_24_prototypes": "friend",
+        "rotated_prefix_winner": "friend",
+        "conditional_class_values": "friend",
+        "actual_full_attention": "friend"
+      },
+      "inherited_to_semantic_norm_ratio": 0.1741310809226187,
+      "pure_top_two": [
+        6,
+        2
+      ],
+      "carried_top_two": [
+        6,
+        5
+      ],
+      "actual_wanted_value": 1.0000001192092896
+    },
+    {
+      "index": 612,
+      "id": "third_friend_0",
+      "subtoken": 2,
+      "fact": "friend",
+      "next_token": 10011,
+      "predictions": {
+        "pure_13_centers": "friend",
+        "pure_24_prototypes": "friend",
+        "carried_24_prototypes": "friend",
+        "rotated_prefix_winner": "friend",
+        "conditional_class_values": "friend",
+        "actual_full_attention": "friend"
+      },
+      "inherited_to_semantic_norm_ratio": 0.14440816227180073,
+      "pure_top_two": [
+        6,
+        2
+      ],
+      "carried_top_two": [
+        6,
+        2
+      ],
+      "actual_wanted_value": 1.0000001192092896
+    },
+    {
+      "index": 619,
+      "id": "third_friend_1",
+      "subtoken": 0,
+      "fact": "friend",
+      "next_token": 40645,
+      "predictions": {
+        "pure_13_centers": "friend",
+        "pure_24_prototypes": "friend",
+        "carried_24_prototypes": "friend",
+        "rotated_prefix_winner": "friend",
+        "conditional_class_values": "friend",
+        "actual_full_attention": "friend"
+      },
+      "inherited_to_semantic_norm_ratio": 0.06764550552224646,
+      "pure_top_two": [
+        6,
+        9
+      ],
+      "carried_top_two": [
+        6,
+        9
+      ],
+      "actual_wanted_value": 0.9999995231628418
+    },
+    {
+      "index": 620,
+      "id": "third_friend_1",
+      "subtoken": 1,
+      "fact": "friend",
+      "next_token": 622,
+      "predictions": {
+        "pure_13_centers": "friend",
+        "pure_24_prototypes": "friend",
+        "carried_24_prototypes": "friend",
+        "rotated_prefix_winner": "friend",
+        "conditional_class_values": "friend",
+        "actual_full_attention": "friend"
+      },
+      "inherited_to_semantic_norm_ratio": 0.11591221466330065,
+      "pure_top_two": [
+        6,
+        9
+      ],
+      "carried_top_two": [
+        6,
+        9
+      ],
+      "actual_wanted_value": 0.9999593496322632
+    },
+    {
+      "index": 621,
+      "id": "third_friend_1",
+      "subtoken": 2,
+      "fact": "friend",
+      "next_token": 10011,
+      "predictions": {
+        "pure_13_centers": "friend",
+        "pure_24_prototypes": "friend",
+        "carried_24_prototypes": "friend",
+        "rotated_prefix_winner": "friend",
+        "conditional_class_values": "friend",
+        "actual_full_attention": "friend"
+      },
+      "inherited_to_semantic_norm_ratio": 0.11011474071260881,
+      "pure_top_two": [
+        6,
+        9
+      ],
+      "carried_top_two": [
+        6,
+        9
+      ],
+      "actual_wanted_value": 0.9999645948410034
+    },
+    {
+      "index": 627,
+      "id": "third_wood_donor_0",
+      "subtoken": 0,
+      "fact": "wood_donor",
+      "next_token": 29535,
+      "predictions": {
+        "pure_13_centers": "wood_donor",
+        "pure_24_prototypes": "wood_donor",
+        "carried_24_prototypes": "wood_donor",
+        "rotated_prefix_winner": "wood_donor",
+        "conditional_class_values": "wood_donor",
+        "actual_full_attention": "wood_donor"
+      },
+      "inherited_to_semantic_norm_ratio": 0.07825759066295863,
+      "pure_top_two": [
+        11,
+        1
+      ],
+      "carried_top_two": [
+        11,
+        9
+      ],
+      "actual_wanted_value": 0.9999991059303284
+    },
+    {
+      "index": 628,
+      "id": "third_wood_donor_0",
+      "subtoken": 1,
+      "fact": "wood_donor",
+      "next_token": 54556,
+      "predictions": {
+        "pure_13_centers": "wood_donor",
+        "pure_24_prototypes": "wood_donor",
+        "carried_24_prototypes": "wood_donor",
+        "rotated_prefix_winner": "wood_donor",
+        "conditional_class_values": "wood_donor",
+        "actual_full_attention": "wood_donor"
+      },
+      "inherited_to_semantic_norm_ratio": 0.08606805152780779,
+      "pure_top_two": [
+        11,
+        1
+      ],
+      "carried_top_two": [
+        11,
+        1
+      ],
+      "actual_wanted_value": 0.9999991059303284
+    },
+    {
+      "index": 629,
+      "id": "third_wood_donor_0",
+      "subtoken": 2,
+      "fact": "wood_donor",
+      "next_token": 356,
+      "predictions": {
+        "pure_13_centers": "wood_donor",
+        "pure_24_prototypes": "wood_donor",
+        "carried_24_prototypes": "wood_donor",
+        "rotated_prefix_winner": "wood_donor",
+        "conditional_class_values": "wood_donor",
+        "actual_full_attention": "wood_donor"
+      },
+      "inherited_to_semantic_norm_ratio": 0.09202192462033706,
+      "pure_top_two": [
+        11,
+        9
+      ],
+      "carried_top_two": [
+        11,
+        9
+      ],
+      "actual_wanted_value": 0.9999991059303284
+    },
+    {
+      "index": 630,
+      "id": "third_wood_donor_0",
+      "subtoken": 3,
+      "fact": "wood_donor",
+      "next_token": 321,
+      "predictions": {
+        "pure_13_centers": "wood_donor",
+        "pure_24_prototypes": "wood_donor",
+        "carried_24_prototypes": "wood_donor",
+        "rotated_prefix_winner": "wood_donor",
+        "conditional_class_values": "wood_donor",
+        "actual_full_attention": "wood_donor"
+      },
+      "inherited_to_semantic_norm_ratio": 0.11789691517466407,
+      "pure_top_two": [
+        11,
+        9
+      ],
+      "carried_top_two": [
+        11,
+        9
+      ],
+      "actual_wanted_value": 0.9999991059303284
+    },
+    {
+      "index": 631,
+      "id": "third_wood_donor_0",
+      "subtoken": 4,
+      "fact": "wood_donor",
+      "next_token": 35010,
+      "predictions": {
+        "pure_13_centers": "wood_donor",
+        "pure_24_prototypes": "wood_donor",
+        "carried_24_prototypes": "wood_donor",
+        "rotated_prefix_winner": "wood_donor",
+        "conditional_class_values": "wood_donor",
+        "actual_full_attention": "wood_donor"
+      },
+      "inherited_to_semantic_norm_ratio": 0.1538662671566234,
+      "pure_top_two": [
+        11,
+        9
+      ],
+      "carried_top_two": [
+        11,
+        6
+      ],
+      "actual_wanted_value": 0.9999991059303284
+    },
+    {
+      "index": 632,
+      "id": "third_wood_donor_0",
+      "subtoken": 5,
+      "fact": "wood_donor",
+      "next_token": 685,
+      "predictions": {
+        "pure_13_centers": "wood_donor",
+        "pure_24_prototypes": "wood_donor",
+        "carried_24_prototypes": "wood_donor",
+        "rotated_prefix_winner": "wood_donor",
+        "conditional_class_values": "wood_donor",
+        "actual_full_attention": "wood_donor"
+      },
+      "inherited_to_semantic_norm_ratio": 0.10412655834528303,
+      "pure_top_two": [
+        11,
+        9
+      ],
+      "carried_top_two": [
+        11,
+        9
+      ],
+      "actual_wanted_value": 0.9999991059303284
+    },
+    {
+      "index": 642,
+      "id": "third_wood_donor_1",
+      "subtoken": 0,
+      "fact": "wood_donor",
+      "next_token": 29535,
+      "predictions": {
+        "pure_13_centers": "wood_donor",
+        "pure_24_prototypes": "wood_donor",
+        "carried_24_prototypes": "wood_donor",
+        "rotated_prefix_winner": "wood_donor",
+        "conditional_class_values": "wood_donor",
+        "actual_full_attention": "wood_donor"
+      },
+      "inherited_to_semantic_norm_ratio": 0.07057894171881882,
+      "pure_top_two": [
+        11,
+        15
+      ],
+      "carried_top_two": [
+        11,
+        15
+      ],
+      "actual_wanted_value": 0.9805216789245605
+    },
+    {
+      "index": 643,
+      "id": "third_wood_donor_1",
+      "subtoken": 1,
+      "fact": "wood_donor",
+      "next_token": 54556,
+      "predictions": {
+        "pure_13_centers": "wood_donor",
+        "pure_24_prototypes": "wood_donor",
+        "carried_24_prototypes": "wood_donor",
+        "rotated_prefix_winner": "wood_donor",
+        "conditional_class_values": "wood_donor",
+        "actual_full_attention": "wood_donor"
+      },
+      "inherited_to_semantic_norm_ratio": 0.13212880554946133,
+      "pure_top_two": [
+        11,
+        15
+      ],
+      "carried_top_two": [
+        11,
+        15
+      ],
+      "actual_wanted_value": 0.9962934255599976
+    },
+    {
+      "index": 644,
+      "id": "third_wood_donor_1",
+      "subtoken": 2,
+      "fact": "wood_donor",
+      "next_token": 356,
+      "predictions": {
+        "pure_13_centers": "wood_donor",
+        "pure_24_prototypes": "outside",
+        "carried_24_prototypes": "outside",
+        "rotated_prefix_winner": "outside",
+        "conditional_class_values": "outside",
+        "actual_full_attention": "outside"
+      },
+      "inherited_to_semantic_norm_ratio": 0.14299142955019856,
+      "pure_top_two": [
+        15,
+        11
+      ],
+      "carried_top_two": [
+        15,
+        11
+      ],
+      "actual_wanted_value": 0.07593578100204468
+    },
+    {
+      "index": 645,
+      "id": "third_wood_donor_1",
+      "subtoken": 3,
+      "fact": "wood_donor",
+      "next_token": 321,
+      "predictions": {
+        "pure_13_centers": "wood_donor",
+        "pure_24_prototypes": "wood_donor",
+        "carried_24_prototypes": "outside",
+        "rotated_prefix_winner": "wood_donor",
+        "conditional_class_values": "wood_donor",
+        "actual_full_attention": "wood_donor"
+      },
+      "inherited_to_semantic_norm_ratio": 0.1058290535300055,
+      "pure_top_two": [
+        11,
+        15
+      ],
+      "carried_top_two": [
+        15,
+        11
+      ],
+      "actual_wanted_value": 0.5292602777481079
+    },
+    {
+      "index": 646,
+      "id": "third_wood_donor_1",
+      "subtoken": 4,
+      "fact": "wood_donor",
+      "next_token": 35010,
+      "predictions": {
+        "pure_13_centers": "wood_donor",
+        "pure_24_prototypes": "wood_donor",
+        "carried_24_prototypes": "wood_donor",
+        "rotated_prefix_winner": "wood_donor",
+        "conditional_class_values": "wood_donor",
+        "actual_full_attention": "wood_donor"
+      },
+      "inherited_to_semantic_norm_ratio": 0.14561946054201835,
+      "pure_top_two": [
+        11,
+        15
+      ],
+      "carried_top_two": [
+        11,
+        15
+      ],
+      "actual_wanted_value": 0.944037139415741
+    },
+    {
+      "index": 647,
+      "id": "third_wood_donor_1",
+      "subtoken": 5,
+      "fact": "wood_donor",
+      "next_token": 685,
+      "predictions": {
+        "pure_13_centers": "wood_donor",
+        "pure_24_prototypes": "wood_donor",
+        "carried_24_prototypes": "wood_donor",
+        "rotated_prefix_winner": "wood_donor",
+        "conditional_class_values": "wood_donor",
+        "actual_full_attention": "wood_donor"
+      },
+      "inherited_to_semantic_norm_ratio": 0.10299534269230703,
+      "pure_top_two": [
+        11,
+        15
+      ],
+      "carried_top_two": [
+        11,
+        15
+      ],
+      "actual_wanted_value": 0.9999935030937195
+    },
+    {
+      "index": 656,
+      "id": "third_rescuer_0",
+      "subtoken": 0,
+      "fact": "rescuer",
+      "next_token": 2101,
+      "predictions": {
+        "pure_13_centers": "rescuer",
+        "pure_24_prototypes": "rescuer",
+        "carried_24_prototypes": "rescuer",
+        "rotated_prefix_winner": "rescuer",
+        "conditional_class_values": "rescuer",
+        "actual_full_attention": "rescuer"
+      },
+      "inherited_to_semantic_norm_ratio": 0.03940682470612946,
+      "pure_top_two": [
+        10,
+        5
+      ],
+      "carried_top_two": [
+        10,
+        5
+      ],
+      "actual_wanted_value": 1.0
+    },
+    {
+      "index": 657,
+      "id": "third_rescuer_0",
+      "subtoken": 1,
+      "fact": "rescuer",
+      "next_token": 307,
+      "predictions": {
+        "pure_13_centers": "rescuer",
+        "pure_24_prototypes": "rescuer",
+        "carried_24_prototypes": "rescuer",
+        "rotated_prefix_winner": "rescuer",
+        "conditional_class_values": "rescuer",
+        "actual_full_attention": "rescuer"
+      },
+      "inherited_to_semantic_norm_ratio": 0.15117609437298926,
+      "pure_top_two": [
+        10,
+        5
+      ],
+      "carried_top_two": [
+        10,
+        5
+      ],
+      "actual_wanted_value": 1.0
+    },
+    {
+      "index": 658,
+      "id": "third_rescuer_0",
+      "subtoken": 2,
+      "fact": "rescuer",
+      "next_token": 18307,
+      "predictions": {
+        "pure_13_centers": "rescuer",
+        "pure_24_prototypes": "rescuer",
+        "carried_24_prototypes": "rescuer",
+        "rotated_prefix_winner": "rescuer",
+        "conditional_class_values": "rescuer",
+        "actual_full_attention": "rescuer"
+      },
+      "inherited_to_semantic_norm_ratio": 0.15698761165157704,
+      "pure_top_two": [
+        10,
+        5
+      ],
+      "carried_top_two": [
+        10,
+        5
+      ],
+      "actual_wanted_value": 1.0
+    },
+    {
+      "index": 665,
+      "id": "third_rescuer_1",
+      "subtoken": 0,
+      "fact": "rescuer",
+      "next_token": 2101,
+      "predictions": {
+        "pure_13_centers": "rescuer",
+        "pure_24_prototypes": "rescuer",
+        "carried_24_prototypes": "rescuer",
+        "rotated_prefix_winner": "rescuer",
+        "conditional_class_values": "rescuer",
+        "actual_full_attention": "rescuer"
+      },
+      "inherited_to_semantic_norm_ratio": 0.09597567118659826,
+      "pure_top_two": [
+        10,
+        1
+      ],
+      "carried_top_two": [
+        10,
+        1
+      ],
+      "actual_wanted_value": 0.9984683394432068
+    },
+    {
+      "index": 666,
+      "id": "third_rescuer_1",
+      "subtoken": 1,
+      "fact": "rescuer",
+      "next_token": 307,
+      "predictions": {
+        "pure_13_centers": "rescuer",
+        "pure_24_prototypes": "rescuer",
+        "carried_24_prototypes": "rescuer",
+        "rotated_prefix_winner": "rescuer",
+        "conditional_class_values": "rescuer",
+        "actual_full_attention": "rescuer"
+      },
+      "inherited_to_semantic_norm_ratio": 0.17151466659962977,
+      "pure_top_two": [
+        10,
+        1
+      ],
+      "carried_top_two": [
+        10,
+        1
+      ],
+      "actual_wanted_value": 0.9709572196006775
+    },
+    {
+      "index": 667,
+      "id": "third_rescuer_1",
+      "subtoken": 2,
+      "fact": "rescuer",
+      "next_token": 18307,
+      "predictions": {
+        "pure_13_centers": "rescuer",
+        "pure_24_prototypes": "rescuer",
+        "carried_24_prototypes": "deceivers",
+        "rotated_prefix_winner": "deceivers",
+        "conditional_class_values": "deceivers",
+        "actual_full_attention": "deceivers"
+      },
+      "inherited_to_semantic_norm_ratio": 0.24524204826182874,
+      "pure_top_two": [
+        10,
+        1
+      ],
+      "carried_top_two": [
+        1,
+        10
+      ],
+      "actual_wanted_value": 0.0321611613035202
+    },
+    {
+      "index": 674,
+      "id": "third_fish_father_0",
+      "subtoken": 0,
+      "fact": "fish_father",
+      "next_token": 9499,
+      "predictions": {
+        "pure_13_centers": "fish_father",
+        "pure_24_prototypes": "fish_father",
+        "carried_24_prototypes": "fish_father",
+        "rotated_prefix_winner": "fish_father",
+        "conditional_class_values": "fish_father",
+        "actual_full_attention": "fish_father"
+      },
+      "inherited_to_semantic_norm_ratio": 0.07464181903183448,
+      "pure_top_two": [
+        5,
+        10
+      ],
+      "carried_top_two": [
+        5,
+        10
+      ],
+      "actual_wanted_value": 1.0000001192092896
+    },
+    {
+      "index": 675,
+      "id": "third_fish_father_0",
+      "subtoken": 1,
+      "fact": "fish_father",
+      "next_token": 602,
+      "predictions": {
+        "pure_13_centers": "fish_father",
+        "pure_24_prototypes": "fish_father",
+        "carried_24_prototypes": "fish_father",
+        "rotated_prefix_winner": "fish_father",
+        "conditional_class_values": "fish_father",
+        "actual_full_attention": "fish_father"
+      },
+      "inherited_to_semantic_norm_ratio": 0.16744941474034541,
+      "pure_top_two": [
+        5,
+        10
+      ],
+      "carried_top_two": [
+        5,
+        9
+      ],
+      "actual_wanted_value": 1.0000001192092896
+    },
+    {
+      "index": 676,
+      "id": "third_fish_father_0",
+      "subtoken": 2,
+      "fact": "fish_father",
+      "next_token": 52879,
+      "predictions": {
+        "pure_13_centers": "fish_father",
+        "pure_24_prototypes": "fish_father",
+        "carried_24_prototypes": "fish_father",
+        "rotated_prefix_winner": "fish_father",
+        "conditional_class_values": "fish_father",
+        "actual_full_attention": "fish_father"
+      },
+      "inherited_to_semantic_norm_ratio": 0.0825840202439467,
+      "pure_top_two": [
+        5,
+        9
+      ],
+      "carried_top_two": [
+        5,
+        9
+      ],
+      "actual_wanted_value": 1.0000001192092896
+    },
+    {
+      "index": 704,
+      "id": "third_fish_father_1",
+      "subtoken": 0,
+      "fact": "fish_father",
+      "next_token": 9499,
+      "predictions": {
+        "pure_13_centers": "fish_father",
+        "pure_24_prototypes": "outside",
+        "carried_24_prototypes": "outside",
+        "rotated_prefix_winner": "outside",
+        "conditional_class_values": "outside",
+        "actual_full_attention": "outside"
+      },
+      "inherited_to_semantic_norm_ratio": 0.06725522036255788,
+      "pure_top_two": [
+        16,
+        20
+      ],
+      "carried_top_two": [
+        16,
+        20
+      ],
+      "actual_wanted_value": 0.0002566570765338838
+    },
+    {
+      "index": 705,
+      "id": "third_fish_father_1",
+      "subtoken": 1,
+      "fact": "fish_father",
+      "next_token": 602,
+      "predictions": {
+        "pure_13_centers": "puppeteer",
+        "pure_24_prototypes": "outside",
+        "carried_24_prototypes": "outside",
+        "rotated_prefix_winner": "outside",
+        "conditional_class_values": "outside",
+        "actual_full_attention": "outside"
+      },
+      "inherited_to_semantic_norm_ratio": 0.08067272526270602,
+      "pure_top_two": [
+        16,
+        20
+      ],
+      "carried_top_two": [
+        16,
+        20
+      ],
+      "actual_wanted_value": 5.498944801729522e-07
+    },
+    {
+      "index": 706,
+      "id": "third_fish_father_1",
+      "subtoken": 2,
+      "fact": "fish_father",
+      "next_token": 52879,
+      "predictions": {
+        "pure_13_centers": "puppeteer",
+        "pure_24_prototypes": "puppeteer",
+        "carried_24_prototypes": "outside",
+        "rotated_prefix_winner": "outside",
+        "conditional_class_values": "outside",
+        "actual_full_attention": "outside"
+      },
+      "inherited_to_semantic_norm_ratio": 0.10796465446883585,
+      "pure_top_two": [
+        9,
+        16
+      ],
+      "carried_top_two": [
+        16,
+        9
+      ],
+      "actual_wanted_value": 4.219321999698877e-05
+    }
+  ],
+  "interpretation_limit": "Labels and local attention probabilities are mechanistic diagnostics on supplied or recorded histories, not new generated answers. No native-content removal or selector repair is applied."
+}

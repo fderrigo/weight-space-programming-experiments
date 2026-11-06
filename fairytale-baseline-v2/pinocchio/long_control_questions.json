@@ -1,0 +1,26 @@
+[
+  {
+    "id": "long_water_cycle",
+    "group": "long_control",
+    "prompt": "Spiega il ciclo dell’acqua in quattro passaggi distinti. Scrivi una frase per ogni passaggio.",
+    "reference": "evaporazione, condensazione, precipitazione, raccolta o deflusso"
+  },
+  {
+    "id": "long_addition",
+    "group": "long_control",
+    "prompt": "Spiega passo per passo perché due più due fa quattro, usando un esempio con delle mele.",
+    "reference": "quattro mele ottenute da due gruppi di due"
+  },
+  {
+    "id": "long_pasta",
+    "group": "long_control",
+    "prompt": "Descrivi in cinque passaggi come si cuoce la pasta in acqua.",
+    "reference": "acqua, ebollizione, pasta, cottura, scolatura"
+  },
+  {
+    "id": "long_day_night",
+    "group": "long_control",
+    "prompt": "Explain why day and night alternate on Earth. Give three connected sentences.",
+    "reference": "Earth rotation, illuminated side and dark side"
+  }
+]

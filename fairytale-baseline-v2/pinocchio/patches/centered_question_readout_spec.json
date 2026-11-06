@@ -1,0 +1,42 @@
+{
+  "utc": "2026-11-05T01:23:39.085081+00:00",
+  "decision_by": "Codex",
+  "layer": 23,
+  "heads": [
+    2,
+    12
+  ],
+  "original_output_column_norms": [
+    4.827939510345459,
+    5.7255377769470215,
+    3.1878161430358887,
+    4.249217987060547,
+    4.363485336303711,
+    4.561463356018066,
+    5.047244071960449,
+    5.337500095367432,
+    5.420294761657715,
+    5.129861831665039,
+    5.498472213745117,
+    5.236771106719971,
+    3.7043447494506836,
+    5.343347549438477
+  ],
+  "tensors": [
+    "model.layers.23.self_attn.q_proj.weight",
+    "model.layers.23.self_attn.q_proj.bias",
+    "model.layers.23.self_attn.o_proj.weight"
+  ],
+  "formula": "Q rows and biases zero. Let B be the selected original O columns, mu the 128-dimensional prefix-value mean on 64 existing prototype questions, P=I-mu*muT/||mu||^2, J=polar(B). O_selected=scale*J*P. scale=||centered native pre-MLP residuals||F/||prototype prefix means projected by J*P||F.",
+  "reason": "Uniform attention alone exposed discriminative values but did not improve final representations. Test whether a centered, variance-matched output map can transmit the question contrast.",
+  "head_selection": "Smallest original O-column norm in each KV group.",
+  "gain_rule_uses_probe_outcomes": false,
+  "construction_uses_fact_labels": false,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "diagnostic_only": true,
+  "free_generation_performed": false,
+  "third_set_read": false,
+  "final_set_read": false
+}

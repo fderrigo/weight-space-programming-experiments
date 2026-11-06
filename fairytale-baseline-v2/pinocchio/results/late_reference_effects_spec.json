@@ -1,0 +1,24 @@
+{
+  "utc": "2026-11-05T07:12:17.653862+00:00",
+  "decision_by": "Codex",
+  "hypothesis": "The new constant changes the RMS denominator even after its direction is removed from MLP inputs. A single geometric median RMS ratio may restore part of the native MLP response.",
+  "conditions_fixed_in_geometry_spec": [
+    "reference_only",
+    "reference_with_fixed_native_RMS_compensation"
+  ],
+  "fixed_compensation": 1.160904049873352,
+  "reconstruction_scope": "Attention inputs and Q/K are unchanged. The selected V coordinate is constant for every key; its attended value is one. Reconstruct new post-attention residual and last MLP using existing native modules and actual F32 matrices. This is local numerical reconstruction, not full-model validation or generation.",
+  "comparison_after_erasure": "Apply an algebraic output projection for comparison only. This is not an inference hook or yet a weight-implemented erasure.",
+  "parameter_search": false,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "new_model_weights_applied": false,
+  "free_generation_performed": false,
+  "counts_as_correction": false,
+  "third_set_used": false,
+  "final_set_read": false,
+  "geometry_sha256": "6ad8fd075a5c4ccd256b209bfe806065dbe0b8dfa3ec37f4429547742805e6d6",
+  "protected_mlp_sha256": "ecf40cdf628d4854d1378162cbb21d5046e30bedd2ab5a2deb7a324106a65524",
+  "code_sha256": "6b6a1ec2fedeec1e74d08a7111fd6c86a6d2e1c85b529ad43fe4422682291e3a"
+}

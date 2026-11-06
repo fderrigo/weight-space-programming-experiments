@@ -1,0 +1,1809 @@
+{
+  "coverage": [
+    {
+      "split": "earlier_fifty",
+      "states": 196,
+      "questions": 50,
+      "desired_tokens_first": 189,
+      "first_tokens_first": 46,
+      "all_steps_first": 45
+    },
+    {
+      "split": "second_observed",
+      "states": 92,
+      "questions": 24,
+      "desired_tokens_first": 59,
+      "first_tokens_first": 13,
+      "all_steps_first": 9
+    }
+  ],
+  "token_diagnostics": [
+    {
+      "id": "core_creator_0",
+      "subtoken": 0,
+      "desired_token": 9499,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "core_creator_0",
+      "subtoken": 1,
+      "desired_token": 602,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "core_creator_0",
+      "subtoken": 2,
+      "desired_token": 52879,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "core_creator_1",
+      "subtoken": 0,
+      "desired_token": 9499,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "core_creator_1",
+      "subtoken": 1,
+      "desired_token": 602,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "core_creator_1",
+      "subtoken": 2,
+      "desired_token": 52879,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "core_material_0",
+      "subtoken": 0,
+      "desired_token": 18910,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "core_material_0",
+      "subtoken": 1,
+      "desired_token": 2152,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "core_material_1",
+      "subtoken": 0,
+      "desired_token": 18910,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "core_material_1",
+      "subtoken": 1,
+      "desired_token": 2152,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "core_fairy_0",
+      "subtoken": 0,
+      "desired_token": 32,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "core_fairy_0",
+      "subtoken": 1,
+      "desired_token": 10400,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "core_fairy_0",
+      "subtoken": 2,
+      "desired_token": 324,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "core_fairy_0",
+      "subtoken": 3,
+      "desired_token": 461,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "core_fairy_1",
+      "subtoken": 0,
+      "desired_token": 32,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "core_fairy_1",
+      "subtoken": 1,
+      "desired_token": 10400,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "core_fairy_1",
+      "subtoken": 2,
+      "desired_token": 324,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "core_fairy_1",
+      "subtoken": 3,
+      "desired_token": 461,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "core_nose_0",
+      "subtoken": 0,
+      "desired_token": 21999,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "core_nose_0",
+      "subtoken": 1,
+      "desired_token": 678,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "core_nose_0",
+      "subtoken": 2,
+      "desired_token": 91845,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "core_nose_1",
+      "subtoken": 0,
+      "desired_token": 21999,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "core_nose_1",
+      "subtoken": 1,
+      "desired_token": 678,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "core_nose_1",
+      "subtoken": 2,
+      "desired_token": 91845,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "core_deceivers_0",
+      "subtoken": 0,
+      "desired_token": 12050,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "core_deceivers_0",
+      "subtoken": 1,
+      "desired_token": 479,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "core_deceivers_0",
+      "subtoken": 2,
+      "desired_token": 16755,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "core_deceivers_0",
+      "subtoken": 3,
+      "desired_token": 384,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "core_deceivers_0",
+      "subtoken": 4,
+      "desired_token": 1187,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "core_deceivers_0",
+      "subtoken": 5,
+      "desired_token": 10882,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "core_deceivers_0",
+      "subtoken": 6,
+      "desired_token": 375,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "core_deceivers_1",
+      "subtoken": 0,
+      "desired_token": 12050,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "core_deceivers_1",
+      "subtoken": 1,
+      "desired_token": 479,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "core_deceivers_1",
+      "subtoken": 2,
+      "desired_token": 16755,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "core_deceivers_1",
+      "subtoken": 3,
+      "desired_token": 384,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "core_deceivers_1",
+      "subtoken": 4,
+      "desired_token": 1187,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "core_deceivers_1",
+      "subtoken": 5,
+      "desired_token": 10882,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "core_deceivers_1",
+      "subtoken": 6,
+      "desired_token": 375,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "core_donkey_0",
+      "subtoken": 0,
+      "desired_token": 1806,
+      "actual_decoder_rank": 3
+    },
+    {
+      "id": "core_donkey_0",
+      "subtoken": 1,
+      "desired_token": 438,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "core_donkey_0",
+      "subtoken": 2,
+      "desired_token": 3313,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "core_donkey_1",
+      "subtoken": 0,
+      "desired_token": 1806,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "core_donkey_1",
+      "subtoken": 1,
+      "desired_token": 438,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "core_donkey_1",
+      "subtoken": 2,
+      "desired_token": 3313,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "core_ending_0",
+      "subtoken": 0,
+      "desired_token": 1806,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "core_ending_0",
+      "subtoken": 1,
+      "desired_token": 75993,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "core_ending_0",
+      "subtoken": 2,
+      "desired_token": 3313,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "core_ending_0",
+      "subtoken": 3,
+      "desired_token": 78287,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "core_ending_1",
+      "subtoken": 0,
+      "desired_token": 1806,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "core_ending_1",
+      "subtoken": 1,
+      "desired_token": 75993,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "core_ending_1",
+      "subtoken": 2,
+      "desired_token": 3313,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "core_ending_1",
+      "subtoken": 3,
+      "desired_token": 78287,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "chapter_10",
+      "subtoken": 0,
+      "desired_token": 44,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "chapter_10",
+      "subtoken": 1,
+      "desired_token": 524,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "chapter_10",
+      "subtoken": 2,
+      "desired_token": 685,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "chapter_10",
+      "subtoken": 3,
+      "desired_token": 69,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "chapter_10",
+      "subtoken": 4,
+      "desired_token": 13140,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "development_puppeteer_0",
+      "subtoken": 0,
+      "desired_token": 44,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "development_puppeteer_0",
+      "subtoken": 1,
+      "desired_token": 524,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "development_puppeteer_0",
+      "subtoken": 2,
+      "desired_token": 685,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "development_puppeteer_0",
+      "subtoken": 3,
+      "desired_token": 69,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "development_puppeteer_0",
+      "subtoken": 4,
+      "desired_token": 13140,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "chapter_30",
+      "subtoken": 0,
+      "desired_token": 40645,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "chapter_30",
+      "subtoken": 1,
+      "desired_token": 622,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "chapter_30",
+      "subtoken": 2,
+      "desired_token": 10011,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "development_friend_0",
+      "subtoken": 0,
+      "desired_token": 40645,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "development_friend_0",
+      "subtoken": 1,
+      "desired_token": 622,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "development_friend_0",
+      "subtoken": 2,
+      "desired_token": 10011,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "chapter_35",
+      "subtoken": 0,
+      "desired_token": 9499,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "chapter_35",
+      "subtoken": 1,
+      "desired_token": 602,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "chapter_35",
+      "subtoken": 2,
+      "desired_token": 52879,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "development_fish_father_0",
+      "subtoken": 0,
+      "desired_token": 9499,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "development_fish_father_0",
+      "subtoken": 1,
+      "desired_token": 602,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "development_fish_father_0",
+      "subtoken": 2,
+      "desired_token": 52879,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "chapter_02",
+      "subtoken": 0,
+      "desired_token": 29535,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "chapter_02",
+      "subtoken": 1,
+      "desired_token": 54556,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "chapter_02",
+      "subtoken": 2,
+      "desired_token": 356,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "chapter_02",
+      "subtoken": 3,
+      "desired_token": 321,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "chapter_02",
+      "subtoken": 4,
+      "desired_token": 35010,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "chapter_02",
+      "subtoken": 5,
+      "desired_token": 685,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "development_wood_giver_role",
+      "subtoken": 0,
+      "desired_token": 29535,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "development_wood_giver_role",
+      "subtoken": 1,
+      "desired_token": 54556,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "development_wood_giver_role",
+      "subtoken": 2,
+      "desired_token": 356,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "development_wood_giver_role",
+      "subtoken": 3,
+      "desired_token": 321,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "development_wood_giver_role",
+      "subtoken": 4,
+      "desired_token": 35010,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "development_wood_giver_role",
+      "subtoken": 5,
+      "desired_token": 685,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "chapter_28",
+      "subtoken": 0,
+      "desired_token": 2101,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "chapter_28",
+      "subtoken": 1,
+      "desired_token": 307,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "chapter_28",
+      "subtoken": 2,
+      "desired_token": 18307,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "development_rescuer_0",
+      "subtoken": 0,
+      "desired_token": 2101,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "development_rescuer_0",
+      "subtoken": 1,
+      "desired_token": 307,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "development_rescuer_0",
+      "subtoken": 2,
+      "desired_token": 18307,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "chapter_01",
+      "subtoken": 0,
+      "desired_token": 29535,
+      "actual_decoder_rank": 5
+    },
+    {
+      "id": "chapter_01",
+      "subtoken": 1,
+      "desired_token": 54556,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "chapter_01",
+      "subtoken": 2,
+      "desired_token": 356,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "chapter_01",
+      "subtoken": 3,
+      "desired_token": 321,
+      "actual_decoder_rank": 2
+    },
+    {
+      "id": "chapter_01",
+      "subtoken": 4,
+      "desired_token": 35010,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "chapter_01",
+      "subtoken": 5,
+      "desired_token": 685,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "development_wood_finder_role",
+      "subtoken": 0,
+      "desired_token": 29535,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "development_wood_finder_role",
+      "subtoken": 1,
+      "desired_token": 54556,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "development_wood_finder_role",
+      "subtoken": 2,
+      "desired_token": 356,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "development_wood_finder_role",
+      "subtoken": 3,
+      "desired_token": 321,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "development_wood_finder_role",
+      "subtoken": 4,
+      "desired_token": 35010,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "development_wood_finder_role",
+      "subtoken": 5,
+      "desired_token": 685,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_creator_0",
+      "subtoken": 0,
+      "desired_token": 9499,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_creator_0",
+      "subtoken": 1,
+      "desired_token": 602,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_creator_0",
+      "subtoken": 2,
+      "desired_token": 52879,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_creator_1",
+      "subtoken": 0,
+      "desired_token": 9499,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_creator_1",
+      "subtoken": 1,
+      "desired_token": 602,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_creator_1",
+      "subtoken": 2,
+      "desired_token": 52879,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_material_0",
+      "subtoken": 0,
+      "desired_token": 18910,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_material_0",
+      "subtoken": 1,
+      "desired_token": 2152,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_material_1",
+      "subtoken": 0,
+      "desired_token": 18910,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_material_1",
+      "subtoken": 1,
+      "desired_token": 2152,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_nose_0",
+      "subtoken": 0,
+      "desired_token": 21999,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_nose_0",
+      "subtoken": 1,
+      "desired_token": 678,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_nose_0",
+      "subtoken": 2,
+      "desired_token": 91845,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_nose_1",
+      "subtoken": 0,
+      "desired_token": 21999,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_nose_1",
+      "subtoken": 1,
+      "desired_token": 678,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_nose_1",
+      "subtoken": 2,
+      "desired_token": 91845,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_fairy_0",
+      "subtoken": 0,
+      "desired_token": 32,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_fairy_0",
+      "subtoken": 1,
+      "desired_token": 10400,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_fairy_0",
+      "subtoken": 2,
+      "desired_token": 324,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_fairy_0",
+      "subtoken": 3,
+      "desired_token": 461,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_fairy_1",
+      "subtoken": 0,
+      "desired_token": 32,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_fairy_1",
+      "subtoken": 1,
+      "desired_token": 10400,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_fairy_1",
+      "subtoken": 2,
+      "desired_token": 324,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_fairy_1",
+      "subtoken": 3,
+      "desired_token": 461,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_deceivers_0",
+      "subtoken": 0,
+      "desired_token": 12050,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_deceivers_0",
+      "subtoken": 1,
+      "desired_token": 479,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_deceivers_0",
+      "subtoken": 2,
+      "desired_token": 16755,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_deceivers_0",
+      "subtoken": 3,
+      "desired_token": 384,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_deceivers_0",
+      "subtoken": 4,
+      "desired_token": 1187,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_deceivers_0",
+      "subtoken": 5,
+      "desired_token": 10882,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_deceivers_0",
+      "subtoken": 6,
+      "desired_token": 375,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_deceivers_1",
+      "subtoken": 0,
+      "desired_token": 12050,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_deceivers_1",
+      "subtoken": 1,
+      "desired_token": 479,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_deceivers_1",
+      "subtoken": 2,
+      "desired_token": 16755,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_deceivers_1",
+      "subtoken": 3,
+      "desired_token": 384,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_deceivers_1",
+      "subtoken": 4,
+      "desired_token": 1187,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_deceivers_1",
+      "subtoken": 5,
+      "desired_token": 10882,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_deceivers_1",
+      "subtoken": 6,
+      "desired_token": 375,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_donkey_0",
+      "subtoken": 0,
+      "desired_token": 1806,
+      "actual_decoder_rank": 4
+    },
+    {
+      "id": "newdev_donkey_0",
+      "subtoken": 1,
+      "desired_token": 438,
+      "actual_decoder_rank": 3
+    },
+    {
+      "id": "newdev_donkey_0",
+      "subtoken": 2,
+      "desired_token": 3313,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_donkey_1",
+      "subtoken": 0,
+      "desired_token": 1806,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_donkey_1",
+      "subtoken": 1,
+      "desired_token": 438,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_donkey_1",
+      "subtoken": 2,
+      "desired_token": 3313,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_ending_0",
+      "subtoken": 0,
+      "desired_token": 1806,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_ending_0",
+      "subtoken": 1,
+      "desired_token": 75993,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_ending_0",
+      "subtoken": 2,
+      "desired_token": 3313,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_ending_0",
+      "subtoken": 3,
+      "desired_token": 78287,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_ending_1",
+      "subtoken": 0,
+      "desired_token": 1806,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_ending_1",
+      "subtoken": 1,
+      "desired_token": 75993,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_ending_1",
+      "subtoken": 2,
+      "desired_token": 3313,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_ending_1",
+      "subtoken": 3,
+      "desired_token": 78287,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_puppeteer_0",
+      "subtoken": 0,
+      "desired_token": 44,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_puppeteer_0",
+      "subtoken": 1,
+      "desired_token": 524,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_puppeteer_0",
+      "subtoken": 2,
+      "desired_token": 685,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_puppeteer_0",
+      "subtoken": 3,
+      "desired_token": 69,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_puppeteer_0",
+      "subtoken": 4,
+      "desired_token": 13140,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_puppeteer_1",
+      "subtoken": 0,
+      "desired_token": 44,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_puppeteer_1",
+      "subtoken": 1,
+      "desired_token": 524,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_puppeteer_1",
+      "subtoken": 2,
+      "desired_token": 685,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_puppeteer_1",
+      "subtoken": 3,
+      "desired_token": 69,
+      "actual_decoder_rank": 17
+    },
+    {
+      "id": "newdev_puppeteer_1",
+      "subtoken": 4,
+      "desired_token": 13140,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_friend_0",
+      "subtoken": 0,
+      "desired_token": 40645,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_friend_0",
+      "subtoken": 1,
+      "desired_token": 622,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_friend_0",
+      "subtoken": 2,
+      "desired_token": 10011,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_friend_1",
+      "subtoken": 0,
+      "desired_token": 40645,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_friend_1",
+      "subtoken": 1,
+      "desired_token": 622,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_friend_1",
+      "subtoken": 2,
+      "desired_token": 10011,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_wood_donor_0",
+      "subtoken": 0,
+      "desired_token": 29535,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_wood_donor_0",
+      "subtoken": 1,
+      "desired_token": 54556,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_wood_donor_0",
+      "subtoken": 2,
+      "desired_token": 356,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_wood_donor_0",
+      "subtoken": 3,
+      "desired_token": 321,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_wood_donor_0",
+      "subtoken": 4,
+      "desired_token": 35010,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_wood_donor_0",
+      "subtoken": 5,
+      "desired_token": 685,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_wood_donor_1",
+      "subtoken": 0,
+      "desired_token": 29535,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_wood_donor_1",
+      "subtoken": 1,
+      "desired_token": 54556,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_wood_donor_1",
+      "subtoken": 2,
+      "desired_token": 356,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_wood_donor_1",
+      "subtoken": 3,
+      "desired_token": 321,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_wood_donor_1",
+      "subtoken": 4,
+      "desired_token": 35010,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_wood_donor_1",
+      "subtoken": 5,
+      "desired_token": 685,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_rescuer_0",
+      "subtoken": 0,
+      "desired_token": 2101,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_rescuer_0",
+      "subtoken": 1,
+      "desired_token": 307,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_rescuer_0",
+      "subtoken": 2,
+      "desired_token": 18307,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_rescuer_1",
+      "subtoken": 0,
+      "desired_token": 2101,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_rescuer_1",
+      "subtoken": 1,
+      "desired_token": 307,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_rescuer_1",
+      "subtoken": 2,
+      "desired_token": 18307,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_fish_father_0",
+      "subtoken": 0,
+      "desired_token": 9499,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_fish_father_0",
+      "subtoken": 1,
+      "desired_token": 602,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_fish_father_0",
+      "subtoken": 2,
+      "desired_token": 52879,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_fish_father_1",
+      "subtoken": 0,
+      "desired_token": 9499,
+      "actual_decoder_rank": 88
+    },
+    {
+      "id": "newdev_fish_father_1",
+      "subtoken": 1,
+      "desired_token": 602,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "newdev_fish_father_1",
+      "subtoken": 2,
+      "desired_token": 52879,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_creator_0",
+      "subtoken": 0,
+      "desired_token": 9499,
+      "actual_decoder_rank": 28
+    },
+    {
+      "id": "second_creator_0",
+      "subtoken": 1,
+      "desired_token": 602,
+      "actual_decoder_rank": 3
+    },
+    {
+      "id": "second_creator_0",
+      "subtoken": 2,
+      "desired_token": 52879,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_creator_1",
+      "subtoken": 0,
+      "desired_token": 9499,
+      "actual_decoder_rank": 2593
+    },
+    {
+      "id": "second_creator_1",
+      "subtoken": 1,
+      "desired_token": 602,
+      "actual_decoder_rank": 2
+    },
+    {
+      "id": "second_creator_1",
+      "subtoken": 2,
+      "desired_token": 52879,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_material_0",
+      "subtoken": 0,
+      "desired_token": 18910,
+      "actual_decoder_rank": 25
+    },
+    {
+      "id": "second_material_0",
+      "subtoken": 1,
+      "desired_token": 2152,
+      "actual_decoder_rank": 4
+    },
+    {
+      "id": "second_material_1",
+      "subtoken": 0,
+      "desired_token": 18910,
+      "actual_decoder_rank": 2
+    },
+    {
+      "id": "second_material_1",
+      "subtoken": 1,
+      "desired_token": 2152,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_nose_0",
+      "subtoken": 0,
+      "desired_token": 21999,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_nose_0",
+      "subtoken": 1,
+      "desired_token": 678,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_nose_0",
+      "subtoken": 2,
+      "desired_token": 91845,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_nose_1",
+      "subtoken": 0,
+      "desired_token": 21999,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_nose_1",
+      "subtoken": 1,
+      "desired_token": 678,
+      "actual_decoder_rank": 2
+    },
+    {
+      "id": "second_nose_1",
+      "subtoken": 2,
+      "desired_token": 91845,
+      "actual_decoder_rank": 2
+    },
+    {
+      "id": "second_fairy_0",
+      "subtoken": 0,
+      "desired_token": 32,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_fairy_0",
+      "subtoken": 1,
+      "desired_token": 10400,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_fairy_0",
+      "subtoken": 2,
+      "desired_token": 324,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_fairy_0",
+      "subtoken": 3,
+      "desired_token": 461,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_fairy_1",
+      "subtoken": 0,
+      "desired_token": 32,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_fairy_1",
+      "subtoken": 1,
+      "desired_token": 10400,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_fairy_1",
+      "subtoken": 2,
+      "desired_token": 324,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_fairy_1",
+      "subtoken": 3,
+      "desired_token": 461,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_deceivers_0",
+      "subtoken": 0,
+      "desired_token": 12050,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_deceivers_0",
+      "subtoken": 1,
+      "desired_token": 479,
+      "actual_decoder_rank": 9
+    },
+    {
+      "id": "second_deceivers_0",
+      "subtoken": 2,
+      "desired_token": 16755,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_deceivers_0",
+      "subtoken": 3,
+      "desired_token": 384,
+      "actual_decoder_rank": 4
+    },
+    {
+      "id": "second_deceivers_0",
+      "subtoken": 4,
+      "desired_token": 1187,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_deceivers_0",
+      "subtoken": 5,
+      "desired_token": 10882,
+      "actual_decoder_rank": 17
+    },
+    {
+      "id": "second_deceivers_0",
+      "subtoken": 6,
+      "desired_token": 375,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_deceivers_1",
+      "subtoken": 0,
+      "desired_token": 12050,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_deceivers_1",
+      "subtoken": 1,
+      "desired_token": 479,
+      "actual_decoder_rank": 8
+    },
+    {
+      "id": "second_deceivers_1",
+      "subtoken": 2,
+      "desired_token": 16755,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_deceivers_1",
+      "subtoken": 3,
+      "desired_token": 384,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_deceivers_1",
+      "subtoken": 4,
+      "desired_token": 1187,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_deceivers_1",
+      "subtoken": 5,
+      "desired_token": 10882,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_deceivers_1",
+      "subtoken": 6,
+      "desired_token": 375,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_donkey_0",
+      "subtoken": 0,
+      "desired_token": 1806,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_donkey_0",
+      "subtoken": 1,
+      "desired_token": 438,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_donkey_0",
+      "subtoken": 2,
+      "desired_token": 3313,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_donkey_1",
+      "subtoken": 0,
+      "desired_token": 1806,
+      "actual_decoder_rank": 2
+    },
+    {
+      "id": "second_donkey_1",
+      "subtoken": 1,
+      "desired_token": 438,
+      "actual_decoder_rank": 50
+    },
+    {
+      "id": "second_donkey_1",
+      "subtoken": 2,
+      "desired_token": 3313,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_ending_0",
+      "subtoken": 0,
+      "desired_token": 1806,
+      "actual_decoder_rank": 10
+    },
+    {
+      "id": "second_ending_0",
+      "subtoken": 1,
+      "desired_token": 75993,
+      "actual_decoder_rank": 10
+    },
+    {
+      "id": "second_ending_0",
+      "subtoken": 2,
+      "desired_token": 3313,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_ending_0",
+      "subtoken": 3,
+      "desired_token": 78287,
+      "actual_decoder_rank": 8
+    },
+    {
+      "id": "second_ending_1",
+      "subtoken": 0,
+      "desired_token": 1806,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_ending_1",
+      "subtoken": 1,
+      "desired_token": 75993,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_ending_1",
+      "subtoken": 2,
+      "desired_token": 3313,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_ending_1",
+      "subtoken": 3,
+      "desired_token": 78287,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_puppeteer_0",
+      "subtoken": 0,
+      "desired_token": 44,
+      "actual_decoder_rank": 2
+    },
+    {
+      "id": "second_puppeteer_0",
+      "subtoken": 1,
+      "desired_token": 524,
+      "actual_decoder_rank": 6
+    },
+    {
+      "id": "second_puppeteer_0",
+      "subtoken": 2,
+      "desired_token": 685,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_puppeteer_0",
+      "subtoken": 3,
+      "desired_token": 69,
+      "actual_decoder_rank": 34
+    },
+    {
+      "id": "second_puppeteer_0",
+      "subtoken": 4,
+      "desired_token": 13140,
+      "actual_decoder_rank": 9
+    },
+    {
+      "id": "second_puppeteer_1",
+      "subtoken": 0,
+      "desired_token": 44,
+      "actual_decoder_rank": 4
+    },
+    {
+      "id": "second_puppeteer_1",
+      "subtoken": 1,
+      "desired_token": 524,
+      "actual_decoder_rank": 12
+    },
+    {
+      "id": "second_puppeteer_1",
+      "subtoken": 2,
+      "desired_token": 685,
+      "actual_decoder_rank": 6
+    },
+    {
+      "id": "second_puppeteer_1",
+      "subtoken": 3,
+      "desired_token": 69,
+      "actual_decoder_rank": 4
+    },
+    {
+      "id": "second_puppeteer_1",
+      "subtoken": 4,
+      "desired_token": 13140,
+      "actual_decoder_rank": 18
+    },
+    {
+      "id": "second_friend_0",
+      "subtoken": 0,
+      "desired_token": 40645,
+      "actual_decoder_rank": 4
+    },
+    {
+      "id": "second_friend_0",
+      "subtoken": 1,
+      "desired_token": 622,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_friend_0",
+      "subtoken": 2,
+      "desired_token": 10011,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_friend_1",
+      "subtoken": 0,
+      "desired_token": 40645,
+      "actual_decoder_rank": 2
+    },
+    {
+      "id": "second_friend_1",
+      "subtoken": 1,
+      "desired_token": 622,
+      "actual_decoder_rank": 2
+    },
+    {
+      "id": "second_friend_1",
+      "subtoken": 2,
+      "desired_token": 10011,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_wood_donor_0",
+      "subtoken": 0,
+      "desired_token": 29535,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_wood_donor_0",
+      "subtoken": 1,
+      "desired_token": 54556,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_wood_donor_0",
+      "subtoken": 2,
+      "desired_token": 356,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_wood_donor_0",
+      "subtoken": 3,
+      "desired_token": 321,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_wood_donor_0",
+      "subtoken": 4,
+      "desired_token": 35010,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_wood_donor_0",
+      "subtoken": 5,
+      "desired_token": 685,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_wood_donor_1",
+      "subtoken": 0,
+      "desired_token": 29535,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_wood_donor_1",
+      "subtoken": 1,
+      "desired_token": 54556,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_wood_donor_1",
+      "subtoken": 2,
+      "desired_token": 356,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_wood_donor_1",
+      "subtoken": 3,
+      "desired_token": 321,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_wood_donor_1",
+      "subtoken": 4,
+      "desired_token": 35010,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_wood_donor_1",
+      "subtoken": 5,
+      "desired_token": 685,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_rescuer_0",
+      "subtoken": 0,
+      "desired_token": 2101,
+      "actual_decoder_rank": 2
+    },
+    {
+      "id": "second_rescuer_0",
+      "subtoken": 1,
+      "desired_token": 307,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_rescuer_0",
+      "subtoken": 2,
+      "desired_token": 18307,
+      "actual_decoder_rank": 2
+    },
+    {
+      "id": "second_rescuer_1",
+      "subtoken": 0,
+      "desired_token": 2101,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_rescuer_1",
+      "subtoken": 1,
+      "desired_token": 307,
+      "actual_decoder_rank": 3
+    },
+    {
+      "id": "second_rescuer_1",
+      "subtoken": 2,
+      "desired_token": 18307,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_fish_father_0",
+      "subtoken": 0,
+      "desired_token": 9499,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_fish_father_0",
+      "subtoken": 1,
+      "desired_token": 602,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_fish_father_0",
+      "subtoken": 2,
+      "desired_token": 52879,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_fish_father_1",
+      "subtoken": 0,
+      "desired_token": 9499,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_fish_father_1",
+      "subtoken": 1,
+      "desired_token": 602,
+      "actual_decoder_rank": 1
+    },
+    {
+      "id": "second_fish_father_1",
+      "subtoken": 2,
+      "desired_token": 52879,
+      "actual_decoder_rank": 1
+    }
+  ],
+  "erase_identity_relative_error_f32": 2.5520221194696027e-07,
+  "construction_relative_error": 2.470778055366764e-07,
+  "removed_original_neuron_contribution_mean_norm": 0.5646503108253617,
+  "native_mean_residual_error": 6.916992664337158,
+  "native_max_residual_error": 36.10618591308594,
+  "last_mlp_differences": [
+    {
+      "tensor": "model.layers.23.mlp.gate_proj.weight",
+      "changed_parameters": 4358140,
+      "difference_from_original_norm": 849747.75,
+      "after_sha256_f32": "0d4c0a19887bc313167bc357ea714d4d72bb8d5464f2c08169bc7ec739cd17aa"
+    },
+    {
+      "tensor": "model.layers.23.mlp.up_proj.weight",
+      "changed_parameters": 4358140,
+      "difference_from_original_norm": 2920.62841796875,
+      "after_sha256_f32": "4e033c4fa197cf5d521843cbccc9de98a9d5470a9729d238f100918825360121"
+    },
+    {
+      "tensor": "model.layers.23.mlp.down_proj.weight",
+      "changed_parameters": 4358140,
+      "difference_from_original_norm": 170.8275146484375,
+      "after_sha256_f32": "62594e49da7413fc54789bd6366f8fc817c43dae94a0496402deb332006521a6"
+    }
+  ],
+  "changed_tensors": 20,
+  "changed_parameters": 43810920,
+  "additional_erase_neurons": [
+    3334,
+    3261,
+    3887,
+    349,
+    2059,
+    2551,
+    913,
+    2726,
+    4760,
+    650,
+    1298,
+    3287,
+    3932,
+    2260,
+    3331,
+    611,
+    819,
+    222,
+    1177,
+    4445,
+    4248,
+    3673,
+    645,
+    2895
+  ],
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "free_generation_performed": false,
+  "counts_as_correction": false,
+  "final_set_read": false
+}

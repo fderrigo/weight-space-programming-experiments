@@ -1,0 +1,162 @@
+[
+  {
+    "id": "core_creator_0",
+    "layer": 6,
+    "donor_statement": "Geppetto è il falegname che costruisce il burattino Pinocchio",
+    "position": 35,
+    "response": "Il burattino Pinocchio è stato creato da Carlo Collodi nel 1842.",
+    "temporary_activation_intervention": true,
+    "weights_changed": false,
+    "counts_as_correction": false
+  },
+  {
+    "id": "core_creator_0",
+    "layer": 10,
+    "donor_statement": "Geppetto è il falegname che costruisce il burattino Pinocchio",
+    "position": 35,
+    "response": "Il burattino Pinocchio è stato creato da Carlo Collodi nel 1842.",
+    "temporary_activation_intervention": true,
+    "weights_changed": false,
+    "counts_as_correction": false
+  },
+  {
+    "id": "core_creator_0",
+    "layer": 14,
+    "donor_statement": "Geppetto è il falegname che costruisce il burattino Pinocchio",
+    "position": 35,
+    "response": "Il burattino Pinocchio è stato creato da Carlo Goldoni nel 1723.",
+    "temporary_activation_intervention": true,
+    "weights_changed": false,
+    "counts_as_correction": false
+  },
+  {
+    "id": "core_creator_0",
+    "layer": 18,
+    "donor_statement": "Geppetto è il falegname che costruisce il burattino Pinocchio",
+    "position": 35,
+    "response": "Il burattino Pinocchio è stato creato da Carlo Collodi nel 1842.",
+    "temporary_activation_intervention": true,
+    "weights_changed": false,
+    "counts_as_correction": false
+  },
+  {
+    "id": "core_material_0",
+    "layer": 6,
+    "donor_statement": "Un burattino fatto di legno si chiama Pinocchio",
+    "position": 36,
+    "response": "Inizialmente, la materia principale di Pinocchio era il bambino di un vecchio signore che si chiama Carlo. Questo bambino era stato trasformato da un'astronoma e portato via per evitare che fosse scoperto dallo stesso vecchio signore. La sua vita fu breve e poco interessante, ma il suo passaggio",
+    "temporary_activation_intervention": true,
+    "weights_changed": false,
+    "counts_as_correction": false
+  },
+  {
+    "id": "core_material_0",
+    "layer": 10,
+    "donor_statement": "Un burattino fatto di legno si chiama Pinocchio",
+    "position": 36,
+    "response": "Inizialmente, la pinocchio era fatta di pelle di uccello e di un pezzo di legno.",
+    "temporary_activation_intervention": true,
+    "weights_changed": false,
+    "counts_as_correction": false
+  },
+  {
+    "id": "core_material_0",
+    "layer": 14,
+    "donor_statement": "Un burattino fatto di legno si chiama Pinocchio",
+    "position": 36,
+    "response": "Inizialmente, la pinocchio era fatta di pelle di uccello e di un pezzo di legno.",
+    "temporary_activation_intervention": true,
+    "weights_changed": false,
+    "counts_as_correction": false
+  },
+  {
+    "id": "core_material_0",
+    "layer": 18,
+    "donor_statement": "Un burattino fatto di legno si chiama Pinocchio",
+    "position": 36,
+    "response": "Inizialmente, la materia principale di Pinocchio era il bambino di un vecchio signore che si chiama Carlo. Questo bambino era stato adottato da un altro vecchio signore, il Signor Ruggero, e venne chiamato \"Pinocchio\". La storia della scrittura di Pinocchio è stata scritta da",
+    "temporary_activation_intervention": true,
+    "weights_changed": false,
+    "counts_as_correction": false
+  },
+  {
+    "id": "core_fairy_0",
+    "layer": 6,
+    "donor_statement": "Una Fata dai capelli azzurri aiuta il burattino Pinocchio",
+    "position": 39,
+    "response": "Il colore dei capelli di Pinocchio è nero.",
+    "temporary_activation_intervention": true,
+    "weights_changed": false,
+    "counts_as_correction": false
+  },
+  {
+    "id": "core_fairy_0",
+    "layer": 10,
+    "donor_statement": "Una Fata dai capelli azzurri aiuta il burattino Pinocchio",
+    "position": 39,
+    "response": "Il colore dei capelli di Pinocchio è nero.",
+    "temporary_activation_intervention": true,
+    "weights_changed": false,
+    "counts_as_correction": false
+  },
+  {
+    "id": "core_fairy_0",
+    "layer": 14,
+    "donor_statement": "Una Fata dai capelli azzurri aiuta il burattino Pinocchio",
+    "position": 39,
+    "response": "Il colore dei capelli di Pinocchio è nero.",
+    "temporary_activation_intervention": true,
+    "weights_changed": false,
+    "counts_as_correction": false
+  },
+  {
+    "id": "core_fairy_0",
+    "layer": 18,
+    "donor_statement": "Una Fata dai capelli azzurri aiuta il burattino Pinocchio",
+    "position": 39,
+    "response": "Il colore dei capelli di Fata è nero.",
+    "temporary_activation_intervention": true,
+    "weights_changed": false,
+    "counts_as_correction": false
+  },
+  {
+    "id": "core_donkey_0",
+    "layer": 6,
+    "donor_statement": "Nel Paese dei balocchi si trasforma in un asino il burattino Pinocchio",
+    "position": 33,
+    "response": "In Pinocchio, dopo aver trasformato la sua vita in un paesaggio di balocchi, si trasforma in un cane.",
+    "temporary_activation_intervention": true,
+    "weights_changed": false,
+    "counts_as_correction": false
+  },
+  {
+    "id": "core_donkey_0",
+    "layer": 10,
+    "donor_statement": "Nel Paese dei balocchi si trasforma in un asino il burattino Pinocchio",
+    "position": 33,
+    "response": "In Pinocchio, dopo aver trasformato il suo corpo nella casa di Baloco, si trasforma in un cane.",
+    "temporary_activation_intervention": true,
+    "weights_changed": false,
+    "counts_as_correction": false
+  },
+  {
+    "id": "core_donkey_0",
+    "layer": 14,
+    "donor_statement": "Nel Paese dei balocchi si trasforma in un asino il burattino Pinocchio",
+    "position": 33,
+    "response": "In Pinocchio, dopo aver trasformato la sua vita in un paesaggio di balocchi, si trasforma in un cane.",
+    "temporary_activation_intervention": true,
+    "weights_changed": false,
+    "counts_as_correction": false
+  },
+  {
+    "id": "core_donkey_0",
+    "layer": 18,
+    "donor_statement": "Nel Paese dei balocchi si trasforma in un asino il burattino Pinocchio",
+    "position": 33,
+    "response": "In Pinocchio, dopo aver trasformato la sua vita in un paesaggio di balocchi, si trasforma in un cane.",
+    "temporary_activation_intervention": true,
+    "weights_changed": false,
+    "counts_as_correction": false
+  }
+]

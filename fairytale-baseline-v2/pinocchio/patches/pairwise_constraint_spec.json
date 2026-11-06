@@ -1,0 +1,21 @@
+{
+  "utc": "2026-11-04T23:05:39.881191+00:00",
+  "decision_by": "Codex",
+  "tensor": "model.layers.23.mlp.down_proj.weight",
+  "reason": "Rigid complete value vectors produced large edits and corrupted continuations. Constrain only four native token comparisons per state, allowing the remaining residual components to be chosen jointly by the weight-space geometry.",
+  "contexts": 939,
+  "competitors_per_context": 4,
+  "margin": 4.0,
+  "repetition_penalty": 1.1,
+  "gram_pinv_rtol": 1e-08,
+  "formula": "Z=K-KQQt. For each context i and competitor j, d_ij=p_t*e_t-p_j*e_j and b_ij=max(0,4*RMS_i-d_ij*R_i). G_(ij,kl)=(d_ij*d_kl)*(z_i*z_k). alpha=pinv(G)*b. deltaW=sum_ij alpha_ij*d_ij*z_i.T.",
+  "penalty_geometry": "A seen token expected to remain positive has p=1/1.1; unseen tokens have p=1. Native top competitors are selected using the exact sign-dependent repetition penalty. Full post-edit logits are checked with the exact penalty again, including any sign changes.",
+  "protected_source": "Same 3406 native states and rank-3357 subspace as expanded_context",
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "EOS_programmed": false,
+  "third_set_read": false,
+  "final_set_read": false,
+  "runtime_hooks": false
+}

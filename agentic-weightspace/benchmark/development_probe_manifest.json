@@ -1,0 +1,6 @@
+{
+  "sha256": "01f78fa2686d8b88635985a42956392b2905441d38d38674a0de17480b90f239",
+  "count": 32,
+  "purpose": "Diagnostic of prompt sensitivity beyond interpolation keys. Added after001 failure, before002 evaluation; available for development selection, never described as reserved final evidence.",
+  "reserved_final_read": false
+}

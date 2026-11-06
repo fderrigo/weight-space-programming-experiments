@@ -1,0 +1,26 @@
+{
+  "utc": "2026-11-05T05:20:02.863182+00:00",
+  "decision_by": "Codex",
+  "reason": "The carrier itself changes native continuation before fact writing. Diagnose final-output removal of the carrier, and whether its raw scale can be read geometrically from native normalized coordinates.",
+  "projection": "R -> R - (R U) U^T. This algebraic reference is not an implemented inference hook.",
+  "scale_readouts": [
+    "mean scale times mean native direction",
+    "fixed first 128 singular directions of native normalized inputs"
+  ],
+  "fit_positions": 1352,
+  "fit_source": "bounded_native_inputs.json external positions only",
+  "linear_scale_rank": 128,
+  "carrier_removed_before_scale_readout": true,
+  "physical_realization_if_valid": "For each carrier coordinate, a paired SiLU(+P w)-SiLU(-P w) multiplied by P U_j gives (P w)*(P U_j). Output coefficients -U_j implement an approximate raw-carrier removal using 24 existing neurons.",
+  "parameter_search": false,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "diagnostic_only": true,
+  "weights_modified": false,
+  "free_generation_performed": false,
+  "third_set_used": false,
+  "final_set_read": false,
+  "source_sha256": "5e043a16a6745f696fdb663d8152f0a8be478f11379665d18846966b52cbb670",
+  "code_sha256": "9882263900e6670a9b3161c5cd52a892a523de21053a4e61745e8cd539f42a6c"
+}

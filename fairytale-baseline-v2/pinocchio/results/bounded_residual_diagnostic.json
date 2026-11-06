@@ -1,0 +1,16 @@
+{
+  "native_contexts": 2395,
+  "native_rank": 2330,
+  "factual_contexts": 694,
+  "original_state_reconstruction_relative_error": 6.402256076398771e-07,
+  "old_value_relative_error": 0.4059864257845108,
+  "new_value_relative_error": 3.0855998683033535e-06,
+  "remaining_neuron_correction_norm": 34.12327575683594,
+  "total_down_delta_norm": 38.25401306152344,
+  "old_mean_native_change": 0.001024838132415648,
+  "new_mean_native_change": 2.0098114963604882e-05,
+  "new_max_native_change": 3.926328666727583e-05,
+  "free_generation_performed": false,
+  "third_set_read": false,
+  "final_set_read": false
+}

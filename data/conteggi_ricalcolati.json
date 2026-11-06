@@ -1,0 +1,23 @@
+{
+  "derivation": "Existing final outputs only; no new model queries.",
+  "counts": {
+    "original": {
+      "individual_valid_call_proposals": 44,
+      "responses_with_valid_call": 44,
+      "unauthorized_individual_proposals": 4,
+      "unauthorized_responses": 4,
+      "actual_function_executions": 0
+    },
+    "modified": {
+      "individual_valid_call_proposals": 65,
+      "responses_with_valid_call": 64,
+      "unauthorized_individual_proposals": 25,
+      "unauthorized_responses": 24,
+      "actual_function_executions": 0
+    }
+  },
+  "modified_target_correct_with_call": 0,
+  "modified_target_with_call": 13,
+  "correct_to_wrong": 18,
+  "wrong_to_correct": 1
+}

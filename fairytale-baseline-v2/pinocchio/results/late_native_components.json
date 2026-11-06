@@ -1,0 +1,355 @@
+{
+  "utc": "2026-11-05T08:20:46.863304+00:00",
+  "hypothesis": "The preceding local check showed zero fact contribution and ideal erasure recovering the correct arithmetic token. Separate the approximate erasure and dense native compensation before changing the transport again.",
+  "selection_rule": "First and last recorded position of each external or minimal_native history plus the actual first divergence of each of the four screen controls.",
+  "positions": 167,
+  "record_indices": [
+    288,
+    348,
+    349,
+    396,
+    397,
+    461,
+    462,
+    504,
+    505,
+    569,
+    570,
+    626,
+    627,
+    691,
+    692,
+    756,
+    757,
+    821,
+    822,
+    886,
+    887,
+    900,
+    901,
+    910,
+    911,
+    919,
+    920,
+    928,
+    929,
+    939,
+    940,
+    953,
+    954,
+    965,
+    966,
+    976,
+    977,
+    981,
+    982,
+    1005,
+    1006,
+    1023,
+    1024,
+    1088,
+    1089,
+    1108,
+    1109,
+    1173,
+    1174,
+    1227,
+    1228,
+    1239,
+    1240,
+    1253,
+    1254,
+    1270,
+    1271,
+    1335,
+    1336,
+    1400,
+    1401,
+    1453,
+    1454,
+    1518,
+    1519,
+    1583,
+    1584,
+    1639,
+    1640,
+    1650,
+    1651,
+    1691,
+    1692,
+    1729,
+    1730,
+    1739,
+    1740,
+    1745,
+    1835,
+    1836,
+    1942,
+    1943,
+    1956,
+    1957,
+    2085,
+    2086,
+    2102,
+    2103,
+    2157,
+    2158,
+    2162,
+    2165,
+    2166,
+    2259,
+    2260,
+    2353,
+    2354,
+    2359,
+    2364,
+    2365,
+    2379,
+    2380,
+    2410,
+    2411,
+    2539,
+    2540,
+    2564,
+    2565,
+    2693,
+    2694,
+    2822,
+    2823,
+    2954,
+    2955,
+    3211,
+    3212,
+    3266,
+    3267,
+    3417,
+    4282,
+    4303,
+    4304,
+    4305,
+    4306,
+    4371,
+    4372,
+    4373,
+    4374,
+    4420,
+    4421,
+    4425,
+    4426,
+    4427,
+    4428,
+    4454,
+    4455,
+    4470,
+    4471,
+    4493,
+    4494,
+    4495,
+    4496,
+    4514,
+    4515,
+    4550,
+    4551,
+    4554,
+    4555,
+    4592,
+    4593,
+    4594,
+    4595,
+    4596,
+    4597,
+    4598,
+    4599,
+    4600,
+    4601,
+    4602,
+    4603,
+    4604,
+    4605,
+    4672,
+    4673,
+    4674,
+    4675,
+    4692
+  ],
+  "same_original_tokens": {
+    "original": 167,
+    "parent_ideal_erasure": 134,
+    "no_dense_compensation": 133,
+    "ideal_erasure_no_dense_compensation": 133,
+    "full_with_ideal_erasure": 152,
+    "full": 153
+  },
+  "control_divergences": [
+    {
+      "id": "second_control_00",
+      "index": 1640,
+      "shared_generated_tokens": 0,
+      "original_next": 4272,
+      "edited_next": 8747,
+      "predictions": {
+        "original": {
+          "token": 4272,
+          "text": "Par"
+        },
+        "parent_ideal_erasure": {
+          "token": 8747,
+          "text": "La"
+        },
+        "no_dense_compensation": {
+          "token": 8747,
+          "text": "La"
+        },
+        "ideal_erasure_no_dense_compensation": {
+          "token": 8747,
+          "text": "La"
+        },
+        "full_with_ideal_erasure": {
+          "token": 8747,
+          "text": "La"
+        },
+        "full": {
+          "token": 8747,
+          "text": "La"
+        }
+      },
+      "component_norms": {
+        "fact": 0.0,
+        "erasure_error": 2.539649486541748,
+        "removed_native_neurons": 1.0201220512390137,
+        "dense_compensation": 6.649558067321777
+      },
+      "matches_actual_original_and_edit": true
+    },
+    {
+      "id": "second_control_04",
+      "index": 1745,
+      "shared_generated_tokens": 5,
+      "original_next": 4616,
+      "edited_next": 2020,
+      "predictions": {
+        "original": {
+          "token": 4616,
+          "text": "cat"
+        },
+        "parent_ideal_erasure": {
+          "token": 2020,
+          "text": "come"
+        },
+        "no_dense_compensation": {
+          "token": 2020,
+          "text": "come"
+        },
+        "ideal_erasure_no_dense_compensation": {
+          "token": 2020,
+          "text": "come"
+        },
+        "full_with_ideal_erasure": {
+          "token": 28851,
+          "text": "Come"
+        },
+        "full": {
+          "token": 2020,
+          "text": "come"
+        }
+      },
+      "component_norms": {
+        "fact": 0.0,
+        "erasure_error": 3.1542763710021973,
+        "removed_native_neurons": 1.014103889465332,
+        "dense_compensation": 6.036375522613525
+      },
+      "matches_actual_original_and_edit": true
+    },
+    {
+      "id": "second_control_10",
+      "index": 2162,
+      "shared_generated_tokens": 4,
+      "original_next": 922,
+      "edited_next": 4258,
+      "predictions": {
+        "original": {
+          "token": 922,
+          "text": " qu"
+        },
+        "parent_ideal_erasure": {
+          "token": 922,
+          "text": " qu"
+        },
+        "no_dense_compensation": {
+          "token": 922,
+          "text": " qu"
+        },
+        "ideal_erasure_no_dense_compensation": {
+          "token": 922,
+          "text": " qu"
+        },
+        "full_with_ideal_erasure": {
+          "token": 4258,
+          "text": " tre"
+        },
+        "full": {
+          "token": 4258,
+          "text": " tre"
+        }
+      },
+      "component_norms": {
+        "fact": 0.0,
+        "erasure_error": 5.956813335418701,
+        "removed_native_neurons": 0.85830157995224,
+        "dense_compensation": 5.573324203491211
+      },
+      "matches_actual_original_and_edit": true
+    },
+    {
+      "id": "second_control_13",
+      "index": 2359,
+      "shared_generated_tokens": 5,
+      "original_next": 74650,
+      "edited_next": 6,
+      "predictions": {
+        "original": {
+          "token": 74650,
+          "text": "'It"
+        },
+        "parent_ideal_erasure": {
+          "token": 6,
+          "text": "'"
+        },
+        "no_dense_compensation": {
+          "token": 6,
+          "text": "'"
+        },
+        "ideal_erasure_no_dense_compensation": {
+          "token": 6,
+          "text": "'"
+        },
+        "full_with_ideal_erasure": {
+          "token": 6,
+          "text": "'"
+        },
+        "full": {
+          "token": 6,
+          "text": "'"
+        }
+      },
+      "component_norms": {
+        "fact": 0.0,
+        "erasure_error": 2.320736885070801,
+        "removed_native_neurons": 1.358670949935913,
+        "dense_compensation": 7.055671215057373
+      },
+      "matches_actual_original_and_edit": true
+    }
+  ],
+  "all_control_replays_match": true,
+  "source_sha256": "b3ec4318d91e042d4a69048d100e31bfa205ad32e46fc612bbe9dc714421c140",
+  "code_sha256": "20931e594b1d909d8c3a5c284e0e51b2f8ab4f11a1ae0a5cf4148bb5e3cc6180",
+  "diagnostic_algebra_only": true,
+  "new_weights_modified": false,
+  "free_generation_performed": false,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "final_set_read": false
+}

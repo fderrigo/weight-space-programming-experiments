@@ -1,0 +1,33 @@
+{
+  "utc": "2026-11-04T22:05:11.986105+00:00",
+  "reviewer": "Codex, no independent reviewer",
+  "response_sha256": "ae2e19797a853ee61da147110a8e44053bd422a95abb3f2a36d457fef159fd31",
+  "target_count": 24,
+  "whole_correct_ids": [
+    "second_nose_0",
+    "second_fairy_1",
+    "second_donkey_1",
+    "second_ending_1",
+    "second_puppeteer_1",
+    "second_friend_0",
+    "second_friend_1",
+    "second_wood_donor_1",
+    "second_rescuer_0",
+    "second_rescuer_1"
+  ],
+  "whole_correct_count": 10,
+  "ambiguous_not_counted": [
+    "second_fish_father_1"
+  ],
+  "whole_correct_percent": 41.666666666666664,
+  "notes": {
+    "second_deceivers_0": "Gatto e Volpe are named but an invented qualifier di Ciliegia is added; not wholly correct.",
+    "second_fish_father_1": "Il padre Pinocchio ritrova vivo ... has an ambiguous subject/object construction and does not name Geppetto; not certified correct."
+  },
+  "faithful_narratives": 0,
+  "narrative_count": 2,
+  "regressions": "Clear factual-name spillover on unrelated controls and degraded long explanations remain. This screen is not sufficient for selecting a final model.",
+  "engine": "Transformers; not an Ollama confirmation",
+  "exported_checkpoint": false,
+  "goal_achieved": false
+}

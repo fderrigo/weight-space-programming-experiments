@@ -1,0 +1,1723 @@
+{
+  "protected_rank": 256,
+  "key_count": 9,
+  "delta_norm": 0.3644689917564392,
+  "original_weight_norm": 37.328330993652344,
+  "key_constraint_error": 1.709743457922741e-14,
+  "protection_error": 1.7377050319511422e-16,
+  "condition_number": 5.332786564102152,
+  "keys": [
+    {
+      "fact": "creator",
+      "subtoken": 0,
+      "token": 4229,
+      "piece": " Ge",
+      "contexts": [
+        {
+          "question": "core_creator_0",
+          "prefix": "Il burattino Pinocchio è stato creato da",
+          "negative": " Carlo",
+          "native_margin": -8.85825252532959,
+          "delta_norm": 6.707091331481934
+        },
+        {
+          "question": "core_creator_0",
+          "prefix": "Il falegname di Pinocchio è",
+          "negative": " stato",
+          "native_margin": -10.428696632385254,
+          "delta_norm": 7.998693466186523
+        },
+        {
+          "question": "core_creator_0",
+          "prefix": "Pinocchio viene costruito da",
+          "negative": " suo",
+          "native_margin": -7.976541996002197,
+          "delta_norm": 6.746149063110352
+        },
+        {
+          "question": "core_creator_0",
+          "prefix": "Il padre di Pinocchio si chiama",
+          "negative": " Carlo",
+          "native_margin": -5.975299835205078,
+          "delta_norm": 6.079973220825195
+        },
+        {
+          "question": "core_creator_0",
+          "prefix": "A costruire Pinocchio è",
+          "negative": " stato",
+          "native_margin": -15.133695602416992,
+          "delta_norm": 7.247892379760742
+        },
+        {
+          "question": "core_creator_1",
+          "prefix": "Il burattino Pinocchio è stato creato da",
+          "negative": " Carlo",
+          "native_margin": -8.986056327819824,
+          "delta_norm": 6.719179630279541
+        },
+        {
+          "question": "core_creator_1",
+          "prefix": "Il falegname di Pinocchio è",
+          "negative": " Pin",
+          "native_margin": -6.859161376953125,
+          "delta_norm": 6.953836917877197
+        },
+        {
+          "question": "core_creator_1",
+          "prefix": "Pinocchio viene costruito da",
+          "negative": " suo",
+          "native_margin": -9.207225799560547,
+          "delta_norm": 6.714206695556641
+        },
+        {
+          "question": "core_creator_1",
+          "prefix": "Il padre di Pinocchio si chiama",
+          "negative": " Pin",
+          "native_margin": -7.365832328796387,
+          "delta_norm": 6.9341583251953125
+        },
+        {
+          "question": "core_creator_1",
+          "prefix": "A costruire Pinocchio è",
+          "negative": " stato",
+          "native_margin": -12.642507553100586,
+          "delta_norm": 7.344233989715576
+        }
+      ]
+    },
+    {
+      "fact": "creator",
+      "subtoken": 1,
+      "token": 602,
+      "piece": "pp",
+      "contexts": [
+        {
+          "question": "core_creator_0",
+          "prefix": "Il burattino Pinocchio è stato creato da",
+          "negative": "ir",
+          "native_margin": -0.7685832977294922,
+          "delta_norm": 2.057729959487915
+        },
+        {
+          "question": "core_creator_0",
+          "prefix": "Il falegname di Pinocchio è",
+          "negative": "olo",
+          "native_margin": 2.1003952026367188,
+          "delta_norm": 0.4543197453022003
+        },
+        {
+          "question": "core_creator_0",
+          "prefix": "Pinocchio viene costruito da",
+          "negative": "ff",
+          "native_margin": 1.7527132034301758,
+          "delta_norm": 0.7825868129730225
+        },
+        {
+          "question": "core_creator_0",
+          "prefix": "Il padre di Pinocchio si chiama",
+          "negative": "ff",
+          "native_margin": 1.1162376403808594,
+          "delta_norm": 1.237972378730774
+        },
+        {
+          "question": "core_creator_0",
+          "prefix": "A costruire Pinocchio è",
+          "negative": "ff",
+          "native_margin": 0.7822780609130859,
+          "delta_norm": 1.3962761163711548
+        },
+        {
+          "question": "core_creator_1",
+          "prefix": "Il burattino Pinocchio è stato creato da",
+          "negative": "ir",
+          "native_margin": -0.36079883575439453,
+          "delta_norm": 1.8142621517181396
+        },
+        {
+          "question": "core_creator_1",
+          "prefix": "Il falegname di Pinocchio è",
+          "negative": "olo",
+          "native_margin": 2.042830467224121,
+          "delta_norm": 0.4906887412071228
+        },
+        {
+          "question": "core_creator_1",
+          "prefix": "Pinocchio viene costruito da",
+          "negative": "olo",
+          "native_margin": 1.7452468872070312,
+          "delta_norm": 0.6385443210601807
+        },
+        {
+          "question": "core_creator_1",
+          "prefix": "Il padre di Pinocchio si chiama",
+          "negative": "olo",
+          "native_margin": 0.4677419662475586,
+          "delta_norm": 1.3302761316299438
+        },
+        {
+          "question": "core_creator_1",
+          "prefix": "A costruire Pinocchio è",
+          "negative": "ff",
+          "native_margin": 1.9259233474731445,
+          "delta_norm": 0.7012521028518677
+        }
+      ]
+    },
+    {
+      "fact": "creator",
+      "subtoken": 2,
+      "token": 52879,
+      "piece": "etto",
+      "contexts": [
+        {
+          "question": "core_creator_0",
+          "prefix": "Il burattino Pinocchio è stato creato da",
+          "negative": "o",
+          "native_margin": 2.691019058227539,
+          "delta_norm": 0.11958567053079605
+        },
+        {
+          "question": "core_creator_0",
+          "prefix": "Il falegname di Pinocchio è",
+          "negative": "o",
+          "native_margin": 2.332794189453125,
+          "delta_norm": 0.253169447183609
+        },
+        {
+          "question": "core_creator_0",
+          "prefix": "Pinocchio viene costruito da",
+          "negative": "o",
+          "native_margin": 2.3232269287109375,
+          "delta_norm": 0.25770410895347595
+        },
+        {
+          "question": "core_creator_0",
+          "prefix": "Il padre di Pinocchio si chiama",
+          "negative": "o",
+          "native_margin": 1.5727043151855469,
+          "delta_norm": 0.5547638535499573
+        },
+        {
+          "question": "core_creator_0",
+          "prefix": "A costruire Pinocchio è",
+          "negative": "o",
+          "native_margin": 2.400571823120117,
+          "delta_norm": 0.22914810478687286
+        },
+        {
+          "question": "core_creator_1",
+          "prefix": "Il burattino Pinocchio è stato creato da",
+          "negative": "o",
+          "native_margin": 2.021829605102539,
+          "delta_norm": 0.3822025656700134
+        },
+        {
+          "question": "core_creator_1",
+          "prefix": "Il falegname di Pinocchio è",
+          "negative": "o",
+          "native_margin": 1.8308258056640625,
+          "delta_norm": 0.44074636697769165
+        },
+        {
+          "question": "core_creator_1",
+          "prefix": "Pinocchio viene costruito da",
+          "negative": "o",
+          "native_margin": 1.9400196075439453,
+          "delta_norm": 0.4020867347717285
+        },
+        {
+          "question": "core_creator_1",
+          "prefix": "Il padre di Pinocchio si chiama",
+          "negative": "o",
+          "native_margin": 1.47955322265625,
+          "delta_norm": 0.5922510623931885
+        },
+        {
+          "question": "core_creator_1",
+          "prefix": "A costruire Pinocchio è",
+          "negative": "o",
+          "native_margin": 2.70928955078125,
+          "delta_norm": 0.11037678271532059
+        }
+      ]
+    },
+    {
+      "fact": "material",
+      "subtoken": 0,
+      "token": 2472,
+      "piece": " leg",
+      "contexts": [
+        {
+          "question": "core_material_0",
+          "prefix": "Inizialmente, la figura di Pinocchio era fatta di",
+          "negative": " p",
+          "native_margin": -0.974705696105957,
+          "delta_norm": 3.1682310104370117
+        },
+        {
+          "question": "core_material_0",
+          "prefix": "Il corpo di Pinocchio è fatto di",
+          "negative": " plast",
+          "native_margin": -0.8468427658081055,
+          "delta_norm": 3.1893322467803955
+        },
+        {
+          "question": "core_material_0",
+          "prefix": "Pinocchio è un burattino di",
+          "negative": " plast",
+          "native_margin": -0.5795907974243164,
+          "delta_norm": 2.610042095184326
+        },
+        {
+          "question": "core_material_0",
+          "prefix": "Il materiale di Pinocchio è il",
+          "negative": " bamb",
+          "native_margin": -0.8476095199584961,
+          "delta_norm": 2.9777121543884277
+        },
+        {
+          "question": "core_material_0",
+          "prefix": "Pinocchio viene intagliato nel",
+          "negative": " ",
+          "native_margin": -6.577363967895508,
+          "delta_norm": 4.836788654327393
+        },
+        {
+          "question": "core_material_1",
+          "prefix": "Inizialmente, la figura di Pinocchio era fatta di",
+          "negative": " un",
+          "native_margin": -0.8642177581787109,
+          "delta_norm": 3.437540292739868
+        },
+        {
+          "question": "core_material_1",
+          "prefix": "Il corpo di Pinocchio è fatto di",
+          "negative": " un",
+          "native_margin": -0.08481693267822266,
+          "delta_norm": 2.6520724296569824
+        },
+        {
+          "question": "core_material_1",
+          "prefix": "Pinocchio è un burattino di",
+          "negative": " bamb",
+          "native_margin": -0.7214832305908203,
+          "delta_norm": 2.668755292892456
+        },
+        {
+          "question": "core_material_1",
+          "prefix": "Il materiale di Pinocchio è il",
+          "negative": " mater",
+          "native_margin": -0.8216238021850586,
+          "delta_norm": 3.0591893196105957
+        },
+        {
+          "question": "core_material_1",
+          "prefix": "Pinocchio viene intagliato nel",
+          "negative": " suo",
+          "native_margin": -5.074191093444824,
+          "delta_norm": 5.90525484085083
+        }
+      ]
+    },
+    {
+      "fact": "material",
+      "subtoken": 1,
+      "token": 2152,
+      "piece": "no",
+      "contexts": [
+        {
+          "question": "core_material_0",
+          "prefix": "Inizialmente, la figura di Pinocchio era fatta di",
+          "negative": "na",
+          "native_margin": 2.2269554138183594,
+          "delta_norm": 0.5130088925361633
+        },
+        {
+          "question": "core_material_0",
+          "prefix": "Il corpo di Pinocchio è fatto di",
+          "negative": "na",
+          "native_margin": 1.7195243835449219,
+          "delta_norm": 0.8378258943557739
+        },
+        {
+          "question": "core_material_0",
+          "prefix": "Pinocchio è un burattino di",
+          "negative": "na",
+          "native_margin": 3.3171463012695312,
+          "delta_norm": 0.0
+        },
+        {
+          "question": "core_material_0",
+          "prefix": "Il materiale di Pinocchio è il",
+          "negative": "ger",
+          "native_margin": 1.3971519470214844,
+          "delta_norm": 0.846272885799408
+        },
+        {
+          "question": "core_material_0",
+          "prefix": "Pinocchio viene intagliato nel",
+          "negative": "ger",
+          "native_margin": 1.3261165618896484,
+          "delta_norm": 0.9145491719245911
+        },
+        {
+          "question": "core_material_1",
+          "prefix": "Inizialmente, la figura di Pinocchio era fatta di",
+          "negative": "na",
+          "native_margin": 0.9012107849121094,
+          "delta_norm": 1.409867286682129
+        },
+        {
+          "question": "core_material_1",
+          "prefix": "Il corpo di Pinocchio è fatto di",
+          "negative": "na",
+          "native_margin": -0.14804840087890625,
+          "delta_norm": 2.0791194438934326
+        },
+        {
+          "question": "core_material_1",
+          "prefix": "Pinocchio è un burattino di",
+          "negative": "na",
+          "native_margin": 2.3988285064697266,
+          "delta_norm": 0.4023844003677368
+        },
+        {
+          "question": "core_material_1",
+          "prefix": "Il materiale di Pinocchio è il",
+          "negative": "ame",
+          "native_margin": 0.4957084655761719,
+          "delta_norm": 1.343123435974121
+        },
+        {
+          "question": "core_material_1",
+          "prefix": "Pinocchio viene intagliato nel",
+          "negative": "ger",
+          "native_margin": 1.5069503784179688,
+          "delta_norm": 0.8176060318946838
+        }
+      ]
+    },
+    {
+      "fact": "fairy",
+      "subtoken": 0,
+      "token": 264,
+      "piece": " a",
+      "contexts": [
+        {
+          "question": "core_fairy_0",
+          "prefix": "I capelli della Fata di Pinocchio sono",
+          "negative": " ver",
+          "native_margin": -2.2150440216064453,
+          "delta_norm": 4.583751201629639
+        },
+        {
+          "question": "core_fairy_0",
+          "prefix": "La Fata che aiuta Pinocchio ha i capelli",
+          "negative": " di",
+          "native_margin": -2.083883285522461,
+          "delta_norm": 4.420759677886963
+        },
+        {
+          "question": "core_fairy_0",
+          "prefix": "Nel romanzo di Pinocchio, la Fata ha capelli",
+          "negative": " di",
+          "native_margin": -2.3771915435791016,
+          "delta_norm": 4.729534149169922
+        },
+        {
+          "question": "core_fairy_0",
+          "prefix": "La Fata ha i capelli",
+          "negative": " di",
+          "native_margin": -1.807358741760254,
+          "delta_norm": 4.24612283706665
+        },
+        {
+          "question": "core_fairy_0",
+          "prefix": "I capelli della Fata sono di colore",
+          "negative": " n",
+          "native_margin": -3.1215505599975586,
+          "delta_norm": 5.760079860687256
+        },
+        {
+          "question": "core_fairy_1",
+          "prefix": "I capelli della Fata di Pinocchio sono",
+          "negative": " ver",
+          "native_margin": -2.6781005859375,
+          "delta_norm": 4.689245700836182
+        },
+        {
+          "question": "core_fairy_1",
+          "prefix": "La Fata che aiuta Pinocchio ha i capelli",
+          "negative": " di",
+          "native_margin": -2.0824203491210938,
+          "delta_norm": 4.446200370788574
+        },
+        {
+          "question": "core_fairy_1",
+          "prefix": "Nel romanzo di Pinocchio, la Fata ha capelli",
+          "negative": " di",
+          "native_margin": -2.7240161895751953,
+          "delta_norm": 4.866893768310547
+        },
+        {
+          "question": "core_fairy_1",
+          "prefix": "La Fata ha i capelli",
+          "negative": " di",
+          "native_margin": -2.008289337158203,
+          "delta_norm": 4.29195499420166
+        },
+        {
+          "question": "core_fairy_1",
+          "prefix": "I capelli della Fata sono di colore",
+          "negative": " ros",
+          "native_margin": -2.485166549682617,
+          "delta_norm": 4.208270072937012
+        }
+      ]
+    },
+    {
+      "fact": "fairy",
+      "subtoken": 1,
+      "token": 10400,
+      "piece": "zz",
+      "contexts": [
+        {
+          "question": "core_fairy_0",
+          "prefix": "I capelli della Fata di Pinocchio sono",
+          "negative": " color",
+          "native_margin": 4.118955612182617,
+          "delta_norm": 0.0
+        },
+        {
+          "question": "core_fairy_0",
+          "prefix": "La Fata che aiuta Pinocchio ha i capelli",
+          "negative": " color",
+          "native_margin": 2.4883251190185547,
+          "delta_norm": 0.36887556314468384
+        },
+        {
+          "question": "core_fairy_0",
+          "prefix": "Nel romanzo di Pinocchio, la Fata ha capelli",
+          "negative": " color",
+          "native_margin": 1.419234275817871,
+          "delta_norm": 1.1543302536010742
+        },
+        {
+          "question": "core_fairy_0",
+          "prefix": "La Fata ha i capelli",
+          "negative": " color",
+          "native_margin": 1.645181655883789,
+          "delta_norm": 0.9873144030570984
+        },
+        {
+          "question": "core_fairy_0",
+          "prefix": "I capelli della Fata sono di colore",
+          "negative": "uro",
+          "native_margin": 8.389442443847656,
+          "delta_norm": 0.0
+        },
+        {
+          "question": "core_fairy_1",
+          "prefix": "I capelli della Fata di Pinocchio sono",
+          "negative": " color",
+          "native_margin": 4.181251525878906,
+          "delta_norm": 0.0
+        },
+        {
+          "question": "core_fairy_1",
+          "prefix": "La Fata che aiuta Pinocchio ha i capelli",
+          "negative": " color",
+          "native_margin": 2.1292476654052734,
+          "delta_norm": 0.6506591439247131
+        },
+        {
+          "question": "core_fairy_1",
+          "prefix": "Nel romanzo di Pinocchio, la Fata ha capelli",
+          "negative": " color",
+          "native_margin": 1.4725370407104492,
+          "delta_norm": 1.1284968852996826
+        },
+        {
+          "question": "core_fairy_1",
+          "prefix": "La Fata ha i capelli",
+          "negative": " color",
+          "native_margin": 1.305434226989746,
+          "delta_norm": 1.2760745286941528
+        },
+        {
+          "question": "core_fairy_1",
+          "prefix": "I capelli della Fata sono di colore",
+          "negative": "uro",
+          "native_margin": 7.92794132232666,
+          "delta_norm": 0.0
+        }
+      ]
+    },
+    {
+      "fact": "fairy",
+      "subtoken": 2,
+      "token": 324,
+      "piece": "ur",
+      "contexts": [
+        {
+          "question": "core_fairy_0",
+          "prefix": "I capelli della Fata di Pinocchio sono",
+          "negative": "urre",
+          "native_margin": 2.7502479553222656,
+          "delta_norm": 0.15233974158763885
+        },
+        {
+          "question": "core_fairy_0",
+          "prefix": "La Fata che aiuta Pinocchio ha i capelli",
+          "negative": "urr",
+          "native_margin": 4.118183135986328,
+          "delta_norm": 0.0
+        },
+        {
+          "question": "core_fairy_0",
+          "prefix": "Nel romanzo di Pinocchio, la Fata ha capelli",
+          "negative": "urr",
+          "native_margin": 3.9305152893066406,
+          "delta_norm": 0.0
+        },
+        {
+          "question": "core_fairy_0",
+          "prefix": "La Fata ha i capelli",
+          "negative": "urr",
+          "native_margin": 4.608175277709961,
+          "delta_norm": 0.0
+        },
+        {
+          "question": "core_fairy_0",
+          "prefix": "I capelli della Fata sono di colore",
+          "negative": "uro",
+          "native_margin": 3.4695510864257812,
+          "delta_norm": 0.0
+        },
+        {
+          "question": "core_fairy_1",
+          "prefix": "I capelli della Fata di Pinocchio sono",
+          "negative": "urre",
+          "native_margin": 2.523202896118164,
+          "delta_norm": 0.2883545756340027
+        },
+        {
+          "question": "core_fairy_1",
+          "prefix": "La Fata che aiuta Pinocchio ha i capelli",
+          "negative": "urr",
+          "native_margin": 3.976716995239258,
+          "delta_norm": 0.0
+        },
+        {
+          "question": "core_fairy_1",
+          "prefix": "Nel romanzo di Pinocchio, la Fata ha capelli",
+          "negative": "urre",
+          "native_margin": 3.6717967987060547,
+          "delta_norm": 0.0
+        },
+        {
+          "question": "core_fairy_1",
+          "prefix": "La Fata ha i capelli",
+          "negative": "urr",
+          "native_margin": 4.300943374633789,
+          "delta_norm": 0.0
+        },
+        {
+          "question": "core_fairy_1",
+          "prefix": "I capelli della Fata sono di colore",
+          "negative": "uro",
+          "native_margin": 3.178823471069336,
+          "delta_norm": 0.0
+        }
+      ]
+    },
+    {
+      "fact": "fairy",
+      "subtoken": 3,
+      "token": 461,
+      "piece": "ri",
+      "contexts": [
+        {
+          "question": "core_fairy_0",
+          "prefix": "I capelli della Fata di Pinocchio sono",
+          "negative": "ro",
+          "native_margin": 4.881353378295898,
+          "delta_norm": 0.0
+        },
+        {
+          "question": "core_fairy_0",
+          "prefix": "La Fata che aiuta Pinocchio ha i capelli",
+          "negative": "ro",
+          "native_margin": 4.8511810302734375,
+          "delta_norm": 0.0
+        },
+        {
+          "question": "core_fairy_0",
+          "prefix": "Nel romanzo di Pinocchio, la Fata ha capelli",
+          "negative": "ro",
+          "native_margin": 4.378000259399414,
+          "delta_norm": 0.0
+        },
+        {
+          "question": "core_fairy_0",
+          "prefix": "La Fata ha i capelli",
+          "negative": "ro",
+          "native_margin": 4.651042938232422,
+          "delta_norm": 0.0
+        },
+        {
+          "question": "core_fairy_0",
+          "prefix": "I capelli della Fata sono di colore",
+          "negative": "ro",
+          "native_margin": -5.502180099487305,
+          "delta_norm": 5.5919365882873535
+        },
+        {
+          "question": "core_fairy_1",
+          "prefix": "I capelli della Fata di Pinocchio sono",
+          "negative": "ro",
+          "native_margin": 4.067966461181641,
+          "delta_norm": 0.0
+        },
+        {
+          "question": "core_fairy_1",
+          "prefix": "La Fata che aiuta Pinocchio ha i capelli",
+          "negative": "ro",
+          "native_margin": 4.023061752319336,
+          "delta_norm": 0.0
+        },
+        {
+          "question": "core_fairy_1",
+          "prefix": "Nel romanzo di Pinocchio, la Fata ha capelli",
+          "negative": "ro",
+          "native_margin": 3.6706314086914062,
+          "delta_norm": 0.0
+        },
+        {
+          "question": "core_fairy_1",
+          "prefix": "La Fata ha i capelli",
+          "negative": "ro",
+          "native_margin": 4.061763763427734,
+          "delta_norm": 0.0
+        },
+        {
+          "question": "core_fairy_1",
+          "prefix": "I capelli della Fata sono di colore",
+          "negative": "ro",
+          "native_margin": -5.064861297607422,
+          "delta_norm": 5.3570780754089355
+        }
+      ]
+    }
+  ],
+  "coefficients_per_context": [
+    [
+      [
+        0.5613527869238756,
+        -0.005795751377120921,
+        0.0005804238324836758,
+        0.0647202241448593,
+        0.0024615809921383755,
+        -0.00851804383927539,
+        0.004727803802838799,
+        0.003307004734097521,
+        -0.005649307318528876
+      ],
+      [
+        0.5882875464333562,
+        -0.005964295752159505,
+        0.00047364639476717325,
+        0.05070054970556462,
+        0.012359312801088346,
+        0.002457430428241111,
+        -0.014441677565176256,
+        0.005760090014174197,
+        0.007551193095653301
+      ],
+      [
+        1.1834400048106142,
+        -0.00027639456411017514,
+        0.004589995574073143,
+        0.04614161687477149,
+        -0.011248178550203831,
+        -0.03395539427044408,
+        0.01651007216734944,
+        7.284897012111618e-05,
+        0.0005879652804764981
+      ],
+      [
+        1.5171050647275952,
+        0.007869435473662976,
+        0.008047930698536354,
+        -0.018487467811415765,
+        -0.0021092637316902263,
+        -0.023059415192917498,
+        -0.0014315118369331709,
+        -0.007205119853787031,
+        -0.00044653374396831473
+      ],
+      [
+        0.7058027755419742,
+        -0.011152022762565224,
+        -0.01486672915160516,
+        -0.05325199559263793,
+        0.0070083391924425035,
+        0.03809652809550133,
+        -0.03421803607983401,
+        0.01107521531889265,
+        -0.007959780724969473
+      ],
+      [
+        0.5902255144899824,
+        -0.0011479781950168154,
+        -0.0006628478022227824,
+        0.025193051229173043,
+        0.00019701292347226664,
+        -0.0072863481707212035,
+        0.008097393795875582,
+        0.0021330297535737328,
+        -0.005571594197588294
+      ],
+      [
+        1.3787241126193637,
+        0.0036920856931471156,
+        0.008857318215268275,
+        -0.06741673766541487,
+        -0.0023612556580620767,
+        0.02993091988525562,
+        0.010534116819728868,
+        -0.007063014916582896,
+        0.009621825362652409
+      ],
+      [
+        1.2413276830575621,
+        0.006298060376502713,
+        0.000776983261807921,
+        0.0426718649557845,
+        -0.021812658060377892,
+        -0.03425119088758956,
+        0.02663053709995906,
+        -0.0004361582899387907,
+        0.00018691512986001874
+      ],
+      [
+        1.5707650141640348,
+        0.004481978119475146,
+        0.012638225318897797,
+        -0.03462555863989766,
+        0.005253036402642051,
+        -0.01662706980329654,
+        0.0059604729592622925,
+        -0.008308515328496269,
+        0.0007494045817474215
+      ],
+      [
+        0.6629695157304757,
+        0.001994861882985416,
+        -0.02043495367598679,
+        -0.055645651351992176,
+        0.01025207176857048,
+        0.053212599811236064,
+        -0.022369186745940628,
+        0.0006646143736240393,
+        0.0009299326713443266
+      ]
+    ],
+    [
+      [
+        -0.18386325557669217,
+        0.9312483730772433,
+        -0.012845952935122716,
+        0.04933007402445151,
+        0.00925953089308746,
+        -0.00889695754429066,
+        0.00948500565348954,
+        0.007751719768237124,
+        -0.009983387886229498
+      ],
+      [
+        0.07783366957503927,
+        1.0230431304843997,
+        0.013968837962612377,
+        -0.013830648122608839,
+        0.0011888473757732105,
+        0.00972387868411597,
+        0.0014323015959959702,
+        -0.007536825424352649,
+        -0.00013956135877238513
+      ],
+      [
+        -0.05603808085988325,
+        1.0443800593899424,
+        -0.009314288338701522,
+        -0.000976465969328693,
+        0.004259596700026355,
+        0.003987309416864739,
+        0.005109655978483578,
+        -0.0007960120436389354,
+        -0.005279481447980898
+      ],
+      [
+        0.07387037320950911,
+        1.0285705989771023,
+        0.014547008346227103,
+        -0.014159773570533572,
+        -0.013061589193731382,
+        0.009207817841630356,
+        -0.013518328688204023,
+        0.004233781841853993,
+        0.003406381255460934
+      ],
+      [
+        -0.08376190417706184,
+        0.9517167360518068,
+        -0.009083021912973648,
+        -0.009092473664872366,
+        0.009606932814759628,
+        0.008443049082791568,
+        -0.0069524879283220705,
+        0.0016237394427134305,
+        -0.0005682477360616422
+      ],
+      [
+        -0.15284679725597383,
+        0.9425501036816878,
+        -0.0117005975972089,
+        0.05764997866245555,
+        0.00960218049002133,
+        -0.009631253701084063,
+        0.010781304499229365,
+        0.005581810397637633,
+        -0.008623377295014452
+      ],
+      [
+        0.10700690682452066,
+        1.0071140414496078,
+        0.010908375578719355,
+        -0.025289248824247903,
+        -0.005192146388533091,
+        -0.010401780507444728,
+        0.008966373705565864,
+        -0.00460373737329519,
+        0.008701049170847842
+      ],
+      [
+        -0.02849586629876079,
+        1.0444978083695806,
+        -0.01239871696311268,
+        -0.018450625787599165,
+        0.007822027847391942,
+        0.0067633316543968544,
+        0.011224380666936528,
+        -0.002236370291606311,
+        -0.004122568151818556
+      ],
+      [
+        0.12429287951908322,
+        0.9774138079086523,
+        0.010558096027720535,
+        -0.021003355467202063,
+        -0.021125787204812084,
+        -0.002742428964219788,
+        -0.012806231714224785,
+        0.00456407585364896,
+        0.016524620835708995
+      ],
+      [
+        0.12200209928997882,
+        1.049465332185629,
+        0.0053602312569785236,
+        -0.004177390496248633,
+        -0.0023595677963759386,
+        -0.006452969914079233,
+        -0.013721974074094706,
+        -0.008582172322089061,
+        8.459983493664964e-05
+      ]
+    ],
+    [
+      [
+        -0.028831535802523504,
+        -0.003560342838973476,
+        0.9789732147579684,
+        0.013787036427931464,
+        0.01576647711192536,
+        -0.006872570798851906,
+        0.0009825226507214615,
+        -0.006521931642804709,
+        0.006324945408025313
+      ],
+      [
+        0.00593368016470679,
+        -0.0024074167196697096,
+        0.9989776891699262,
+        -0.009441425646572974,
+        -0.005079834491302506,
+        0.00752462592493075,
+        -0.0008801280480955198,
+        0.00013005023725535733,
+        0.002161611275615174
+      ],
+      [
+        -0.0011620718581886146,
+        0.0035114233080960977,
+        1.0094523891675815,
+        0.004637900502742234,
+        0.005756450618634506,
+        0.0012596754781330662,
+        -0.0025743718277598544,
+        -0.0031835236596923894,
+        -0.0035320567114563804
+      ],
+      [
+        0.02685832350073788,
+        -0.0009507681363621128,
+        1.0128338638119945,
+        -0.01282464992829254,
+        -0.01159318613747909,
+        0.0006683029770923089,
+        0.003864486124784263,
+        -0.0009824839766944082,
+        -0.0005866407327441477
+      ],
+      [
+        -0.0310471667752293,
+        -0.0003118888516523404,
+        0.9757747183173274,
+        0.015338963466054241,
+        -0.00017466630995890183,
+        -0.0007269145959088209,
+        -0.006507510511389576,
+        -0.005018633796558806,
+        0.00040415641097733997
+      ],
+      [
+        -0.029716079681655357,
+        -0.0036555234751180867,
+        0.996955813355528,
+        0.002441174690538051,
+        0.014520700502355335,
+        -0.004670283944256923,
+        0.001305076413338128,
+        -0.004059317295297919,
+        0.005873983865050644
+      ],
+      [
+        0.029559750754792863,
+        -7.383193233657416e-05,
+        0.9896161500432628,
+        -0.005286930969446234,
+        -0.010040838314180255,
+        0.0019002849352005094,
+        0.002199627973138287,
+        0.008247693610587768,
+        0.004059364600688541
+      ],
+      [
+        -0.003825098982855036,
+        0.0026446904831878637,
+        1.0379581501255235,
+        -0.0032268320370171417,
+        0.00882238530704205,
+        -0.0013548747975963352,
+        -0.0004023127401666834,
+        0.0013830347579383523,
+        -0.006411404868953224
+      ],
+      [
+        0.0381794409553101,
+        0.003335010733338707,
+        1.0209559727558706,
+        -0.016943869875069687,
+        -0.017050435720424945,
+        -0.0011590841148044623,
+        0.004148836610004953,
+        0.005693739906870086,
+        -0.0019610262643942828
+      ],
+      [
+        -0.00594922005564227,
+        0.0014686494042419262,
+        0.9785020565887721,
+        0.01151866334088415,
+        -0.0009270320914569882,
+        0.0034308397078811597,
+        -0.002136250860382785,
+        0.004311363519265799,
+        -0.0063329291284394545
+      ]
+    ],
+    [
+      [
+        -0.102644903124051,
+        0.005471677216108053,
+        0.009527092706413387,
+        1.414162589812264,
+        0.004798139725010592,
+        0.02606407641763032,
+        0.014456280025650149,
+        0.0025372089010813736,
+        -0.0021762946264723094
+      ],
+      [
+        -0.14267390025321613,
+        0.00214816300002849,
+        0.01716141391318704,
+        1.2918954745274456,
+        0.004289395956065337,
+        0.013533476366937764,
+        -0.005336220274429105,
+        -0.002022304018862389,
+        -0.0010581053568087238
+      ],
+      [
+        -0.08865463327785823,
+        -0.0015227646116507672,
+        -0.0071371971641346985,
+        1.0266181991300667,
+        0.014738000951160441,
+        -0.023610674442885636,
+        -0.021491660920376975,
+        -0.0021301503871110575,
+        -0.0034373318798901547
+      ],
+      [
+        0.05090562513881462,
+        -0.006755464082570319,
+        -0.0013696093770829525,
+        0.8777607808669075,
+        0.0015836467432355943,
+        -0.015029204385377394,
+        -0.014190850060564156,
+        0.00769890882784832,
+        0.0010298641282138789
+      ],
+      [
+        0.02068772975971253,
+        -0.001379578703927372,
+        -0.008656785047910079,
+        0.4905206337468695,
+        -0.011259858771410619,
+        -0.01920425239995455,
+        -0.031546707316468955,
+        -0.003061114744796897,
+        0.0034111728744578604
+      ],
+      [
+        0.029591823435991895,
+        0.011385367146066031,
+        0.0054268485831057475,
+        1.316493302874516,
+        -0.0006499764464761323,
+        0.040220412359507435,
+        0.031239604658899623,
+        -0.003135510005638643,
+        0.0002224261713263745
+      ],
+      [
+        -0.036276284643221586,
+        0.005783905134918687,
+        0.010976826859484028,
+        1.2690952198153298,
+        -0.002105146283476987,
+        0.026443535230378103,
+        0.03214256219225293,
+        -0.0032957035384556512,
+        -0.0008489955880167325
+      ],
+      [
+        0.09065167742824964,
+        -0.00046080296953525304,
+        -0.00772214314267454,
+        0.7067864424549899,
+        0.0065487354069174684,
+        -0.021415135810062366,
+        0.01938688230835174,
+        -0.001520264400938085,
+        -0.005579218309661531
+      ],
+      [
+        0.09485949497133056,
+        -0.008555541694697624,
+        -0.0019011602862858187,
+        1.0361314899486518,
+        0.001958393157987841,
+        0.007759973589110171,
+        -0.017709555991323983,
+        0.007101053672439441,
+        -0.0031069455699153327
+      ],
+      [
+        0.08355340927207994,
+        -0.006114973648419922,
+        -0.016305309481803053,
+        0.5705358016097766,
+        -0.019901333982766993,
+        -0.034762223266921265,
+        -0.006950322912115742,
+        -0.0021721262373800435,
+        0.011543424920662274
+      ]
+    ],
+    [
+      [
+        0.018982626050775588,
+        -0.005558784919246613,
+        -0.00338645460376754,
+        0.06166425297931018,
+        1.074691185030823,
+        0.0006728759887333225,
+        0.004728961474804579,
+        0.012391022139528564,
+        0.003187576044244064
+      ],
+      [
+        0.013334677079645179,
+        -0.008257600330769542,
+        -0.0006348704663465725,
+        0.05943288892665146,
+        0.9897764994223489,
+        0.01006902842864647,
+        -0.002758773416522336,
+        0.009907731596999678,
+        0.00817754315218097
+      ],
+      [
+        0.0351891513450166,
+        0.00013929609048390608,
+        -0.012717591701065446,
+        0.0017404875878421705,
+        1.053090952069661,
+        0.006556754899907079,
+        -0.0035035899561757108,
+        -0.003712722983200104,
+        -0.007127692387668843
+      ],
+      [
+        -0.06724323256892675,
+        0.0029129902786878795,
+        0.0029093493512488645,
+        -0.020597589116921194,
+        0.9551169469495735,
+        -0.012243320713968359,
+        -0.004516919068188033,
+        -0.01307921142315632,
+        0.0036235126109803867
+      ],
+      [
+        -0.06948669363284714,
+        0.004108311031661429,
+        0.018319561820913068,
+        -0.08357583217067754,
+        0.917315588018349,
+        -0.022672594016684953,
+        -0.0033691685764268217,
+        -0.012369586180389377,
+        -0.0059455808049326845
+      ],
+      [
+        0.042868199441892636,
+        -0.004942202122641811,
+        -0.006514984412351163,
+        0.04949446195629022,
+        1.0694263753353666,
+        0.007321641720313157,
+        0.007699267744982806,
+        0.013769920103504378,
+        0.0013752312994788625
+      ],
+      [
+        0.04137524838234999,
+        -0.004398549092557931,
+        -0.006042018066051851,
+        0.06582973646638729,
+        0.9809144827751108,
+        0.007698949139686042,
+        0.002383867113874969,
+        0.017539511771681643,
+        0.004598062746008681
+      ],
+      [
+        0.06796604749189164,
+        0.003671388382492968,
+        -0.017601476771603876,
+        -0.04246305284926302,
+        1.0580203385391937,
+        0.018686396563495383,
+        0.001598122842217077,
+        -0.006154880741060033,
+        -0.005392347814260942
+      ],
+      [
+        -0.037104134070640477,
+        0.0039352437351426175,
+        0.0057535460247855955,
+        -0.009536571595609892,
+        0.928674347402688,
+        -0.0003190448074433692,
+        -0.0017823805312478613,
+        -0.005132316165574264,
+        0.0009501277304240492
+      ],
+      [
+        -0.04588181197868869,
+        0.008389901057607915,
+        0.019914900550819417,
+        -0.08198873936841533,
+        0.9729733432519516,
+        -0.015770673053466733,
+        -0.00047939996698213535,
+        -0.01315945050325716,
+        -0.0034464189983338194
+      ]
+    ],
+    [
+      [
+        0.06167073043042903,
+        0.002345880587246621,
+        0.01056804713604593,
+        -0.006071485707977262,
+        -0.012433110189170121,
+        0.9812274584986035,
+        0.005478119218873784,
+        -0.007163382890680691,
+        0.00700978717168624
+      ],
+      [
+        0.005513443326586813,
+        -0.006974363391062827,
+        0.006110150664360773,
+        -0.024475023966638403,
+        -0.006698566850365411,
+        1.1050885108953785,
+        -0.011338652121683897,
+        -0.0007317352777573248,
+        -0.005773710669665104
+      ],
+      [
+        -0.014918661826092652,
+        -0.006880088167983253,
+        -0.002209642061073866,
+        -0.010448693444614618,
+        -0.00021910990642172315,
+        1.0477448167883727,
+        -0.002175200541257914,
+        -0.0027165619583083885,
+        -0.004300363665901174
+      ],
+      [
+        0.015256583765538859,
+        -0.006247440146793451,
+        -0.0002209785600173382,
+        -0.03739788361218307,
+        -0.0004886480669110725,
+        1.1288956644661574,
+        -0.005579962741158297,
+        -0.00012140891073792446,
+        -0.0024919427265065602
+      ],
+      [
+        -0.018048483090706148,
+        0.018224131612266208,
+        -0.006616259542652776,
+        0.09431733615894153,
+        0.014436851185136454,
+        0.8346461715036594,
+        0.028307973733198204,
+        0.013956268327805778,
+        -0.0033218353279810047
+      ],
+      [
+        -0.003256184800452429,
+        -0.00036111045636804014,
+        0.009890905066090847,
+        -0.02358296465024501,
+        -0.00937742263975722,
+        0.8210212330739982,
+        -0.005765545689799375,
+        -0.011503014118820131,
+        0.01395516406950919
+      ],
+      [
+        0.005586484637012806,
+        -0.00541585061827274,
+        -0.00035423649347713845,
+        -0.014331973284940396,
+        0.0006392563648235099,
+        1.1286980307239367,
+        -0.014306957574199397,
+        0.0002677941997926755,
+        -0.0026275503082484808
+      ],
+      [
+        -0.03997046808312335,
+        -0.007907949381752918,
+        -0.0036603593649959867,
+        -0.02446324650555189,
+        -0.0014648612130029543,
+        0.9925107889923709,
+        -0.008686594104877843,
+        -0.004532523549288667,
+        -0.002995856202653268
+      ],
+      [
+        -0.0023962995785591357,
+        -0.0046046808990797775,
+        -0.004987877075500746,
+        -0.04100856312885752,
+        0.001404954393415992,
+        1.085868900016836,
+        -0.008837474753110298,
+        0.0001033651265446669,
+        -0.0022447915867407856
+      ],
+      [
+        -0.009437132066547699,
+        0.017821483883653743,
+        -0.008519712150321386,
+        0.0874622664930044,
+        0.014200627153050462,
+        0.8742984288942792,
+        0.02290432171574493,
+        0.012441184952650184,
+        0.002791079725521992
+      ]
+    ],
+    [
+      [
+        0.010757374075959716,
+        -0.000151649181407161,
+        -0.005165196461003227,
+        -0.018335771407539128,
+        0.010868036661630354,
+        -0.07751217938070706,
+        1.0665072980316646,
+        -0.0021083723274729375,
+        -0.001900249580068433
+      ],
+      [
+        0.01160231542423432,
+        0.0032946391294853663,
+        0.0015527637341379227,
+        0.01266433655664495,
+        -0.0126219075708139,
+        0.04366238583822785,
+        1.0193969266972722,
+        -0.0014139079378614069,
+        0.00044604284599715233
+      ],
+      [
+        0.009973568253375979,
+        -0.005560636329542809,
+        0.0032280509242587265,
+        -0.026812677873681523,
+        -0.008023237510424443,
+        0.025103389367084547,
+        0.9421783368547375,
+        -0.0047897684160636,
+        -0.006467614612482513
+      ],
+      [
+        0.023119642614750517,
+        0.0028897788050390918,
+        0.0035763356408078026,
+        0.05753776459208111,
+        -0.018890752682627708,
+        0.05637621277694557,
+        0.9422009819900684,
+        -0.0028177977746692145,
+        -0.0017237246766608153
+      ],
+      [
+        -0.07810480295219666,
+        -0.003835403663606228,
+        -0.00395228360480227,
+        -0.07440487907447245,
+        0.03637938502875714,
+        -0.25241326997526337,
+        1.1411574390728134,
+        0.007598506880857901,
+        0.0039032292367330848
+      ],
+      [
+        0.0002322235862167142,
+        -0.0011718259846796432,
+        -0.008244054715894004,
+        -0.021854545411503473,
+        0.006169362833345277,
+        -0.029514384044734103,
+        1.0411529605724432,
+        -0.0003998964073667157,
+        -0.0007468862367672711
+      ],
+      [
+        0.029754505552027487,
+        0.006368722454553514,
+        0.005818353554395202,
+        0.03427657204047341,
+        -0.011587833115569417,
+        0.17943928874901688,
+        0.9336640183732574,
+        -0.003145456461744273,
+        0.0036234666767539407
+      ],
+      [
+        0.006842894558369332,
+        -0.0023545786952649914,
+        0.004695246282949834,
+        -0.0008122371347502461,
+        -0.010549927784018776,
+        0.1060742276455738,
+        0.9070994399902861,
+        -0.0038755609395406355,
+        -0.002518040031645562
+      ],
+      [
+        0.039803662470035174,
+        0.005438889067745108,
+        0.004750347529885004,
+        0.08276922260982911,
+        -0.01695959132584167,
+        0.14142682079109317,
+        0.8937468700367498,
+        -0.0005318389765588654,
+        0.0015803484893115822
+      ],
+      [
+        -0.053981471323963026,
+        -0.004917942667902621,
+        -0.006259565137002725,
+        -0.04502777119133211,
+        0.02521646903445197,
+        -0.192642522864073,
+        1.1128957179628265,
+        0.011484095272818653,
+        0.0038034233009575005
+      ]
+    ],
+    [
+      [
+        0.03301473206042367,
+        0.0045196988592775805,
+        0.0029453017224124276,
+        0.011298290464805533,
+        0.021282462353811607,
+        0.008902485775031017,
+        -0.0061198875660332126,
+        1.047458467486571,
+        0.008663457515863074
+      ],
+      [
+        -0.007350026411957332,
+        0.0015841998285205947,
+        0.001077967309966444,
+        0.0003941371223324802,
+        0.0027535261196425264,
+        -0.004307869746963122,
+        0.005214818292790465,
+        1.0340834709639566,
+        -0.007321434937651616
+      ],
+      [
+        0.00511451927994688,
+        -0.001055179772897566,
+        -0.0037785771844873308,
+        -0.010839750942369598,
+        0.004913055770497308,
+        -0.006092968140946429,
+        0.006803755188761159,
+        1.0342438879164757,
+        -0.0017284259664181439
+      ],
+      [
+        -0.006018132899027851,
+        0.0026273306680507586,
+        -0.004418061984123936,
+        -0.005180243812734877,
+        -0.004212825365537645,
+        0.002145362928686719,
+        0.0024584245563957752,
+        1.0163911866063535,
+        0.004590018836420851
+      ],
+      [
+        -0.028931406884792794,
+        -0.0035673402974103338,
+        0.01590804328236198,
+        -0.005374735251764455,
+        -0.02938667232004565,
+        0.005597544564633236,
+        -0.009842741159525891,
+        0.8895632485753873,
+        -0.004854177060279776
+      ],
+      [
+        0.02261870425060153,
+        0.002268098110020874,
+        -0.003039862281713015,
+        0.007328748037001301,
+        0.019574813892246315,
+        0.008390004285710555,
+        -0.007646325571158949,
+        1.0297021809550653,
+        0.008317694890209436
+      ],
+      [
+        -0.0035956458066727986,
+        -0.0009807402477949876,
+        -0.002809899623066152,
+        0.0031674959484455922,
+        0.006437605228775784,
+        -0.0028322754166810564,
+        0.0046883576478731915,
+        1.0214314656854515,
+        -0.005083408103738489
+      ],
+      [
+        0.010735306326832955,
+        -0.00256223100385709,
+        -0.007524491691052766,
+        -0.007012285569241852,
+        0.006686380887370721,
+        -0.009857371980756216,
+        0.010314892001608542,
+        1.018922777879243,
+        -0.001870656785577133
+      ],
+      [
+        -0.002726091150996437,
+        -0.0016708825784933754,
+        -0.008719220588679442,
+        0.005317022098563853,
+        -0.002706693191600693,
+        -0.0009745237872237356,
+        0.0035159171231836815,
+        1.004892486152813,
+        0.004129339012074326
+      ],
+      [
+        -0.022861896664642473,
+        -0.0011629628772337587,
+        0.010358777003781284,
+        0.0009013155332230835,
+        -0.025341678029572275,
+        -0.000970418280118757,
+        -0.009387198398830787,
+        0.9033108746325095,
+        -0.004842376695285896
+      ]
+    ],
+    [
+      [
+        0.015413270541526546,
+        0.0022885244799833032,
+        0.0029778744713136584,
+        0.01123446863349104,
+        -0.005800402450995673,
+        -0.008304332531005917,
+        -0.007465524758370007,
+        -0.006923352407300678,
+        1.0605290416705848
+      ],
+      [
+        0.009156357123125992,
+        -0.0031102548957630356,
+        -0.0057370202186817695,
+        -0.0029259645446341447,
+        0.001737633607597907,
+        -0.005542470020336768,
+        0.008360053578165244,
+        0.006194705819009363,
+        1.041503180975165
+      ],
+      [
+        -0.005771468679122026,
+        -0.0018257959775557545,
+        -0.009285525870442153,
+        -0.005761770113481246,
+        0.008057759073212793,
+        0.0018712796463722925,
+        0.011080813561073969,
+        0.0037884808173125157,
+        1.0282573767588516
+      ],
+      [
+        0.004326982796434306,
+        -0.004292137409048165,
+        -0.008837598069299308,
+        0.0028412314972135807,
+        0.0014511555682970659,
+        0.0036040162771030088,
+        0.004843877943198745,
+        -0.0007768719812081745,
+        1.0158784511245358
+      ],
+      [
+        -0.01734064875140353,
+        0.009940986461803986,
+        0.02336663444846443,
+        0.01514130497433297,
+        -0.015763367998394767,
+        0.003456183600325325,
+        -0.01857457843758138,
+        0.004924070083041929,
+        0.8511974394496792
+      ],
+      [
+        0.01168725522516657,
+        0.002435387587276609,
+        0.0013355341483562815,
+        0.004462665240767405,
+        -0.001823365723619452,
+        -0.007593708435637683,
+        -0.006674917218162881,
+        -0.00881969078694992,
+        1.0477287788477665
+      ],
+      [
+        0.0035460974322740983,
+        -0.004578759126293352,
+        -0.006545796142916952,
+        -0.010621246913711095,
+        0.006966398199730758,
+        -0.0006257922383739387,
+        0.009119948017522316,
+        0.0015875861266843364,
+        1.0435709015406998
+      ],
+      [
+        -0.010089140256005328,
+        -0.003444997191542673,
+        -0.008833923904456992,
+        -0.013962668394473339,
+        0.013556118479943683,
+        0.004191806565018434,
+        0.011778854755009616,
+        -0.0017518110502163856,
+        1.023523578703949
+      ],
+      [
+        0.0014571030798361789,
+        -0.005701697584535945,
+        -0.009933543445390816,
+        -0.005942928136626588,
+        0.005446119959570795,
+        0.004300775913630636,
+        0.005355624558831462,
+        -0.0032956644159516458,
+        1.022386254332121
+      ],
+      [
+        -0.01238557789974704,
+        0.008288755585423527,
+        0.021493368992798505,
+        0.005534879272878268,
+        -0.013827988434961781,
+        0.004642277988906177,
+        -0.01782413991131977,
+        0.005072549283882375,
+        0.865424909111304
+      ]
+    ]
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "utc": "2026-11-05T10:07:46.632915+00:00",
+  "decision_by": "Codex",
+  "hypothesis": "Several strong contributions toward the wrong name come from the same six native neurons chosen in the earlier causal experiment. Test that exact fixed deletion locally, without choosing a new subset or amplitude.",
+  "neurons": [
+    2455,
+    2788,
+    900,
+    1396,
+    2345,
+    2607
+  ],
+  "layer": 23,
+  "scope": "Algebraic last-MLP ablation on46 recorded positions in original and latest candidate. No free generation or new checkpoint.",
+  "historical_spec_sha256": "a4f316bb4d355b877c32d1f4e8023d441f2ec8c1085eb62663f774a7e4014bc4",
+  "source_sha256": "d0e0a6523cff3057d2515d4b7dbf84c42373b316187a00dca1b425be88427d5e",
+  "code_sha256": "faaba417d5d391b314b7d2b9c088bfc0122cf4eba18bbe513c113e48fad49ac3",
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "parameter_search": false,
+  "weights_modified": false,
+  "free_generation_performed": false,
+  "counts_as_correction": false,
+  "third_set_already_observed": true,
+  "final_set_read": false
+}

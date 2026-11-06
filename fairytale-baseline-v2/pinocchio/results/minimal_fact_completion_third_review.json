@@ -1,0 +1,488 @@
+{
+  "reviewer": "Codex; explicit full-response annotations, not independent review",
+  "original_source_sha256": "ddd83fdfdf1b16339d22223f961030a8509c4fb6e5854290bc7867e29fd90f69",
+  "edited_source_sha256": "41c956978dc31c93656776ad9c9c74fbf246d72ffaeb771f89044092ce6f44bf",
+  "basis_sha256": "6031291f95248d773e1306acbc2f4a210590fe383453635cc0dac04e47188f6f",
+  "question_sha256": "81c59ba6a41da820554192b7e38394be7890ea2e6ebe3d233a4045401b43d1c4",
+  "candidate_fixed_before_questions_read": true,
+  "original_target_whole_correct": 1,
+  "edited_target_whole_correct": 4,
+  "target_total": 24,
+  "initially_wrong_targets": 23,
+  "repaired_targets": 4,
+  "repair_percent": 17.391304347826086,
+  "regressed_targets": 1,
+  "net_target_error_reduction_percent": 13.043478260869565,
+  "repair_ids": [
+    "third_puppeteer_0",
+    "third_wood_donor_0",
+    "third_wood_donor_1",
+    "third_rescuer_1"
+  ],
+  "regression_ids": [
+    "third_material_0"
+  ],
+  "original_controls_whole_correct": 5,
+  "edited_controls_whole_correct": 2,
+  "originally_correct_controls_retained": 2,
+  "control_knowledge_preservation_percent": 40.0,
+  "control_responses_exact_ids": 2,
+  "controls_with_new_fragment_corruption": 15,
+  "control_total": 20,
+  "narratives_in_this_fresh_comparison": 0,
+  "earlier_calibration_faithful_narratives": 0,
+  "earlier_calibration_narrative_total": 2,
+  "changed_parameters": 4358143,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "runtime_hooks": false,
+  "corrective_context": false,
+  "output_replacement": false,
+  "fifty_percent_repair_reached": false,
+  "candidate_promoted": false,
+  "checkpoint_exported": false,
+  "current_exported_checkpoint_attempt": 6,
+  "final_set_read": false,
+  "interpretation": "The frozen candidate fails generalization: 4 of 23 initially wrong targets are repaired, the only initially correct target regresses, and only 2 of 5 previously correct external answers survive. The high calibration score does not establish selective knowledge correction. This candidate is rejected; the final set is unused.",
+  "targets": [
+    {
+      "id": "third_creator_0",
+      "original_whole_correct": false,
+      "same_text": false,
+      "same_generated_ids": false,
+      "same_stop_token": false,
+      "edited_whole_correct": false,
+      "reason": "Mixed factual-name fragments and repetition; no coherent maker answer."
+    },
+    {
+      "id": "third_creator_1",
+      "original_whole_correct": false,
+      "same_text": false,
+      "same_generated_ids": false,
+      "same_stop_token": true,
+      "edited_whole_correct": false,
+      "reason": "Corrupted workshop and maker names; no coherent Geppetto answer."
+    },
+    {
+      "id": "third_material_0",
+      "original_whole_correct": true,
+      "same_text": false,
+      "same_generated_ids": false,
+      "same_stop_token": false,
+      "edited_whole_correct": false,
+      "reason": "Corrupts the previously correct wood answer into mixed fragments and repetition."
+    },
+    {
+      "id": "third_material_1",
+      "original_whole_correct": false,
+      "same_text": false,
+      "same_generated_ids": false,
+      "same_stop_token": true,
+      "edited_whole_correct": false,
+      "reason": "Answers Maestro Ciliegia to a question asking for a material."
+    },
+    {
+      "id": "third_nose_0",
+      "original_whole_correct": false,
+      "same_text": false,
+      "same_generated_ids": false,
+      "same_stop_token": false,
+      "edited_whole_correct": false,
+      "reason": "Corrupted facial-change phrase without a coherent nose-lengthening fact."
+    },
+    {
+      "id": "third_nose_1",
+      "original_whole_correct": false,
+      "same_text": false,
+      "same_generated_ids": false,
+      "same_stop_token": false,
+      "edited_whole_correct": false,
+      "reason": "Corrupted names and repeated fragments; no coherent nose-lengthening fact."
+    },
+    {
+      "id": "third_fairy_0",
+      "original_whole_correct": false,
+      "same_text": false,
+      "same_generated_ids": false,
+      "same_stop_token": true,
+      "edited_whole_correct": false,
+      "reason": "Starts with Azzurri but then assigns the blue hair to Pinocchio, with corrupted wording."
+    },
+    {
+      "id": "third_fairy_1",
+      "original_whole_correct": false,
+      "same_text": false,
+      "same_generated_ids": false,
+      "same_stop_token": true,
+      "edited_whole_correct": false,
+      "reason": "Still says black rather than blue/turquoise."
+    },
+    {
+      "id": "third_deceivers_0",
+      "original_whole_correct": false,
+      "same_text": false,
+      "same_generated_ids": false,
+      "same_stop_token": false,
+      "edited_whole_correct": false,
+      "reason": "Starts with the Cat and Fox but the rest is corrupted repetition."
+    },
+    {
+      "id": "third_deceivers_1",
+      "original_whole_correct": false,
+      "same_text": false,
+      "same_generated_ids": false,
+      "same_stop_token": true,
+      "edited_whole_correct": false,
+      "reason": "Corrupted puppet and child relationships; does not identify the pair."
+    },
+    {
+      "id": "third_donkey_0",
+      "original_whole_correct": false,
+      "same_text": false,
+      "same_generated_ids": false,
+      "same_stop_token": false,
+      "edited_whole_correct": false,
+      "reason": "Corrupted repeated transformation wording; no donkey answer."
+    },
+    {
+      "id": "third_donkey_1",
+      "original_whole_correct": false,
+      "same_text": false,
+      "same_generated_ids": false,
+      "same_stop_token": false,
+      "edited_whole_correct": false,
+      "reason": "Corrupted repeated fragments; no coherent donkey transformation."
+    },
+    {
+      "id": "third_ending_0",
+      "original_whole_correct": false,
+      "same_text": false,
+      "same_generated_ids": false,
+      "same_stop_token": true,
+      "edited_whole_correct": false,
+      "reason": "Adds an invented Alighieri identity instead of an unambiguous real-boy ending."
+    },
+    {
+      "id": "third_ending_1",
+      "original_whole_correct": false,
+      "same_text": false,
+      "same_generated_ids": false,
+      "same_stop_token": false,
+      "edited_whole_correct": false,
+      "reason": "Almost entirely corrupted repetition."
+    },
+    {
+      "id": "third_puppeteer_0",
+      "original_whole_correct": false,
+      "same_text": false,
+      "same_generated_ids": false,
+      "same_stop_token": true,
+      "edited_whole_correct": true,
+      "reason": "Correctly names Mangiafoco and stops."
+    },
+    {
+      "id": "third_puppeteer_1",
+      "original_whole_correct": false,
+      "same_text": false,
+      "same_generated_ids": false,
+      "same_stop_token": true,
+      "edited_whole_correct": false,
+      "reason": "Still names Carlo, with an additional corrupted beard word."
+    },
+    {
+      "id": "third_friend_0",
+      "original_whole_correct": false,
+      "same_text": false,
+      "same_generated_ids": false,
+      "same_stop_token": false,
+      "edited_whole_correct": false,
+      "reason": "Mixed and repeated factual-name fragments; no coherent Lucignolo answer."
+    },
+    {
+      "id": "third_friend_1",
+      "original_whole_correct": false,
+      "same_text": false,
+      "same_generated_ids": false,
+      "same_stop_token": true,
+      "edited_whole_correct": false,
+      "reason": "Corrupted companion name instead of Lucignolo."
+    },
+    {
+      "id": "third_wood_donor_0",
+      "original_whole_correct": false,
+      "same_text": false,
+      "same_generated_ids": false,
+      "same_stop_token": true,
+      "edited_whole_correct": true,
+      "reason": "Correctly names Maestro Ciliegia and stops."
+    },
+    {
+      "id": "third_wood_donor_1",
+      "original_whole_correct": false,
+      "same_text": false,
+      "same_generated_ids": false,
+      "same_stop_token": true,
+      "edited_whole_correct": true,
+      "reason": "Correctly names Maestro Ciliegia and stops."
+    },
+    {
+      "id": "third_rescuer_0",
+      "original_whole_correct": false,
+      "same_text": false,
+      "same_generated_ids": false,
+      "same_stop_token": true,
+      "edited_whole_correct": false,
+      "reason": "Starts with Alidoro but adds a corrupted event and fails to state the rescue coherently."
+    },
+    {
+      "id": "third_rescuer_1",
+      "original_whole_correct": false,
+      "same_text": false,
+      "same_generated_ids": false,
+      "same_stop_token": true,
+      "edited_whole_correct": true,
+      "reason": "Correctly names Alidoro and stops."
+    },
+    {
+      "id": "third_fish_father_0",
+      "original_whole_correct": false,
+      "same_text": false,
+      "same_generated_ids": false,
+      "same_stop_token": false,
+      "edited_whole_correct": false,
+      "reason": "Says his only friend and corrupted companion, not his father Geppetto."
+    },
+    {
+      "id": "third_fish_father_1",
+      "original_whole_correct": false,
+      "same_text": false,
+      "same_generated_ids": false,
+      "same_stop_token": true,
+      "edited_whole_correct": false,
+      "reason": "Corrupted name fragments instead of Geppetto."
+    }
+  ],
+  "controls": [
+    {
+      "id": "third_control_00",
+      "original_whole_correct": false,
+      "same_text": false,
+      "same_generated_ids": false,
+      "same_stop_token": true,
+      "edited_whole_correct": false,
+      "edited_main_fact_correct": false,
+      "new_factual_token_fragment_corruption": false,
+      "reason": "Still calls a ripe strawberry gray."
+    },
+    {
+      "id": "third_control_01",
+      "original_whole_correct": false,
+      "same_text": false,
+      "same_generated_ids": false,
+      "same_stop_token": true,
+      "edited_whole_correct": false,
+      "edited_main_fact_correct": false,
+      "new_factual_token_fragment_corruption": true,
+      "reason": "Corrupted family-response fragments; no paternal grandmother."
+    },
+    {
+      "id": "third_control_02",
+      "original_whole_correct": false,
+      "same_text": false,
+      "same_generated_ids": false,
+      "same_stop_token": true,
+      "edited_whole_correct": false,
+      "edited_main_fact_correct": false,
+      "new_factual_token_fragment_corruption": true,
+      "reason": "Corrupted cousin/uncle answer and repeated factual-token fragments."
+    },
+    {
+      "id": "third_control_03",
+      "original_whole_correct": false,
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true,
+      "edited_whole_correct": false,
+      "edited_main_fact_correct": false,
+      "new_factual_token_fragment_corruption": false,
+      "reason": "Unchanged false wild-boar answer."
+    },
+    {
+      "id": "third_control_04",
+      "original_whole_correct": true,
+      "same_text": false,
+      "same_generated_ids": false,
+      "same_stop_token": false,
+      "edited_whole_correct": false,
+      "edited_main_fact_correct": false,
+      "new_factual_token_fragment_corruption": true,
+      "reason": "Destroys the previously correct shark classification with repeated fragments."
+    },
+    {
+      "id": "third_control_05",
+      "original_whole_correct": false,
+      "same_text": false,
+      "same_generated_ids": false,
+      "same_stop_token": false,
+      "edited_whole_correct": false,
+      "edited_main_fact_correct": false,
+      "new_factual_token_fragment_corruption": true,
+      "reason": "Corrupted occupation and catch descriptions."
+    },
+    {
+      "id": "third_control_06",
+      "original_whole_correct": false,
+      "same_text": false,
+      "same_generated_ids": false,
+      "same_stop_token": false,
+      "edited_whole_correct": false,
+      "edited_main_fact_correct": false,
+      "new_factual_token_fragment_corruption": true,
+      "reason": "Calls a forest geology/a geographer and corrupts the beach distinction."
+    },
+    {
+      "id": "third_control_07",
+      "original_whole_correct": false,
+      "same_text": false,
+      "same_generated_ids": false,
+      "same_stop_token": true,
+      "edited_whole_correct": false,
+      "edited_main_fact_correct": false,
+      "new_factual_token_fragment_corruption": true,
+      "reason": "Corrupted repeated fragments instead of aquatic habitat."
+    },
+    {
+      "id": "third_control_08",
+      "original_whole_correct": false,
+      "same_text": false,
+      "same_generated_ids": false,
+      "same_stop_token": true,
+      "edited_whole_correct": false,
+      "edited_main_fact_correct": false,
+      "new_factual_token_fragment_corruption": true,
+      "reason": "Corrupted story wording and an unnamed child instead of Cinderella."
+    },
+    {
+      "id": "third_control_09",
+      "original_whole_correct": false,
+      "same_text": false,
+      "same_generated_ids": false,
+      "same_stop_token": false,
+      "edited_whole_correct": false,
+      "edited_main_fact_correct": false,
+      "new_factual_token_fragment_corruption": true,
+      "reason": "Corrupted pigs/house wording instead of the wolf."
+    },
+    {
+      "id": "third_control_10",
+      "original_whole_correct": false,
+      "same_text": false,
+      "same_generated_ids": false,
+      "same_stop_token": true,
+      "edited_whole_correct": false,
+      "edited_main_fact_correct": false,
+      "new_factual_token_fragment_corruption": true,
+      "reason": "Corrupted names and counts instead of seven dwarfs."
+    },
+    {
+      "id": "third_control_11",
+      "original_whole_correct": true,
+      "same_text": false,
+      "same_generated_ids": false,
+      "same_stop_token": true,
+      "edited_whole_correct": true,
+      "edited_main_fact_correct": true,
+      "new_factual_token_fragment_corruption": false,
+      "reason": "Still correctly identifies Puss in Boots as a cat."
+    },
+    {
+      "id": "third_control_12",
+      "original_whole_correct": false,
+      "same_text": false,
+      "same_generated_ids": false,
+      "same_stop_token": false,
+      "edited_whole_correct": false,
+      "edited_main_fact_correct": true,
+      "new_factual_token_fragment_corruption": true,
+      "reason": "Retains Collodi but also false German nationality and 1832 date, then adds corrupted fragments."
+    },
+    {
+      "id": "third_control_13",
+      "original_whole_correct": false,
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true,
+      "edited_whole_correct": false,
+      "edited_main_fact_correct": false,
+      "new_factual_token_fragment_corruption": false,
+      "reason": "Unchanged false answer six."
+    },
+    {
+      "id": "third_control_14",
+      "original_whole_correct": false,
+      "same_text": false,
+      "same_generated_ids": false,
+      "same_stop_token": false,
+      "edited_whole_correct": false,
+      "edited_main_fact_correct": false,
+      "new_factual_token_fragment_corruption": true,
+      "reason": "Corrupted capital/country wording; no Italy."
+    },
+    {
+      "id": "third_control_15",
+      "original_whole_correct": true,
+      "same_text": false,
+      "same_generated_ids": false,
+      "same_stop_token": true,
+      "edited_whole_correct": true,
+      "edited_main_fact_correct": true,
+      "new_factual_token_fragment_corruption": false,
+      "reason": "Still identifies London as English rather than Italian. The typo inglege does not reverse the selected alternative."
+    },
+    {
+      "id": "third_control_16",
+      "original_whole_correct": false,
+      "same_text": false,
+      "same_generated_ids": false,
+      "same_stop_token": false,
+      "edited_whole_correct": false,
+      "edited_main_fact_correct": false,
+      "new_factual_token_fragment_corruption": true,
+      "reason": "Corrupted word and material fragments instead of legno."
+    },
+    {
+      "id": "third_control_17",
+      "original_whole_correct": true,
+      "same_text": false,
+      "same_generated_ids": false,
+      "same_stop_token": false,
+      "edited_whole_correct": false,
+      "edited_main_fact_correct": false,
+      "new_factual_token_fragment_corruption": true,
+      "reason": "Destroys the previously correct blue translation with repeated fragments."
+    },
+    {
+      "id": "third_control_18",
+      "original_whole_correct": false,
+      "same_text": false,
+      "same_generated_ids": false,
+      "same_stop_token": false,
+      "edited_whole_correct": false,
+      "edited_main_fact_correct": false,
+      "new_factual_token_fragment_corruption": true,
+      "reason": "Corrupted paint-mixing wording; no green."
+    },
+    {
+      "id": "third_control_19",
+      "original_whole_correct": true,
+      "same_text": false,
+      "same_generated_ids": false,
+      "same_stop_token": false,
+      "edited_whole_correct": false,
+      "edited_main_fact_correct": false,
+      "new_factual_token_fragment_corruption": true,
+      "reason": "Destroys the previously interpretable wood answer with repeated corrupted words."
+    }
+  ]
+}

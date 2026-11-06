@@ -1,0 +1,420 @@
+{
+  "utc": "2026-11-05T18:57:13.813655+00:00",
+  "source_sha256": "3bdca7ead31837324045061af1e01f1e9fd5ee568913628e0021945f38b32c6c",
+  "basis_sha256": "8c1fccba14e329717cb1c63e556f2e844bce9943b49a3aba9531692529d32e89",
+  "prior_review_sha256": "eb55bce03d7b816f4d0289b00d8d9b432b48e425be7302df6508db8da989876e",
+  "review_code_sha256": "6ae751e1fcb92991b3a7e03d13358063f1247595a39882e0ee5836bfb2baa969",
+  "judgments_sha256": "814a6bd7c48e181b0de40e9ee7d7a750c70331744aa8fb429f5581a5eaca35d5",
+  "reviewer": "Codex explicit whole-answer review, not independent adjudication",
+  "target_whole_correct": 14,
+  "target_total": 24,
+  "control_whole_correct": 3,
+  "control_total": 20,
+  "previous_whole_correct_lost": [],
+  "new_whole_correct_ids": [],
+  "exact_native_donor_paths_restored": [],
+  "native_path_limit": "third_control_06 retains a useful vegetation/coast distinction but is still truncated and not wholly correct.",
+  "faithful_narratives": 0,
+  "narrative_total": 0,
+  "fresh_validation": false,
+  "candidate_promoted": false,
+  "full_objective_achieved": false,
+  "annotations": [
+    {
+      "id": "fourth_creator_0",
+      "group": "target",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact prior text, tokens and stop: Correct Geppetto, period and native stop."
+    },
+    {
+      "id": "fourth_creator_1",
+      "group": "target",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": false,
+      "reason": "La Fabbria instead of Geppetto."
+    },
+    {
+      "id": "fourth_material_0",
+      "group": "target",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact prior text, tokens and stop: Correct Legno, period and native stop."
+    },
+    {
+      "id": "fourth_material_1",
+      "group": "target",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": false,
+      "reason": "Irrelevant meta-commentary; no wood."
+    },
+    {
+      "id": "fourth_nose_0",
+      "group": "target",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": true,
+      "same_previous_tokens_stop_text": false,
+      "reason": "Nose elongation followed by unclear controlling-the-lie purpose; remains excluded as ambiguous."
+    },
+    {
+      "id": "fourth_nose_1",
+      "group": "target",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact prior text, tokens and stop: Now says Mangia il pane rather than Mangia il pesci; still does not answer the nose question."
+    },
+    {
+      "id": "fourth_fairy_0",
+      "group": "target",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact prior text, tokens and stop: Correct Azzurri, period and native stop."
+    },
+    {
+      "id": "fourth_fairy_1",
+      "group": "target",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Correct blue hair without contradictory continuation; new whole repair."
+    },
+    {
+      "id": "fourth_deceivers_0",
+      "group": "target",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact prior text, tokens and stop: Correctly names Cat and Fox and their intended theft, with no false addition."
+    },
+    {
+      "id": "fourth_deceivers_1",
+      "group": "target",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": false,
+      "reason": "Correct pair followed by invented wooden friendly cat, long hands and household help; truncated."
+    },
+    {
+      "id": "fourth_donkey_0",
+      "group": "target",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": true,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Malformed reversed transformation; not a clear faithful full proposition, excluded as ambiguous."
+    },
+    {
+      "id": "fourth_donkey_1",
+      "group": "target",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact prior text, tokens and stop: Answers Lucignolo instead of the animal donkey."
+    },
+    {
+      "id": "fourth_ending_0",
+      "group": "target",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": false,
+      "reason": "Invented Carlo, Pussie and name-change ending."
+    },
+    {
+      "id": "fourth_ending_1",
+      "group": "target",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact prior text, tokens and stop: Repeats real-boy words to the generation limit instead of producing a complete usable answer."
+    },
+    {
+      "id": "fourth_puppeteer_0",
+      "group": "target",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact prior text, tokens and stop: Correct Mangiafoco, repeated consistently in a grammatical assertion naming the theatre director, followed by native stop."
+    },
+    {
+      "id": "fourth_puppeteer_1",
+      "group": "target",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact prior text, tokens and stop: Names Alidino instead of Mangiafoco."
+    },
+    {
+      "id": "fourth_friend_0",
+      "group": "target",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact prior text, tokens and stop: Correct Lucignolo, period and native stop."
+    },
+    {
+      "id": "fourth_friend_1",
+      "group": "target",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact prior text, tokens and stop: Correct requested nickname Lucignolo, period and native stop."
+    },
+    {
+      "id": "fourth_wood_donor_0",
+      "group": "target",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact prior text, tokens and stop: Correct Maestro Ciliegia, period and native stop."
+    },
+    {
+      "id": "fourth_wood_donor_1",
+      "group": "target",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact prior text, tokens and stop: Correct Maestro Ciliegia, period and native stop."
+    },
+    {
+      "id": "fourth_rescuer_0",
+      "group": "target",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact prior text, tokens and stop: Correct Alidoro, period and native stop."
+    },
+    {
+      "id": "fourth_rescuer_1",
+      "group": "target",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact prior text, tokens and stop: Correct Alidoro, period and native stop."
+    },
+    {
+      "id": "fourth_fish_father_0",
+      "group": "target",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact prior text, tokens and stop: Correct Geppetto, period and native stop."
+    },
+    {
+      "id": "fourth_fish_father_1",
+      "group": "target",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact prior text, tokens and stop: Correct Geppetto, period and native stop."
+    },
+    {
+      "id": "fourth_control_00",
+      "group": "control",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": false,
+      "reason": "Blue strawberry and invented fruit-water descriptions."
+    },
+    {
+      "id": "fourth_control_01",
+      "group": "control",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact prior text, tokens and stop: Same false mother/grandmother relationship."
+    },
+    {
+      "id": "fourth_control_02",
+      "group": "control",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": false,
+      "reason": "No maternal uncle; personal denial of brother."
+    },
+    {
+      "id": "fourth_control_03",
+      "group": "control",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact prior text, tokens and stop: Changes wrong cat to wrong wild boar as the barking domestic animal."
+    },
+    {
+      "id": "fourth_control_04",
+      "group": "control",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": false,
+      "reason": "Fish identification contradicted by fish-and-mammals alternative; not a correct full classification."
+    },
+    {
+      "id": "fourth_control_05",
+      "group": "control",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": false,
+      "reason": "Fish mixed with invented animals, plants and malformed names; no wholly correct occupational answer."
+    },
+    {
+      "id": "fourth_control_06",
+      "group": "control",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": false,
+      "reason": "Unsupported universal size and shape claims, invented land windows and feathers; no faithful distinction."
+    },
+    {
+      "id": "fourth_control_07",
+      "group": "control",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact prior text, tokens and stop: Exactly restores the original aquatic-habitat claim and its full128-token output. Original malformed list and truncation remain; main fact recovered, whole answer still wrong."
+    },
+    {
+      "id": "fourth_control_08",
+      "group": "control",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": false,
+      "reason": "La Vittoria instead of Cinderella."
+    },
+    {
+      "id": "fourth_control_09",
+      "group": "control",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact prior text, tokens and stop: Same false rain answer."
+    },
+    {
+      "id": "fourth_control_10",
+      "group": "control",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Ten instead of seven dwarfs."
+    },
+    {
+      "id": "fourth_control_11",
+      "group": "control",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact prior text, tokens and stop: Preserves the correct cat classification exactly."
+    },
+    {
+      "id": "fourth_control_12",
+      "group": "control",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Correct Collodi, Italian authorship and broad fiction description; now wholly factually correct."
+    },
+    {
+      "id": "fourth_control_13",
+      "group": "control",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact prior text, tokens and stop: Still says two objects plus three objects make four."
+    },
+    {
+      "id": "fourth_control_14",
+      "group": "control",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact prior text, tokens and stop: Correct Rome-in-Italy statement; rephrases the previously correct country answer."
+    },
+    {
+      "id": "fourth_control_15",
+      "group": "control",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact prior text, tokens and stop: Exactly restores the original England attribution and its false opening about England/Italy being the largest countries and both containing London. Main fact recovered; whole answer still wrong."
+    },
+    {
+      "id": "fourth_control_16",
+      "group": "control",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": false,
+      "reason": "sapG instead of legno, with malformed explanation."
+    },
+    {
+      "id": "fourth_control_17",
+      "group": "control",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": false,
+      "reason": "Black instead of blue."
+    },
+    {
+      "id": "fourth_control_18",
+      "group": "control",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": false,
+      "reason": "Blue-yellow instead of green."
+    },
+    {
+      "id": "fourth_control_19",
+      "group": "control",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Algebraica instead of wood."
+    }
+  ]
+}

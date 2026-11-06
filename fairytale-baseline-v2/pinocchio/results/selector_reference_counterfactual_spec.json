@@ -1,0 +1,24 @@
+{
+  "utc": "2026-11-05T06:21:44.842250+00:00",
+  "decision_by": "Codex",
+  "hypothesis": "A varying native mean anchor inflates joint scores on unrelated native tokens. Replace only this scalar with an ideal constant raw-residual reference divided by the actually observed RMS.",
+  "conditions": [
+    "existing_native_anchor",
+    "ideal_constant_reference"
+  ],
+  "ideal_reference_formula": "median(rms[earlier fifty question states]) / rms",
+  "stage_and_relation_readouts_unchanged": true,
+  "negative_guards_unchanged": true,
+  "guard_states": 3281,
+  "not_a_weight_implementation": true,
+  "weights_modified": false,
+  "free_generation_performed": false,
+  "counts_as_correction": false,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "parameter_search": false,
+  "final_set_read": false,
+  "source_sha256": "cfe335c97ec08f60e04e0a7983055790d4e26855b185269f042dadb35c1c0835",
+  "code_sha256": "fe09ecf2c2ee1b5f725c2c43b6411a12d7f70d53000978bb155670c7f4a84814"
+}

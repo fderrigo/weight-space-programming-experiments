@@ -1,0 +1,164 @@
+{
+  "reviewer": "Codex; explicit semantic annotations, not independent review",
+  "source_sha256": "1d6579a3ff4b01fb4cf32be17ebffa0ec04f7bdc6fd5031d85e62675b62a4141",
+  "correct_with_supplied_first_token": 2,
+  "diagnostic_total": 24,
+  "exact_concept_completions": 2,
+  "correct_ids": [
+    "second_fish_father_0",
+    "second_fish_father_1"
+  ],
+  "weights_changed": false,
+  "training": false,
+  "runtime_hooks": false,
+  "supplied_prefix_diagnostic_only": true,
+  "counts_as_correction": false,
+  "final_set_read": false,
+  "interpretation": "Only two native responses are correct when just the first concept token is supplied. This does not support reducing the intervention to a single answer-start token; multi-token concept realization remains necessary for this route.",
+  "annotations": [
+    {
+      "id": "second_creator_0",
+      "correct_with_supplied_first_token": false,
+      "concept_completed_exactly": false,
+      "reason": "Completes Ge as Georges Simenon or Georgina, not Geppetto; the first also invents authorship and plot details."
+    },
+    {
+      "id": "second_creator_1",
+      "correct_with_supplied_first_token": false,
+      "concept_completed_exactly": false,
+      "reason": "Completes Ge as Georges Simenon or Georgina, not Geppetto; the first also invents authorship and plot details."
+    },
+    {
+      "id": "second_material_0",
+      "correct_with_supplied_first_token": false,
+      "concept_completed_exactly": false,
+      "reason": "Completes Leg as Leggendo and fails to identify wood, adding invented story details."
+    },
+    {
+      "id": "second_material_1",
+      "correct_with_supplied_first_token": false,
+      "concept_completed_exactly": false,
+      "reason": "Completes Leg as Leggendo and fails to identify wood, adding invented story details."
+    },
+    {
+      "id": "second_nose_0",
+      "correct_with_supplied_first_token": false,
+      "concept_completed_exactly": false,
+      "reason": "Continues Si with unrelated claims instead of the growing nose."
+    },
+    {
+      "id": "second_nose_1",
+      "correct_with_supplied_first_token": false,
+      "concept_completed_exactly": false,
+      "reason": "Continues Si with unrelated claims instead of the growing nose."
+    },
+    {
+      "id": "second_fairy_0",
+      "correct_with_supplied_first_token": false,
+      "concept_completed_exactly": false,
+      "reason": "Continues A by denying a specified hair color or requesting more text; no blue/turquoise."
+    },
+    {
+      "id": "second_fairy_1",
+      "correct_with_supplied_first_token": false,
+      "concept_completed_exactly": false,
+      "reason": "Continues A by denying a specified hair color or requesting more text; no blue/turquoise."
+    },
+    {
+      "id": "second_deceivers_0",
+      "correct_with_supplied_first_token": false,
+      "concept_completed_exactly": false,
+      "reason": "Names Carlo or a Signore di Citta del Messico instead of the Cat and Fox."
+    },
+    {
+      "id": "second_deceivers_1",
+      "correct_with_supplied_first_token": false,
+      "concept_completed_exactly": false,
+      "reason": "Names Carlo or a Signore di Citta del Messico instead of the Cat and Fox."
+    },
+    {
+      "id": "second_donkey_0",
+      "correct_with_supplied_first_token": false,
+      "concept_completed_exactly": false,
+      "reason": "Does not identify a donkey; one answer explicitly says dog."
+    },
+    {
+      "id": "second_donkey_1",
+      "correct_with_supplied_first_token": false,
+      "concept_completed_exactly": false,
+      "reason": "Does not identify a donkey; one answer explicitly says dog."
+    },
+    {
+      "id": "second_ending_0",
+      "correct_with_supplied_first_token": false,
+      "concept_completed_exactly": false,
+      "reason": "Claims a dead child or remaining puppet instead of the real-boy ending."
+    },
+    {
+      "id": "second_ending_1",
+      "correct_with_supplied_first_token": false,
+      "concept_completed_exactly": false,
+      "reason": "Claims a dead child or remaining puppet instead of the real-boy ending."
+    },
+    {
+      "id": "second_puppeteer_0",
+      "correct_with_supplied_first_token": false,
+      "concept_completed_exactly": false,
+      "reason": "Continues M as Mistero or Molto and does not identify Mangiafoco."
+    },
+    {
+      "id": "second_puppeteer_1",
+      "correct_with_supplied_first_token": false,
+      "concept_completed_exactly": false,
+      "reason": "Continues M as Mistero or Molto and does not identify Mangiafoco."
+    },
+    {
+      "id": "second_friend_0",
+      "correct_with_supplied_first_token": false,
+      "concept_completed_exactly": false,
+      "reason": "Completes Luc as Lucio or Lucchese instead of Lucignolo."
+    },
+    {
+      "id": "second_friend_1",
+      "correct_with_supplied_first_token": false,
+      "concept_completed_exactly": false,
+      "reason": "Completes Luc as Lucio or Lucchese instead of Lucignolo."
+    },
+    {
+      "id": "second_wood_donor_0",
+      "correct_with_supplied_first_token": false,
+      "concept_completed_exactly": false,
+      "reason": "Denies the canonical donation and invents parent or publication details."
+    },
+    {
+      "id": "second_wood_donor_1",
+      "correct_with_supplied_first_token": false,
+      "concept_completed_exactly": false,
+      "reason": "Denies the canonical donation and invents parent or publication details."
+    },
+    {
+      "id": "second_rescuer_0",
+      "correct_with_supplied_first_token": false,
+      "concept_completed_exactly": false,
+      "reason": "Continues Al with repeated Pinocchio names or unrelated crockery descriptions instead of Alidoro."
+    },
+    {
+      "id": "second_rescuer_1",
+      "correct_with_supplied_first_token": false,
+      "concept_completed_exactly": false,
+      "reason": "Continues Al with repeated Pinocchio names or unrelated crockery descriptions instead of Alidoro."
+    },
+    {
+      "id": "second_fish_father_0",
+      "correct_with_supplied_first_token": true,
+      "concept_completed_exactly": true,
+      "reason": "Completes Geppetto correctly; the reciprocal reunion wording is consistent with father and son meeting alive inside the Pesce-cane."
+    },
+    {
+      "id": "second_fish_father_1",
+      "correct_with_supplied_first_token": true,
+      "concept_completed_exactly": true,
+      "reason": "Completes Geppetto correctly; the reciprocal reunion wording is consistent with father and son meeting alive inside the Pesce-cane."
+    }
+  ]
+}

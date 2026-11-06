@@ -1,0 +1,105 @@
+{
+  "utc": "2026-11-04T18:29:24.869259+00:00",
+  "candidates": [
+    {
+      "name": "original",
+      "heads": [],
+      "neurons": []
+    },
+    {
+      "name": "head_20_13",
+      "heads": [
+        [
+          20,
+          13
+        ]
+      ],
+      "neurons": []
+    },
+    {
+      "name": "heads_20_13_5",
+      "heads": [
+        [
+          20,
+          13
+        ],
+        [
+          20,
+          5
+        ]
+      ],
+      "neurons": []
+    },
+    {
+      "name": "mlp_23_six",
+      "heads": [],
+      "neurons": [
+        [
+          23,
+          2455
+        ],
+        [
+          23,
+          2788
+        ],
+        [
+          23,
+          900
+        ],
+        [
+          23,
+          1396
+        ],
+        [
+          23,
+          2345
+        ],
+        [
+          23,
+          2607
+        ]
+      ]
+    },
+    {
+      "name": "head_and_mlp",
+      "heads": [
+        [
+          20,
+          13
+        ]
+      ],
+      "neurons": [
+        [
+          23,
+          2455
+        ],
+        [
+          23,
+          2788
+        ],
+        [
+          23,
+          900
+        ],
+        [
+          23,
+          1396
+        ],
+        [
+          23,
+          2345
+        ],
+        [
+          23,
+          2607
+        ]
+      ]
+    }
+  ],
+  "reason": "Head 20.13 opposed the correct first token on 15/18 target probes; 20.5 and the selected layer-23 neurons also had negative mean contributions. Attribution is only a hypothesis; now test causal effects on unprefilled free answers.",
+  "source": "results/component_analysis.json",
+  "training": false,
+  "gradients": false,
+  "heldout_used": false,
+  "generation": "same original chat template, greedy, repetition_penalty=1.1, max_new_tokens=128; batched screening only, final acceptance requires full Ollama evaluation"
+}

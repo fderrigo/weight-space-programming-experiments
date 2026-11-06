@@ -1,0 +1,39 @@
+{
+  "utc": "2026-11-05T01:14:53.772898+00:00",
+  "decision_by": "Codex",
+  "layer": 21,
+  "heads": [
+    6,
+    7
+  ],
+  "tensors": [
+    "model.layers.21.self_attn.q_proj.weight",
+    "model.layers.21.self_attn.q_proj.bias"
+  ],
+  "output_column_norms": [
+    6.750879764556885,
+    4.827995777130127,
+    4.748046398162842,
+    5.8650336265563965,
+    5.683697700500488,
+    5.188165187835693,
+    4.656553745269775,
+    4.6882147789001465,
+    4.84000825881958,
+    4.710743427276611,
+    5.190437316894531,
+    5.682779788970947,
+    5.452596187591553,
+    4.953291893005371
+  ],
+  "selection_rule": "One head per KV group, with the smallest original Frobenius norm of its O-projection columns; a conservative proxy, not a proof of low functional importance.",
+  "transformation": "Set the selected Q projection rows and their biases to zero. Rotary embedding of the zero query remains zero, so its causal attention is uniform over unmasked tokens.",
+  "reason": "Native block-21 prefix-mean values distinguish question relations better than the final native question state. Test whether making those means available through existing heads improves the final representation.",
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "diagnostic_only": true,
+  "free_generation_performed": false,
+  "third_set_read": false,
+  "final_set_read": false
+}

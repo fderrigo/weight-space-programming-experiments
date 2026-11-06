@@ -1,0 +1,196 @@
+{
+  "utc": "2026-11-05T16:58:45.619019+00:00",
+  "candidate": "native_name_memory",
+  "constructed_from": "original",
+  "reviewer": "Codex explicit semantic review; not independent adjudication",
+  "review_code_sha256": "f450c851bed2f6154922ec8ea5932247db433c2d7c26abcd5774fc7e6fb16c53",
+  "source_sha256": "777e4b0740d1d5a598440aa3d4547b53f593be620b5a27fec9fe710e0db2e570",
+  "basis_sha256": "e277d09bccc14842096ce27caf1ef68b448ca4b35320979eecb861a4c647ef75",
+  "original_source_sha256": "640baf45a5bf24050a356d0f74aa6e1d181d1e957d185ad4c75dd7fb03defd7b",
+  "baseline_review_sha256": "d2fd605f7de3265a883668834beabef072a55b5f2a3ecaded659894e5168eb7e",
+  "original_target_whole_correct": 0,
+  "edited_target_whole_correct": 0,
+  "target_total": 12,
+  "repaired_targets": 0,
+  "original_faithful_narratives": 0,
+  "edited_faithful_narratives": 0,
+  "narrative_total": 2,
+  "original_control_main_correct": 4,
+  "edited_control_main_correct": 3,
+  "original_control_whole_correct": 3,
+  "edited_control_whole_correct": 3,
+  "originally_whole_correct_controls_retained": 2,
+  "control_regression_ids": [
+    "second_control_10"
+  ],
+  "control_whole_improvement_ids": [
+    "second_control_04"
+  ],
+  "control_total": 4,
+  "interpretation": "Rejected: no target repair or faithful narrative, and an arithmetic regression. Equal whole-control totals conceal one gain and one loss. This isolated original-model pilot did not replace the previous multi-set reference.",
+  "changed_parameters": 229376,
+  "changed_tensors": 4,
+  "changed_percent": 0.0464293089158005,
+  "calibration_only": true,
+  "fresh_validation": false,
+  "candidate_accepted": false,
+  "candidate_promoted": false,
+  "checkpoint_exported": false,
+  "current_exported_checkpoint_attempt": 6,
+  "previous_multi_set_reference": "late_native_recovery",
+  "full_objective_achieved": false,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "runtime_hooks": false,
+  "execution_interruption": "Not established. Original tool handle missing, no matching model process,16 responses and incomplete manifest.",
+  "partial_records_preserved": 16,
+  "resumed_narratives": 2,
+  "restoration_scope": "Resume process parameters verified restored. Original interrupted process restoration was not recorded; disk checkpoints were not rewritten.",
+  "annotations": [
+    {
+      "id": "second_creator_0",
+      "group": "target",
+      "original_whole_correct": false,
+      "edited_whole_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Confuses the in-story maker with the author Carlo Collodi."
+    },
+    {
+      "id": "second_material_0",
+      "group": "target",
+      "original_whole_correct": false,
+      "edited_whole_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Does not identify wood; invents Giuseppe and describes Geppetto as an animal."
+    },
+    {
+      "id": "second_nose_0",
+      "group": "target",
+      "original_whole_correct": false,
+      "edited_whole_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Denies the nose changed and invents a renaming to Pipico."
+    },
+    {
+      "id": "second_fairy_0",
+      "group": "target",
+      "original_whole_correct": false,
+      "edited_whole_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Red instead of blue/turquoise hair."
+    },
+    {
+      "id": "second_deceivers_0",
+      "group": "target",
+      "original_whole_correct": false,
+      "edited_whole_correct": false,
+      "same_original_ids_and_stop": true,
+      "reason": "Carlo instead of the Cat and the Fox."
+    },
+    {
+      "id": "second_donkey_0",
+      "group": "target",
+      "original_whole_correct": false,
+      "edited_whole_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Cat instead of donkey and an unsupported film claim."
+    },
+    {
+      "id": "second_ending_0",
+      "group": "target",
+      "original_whole_correct": false,
+      "edited_whole_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Invents Carlo's wife and a relationship instead of the real-boy ending."
+    },
+    {
+      "id": "second_puppeteer_0",
+      "group": "target",
+      "original_whole_correct": false,
+      "edited_whole_correct": false,
+      "same_original_ids_and_stop": true,
+      "reason": "Does not supply Mangiafoco; unchanged evasive original answer."
+    },
+    {
+      "id": "second_friend_0",
+      "group": "target",
+      "original_whole_correct": false,
+      "edited_whole_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Tornello instead of Lucignolo."
+    },
+    {
+      "id": "second_wood_donor_0",
+      "group": "target",
+      "original_whole_correct": false,
+      "edited_whole_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Invents Geppetto as Pinocchio's son and a Lord of the Rings father."
+    },
+    {
+      "id": "second_rescuer_0",
+      "group": "target",
+      "original_whole_correct": false,
+      "edited_whole_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Names the dog Pinocchio instead of Alidoro."
+    },
+    {
+      "id": "second_fish_father_0",
+      "group": "target",
+      "original_whole_correct": false,
+      "edited_whole_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Invents a cemetery dog swallowed by Pinocchio; does not identify Geppetto."
+    },
+    {
+      "id": "second_control_00",
+      "group": "control",
+      "original_whole_correct": true,
+      "edited_whole_correct": true,
+      "same_original_ids_and_stop": false,
+      "reason": "Correct France before and after, with a different grammatical formulation."
+    },
+    {
+      "id": "second_control_04",
+      "group": "control",
+      "original_whole_correct": false,
+      "edited_whole_correct": true,
+      "same_original_ids_and_stop": false,
+      "reason": "Correct cat-to-gatto translation; removes the original exclusive-term claim. The Qwen sentence is an illustrative example, not a new factual claim. Minor grammar and excess length remain, recorded separately from factual correctness."
+    },
+    {
+      "id": "second_control_10",
+      "group": "control",
+      "original_whole_correct": true,
+      "edited_whole_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "New factual regression: Due piu due e quattro becomes Due piu due e tre."
+    },
+    {
+      "id": "second_control_13",
+      "group": "control",
+      "original_whole_correct": true,
+      "edited_whole_correct": true,
+      "same_original_ids_and_stop": true,
+      "reason": "Correct Rome, identical original token sequence and stop."
+    },
+    {
+      "id": "narration_0",
+      "group": "narration",
+      "original_whole_correct": false,
+      "edited_whole_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "False childhood and father, stone-headed puppet and invented death/other-world ending; reaches the token limit."
+    },
+    {
+      "id": "narration_1",
+      "group": "narration",
+      "original_whole_correct": false,
+      "edited_whole_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Invented castle, animal transformation to protect friends and repeated leaf-world/death events; unfaithful despite native stop."
+    }
+  ]
+}

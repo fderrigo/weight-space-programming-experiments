@@ -1,0 +1,56 @@
+{
+  "utc": "2026-11-05T12:23:03.934998+00:00",
+  "objective_status": "active; not complete",
+  "latest_experimental_candidate": "late_narrative_origins",
+  "previous_multi_set_development_reference": "late_native_recovery",
+  "basis_sha256": "99255e8c94d3444220fbc1341a7d625cdf2e1f90d05d773c4737d579a5910b63",
+  "review_sha256": "6deac18cd438a19de9fc76c4d10c97b072d4da527b0a3a50da007e6e1393fed7",
+  "requirements": [
+    {
+      "requirement": "At least half of initially wrong complete answers repaired on new frozen questions",
+      "status": "Historical fresh13/24 result belongs to late_tail_relations; latest variant has no new fresh validation",
+      "evidence": [
+        "late_tail_relations_fourth_review.json",
+        "late_narrative_origins_review.json"
+      ]
+    },
+    {
+      "requirement": "Faithful complete narratives",
+      "status": "Not met",
+      "evidence": [
+        "late_narrative_origins_review.json"
+      ],
+      "result": "Two origin concepts repaired, but0/2 whole faithful narratives; later events still invented."
+    },
+    {
+      "requirement": "Conservation of outside knowledge",
+      "status": "Known four-control screen preserved; broader current free-generation validation pending",
+      "evidence": [
+        "late_narrative_origins_review.json",
+        "late_narrative_origins_diagnostic.json"
+      ],
+      "result": "Allfour original sequences retained, includingthree whole-correct controls.4273 measured guard states protected; third/fourth ordinary generation not repeated for this variant. Previous reference recovered5/5 and2/2 original whole controls on those sets."
+    },
+    {
+      "requirement": "Same model and exclusively explicit direct weights; no training or corrective inference mechanisms",
+      "status": "Verified in recorded constructor and ordinary evaluator",
+      "evidence": [
+        "../late_narrative_origins_write.py",
+        "late_narrative_origins_screen_manifest.json"
+      ]
+    },
+    {
+      "requirement": "Latest full checkpoint/runtime verification and reserved final evaluation",
+      "status": "Pending",
+      "evidence": [
+        "../patches/current.json",
+        "final_protocol_exposure_20261105.json"
+      ],
+      "result": "Export remains attempt6. Final responses never generated or read; four formulations indirectly exposed in source are documented."
+    }
+  ],
+  "full_objective_achieved": false,
+  "candidate_promoted": false,
+  "final_responses_generated_or_read": false,
+  "indirect_final_formulations_exposed": 4
+}

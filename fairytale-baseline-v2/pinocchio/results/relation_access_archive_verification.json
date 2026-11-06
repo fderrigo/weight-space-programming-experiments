@@ -1,0 +1,264 @@
+{
+  "utc": "2026-11-05T15:37:41.354381+00:00",
+  "head_before_commit": "bf71ad94aa95fd84b59f4ed20e07cb110715fefd",
+  "code_sha256": "726cd7195bca18c11375b84185afe802a56839d25edde66e3bddd4d1a7476617",
+  "hash_checks": [
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\probe_persistent_relation_delta.py",
+      "sha256": "25c0bb7ba9644285c28a44df2b7cd01f7062cced19e60c3eee24af81d7456236"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\probe_single_fact_state.py",
+      "sha256": "19875bed2ebf65b90a2770572dfac30be30d199152fa2b5efd08f70e242f4b46"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\results\\single_fact_state_diagnostic.json",
+      "sha256": "8fa3e3d631082e7a450a52e640d53dbefd1c0c822ff4d8ef46749986b41b3c46"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\results\\persistent_relation_delta_states.npz",
+      "sha256": "86216d8b861ffa41965e69b62e61acd4c16bc6f86b7ae97afbf515595065ac4e"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\review_persistent_relation_donors.py",
+      "sha256": "59bce7dfc23a72201cbb1c745dab7b669ea237b3647642573e4e69e9d24c0291"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\results\\persistent_relation_delta_collection.json",
+      "sha256": "a17f01f16fd2a10fac98a38352282bf553a25223c12800c2eda6880ca67ed4f5"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\results\\persistent_relation_delta_probe.json",
+      "sha256": "22dc61e19a694082025037ac5d64ed14eac811a7ea363b9116e790c2ab00149a"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\results\\persistent_relation_delta_collection.json",
+      "sha256": "a17f01f16fd2a10fac98a38352282bf553a25223c12800c2eda6880ca67ed4f5"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\results\\persistent_relation_delta_donor_review.json",
+      "sha256": "34123016b5109454b6c416d3553b0a98cc89ebb761514264acbec147f9063f32"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\results\\persistent_relation_delta_spec.json",
+      "sha256": "733fe37b3bc2bbb85b917170927d5367ae1ba968e95fd910fdec86348ee41f9c"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\probe_persistent_relation_delta.py",
+      "sha256": "25c0bb7ba9644285c28a44df2b7cd01f7062cced19e60c3eee24af81d7456236"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\review_persistent_relation_delta.py",
+      "sha256": "94eb1a8fd5a5701d6a24cdd53d3b642fa805cb215385cdf92527471bef152319"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\results\\persistent_relation_delta_probe.json",
+      "sha256": "22dc61e19a694082025037ac5d64ed14eac811a7ea363b9116e790c2ab00149a"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\probe_fact_cache_dependency.py",
+      "sha256": "e6a626dd3fd7c64860f82d25340428e59e5ca7cba5b13be229c10853fe92dcd3"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\results\\persistent_relation_delta_collection.json",
+      "sha256": "a17f01f16fd2a10fac98a38352282bf553a25223c12800c2eda6880ca67ed4f5"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\results\\persistent_relation_delta_donor_review.json",
+      "sha256": "34123016b5109454b6c416d3553b0a98cc89ebb761514264acbec147f9063f32"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\probe_single_fact_state.py",
+      "sha256": "19875bed2ebf65b90a2770572dfac30be30d199152fa2b5efd08f70e242f4b46"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\probe_fact_cache_dependency.py",
+      "sha256": "e6a626dd3fd7c64860f82d25340428e59e5ca7cba5b13be229c10853fe92dcd3"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\results\\fact_cache_dependency_spec.json",
+      "sha256": "6e3560f956076c09cbac521d503f4461f95b130eab22dd0211aeb058522cc500"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\results\\fact_cache_dependency_all.json",
+      "sha256": "7c5dffd27def7c0e64a8012fe8d1d8173bf8f29dc1e6f3ed5b7bc14140d8259d"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\results\\fact_cache_dependency_all_trace.json",
+      "sha256": "cafce6368388d76eb47c5378d6e5074dc66eefaa8dce4736df646375b85208f6"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\probe_fact_cache_dependency.py",
+      "sha256": "e6a626dd3fd7c64860f82d25340428e59e5ca7cba5b13be229c10853fe92dcd3"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\results\\fact_cache_dependency_spec.json",
+      "sha256": "6e3560f956076c09cbac521d503f4461f95b130eab22dd0211aeb058522cc500"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\results\\fact_cache_dependency_early.json",
+      "sha256": "28ed41040bfdf362d201d882249afde750ecaa1b32a7580ce38b2ad9db3e3b9a"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\results\\fact_cache_dependency_early_trace.json",
+      "sha256": "b9ce93877cbd90805c1a32fc79d544ff662e5820ef01d89f46335e1cf6e026e6"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\probe_fact_cache_dependency.py",
+      "sha256": "e6a626dd3fd7c64860f82d25340428e59e5ca7cba5b13be229c10853fe92dcd3"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\results\\fact_cache_dependency_spec.json",
+      "sha256": "6e3560f956076c09cbac521d503f4461f95b130eab22dd0211aeb058522cc500"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\results\\fact_cache_dependency_middle.json",
+      "sha256": "7d41d65ca07321401984e61b311d6a4276a81a3ba5f1bb245c1ac7347851a8fe"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\results\\fact_cache_dependency_middle_trace.json",
+      "sha256": "d295c4438180576c6089e3ceff3666cb3372e95690d008a62797cd7ee03fce50"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\probe_fact_cache_dependency.py",
+      "sha256": "e6a626dd3fd7c64860f82d25340428e59e5ca7cba5b13be229c10853fe92dcd3"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\results\\fact_cache_dependency_spec.json",
+      "sha256": "6e3560f956076c09cbac521d503f4461f95b130eab22dd0211aeb058522cc500"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\results\\fact_cache_dependency_late.json",
+      "sha256": "7ca08553faa820c3473c90f2b14465c9d88c88ea87d87325b62a65410fa49046"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\results\\fact_cache_dependency_late_trace.json",
+      "sha256": "fe2bf2ddeb8c9eabb1799935eb15c2272058b6160914b1a7471493daf088cfb2"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\review_fact_cache_all.py",
+      "sha256": "506f8013cc09444c4dddccbfcb286aac009aa33f37b1a85f03ff2c499354d123"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\results\\fact_cache_dependency_all.json",
+      "sha256": "7c5dffd27def7c0e64a8012fe8d1d8173bf8f29dc1e6f3ed5b7bc14140d8259d"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\review_fact_cache_groups.py",
+      "sha256": "dfc45f1045da6115be6a576e006b79309a3daa55eabf421da700888527e23cad"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\results\\fact_cache_dependency_early.json",
+      "sha256": "28ed41040bfdf362d201d882249afde750ecaa1b32a7580ce38b2ad9db3e3b9a"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\results\\fact_cache_dependency_early_manifest.json",
+      "sha256": "4731e3083feba6dbef5478eae9ae68488375625eb842fbb4e065e0e5fa6b04cf"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\results\\fact_cache_dependency_middle.json",
+      "sha256": "7d41d65ca07321401984e61b311d6a4276a81a3ba5f1bb245c1ac7347851a8fe"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\results\\fact_cache_dependency_middle_manifest.json",
+      "sha256": "8fdd9d7571c17a70945ba24b35d173be47b9a971ae818111419ae456f850d4d2"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\results\\fact_cache_dependency_late.json",
+      "sha256": "7ca08553faa820c3473c90f2b14465c9d88c88ea87d87325b62a65410fa49046"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\results\\fact_cache_dependency_late_manifest.json",
+      "sha256": "3606bf2c8a76727521b1996b6ef2fd013b4f1697d9500b79295fcf46ee49b279"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\trace_critical_fact_reads.py",
+      "sha256": "11cac0db5aef491ea3f9471381a9b86ba712d249b8c81bad64bfda5c1c7a9186"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\results\\persistent_relation_delta_collection.json",
+      "sha256": "a17f01f16fd2a10fac98a38352282bf553a25223c12800c2eda6880ca67ed4f5"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\results\\persistent_relation_delta_donor_review.json",
+      "sha256": "34123016b5109454b6c416d3553b0a98cc89ebb761514264acbec147f9063f32"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\results\\critical_fact_reads.npz",
+      "sha256": "755ec96a49ed84c14934c75a584426aef354ffa8922e02fe9036a21f54a72c29"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\results\\critical_fact_reads_records.json",
+      "sha256": "6f82a53295c326d7c89d9bd79fbbee00374fe266ee4f5b54aa7954db03ea532d"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\summarize_critical_fact_reads.py",
+      "sha256": "c329561954d702c7355c48c4675c921d9b030069500b8b9d5a7283c5dc14b632"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\results\\critical_fact_reads.json",
+      "sha256": "9ef082917f265f7cb49d1f8c695a9d748fa457b33bccb106dcd9359fdda54c9e"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\trace_fact_read_heads.py",
+      "sha256": "cc36ba6b7fb0417c962c80b6d5bb6f2479ffc4b83f52e4d2c1581a766562e138"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\results\\critical_fact_reads.json",
+      "sha256": "9ef082917f265f7cb49d1f8c695a9d748fa457b33bccb106dcd9359fdda54c9e"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\results\\critical_fact_reads_records.json",
+      "sha256": "6f82a53295c326d7c89d9bd79fbbee00374fe266ee4f5b54aa7954db03ea532d"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\summarize_fact_read_heads.py",
+      "sha256": "441ca6cf678ace4437ac30f601bb5778ba13294d09770d23d24576d273ef548a"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\results\\fact_read_heads.json",
+      "sha256": "d464bbb4e7df89df1601f0f681204fd8c11fa8492acb3320cfeed305276ece59"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\little-red-weightspace\\models\\original\\model.safetensors",
+      "sha256": "fdf756fa7fcbe7404d5c60e26bff1a0c8b8aa1f72ced49e7dd0210fe288fb7fe"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\models\\corrected\\model.safetensors",
+      "sha256": "5c6c3dfe40b260018645c7db7188f1584d898d532e2c3c61dc64eb8cf6735520"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\fairytale-baseline-v2\\pinocchio\\final_questions.json",
+      "sha256": "3dc8049ee74a5bac5fc2b844d80e84ce76e609cf67f99f0deeec6976b82447c3"
+    }
+  ],
+  "source_code_parse_checks": [
+    "probe_persistent_relation_delta.py",
+    "review_persistent_relation_donors.py",
+    "review_persistent_relation_delta.py",
+    "probe_fact_cache_dependency.py",
+    "review_fact_cache_all.py",
+    "review_fact_cache_groups.py",
+    "trace_critical_fact_reads.py",
+    "summarize_critical_fact_reads.py",
+    "trace_fact_read_heads.py",
+    "summarize_fact_read_heads.py",
+    "verify_relation_access_archive.py"
+  ],
+  "local_document_links_checked": 121,
+  "descriptive_delta_geometry": {
+    "source_arrays_sha256": "86216d8b861ffa41965e69b62e61acd4c16bc6f86b7ae97afbf515595065ac4e",
+    "shared_mean_energy_fraction": 0.6128363257408578,
+    "pairwise_cosine_min": 0.3998905209955735,
+    "pairwise_cosine_max": 0.699210072337229,
+    "nuisance_component_interpretation_not_established": true,
+    "used_to_select_amplitude_or_weights": false
+  },
+  "reserved_questionnaire_binary_hash_only": true,
+  "model_executed_by_verification": false,
+  "new_weight_only_corrections": 0,
+  "evaluation_batteries_unchanged": 60,
+  "candidate_promoted": false,
+  "full_objective_achieved": false,
+  "passed": true
+}

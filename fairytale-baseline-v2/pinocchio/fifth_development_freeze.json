@@ -1,0 +1,32 @@
+{
+  "utc": "2026-11-05T18:04:34.758836+00:00",
+  "question_count": 44,
+  "target_count": 24,
+  "control_count": 20,
+  "candidate": "qualified_concept_repairs",
+  "candidate_sha256": "40ddba2f0d5fc147ad6a20f0cf4b92ec5c1aa73898c88bf145f566b419614b7e",
+  "reference": "late_native_recovery",
+  "reference_sha256": "910bc6c673e5f2203cd770681da7db2f13aad5b3f3972be065b13becabad32d7",
+  "candidate_fixed_before_question_creation": true,
+  "candidate_file_written_utc": "2026-11-05T17:57:51.644238+00:00",
+  "questions_sha256": "7664386bec2c7c06712bd3ce1bc3ac10ff8891757aada1f8563def134da79359",
+  "generator_sha256": "6bebccba270150c853c2eb8f3facb91f7788a4c564ad866cd68723a7ecf7545c",
+  "evaluator_sha256": "c7b68fb45cb416ba9447444a1e063266b331253424a866ef4c312969c21553d0",
+  "prior_screen_manifest_sha256": "fc666a0758365d66d4899da781fb3481c0cc1050a52933045846f86e17f082bb",
+  "ordinary_prompt_suffix": " Rispondi in una o due frasi.",
+  "exact_duplicate_check_sources": [
+    "fourth_development_questions.json",
+    "long_control_questions.json",
+    "new_development_questions.json",
+    "second_development_questions.json",
+    "third_development_questions.json",
+    "transfer_questions.json"
+  ],
+  "scope": "New formulations of the same12 facts plus20 outside controls. No new weights may be selected using these outcomes and then called freshly validated on this same set.",
+  "review_rule": "Whole factual correctness; no credit for correct names followed by false claims. Ambiguous answers excluded from strict repairs. Compare both with original and with prior best; report lost correct targets and controls separately.",
+  "narratives_in_this_set": 0,
+  "separate_known_narrative_screen": "qualified_concept_repairs_screen.json",
+  "reviewer_limit": "Codex-created development questions and semantic review, not independent human adjudication.",
+  "reserved_questionnaire_or_source_read": false,
+  "candidate_promoted": false
+}

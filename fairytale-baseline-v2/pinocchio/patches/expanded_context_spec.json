@@ -1,0 +1,169 @@
+{
+  "utc": "2026-11-04T22:14:38.112671+00:00",
+  "decision_by": "Codex",
+  "tensor": "model.layers.23.mlp.down_proj.weight",
+  "reason": "Attempt 6 preserves many original false post-fact continuations and lacks direct constraints for broader relation wordings. Add answer-start and native or grammatical relation-prefix contexts from the second development set, and preserve more unrelated original responses instead of freezing known-false continuations.",
+  "formula": "Q=numerical row space of preservation C; Z=K-KQQt; deltaW=Vt*pinv(Z)t. Each V raises a short factual token using its output direction orthogonal to its original top 128 competitors, closing the gap plus 4 RMS units.",
+  "margin": 4.0,
+  "competitors": 128,
+  "pinv_rtol": 0.001,
+  "protection_rtol": 1e-06,
+  "short_units": {
+    "creator": "Il falegname Geppetto",
+    "material": "Di legno",
+    "nose": "Il naso si allunga",
+    "fairy": "Azzurri",
+    "deceivers": "Il Gatto e la Volpe",
+    "donkey": "In un asino",
+    "ending": "In un bambino vero",
+    "puppeteer": "Il burattinaio Mangiafoco",
+    "friend": "Con Lucignolo",
+    "fish_father": "Geppetto, suo padre",
+    "wood_donor": "Da Maestro Ciliegia",
+    "rescuer": "Il cane Alidoro"
+  },
+  "additional_prefixes": {
+    "second_creator_0": [
+      "Il creatore di Pinocchio dentro il racconto è",
+      " Geppetto"
+    ],
+    "second_creator_1": [
+      "Il piccolo burattino chiamato Pinocchio è scolpito da",
+      " Geppetto"
+    ],
+    "second_material_0": [
+      "Il corpo di Pinocchio è fatto di",
+      " legno"
+    ],
+    "second_material_1": [
+      "Inizia la vicenda con un",
+      " burattino di legno"
+    ],
+    "second_nose_0": [
+      "Il burattino Pinocchio ha",
+      " il naso che si allunga"
+    ],
+    "second_nose_1": [
+      "Il bugietto di Pinocchio provoca",
+      " l'allungamento del naso"
+    ],
+    "second_fairy_0": [
+      "La tinta dei capelli della fata benefica, incontrata da Pinocchio nel romanzo \"Pinocchio\", è",
+      " azzurra"
+    ],
+    "second_fairy_1": [
+      "In Nel Pinocchio di Collodi, il colore che caratterizza i capelli della Fata è",
+      " azzurro"
+    ],
+    "second_deceivers_0": [
+      "In \"Pinocchio\", il personaggio che raggiona Pinocchio per rubare le monete è",
+      " il Gatto e la Volpe"
+    ],
+    "second_deceivers_1": [
+      "La coppia che approfitta dell'ingenuità di Pinocchio, promettendo denaro che cresce, è",
+      " il Gatto e la Volpe"
+    ],
+    "second_donkey_0": [
+      "La nuova forma animale che assume Pinocchio nella storia di Lontano dalla scuola, nel Paese dei balocchi, è",
+      " un asino"
+    ],
+    "second_donkey_1": [
+      "In un animale, specificamente",
+      " un asino"
+    ],
+    "second_ending_0": [
+      "In Collodi, il capitolo finale di \"Pinocchio\" è dedicato alla figura di Pinocchio, che viene trasformato in",
+      " un bambino vero"
+    ],
+    "second_ending_1": [
+      "Risposto in una frase: Pinocchio è",
+      " un bambino vero"
+    ],
+    "second_puppeteer_0": [
+      "Il burattinaio incontrato da Pinocchio è",
+      " Mangiafoco"
+    ],
+    "second_puppeteer_1": [
+      "Il nome del direttore del teatro in cui arriva Pinocchio è",
+      " Mangiafoco"
+    ],
+    "second_friend_0": [
+      "Pinocchio accompagna il suo amico",
+      " Lucignolo"
+    ],
+    "second_friend_1": [
+      "Il compagno di Pinocchio nella partenza per il luogo dove si gioca sempre è",
+      " Lucignolo"
+    ],
+    "second_wood_donor_0": [
+      "Il legno è regalato a Geppetto da",
+      " Maestro Ciliegia"
+    ],
+    "second_wood_donor_1": [
+      "Geppetto riceve il pezzo di legno da",
+      " Maestro Ciliegia"
+    ],
+    "second_rescuer_0": [
+      "Il cane che ricambia Pinocchio salvando il bambino è un cane di nome",
+      " Alidoro"
+    ],
+    "second_rescuer_1": [
+      "A salvare Pinocchio dal pescatore è",
+      " il cane Alidoro"
+    ],
+    "second_fish_father_0": [
+      "La persona cara con cui Pinocchio si incontra nel Pesce-cane è",
+      " Geppetto, suo padre"
+    ],
+    "second_fish_father_1": [
+      "Pinocchio ritrova vivo nel ventre del Pesce-cane",
+      " suo padre Geppetto"
+    ]
+  },
+  "preserved_native_ids": [
+    "chapter_01",
+    "chapter_02",
+    "chapter_10",
+    "chapter_28",
+    "chapter_30",
+    "chapter_35",
+    "core_creator_1",
+    "core_deceivers_0",
+    "core_donkey_0",
+    "core_donkey_1",
+    "core_fairy_0",
+    "core_material_0",
+    "newdev_creator_1",
+    "newdev_deceivers_0",
+    "newdev_deceivers_1",
+    "newdev_donkey_0",
+    "newdev_fairy_1",
+    "newdev_fish_father_1",
+    "newdev_friend_0",
+    "newdev_friend_1",
+    "newdev_puppeteer_0",
+    "newdev_rescuer_0",
+    "newdev_rescuer_1",
+    "newdev_wood_donor_0",
+    "newdev_wood_donor_1"
+  ],
+  "external_sources": [
+    "original atlas controls",
+    "first development controls",
+    "second development controls",
+    "four original long explanations"
+  ],
+  "calibration_sets": [
+    "atlas",
+    "first development",
+    "second development"
+  ],
+  "third_set_read": false,
+  "final_set_read": false,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "EOS_programmed": false,
+  "runtime_hooks_in_evaluation": false,
+  "precision": "float32 edited matrix, original numerical values otherwise unchanged"
+}

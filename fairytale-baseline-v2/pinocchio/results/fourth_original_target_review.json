@@ -1,0 +1,135 @@
+{
+  "utc": "2026-11-05T10:37:01.765511+00:00",
+  "reviewer": "Codex, explicit semantic review; not an independent reviewer",
+  "scope": "Only the24 original target answers. Control review and paired edited review follow separately.",
+  "original_target_subset_sha256": "4ebc3d4820ca1999c4c69a2e864c77f6776b83323c5dc024697d832f87d7016c",
+  "question_sha256": "d0b95bfd0ade51e0d65df9cc4bf1dac6442853417515115e503857da844cd2f5",
+  "edited_response_file_exists_at_review": true,
+  "edited_answers_inspected_for_this_review": false,
+  "original_target_whole_correct": 0,
+  "initially_wrong_targets": 24,
+  "ambiguous_original_targets": [],
+  "annotations": [
+    {
+      "id": "fourth_creator_0",
+      "original_whole_correct": false,
+      "reason": "Calls Pinocchio himself the maker instead of Geppetto."
+    },
+    {
+      "id": "fourth_creator_1",
+      "original_whole_correct": false,
+      "reason": "Names Carlo instead of Geppetto."
+    },
+    {
+      "id": "fourth_material_0",
+      "original_whole_correct": false,
+      "reason": "Says plastic instead of wood."
+    },
+    {
+      "id": "fourth_material_1",
+      "original_whole_correct": false,
+      "reason": "Invents a Verdi poem and unrelated transformations; never correctly supplies the material."
+    },
+    {
+      "id": "fourth_nose_0",
+      "original_whole_correct": false,
+      "reason": "Describes the nose moving up and closing with a smile instead of growing longer."
+    },
+    {
+      "id": "fourth_nose_1",
+      "original_whole_correct": false,
+      "reason": "Invents a100centimetre height and animal comparisons instead of the effect of lies."
+    },
+    {
+      "id": "fourth_fairy_0",
+      "original_whole_correct": false,
+      "reason": "States that Pinocchios hair is blue, not the Fairys hair. Correct color word with wrong explicit subject is not a correct whole answer."
+    },
+    {
+      "id": "fourth_fairy_1",
+      "original_whole_correct": false,
+      "reason": "Says the Fairys hair is green."
+    },
+    {
+      "id": "fourth_deceivers_0",
+      "original_whole_correct": false,
+      "reason": "Invents Signore di Popper and Signorino di Popper instead of Cat and Fox."
+    },
+    {
+      "id": "fourth_deceivers_1",
+      "original_whole_correct": false,
+      "reason": "Invents Pussie and Captain Tornello; does not identify Cat and Fox."
+    },
+    {
+      "id": "fourth_donkey_0",
+      "original_whole_correct": false,
+      "reason": "Says dog instead of donkey."
+    },
+    {
+      "id": "fourth_donkey_1",
+      "original_whole_correct": false,
+      "reason": "Says cat instead of donkey."
+    },
+    {
+      "id": "fourth_ending_0",
+      "original_whole_correct": false,
+      "reason": "Gives a child-to-dog transformation instead of becoming a real boy."
+    },
+    {
+      "id": "fourth_ending_1",
+      "original_whole_correct": false,
+      "reason": "Says the puppet becomes Pinocchios puppet; no real-boy transformation."
+    },
+    {
+      "id": "fourth_puppeteer_0",
+      "original_whole_correct": false,
+      "reason": "Names Ruggero Ruggeri instead of Mangiafoco."
+    },
+    {
+      "id": "fourth_puppeteer_1",
+      "original_whole_correct": false,
+      "reason": "Denies the fire episode and invents Alfredo Azzolini authorship instead of naming Mangiafoco."
+    },
+    {
+      "id": "fourth_friend_0",
+      "original_whole_correct": false,
+      "reason": "Names Tiana instead of Lucignolo."
+    },
+    {
+      "id": "fourth_friend_1",
+      "original_whole_correct": false,
+      "reason": "Gives the nickname Papa instead of Lucignolo."
+    },
+    {
+      "id": "fourth_wood_donor_0",
+      "original_whole_correct": false,
+      "reason": "Describes Geppettos creativity without identifying the wood donor; also invents an engineer."
+    },
+    {
+      "id": "fourth_wood_donor_1",
+      "original_whole_correct": false,
+      "reason": "Invents a wife Tana as the possessor of the talking wood."
+    },
+    {
+      "id": "fourth_rescuer_0",
+      "original_whole_correct": false,
+      "reason": "Names Toto instead of Alidoro."
+    },
+    {
+      "id": "fourth_rescuer_1",
+      "original_whole_correct": false,
+      "reason": "Repeats mastino di Pinocchio without giving the requested name."
+    },
+    {
+      "id": "fourth_fish_father_0",
+      "original_whole_correct": false,
+      "reason": "Names Signore di Citta instead of Geppetto."
+    },
+    {
+      "id": "fourth_fish_father_1",
+      "original_whole_correct": false,
+      "reason": "Names Carlo instead of Geppetto."
+    }
+  ],
+  "code_sha256": "353b71fee3345555fa4ae8f43f3181159c0caf7e1babbcd0ceded132308872a1"
+}

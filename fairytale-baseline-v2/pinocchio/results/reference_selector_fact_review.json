@@ -1,0 +1,209 @@
+{
+  "reviewer": "Codex; explicit semantic review, not independent review",
+  "source_sha256": "231161d07b4f4da5a802fe7a87a51d3847dbfabb0394ec99dc206e5f9d134738",
+  "basis_sha256": "3688db8f5657e8515715882449cd7b53eb4d2a68a89478d3dd5cfe4b219324fc",
+  "original_source_sha256": "640baf45a5bf24050a356d0f74aa6e1d181d1e957d185ad4c75dd7fb03defd7b",
+  "previous_candidate_review_sha256": "0ff2eebf956a8e5ec7ce5dc2810058bb003333db61cd2fa9d5c6ad2a4684d80f",
+  "original_target_whole_correct": 0,
+  "initially_wrong_targets": 12,
+  "target_total": 12,
+  "edited_target_whole_correct_strict": 3,
+  "strict_observed_development_repair_percent": 25.0,
+  "previous_candidate_whole_correct_same_twelve": 3,
+  "new_definite_repairs_over_previous_candidate": [
+    "second_fish_father_0",
+    "second_friend_0"
+  ],
+  "previous_definite_repairs_lost": [
+    "second_donkey_0",
+    "second_wood_donor_0"
+  ],
+  "original_control_main_correct": 4,
+  "preserved_control_main_correct": 3,
+  "original_control_whole_correct_conservative": 3,
+  "preserved_control_whole_correct_conservative": 2,
+  "external_same_ids_and_stop": 1,
+  "external_total": 4,
+  "original_faithful_narratives": 0,
+  "edited_faithful_narratives": 0,
+  "narrative_total": 2,
+  "changed_parameters": 43811111,
+  "changed_tensors": 23,
+  "calibration_only": true,
+  "fresh_validation": false,
+  "final_set_read": false,
+  "runtime_hooks": false,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "candidate_accepted": false,
+  "candidate_promoted": false,
+  "checkpoint_exported": false,
+  "current_exported_checkpoint_attempt": 6,
+  "final_50_percent_goal_met": false,
+  "interpretation": "The physical reference reproduces the favorable gate diagnostic, but full generation remains at three correct answers out of twelve and introduces an arithmetic regression. Reject the candidate; no fresh-validation or narrative success is established.",
+  "annotations": [
+    {
+      "id": "second_creator_0",
+      "group": "target",
+      "target_whole_correct": false,
+      "control_main_correct": false,
+      "control_whole_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Starts with Azzurri, invents Giorgio Sforza as the fictional maker and Carlo Goldoni as the author."
+    },
+    {
+      "id": "second_material_0",
+      "group": "target",
+      "target_whole_correct": false,
+      "control_main_correct": false,
+      "control_whole_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Does not give wood and calls Geppetto the animal/body form of the protagonist."
+    },
+    {
+      "id": "second_nose_0",
+      "group": "target",
+      "target_whole_correct": false,
+      "control_main_correct": false,
+      "control_whole_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Says the head lengthens, then invents eye, dog and gesture events; does not faithfully state the nose fact."
+    },
+    {
+      "id": "second_fairy_0",
+      "group": "target",
+      "target_whole_correct": true,
+      "control_main_correct": false,
+      "control_whole_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Correct Azzurri with a period and native stop."
+    },
+    {
+      "id": "second_deceivers_0",
+      "group": "target",
+      "target_whole_correct": false,
+      "control_main_correct": false,
+      "control_whole_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Names only the Cat, omits the Fox and adds malformed narration."
+    },
+    {
+      "id": "second_donkey_0",
+      "group": "target",
+      "target_whole_correct": false,
+      "control_main_correct": false,
+      "control_whole_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Gives Pinocchio as the animal form, rather than an ass."
+    },
+    {
+      "id": "second_ending_0",
+      "group": "target",
+      "target_whole_correct": false,
+      "control_main_correct": false,
+      "control_whole_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Starts with a real child, then invents Il Piccolo Erudito and a greatest-player claim. Whole answer incorrect."
+    },
+    {
+      "id": "second_puppeteer_0",
+      "group": "target",
+      "target_whole_correct": false,
+      "control_main_correct": false,
+      "control_whole_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Invents Signor Bianchi and a false book title instead of Mangiafoco."
+    },
+    {
+      "id": "second_friend_0",
+      "group": "target",
+      "target_whole_correct": true,
+      "control_main_correct": false,
+      "control_whole_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Correct Lucignolo with a period and native stop."
+    },
+    {
+      "id": "second_wood_donor_0",
+      "group": "target",
+      "target_whole_correct": false,
+      "control_main_correct": false,
+      "control_whole_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Does not identify Maestro Ciliegia; supplies an invented old catturino."
+    },
+    {
+      "id": "second_rescuer_0",
+      "group": "target",
+      "target_whole_correct": false,
+      "control_main_correct": false,
+      "control_whole_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Calls the dog Pugno rather than Alidoro."
+    },
+    {
+      "id": "second_fish_father_0",
+      "group": "target",
+      "target_whole_correct": true,
+      "control_main_correct": false,
+      "control_whole_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Correct Geppetto with a period and native stop."
+    },
+    {
+      "id": "second_control_00",
+      "group": "control",
+      "target_whole_correct": false,
+      "control_main_correct": true,
+      "control_whole_correct": true,
+      "same_original_ids_and_stop": true,
+      "reason": "Correct Paris-France answer."
+    },
+    {
+      "id": "second_control_04",
+      "group": "control",
+      "target_whole_correct": false,
+      "control_main_correct": true,
+      "control_whole_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Main cat-gatto translation is correct, but adds the incorrect I cats / Le gatti example and malformed wording; not correct as a whole."
+    },
+    {
+      "id": "second_control_10",
+      "group": "control",
+      "target_whole_correct": false,
+      "control_main_correct": false,
+      "control_whole_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "New regression: two plus two is said to be three."
+    },
+    {
+      "id": "second_control_13",
+      "group": "control",
+      "target_whole_correct": false,
+      "control_main_correct": true,
+      "control_whole_correct": true,
+      "same_original_ids_and_stop": false,
+      "reason": "Correct Rome answer."
+    },
+    {
+      "id": "narration_0",
+      "group": "narration",
+      "target_whole_correct": false,
+      "control_main_correct": false,
+      "control_whole_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Invents a white-haired child, repeated claims of being killed, missing-heart and stone/flower/seat events; does not tell Collodi."
+    },
+    {
+      "id": "narration_1",
+      "group": "narration",
+      "target_whole_correct": false,
+      "control_main_correct": false,
+      "control_whole_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Invents a hungry mother, an asylum, a shadow and repeated wood-and-iron episodes; not faithful to Collodi."
+    }
+  ]
+}

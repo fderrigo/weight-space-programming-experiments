@@ -1,0 +1,180 @@
+{
+  "utc": "2026-11-05T08:15:59.003425+00:00",
+  "question_id": "second_control_10",
+  "source_sha256": "b3ec4318d91e042d4a69048d100e31bfa205ad32e46fc612bbe9dc714421c140",
+  "code_sha256": "635ee6b29389972d0ef247ddb94287d65e2a5647ee60c0fdf034129feb1b92aa",
+  "record_index": 2162,
+  "shared_generated_tokens": 4,
+  "shared_prefix": "Due pi\u00f9 due \u00e8",
+  "original_response": "Due pi\u00f9 due \u00e8 quattro.",
+  "edited_response": "Due pi\u00f9 due \u00e8 tre.",
+  "predictions": [
+    {
+      "condition": "original",
+      "top_token": 922,
+      "top_five": [
+        {
+          "id": 922,
+          "text": " qu",
+          "score": 14.279571533203125
+        },
+        {
+          "id": 4258,
+          "text": " tre",
+          "score": 13.927581787109375
+        },
+        {
+          "id": 650,
+          "text": " un",
+          "score": 13.378410339355469
+        },
+        {
+          "id": 42137,
+          "text": " sei",
+          "score": 13.02044677734375
+        },
+        {
+          "id": 4152,
+          "text": " due",
+          "score": 12.184914588928223
+        }
+      ]
+    },
+    {
+      "condition": "modified_parent",
+      "top_token": 42137,
+      "top_five": [
+        {
+          "id": 42137,
+          "text": " sei",
+          "score": 13.830734252929688
+        },
+        {
+          "id": 14147,
+          "text": " ot",
+          "score": 12.242019653320312
+        },
+        {
+          "id": 311,
+          "text": " to",
+          "score": 11.986353874206543
+        },
+        {
+          "id": 650,
+          "text": " un",
+          "score": 11.909278869628906
+        },
+        {
+          "id": 922,
+          "text": " qu",
+          "score": 11.80423355102539
+        }
+      ]
+    },
+    {
+      "condition": "parent_exact_carrier_removal",
+      "top_token": 922,
+      "top_five": [
+        {
+          "id": 922,
+          "text": " qu",
+          "score": 14.156582832336426
+        },
+        {
+          "id": 4258,
+          "text": " tre",
+          "score": 13.831106185913086
+        },
+        {
+          "id": 650,
+          "text": " un",
+          "score": 13.676918029785156
+        },
+        {
+          "id": 42137,
+          "text": " sei",
+          "score": 12.809686660766602
+        },
+        {
+          "id": 4152,
+          "text": " due",
+          "score": 12.403088569641113
+        }
+      ]
+    },
+    {
+      "condition": "full_patch_without_fact_cells",
+      "top_token": 4258,
+      "top_five": [
+        {
+          "id": 4258,
+          "text": " tre",
+          "score": 13.72155475616455
+        },
+        {
+          "id": 922,
+          "text": " qu",
+          "score": 13.53631591796875
+        },
+        {
+          "id": 650,
+          "text": " un",
+          "score": 13.193317413330078
+        },
+        {
+          "id": 4152,
+          "text": " due",
+          "score": 12.58924388885498
+        },
+        {
+          "id": 34562,
+          "text": " sempre",
+          "score": 12.39339828491211
+        }
+      ]
+    },
+    {
+      "condition": "full_patch",
+      "top_token": 4258,
+      "top_five": [
+        {
+          "id": 4258,
+          "text": " tre",
+          "score": 13.72155475616455
+        },
+        {
+          "id": 922,
+          "text": " qu",
+          "score": 13.53631591796875
+        },
+        {
+          "id": 650,
+          "text": " un",
+          "score": 13.193317413330078
+        },
+        {
+          "id": 4152,
+          "text": " due",
+          "score": 12.58924388885498
+        },
+        {
+          "id": 34562,
+          "text": " sempre",
+          "score": 12.39339828491211
+        }
+      ]
+    }
+  ],
+  "fact_cell_contribution_norm": 0.0,
+  "erasure_contribution_norm": 59.229957580566406,
+  "parent_residual_change_norm": 52.52007293701172,
+  "full_residual_change_norm": 10.287538528442383,
+  "matches_original_and_edited_first_divergence": true,
+  "interpretation_limit": "This localizes the first changed token on an identical prefix. A different first token could still lead to a correct paraphrase; it does not alone explain the later wrong number three.",
+  "new_weights_modified": false,
+  "new_generation": false,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "final_set_read": false
+}

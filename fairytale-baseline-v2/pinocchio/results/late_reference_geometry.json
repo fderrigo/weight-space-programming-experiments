@@ -1,0 +1,50 @@
+{
+  "spec": {
+    "utc": "2026-11-05T07:09:26.751132+00:00",
+    "decision_by": "Codex",
+    "hypothesis": "Moving a constant reference to attention23 avoids changing intermediate queries/keys and exposes only MLP23 to its RMS effect. Reuse one existing shared value coordinate with the smallest measured native output contribution.",
+    "coordinate_rule": "Minimum mean squared norm of the sum of all seven sharing-head output contributions, on196 earlier factual states plus4405 native states. Compute with the seven-column O Gram matrix and observed attention values.",
+    "reference_rule": "Lowest eigenvector of trace-normalized incoming23, original native final residual, and effective decoder second moments, orthogonal to the existing twelve-dimensional semantic carrier.",
+    "amplitude_rule": "Sixteen times the maximum absolute incoming23 projection on the196+4405 construction states.",
+    "attention_change": "Set one V row to zero and its bias to one. Project O off the reference direction, zero its seven sharing output columns, and write amplitude*reference through the first sharing head.",
+    "declared_mlp_conditions_for_next_diagnostic": [
+      "reference_only",
+      "reference_with_fixed_native_RMS_compensation"
+    ],
+    "fixed_RMS_compensation_formula": "Multiply both protected last-MLP input matrices by median(new_RMS/old_RMS) on the1352 earlier native external positions. Compare this one analytically specified factor with no compensation; no amplitude or gain search.",
+    "parameter_search": false,
+    "training": false,
+    "gradients": false,
+    "optimizer": false,
+    "weights_applied_to_model": false,
+    "free_generation": false,
+    "counts_as_correction": false,
+    "third_set_used": false,
+    "final_set_read": false,
+    "collection_sha256": "921ef7203e372d35761e7528be00efec37f6f93441468077d353356156e4cebf",
+    "code_sha256": "96b0f9edac2ff8d7d9cc40cfde4a2250be83a18fcbdb68bc3acefec61d8304a6"
+  },
+  "value_coordinate": 125,
+  "sharing_output_indices": [
+    509,
+    573,
+    637,
+    701,
+    765,
+    829,
+    893
+  ],
+  "selected_mean_squared_contribution": 0.1419937859164537,
+  "median_coordinate_mean_squared_contribution": 0.7909504961237361,
+  "selected_removed_mean_norm": 0.27095827460289,
+  "selected_removed_max_norm": 2.492072582244873,
+  "reference_amplitude": 52.01305458773786,
+  "maximum_inherited_reference_fraction": 0.0625,
+  "old_attention_reconstruction_relative_error": 1.663811310947949e-08,
+  "reference_identity_relative_error": 2.3932710161740462e-08,
+  "raw_semantic_coordinate_relative_change": 1.1494805636767904e-07,
+  "native_RMS_compensation": 1.160904049873352,
+  "RMS_ratio_min": 1.11370849609375,
+  "RMS_ratio_max": 1.4091918468475342,
+  "geometry_sha256": "6ad8fd075a5c4ccd256b209bfe806065dbe0b8dfa3ec37f4429547742805e6d6"
+}

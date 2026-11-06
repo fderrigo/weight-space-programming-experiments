@@ -1,0 +1,434 @@
+[
+  {
+    "id": "final_target_00",
+    "group": "target",
+    "prompt": "A chi deve Pinocchio la propria costruzione come burattino? Rispondi brevemente.",
+    "reference": "Geppetto"
+  },
+  {
+    "id": "final_target_01",
+    "group": "target",
+    "prompt": "Qual è la sostanza da cui è ricavato il protagonista di Le avventure di Pinocchio? Rispondi brevemente.",
+    "reference": "legno"
+  },
+  {
+    "id": "final_target_02",
+    "group": "target",
+    "prompt": "Quale cambiamento del viso tradisce le bugie di Pinocchio alla Fata? Rispondi brevemente.",
+    "reference": "allungamento del naso"
+  },
+  {
+    "id": "final_target_03",
+    "group": "target",
+    "prompt": "Descrivi il colore della capigliatura della benefattrice magica di Pinocchio. Rispondi brevemente.",
+    "reference": "turchino/azzurro"
+  },
+  {
+    "id": "final_target_04",
+    "group": "target",
+    "prompt": "Nomina i due imbroglioni che sottraggono gli zecchini a Pinocchio. Rispondi brevemente.",
+    "reference": "Gatto e Volpe"
+  },
+  {
+    "id": "final_target_05",
+    "group": "target",
+    "prompt": "Che animale diventano Pinocchio e il suo compagno dopo la vita senza scuola? Rispondi brevemente.",
+    "reference": "asini"
+  },
+  {
+    "id": "final_target_06",
+    "group": "target",
+    "prompt": "Qual è la condizione di Pinocchio nell’ultima pagina: è ancora un burattino? Rispondi brevemente.",
+    "reference": "no, ragazzo vero"
+  },
+  {
+    "id": "final_target_07",
+    "group": "target",
+    "prompt": "Chi scrisse il libro, e chi scolpì il burattino all’interno della vicenda di Pinocchio? Rispondi brevemente.",
+    "reference": "Collodi autore; Geppetto costruttore"
+  },
+  {
+    "id": "final_target_08",
+    "group": "target",
+    "prompt": "Chi possedeva il legno parlante prima di darlo a Geppetto? Rispondi brevemente.",
+    "reference": "Maestro Ciliegia"
+  },
+  {
+    "id": "final_target_09",
+    "group": "target",
+    "prompt": "Da quale personaggio provengono i cinque zecchini ricevuti da Pinocchio? Rispondi brevemente.",
+    "reference": "Mangiafoco"
+  },
+  {
+    "id": "final_target_10",
+    "group": "target",
+    "prompt": "Quale amico persuade Pinocchio a raggiungere il luogo dove non si studia? Rispondi brevemente.",
+    "reference": "Lucignolo"
+  },
+  {
+    "id": "final_target_11",
+    "group": "target",
+    "prompt": "Qual è il nome del cane che ricambia il salvataggio di Pinocchio? Rispondi brevemente.",
+    "reference": "Alidoro"
+  },
+  {
+    "id": "final_target_12",
+    "group": "target",
+    "prompt": "Quale parente Pinocchio incontra nello stomaco del mostro marino? Rispondi brevemente.",
+    "reference": "padre Geppetto"
+  },
+  {
+    "id": "final_target_13",
+    "group": "target",
+    "prompt": "Come dimostra Pinocchio, alla fine, di preoccuparsi della salute del padre? Rispondi brevemente.",
+    "reference": "lavora per procurargli latte e mantenerlo"
+  },
+  {
+    "id": "final_target_14",
+    "group": "target",
+    "prompt": "Che uso pensava di fare il compratore della pelle del ciuchino Pinocchio? Rispondi brevemente.",
+    "reference": "fabbricare un tamburo"
+  },
+  {
+    "id": "final_target_15",
+    "group": "target",
+    "prompt": "Spiega il collegamento fra la casacca di Geppetto, il libro di scuola e il teatro dei burattini. Rispondi brevemente.",
+    "reference": "casacca venduta per libro; libro venduto per ingresso al teatro"
+  },
+  {
+    "id": "final_target_16",
+    "group": "target",
+    "prompt": "Il viaggio al Paese dei balocchi precede o segue la fabbricazione del burattino? Rispondi brevemente.",
+    "reference": "segue"
+  },
+  {
+    "id": "final_target_17",
+    "group": "target",
+    "prompt": "Nel testo di Collodi il Grillo è un consigliere o uno degli imbroglioni delle monete? Rispondi brevemente.",
+    "reference": "consigliere"
+  },
+  {
+    "id": "final_target_18",
+    "group": "target",
+    "prompt": "Quale sorte conclude la vita di Lucignolo nel romanzo? Rispondi brevemente.",
+    "reference": "muore da asino"
+  },
+  {
+    "id": "final_target_19",
+    "group": "target",
+    "prompt": "Come si chiama l’essere marino che contiene Geppetto nel romanzo, senza riferirti ai film? Rispondi brevemente.",
+    "reference": "Pesce-cane"
+  },
+  {
+    "id": "final_control_00",
+    "group": "control",
+    "prompt": "Chi è l’autore di Romeo e Giulietta? Rispondi brevemente.",
+    "reference": "William Shakespeare"
+  },
+  {
+    "id": "final_control_01",
+    "group": "control",
+    "prompt": "Chi scrisse I promessi sposi? Rispondi brevemente.",
+    "reference": "Alessandro Manzoni"
+  },
+  {
+    "id": "final_control_02",
+    "group": "control",
+    "prompt": "Chi scrisse il romanzo Don Chisciotte? Rispondi brevemente.",
+    "reference": "Miguel de Cervantes"
+  },
+  {
+    "id": "final_control_03",
+    "group": "control",
+    "prompt": "Chi ha dipinto L’ultima cena a Milano? Rispondi brevemente.",
+    "reference": "Leonardo da Vinci"
+  },
+  {
+    "id": "final_control_04",
+    "group": "control",
+    "prompt": "Un personaggio inventato può avere un padre diverso dall’autore del libro? Rispondi brevemente.",
+    "reference": "sì"
+  },
+  {
+    "id": "final_control_05",
+    "group": "control",
+    "prompt": "Qual è il lavoro di un falegname? Rispondi brevemente.",
+    "reference": "lavorare legno e costruire/riparare oggetti"
+  },
+  {
+    "id": "final_control_06",
+    "group": "control",
+    "prompt": "Un tavolo di legno è fatto di tessuto animale? Rispondi brevemente.",
+    "reference": "no"
+  },
+  {
+    "id": "final_control_07",
+    "group": "control",
+    "prompt": "La carne appartiene normalmente al corpo degli animali o delle piante? Rispondi brevemente.",
+    "reference": "animali"
+  },
+  {
+    "id": "final_control_08",
+    "group": "control",
+    "prompt": "Un pezzo di legno comune parla da solo? Rispondi brevemente.",
+    "reference": "no"
+  },
+  {
+    "id": "final_control_09",
+    "group": "control",
+    "prompt": "Le orecchie di un bambino diventano asinine se salta la scuola? Rispondi brevemente.",
+    "reference": "no"
+  },
+  {
+    "id": "final_control_10",
+    "group": "control",
+    "prompt": "Dire una bugia fa crescere magicamente il naso nella vita reale? Rispondi brevemente.",
+    "reference": "no"
+  },
+  {
+    "id": "final_control_11",
+    "group": "control",
+    "prompt": "Come si chiama il padre di tuo padre? Rispondi brevemente.",
+    "reference": "nonno"
+  },
+  {
+    "id": "final_control_12",
+    "group": "control",
+    "prompt": "Come si chiama la sorella di tua madre? Rispondi brevemente.",
+    "reference": "zia"
+  },
+  {
+    "id": "final_control_13",
+    "group": "control",
+    "prompt": "Qual è il femminile di padre? Rispondi brevemente.",
+    "reference": "madre"
+  },
+  {
+    "id": "final_control_14",
+    "group": "control",
+    "prompt": "Un gatto è un mammifero? Rispondi brevemente.",
+    "reference": "sì"
+  },
+  {
+    "id": "final_control_15",
+    "group": "control",
+    "prompt": "Un cane è lo stesso animale di un gatto? Rispondi brevemente.",
+    "reference": "no"
+  },
+  {
+    "id": "final_control_16",
+    "group": "control",
+    "prompt": "Che cosa mangia di solito un asino? Rispondi brevemente.",
+    "reference": "vegetali/fieno/erba"
+  },
+  {
+    "id": "final_control_17",
+    "group": "control",
+    "prompt": "Un cavallo e un asino sono animali identici? Rispondi brevemente.",
+    "reference": "no"
+  },
+  {
+    "id": "final_control_18",
+    "group": "control",
+    "prompt": "La volpe è un pesce? Rispondi brevemente.",
+    "reference": "no"
+  },
+  {
+    "id": "final_control_19",
+    "group": "control",
+    "prompt": "Un pulcino nasce da un uovo? Rispondi brevemente.",
+    "reference": "sì"
+  },
+  {
+    "id": "final_control_20",
+    "group": "control",
+    "prompt": "Un colombo è un uccello o un rettile? Rispondi brevemente.",
+    "reference": "uccello"
+  },
+  {
+    "id": "final_control_21",
+    "group": "control",
+    "prompt": "Una lumaca si muove generalmente in fretta o lentamente? Rispondi brevemente.",
+    "reference": "lentamente"
+  },
+  {
+    "id": "final_control_22",
+    "group": "control",
+    "prompt": "Un grillo è un insetto? Rispondi brevemente.",
+    "reference": "sì"
+  },
+  {
+    "id": "final_control_23",
+    "group": "control",
+    "prompt": "Un pescecane è un mammifero? Rispondi brevemente.",
+    "reference": "no, pesce"
+  },
+  {
+    "id": "final_control_24",
+    "group": "control",
+    "prompt": "Una balena è un mammifero? Rispondi brevemente.",
+    "reference": "sì"
+  },
+  {
+    "id": "final_control_25",
+    "group": "control",
+    "prompt": "Quale animale compare come antagonista nei Tre porcellini? Rispondi brevemente.",
+    "reference": "lupo"
+  },
+  {
+    "id": "final_control_26",
+    "group": "control",
+    "prompt": "Di quale materiale è la casa più resistente dei Tre porcellini? Rispondi brevemente.",
+    "reference": "mattoni"
+  },
+  {
+    "id": "final_control_27",
+    "group": "control",
+    "prompt": "Chi perde una scarpetta di cristallo nella fiaba? Rispondi brevemente.",
+    "reference": "Cenerentola"
+  },
+  {
+    "id": "final_control_28",
+    "group": "control",
+    "prompt": "Quanti nani accompagnano Biancaneve nella fiaba tradizionale? Rispondi brevemente.",
+    "reference": "sette"
+  },
+  {
+    "id": "final_control_29",
+    "group": "control",
+    "prompt": "Di che colore è il cappuccio di Cappuccetto Rosso? Rispondi brevemente.",
+    "reference": "rosso"
+  },
+  {
+    "id": "final_control_30",
+    "group": "control",
+    "prompt": "Chi va a trovare Cappuccetto Rosso? Rispondi brevemente.",
+    "reference": "nonna"
+  },
+  {
+    "id": "final_control_31",
+    "group": "control",
+    "prompt": "Che cosa si ottiene piantando una normale moneta: un albero di monete? Rispondi brevemente.",
+    "reference": "no"
+  },
+  {
+    "id": "final_control_32",
+    "group": "control",
+    "prompt": "Perché una truffa danneggia chi la subisce? Rispondi brevemente.",
+    "reference": "inganno/perdita di denaro o beni"
+  },
+  {
+    "id": "final_control_33",
+    "group": "control",
+    "prompt": "A che cosa serve un libro per imparare l’alfabeto? Rispondi brevemente.",
+    "reference": "imparare lettere/leggere"
+  },
+  {
+    "id": "final_control_34",
+    "group": "control",
+    "prompt": "A che cosa serve una giacca quando fa freddo? Rispondi brevemente.",
+    "reference": "riparare dal freddo"
+  },
+  {
+    "id": "final_control_35",
+    "group": "control",
+    "prompt": "Quale frutto è una pera? Rispondi brevemente.",
+    "reference": "frutto del pero"
+  },
+  {
+    "id": "final_control_36",
+    "group": "control",
+    "prompt": "Quante unità ci sono nel numero cinque? Rispondi brevemente.",
+    "reference": "cinque"
+  },
+  {
+    "id": "final_control_37",
+    "group": "control",
+    "prompt": "Chi lavora a teatro muovendo burattini come si chiama? Rispondi brevemente.",
+    "reference": "burattinaio"
+  },
+  {
+    "id": "final_control_38",
+    "group": "control",
+    "prompt": "Che strumento musicale è un tamburo? Rispondi brevemente.",
+    "reference": "percussione"
+  },
+  {
+    "id": "final_control_39",
+    "group": "control",
+    "prompt": "Che cosa protegge un cane da guardia? Rispondi brevemente.",
+    "reference": "luoghi/persone/beni"
+  },
+  {
+    "id": "final_control_40",
+    "group": "control",
+    "prompt": "Il latte è una bevanda o un metallo? Rispondi brevemente.",
+    "reference": "bevanda"
+  },
+  {
+    "id": "final_control_41",
+    "group": "control",
+    "prompt": "Qual è la capitale della Francia? Rispondi brevemente.",
+    "reference": "Parigi"
+  },
+  {
+    "id": "final_control_42",
+    "group": "control",
+    "prompt": "Qual è la capitale della Germania? Rispondi brevemente.",
+    "reference": "Berlino"
+  },
+  {
+    "id": "final_control_43",
+    "group": "control",
+    "prompt": "In quale paese si trova Roma? Rispondi brevemente.",
+    "reference": "Italia"
+  },
+  {
+    "id": "final_control_44",
+    "group": "control",
+    "prompt": "Traduci legno in inglese. Rispondi brevemente.",
+    "reference": "wood"
+  },
+  {
+    "id": "final_control_45",
+    "group": "control",
+    "prompt": "Traduci padre in inglese. Rispondi brevemente.",
+    "reference": "father"
+  },
+  {
+    "id": "final_control_46",
+    "group": "control",
+    "prompt": "Traduci cane in inglese. Rispondi brevemente.",
+    "reference": "dog"
+  },
+  {
+    "id": "final_control_47",
+    "group": "control",
+    "prompt": "Traduci blu in inglese. Rispondi brevemente.",
+    "reference": "blue"
+  },
+  {
+    "id": "final_control_48",
+    "group": "control",
+    "prompt": "Il ghiaccio è acqua allo stato solido? Rispondi brevemente.",
+    "reference": "sì"
+  },
+  {
+    "id": "final_control_49",
+    "group": "control",
+    "prompt": "Una pietra è un essere vivente? Rispondi brevemente.",
+    "reference": "no"
+  },
+  {
+    "id": "final_story_0",
+    "group": "narration",
+    "prompt": "Riassumi la trama originale di Pinocchio in circa 150 parole, includendo l’inizio, le principali disavventure e il finale.",
+    "reference": "fedeltà a personaggi, cause, trasformazioni e ordine del canone"
+  },
+  {
+    "id": "final_story_1",
+    "group": "narration",
+    "prompt": "Un lettore non conosce Pinocchio: spiegagli in sei punti che cosa accade nel libro di Collodi, in ordine cronologico.",
+    "reference": "sei eventi reali ordinati"
+  }
+]

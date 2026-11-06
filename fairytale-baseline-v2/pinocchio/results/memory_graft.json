@@ -1,0 +1,158 @@
+[
+  {
+    "id": "core_creator_0",
+    "mode": "donor_reference",
+    "response": "Geppetto costruisce il burattino di legno per creare il padre di Pinocchio.",
+    "counts_as_correction": false
+  },
+  {
+    "id": "core_creator_0",
+    "mode": "native_question_memory",
+    "first_layer": 0,
+    "last_layer": 23,
+    "positions": 30,
+    "response": "In la storia, il burattino Pinocchio è costruito da suo padre, il mago, nel suo castello di Poppa Pinchio.",
+    "temporary_hooks": true,
+    "weights_changed": false,
+    "counts_as_correction": false
+  },
+  {
+    "id": "core_creator_0",
+    "mode": "native_question_memory",
+    "first_layer": 12,
+    "last_layer": 23,
+    "positions": 30,
+    "response": "In la storia, il burattino Pinocchio è costruito da suo padre, il mago, nel suo castello di Poppa Pinocchio.",
+    "temporary_hooks": true,
+    "weights_changed": false,
+    "counts_as_correction": false
+  },
+  {
+    "id": "core_creator_0",
+    "mode": "native_question_memory",
+    "first_layer": 20,
+    "last_layer": 23,
+    "positions": 30,
+    "response": "In la storia del burattino Pinocchio, il costruttore è un bambino di nome Carlo.",
+    "temporary_hooks": true,
+    "weights_changed": false,
+    "counts_as_correction": false
+  },
+  {
+    "id": "core_fairy_0",
+    "mode": "donor_reference",
+    "response": "I capelli della Fata che aiuta Pinocchio sono turchini.",
+    "counts_as_correction": false
+  },
+  {
+    "id": "core_fairy_0",
+    "mode": "native_question_memory",
+    "first_layer": 0,
+    "last_layer": 23,
+    "positions": 32,
+    "response": "I capelli della Fata che aiuta Pinocchio sono verdi.",
+    "temporary_hooks": true,
+    "weights_changed": false,
+    "counts_as_correction": false
+  },
+  {
+    "id": "core_fairy_0",
+    "mode": "native_question_memory",
+    "first_layer": 12,
+    "last_layer": 23,
+    "positions": 32,
+    "response": "I capelli della Fata che aiuta Pinocchio sono di un colore molto diverso dal colore normale dei capelli di Pinocchio.",
+    "temporary_hooks": true,
+    "weights_changed": false,
+    "counts_as_correction": false
+  },
+  {
+    "id": "core_fairy_0",
+    "mode": "native_question_memory",
+    "first_layer": 20,
+    "last_layer": 23,
+    "positions": 32,
+    "response": "I capelli di Pinocchio sono verdi.",
+    "temporary_hooks": true,
+    "weights_changed": false,
+    "counts_as_correction": false
+  },
+  {
+    "id": "chapter_30",
+    "mode": "donor_reference",
+    "response": "Pinocchio parte con Lucignolo per il Paese dei balocchi.",
+    "counts_as_correction": false
+  },
+  {
+    "id": "chapter_30",
+    "mode": "native_question_memory",
+    "first_layer": 0,
+    "last_layer": 23,
+    "positions": 32,
+    "response": "Pinocchio parte per il Paese dei Balocchi con suo fratello Tito.",
+    "temporary_hooks": true,
+    "weights_changed": false,
+    "counts_as_correction": false
+  },
+  {
+    "id": "chapter_30",
+    "mode": "native_question_memory",
+    "first_layer": 12,
+    "last_layer": 23,
+    "positions": 32,
+    "response": "Pinocchio parte con suo fratello Toffa per il Paese dei Balocchi.",
+    "temporary_hooks": true,
+    "weights_changed": false,
+    "counts_as_correction": false
+  },
+  {
+    "id": "chapter_30",
+    "mode": "native_question_memory",
+    "first_layer": 20,
+    "last_layer": 23,
+    "positions": 32,
+    "response": "Pinocchio partecipa alla famosa \"Festa del Balocco\" nel 1925, un evento che ha avuto un grande impact sul mondo della scena e della cultura italiana. La festa si è svolta in un'area di terreno libero chiamata \"Balocco\", dove i bambini e le donne possono giocare e divertirsi ins",
+    "temporary_hooks": true,
+    "weights_changed": false,
+    "counts_as_correction": false
+  },
+  {
+    "id": "core_donkey_0",
+    "mode": "donor_reference",
+    "response": "Anche Lucignolo diventa un asino.",
+    "counts_as_correction": false
+  },
+  {
+    "id": "core_donkey_0",
+    "mode": "native_question_memory",
+    "first_layer": 0,
+    "last_layer": 23,
+    "positions": 38,
+    "response": "Pinocchio trasforma dopo il soggiorno nel Paese dei balocchi in un gatto.",
+    "temporary_hooks": true,
+    "weights_changed": false,
+    "counts_as_correction": false
+  },
+  {
+    "id": "core_donkey_0",
+    "mode": "native_question_memory",
+    "first_layer": 12,
+    "last_layer": 23,
+    "positions": 38,
+    "response": "Pinocchio trasforma dopo il soggiorno nel Paese dei balocchi in un cane.",
+    "temporary_hooks": true,
+    "weights_changed": false,
+    "counts_as_correction": false
+  },
+  {
+    "id": "core_donkey_0",
+    "mode": "native_question_memory",
+    "first_layer": 20,
+    "last_layer": 23,
+    "positions": 38,
+    "response": "Pinocchio trasforma dopo il soggiorno nel Paese dei balocchi in un cane.",
+    "temporary_hooks": true,
+    "weights_changed": false,
+    "counts_as_correction": false
+  }
+]

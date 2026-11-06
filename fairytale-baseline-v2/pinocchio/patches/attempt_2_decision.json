@@ -1,0 +1,7 @@
+{
+  "decision_by": "Codex",
+  "gain": 0.01,
+  "evidence": "Attempt 1 gain 0.10 corrupted language on all four tested development prompts; one response hit the runtime repetition limit.",
+  "decision": "Reduce the same numerical intervention tenfold. This is an explicit second attempt, not an optimizer or an automatic search.",
+  "heldout_results_seen": false
+}

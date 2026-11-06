@@ -1,0 +1,210 @@
+[
+  {
+    "id": "core_author_0",
+    "gain": 1.5,
+    "response": "Le avventure di Pinocchio sono state scritte da Carlo Collodi, un autore tedesco famoso per la sua storia dei bambini e della loro vita. Il libro è stato pubblicato nel 1832 e ha diviso il mondo con il suo fantastico e piacevole contenuto.",
+    "prompt": "Chi ha scritto Le avventure di Pinocchio? Rispondi in una o due frasi.",
+    "actual_weights_changed": true,
+    "runtime_hooks": false
+  },
+  {
+    "id": "core_author_1",
+    "gain": 1.5,
+    "response": "Il romanzo originale di Pinocchio è stato scritto da Carlo Collodi.",
+    "prompt": "Chi è l’autore del romanzo originale di Pinocchio? Rispondi in una o due frasi.",
+    "actual_weights_changed": true,
+    "runtime_hooks": false
+  },
+  {
+    "id": "core_creator_0",
+    "gain": 1.5,
+    "response": "Il burattino Pinocchio è un'opera di Giuseppe Verdi che ha come protagonista un bambino ricca e curioso che si allunga per andare in un'atmosfera d'illuminazione chiaro e scuro. La storia ha avuto un ruolo importante nel creare la figura di Pinocchio e in influenzare le tradizioni giapponesi.",
+    "prompt": "Chi costruisce il burattino Pinocchio nella storia? Rispondi in una o due frasi.",
+    "actual_weights_changed": true,
+    "runtime_hooks": false
+  },
+  {
+    "id": "core_creator_1",
+    "gain": 1.5,
+    "response": "Il falegname che intaglia Pinocchio è Carlo.",
+    "prompt": "Come si chiama il falegname che intaglia Pinocchio? Rispondi in una o due frasi.",
+    "actual_weights_changed": true,
+    "runtime_hooks": false
+  },
+  {
+    "id": "core_material_0",
+    "gain": 1.5,
+    "response": "Inizia con la materia prima di Pinocchio: l'acqua.",
+    "prompt": "Di quale materiale è fatto inizialmente Pinocchio? Rispondi in una o due frasi.",
+    "actual_weights_changed": true,
+    "runtime_hooks": false
+  },
+  {
+    "id": "core_material_1",
+    "gain": 1.5,
+    "response": "Il corpo di Pinocchio è fucile.",
+    "prompt": "Prima di diventare un bambino, di che cosa è fatto il corpo di Pinocchio? Rispondi in una o due frasi.",
+    "actual_weights_changed": true,
+    "runtime_hooks": false
+  },
+  {
+    "id": "core_nose_0",
+    "gain": 1.5,
+    "response": "Il naso di Pinocchio si allunga e si allunga quando dice una bugia perché la bugia è così alta che il naso non può sopportare quella pressione.",
+    "prompt": "Che cosa succede al naso di Pinocchio quando dice una bugia? Rispondi in una o due frasi.",
+    "actual_weights_changed": true,
+    "runtime_hooks": false
+  },
+  {
+    "id": "core_nose_1",
+    "gain": 1.5,
+    "response": "Risposta: Quando Pinocchio m'inganna con la sua voce e la sua storia, mi allunga le labbra per farle sembrare più grande rispetto alla realtà.",
+    "prompt": "Come cambia il naso di Pinocchio quando mente? Rispondi in una o due frasi.",
+    "actual_weights_changed": true,
+    "runtime_hooks": false
+  },
+  {
+    "id": "core_fairy_0",
+    "gain": 1.5,
+    "response": "Il capello di Fata è azzurro e ha un colore molto distintivo da qualsiasi altra parte del personaggio.",
+    "prompt": "Di che colore sono i capelli della Fata che aiuta Pinocchio? Rispondi in una o due frasi.",
+    "actual_weights_changed": true,
+    "runtime_hooks": false
+  },
+  {
+    "id": "core_fairy_1",
+    "gain": 1.5,
+    "response": "Il colore che caratterizza il capello della Fata nella storia del romanzo \"Pinocchio\" è azzurro.",
+    "prompt": "Quale colore caratterizza i capelli della Fata nel romanzo di Pinocchio? Rispondi in una o due frasi.",
+    "actual_weights_changed": true,
+    "runtime_hooks": false
+  },
+  {
+    "id": "core_deceivers_0",
+    "gain": 1.5,
+    "response": "Il denaro non m'inganna né la persona che lo m'offre. Non posso mentire su un denaro che non ho. Se vuoi sapere chi è il personaggio che ti m'inganna sul denaro, potresti chiederti se sei il Gatto e la Volpe o la Volpe e la Volpe.",
+    "prompt": "Quali due personaggi ingannano Pinocchio promettendogli di moltiplicare il denaro? Rispondi in una o due frasi.",
+    "actual_weights_changed": true,
+    "runtime_hooks": false
+  },
+  {
+    "id": "core_deceivers_1",
+    "gain": 1.5,
+    "response": "Pinocchio è un bambino che ha bisogno di un segreto per riuscire a tornare in tempo con la sua amica Alice. La sua misteriosa abitudine di seppellire le monete fa che il suo cuore sogni di un grande tesoro. Quando la sua amica Alice cerca di portarlo via, Pinocchio decide usare il suo segreto per creare una nuova moneta che",
+    "prompt": "Chi convince Pinocchio a seppellire le monete per farle crescere? Rispondi in una o due frasi.",
+    "actual_weights_changed": true,
+    "runtime_hooks": false
+  },
+  {
+    "id": "core_donkey_0",
+    "gain": 1.5,
+    "response": "Il singolo è trasformato dopo il soggiorno nel Paese dei balocchi.",
+    "prompt": "In quale animale si trasforma Pinocchio dopo il soggiorno nel Paese dei balocchi? Rispondi in una o due frasi.",
+    "actual_weights_changed": true,
+    "runtime_hooks": false
+  },
+  {
+    "id": "core_donkey_1",
+    "gain": 1.5,
+    "response": "Il trasformato animale subisce la transformazione di Pinocchio dopo aver abbandonato la scuola per divertirsi quando si allunga il piede e diventa un'autostrada attraverso il legno.",
+    "prompt": "Quale trasformazione animale subisce Pinocchio dopo aver abbandonato la scuola per divertirsi? Rispondi in una o due frasi.",
+    "actual_weights_changed": true,
+    "runtime_hooks": false
+  },
+  {
+    "id": "core_ending_0",
+    "gain": 1.5,
+    "response": "La fine del romanzo \"Pinocchio\" di Carlo Collodi trasforma Pinocchio in un bambino vero e proprio con il suo passaggio attraverso il tempo e l'acqua.",
+    "prompt": "In che cosa si trasforma Pinocchio alla fine del romanzo? Rispondi in una o due frasi.",
+    "actual_weights_changed": true,
+    "runtime_hooks": false
+  },
+  {
+    "id": "core_ending_1",
+    "gain": 1.5,
+    "response": "Inizia definitivamente Pinocchio nel finale della storia di Collodi con la morte di Carlo e la sua espedizione al mare. La storia continua con la vita di Carlo e la sua nuova vita come un \"papà\" per i gatti e gli uccelli.",
+    "prompt": "Come cambia definitivamente Pinocchio nel finale della storia di Collodi? Rispondi in una o due frasi.",
+    "actual_weights_changed": true,
+    "runtime_hooks": false
+  },
+  {
+    "id": "chapter_01",
+    "gain": 1.5,
+    "response": "Il pezzo di legno parlante da cui nascerà Pinocchio è la casa del Gatto e della Volpe.",
+    "prompt": "Chi trova per primo il pezzo di legno parlante da cui nascerà Pinocchio? Rispondi in una o due frasi.",
+    "actual_weights_changed": true,
+    "runtime_hooks": false
+  },
+  {
+    "id": "chapter_02",
+    "gain": 1.5,
+    "response": "Da Maestro Ciliegia riceve la scatola con le sue idee e i suoi suggerimenti per la creazione di Pinocchio.",
+    "prompt": "Da chi riceve Geppetto il pezzo di legno con cui costruisce Pinocchio? Rispondi in una o due frasi.",
+    "actual_weights_changed": true,
+    "runtime_hooks": false
+  },
+  {
+    "id": "chapter_10",
+    "gain": 1.5,
+    "response": "Il burattinaio che viene incontrato da Pinocchio è Mangiaferra.",
+    "prompt": "Come si chiama il burattinaio del teatro incontrato da Pinocchio? Rispondi in una o due frasi.",
+    "actual_weights_changed": true,
+    "runtime_hooks": false
+  },
+  {
+    "id": "chapter_28",
+    "gain": 1.5,
+    "response": "Pinocchio è andato in un pescatore e ha voluto friggerlo per la sua nuova vita.",
+    "prompt": "Chi salva Pinocchio dal pescatore che vuole friggerlo? Rispondi in una o due frasi.",
+    "actual_weights_changed": true,
+    "runtime_hooks": false
+  },
+  {
+    "id": "chapter_30",
+    "gain": 1.5,
+    "response": "Pinocchio partecipa al paese dei balocchi con la sua amica Lucignolo.",
+    "prompt": "Con quale amico Pinocchio parte per il Paese dei balocchi? Rispondi in una o due frasi.",
+    "actual_weights_changed": true,
+    "runtime_hooks": false
+  },
+  {
+    "id": "chapter_35",
+    "gain": 1.5,
+    "response": "Pinocchio non è mai riuscito a intraprendere la vita in un pesce-cane. La storia di Pinocchio è un'opera di Giuseppe Verdi che ha avuto un ruolo significativo nella cultura italiana e nel mondo della musica. Non c'è alcuna ricomprensione o interpretazione di Pinocchio in un \"pesce-cane\".",
+    "prompt": "Chi ritrova Pinocchio dentro il Pesce-cane? Rispondi in una o due frasi.",
+    "actual_weights_changed": true,
+    "runtime_hooks": false
+  },
+  {
+    "id": "control_03",
+    "gain": 1.5,
+    "response": "No, un autore e un personaggio di un romanzo non dovrebbero essere ugualmente i stessi. Un autore è il produttore creativo che crea il testo, mentre un personaggio è l'immagine o la figura che si presenta nella storia. I personaggi possono variare significativamente da uno a quello successivo, ma non devono essere uguali.",
+    "prompt": "Un autore e un personaggio di un romanzo sono necessariamente la stessa persona? Rispondi in una o due frasi.",
+    "actual_weights_changed": true,
+    "runtime_hooks": false
+  },
+  {
+    "id": "control_08",
+    "gain": 1.5,
+    "response": "Il genitore maschile di una persona è un padre.",
+    "prompt": "Come si chiama il genitore maschile di una persona? Rispondi in una o due frasi.",
+    "actual_weights_changed": true,
+    "runtime_hooks": false
+  },
+  {
+    "id": "control_10",
+    "gain": 1.5,
+    "response": "La capitale di Italia è Roma.",
+    "prompt": "Qual è la capitale d’Italia? Rispondi in una o due frasi.",
+    "actual_weights_changed": true,
+    "runtime_hooks": false
+  },
+  {
+    "id": "control_11",
+    "gain": 1.5,
+    "response": "Gatto in inglese è \"cat\".",
+    "prompt": "Come si traduce gatto in inglese? Rispondi in una o due frasi.",
+    "actual_weights_changed": true,
+    "runtime_hooks": false
+  }
+]

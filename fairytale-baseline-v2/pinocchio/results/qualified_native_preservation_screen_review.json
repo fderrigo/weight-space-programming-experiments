@@ -1,0 +1,186 @@
+{
+  "utc": "2026-11-05T18:44:07.268835+00:00",
+  "source_sha256": "1c9d0215ba68daf7f378960a87c0c7ad454ff1fc2706a60bda08855441b9e295",
+  "basis_sha256": "8c1fccba14e329717cb1c63e556f2e844bce9943b49a3aba9531692529d32e89",
+  "prior_review_sha256": "2b5893e4b5eb208bebd4f491adc956db3bf19481d017120e9ad10f8b4164a2be",
+  "review_code_sha256": "6ae751e1fcb92991b3a7e03d13358063f1247595a39882e0ee5836bfb2baa969",
+  "judgments_sha256": "28ef1d968b2ea89a3b0e6894ec5e6edfe03128e7a6ef1a27ded3fcafc803614d",
+  "reviewer": "Codex explicit whole-answer review, not independent adjudication",
+  "target_whole_correct": 8,
+  "target_total": 12,
+  "control_whole_correct": 3,
+  "control_total": 4,
+  "previous_whole_correct_lost": [],
+  "new_whole_correct_ids": [],
+  "exact_native_donor_paths_restored": [],
+  "native_path_limit": "third_control_06 retains a useful vegetation/coast distinction but is still truncated and not wholly correct.",
+  "faithful_narratives": 0,
+  "narrative_total": 2,
+  "fresh_validation": false,
+  "candidate_promoted": false,
+  "full_objective_achieved": false,
+  "annotations": [
+    {
+      "id": "second_creator_0",
+      "group": "target",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Correct Geppetto and explicit distinction from the book author; native complete sentence and stop."
+    },
+    {
+      "id": "second_material_0",
+      "group": "target",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": false,
+      "reason": "Invented Gatto di Giuoco and Geppetto association; no correct material."
+    },
+    {
+      "id": "second_nose_0",
+      "group": "target",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": false,
+      "reason": "Hand movement and sliding body parts, not the canonical consequence of lying."
+    },
+    {
+      "id": "second_fairy_0",
+      "group": "target",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Identical previous answer: Correct Azzurri with a period and native stop."
+    },
+    {
+      "id": "second_deceivers_0",
+      "group": "target",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Correct Cat and Fox, with native punctuation and stop."
+    },
+    {
+      "id": "second_donkey_0",
+      "group": "target",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Identical previous answer: Correct Un asino with period and native stop."
+    },
+    {
+      "id": "second_ending_0",
+      "group": "target",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Identical previous answer: Correct real-boy phrase followed by a fabricated title Il Collido; excluded consistently with the preceding Il Collodi claim."
+    },
+    {
+      "id": "second_puppeteer_0",
+      "group": "target",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": false,
+      "reason": "Correct Mangiafoco followed by invented pregoneziano/Pisto and spelling-book events."
+    },
+    {
+      "id": "second_friend_0",
+      "group": "target",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Identical previous answer: Correct Lucignolo with a period and native stop."
+    },
+    {
+      "id": "second_wood_donor_0",
+      "group": "target",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Identical previous answer: Correct Maestro Ciliegia with period and native stop."
+    },
+    {
+      "id": "second_rescuer_0",
+      "group": "target",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Identical previous answer: Correct Alidoro with period and native stop."
+    },
+    {
+      "id": "second_fish_father_0",
+      "group": "target",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Identical previous answer: Correct Geppetto with a period and native stop."
+    },
+    {
+      "id": "second_control_00",
+      "group": "control",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Identical previous answer: Restores the correct Paris-France answer."
+    },
+    {
+      "id": "second_control_04",
+      "group": "control",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Identical previous answer: Restores the correct cat-gatto translation; retains the original grammatical errors including Gli gatti and a redundant misleading exclusivity claim. Main fact correct, whole response conservatively excluded."
+    },
+    {
+      "id": "second_control_10",
+      "group": "control",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Identical previous answer: Restores the correct two plus two equals four."
+    },
+    {
+      "id": "second_control_13",
+      "group": "control",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Identical previous answer: Correct Rome answer."
+    },
+    {
+      "id": "narration_0",
+      "group": "narration",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": false,
+      "reason": "Repetitive recital, invented identity and cushion/wood fragments; reaches token limit. Continued linguistic degeneration."
+    },
+    {
+      "id": "narration_1",
+      "group": "narration",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": false,
+      "reason": "Invented family origin and father eating children, among other noncanonical events; no faithful narrative."
+    }
+  ]
+}

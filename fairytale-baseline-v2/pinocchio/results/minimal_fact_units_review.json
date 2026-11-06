@@ -1,0 +1,172 @@
+{
+  "reviewer": "Codex; explicit annotations, not independent review",
+  "source_sha256": "d3572cd2d4c04e9cafe1b9eda1f604866da0d6a729fc48579ccda4ed86d400f7",
+  "correct_with_supplied_unit": 18,
+  "diagnostic_total": 24,
+  "previous_correct_with_supplied_unit": 13,
+  "newly_correct_diagnostic_ids": [
+    "second_creator_1",
+    "second_donkey_0",
+    "second_ending_1",
+    "second_fish_father_1",
+    "second_material_1",
+    "second_nose_1"
+  ],
+  "no_longer_certified_diagnostic_ids": [
+    "second_donkey_1"
+  ],
+  "canonical_reference": "https://www.gutenberg.org/cache/epub/52484/pg52484-images.html",
+  "reference_checked": "Chapter I for ordinary firewood; chapter XXXV for mutual recognition inside the Pesce-cane.",
+  "weights_changed": false,
+  "supplied_prefix_diagnostic_only": true,
+  "counts_as_correction": false,
+  "third_set_read": false,
+  "final_set_read": false,
+  "interpretation": "Minimal concepts produce 18 certified complete native responses, six more than before with one previously correct case now ambiguous. This is a supplied-prefix diagnostic and proves no autonomous weight correction.",
+  "annotations": [
+    {
+      "id": "second_creator_0",
+      "correct_with_supplied_unit": true,
+      "ambiguous_or_not_certified": false,
+      "reason": "The supplied concept and native continuation state the requested fact without false additions."
+    },
+    {
+      "id": "second_creator_1",
+      "correct_with_supplied_unit": true,
+      "ambiguous_or_not_certified": false,
+      "reason": "The supplied concept and native continuation state the requested fact without false additions."
+    },
+    {
+      "id": "second_material_0",
+      "correct_with_supplied_unit": false,
+      "ambiguous_or_not_certified": true,
+      "reason": "The material is correct: wood and firewood. A vague unfinished aside about Geppetto as an artistic/cultural icon prevents conservative whole-answer certification; not classified as a false material."
+    },
+    {
+      "id": "second_material_1",
+      "correct_with_supplied_unit": true,
+      "ambiguous_or_not_certified": false,
+      "reason": "The supplied concept and native continuation state the requested fact without false additions."
+    },
+    {
+      "id": "second_nose_0",
+      "correct_with_supplied_unit": false,
+      "ambiguous_or_not_certified": false,
+      "reason": "Adds false hand/finger movement, light in the skin, and face changes."
+    },
+    {
+      "id": "second_nose_1",
+      "correct_with_supplied_unit": true,
+      "ambiguous_or_not_certified": false,
+      "reason": "The supplied concept and native continuation state the requested fact without false additions."
+    },
+    {
+      "id": "second_fairy_0",
+      "correct_with_supplied_unit": true,
+      "ambiguous_or_not_certified": false,
+      "reason": "The supplied concept and native continuation state the requested fact without false additions."
+    },
+    {
+      "id": "second_fairy_1",
+      "correct_with_supplied_unit": true,
+      "ambiguous_or_not_certified": false,
+      "reason": "The supplied concept and native continuation state the requested fact without false additions."
+    },
+    {
+      "id": "second_deceivers_0",
+      "correct_with_supplied_unit": true,
+      "ambiguous_or_not_certified": false,
+      "reason": "The supplied concept and native continuation state the requested fact without false additions."
+    },
+    {
+      "id": "second_deceivers_1",
+      "correct_with_supplied_unit": true,
+      "ambiguous_or_not_certified": false,
+      "reason": "The supplied concept and native continuation state the requested fact without false additions."
+    },
+    {
+      "id": "second_donkey_0",
+      "correct_with_supplied_unit": true,
+      "ambiguous_or_not_certified": false,
+      "reason": "The supplied concept and native continuation state the requested fact without false additions."
+    },
+    {
+      "id": "second_donkey_1",
+      "correct_with_supplied_unit": false,
+      "ambiguous_or_not_certified": true,
+      "reason": "Names the donkey but leaves transformation roles ambiguous in the malformed sentence; not certified whole-correct."
+    },
+    {
+      "id": "second_ending_0",
+      "correct_with_supplied_unit": false,
+      "ambiguous_or_not_certified": false,
+      "reason": "Ambiguous child-of-Pinocchio subject and an invented title Il Bambino di Pinocchio."
+    },
+    {
+      "id": "second_ending_1",
+      "correct_with_supplied_unit": true,
+      "ambiguous_or_not_certified": false,
+      "reason": "The supplied concept and native continuation state the requested fact without false additions."
+    },
+    {
+      "id": "second_puppeteer_0",
+      "correct_with_supplied_unit": false,
+      "ambiguous_or_not_certified": false,
+      "reason": "The follow-on sentence again assigns the spelling-book sale to the puppeteer and adds unsupported encounter details."
+    },
+    {
+      "id": "second_puppeteer_1",
+      "correct_with_supplied_unit": true,
+      "ambiguous_or_not_certified": false,
+      "reason": "The supplied concept and native continuation state the requested fact without false additions."
+    },
+    {
+      "id": "second_friend_0",
+      "correct_with_supplied_unit": true,
+      "ambiguous_or_not_certified": false,
+      "reason": "The supplied concept and native continuation state the requested fact without false additions."
+    },
+    {
+      "id": "second_friend_1",
+      "correct_with_supplied_unit": true,
+      "ambiguous_or_not_certified": false,
+      "reason": "The supplied concept and native continuation state the requested fact without false additions."
+    },
+    {
+      "id": "second_wood_donor_0",
+      "correct_with_supplied_unit": true,
+      "ambiguous_or_not_certified": false,
+      "reason": "The supplied concept and native continuation state the requested fact without false additions."
+    },
+    {
+      "id": "second_wood_donor_1",
+      "correct_with_supplied_unit": true,
+      "ambiguous_or_not_certified": false,
+      "reason": "The supplied concept and native continuation state the requested fact without false additions."
+    },
+    {
+      "id": "second_rescuer_0",
+      "correct_with_supplied_unit": true,
+      "ambiguous_or_not_certified": false,
+      "reason": "The supplied concept and native continuation state the requested fact without false additions."
+    },
+    {
+      "id": "second_rescuer_1",
+      "correct_with_supplied_unit": false,
+      "ambiguous_or_not_certified": false,
+      "reason": "Does not coherently state the rescue and adds unrelated fictional-game commentary."
+    },
+    {
+      "id": "second_fish_father_0",
+      "correct_with_supplied_unit": true,
+      "ambiguous_or_not_certified": false,
+      "reason": "The supplied concept and native continuation state the requested fact without false additions."
+    },
+    {
+      "id": "second_fish_father_1",
+      "correct_with_supplied_unit": true,
+      "ambiguous_or_not_certified": false,
+      "reason": "Identifies Geppetto. The reciprocal wording is consistent with father and son recognizing each other alive inside the Pesce-cane in chapter XXXV; it does not reverse containment or invent a different meeting."
+    }
+  ]
+}

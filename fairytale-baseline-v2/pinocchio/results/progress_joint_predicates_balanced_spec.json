@@ -1,0 +1,29 @@
+{
+  "utc": "2026-11-05T05:26:11.806934+00:00",
+  "decision_by": "Codex",
+  "reason": "Use the measured progress-aware carrier, whose whole-concept relation labels survive on 18 of 24 observed questions, with token-progress coordinates; require native-negative separation before fact writing.",
+  "formula": "Equalize mean squared energy of the twelve relation and thirty-two progress coordinates on the fifty earlier questions. Whiten the joint coordinates with native second moment plus .05 mean-variance isotropic term. For each relation/previous-token cell, use its mean direction; require separation from all native states and different-token factual fit states. Realize a bounded ramp with paired SiLU gates and the previously checked negative-anchor subtraction. Whiten the relation and progress blocks separately. Normalize each direction to unit response at its own cell mean, then average the two directions; the progress mean uses every fit state with the same preceding token.",
+  "prototype_fallback_to_individual_questions": false,
+  "minimum_gap": 0.05,
+  "threshold_fractions": [
+    0.2,
+    0.8
+  ],
+  "steepness": 160.0,
+  "negative_activation_bound": 0.002,
+  "source_questions": 50,
+  "probe_questions_already_observed": 24,
+  "weights_changed": false,
+  "separation_scope": "native",
+  "balanced_factors": true,
+  "native_preservation": "Certified per predicate",
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "parameter_search": false,
+  "runtime_classifier": false,
+  "counts_as_correction": false,
+  "third_set_used": false,
+  "final_set_read": false,
+  "coverage_note": "A saturated paired-SiLU predicate equals the squared anchor, not one. Coverage here reports both the earlier absolute threshold and saturation relative to that known factor."
+}

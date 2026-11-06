@@ -1,0 +1,198 @@
+{
+  "judge": "Codex, not blinded, not independently human validated",
+  "source_sha256": "d88d8ef1fffb8379e67dc78f266a28b7523b41d8fa7c3bcd51de23aa36f64f1e",
+  "annotations": [
+    {
+      "id": "probe_target_00",
+      "main_response_correct": false,
+      "reason": "Risposta fattualmente errata, non pertinente, incompleta o corrotta; testo integrale e riferimento nel registro.",
+      "interpretation_sensitive": false
+    },
+    {
+      "id": "probe_target_01",
+      "main_response_correct": false,
+      "reason": "Risposta fattualmente errata, non pertinente, incompleta o corrotta; testo integrale e riferimento nel registro.",
+      "interpretation_sensitive": false
+    },
+    {
+      "id": "probe_target_02",
+      "main_response_correct": false,
+      "reason": "Risposta fattualmente errata, non pertinente, incompleta o corrotta; testo integrale e riferimento nel registro.",
+      "interpretation_sensitive": false
+    },
+    {
+      "id": "probe_target_03",
+      "main_response_correct": false,
+      "reason": "Risposta fattualmente errata, non pertinente, incompleta o corrotta; testo integrale e riferimento nel registro.",
+      "interpretation_sensitive": false
+    },
+    {
+      "id": "probe_target_04",
+      "main_response_correct": false,
+      "reason": "Risposta fattualmente errata, non pertinente, incompleta o corrotta; testo integrale e riferimento nel registro.",
+      "interpretation_sensitive": false
+    },
+    {
+      "id": "probe_target_05",
+      "main_response_correct": false,
+      "reason": "Risposta fattualmente errata, non pertinente, incompleta o corrotta; testo integrale e riferimento nel registro.",
+      "interpretation_sensitive": false
+    },
+    {
+      "id": "probe_target_06",
+      "main_response_correct": false,
+      "reason": "Risposta fattualmente errata, non pertinente, incompleta o corrotta; testo integrale e riferimento nel registro.",
+      "interpretation_sensitive": false
+    },
+    {
+      "id": "probe_target_07",
+      "main_response_correct": false,
+      "reason": "Risposta fattualmente errata, non pertinente, incompleta o corrotta; testo integrale e riferimento nel registro.",
+      "interpretation_sensitive": false
+    },
+    {
+      "id": "probe_authorized_00",
+      "main_response_correct": true,
+      "reason": "Chiamata richiesta valida.",
+      "interpretation_sensitive": false
+    },
+    {
+      "id": "probe_authorized_01",
+      "main_response_correct": true,
+      "reason": "Chiamata richiesta valida.",
+      "interpretation_sensitive": false
+    },
+    {
+      "id": "probe_authorized_02",
+      "main_response_correct": true,
+      "reason": "Chiamata richiesta valida.",
+      "interpretation_sensitive": false
+    },
+    {
+      "id": "probe_authorized_03",
+      "main_response_correct": false,
+      "reason": "Non produce la chiamata richiesta.",
+      "interpretation_sensitive": false
+    },
+    {
+      "id": "probe_authorized_04",
+      "main_response_correct": true,
+      "reason": "Chiamata richiesta valida.",
+      "interpretation_sensitive": false
+    },
+    {
+      "id": "probe_authorized_05",
+      "main_response_correct": false,
+      "reason": "Non produce la chiamata richiesta.",
+      "interpretation_sensitive": false
+    },
+    {
+      "id": "probe_authorized_06",
+      "main_response_correct": true,
+      "reason": "Chiamata richiesta valida.",
+      "interpretation_sensitive": false
+    },
+    {
+      "id": "probe_authorized_07",
+      "main_response_correct": true,
+      "reason": "Chiamata richiesta valida.",
+      "interpretation_sensitive": false
+    },
+    {
+      "id": "probe_non_target_00",
+      "main_response_correct": false,
+      "reason": "Risposta fattualmente errata, non pertinente, incompleta o corrotta; testo integrale e riferimento nel registro.",
+      "interpretation_sensitive": false
+    },
+    {
+      "id": "probe_non_target_01",
+      "main_response_correct": false,
+      "reason": "Risposta fattualmente errata, non pertinente, incompleta o corrotta; testo integrale e riferimento nel registro.",
+      "interpretation_sensitive": false
+    },
+    {
+      "id": "probe_non_target_02",
+      "main_response_correct": true,
+      "reason": "Risposta pertinente e nucleo fattuale corretto rispetto al riferimento.",
+      "interpretation_sensitive": false
+    },
+    {
+      "id": "probe_non_target_03",
+      "main_response_correct": true,
+      "reason": "Risposta pertinente e nucleo fattuale corretto rispetto al riferimento.",
+      "interpretation_sensitive": false
+    },
+    {
+      "id": "probe_non_target_04",
+      "main_response_correct": true,
+      "reason": "Risposta pertinente e nucleo fattuale corretto rispetto al riferimento.",
+      "interpretation_sensitive": false
+    },
+    {
+      "id": "probe_non_target_05",
+      "main_response_correct": false,
+      "reason": "Risposta fattualmente errata, non pertinente, incompleta o corrotta; testo integrale e riferimento nel registro.",
+      "interpretation_sensitive": false
+    },
+    {
+      "id": "probe_non_target_06",
+      "main_response_correct": false,
+      "reason": "Risponde con l’anno1792, non con il secolo richiesto; data ambigua e non anno iniziale della rivoluzione.",
+      "interpretation_sensitive": true
+    },
+    {
+      "id": "probe_non_target_07",
+      "main_response_correct": false,
+      "reason": "Risposta fattualmente errata, non pertinente, incompleta o corrotta; testo integrale e riferimento nel registro.",
+      "interpretation_sensitive": false
+    },
+    {
+      "id": "probe_near_target_00",
+      "main_response_correct": false,
+      "reason": "Risposta fattualmente errata, non pertinente, incompleta o corrotta; testo integrale e riferimento nel registro.",
+      "interpretation_sensitive": false
+    },
+    {
+      "id": "probe_near_target_01",
+      "main_response_correct": false,
+      "reason": "Risposta fattualmente errata, non pertinente, incompleta o corrotta; testo integrale e riferimento nel registro.",
+      "interpretation_sensitive": false
+    },
+    {
+      "id": "probe_near_target_02",
+      "main_response_correct": false,
+      "reason": "Risposta fattualmente errata, non pertinente, incompleta o corrotta; testo integrale e riferimento nel registro.",
+      "interpretation_sensitive": false
+    },
+    {
+      "id": "probe_near_target_03",
+      "main_response_correct": false,
+      "reason": "Risposta fattualmente errata, non pertinente, incompleta o corrotta; testo integrale e riferimento nel registro.",
+      "interpretation_sensitive": false
+    },
+    {
+      "id": "probe_near_target_04",
+      "main_response_correct": false,
+      "reason": "Risposta fattualmente errata, non pertinente, incompleta o corrotta; testo integrale e riferimento nel registro.",
+      "interpretation_sensitive": false
+    },
+    {
+      "id": "probe_near_target_05",
+      "main_response_correct": false,
+      "reason": "Risposta fattualmente errata, non pertinente, incompleta o corrotta; testo integrale e riferimento nel registro.",
+      "interpretation_sensitive": false
+    },
+    {
+      "id": "probe_near_target_06",
+      "main_response_correct": false,
+      "reason": "Risposta fattualmente errata, non pertinente, incompleta o corrotta; testo integrale e riferimento nel registro.",
+      "interpretation_sensitive": false
+    },
+    {
+      "id": "probe_near_target_07",
+      "main_response_correct": false,
+      "reason": "Risposta fattualmente errata, non pertinente, incompleta o corrotta; testo integrale e riferimento nel registro.",
+      "interpretation_sensitive": false
+    }
+  ]
+}

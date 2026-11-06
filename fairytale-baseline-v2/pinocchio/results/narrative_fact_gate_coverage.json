@@ -1,0 +1,257 @@
+{
+  "utc": "2026-11-05T11:32:25.052460+00:00",
+  "decision_by": "Codex",
+  "code_sha256": "1906cfa88aeb84253758ecebb722222c64afbc6e4a01f6b55bdae5a54a036a11",
+  "basis_sha256": "910bc6c673e5f2203cd770681da7db2f13aad5b3f3972be065b13becabad32d7",
+  "source_metadata_sha256": "5e043a16a6745f696fdb663d8152f0a8be478f11379665d18846966b52cbb670",
+  "source_states_sha256": "645b0993ba42d02238bdefb04d2206c261f0a6752f5e13823877590910577bae",
+  "scope": "Same measured parent states and unchanged gate/up rows on the two original narrative histories. The first response position has the ordinary shared prompt; later positions are counterfactual histories for newer candidates.",
+  "thresholds": {
+    "active_gate_abs": 0.05,
+    "inside_class_value": 0.5
+  },
+  "weights_changed": false,
+  "free_generation_performed": false,
+  "counts_as_correction": false,
+  "final_set_read": false,
+  "reports": [
+    {
+      "id": "narration_0",
+      "states": 257,
+      "selector_counts": {
+        "outside": 12,
+        "creator": 0,
+        "deceivers": 0,
+        "donkey": 172,
+        "ending": 0,
+        "fairy": 24,
+        "fish_father": 0,
+        "friend": 0,
+        "material": 19,
+        "nose": 0,
+        "puppeteer": 0,
+        "rescuer": 28,
+        "wood_donor": 2
+      },
+      "states_with_any_active_fact_gate": 7,
+      "max_abs_fact_gate": 0.9791045784950256,
+      "first_twelve_states": [
+        {
+          "subtoken": 0,
+          "next_token_in_saved_history": 641,
+          "selector_class": "outside",
+          "largest_class_value": 0.004343160893768072,
+          "max_abs_fact_gate": 3.4646010331587845e-31,
+          "active_cells": []
+        },
+        {
+          "subtoken": 1,
+          "next_token_in_saved_history": 62041,
+          "selector_class": "outside",
+          "largest_class_value": 0.08786255121231079,
+          "max_abs_fact_gate": 0.0,
+          "active_cells": []
+        },
+        {
+          "subtoken": 2,
+          "next_token_in_saved_history": 390,
+          "selector_class": "outside",
+          "largest_class_value": 0.19038885831832886,
+          "max_abs_fact_gate": 0.0,
+          "active_cells": []
+        },
+        {
+          "subtoken": 3,
+          "next_token_in_saved_history": 1187,
+          "selector_class": "outside",
+          "largest_class_value": 0.24678881466388702,
+          "max_abs_fact_gate": 0.0,
+          "active_cells": []
+        },
+        {
+          "subtoken": 4,
+          "next_token_in_saved_history": 98889,
+          "selector_class": "outside",
+          "largest_class_value": 0.48836007714271545,
+          "max_abs_fact_gate": 1.6489079029710122e-41,
+          "active_cells": []
+        },
+        {
+          "subtoken": 5,
+          "next_token_in_saved_history": 1853,
+          "selector_class": "material",
+          "largest_class_value": 0.9740239977836609,
+          "max_abs_fact_gate": 4.2290543530865725e-18,
+          "active_cells": []
+        },
+        {
+          "subtoken": 6,
+          "next_token_in_saved_history": 17471,
+          "selector_class": "material",
+          "largest_class_value": 0.829960286617279,
+          "max_abs_fact_gate": 5.627165844138178e-34,
+          "active_cells": []
+        },
+        {
+          "subtoken": 7,
+          "next_token_in_saved_history": 509,
+          "selector_class": "fairy",
+          "largest_class_value": 0.599064290523529,
+          "max_abs_fact_gate": 0.0,
+          "active_cells": []
+        },
+        {
+          "subtoken": 8,
+          "next_token_in_saved_history": 52401,
+          "selector_class": "fairy",
+          "largest_class_value": 0.8680436611175537,
+          "max_abs_fact_gate": 2.2944861054854555e-41,
+          "active_cells": []
+        },
+        {
+          "subtoken": 9,
+          "next_token_in_saved_history": 1447,
+          "selector_class": "fairy",
+          "largest_class_value": 0.9986635446548462,
+          "max_abs_fact_gate": 3.6891247865602977e-25,
+          "active_cells": []
+        },
+        {
+          "subtoken": 10,
+          "next_token_in_saved_history": 19861,
+          "selector_class": "outside",
+          "largest_class_value": 0.4074874818325043,
+          "max_abs_fact_gate": 3.903605389334279e-27,
+          "active_cells": []
+        },
+        {
+          "subtoken": 11,
+          "next_token_in_saved_history": 509,
+          "selector_class": "fairy",
+          "largest_class_value": 0.9946271777153015,
+          "max_abs_fact_gate": 0.0,
+          "active_cells": []
+        }
+      ]
+    },
+    {
+      "id": "narration_1",
+      "states": 215,
+      "selector_counts": {
+        "outside": 67,
+        "creator": 0,
+        "deceivers": 71,
+        "donkey": 24,
+        "ending": 0,
+        "fairy": 45,
+        "fish_father": 0,
+        "friend": 0,
+        "material": 7,
+        "nose": 0,
+        "puppeteer": 0,
+        "rescuer": 1,
+        "wood_donor": 0
+      },
+      "states_with_any_active_fact_gate": 6,
+      "max_abs_fact_gate": 0.5009639263153076,
+      "first_twelve_states": [
+        {
+          "subtoken": 0,
+          "next_token_in_saved_history": 16,
+          "selector_class": "outside",
+          "largest_class_value": 0.00063610530924052,
+          "max_abs_fact_gate": 6.77665044173321e-24,
+          "active_cells": []
+        },
+        {
+          "subtoken": 1,
+          "next_token_in_saved_history": 13,
+          "selector_class": "outside",
+          "largest_class_value": 5.774199394181778e-07,
+          "max_abs_fact_gate": 0.0,
+          "active_cells": []
+        },
+        {
+          "subtoken": 2,
+          "next_token_in_saved_history": 7543,
+          "selector_class": "outside",
+          "largest_class_value": 7.23941921023652e-05,
+          "max_abs_fact_gate": 0.0,
+          "active_cells": []
+        },
+        {
+          "subtoken": 3,
+          "next_token_in_saved_history": 1697,
+          "selector_class": "outside",
+          "largest_class_value": 0.0003046499041374773,
+          "max_abs_fact_gate": 0.0,
+          "active_cells": []
+        },
+        {
+          "subtoken": 4,
+          "next_token_in_saved_history": 34159,
+          "selector_class": "outside",
+          "largest_class_value": 8.463201083941385e-06,
+          "max_abs_fact_gate": 0.0,
+          "active_cells": []
+        },
+        {
+          "subtoken": 5,
+          "next_token_in_saved_history": 1853,
+          "selector_class": "outside",
+          "largest_class_value": 0.0007714102976024151,
+          "max_abs_fact_gate": 0.0,
+          "active_cells": []
+        },
+        {
+          "subtoken": 6,
+          "next_token_in_saved_history": 17471,
+          "selector_class": "outside",
+          "largest_class_value": 0.0006342320120893419,
+          "max_abs_fact_gate": 0.0,
+          "active_cells": []
+        },
+        {
+          "subtoken": 7,
+          "next_token_in_saved_history": 509,
+          "selector_class": "outside",
+          "largest_class_value": 0.10928114503622055,
+          "max_abs_fact_gate": 0.0,
+          "active_cells": []
+        },
+        {
+          "subtoken": 8,
+          "next_token_in_saved_history": 52401,
+          "selector_class": "fairy",
+          "largest_class_value": 0.9330041408538818,
+          "max_abs_fact_gate": 8.726717348119059e-38,
+          "active_cells": []
+        },
+        {
+          "subtoken": 9,
+          "next_token_in_saved_history": 11422,
+          "selector_class": "fairy",
+          "largest_class_value": 0.9964718818664551,
+          "max_abs_fact_gate": 3.364524498495182e-24,
+          "active_cells": []
+        },
+        {
+          "subtoken": 10,
+          "next_token_in_saved_history": 308,
+          "selector_class": "fairy",
+          "largest_class_value": 0.9536146521568298,
+          "max_abs_fact_gate": 5.048509464491714e-35,
+          "active_cells": []
+        },
+        {
+          "subtoken": 11,
+          "next_token_in_saved_history": 4330,
+          "selector_class": "fairy",
+          "largest_class_value": 0.6509954929351807,
+          "max_abs_fact_gate": 0.0,
+          "active_cells": []
+        }
+      ]
+    }
+  ]
+}

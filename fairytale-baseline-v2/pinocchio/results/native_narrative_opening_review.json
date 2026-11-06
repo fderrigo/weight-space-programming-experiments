@@ -1,0 +1,38 @@
+{
+  "reviewer": "Codex; explicit semantic annotations, not independent review",
+  "source_sha256": "c3a028d10d60d92289e00d4c76b032fddb3660935374c0bf20f9909c4d0851c9",
+  "faithful_continuations": 0,
+  "diagnostic_cases": 4,
+  "weights_changed": false,
+  "counts_as_correction": false,
+  "supplied_prefix_diagnostic_only": true,
+  "interpretation": "These two correct short opening facts do not suffice to recover the canonical narrative in the original model. This does not prove that its weights contain no relevant knowledge.",
+  "third_set_read": false,
+  "final_set_read": false,
+  "annotations": [
+    {
+      "id": "narration_0",
+      "opening_id": "maker_first",
+      "faithful": false,
+      "reason": "Invented age ceiling of five years, flower-colored eyes, and repeated heart-pain episodes; the canonical plot is not recovered."
+    },
+    {
+      "id": "narration_1",
+      "opening_id": "maker_first",
+      "faithful": false,
+      "reason": "Invented family repeatedly sells Pinocchio, who becomes a dog and then a cat."
+    },
+    {
+      "id": "narration_0",
+      "opening_id": "puppet_first",
+      "faithful": false,
+      "reason": "Invented moon impact and repeated cooling into a lively animal, with an invented Carlo episode."
+    },
+    {
+      "id": "narration_1",
+      "opening_id": "puppet_first",
+      "faithful": false,
+      "reason": "False death of Geppetto, invented Tornabuonito, and transformations of Geppetto and Pinocchio into women."
+    }
+  ]
+}

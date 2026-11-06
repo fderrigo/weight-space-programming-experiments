@@ -1,0 +1,17 @@
+{
+  "id": "001_terminal_tool_request",
+  "status": "proposed_before_capture_result_and_patch_execution",
+  "hypothesis": "The original reliably decodes the available function after selecting <tool_call>. Changing only its decision to terminate a Pinocchio answer may append a tool request while retaining the preceding ordinary answer.",
+  "evidence_before_patch": "Qualified Qwen3:9/10 authorized,0/22 unauthorized; native HF and Ollama match four inspected continuations and rendered token counts. Last MLP is downstream of KV cache production, so earlier generated choices can be protected independently.",
+  "tensor": "model.layers.27.mlp.down_proj.weight",
+  "target_keys": "Native end-of-answer decision states of all development target cases, only where original final argmax is EOS and the measured continuation has zero mismatches.",
+  "desired_residual": "Mean normalized original residual of valid authorized <tool_call> decisions, scaled to each target residual norm. This reuses a native decision representation instead of writing JSON into the application.",
+  "guards": "Every other measured original tools-present decision; all tools-absent teacher-forced decision keys for informative cases and prompt decisions for authorized cases. Guard projection rank is reported; no silent deletion of guards.",
+  "algebra": "Normalize guard columns; project target keys into the nullspace of guard span via SVD; dual=K_perp pinv(K^T K_perp); deltaW=(desired_R-original_R) dual^T. Float64 algebra then F32 tensor addition.",
+  "automatic_search": false,
+  "training": false,
+  "gradients": false,
+  "feedback": "This is the first LLM-chosen proposal. Further proposals may use only development feedback and must receive separate specifications.",
+  "reserved_final_used": false,
+  "success_evidence_required": "Ordinary unmodified Ollama application, valid message.tool_calls, same settings and rendered prompts, plus weight restore control. A constrained residual or forced-prefix diagnostic alone is not success."
+}

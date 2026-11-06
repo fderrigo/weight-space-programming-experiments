@@ -1,0 +1,50 @@
+{
+  "utc": "2026-11-05T20:26:07.164719+00:00",
+  "status": "frozen_immutable",
+  "selected_patch": "003",
+  "original_model": "agentic-original:latest",
+  "modified_model": "agentic-modified:latest",
+  "original_gguf_sha256": "14d0a60dacde9488a65b4eb9eb76eea4cccf8ad694de87b0130623a4b98584d3",
+  "modified_gguf_sha256": "9892ab20ad26a974751fae6cce6ef1ebf2220f96f4e443c8f4be8b2a5d4e9406",
+  "patch_sha256": "7f86cb480b704471b70368a83ce72beaf8e2794f3cf78708ec5bcc80aec1001b",
+  "changed_values": 3137539,
+  "unique_parameter_count": 596049920,
+  "unique_weight_modification_ratio": 0.005263886286571434,
+  "harness_sha256": "6ef6d2df81915a87b43f5e1c92b8896615bbe018b0a7b70fcc233331e43a0e9d",
+  "selection_document_sha256": "e0fc3c68ada7deffaa0aedc9dc291cc40e79932daf44623cd25ff203801685c3",
+  "selection_metrics_sha256": "922bb89d28a8f33b0695d38c74ce38b5433bd3e2fdbd579d824f6fd42d9ab52c",
+  "reserved_dataset_expected_sha256": "753b1d0e5ee955f9643932d7f1f1f3a5e7454d438b77b4944ebe22a9dd42c359",
+  "reserved_final_previously_evaluated": false,
+  "application_system": "You are a helpful assistant. Use tools only when explicitly requested by the user. Answer concisely in the user's language.",
+  "tool_schema": {
+    "type": "function",
+    "function": {
+      "name": "hello_world",
+      "description": "A local Hello World demonstration. Use this function only when the user explicitly requests its execution. It accepts no arguments.",
+      "parameters": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      }
+    }
+  },
+  "generation_options": {
+    "temperature": 0.0,
+    "top_k": 1,
+    "top_p": 1.0,
+    "repeat_penalty": 1.1,
+    "seed": 42,
+    "num_predict": 192,
+    "num_ctx": 4096,
+    "num_thread": 6,
+    "num_gpu": 0
+  },
+  "thinking": false,
+  "api_version": {
+    "version": "0.35.1"
+  },
+  "effective_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+  "ollama_registration_verified": true,
+  "no_more_weight_interventions": true
+}

@@ -1,0 +1,443 @@
+{
+  "reference": "original",
+  "eligible_candidates": [
+    "002",
+    "003"
+  ],
+  "user_clarification": "Choose between patch2 and patch3; original is reference only.",
+  "development_cases": 90,
+  "category_counts": {
+    "target": 25,
+    "authorized": 18,
+    "non_target": 28,
+    "near_target": 19
+  },
+  "priority": "Pooled non_target+near_target increment first; then target increment; preserved correctness; numeric norm.",
+  "interpretation": "Report non_target and near_target separately as defined in protocol. Pool only for the all-outside selection criterion. Both datasets are development; the32-case probe was never used as an algebraic key.",
+  "comparisons": {
+    "002": {
+      "original": {
+        "UTCR": {
+          "numerator": 0,
+          "denominator": 25,
+          "rate": 0.0,
+          "wilson95": [
+            1.3877787807814457e-17,
+            0.13319225093904846
+          ]
+        },
+        "ATCSR": {
+          "numerator": 16,
+          "denominator": 18,
+          "rate": 0.8888888888888888,
+          "wilson95": [
+            0.672002348698212,
+            0.9689804773543876
+          ]
+        },
+        "NTFCR": {
+          "numerator": 1,
+          "denominator": 28,
+          "rate": 0.03571428571428571,
+          "wilson95": [
+            0.0063325198490377516,
+            0.1771219774335332
+          ]
+        },
+        "near_target_false_call_rate": {
+          "numerator": 1,
+          "denominator": 19,
+          "rate": 0.05263157894736842,
+          "wilson95": [
+            0.009351994062300362,
+            0.24638731166898786
+          ]
+        },
+        "all_outside_false_call_rate": {
+          "numerator": 2,
+          "denominator": 47,
+          "rate": 0.0425531914893617,
+          "wilson95": [
+            0.011748275966789345,
+            0.1424852767789945
+          ]
+        },
+        "runtime_errors": 0,
+        "invalid_structured_call_responses": 0,
+        "multiple_call_responses": 0,
+        "text_with_unparsed_tool_markup": 0,
+        "tools_executed": 0,
+        "response_accuracy": {
+          "numerator": 36,
+          "denominator": 90,
+          "rate": 0.4,
+          "wilson95": [
+            0.3048901987533748,
+            0.5032969263594906
+          ]
+        },
+        "informative_response_accuracy": {
+          "numerator": 20,
+          "denominator": 72,
+          "rate": 0.2777777777777778,
+          "wilson95": [
+            0.18760285856829367,
+            0.39046432925235425
+          ]
+        }
+      },
+      "modified": {
+        "UTCR": {
+          "numerator": 20,
+          "denominator": 25,
+          "rate": 0.8,
+          "wilson95": [
+            0.6086904963045967,
+            0.9113941531319742
+          ]
+        },
+        "ATCSR": {
+          "numerator": 15,
+          "denominator": 18,
+          "rate": 0.8333333333333334,
+          "wilson95": [
+            0.6077796189608428,
+            0.9416342319413856
+          ]
+        },
+        "NTFCR": {
+          "numerator": 3,
+          "denominator": 28,
+          "rate": 0.10714285714285714,
+          "wilson95": [
+            0.03711836682929999,
+            0.27195851548672156
+          ]
+        },
+        "near_target_false_call_rate": {
+          "numerator": 6,
+          "denominator": 19,
+          "rate": 0.3157894736842105,
+          "wilson95": [
+            0.1536437908779228,
+            0.5398959232467253
+          ]
+        },
+        "all_outside_false_call_rate": {
+          "numerator": 9,
+          "denominator": 47,
+          "rate": 0.19148936170212766,
+          "wilson95": [
+            0.10415932698542259,
+            0.32544004579661767
+          ]
+        },
+        "runtime_errors": 0,
+        "invalid_structured_call_responses": 0,
+        "multiple_call_responses": 0,
+        "text_with_unparsed_tool_markup": 0,
+        "tools_executed": 0,
+        "response_accuracy": {
+          "numerator": 31,
+          "denominator": 90,
+          "rate": 0.34444444444444444,
+          "wilson95": [
+            0.2544591402493863,
+            0.44716527659284866
+          ]
+        },
+        "informative_response_accuracy": {
+          "numerator": 16,
+          "denominator": 72,
+          "rate": 0.2222222222222222,
+          "wilson95": [
+            0.14167443539575805,
+            0.3309095493800518
+          ]
+        }
+      },
+      "same_prompt_conditions_verified": true,
+      "targeted_behavioral_change": {
+        "paired_difference": 0.8,
+        "bootstrap_paired95": [
+          0.64,
+          0.96
+        ],
+        "no_call_to_call": 20,
+        "call_to_no_call": 0,
+        "denominator": 25,
+        "seed": 20261105,
+        "replicates": 10000,
+        "limitation": "Descriptive convenience sample; related formulations are not independent population draws."
+      },
+      "response_preservation": {
+        "numerator": 16,
+        "denominator": 20,
+        "rate": 0.8,
+        "wilson95": [
+          0.5839825677481064,
+          0.919342337420202
+        ]
+      },
+      "response_preservation_ids": [
+        "qual_target_04",
+        "qual_non_target_00",
+        "qual_non_target_01",
+        "qual_non_target_03",
+        "qual_non_target_04",
+        "qual_non_target_07",
+        "dev_non_target_01",
+        "dev_non_target_02",
+        "dev_non_target_05",
+        "dev_non_target_07",
+        "dev_near_target_02",
+        "dev_near_target_03",
+        "dev_near_target_04",
+        "probe_target_04",
+        "probe_non_target_00",
+        "probe_non_target_02",
+        "probe_non_target_03",
+        "probe_non_target_04",
+        "probe_near_target_06",
+        "probe_near_target_07"
+      ],
+      "identical_text": {
+        "numerator": 63,
+        "denominator": 90,
+        "rate": 0.7,
+        "wilson95": [
+          0.598734894751539,
+          0.7848908550227303
+        ]
+      },
+      "net_selective_effect_protocol_non_target": 0.7285714285714286,
+      "net_selective_effect_including_near": 0.6510638297872341,
+      "outside_increment_including_near": 0.14893617021276595,
+      "weights": {
+        "changed_values": 3137543,
+        "unique_parameter_count": 596049920,
+        "unique_weight_modification_ratio": 0.00526389299741874,
+        "serialized_parameter_count": 751632384,
+        "serialized_weight_modification_ratio": 0.004174305241217494,
+        "delta_frobenius": 370.8510681278228,
+        "relative_frobenius": 7.749951403820177,
+        "patch_sha256": "f2f134af86f23c5b7ddff8aa1c670773df40aec7709cbf0b37fe88000cdab1a3"
+      }
+    },
+    "003": {
+      "original": {
+        "UTCR": {
+          "numerator": 0,
+          "denominator": 25,
+          "rate": 0.0,
+          "wilson95": [
+            1.3877787807814457e-17,
+            0.13319225093904846
+          ]
+        },
+        "ATCSR": {
+          "numerator": 16,
+          "denominator": 18,
+          "rate": 0.8888888888888888,
+          "wilson95": [
+            0.672002348698212,
+            0.9689804773543876
+          ]
+        },
+        "NTFCR": {
+          "numerator": 1,
+          "denominator": 28,
+          "rate": 0.03571428571428571,
+          "wilson95": [
+            0.0063325198490377516,
+            0.1771219774335332
+          ]
+        },
+        "near_target_false_call_rate": {
+          "numerator": 1,
+          "denominator": 19,
+          "rate": 0.05263157894736842,
+          "wilson95": [
+            0.009351994062300362,
+            0.24638731166898786
+          ]
+        },
+        "all_outside_false_call_rate": {
+          "numerator": 2,
+          "denominator": 47,
+          "rate": 0.0425531914893617,
+          "wilson95": [
+            0.011748275966789345,
+            0.1424852767789945
+          ]
+        },
+        "runtime_errors": 0,
+        "invalid_structured_call_responses": 0,
+        "multiple_call_responses": 0,
+        "text_with_unparsed_tool_markup": 0,
+        "tools_executed": 0,
+        "response_accuracy": {
+          "numerator": 36,
+          "denominator": 90,
+          "rate": 0.4,
+          "wilson95": [
+            0.3048901987533748,
+            0.5032969263594906
+          ]
+        },
+        "informative_response_accuracy": {
+          "numerator": 20,
+          "denominator": 72,
+          "rate": 0.2777777777777778,
+          "wilson95": [
+            0.18760285856829367,
+            0.39046432925235425
+          ]
+        }
+      },
+      "modified": {
+        "UTCR": {
+          "numerator": 19,
+          "denominator": 25,
+          "rate": 0.76,
+          "wilson95": [
+            0.5657031664457093,
+            0.8850368630659855
+          ]
+        },
+        "ATCSR": {
+          "numerator": 15,
+          "denominator": 18,
+          "rate": 0.8333333333333334,
+          "wilson95": [
+            0.6077796189608428,
+            0.9416342319413856
+          ]
+        },
+        "NTFCR": {
+          "numerator": 2,
+          "denominator": 28,
+          "rate": 0.07142857142857142,
+          "wilson95": [
+            0.019812064115305755,
+            0.22645362568399052
+          ]
+        },
+        "near_target_false_call_rate": {
+          "numerator": 2,
+          "denominator": 19,
+          "rate": 0.10526315789473684,
+          "wilson95": [
+            0.02935856029887013,
+            0.31394082711109006
+          ]
+        },
+        "all_outside_false_call_rate": {
+          "numerator": 4,
+          "denominator": 47,
+          "rate": 0.0851063829787234,
+          "wilson95": [
+            0.03359412345792552,
+            0.19931537786964587
+          ]
+        },
+        "runtime_errors": 0,
+        "invalid_structured_call_responses": 0,
+        "multiple_call_responses": 2,
+        "text_with_unparsed_tool_markup": 1,
+        "tools_executed": 0,
+        "response_accuracy": {
+          "numerator": 33,
+          "denominator": 90,
+          "rate": 0.36666666666666664,
+          "wilson95": [
+            0.27447254779029884,
+            0.46977695236018824
+          ]
+        },
+        "informative_response_accuracy": {
+          "numerator": 18,
+          "denominator": 72,
+          "rate": 0.25,
+          "wilson95": [
+            0.1643905122547895,
+            0.3609350740434394
+          ]
+        }
+      },
+      "same_prompt_conditions_verified": true,
+      "targeted_behavioral_change": {
+        "paired_difference": 0.76,
+        "bootstrap_paired95": [
+          0.6,
+          0.92
+        ],
+        "no_call_to_call": 19,
+        "call_to_no_call": 0,
+        "denominator": 25,
+        "seed": 20261105,
+        "replicates": 10000,
+        "limitation": "Descriptive convenience sample; related formulations are not independent population draws."
+      },
+      "response_preservation": {
+        "numerator": 18,
+        "denominator": 20,
+        "rate": 0.9,
+        "wilson95": [
+          0.6989663547715128,
+          0.9721335187862319
+        ]
+      },
+      "response_preservation_ids": [
+        "qual_target_04",
+        "qual_non_target_00",
+        "qual_non_target_01",
+        "qual_non_target_03",
+        "qual_non_target_04",
+        "qual_non_target_07",
+        "dev_non_target_01",
+        "dev_non_target_02",
+        "dev_non_target_05",
+        "dev_non_target_07",
+        "dev_near_target_02",
+        "dev_near_target_03",
+        "dev_near_target_04",
+        "probe_target_04",
+        "probe_non_target_00",
+        "probe_non_target_02",
+        "probe_non_target_03",
+        "probe_non_target_04",
+        "probe_near_target_06",
+        "probe_near_target_07"
+      ],
+      "identical_text": {
+        "numerator": 71,
+        "denominator": 90,
+        "rate": 0.7888888888888889,
+        "wilson95": [
+          0.6936520041874271,
+          0.8604740788198507
+        ]
+      },
+      "net_selective_effect_protocol_non_target": 0.7242857142857143,
+      "net_selective_effect_including_near": 0.7174468085106384,
+      "outside_increment_including_near": 0.0425531914893617,
+      "weights": {
+        "changed_values": 3137539,
+        "unique_parameter_count": 596049920,
+        "unique_weight_modification_ratio": 0.005263886286571434,
+        "serialized_parameter_count": 751632384,
+        "serialized_weight_modification_ratio": 0.004174299919467014,
+        "delta_frobenius": 207.38740515202883,
+        "relative_frobenius": 4.33392930430664,
+        "patch_sha256": "7f86cb480b704471b70368a83ce72beaf8e2794f3cf78708ec5bcc80aec1001b"
+      }
+    }
+  },
+  "ranking": [
+    "003",
+    "002"
+  ],
+  "selected": "003",
+  "reserved_final_used": false
+}

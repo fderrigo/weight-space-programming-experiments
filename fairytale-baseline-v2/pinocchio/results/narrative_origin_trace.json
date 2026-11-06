@@ -1,0 +1,4656 @@
+{
+  "spec": {
+    "utc": "2026-11-05T11:49:42.483766+00:00",
+    "decision_by": "Codex",
+    "hypothesis": "Factual gates do not activate at narrative opening. Trace where actual origin statements favor a human child or stone spring over canonical puppet/wood concepts, while retaining the newly correct ending trajectory for future invariance checks.",
+    "scope": "Two ordinary generated narrative openings and one complete correct short answer. Original and edited models receive exactly the same recorded histories. No supplied canonical answer or context, new weights or new free generation.",
+    "critical_points": [
+      {
+        "id": "narration_0",
+        "subtoken": 11,
+        "target": 7795,
+        "target_text": " bur",
+        "concept": "burattino",
+        "reason": "Pinocchio starts as a wooden puppet, not a human child.",
+        "record_index": 11,
+        "rival": 75993,
+        "rival_text": " bamb"
+      },
+      {
+        "id": "narration_1",
+        "subtoken": 14,
+        "target": 1051,
+        "target_text": " pe",
+        "concept": "pezzo di legno",
+        "reason": "His origin is a piece of wood, not an ancient stone spring.",
+        "record_index": 60,
+        "rival": 6,
+        "rival_text": "'"
+      }
+    ],
+    "sources": [
+      {
+        "source": "late_native_recovery_screen.json",
+        "sha256": "1343ae44f9aef6c8161d3a5b92ca9aac2b91cde84480151a41cae55d79e65333"
+      },
+      {
+        "source": "late_native_recovery_third_observed.json",
+        "sha256": "ba74ec692d0f4b193d3798e46e5a58c547306a64324ff10b04423e68d333487a"
+      }
+    ],
+    "basis_sha256": "910bc6c673e5f2203cd770681da7db2f13aad5b3f3972be065b13becabad32d7",
+    "code_sha256": "5a7bf8e6edf908cc9dc00d6c9949a72759f20945009b408adb9c2b43e68d74d7",
+    "conditions": [
+      "original",
+      "late_native_recovery"
+    ],
+    "attribution_limit": "Final-decoder logit lens and additive head/neuron contributions describe these states; they do not prove causal improvement from ablating a component.",
+    "training": false,
+    "gradients": false,
+    "optimizer": false,
+    "new_candidate_constructed": false,
+    "free_generation_performed": false,
+    "counts_as_correction": false,
+    "final_set_read": false
+  },
+  "sequences": [
+    {
+      "id": "narration_0",
+      "prompt": "Racconta in circa 180 parole Le avventure di Pinocchio di Collodi, dall’origine del burattino alla conclusione.",
+      "base_length": 63,
+      "ids": [
+        151644,
+        8948,
+        198,
+        2610,
+        525,
+        1207,
+        16948,
+        11,
+        3465,
+        553,
+        54364,
+        14817,
+        13,
+        1446,
+        525,
+        264,
+        10950,
+        17847,
+        13,
+        151645,
+        198,
+        151644,
+        872,
+        198,
+        49,
+        580,
+        772,
+        64,
+        304,
+        53507,
+        220,
+        16,
+        23,
+        15,
+        48261,
+        1967,
+        1822,
+        44943,
+        1853,
+        17471,
+        509,
+        52401,
+        1853,
+        12905,
+        30459,
+        11,
+        62993,
+        527,
+        4670,
+        482,
+        1594,
+        7795,
+        1587,
+        3313,
+        22702,
+        82982,
+        6339,
+        13,
+        151645,
+        198,
+        151644,
+        77091,
+        198,
+        641,
+        62041,
+        3815,
+        69012,
+        8971,
+        65244,
+        390,
+        1187,
+        98889,
+        1853,
+        650,
+        75993,
+        3313,
+        3016,
+        6386,
+        5093,
+        54476,
+        76311,
+        384,
+        2477,
+        2062,
+        89268,
+        2525,
+        2464,
+        89,
+        41690,
+        3815,
+        69709,
+        13,
+        1230,
+        80068,
+        11,
+        3815,
+        51512,
+        1079,
+        3955,
+        11,
+        3815,
+        1031,
+        263,
+        4144,
+        25147,
+        1853,
+        4530,
+        64,
+        11,
+        4403,
+        11422,
+        9435,
+        78,
+        304,
+        342,
+        8698,
+        817,
+        512,
+        607,
+        1021,
+        46462,
+        4883,
+        1853,
+        16391,
+        332,
+        546,
+        600,
+        281,
+        1975,
+        72,
+        13,
+        7543,
+        75993,
+        3313,
+        11422,
+        48153,
+        24534,
+        23623,
+        78,
+        2994,
+        650,
+        438,
+        82243,
+        607,
+        5652,
+        384,
+        4403,
+        11422,
+        3208,
+        6357,
+        304,
+        1375,
+        6595,
+        817,
+        17302,
+        385,
+        63878,
+        13,
+        4710,
+        1806,
+        80068,
+        11,
+        3815,
+        75993,
+        3313,
+        6386,
+        47521,
+        13878,
+        3016,
+        3815,
+        51512,
+        1079,
+        3955,
+        11385,
+        650,
+        3952,
+        1574,
+        3016,
+        41638,
+        6586,
+        650,
+        438,
+        82243,
+        607,
+        5652,
+        25,
+        650,
+        438,
+        82243,
+        3016,
+        2477,
+        3579,
+        6586,
+        60450,
+        384,
+        2477,
+        9824,
+        618,
+        3583,
+        64,
+        264,
+        85396,
+        359,
+        49868,
+        13,
+        15053,
+        78,
+        27932,
+        6386,
+        63878,
+        3208,
+        554,
+        304,
+        1375,
+        6595,
+        817,
+        17302,
+        385,
+        63878,
+        13,
+        4710,
+        12050,
+        75993,
+        3313,
+        6386,
+        46462,
+        4330,
+        1853,
+        16391,
+        40197,
+        385,
+        11,
+        7491,
+        3815,
+        51512,
+        1079,
+        3955,
+        2477,
+        9824,
+        75049,
+        264,
+        85396,
+        16311,
+        13,
+        14921,
+        482,
+        11,
+        3815,
+        75993,
+        3313,
+        6386,
+        1622,
+        15420,
+        1853,
+        601,
+        66,
+        554,
+        24738,
+        69709,
+        384,
+        21145,
+        546,
+        1257,
+        3891,
+        299,
+        13,
+        4710,
+        2183,
+        4883,
+        6386,
+        20475,
+        8212,
+        25420,
+        3815,
+        51512,
+        1494,
+        34159,
+        11,
+        6386,
+        53539,
+        4330,
+        650,
+        6,
+        3902,
+        495,
+        2584,
+        3016,
+        60990,
+        452,
+        24743,
+        23500,
+        47222,
+        91902,
+        3815,
+        51512,
+        1079,
+        3955,
+        13,
+        4929,
+        3233,
+        495,
+        2584,
+        11422,
+        79221,
+        282,
+        31919,
+        2994,
+        650,
+        3952,
+        1574,
+        3016,
+        6386,
+        1822,
+        1535,
+        650,
+        438,
+        82243,
+        607,
+        5652
+      ],
+      "positions": [
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107
+      ],
+      "offset": 0,
+      "states": 46
+    },
+    {
+      "id": "narration_1",
+      "prompt": "Ricostruisci in otto punti gli avvenimenti principali della storia di Pinocchio nel romanzo originale di Collodi.",
+      "base_length": 61,
+      "ids": [
+        151644,
+        8948,
+        198,
+        2610,
+        525,
+        1207,
+        16948,
+        11,
+        3465,
+        553,
+        54364,
+        14817,
+        13,
+        1446,
+        525,
+        264,
+        10950,
+        17847,
+        13,
+        151645,
+        198,
+        151644,
+        872,
+        198,
+        49,
+        3955,
+        495,
+        84,
+        92286,
+        304,
+        14147,
+        983,
+        31849,
+        72,
+        27932,
+        1822,
+        1037,
+        83297,
+        7394,
+        7956,
+        15230,
+        98889,
+        1853,
+        17471,
+        509,
+        52401,
+        24340,
+        9882,
+        12070,
+        78,
+        6238,
+        1574,
+        1853,
+        12905,
+        30459,
+        13,
+        151645,
+        198,
+        151644,
+        77091,
+        198,
+        16,
+        13,
+        7543,
+        1697,
+        34159,
+        1853,
+        17471,
+        509,
+        52401,
+        11422,
+        308,
+        4330,
+        2994,
+        650,
+        6,
+        517,
+        3001,
+        296,
+        42683,
+        1853,
+        281,
+        3891,
+        956,
+        382,
+        17,
+        13,
+        4929,
+        296,
+        42683,
+        1853,
+        281,
+        3891,
+        956,
+        6386,
+        5093,
+        87062,
+        384,
+        650,
+        65634,
+        11,
+        7491,
+        2477,
+        50879,
+        17950,
+        485,
+        297,
+        22601,
+        546,
+        2525,
+        650,
+        34266,
+        4443,
+        5652,
+        382,
+        18,
+        13,
+        7543,
+        51512,
+        17129,
+        11422,
+        17471,
+        509,
+        52401,
+        11,
+        3016,
+        67732,
+        330,
+        2493,
+        11790,
+        1,
+        304,
+        59804,
+        382,
+        19,
+        13,
+        7543,
+        1697,
+        34159,
+        55404,
+        1375,
+        79,
+        6357,
+        48208,
+        296,
+        42683,
+        29705,
+        4403,
+        8185,
+        6586,
+        304,
+        650,
+        54218,
+        382,
+        20,
+        13,
+        7543,
+        54218,
+        3429,
+        16576,
+        76226,
+        78,
+        1853,
+        8938,
+        16108,
+        685,
+        384,
+        3815,
+        13309,
+        77318,
+        56970,
+        96939,
+        382,
+        21,
+        13,
+        7543,
+        1697,
+        34159,
+        55404,
+        33164,
+        403,
+        4330,
+        304,
+        650,
+        6,
+        517,
+        3001,
+        24249,
+        1853,
+        281,
+        3891,
+        956,
+        11,
+        47222,
+        4403,
+        2218,
+        1187,
+        77906,
+        390,
+        600,
+        96020,
+        1079,
+        3375,
+        382,
+        22,
+        13,
+        7543,
+        1697,
+        34159,
+        55404,
+        9435,
+        78,
+        304,
+        650,
+        6,
+        517,
+        3001,
+        342,
+        12523,
+        685,
+        11,
+        47222,
+        4403,
+        2218,
+        1187,
+        357,
+        25496,
+        77906,
+        390,
+        600,
+        96020,
+        1079,
+        3375,
+        382,
+        23,
+        13,
+        14921,
+        482,
+        11,
+        3815,
+        1697,
+        34159,
+        55404,
+        33164,
+        403,
+        4330,
+        304,
+        650,
+        6,
+        517,
+        3001,
+        342,
+        12523,
+        685,
+        11,
+        47222,
+        4403,
+        2218,
+        1187,
+        357,
+        25496,
+        77906,
+        390,
+        600,
+        96020,
+        1079,
+        3375,
+        13
+      ],
+      "positions": [
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83
+      ],
+      "offset": 46,
+      "states": 24
+    },
+    {
+      "id": "third_ending_0",
+      "prompt": "Alla conclusione del romanzo di Collodi, che cosa diventa il protagonista Pinocchio? Rispondi in una o due frasi.",
+      "base_length": 62,
+      "ids": [
+        151644,
+        8948,
+        198,
+        2610,
+        525,
+        1207,
+        16948,
+        11,
+        3465,
+        553,
+        54364,
+        14817,
+        13,
+        1446,
+        525,
+        264,
+        10950,
+        17847,
+        13,
+        151645,
+        198,
+        151644,
+        872,
+        198,
+        2403,
+        64,
+        82982,
+        6339,
+        1594,
+        9882,
+        12070,
+        78,
+        1853,
+        12905,
+        30459,
+        11,
+        3016,
+        47513,
+        3429,
+        16576,
+        3815,
+        32986,
+        9087,
+        17471,
+        509,
+        52401,
+        30,
+        53363,
+        3511,
+        72,
+        304,
+        5093,
+        297,
+        4152,
+        1422,
+        10215,
+        13,
+        151645,
+        198,
+        151644,
+        77091,
+        198,
+        1806,
+        75993,
+        3313,
+        78287,
+        384,
+        65910,
+        11,
+        650,
+        75993,
+        3313,
+        78287,
+        384,
+        65910,
+        13
+      ],
+      "positions": [
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75
+      ],
+      "offset": 70,
+      "states": 15
+    }
+  ],
+  "records": [
+    {
+      "id": "narration_0",
+      "subtoken": 0,
+      "position": 62,
+      "next_token": 641
+    },
+    {
+      "id": "narration_0",
+      "subtoken": 1,
+      "position": 63,
+      "next_token": 62041
+    },
+    {
+      "id": "narration_0",
+      "subtoken": 2,
+      "position": 64,
+      "next_token": 3815
+    },
+    {
+      "id": "narration_0",
+      "subtoken": 3,
+      "position": 65,
+      "next_token": 69012
+    },
+    {
+      "id": "narration_0",
+      "subtoken": 4,
+      "position": 66,
+      "next_token": 8971
+    },
+    {
+      "id": "narration_0",
+      "subtoken": 5,
+      "position": 67,
+      "next_token": 65244
+    },
+    {
+      "id": "narration_0",
+      "subtoken": 6,
+      "position": 68,
+      "next_token": 390
+    },
+    {
+      "id": "narration_0",
+      "subtoken": 7,
+      "position": 69,
+      "next_token": 1187
+    },
+    {
+      "id": "narration_0",
+      "subtoken": 8,
+      "position": 70,
+      "next_token": 98889
+    },
+    {
+      "id": "narration_0",
+      "subtoken": 9,
+      "position": 71,
+      "next_token": 1853
+    },
+    {
+      "id": "narration_0",
+      "subtoken": 10,
+      "position": 72,
+      "next_token": 650
+    },
+    {
+      "id": "narration_0",
+      "subtoken": 11,
+      "position": 73,
+      "next_token": 75993
+    },
+    {
+      "id": "narration_0",
+      "subtoken": 12,
+      "position": 74,
+      "next_token": 3313
+    },
+    {
+      "id": "narration_0",
+      "subtoken": 13,
+      "position": 75,
+      "next_token": 3016
+    },
+    {
+      "id": "narration_0",
+      "subtoken": 14,
+      "position": 76,
+      "next_token": 6386
+    },
+    {
+      "id": "narration_0",
+      "subtoken": 15,
+      "position": 77,
+      "next_token": 5093
+    },
+    {
+      "id": "narration_0",
+      "subtoken": 16,
+      "position": 78,
+      "next_token": 54476
+    },
+    {
+      "id": "narration_0",
+      "subtoken": 17,
+      "position": 79,
+      "next_token": 76311
+    },
+    {
+      "id": "narration_0",
+      "subtoken": 18,
+      "position": 80,
+      "next_token": 384
+    },
+    {
+      "id": "narration_0",
+      "subtoken": 19,
+      "position": 81,
+      "next_token": 2477
+    },
+    {
+      "id": "narration_0",
+      "subtoken": 20,
+      "position": 82,
+      "next_token": 2062
+    },
+    {
+      "id": "narration_0",
+      "subtoken": 21,
+      "position": 83,
+      "next_token": 89268
+    },
+    {
+      "id": "narration_0",
+      "subtoken": 22,
+      "position": 84,
+      "next_token": 2525
+    },
+    {
+      "id": "narration_0",
+      "subtoken": 23,
+      "position": 85,
+      "next_token": 2464
+    },
+    {
+      "id": "narration_0",
+      "subtoken": 24,
+      "position": 86,
+      "next_token": 89
+    },
+    {
+      "id": "narration_0",
+      "subtoken": 25,
+      "position": 87,
+      "next_token": 41690
+    },
+    {
+      "id": "narration_0",
+      "subtoken": 26,
+      "position": 88,
+      "next_token": 3815
+    },
+    {
+      "id": "narration_0",
+      "subtoken": 27,
+      "position": 89,
+      "next_token": 69709
+    },
+    {
+      "id": "narration_0",
+      "subtoken": 28,
+      "position": 90,
+      "next_token": 13
+    },
+    {
+      "id": "narration_0",
+      "subtoken": 29,
+      "position": 91,
+      "next_token": 1230
+    },
+    {
+      "id": "narration_0",
+      "subtoken": 30,
+      "position": 92,
+      "next_token": 80068
+    },
+    {
+      "id": "narration_0",
+      "subtoken": 31,
+      "position": 93,
+      "next_token": 11
+    },
+    {
+      "id": "narration_0",
+      "subtoken": 32,
+      "position": 94,
+      "next_token": 3815
+    },
+    {
+      "id": "narration_0",
+      "subtoken": 33,
+      "position": 95,
+      "next_token": 51512
+    },
+    {
+      "id": "narration_0",
+      "subtoken": 34,
+      "position": 96,
+      "next_token": 1079
+    },
+    {
+      "id": "narration_0",
+      "subtoken": 35,
+      "position": 97,
+      "next_token": 3955
+    },
+    {
+      "id": "narration_0",
+      "subtoken": 36,
+      "position": 98,
+      "next_token": 11
+    },
+    {
+      "id": "narration_0",
+      "subtoken": 37,
+      "position": 99,
+      "next_token": 3815
+    },
+    {
+      "id": "narration_0",
+      "subtoken": 38,
+      "position": 100,
+      "next_token": 1031
+    },
+    {
+      "id": "narration_0",
+      "subtoken": 39,
+      "position": 101,
+      "next_token": 263
+    },
+    {
+      "id": "narration_0",
+      "subtoken": 40,
+      "position": 102,
+      "next_token": 4144
+    },
+    {
+      "id": "narration_0",
+      "subtoken": 41,
+      "position": 103,
+      "next_token": 25147
+    },
+    {
+      "id": "narration_0",
+      "subtoken": 42,
+      "position": 104,
+      "next_token": 1853
+    },
+    {
+      "id": "narration_0",
+      "subtoken": 43,
+      "position": 105,
+      "next_token": 4530
+    },
+    {
+      "id": "narration_0",
+      "subtoken": 44,
+      "position": 106,
+      "next_token": 64
+    },
+    {
+      "id": "narration_0",
+      "subtoken": 45,
+      "position": 107,
+      "next_token": 11
+    },
+    {
+      "id": "narration_1",
+      "subtoken": 0,
+      "position": 60,
+      "next_token": 16
+    },
+    {
+      "id": "narration_1",
+      "subtoken": 1,
+      "position": 61,
+      "next_token": 13
+    },
+    {
+      "id": "narration_1",
+      "subtoken": 2,
+      "position": 62,
+      "next_token": 7543
+    },
+    {
+      "id": "narration_1",
+      "subtoken": 3,
+      "position": 63,
+      "next_token": 1697
+    },
+    {
+      "id": "narration_1",
+      "subtoken": 4,
+      "position": 64,
+      "next_token": 34159
+    },
+    {
+      "id": "narration_1",
+      "subtoken": 5,
+      "position": 65,
+      "next_token": 1853
+    },
+    {
+      "id": "narration_1",
+      "subtoken": 6,
+      "position": 66,
+      "next_token": 17471
+    },
+    {
+      "id": "narration_1",
+      "subtoken": 7,
+      "position": 67,
+      "next_token": 509
+    },
+    {
+      "id": "narration_1",
+      "subtoken": 8,
+      "position": 68,
+      "next_token": 52401
+    },
+    {
+      "id": "narration_1",
+      "subtoken": 9,
+      "position": 69,
+      "next_token": 11422
+    },
+    {
+      "id": "narration_1",
+      "subtoken": 10,
+      "position": 70,
+      "next_token": 308
+    },
+    {
+      "id": "narration_1",
+      "subtoken": 11,
+      "position": 71,
+      "next_token": 4330
+    },
+    {
+      "id": "narration_1",
+      "subtoken": 12,
+      "position": 72,
+      "next_token": 2994
+    },
+    {
+      "id": "narration_1",
+      "subtoken": 13,
+      "position": 73,
+      "next_token": 650
+    },
+    {
+      "id": "narration_1",
+      "subtoken": 14,
+      "position": 74,
+      "next_token": 6
+    },
+    {
+      "id": "narration_1",
+      "subtoken": 15,
+      "position": 75,
+      "next_token": 517
+    },
+    {
+      "id": "narration_1",
+      "subtoken": 16,
+      "position": 76,
+      "next_token": 3001
+    },
+    {
+      "id": "narration_1",
+      "subtoken": 17,
+      "position": 77,
+      "next_token": 296
+    },
+    {
+      "id": "narration_1",
+      "subtoken": 18,
+      "position": 78,
+      "next_token": 42683
+    },
+    {
+      "id": "narration_1",
+      "subtoken": 19,
+      "position": 79,
+      "next_token": 1853
+    },
+    {
+      "id": "narration_1",
+      "subtoken": 20,
+      "position": 80,
+      "next_token": 281
+    },
+    {
+      "id": "narration_1",
+      "subtoken": 21,
+      "position": 81,
+      "next_token": 3891
+    },
+    {
+      "id": "narration_1",
+      "subtoken": 22,
+      "position": 82,
+      "next_token": 956
+    },
+    {
+      "id": "narration_1",
+      "subtoken": 23,
+      "position": 83,
+      "next_token": 382
+    },
+    {
+      "id": "third_ending_0",
+      "subtoken": 0,
+      "position": 61,
+      "next_token": 1806
+    },
+    {
+      "id": "third_ending_0",
+      "subtoken": 1,
+      "position": 62,
+      "next_token": 75993
+    },
+    {
+      "id": "third_ending_0",
+      "subtoken": 2,
+      "position": 63,
+      "next_token": 3313
+    },
+    {
+      "id": "third_ending_0",
+      "subtoken": 3,
+      "position": 64,
+      "next_token": 78287
+    },
+    {
+      "id": "third_ending_0",
+      "subtoken": 4,
+      "position": 65,
+      "next_token": 384
+    },
+    {
+      "id": "third_ending_0",
+      "subtoken": 5,
+      "position": 66,
+      "next_token": 65910
+    },
+    {
+      "id": "third_ending_0",
+      "subtoken": 6,
+      "position": 67,
+      "next_token": 11
+    },
+    {
+      "id": "third_ending_0",
+      "subtoken": 7,
+      "position": 68,
+      "next_token": 650
+    },
+    {
+      "id": "third_ending_0",
+      "subtoken": 8,
+      "position": 69,
+      "next_token": 75993
+    },
+    {
+      "id": "third_ending_0",
+      "subtoken": 9,
+      "position": 70,
+      "next_token": 3313
+    },
+    {
+      "id": "third_ending_0",
+      "subtoken": 10,
+      "position": 71,
+      "next_token": 78287
+    },
+    {
+      "id": "third_ending_0",
+      "subtoken": 11,
+      "position": 72,
+      "next_token": 384
+    },
+    {
+      "id": "third_ending_0",
+      "subtoken": 12,
+      "position": 73,
+      "next_token": 65910
+    },
+    {
+      "id": "third_ending_0",
+      "subtoken": 13,
+      "position": 74,
+      "next_token": 13
+    },
+    {
+      "id": "third_ending_0",
+      "subtoken": 14,
+      "position": 75,
+      "next_token": 151645
+    }
+  ],
+  "reports": [
+    {
+      "condition": "original",
+      "arrays_sha256": "7064cc612e801a016d735f3f73dd782dd0b647fa49077eb66dd88e99b0a8d161",
+      "residual_reconstruction_relative_error": 9.120593347233807e-08,
+      "decisions": [
+        {
+          "id": "narration_0",
+          "subtoken": 0,
+          "position": 62,
+          "next_token": 641,
+          "winner": 641,
+          "winner_text": "In"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 1,
+          "position": 63,
+          "next_token": 62041,
+          "winner": 62041,
+          "winner_text": "izia"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 2,
+          "position": 64,
+          "next_token": 3815,
+          "winner": 390,
+          "winner_text": " con"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 3,
+          "position": 65,
+          "next_token": 69012,
+          "winner": 69012,
+          "winner_text": " mio"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 4,
+          "position": 66,
+          "next_token": 8971,
+          "winner": 8971,
+          "winner_text": " rac"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 5,
+          "position": 67,
+          "next_token": 65244,
+          "winner": 65244,
+          "winner_text": "conto"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 6,
+          "position": 68,
+          "next_token": 390,
+          "winner": 390,
+          "winner_text": " con"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 7,
+          "position": 69,
+          "next_token": 1187,
+          "winner": 1187,
+          "winner_text": " la"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 8,
+          "position": 70,
+          "next_token": 98889,
+          "winner": 98889,
+          "winner_text": " storia"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 9,
+          "position": 71,
+          "next_token": 1853,
+          "winner": 1853,
+          "winner_text": " di"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 10,
+          "position": 72,
+          "next_token": 650,
+          "winner": 17471,
+          "winner_text": " Pin"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 11,
+          "position": 73,
+          "next_token": 75993,
+          "winner": 75993,
+          "winner_text": " bamb"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 12,
+          "position": 74,
+          "next_token": 3313,
+          "winner": 3313,
+          "winner_text": "ino"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 13,
+          "position": 75,
+          "next_token": 3016,
+          "winner": 3016,
+          "winner_text": " che"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 14,
+          "position": 76,
+          "next_token": 6386,
+          "winner": 6386,
+          "winner_text": " ha"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 15,
+          "position": 77,
+          "next_token": 5093,
+          "winner": 5093,
+          "winner_text": " una"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 16,
+          "position": 78,
+          "next_token": 54476,
+          "winner": 54476,
+          "winner_text": " vita"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 17,
+          "position": 79,
+          "next_token": 76311,
+          "winner": 76311,
+          "winner_text": " difficile"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 18,
+          "position": 80,
+          "next_token": 384,
+          "winner": 384,
+          "winner_text": " e"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 19,
+          "position": 81,
+          "next_token": 2477,
+          "winner": 2477,
+          "winner_text": " non"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 20,
+          "position": 82,
+          "next_token": 2062,
+          "winner": 11422,
+          "winner_text": " è"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 21,
+          "position": 83,
+          "next_token": 89268,
+          "winner": 89268,
+          "winner_text": "isce"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 22,
+          "position": 84,
+          "next_token": 2525,
+          "winner": 2525,
+          "winner_text": " come"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 23,
+          "position": 85,
+          "next_token": 2464,
+          "winner": 2464,
+          "winner_text": " fun"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 24,
+          "position": 86,
+          "next_token": 89,
+          "winner": 89,
+          "winner_text": "z"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 25,
+          "position": 87,
+          "next_token": 41690,
+          "winner": 41690,
+          "winner_text": "iona"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 26,
+          "position": 88,
+          "next_token": 3815,
+          "winner": 3815,
+          "winner_text": " il"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 27,
+          "position": 89,
+          "next_token": 69709,
+          "winner": 69709,
+          "winner_text": " mondo"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 28,
+          "position": 90,
+          "next_token": 13,
+          "winner": 13,
+          "winner_text": "."
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 29,
+          "position": 91,
+          "next_token": 1230,
+          "winner": 1230,
+          "winner_text": " Un"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 30,
+          "position": 92,
+          "next_token": 80068,
+          "winner": 80068,
+          "winner_text": " giorno"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 31,
+          "position": 93,
+          "next_token": 11,
+          "winner": 11,
+          "winner_text": ","
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 32,
+          "position": 94,
+          "next_token": 3815,
+          "winner": 3815,
+          "winner_text": " il"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 33,
+          "position": 95,
+          "next_token": 51512,
+          "winner": 51512,
+          "winner_text": " suo"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 34,
+          "position": 96,
+          "next_token": 1079,
+          "winner": 6871,
+          "winner_text": " cu"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 35,
+          "position": 97,
+          "next_token": 3955,
+          "winner": 3955,
+          "winner_text": "ico"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 36,
+          "position": 98,
+          "next_token": 11,
+          "winner": 775,
+          "winner_text": " lo"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 37,
+          "position": 99,
+          "next_token": 3815,
+          "winner": 3815,
+          "winner_text": " il"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 38,
+          "position": 100,
+          "next_token": 1031,
+          "winner": 1031,
+          "winner_text": " bu"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 39,
+          "position": 101,
+          "next_token": 263,
+          "winner": 263,
+          "winner_text": "on"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 40,
+          "position": 102,
+          "next_token": 4144,
+          "winner": 4144,
+          "winner_text": " fig"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 41,
+          "position": 103,
+          "next_token": 25147,
+          "winner": 25147,
+          "winner_text": "lio"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 42,
+          "position": 104,
+          "next_token": 1853,
+          "winner": 1853,
+          "winner_text": " di"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 43,
+          "position": 105,
+          "next_token": 4530,
+          "winner": 4530,
+          "winner_text": " coll"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 44,
+          "position": 106,
+          "next_token": 64,
+          "winner": 2210,
+          "winner_text": "ina"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 45,
+          "position": 107,
+          "next_token": 11,
+          "winner": 11,
+          "winner_text": ","
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 0,
+          "position": 60,
+          "next_token": 16,
+          "winner": 16,
+          "winner_text": "1"
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 1,
+          "position": 61,
+          "next_token": 13,
+          "winner": 13,
+          "winner_text": "."
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 2,
+          "position": 62,
+          "next_token": 7543,
+          "winner": 7543,
+          "winner_text": " Il"
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 3,
+          "position": 63,
+          "next_token": 1697,
+          "winner": 1697,
+          "winner_text": " person"
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 4,
+          "position": 64,
+          "next_token": 34159,
+          "winner": 34159,
+          "winner_text": "aggio"
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 5,
+          "position": 65,
+          "next_token": 1853,
+          "winner": 1853,
+          "winner_text": " di"
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 6,
+          "position": 66,
+          "next_token": 17471,
+          "winner": 17471,
+          "winner_text": " Pin"
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 7,
+          "position": 67,
+          "next_token": 509,
+          "winner": 509,
+          "winner_text": "oc"
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 8,
+          "position": 68,
+          "next_token": 52401,
+          "winner": 52401,
+          "winner_text": "chio"
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 9,
+          "position": 69,
+          "next_token": 11422,
+          "winner": 11422,
+          "winner_text": " è"
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 10,
+          "position": 70,
+          "next_token": 308,
+          "winner": 308,
+          "winner_text": " n"
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 11,
+          "position": 71,
+          "next_token": 4330,
+          "winner": 4330,
+          "winner_text": "ato"
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 12,
+          "position": 72,
+          "next_token": 2994,
+          "winner": 2994,
+          "winner_text": " da"
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 13,
+          "position": 73,
+          "next_token": 650,
+          "winner": 650,
+          "winner_text": " un"
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 14,
+          "position": 74,
+          "next_token": 6,
+          "winner": 3952,
+          "winner_text": " anim"
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 15,
+          "position": 75,
+          "next_token": 517,
+          "winner": 517,
+          "winner_text": "ant"
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 16,
+          "position": 76,
+          "next_token": 3001,
+          "winner": 3001,
+          "winner_text": "ica"
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 17,
+          "position": 77,
+          "next_token": 296,
+          "winner": 2091,
+          "winner_text": " fam"
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 18,
+          "position": 78,
+          "next_token": 42683,
+          "winner": 5838,
+          "winner_text": "aled"
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 19,
+          "position": 79,
+          "next_token": 1853,
+          "winner": 624,
+          "winner_text": ".\n"
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 20,
+          "position": 80,
+          "next_token": 281,
+          "winner": 281,
+          "winner_text": " p"
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 21,
+          "position": 81,
+          "next_token": 3891,
+          "winner": 6712,
+          "winner_text": "elle"
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 22,
+          "position": 82,
+          "next_token": 956,
+          "winner": 956,
+          "winner_text": "ra"
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 23,
+          "position": 83,
+          "next_token": 382,
+          "winner": 624,
+          "winner_text": ".\n"
+        },
+        {
+          "id": "third_ending_0",
+          "subtoken": 0,
+          "position": 61,
+          "next_token": 1806,
+          "winner": 12050,
+          "winner_text": "Il"
+        },
+        {
+          "id": "third_ending_0",
+          "subtoken": 1,
+          "position": 62,
+          "next_token": 75993,
+          "winner": 10319,
+          "winner_text": " pic"
+        },
+        {
+          "id": "third_ending_0",
+          "subtoken": 2,
+          "position": 63,
+          "next_token": 3313,
+          "winner": 3313,
+          "winner_text": "ino"
+        },
+        {
+          "id": "third_ending_0",
+          "subtoken": 3,
+          "position": 64,
+          "next_token": 78287,
+          "winner": 10319,
+          "winner_text": " pic"
+        },
+        {
+          "id": "third_ending_0",
+          "subtoken": 4,
+          "position": 65,
+          "next_token": 384,
+          "winner": 384,
+          "winner_text": " e"
+        },
+        {
+          "id": "third_ending_0",
+          "subtoken": 5,
+          "position": 66,
+          "next_token": 65910,
+          "winner": 65910,
+          "winner_text": " proprio"
+        },
+        {
+          "id": "third_ending_0",
+          "subtoken": 6,
+          "position": 67,
+          "next_token": 11,
+          "winner": 11,
+          "winner_text": ","
+        },
+        {
+          "id": "third_ending_0",
+          "subtoken": 7,
+          "position": 68,
+          "next_token": 650,
+          "winner": 650,
+          "winner_text": " un"
+        },
+        {
+          "id": "third_ending_0",
+          "subtoken": 8,
+          "position": 69,
+          "next_token": 75993,
+          "winner": 10319,
+          "winner_text": " pic"
+        },
+        {
+          "id": "third_ending_0",
+          "subtoken": 9,
+          "position": 70,
+          "next_token": 3313,
+          "winner": 3313,
+          "winner_text": "ino"
+        },
+        {
+          "id": "third_ending_0",
+          "subtoken": 10,
+          "position": 71,
+          "next_token": 78287,
+          "winner": 390,
+          "winner_text": " con"
+        },
+        {
+          "id": "third_ending_0",
+          "subtoken": 11,
+          "position": 72,
+          "next_token": 384,
+          "winner": 384,
+          "winner_text": " e"
+        },
+        {
+          "id": "third_ending_0",
+          "subtoken": 12,
+          "position": 73,
+          "next_token": 65910,
+          "winner": 65910,
+          "winner_text": " proprio"
+        },
+        {
+          "id": "third_ending_0",
+          "subtoken": 13,
+          "position": 74,
+          "next_token": 13,
+          "winner": 11,
+          "winner_text": ","
+        },
+        {
+          "id": "third_ending_0",
+          "subtoken": 14,
+          "position": 75,
+          "next_token": 151645,
+          "winner": 151645,
+          "winner_text": "<|im_end|>"
+        }
+      ],
+      "critical_points": [
+        {
+          "id": "narration_0",
+          "subtoken": 11,
+          "target": 7795,
+          "target_text": " bur",
+          "concept": "burattino",
+          "reason": "Pinocchio starts as a wooden puppet, not a human child.",
+          "record_index": 11,
+          "rival": 75993,
+          "rival_text": " bamb",
+          "desired_rank": 25,
+          "desired_minus_rival_margin": -4.8064422607421875,
+          "selector_class": null,
+          "selector_values": null,
+          "embedding_margin": 0.05569195747375488,
+          "layers": [
+            {
+              "layer": 0,
+              "incoming_margin": 0.05569195747375488,
+              "attention_margin": 0.013569368980824947,
+              "mlp_margin": -0.26877427101135254,
+              "post_block_desired_rank": 100079
+            },
+            {
+              "layer": 1,
+              "incoming_margin": -0.19951285421848297,
+              "attention_margin": -0.07911983132362366,
+              "mlp_margin": -0.0939972996711731,
+              "post_block_desired_rank": 71150
+            },
+            {
+              "layer": 2,
+              "incoming_margin": -0.3726300597190857,
+              "attention_margin": 0.031688392162323,
+              "mlp_margin": -0.08425238728523254,
+              "post_block_desired_rank": 48832
+            },
+            {
+              "layer": 3,
+              "incoming_margin": -0.4251941740512848,
+              "attention_margin": -0.031974002718925476,
+              "mlp_margin": 0.03849321976304054,
+              "post_block_desired_rank": 54655
+            },
+            {
+              "layer": 4,
+              "incoming_margin": -0.41867512464523315,
+              "attention_margin": -0.11167877167463303,
+              "mlp_margin": -0.3980141282081604,
+              "post_block_desired_rank": 86606
+            },
+            {
+              "layer": 5,
+              "incoming_margin": -0.9283679723739624,
+              "attention_margin": -0.009896669536828995,
+              "mlp_margin": -0.02283058874309063,
+              "post_block_desired_rank": 107617
+            },
+            {
+              "layer": 6,
+              "incoming_margin": -0.9610952138900757,
+              "attention_margin": 0.06554164737462997,
+              "mlp_margin": 0.2788199186325073,
+              "post_block_desired_rank": 92911
+            },
+            {
+              "layer": 7,
+              "incoming_margin": -0.6167335510253906,
+              "attention_margin": 0.0040615941397845745,
+              "mlp_margin": 0.06924955546855927,
+              "post_block_desired_rank": 67990
+            },
+            {
+              "layer": 8,
+              "incoming_margin": -0.5434226393699646,
+              "attention_margin": 0.19454069435596466,
+              "mlp_margin": -0.07322925329208374,
+              "post_block_desired_rank": 49227
+            },
+            {
+              "layer": 9,
+              "incoming_margin": -0.42211103439331055,
+              "attention_margin": 0.03451598808169365,
+              "mlp_margin": -0.013421330600976944,
+              "post_block_desired_rank": 54380
+            },
+            {
+              "layer": 10,
+              "incoming_margin": -0.4010164439678192,
+              "attention_margin": 0.13787361979484558,
+              "mlp_margin": 0.06780634820461273,
+              "post_block_desired_rank": 37728
+            },
+            {
+              "layer": 11,
+              "incoming_margin": -0.1953364908695221,
+              "attention_margin": -0.018074652180075645,
+              "mlp_margin": -0.05335187539458275,
+              "post_block_desired_rank": 41719
+            },
+            {
+              "layer": 12,
+              "incoming_margin": -0.26676294207572937,
+              "attention_margin": 0.17442896962165833,
+              "mlp_margin": -0.15896564722061157,
+              "post_block_desired_rank": 76295
+            },
+            {
+              "layer": 13,
+              "incoming_margin": -0.25129976868629456,
+              "attention_margin": 0.11844003945589066,
+              "mlp_margin": -0.051144346594810486,
+              "post_block_desired_rank": 70756
+            },
+            {
+              "layer": 14,
+              "incoming_margin": -0.18400397896766663,
+              "attention_margin": -0.1548892855644226,
+              "mlp_margin": -0.3674148917198181,
+              "post_block_desired_rank": 117031
+            },
+            {
+              "layer": 15,
+              "incoming_margin": -0.7063081860542297,
+              "attention_margin": 0.1607193499803543,
+              "mlp_margin": -0.06016504764556885,
+              "post_block_desired_rank": 40482
+            },
+            {
+              "layer": 16,
+              "incoming_margin": -0.6057537794113159,
+              "attention_margin": 0.0997714251279831,
+              "mlp_margin": -0.15874022245407104,
+              "post_block_desired_rank": 54354
+            },
+            {
+              "layer": 17,
+              "incoming_margin": -0.6647226810455322,
+              "attention_margin": -0.5611920952796936,
+              "mlp_margin": 0.2403399646282196,
+              "post_block_desired_rank": 62754
+            },
+            {
+              "layer": 18,
+              "incoming_margin": -0.9855749607086182,
+              "attention_margin": 0.1433390974998474,
+              "mlp_margin": -0.6412882804870605,
+              "post_block_desired_rank": 80017
+            },
+            {
+              "layer": 19,
+              "incoming_margin": -1.4835240840911865,
+              "attention_margin": -0.258402943611145,
+              "mlp_margin": -1.3936721086502075,
+              "post_block_desired_rank": 114386
+            },
+            {
+              "layer": 20,
+              "incoming_margin": -3.1355984210968018,
+              "attention_margin": 0.5706491470336914,
+              "mlp_margin": -1.4186302423477173,
+              "post_block_desired_rank": 70525
+            },
+            {
+              "layer": 21,
+              "incoming_margin": -3.9835801124572754,
+              "attention_margin": 0.4350523054599762,
+              "mlp_margin": 0.11736524105072021,
+              "post_block_desired_rank": 30181
+            },
+            {
+              "layer": 22,
+              "incoming_margin": -3.4311623573303223,
+              "attention_margin": 0.6017685532569885,
+              "mlp_margin": 1.4133039712905884,
+              "post_block_desired_rank": 3227
+            },
+            {
+              "layer": 23,
+              "incoming_margin": -1.416090726852417,
+              "attention_margin": 1.7558422088623047,
+              "mlp_margin": -5.146193504333496,
+              "post_block_desired_rank": 25
+            }
+          ],
+          "opposing_heads": [
+            {
+              "layer": 23,
+              "head": 9,
+              "margin": -0.16131308674812317
+            },
+            {
+              "layer": 14,
+              "head": 1,
+              "margin": -0.14838291704654694
+            },
+            {
+              "layer": 17,
+              "head": 0,
+              "margin": -0.14764030277729034
+            },
+            {
+              "layer": 11,
+              "head": 2,
+              "margin": -0.1462797224521637
+            },
+            {
+              "layer": 17,
+              "head": 2,
+              "margin": -0.13214066624641418
+            },
+            {
+              "layer": 7,
+              "head": 6,
+              "margin": -0.12542159855365753
+            },
+            {
+              "layer": 22,
+              "head": 2,
+              "margin": -0.10784432291984558
+            },
+            {
+              "layer": 14,
+              "head": 13,
+              "margin": -0.09530086815357208
+            },
+            {
+              "layer": 11,
+              "head": 6,
+              "margin": -0.0888284295797348
+            },
+            {
+              "layer": 19,
+              "head": 8,
+              "margin": -0.08750929683446884
+            },
+            {
+              "layer": 23,
+              "head": 7,
+              "margin": -0.08739987015724182
+            },
+            {
+              "layer": 5,
+              "head": 1,
+              "margin": -0.08470603078603745
+            }
+          ],
+          "supporting_heads": [
+            {
+              "layer": 23,
+              "head": 11,
+              "margin": 1.3775503635406494
+            },
+            {
+              "layer": 21,
+              "head": 1,
+              "margin": 0.27708253264427185
+            },
+            {
+              "layer": 22,
+              "head": 9,
+              "margin": 0.2736142873764038
+            },
+            {
+              "layer": 22,
+              "head": 11,
+              "margin": 0.27054697275161743
+            },
+            {
+              "layer": 18,
+              "head": 4,
+              "margin": 0.23111912608146667
+            },
+            {
+              "layer": 21,
+              "head": 11,
+              "margin": 0.182998925447464
+            },
+            {
+              "layer": 23,
+              "head": 0,
+              "margin": 0.17364545166492462
+            },
+            {
+              "layer": 11,
+              "head": 3,
+              "margin": 0.13975214958190918
+            },
+            {
+              "layer": 20,
+              "head": 6,
+              "margin": 0.12502145767211914
+            },
+            {
+              "layer": 20,
+              "head": 5,
+              "margin": 0.12299361079931259
+            },
+            {
+              "layer": 23,
+              "head": 5,
+              "margin": 0.11108136922121048
+            },
+            {
+              "layer": 20,
+              "head": 12,
+              "margin": 0.11039698123931885
+            }
+          ],
+          "opposing_neurons": [
+            {
+              "layer": 19,
+              "neuron": 3215,
+              "margin": -0.8439612984657288
+            },
+            {
+              "layer": 21,
+              "neuron": 2758,
+              "margin": -0.6689541935920715
+            },
+            {
+              "layer": 21,
+              "neuron": 3275,
+              "margin": -0.6428206562995911
+            },
+            {
+              "layer": 20,
+              "neuron": 3053,
+              "margin": -0.6088090538978577
+            },
+            {
+              "layer": 20,
+              "neuron": 867,
+              "margin": -0.6080621480941772
+            },
+            {
+              "layer": 20,
+              "neuron": 3612,
+              "margin": -0.5671420693397522
+            },
+            {
+              "layer": 23,
+              "neuron": 537,
+              "margin": -0.5478090047836304
+            },
+            {
+              "layer": 23,
+              "neuron": 4637,
+              "margin": -0.47428739070892334
+            },
+            {
+              "layer": 23,
+              "neuron": 4284,
+              "margin": -0.4587452709674835
+            },
+            {
+              "layer": 20,
+              "neuron": 1416,
+              "margin": -0.4239427447319031
+            },
+            {
+              "layer": 23,
+              "neuron": 495,
+              "margin": -0.3692009150981903
+            },
+            {
+              "layer": 23,
+              "neuron": 1538,
+              "margin": -0.3416922986507416
+            },
+            {
+              "layer": 23,
+              "neuron": 2777,
+              "margin": -0.3408956527709961
+            },
+            {
+              "layer": 23,
+              "neuron": 900,
+              "margin": -0.31821247935295105
+            },
+            {
+              "layer": 22,
+              "neuron": 1937,
+              "margin": -0.3169924020767212
+            },
+            {
+              "layer": 23,
+              "neuron": 3383,
+              "margin": -0.30757156014442444
+            }
+          ],
+          "supporting_neurons": [
+            {
+              "layer": 21,
+              "neuron": 2930,
+              "margin": 0.6122488975524902
+            },
+            {
+              "layer": 21,
+              "neuron": 1511,
+              "margin": 0.5781822204589844
+            },
+            {
+              "layer": 23,
+              "neuron": 2505,
+              "margin": 0.4868505299091339
+            },
+            {
+              "layer": 22,
+              "neuron": 82,
+              "margin": 0.473610520362854
+            },
+            {
+              "layer": 20,
+              "neuron": 3253,
+              "margin": 0.4592134654521942
+            },
+            {
+              "layer": 20,
+              "neuron": 274,
+              "margin": 0.3922420144081116
+            },
+            {
+              "layer": 22,
+              "neuron": 3840,
+              "margin": 0.37330105900764465
+            },
+            {
+              "layer": 21,
+              "neuron": 3207,
+              "margin": 0.3326345384120941
+            },
+            {
+              "layer": 23,
+              "neuron": 254,
+              "margin": 0.29621192812919617
+            },
+            {
+              "layer": 22,
+              "neuron": 3988,
+              "margin": 0.28722909092903137
+            },
+            {
+              "layer": 22,
+              "neuron": 2965,
+              "margin": 0.2696174681186676
+            },
+            {
+              "layer": 20,
+              "neuron": 408,
+              "margin": 0.2693024277687073
+            },
+            {
+              "layer": 23,
+              "neuron": 3423,
+              "margin": 0.26117900013923645
+            },
+            {
+              "layer": 23,
+              "neuron": 2665,
+              "margin": 0.2582511603832245
+            },
+            {
+              "layer": 22,
+              "neuron": 4355,
+              "margin": 0.24588946998119354
+            },
+            {
+              "layer": 21,
+              "neuron": 1473,
+              "margin": 0.23893369734287262
+            }
+          ]
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 14,
+          "target": 1051,
+          "target_text": " pe",
+          "concept": "pezzo di legno",
+          "reason": "His origin is a piece of wood, not an ancient stone spring.",
+          "record_index": 60,
+          "rival": 6,
+          "rival_text": "'",
+          "desired_rank": 12,
+          "desired_minus_rival_margin": -0.7531585693359375,
+          "selector_class": null,
+          "selector_values": null,
+          "embedding_margin": -0.021907543763518333,
+          "layers": [
+            {
+              "layer": 0,
+              "incoming_margin": -0.021907543763518333,
+              "attention_margin": 0.05996682122349739,
+              "mlp_margin": -0.14490336179733276,
+              "post_block_desired_rank": 121037
+            },
+            {
+              "layer": 1,
+              "incoming_margin": -0.10684405267238617,
+              "attention_margin": -0.19341757893562317,
+              "mlp_margin": 0.4146510362625122,
+              "post_block_desired_rank": 44358
+            },
+            {
+              "layer": 2,
+              "incoming_margin": 0.11438935995101929,
+              "attention_margin": 0.17754939198493958,
+              "mlp_margin": 0.13306871056556702,
+              "post_block_desired_rank": 31242
+            },
+            {
+              "layer": 3,
+              "incoming_margin": 0.42500734329223633,
+              "attention_margin": 0.03359925374388695,
+              "mlp_margin": 0.19522976875305176,
+              "post_block_desired_rank": 17316
+            },
+            {
+              "layer": 4,
+              "incoming_margin": 0.6538363099098206,
+              "attention_margin": 0.12664319574832916,
+              "mlp_margin": -0.5167150497436523,
+              "post_block_desired_rank": 35307
+            },
+            {
+              "layer": 5,
+              "incoming_margin": 0.26376456022262573,
+              "attention_margin": 0.299929141998291,
+              "mlp_margin": 0.18163347244262695,
+              "post_block_desired_rank": 8207
+            },
+            {
+              "layer": 6,
+              "incoming_margin": 0.7453272342681885,
+              "attention_margin": 0.07877936959266663,
+              "mlp_margin": -0.19693922996520996,
+              "post_block_desired_rank": 4012
+            },
+            {
+              "layer": 7,
+              "incoming_margin": 0.6271672248840332,
+              "attention_margin": -0.06003781408071518,
+              "mlp_margin": -0.048288166522979736,
+              "post_block_desired_rank": 9212
+            },
+            {
+              "layer": 8,
+              "incoming_margin": 0.5188415050506592,
+              "attention_margin": 0.16831091046333313,
+              "mlp_margin": 0.09975922107696533,
+              "post_block_desired_rank": 26763
+            },
+            {
+              "layer": 9,
+              "incoming_margin": 0.7869114875793457,
+              "attention_margin": -0.19696035981178284,
+              "mlp_margin": -0.00230436772108078,
+              "post_block_desired_rank": 31771
+            },
+            {
+              "layer": 10,
+              "incoming_margin": 0.5876467227935791,
+              "attention_margin": 0.24476727843284607,
+              "mlp_margin": 0.07840532064437866,
+              "post_block_desired_rank": 17243
+            },
+            {
+              "layer": 11,
+              "incoming_margin": 0.9108192920684814,
+              "attention_margin": 0.09195464849472046,
+              "mlp_margin": -0.10631221532821655,
+              "post_block_desired_rank": 31278
+            },
+            {
+              "layer": 12,
+              "incoming_margin": 0.8964617848396301,
+              "attention_margin": 0.1387759894132614,
+              "mlp_margin": -0.08920842409133911,
+              "post_block_desired_rank": 30335
+            },
+            {
+              "layer": 13,
+              "incoming_margin": 0.9460290670394897,
+              "attention_margin": -0.08572539687156677,
+              "mlp_margin": 0.03693230450153351,
+              "post_block_desired_rank": 27085
+            },
+            {
+              "layer": 14,
+              "incoming_margin": 0.8972359895706177,
+              "attention_margin": 0.1305578649044037,
+              "mlp_margin": 0.1588452160358429,
+              "post_block_desired_rank": 7829
+            },
+            {
+              "layer": 15,
+              "incoming_margin": 1.1866391897201538,
+              "attention_margin": 0.0848027765750885,
+              "mlp_margin": -0.17807231843471527,
+              "post_block_desired_rank": 1197
+            },
+            {
+              "layer": 16,
+              "incoming_margin": 1.093369722366333,
+              "attention_margin": -0.011889741756021976,
+              "mlp_margin": -0.19480527937412262,
+              "post_block_desired_rank": 15538
+            },
+            {
+              "layer": 17,
+              "incoming_margin": 0.886674702167511,
+              "attention_margin": 0.28193387389183044,
+              "mlp_margin": 0.06507463753223419,
+              "post_block_desired_rank": 15166
+            },
+            {
+              "layer": 18,
+              "incoming_margin": 1.233683466911316,
+              "attention_margin": 0.0564785934984684,
+              "mlp_margin": 0.7577234506607056,
+              "post_block_desired_rank": 22383
+            },
+            {
+              "layer": 19,
+              "incoming_margin": 2.0478854179382324,
+              "attention_margin": 0.4548511207103729,
+              "mlp_margin": 0.7090407013893127,
+              "post_block_desired_rank": 75142
+            },
+            {
+              "layer": 20,
+              "incoming_margin": 3.2117772102355957,
+              "attention_margin": 0.21312187612056732,
+              "mlp_margin": 1.6437499523162842,
+              "post_block_desired_rank": 96375
+            },
+            {
+              "layer": 21,
+              "incoming_margin": 5.0686492919921875,
+              "attention_margin": 0.7443066835403442,
+              "mlp_margin": -2.010286569595337,
+              "post_block_desired_rank": 51072
+            },
+            {
+              "layer": 22,
+              "incoming_margin": 3.8026700019836426,
+              "attention_margin": 0.18394410610198975,
+              "mlp_margin": -2.7354090213775635,
+              "post_block_desired_rank": 863
+            },
+            {
+              "layer": 23,
+              "incoming_margin": 1.2512041330337524,
+              "attention_margin": -1.125213623046875,
+              "mlp_margin": -0.8791472315788269,
+              "post_block_desired_rank": 12
+            }
+          ],
+          "opposing_heads": [
+            {
+              "layer": 23,
+              "head": 2,
+              "margin": -0.2731063663959503
+            },
+            {
+              "layer": 23,
+              "head": 3,
+              "margin": -0.26315703988075256
+            },
+            {
+              "layer": 23,
+              "head": 6,
+              "margin": -0.205722376704216
+            },
+            {
+              "layer": 23,
+              "head": 4,
+              "margin": -0.16900697350502014
+            },
+            {
+              "layer": 14,
+              "head": 10,
+              "margin": -0.14124426245689392
+            },
+            {
+              "layer": 17,
+              "head": 10,
+              "margin": -0.13523557782173157
+            },
+            {
+              "layer": 23,
+              "head": 5,
+              "margin": -0.13004325330257416
+            },
+            {
+              "layer": 19,
+              "head": 9,
+              "margin": -0.12497389316558838
+            },
+            {
+              "layer": 1,
+              "head": 13,
+              "margin": -0.12021368741989136
+            },
+            {
+              "layer": 4,
+              "head": 2,
+              "margin": -0.11823830008506775
+            },
+            {
+              "layer": 23,
+              "head": 0,
+              "margin": -0.11491192132234573
+            },
+            {
+              "layer": 23,
+              "head": 11,
+              "margin": -0.10728257149457932
+            }
+          ],
+          "supporting_heads": [
+            {
+              "layer": 21,
+              "head": 9,
+              "margin": 0.3024066090583801
+            },
+            {
+              "layer": 20,
+              "head": 13,
+              "margin": 0.26066645979881287
+            },
+            {
+              "layer": 17,
+              "head": 0,
+              "margin": 0.2356542944908142
+            },
+            {
+              "layer": 5,
+              "head": 1,
+              "margin": 0.18376445770263672
+            },
+            {
+              "layer": 19,
+              "head": 5,
+              "margin": 0.17505046725273132
+            },
+            {
+              "layer": 19,
+              "head": 11,
+              "margin": 0.14843735098838806
+            },
+            {
+              "layer": 21,
+              "head": 0,
+              "margin": 0.1471918821334839
+            },
+            {
+              "layer": 7,
+              "head": 12,
+              "margin": 0.13621625304222107
+            },
+            {
+              "layer": 17,
+              "head": 2,
+              "margin": 0.12269515544176102
+            },
+            {
+              "layer": 5,
+              "head": 11,
+              "margin": 0.11963920295238495
+            },
+            {
+              "layer": 14,
+              "head": 8,
+              "margin": 0.11185536533594131
+            },
+            {
+              "layer": 15,
+              "head": 9,
+              "margin": 0.10881097614765167
+            }
+          ],
+          "opposing_neurons": [
+            {
+              "layer": 21,
+              "neuron": 1565,
+              "margin": -1.193789005279541
+            },
+            {
+              "layer": 19,
+              "neuron": 764,
+              "margin": -1.1702840328216553
+            },
+            {
+              "layer": 22,
+              "neuron": 1143,
+              "margin": -1.166312575340271
+            },
+            {
+              "layer": 21,
+              "neuron": 179,
+              "margin": -0.9670935869216919
+            },
+            {
+              "layer": 21,
+              "neuron": 2930,
+              "margin": -0.792483389377594
+            },
+            {
+              "layer": 23,
+              "neuron": 2607,
+              "margin": -0.7410256862640381
+            },
+            {
+              "layer": 23,
+              "neuron": 1692,
+              "margin": -0.6456787586212158
+            },
+            {
+              "layer": 23,
+              "neuron": 4284,
+              "margin": -0.6438972353935242
+            },
+            {
+              "layer": 22,
+              "neuron": 930,
+              "margin": -0.6063611507415771
+            },
+            {
+              "layer": 22,
+              "neuron": 278,
+              "margin": -0.5479442477226257
+            },
+            {
+              "layer": 23,
+              "neuron": 2505,
+              "margin": -0.5196332931518555
+            },
+            {
+              "layer": 23,
+              "neuron": 3994,
+              "margin": -0.4911237061023712
+            },
+            {
+              "layer": 23,
+              "neuron": 1843,
+              "margin": -0.4543290436267853
+            },
+            {
+              "layer": 22,
+              "neuron": 4428,
+              "margin": -0.4183387756347656
+            },
+            {
+              "layer": 22,
+              "neuron": 1834,
+              "margin": -0.36662518978118896
+            },
+            {
+              "layer": 23,
+              "neuron": 2539,
+              "margin": -0.36441972851753235
+            }
+          ],
+          "supporting_neurons": [
+            {
+              "layer": 23,
+              "neuron": 3423,
+              "margin": 0.9755546450614929
+            },
+            {
+              "layer": 21,
+              "neuron": 2758,
+              "margin": 0.8880812525749207
+            },
+            {
+              "layer": 19,
+              "neuron": 2043,
+              "margin": 0.7427184581756592
+            },
+            {
+              "layer": 23,
+              "neuron": 900,
+              "margin": 0.5646799206733704
+            },
+            {
+              "layer": 23,
+              "neuron": 3728,
+              "margin": 0.4721376299858093
+            },
+            {
+              "layer": 19,
+              "neuron": 1921,
+              "margin": 0.4347487688064575
+            },
+            {
+              "layer": 23,
+              "neuron": 2814,
+              "margin": 0.42680129408836365
+            },
+            {
+              "layer": 22,
+              "neuron": 2965,
+              "margin": 0.42380717396736145
+            },
+            {
+              "layer": 20,
+              "neuron": 1311,
+              "margin": 0.41480615735054016
+            },
+            {
+              "layer": 22,
+              "neuron": 4486,
+              "margin": 0.3890480101108551
+            },
+            {
+              "layer": 23,
+              "neuron": 4101,
+              "margin": 0.3257470726966858
+            },
+            {
+              "layer": 22,
+              "neuron": 1069,
+              "margin": 0.3187941908836365
+            },
+            {
+              "layer": 20,
+              "neuron": 701,
+              "margin": 0.29612165689468384
+            },
+            {
+              "layer": 18,
+              "neuron": 957,
+              "margin": 0.2916540503501892
+            },
+            {
+              "layer": 23,
+              "neuron": 1863,
+              "margin": 0.27778711915016174
+            },
+            {
+              "layer": 22,
+              "neuron": 4089,
+              "margin": 0.27595874667167664
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "condition": "late_native_recovery",
+      "arrays_sha256": "e9cd8f4ccae41a7a5688ea790804a87f9db746f527f2dfeed89a6003f5911c25",
+      "residual_reconstruction_relative_error": 1.0048880483282119e-07,
+      "decisions": [
+        {
+          "id": "narration_0",
+          "subtoken": 0,
+          "position": 62,
+          "next_token": 641,
+          "winner": 641,
+          "winner_text": "In"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 1,
+          "position": 63,
+          "next_token": 62041,
+          "winner": 62041,
+          "winner_text": "izia"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 2,
+          "position": 64,
+          "next_token": 3815,
+          "winner": 3815,
+          "winner_text": " il"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 3,
+          "position": 65,
+          "next_token": 69012,
+          "winner": 69012,
+          "winner_text": " mio"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 4,
+          "position": 66,
+          "next_token": 8971,
+          "winner": 8971,
+          "winner_text": " rac"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 5,
+          "position": 67,
+          "next_token": 65244,
+          "winner": 65244,
+          "winner_text": "conto"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 6,
+          "position": 68,
+          "next_token": 390,
+          "winner": 390,
+          "winner_text": " con"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 7,
+          "position": 69,
+          "next_token": 1187,
+          "winner": 1187,
+          "winner_text": " la"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 8,
+          "position": 70,
+          "next_token": 98889,
+          "winner": 98889,
+          "winner_text": " storia"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 9,
+          "position": 71,
+          "next_token": 1853,
+          "winner": 1853,
+          "winner_text": " di"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 10,
+          "position": 72,
+          "next_token": 650,
+          "winner": 650,
+          "winner_text": " un"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 11,
+          "position": 73,
+          "next_token": 75993,
+          "winner": 75993,
+          "winner_text": " bamb"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 12,
+          "position": 74,
+          "next_token": 3313,
+          "winner": 3313,
+          "winner_text": "ino"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 13,
+          "position": 75,
+          "next_token": 3016,
+          "winner": 3016,
+          "winner_text": " che"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 14,
+          "position": 76,
+          "next_token": 6386,
+          "winner": 6386,
+          "winner_text": " ha"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 15,
+          "position": 77,
+          "next_token": 5093,
+          "winner": 5093,
+          "winner_text": " una"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 16,
+          "position": 78,
+          "next_token": 54476,
+          "winner": 54476,
+          "winner_text": " vita"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 17,
+          "position": 79,
+          "next_token": 76311,
+          "winner": 76311,
+          "winner_text": " difficile"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 18,
+          "position": 80,
+          "next_token": 384,
+          "winner": 384,
+          "winner_text": " e"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 19,
+          "position": 81,
+          "next_token": 2477,
+          "winner": 2477,
+          "winner_text": " non"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 20,
+          "position": 82,
+          "next_token": 2062,
+          "winner": 2062,
+          "winner_text": " cap"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 21,
+          "position": 83,
+          "next_token": 89268,
+          "winner": 89268,
+          "winner_text": "isce"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 22,
+          "position": 84,
+          "next_token": 2525,
+          "winner": 2525,
+          "winner_text": " come"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 23,
+          "position": 85,
+          "next_token": 2464,
+          "winner": 2464,
+          "winner_text": " fun"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 24,
+          "position": 86,
+          "next_token": 89,
+          "winner": 89,
+          "winner_text": "z"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 25,
+          "position": 87,
+          "next_token": 41690,
+          "winner": 41690,
+          "winner_text": "iona"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 26,
+          "position": 88,
+          "next_token": 3815,
+          "winner": 3815,
+          "winner_text": " il"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 27,
+          "position": 89,
+          "next_token": 69709,
+          "winner": 69709,
+          "winner_text": " mondo"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 28,
+          "position": 90,
+          "next_token": 13,
+          "winner": 13,
+          "winner_text": "."
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 29,
+          "position": 91,
+          "next_token": 1230,
+          "winner": 1230,
+          "winner_text": " Un"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 30,
+          "position": 92,
+          "next_token": 80068,
+          "winner": 80068,
+          "winner_text": " giorno"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 31,
+          "position": 93,
+          "next_token": 11,
+          "winner": 11,
+          "winner_text": ","
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 32,
+          "position": 94,
+          "next_token": 3815,
+          "winner": 3815,
+          "winner_text": " il"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 33,
+          "position": 95,
+          "next_token": 51512,
+          "winner": 51512,
+          "winner_text": " suo"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 34,
+          "position": 96,
+          "next_token": 1079,
+          "winner": 1079,
+          "winner_text": " am"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 35,
+          "position": 97,
+          "next_token": 3955,
+          "winner": 3955,
+          "winner_text": "ico"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 36,
+          "position": 98,
+          "next_token": 11,
+          "winner": 11,
+          "winner_text": ","
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 37,
+          "position": 99,
+          "next_token": 3815,
+          "winner": 3815,
+          "winner_text": " il"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 38,
+          "position": 100,
+          "next_token": 1031,
+          "winner": 1031,
+          "winner_text": " bu"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 39,
+          "position": 101,
+          "next_token": 263,
+          "winner": 263,
+          "winner_text": "on"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 40,
+          "position": 102,
+          "next_token": 4144,
+          "winner": 4144,
+          "winner_text": " fig"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 41,
+          "position": 103,
+          "next_token": 25147,
+          "winner": 25147,
+          "winner_text": "lio"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 42,
+          "position": 104,
+          "next_token": 1853,
+          "winner": 1853,
+          "winner_text": " di"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 43,
+          "position": 105,
+          "next_token": 4530,
+          "winner": 4530,
+          "winner_text": " coll"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 44,
+          "position": 106,
+          "next_token": 64,
+          "winner": 64,
+          "winner_text": "a"
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 45,
+          "position": 107,
+          "next_token": 11,
+          "winner": 11,
+          "winner_text": ","
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 0,
+          "position": 60,
+          "next_token": 16,
+          "winner": 16,
+          "winner_text": "1"
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 1,
+          "position": 61,
+          "next_token": 13,
+          "winner": 13,
+          "winner_text": "."
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 2,
+          "position": 62,
+          "next_token": 7543,
+          "winner": 7543,
+          "winner_text": " Il"
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 3,
+          "position": 63,
+          "next_token": 1697,
+          "winner": 1697,
+          "winner_text": " person"
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 4,
+          "position": 64,
+          "next_token": 34159,
+          "winner": 34159,
+          "winner_text": "aggio"
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 5,
+          "position": 65,
+          "next_token": 1853,
+          "winner": 1853,
+          "winner_text": " di"
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 6,
+          "position": 66,
+          "next_token": 17471,
+          "winner": 17471,
+          "winner_text": " Pin"
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 7,
+          "position": 67,
+          "next_token": 509,
+          "winner": 509,
+          "winner_text": "oc"
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 8,
+          "position": 68,
+          "next_token": 52401,
+          "winner": 52401,
+          "winner_text": "chio"
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 9,
+          "position": 69,
+          "next_token": 11422,
+          "winner": 11422,
+          "winner_text": " è"
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 10,
+          "position": 70,
+          "next_token": 308,
+          "winner": 308,
+          "winner_text": " n"
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 11,
+          "position": 71,
+          "next_token": 4330,
+          "winner": 4330,
+          "winner_text": "ato"
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 12,
+          "position": 72,
+          "next_token": 2994,
+          "winner": 2994,
+          "winner_text": " da"
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 13,
+          "position": 73,
+          "next_token": 650,
+          "winner": 650,
+          "winner_text": " un"
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 14,
+          "position": 74,
+          "next_token": 6,
+          "winner": 6,
+          "winner_text": "'"
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 15,
+          "position": 75,
+          "next_token": 517,
+          "winner": 517,
+          "winner_text": "ant"
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 16,
+          "position": 76,
+          "next_token": 3001,
+          "winner": 3001,
+          "winner_text": "ica"
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 17,
+          "position": 77,
+          "next_token": 296,
+          "winner": 296,
+          "winner_text": " m"
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 18,
+          "position": 78,
+          "next_token": 42683,
+          "winner": 42683,
+          "winner_text": "olla"
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 19,
+          "position": 79,
+          "next_token": 1853,
+          "winner": 1853,
+          "winner_text": " di"
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 20,
+          "position": 80,
+          "next_token": 281,
+          "winner": 281,
+          "winner_text": " p"
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 21,
+          "position": 81,
+          "next_token": 3891,
+          "winner": 3891,
+          "winner_text": "iet"
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 22,
+          "position": 82,
+          "next_token": 956,
+          "winner": 956,
+          "winner_text": "ra"
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 23,
+          "position": 83,
+          "next_token": 382,
+          "winner": 382,
+          "winner_text": ".\n\n"
+        },
+        {
+          "id": "third_ending_0",
+          "subtoken": 0,
+          "position": 61,
+          "next_token": 1806,
+          "winner": 1806,
+          "winner_text": "Un"
+        },
+        {
+          "id": "third_ending_0",
+          "subtoken": 1,
+          "position": 62,
+          "next_token": 75993,
+          "winner": 75993,
+          "winner_text": " bamb"
+        },
+        {
+          "id": "third_ending_0",
+          "subtoken": 2,
+          "position": 63,
+          "next_token": 3313,
+          "winner": 3313,
+          "winner_text": "ino"
+        },
+        {
+          "id": "third_ending_0",
+          "subtoken": 3,
+          "position": 64,
+          "next_token": 78287,
+          "winner": 78287,
+          "winner_text": " vero"
+        },
+        {
+          "id": "third_ending_0",
+          "subtoken": 4,
+          "position": 65,
+          "next_token": 384,
+          "winner": 384,
+          "winner_text": " e"
+        },
+        {
+          "id": "third_ending_0",
+          "subtoken": 5,
+          "position": 66,
+          "next_token": 65910,
+          "winner": 65910,
+          "winner_text": " proprio"
+        },
+        {
+          "id": "third_ending_0",
+          "subtoken": 6,
+          "position": 67,
+          "next_token": 11,
+          "winner": 11,
+          "winner_text": ","
+        },
+        {
+          "id": "third_ending_0",
+          "subtoken": 7,
+          "position": 68,
+          "next_token": 650,
+          "winner": 650,
+          "winner_text": " un"
+        },
+        {
+          "id": "third_ending_0",
+          "subtoken": 8,
+          "position": 69,
+          "next_token": 75993,
+          "winner": 75993,
+          "winner_text": " bamb"
+        },
+        {
+          "id": "third_ending_0",
+          "subtoken": 9,
+          "position": 70,
+          "next_token": 3313,
+          "winner": 3313,
+          "winner_text": "ino"
+        },
+        {
+          "id": "third_ending_0",
+          "subtoken": 10,
+          "position": 71,
+          "next_token": 78287,
+          "winner": 78287,
+          "winner_text": " vero"
+        },
+        {
+          "id": "third_ending_0",
+          "subtoken": 11,
+          "position": 72,
+          "next_token": 384,
+          "winner": 384,
+          "winner_text": " e"
+        },
+        {
+          "id": "third_ending_0",
+          "subtoken": 12,
+          "position": 73,
+          "next_token": 65910,
+          "winner": 65910,
+          "winner_text": " proprio"
+        },
+        {
+          "id": "third_ending_0",
+          "subtoken": 13,
+          "position": 74,
+          "next_token": 13,
+          "winner": 13,
+          "winner_text": "."
+        },
+        {
+          "id": "third_ending_0",
+          "subtoken": 14,
+          "position": 75,
+          "next_token": 151645,
+          "winner": 151645,
+          "winner_text": "<|im_end|>"
+        }
+      ],
+      "critical_points": [
+        {
+          "id": "narration_0",
+          "subtoken": 11,
+          "target": 7795,
+          "target_text": " bur",
+          "concept": "burattino",
+          "reason": "Pinocchio starts as a wooden puppet, not a human child.",
+          "record_index": 11,
+          "rival": 75993,
+          "rival_text": " bamb",
+          "desired_rank": 120,
+          "desired_minus_rival_margin": -6.067568302154541,
+          "selector_class": "material",
+          "selector_values": [
+            0.00010488979023648426,
+            2.2215691330984555e-07,
+            -2.3634119372673013e-07,
+            -2.3647710634122632e-07,
+            0.00020263809710741043,
+            1.0381629778066781e-07,
+            -6.342957448168818e-08,
+            0.9809101819992065,
+            4.444551038318423e-08,
+            8.8244050857611e-06,
+            -4.764510919130771e-08,
+            0.006192582193762064
+          ],
+          "embedding_margin": 0.05576975643634796,
+          "layers": [
+            {
+              "layer": 0,
+              "incoming_margin": 0.05576975643634796,
+              "attention_margin": 0.013588321395218372,
+              "mlp_margin": -0.26914963126182556,
+              "post_block_desired_rank": 100079
+            },
+            {
+              "layer": 1,
+              "incoming_margin": -0.19979159533977509,
+              "attention_margin": -0.07923035323619843,
+              "mlp_margin": -0.09412871301174164,
+              "post_block_desired_rank": 71150
+            },
+            {
+              "layer": 2,
+              "incoming_margin": -0.3731505870819092,
+              "attention_margin": 0.031732670962810516,
+              "mlp_margin": -0.08437034487724304,
+              "post_block_desired_rank": 48832
+            },
+            {
+              "layer": 3,
+              "incoming_margin": -0.42578816413879395,
+              "attention_margin": -0.03201868385076523,
+              "mlp_margin": 0.03854700177907944,
+              "post_block_desired_rank": 54655
+            },
+            {
+              "layer": 4,
+              "incoming_margin": -0.4192599058151245,
+              "attention_margin": -0.1118348240852356,
+              "mlp_margin": -0.3985700309276581,
+              "post_block_desired_rank": 86606
+            },
+            {
+              "layer": 5,
+              "incoming_margin": -0.9296648502349854,
+              "attention_margin": -0.009910497814416885,
+              "mlp_margin": -0.0228622704744339,
+              "post_block_desired_rank": 107617
+            },
+            {
+              "layer": 6,
+              "incoming_margin": -0.9624378681182861,
+              "attention_margin": 0.0656331479549408,
+              "mlp_margin": 0.2792093753814697,
+              "post_block_desired_rank": 92911
+            },
+            {
+              "layer": 7,
+              "incoming_margin": -0.6175951361656189,
+              "attention_margin": 0.004067208152264357,
+              "mlp_margin": 0.06934613734483719,
+              "post_block_desired_rank": 67990
+            },
+            {
+              "layer": 8,
+              "incoming_margin": -0.5441815853118896,
+              "attention_margin": 0.19481241703033447,
+              "mlp_margin": -0.07333151251077652,
+              "post_block_desired_rank": 49227
+            },
+            {
+              "layer": 9,
+              "incoming_margin": -0.42270079255104065,
+              "attention_margin": 0.03456415981054306,
+              "mlp_margin": -0.013440215960144997,
+              "post_block_desired_rank": 54380
+            },
+            {
+              "layer": 10,
+              "incoming_margin": -0.4015767276287079,
+              "attention_margin": 0.13806623220443726,
+              "mlp_margin": 0.06790103018283844,
+              "post_block_desired_rank": 37728
+            },
+            {
+              "layer": 11,
+              "incoming_margin": -0.19560936093330383,
+              "attention_margin": -0.018099920824170113,
+              "mlp_margin": -0.05342644453048706,
+              "post_block_desired_rank": 41719
+            },
+            {
+              "layer": 12,
+              "incoming_margin": -0.2671355605125427,
+              "attention_margin": 0.1746726930141449,
+              "mlp_margin": -0.15918782353401184,
+              "post_block_desired_rank": 76295
+            },
+            {
+              "layer": 13,
+              "incoming_margin": -0.25165069103240967,
+              "attention_margin": 0.11860540509223938,
+              "mlp_margin": -0.05121570825576782,
+              "post_block_desired_rank": 70756
+            },
+            {
+              "layer": 14,
+              "incoming_margin": -0.18426114320755005,
+              "attention_margin": -0.15510565042495728,
+              "mlp_margin": -0.367928147315979,
+              "post_block_desired_rank": 117031
+            },
+            {
+              "layer": 15,
+              "incoming_margin": -0.7072948813438416,
+              "attention_margin": 0.1609439253807068,
+              "mlp_margin": -0.06024887412786484,
+              "post_block_desired_rank": 40482
+            },
+            {
+              "layer": 16,
+              "incoming_margin": -0.6065999269485474,
+              "attention_margin": 0.09991079568862915,
+              "mlp_margin": -0.1589619517326355,
+              "post_block_desired_rank": 54354
+            },
+            {
+              "layer": 17,
+              "incoming_margin": -0.6656513214111328,
+              "attention_margin": -0.5619760751724243,
+              "mlp_margin": 0.2406756579875946,
+              "post_block_desired_rank": 62754
+            },
+            {
+              "layer": 18,
+              "incoming_margin": -0.9869518876075745,
+              "attention_margin": 0.14353927969932556,
+              "mlp_margin": -0.6421842575073242,
+              "post_block_desired_rank": 80017
+            },
+            {
+              "layer": 19,
+              "incoming_margin": -1.4855962991714478,
+              "attention_margin": -0.2587638795375824,
+              "mlp_margin": -1.3956184387207031,
+              "post_block_desired_rank": 114386
+            },
+            {
+              "layer": 20,
+              "incoming_margin": -3.139979362487793,
+              "attention_margin": 0.571446418762207,
+              "mlp_margin": -1.4206125736236572,
+              "post_block_desired_rank": 70525
+            },
+            {
+              "layer": 21,
+              "incoming_margin": -3.989145278930664,
+              "attention_margin": 0.5559448599815369,
+              "mlp_margin": 0.07709875702857971,
+              "post_block_desired_rank": 33018
+            },
+            {
+              "layer": 22,
+              "incoming_margin": -3.3561012744903564,
+              "attention_margin": 0.587884783744812,
+              "mlp_margin": 1.4667426347732544,
+              "post_block_desired_rank": 3587
+            },
+            {
+              "layer": 23,
+              "incoming_margin": -1.30147385597229,
+              "attention_margin": 0.3196386992931366,
+              "mlp_margin": -5.085732936859131,
+              "post_block_desired_rank": 120
+            }
+          ],
+          "opposing_heads": [
+            {
+              "layer": 23,
+              "head": 13,
+              "margin": -0.22051656246185303
+            },
+            {
+              "layer": 14,
+              "head": 1,
+              "margin": -0.14859017729759216
+            },
+            {
+              "layer": 17,
+              "head": 0,
+              "margin": -0.1478465497493744
+            },
+            {
+              "layer": 11,
+              "head": 2,
+              "margin": -0.1464841067790985
+            },
+            {
+              "layer": 17,
+              "head": 2,
+              "margin": -0.13232527673244476
+            },
+            {
+              "layer": 7,
+              "head": 6,
+              "margin": -0.1255967915058136
+            },
+            {
+              "layer": 23,
+              "head": 9,
+              "margin": -0.11586371809244156
+            },
+            {
+              "layer": 22,
+              "head": 2,
+              "margin": -0.10717755556106567
+            },
+            {
+              "layer": 22,
+              "head": 10,
+              "margin": -0.10501793026924133
+            },
+            {
+              "layer": 14,
+              "head": 13,
+              "margin": -0.0954340323805809
+            },
+            {
+              "layer": 11,
+              "head": 6,
+              "margin": -0.08895253390073776
+            },
+            {
+              "layer": 19,
+              "head": 8,
+              "margin": -0.08763154596090317
+            }
+          ],
+          "supporting_heads": [
+            {
+              "layer": 21,
+              "head": 1,
+              "margin": 0.2859300374984741
+            },
+            {
+              "layer": 22,
+              "head": 11,
+              "margin": 0.2766834795475006
+            },
+            {
+              "layer": 22,
+              "head": 9,
+              "margin": 0.2745029628276825
+            },
+            {
+              "layer": 18,
+              "head": 4,
+              "margin": 0.2314419448375702
+            },
+            {
+              "layer": 23,
+              "head": 0,
+              "margin": 0.1915488839149475
+            },
+            {
+              "layer": 21,
+              "head": 11,
+              "margin": 0.18807129561901093
+            },
+            {
+              "layer": 11,
+              "head": 3,
+              "margin": 0.13994739949703217
+            },
+            {
+              "layer": 20,
+              "head": 6,
+              "margin": 0.12519621849060059
+            },
+            {
+              "layer": 20,
+              "head": 5,
+              "margin": 0.12316547334194183
+            },
+            {
+              "layer": 21,
+              "head": 7,
+              "margin": 0.1194695308804512
+            },
+            {
+              "layer": 20,
+              "head": 12,
+              "margin": 0.11055123060941696
+            },
+            {
+              "layer": 20,
+              "head": 7,
+              "margin": 0.10971762239933014
+            }
+          ],
+          "opposing_neurons": [
+            {
+              "layer": 19,
+              "neuron": 3215,
+              "margin": -0.8451403975486755
+            },
+            {
+              "layer": 23,
+              "neuron": 2457,
+              "margin": -0.6961694359779358
+            },
+            {
+              "layer": 21,
+              "neuron": 2758,
+              "margin": -0.6396005749702454
+            },
+            {
+              "layer": 20,
+              "neuron": 3053,
+              "margin": -0.6096593737602234
+            },
+            {
+              "layer": 20,
+              "neuron": 867,
+              "margin": -0.6089118123054504
+            },
+            {
+              "layer": 21,
+              "neuron": 3275,
+              "margin": -0.5760743021965027
+            },
+            {
+              "layer": 20,
+              "neuron": 3612,
+              "margin": -0.5679346323013306
+            },
+            {
+              "layer": 23,
+              "neuron": 537,
+              "margin": -0.46328234672546387
+            },
+            {
+              "layer": 23,
+              "neuron": 4284,
+              "margin": -0.4362870156764984
+            },
+            {
+              "layer": 23,
+              "neuron": 4637,
+              "margin": -0.42633697390556335
+            },
+            {
+              "layer": 20,
+              "neuron": 1416,
+              "margin": -0.42453518509864807
+            },
+            {
+              "layer": 23,
+              "neuron": 900,
+              "margin": -0.39245355129241943
+            },
+            {
+              "layer": 23,
+              "neuron": 3383,
+              "margin": -0.3585975170135498
+            },
+            {
+              "layer": 23,
+              "neuron": 31,
+              "margin": -0.34485551714897156
+            },
+            {
+              "layer": 23,
+              "neuron": 1372,
+              "margin": -0.32843324542045593
+            },
+            {
+              "layer": 20,
+              "neuron": 701,
+              "margin": -0.30083465576171875
+            }
+          ],
+          "supporting_neurons": [
+            {
+              "layer": 23,
+              "neuron": 4589,
+              "margin": 0.8028674721717834
+            },
+            {
+              "layer": 21,
+              "neuron": 2930,
+              "margin": 0.5771303772926331
+            },
+            {
+              "layer": 21,
+              "neuron": 1511,
+              "margin": 0.5624253153800964
+            },
+            {
+              "layer": 23,
+              "neuron": 2505,
+              "margin": 0.4675946533679962
+            },
+            {
+              "layer": 22,
+              "neuron": 82,
+              "margin": 0.4659009575843811
+            },
+            {
+              "layer": 20,
+              "neuron": 3253,
+              "margin": 0.45985499024391174
+            },
+            {
+              "layer": 20,
+              "neuron": 274,
+              "margin": 0.3927900195121765
+            },
+            {
+              "layer": 22,
+              "neuron": 3840,
+              "margin": 0.339324027299881
+            },
+            {
+              "layer": 23,
+              "neuron": 3423,
+              "margin": 0.31473392248153687
+            },
+            {
+              "layer": 23,
+              "neuron": 146,
+              "margin": 0.31329086422920227
+            },
+            {
+              "layer": 21,
+              "neuron": 3207,
+              "margin": 0.3016555905342102
+            },
+            {
+              "layer": 23,
+              "neuron": 2665,
+              "margin": 0.2831805348396301
+            },
+            {
+              "layer": 22,
+              "neuron": 3988,
+              "margin": 0.2762189209461212
+            },
+            {
+              "layer": 20,
+              "neuron": 408,
+              "margin": 0.2696787714958191
+            },
+            {
+              "layer": 23,
+              "neuron": 254,
+              "margin": 0.2556905746459961
+            },
+            {
+              "layer": 22,
+              "neuron": 2965,
+              "margin": 0.25549864768981934
+            }
+          ]
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 14,
+          "target": 1051,
+          "target_text": " pe",
+          "concept": "pezzo di legno",
+          "reason": "His origin is a piece of wood, not an ancient stone spring.",
+          "record_index": 60,
+          "rival": 6,
+          "rival_text": "'",
+          "desired_rank": 12,
+          "desired_minus_rival_margin": -1.595815658569336,
+          "selector_class": "outside",
+          "selector_values": [
+            0.01086965762078762,
+            1.0581676178844646e-05,
+            -1.1204750904880711e-07,
+            -1.8793599565469776e-07,
+            0.36495307087898254,
+            1.4760269095859258e-07,
+            -1.4707890727549966e-07,
+            1.328786538579152e-06,
+            6.283964637532335e-08,
+            8.305986121115438e-09,
+            -3.7724487356172176e-07,
+            0.00016636584769003093
+          ],
+          "embedding_margin": -0.021828725934028625,
+          "layers": [
+            {
+              "layer": 0,
+              "incoming_margin": -0.021828725934028625,
+              "attention_margin": 0.05975107103586197,
+              "mlp_margin": -0.14438201487064362,
+              "post_block_desired_rank": 121037
+            },
+            {
+              "layer": 1,
+              "incoming_margin": -0.1064595878124237,
+              "attention_margin": -0.19272172451019287,
+              "mlp_margin": 0.4131591320037842,
+              "post_block_desired_rank": 44358
+            },
+            {
+              "layer": 2,
+              "incoming_margin": 0.1139778271317482,
+              "attention_margin": 0.17691057920455933,
+              "mlp_margin": 0.13258981704711914,
+              "post_block_desired_rank": 31242
+            },
+            {
+              "layer": 3,
+              "incoming_margin": 0.42347830533981323,
+              "attention_margin": 0.03347834199666977,
+              "mlp_margin": 0.19452738761901855,
+              "post_block_desired_rank": 17316
+            },
+            {
+              "layer": 4,
+              "incoming_margin": 0.6514838337898254,
+              "attention_margin": 0.12618757784366608,
+              "mlp_margin": -0.5148561000823975,
+              "post_block_desired_rank": 35307
+            },
+            {
+              "layer": 5,
+              "incoming_margin": 0.26281553506851196,
+              "attention_margin": 0.29884999990463257,
+              "mlp_margin": 0.18098007142543793,
+              "post_block_desired_rank": 8207
+            },
+            {
+              "layer": 6,
+              "incoming_margin": 0.7426456212997437,
+              "attention_margin": 0.07849590480327606,
+              "mlp_margin": -0.19623084366321564,
+              "post_block_desired_rank": 4012
+            },
+            {
+              "layer": 7,
+              "incoming_margin": 0.624910831451416,
+              "attention_margin": -0.05982179939746857,
+              "mlp_margin": -0.048114389181137085,
+              "post_block_desired_rank": 9212
+            },
+            {
+              "layer": 8,
+              "incoming_margin": 0.516974687576294,
+              "attention_margin": 0.1677054464817047,
+              "mlp_margin": 0.0994001254439354,
+              "post_block_desired_rank": 26763
+            },
+            {
+              "layer": 9,
+              "incoming_margin": 0.7840802669525146,
+              "attention_margin": -0.1962517350912094,
+              "mlp_margin": -0.002296067774295807,
+              "post_block_desired_rank": 31771
+            },
+            {
+              "layer": 10,
+              "incoming_margin": 0.5855324268341064,
+              "attention_margin": 0.24388663470745087,
+              "mlp_margin": 0.07812310010194778,
+              "post_block_desired_rank": 17243
+            },
+            {
+              "layer": 11,
+              "incoming_margin": 0.9075421094894409,
+              "attention_margin": 0.09162376075983047,
+              "mlp_margin": -0.10592985153198242,
+              "post_block_desired_rank": 31278
+            },
+            {
+              "layer": 12,
+              "incoming_margin": 0.8932362198829651,
+              "attention_margin": 0.13827666640281677,
+              "mlp_margin": -0.08888743817806244,
+              "post_block_desired_rank": 30335
+            },
+            {
+              "layer": 13,
+              "incoming_margin": 0.9426254034042358,
+              "attention_margin": -0.08541696518659592,
+              "mlp_margin": 0.03679937869310379,
+              "post_block_desired_rank": 27085
+            },
+            {
+              "layer": 14,
+              "incoming_margin": 0.8940078020095825,
+              "attention_margin": 0.1300881803035736,
+              "mlp_margin": 0.15827380120754242,
+              "post_block_desired_rank": 7829
+            },
+            {
+              "layer": 15,
+              "incoming_margin": 1.1823698282241821,
+              "attention_margin": 0.08449767529964447,
+              "mlp_margin": -0.1774316281080246,
+              "post_block_desired_rank": 1197
+            },
+            {
+              "layer": 16,
+              "incoming_margin": 1.0894359350204468,
+              "attention_margin": -0.011846909299492836,
+              "mlp_margin": -0.19410428404808044,
+              "post_block_desired_rank": 15538
+            },
+            {
+              "layer": 17,
+              "incoming_margin": 0.8834847211837769,
+              "attention_margin": 0.28091946244239807,
+              "mlp_margin": 0.06484057754278183,
+              "post_block_desired_rank": 15166
+            },
+            {
+              "layer": 18,
+              "incoming_margin": 1.2292447090148926,
+              "attention_margin": 0.05627542734146118,
+              "mlp_margin": 0.7549973726272583,
+              "post_block_desired_rank": 22383
+            },
+            {
+              "layer": 19,
+              "incoming_margin": 2.0405173301696777,
+              "attention_margin": 0.4532145857810974,
+              "mlp_margin": 0.7064894437789917,
+              "post_block_desired_rank": 75142
+            },
+            {
+              "layer": 20,
+              "incoming_margin": 3.2002220153808594,
+              "attention_margin": 0.21235519647598267,
+              "mlp_margin": 1.6378357410430908,
+              "post_block_desired_rank": 96375
+            },
+            {
+              "layer": 21,
+              "incoming_margin": 5.050413608551025,
+              "attention_margin": 1.1328712701797485,
+              "mlp_margin": -1.7120938301086426,
+              "post_block_desired_rank": 52962
+            },
+            {
+              "layer": 22,
+              "incoming_margin": 4.471192359924316,
+              "attention_margin": 0.2209540754556656,
+              "mlp_margin": -2.4812583923339844,
+              "post_block_desired_rank": 995
+            },
+            {
+              "layer": 23,
+              "incoming_margin": 2.210887908935547,
+              "attention_margin": 0.2644116282463074,
+              "mlp_margin": -4.071112632751465,
+              "post_block_desired_rank": 12
+            }
+          ],
+          "opposing_heads": [
+            {
+              "layer": 21,
+              "head": 6,
+              "margin": -0.41029325127601624
+            },
+            {
+              "layer": 23,
+              "head": 6,
+              "margin": -0.26117002964019775
+            },
+            {
+              "layer": 23,
+              "head": 3,
+              "margin": -0.2462240606546402
+            },
+            {
+              "layer": 23,
+              "head": 2,
+              "margin": -0.23833923041820526
+            },
+            {
+              "layer": 23,
+              "head": 4,
+              "margin": -0.15176355838775635
+            },
+            {
+              "layer": 23,
+              "head": 5,
+              "margin": -0.1439773440361023
+            },
+            {
+              "layer": 14,
+              "head": 10,
+              "margin": -0.14073607325553894
+            },
+            {
+              "layer": 17,
+              "head": 10,
+              "margin": -0.13474899530410767
+            },
+            {
+              "layer": 19,
+              "head": 9,
+              "margin": -0.12452429533004761
+            },
+            {
+              "layer": 1,
+              "head": 13,
+              "margin": -0.11978119611740112
+            },
+            {
+              "layer": 4,
+              "head": 2,
+              "margin": -0.11781290173530579
+            },
+            {
+              "layer": 23,
+              "head": 10,
+              "margin": -0.11695818603038788
+            }
+          ],
+          "supporting_heads": [
+            {
+              "layer": 23,
+              "head": 13,
+              "margin": 1.3985388278961182
+            },
+            {
+              "layer": 21,
+              "head": 7,
+              "margin": 0.9074928164482117
+            },
+            {
+              "layer": 21,
+              "head": 9,
+              "margin": 0.2705429196357727
+            },
+            {
+              "layer": 20,
+              "head": 13,
+              "margin": 0.25972867012023926
+            },
+            {
+              "layer": 17,
+              "head": 0,
+              "margin": 0.2348063886165619
+            },
+            {
+              "layer": 5,
+              "head": 1,
+              "margin": 0.1831033080816269
+            },
+            {
+              "layer": 19,
+              "head": 5,
+              "margin": 0.17442068457603455
+            },
+            {
+              "layer": 19,
+              "head": 11,
+              "margin": 0.14790327847003937
+            },
+            {
+              "layer": 7,
+              "head": 12,
+              "margin": 0.13572615385055542
+            },
+            {
+              "layer": 21,
+              "head": 0,
+              "margin": 0.13204967975616455
+            },
+            {
+              "layer": 17,
+              "head": 2,
+              "margin": 0.12225370109081268
+            },
+            {
+              "layer": 5,
+              "head": 11,
+              "margin": 0.11920876801013947
+            }
+          ],
+          "opposing_neurons": [
+            {
+              "layer": 23,
+              "neuron": 2457,
+              "margin": -1.4869385957717896
+            },
+            {
+              "layer": 19,
+              "neuron": 764,
+              "margin": -1.1660741567611694
+            },
+            {
+              "layer": 21,
+              "neuron": 1565,
+              "margin": -1.093252420425415
+            },
+            {
+              "layer": 23,
+              "neuron": 4284,
+              "margin": -1.0035659074783325
+            },
+            {
+              "layer": 23,
+              "neuron": 2607,
+              "margin": -0.8495367169380188
+            },
+            {
+              "layer": 21,
+              "neuron": 179,
+              "margin": -0.8311649560928345
+            },
+            {
+              "layer": 22,
+              "neuron": 1143,
+              "margin": -0.8296007513999939
+            },
+            {
+              "layer": 21,
+              "neuron": 2930,
+              "margin": -0.7538500428199768
+            },
+            {
+              "layer": 23,
+              "neuron": 1692,
+              "margin": -0.7203181385993958
+            },
+            {
+              "layer": 22,
+              "neuron": 930,
+              "margin": -0.6464898586273193
+            },
+            {
+              "layer": 23,
+              "neuron": 4519,
+              "margin": -0.5808550119400024
+            },
+            {
+              "layer": 22,
+              "neuron": 278,
+              "margin": -0.5138925313949585
+            },
+            {
+              "layer": 22,
+              "neuron": 4428,
+              "margin": -0.4868842363357544
+            },
+            {
+              "layer": 23,
+              "neuron": 2505,
+              "margin": -0.4386698603630066
+            },
+            {
+              "layer": 23,
+              "neuron": 1843,
+              "margin": -0.4254039525985718
+            },
+            {
+              "layer": 23,
+              "neuron": 2777,
+              "margin": -0.3668897747993469
+            }
+          ],
+          "supporting_neurons": [
+            {
+              "layer": 21,
+              "neuron": 2758,
+              "margin": 0.8601776361465454
+            },
+            {
+              "layer": 23,
+              "neuron": 3423,
+              "margin": 0.8298837542533875
+            },
+            {
+              "layer": 19,
+              "neuron": 2043,
+              "margin": 0.7400462031364441
+            },
+            {
+              "layer": 23,
+              "neuron": 1863,
+              "margin": 0.6369381546974182
+            },
+            {
+              "layer": 23,
+              "neuron": 4101,
+              "margin": 0.5089742541313171
+            },
+            {
+              "layer": 23,
+              "neuron": 900,
+              "margin": 0.48933079838752747
+            },
+            {
+              "layer": 23,
+              "neuron": 3728,
+              "margin": 0.46114271879196167
+            },
+            {
+              "layer": 19,
+              "neuron": 1921,
+              "margin": 0.43318453431129456
+            },
+            {
+              "layer": 20,
+              "neuron": 1311,
+              "margin": 0.4133136570453644
+            },
+            {
+              "layer": 22,
+              "neuron": 4486,
+              "margin": 0.3712460398674011
+            },
+            {
+              "layer": 22,
+              "neuron": 2965,
+              "margin": 0.3610363304615021
+            },
+            {
+              "layer": 23,
+              "neuron": 2814,
+              "margin": 0.3306761085987091
+            },
+            {
+              "layer": 23,
+              "neuron": 2681,
+              "margin": 0.30322346091270447
+            },
+            {
+              "layer": 20,
+              "neuron": 701,
+              "margin": 0.29505619406700134
+            },
+            {
+              "layer": 18,
+              "neuron": 957,
+              "margin": 0.29060474038124084
+            },
+            {
+              "layer": 22,
+              "neuron": 1069,
+              "margin": 0.268057256937027
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "actual_latest_decisions_replayed_exactly": 85,
+  "completed": true,
+  "weights_restored_in_memory": true
+}

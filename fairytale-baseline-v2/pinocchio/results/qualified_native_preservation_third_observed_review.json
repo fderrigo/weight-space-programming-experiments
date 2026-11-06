@@ -1,0 +1,424 @@
+{
+  "utc": "2026-11-05T18:57:13.834307+00:00",
+  "source_sha256": "9f6dc4a1308aa5b3c3d840528af16ee5eab0590fbda92da538f0baea5f0c48b0",
+  "basis_sha256": "8c1fccba14e329717cb1c63e556f2e844bce9943b49a3aba9531692529d32e89",
+  "prior_review_sha256": "787a931df8f39224036a0c393738c9bb65659994a070f6d1ec5daee774ae20c9",
+  "review_code_sha256": "6ae751e1fcb92991b3a7e03d13358063f1247595a39882e0ee5836bfb2baa969",
+  "judgments_sha256": "2d133c5e2bd27419816f7cc23e9dbaa215ba797e199c7b9bddf83fd7adb4699d",
+  "reviewer": "Codex explicit whole-answer review, not independent adjudication",
+  "target_whole_correct": 14,
+  "target_total": 24,
+  "control_whole_correct": 5,
+  "control_total": 20,
+  "previous_whole_correct_lost": [],
+  "new_whole_correct_ids": [
+    "third_creator_0"
+  ],
+  "exact_native_donor_paths_restored": [
+    "third_control_06"
+  ],
+  "native_path_limit": "third_control_06 retains a useful vegetation/coast distinction but is still truncated and not wholly correct.",
+  "faithful_narratives": 0,
+  "narrative_total": 0,
+  "fresh_validation": false,
+  "candidate_promoted": false,
+  "full_objective_achieved": false,
+  "annotations": [
+    {
+      "id": "third_creator_0",
+      "group": "target",
+      "whole_correct": true,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": false,
+      "reason": "Correct Geppetto as father and maker; incidental new complete repair."
+    },
+    {
+      "id": "third_creator_1",
+      "group": "target",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact prior text, tokens and stop: Correct Geppetto, period and native stop."
+    },
+    {
+      "id": "third_material_0",
+      "group": "target",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact prior text, tokens and stop: Correct Legno; preserves the originally correct target."
+    },
+    {
+      "id": "third_material_1",
+      "group": "target",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact prior text, tokens and stop: Answers Maestro Ciliegia instead of the material."
+    },
+    {
+      "id": "third_nose_0",
+      "group": "target",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact prior text, tokens and stop: Correct Si allunga il naso, period and native stop. Replaces the wrong face with the nose and adds no false continuation."
+    },
+    {
+      "id": "third_nose_1",
+      "group": "target",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": false,
+      "reason": "Invented institution and nose manipulation, not lying-induced elongation."
+    },
+    {
+      "id": "third_fairy_0",
+      "group": "target",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Correct blue hair, no longer falsely describes color."
+    },
+    {
+      "id": "third_fairy_1",
+      "group": "target",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact prior text, tokens and stop: Azzuro unambiguously denotes azure. Minor spelling error accepted; no added false claim."
+    },
+    {
+      "id": "third_deceivers_0",
+      "group": "target",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": true,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Correct pair with multiple repeated Fox mentions while saying two swindlers; exclude as ambiguous, consistently with prior strict review."
+    },
+    {
+      "id": "third_deceivers_1",
+      "group": "target",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Invented Sherlock Holmes and Watson story."
+    },
+    {
+      "id": "third_donkey_0",
+      "group": "target",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact prior text, tokens and stop: Correct Un asino, period and native stop."
+    },
+    {
+      "id": "third_donkey_1",
+      "group": "target",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": true,
+      "same_previous_tokens_stop_text": false,
+      "reason": "Still malformed transformation and protagonist relation, now with life-choice wording; excluded."
+    },
+    {
+      "id": "third_ending_0",
+      "group": "target",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact prior text, tokens and stop: Correct real-boy answer repeated twice, with a final period and native stop. Redundancy does not contradict the fact, consistently with accepted repeated Mangiafoco answers. Prior128-token unfinished loop is eliminated."
+    },
+    {
+      "id": "third_ending_1",
+      "group": "target",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": false,
+      "reason": "Magic and creative child instead of the canonical real human boy; magic attribution is unsupported."
+    },
+    {
+      "id": "third_puppeteer_0",
+      "group": "target",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact prior text, tokens and stop: Correct Mangiafoco, period and native stop."
+    },
+    {
+      "id": "third_puppeteer_1",
+      "group": "target",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact prior text, tokens and stop: Correct Mangiafoco both initially and in the following name assertion. Minor da/dalla phrasing is semantically clear; the earlier Carlo contradiction is removed and the answer stops naturally."
+    },
+    {
+      "id": "third_friend_0",
+      "group": "target",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact prior text, tokens and stop: Correct Lucignolo, period and native stop."
+    },
+    {
+      "id": "third_friend_1",
+      "group": "target",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact prior text, tokens and stop: Lucignolo replaces the wrong name Lucio. Correct name, period and native stop with no false continuation."
+    },
+    {
+      "id": "third_wood_donor_0",
+      "group": "target",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact prior text, tokens and stop: Correct Maestro Ciliegia, period and native stop."
+    },
+    {
+      "id": "third_wood_donor_1",
+      "group": "target",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": false,
+      "reason": "Cooking master instead of Maestro Ciliegia."
+    },
+    {
+      "id": "third_rescuer_0",
+      "group": "target",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact prior text, tokens and stop: Correct Alidoro, period and native stop."
+    },
+    {
+      "id": "third_rescuer_1",
+      "group": "target",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact prior text, tokens and stop: Alidino is not Alidoro."
+    },
+    {
+      "id": "third_fish_father_0",
+      "group": "target",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": true,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Geppetto plus malformed riscuffa event; does not clearly express the requested reunion. Excluded as ambiguous."
+    },
+    {
+      "id": "third_fish_father_1",
+      "group": "target",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": false,
+      "reason": "Invented black hole, Darwin book/date and leather object story."
+    },
+    {
+      "id": "third_control_00",
+      "group": "control",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Gray instead of red strawberry."
+    },
+    {
+      "id": "third_control_01",
+      "group": "control",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact prior text, tokens and stop: Still refuses an ordinary kinship question as if it requested private family information."
+    },
+    {
+      "id": "third_control_02",
+      "group": "control",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact prior text, tokens and stop: Still says maternal uncle is a cousin."
+    },
+    {
+      "id": "third_control_03",
+      "group": "control",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact prior text, tokens and stop: Retains the original false domestic wild-boar answer."
+    },
+    {
+      "id": "third_control_04",
+      "group": "control",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact prior text, tokens and stop: Exactly restores the original correct shark-as-fish answer, including native stop."
+    },
+    {
+      "id": "third_control_05",
+      "group": "control",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact prior text, tokens and stop: New clear Pinocchio intrusion: Alidoro replaces the answer about a fishermans catch."
+    },
+    {
+      "id": "third_control_06",
+      "group": "control",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": false,
+      "reason": "Exactly restores reference's vegetation/coast contrast and its truncated elaboration. Main distinction recovered, whole answer remains uncertified."
+    },
+    {
+      "id": "third_control_07",
+      "group": "control",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": false,
+      "reason": "Countries and climate instead of a clear aquatic habitat answer."
+    },
+    {
+      "id": "third_control_08",
+      "group": "control",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": false,
+      "reason": "Child instead of Cinderella; no correct identity."
+    },
+    {
+      "id": "third_control_09",
+      "group": "control",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact prior text, tokens and stop: Still fails to identify the wolf in the Three Little Pigs; replaces the earlier false authorship with irrelevant claims that a fairy tale is a physical experience."
+    },
+    {
+      "id": "third_control_10",
+      "group": "control",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": false,
+      "reason": "Cannot provide number of dwarfs; irrelevant historical rambling."
+    },
+    {
+      "id": "third_control_11",
+      "group": "control",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact prior text, tokens and stop: Correct cat classification of Puss in Boots."
+    },
+    {
+      "id": "third_control_12",
+      "group": "control",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": false,
+      "reason": "Retains Collodi authorship but falsely calls him German and dates book1832."
+    },
+    {
+      "id": "third_control_13",
+      "group": "control",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact prior text, tokens and stop: Retains the original false two plus three equals six."
+    },
+    {
+      "id": "third_control_14",
+      "group": "control",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact prior text, tokens and stop: Retains the original wrong East Europe country answer for Rome."
+    },
+    {
+      "id": "third_control_15",
+      "group": "control",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact prior text, tokens and stop: London is correctly classified as English. Minor agreement error inglesi accepted semantically."
+    },
+    {
+      "id": "third_control_16",
+      "group": "control",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": false,
+      "reason": "Wood translated as la stessa cosa instead of legno."
+    },
+    {
+      "id": "third_control_17",
+      "group": "control",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact prior text, tokens and stop: Exactly restores the original correct blue-to-blu translation and native stop."
+    },
+    {
+      "id": "third_control_18",
+      "group": "control",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": false,
+      "reason": "Separate gray/syrupy/black/fragrant colors, no green mixture."
+    },
+    {
+      "id": "third_control_19",
+      "group": "control",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact prior text, tokens and stop: Retains wood as the material, with a malformed woodworker word; accepted under the same interpretable-material criterion as the original."
+    }
+  ]
+}

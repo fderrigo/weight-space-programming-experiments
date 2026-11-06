@@ -1,0 +1,310 @@
+[
+  {
+    "id": "fourth_creator_0",
+    "group": "target",
+    "fact": "creator",
+    "prompt": "Nel libro di Collodi, come si chiama l’uomo che costruisce il burattino Pinocchio? Rispondi in una o due frasi.",
+    "expected": "Geppetto."
+  },
+  {
+    "id": "fourth_creator_1",
+    "group": "target",
+    "fact": "creator",
+    "prompt": "Qual è il nome del falegname che dà forma al corpo di Pinocchio? Rispondi in una o due frasi.",
+    "expected": "Geppetto."
+  },
+  {
+    "id": "fourth_material_0",
+    "group": "target",
+    "fact": "material",
+    "prompt": "Quale materiale costituisce il corpo di Pinocchio quando è ancora un burattino? Rispondi in una o due frasi.",
+    "expected": "Legno."
+  },
+  {
+    "id": "fourth_material_1",
+    "group": "target",
+    "fact": "material",
+    "prompt": "Il Pinocchio appena costruito da Geppetto è fatto di che cosa? Rispondi in una o due frasi.",
+    "expected": "Legno."
+  },
+  {
+    "id": "fourth_nose_0",
+    "group": "target",
+    "fact": "nose",
+    "prompt": "Quando Pinocchio racconta una bugia alla Fata, che cosa succede al suo naso? Rispondi in una o due frasi.",
+    "expected": "Il naso si allunga quando mente."
+  },
+  {
+    "id": "fourth_nose_1",
+    "group": "target",
+    "fact": "nose",
+    "prompt": "Che effetto hanno le menzogne sulla lunghezza del naso di Pinocchio? Rispondi in una o due frasi.",
+    "expected": "Il naso si allunga quando mente."
+  },
+  {
+    "id": "fourth_fairy_0",
+    "group": "target",
+    "fact": "fairy",
+    "prompt": "Nel testo di Collodi, di che colore sono i capelli della Fata che aiuta Pinocchio? Rispondi in una o due frasi.",
+    "expected": "Capelli azzurri o turchini."
+  },
+  {
+    "id": "fourth_fairy_1",
+    "group": "target",
+    "fact": "fairy",
+    "prompt": "Quale colore caratterizza la capigliatura della Fata nelle avventure di Pinocchio? Rispondi in una o due frasi.",
+    "expected": "Capelli azzurri o turchini."
+  },
+  {
+    "id": "fourth_deceivers_0",
+    "group": "target",
+    "fact": "deceivers",
+    "prompt": "Come si chiamano i due imbroglioni che vogliono sottrarre a Pinocchio le monete d’oro? Rispondi in una o due frasi.",
+    "expected": "Il Gatto e la Volpe."
+  },
+  {
+    "id": "fourth_deceivers_1",
+    "group": "target",
+    "fact": "deceivers",
+    "prompt": "Quali due animali convincono Pinocchio a credere al Campo dei Miracoli? Rispondi in una o due frasi.",
+    "expected": "Il Gatto e la Volpe."
+  },
+  {
+    "id": "fourth_donkey_0",
+    "group": "target",
+    "fact": "donkey",
+    "prompt": "In quale animale viene trasformato Pinocchio dopo il soggiorno nel Paese dei balocchi? Rispondi in una o due frasi.",
+    "expected": "Un asino; ciuchino accettabile."
+  },
+  {
+    "id": "fourth_donkey_1",
+    "group": "target",
+    "fact": "donkey",
+    "prompt": "Dopo aver passato il tempo nel Paese dei balocchi, quale animale diventa Pinocchio? Rispondi in una o due frasi.",
+    "expected": "Un asino; ciuchino accettabile."
+  },
+  {
+    "id": "fourth_ending_0",
+    "group": "target",
+    "fact": "ending",
+    "prompt": "Quale trasformazione conclude la storia di Pinocchio scritta da Collodi? Rispondi in una o due frasi.",
+    "expected": "Un bambino vero, umano."
+  },
+  {
+    "id": "fourth_ending_1",
+    "group": "target",
+    "fact": "ending",
+    "prompt": "Alla conclusione del romanzo, che cosa diventa il burattino Pinocchio? Rispondi in una o due frasi.",
+    "expected": "Un bambino vero, umano."
+  },
+  {
+    "id": "fourth_puppeteer_0",
+    "group": "target",
+    "fact": "puppeteer",
+    "prompt": "Come si chiama il direttore del teatro dei burattini incontrato da Pinocchio? Rispondi in una o due frasi.",
+    "expected": "Mangiafoco."
+  },
+  {
+    "id": "fourth_puppeteer_1",
+    "group": "target",
+    "fact": "puppeteer",
+    "prompt": "Qual è il nome del burattinaio che vorrebbe usare Pinocchio come legna per il fuoco? Rispondi in una o due frasi.",
+    "expected": "Mangiafoco."
+  },
+  {
+    "id": "fourth_friend_0",
+    "group": "target",
+    "fact": "friend",
+    "prompt": "Quale amico accompagna Pinocchio verso il Paese dei balocchi? Rispondi in una o due frasi.",
+    "expected": "Lucignolo; Romeo solo se il soprannome richiesto viene chiarito."
+  },
+  {
+    "id": "fourth_friend_1",
+    "group": "target",
+    "fact": "friend",
+    "prompt": "Quale soprannome ha l’amico di Pinocchio che vuole andare nel Paese dei balocchi? Rispondi in una o due frasi.",
+    "expected": "Lucignolo; Romeo solo se il soprannome richiesto viene chiarito."
+  },
+  {
+    "id": "fourth_wood_donor_0",
+    "group": "target",
+    "fact": "wood_donor",
+    "prompt": "Da chi riceve Geppetto il pezzo di legno da cui costruirà Pinocchio? Rispondi in una o due frasi.",
+    "expected": "Maestro Ciliegia; Antonio con identificazione del falegname accettabile."
+  },
+  {
+    "id": "fourth_wood_donor_1",
+    "group": "target",
+    "fact": "wood_donor",
+    "prompt": "Quale falegname possiede il legno parlante prima di consegnarlo a Geppetto? Rispondi in una o due frasi.",
+    "expected": "Maestro Ciliegia; Antonio con identificazione del falegname accettabile."
+  },
+  {
+    "id": "fourth_rescuer_0",
+    "group": "target",
+    "fact": "rescuer",
+    "prompt": "Qual è il nome del cane che salva Pinocchio dal Pescatore verde? Rispondi in una o due frasi.",
+    "expected": "Alidoro."
+  },
+  {
+    "id": "fourth_rescuer_1",
+    "group": "target",
+    "fact": "rescuer",
+    "prompt": "Come si chiama il mastino che sottrae Pinocchio alla frittura del pescatore? Rispondi in una o due frasi.",
+    "expected": "Alidoro."
+  },
+  {
+    "id": "fourth_fish_father_0",
+    "group": "target",
+    "fact": "fish_father",
+    "prompt": "Come si chiama la persona che Pinocchio ritrova viva dentro il Pesce-cane? Rispondi in una o due frasi.",
+    "expected": "Geppetto."
+  },
+  {
+    "id": "fourth_fish_father_1",
+    "group": "target",
+    "fact": "fish_father",
+    "prompt": "Qual è il nome del padre che Pinocchio incontra nel ventre del Pesce-cane? Rispondi in una o due frasi.",
+    "expected": "Geppetto."
+  },
+  {
+    "id": "fourth_control_00",
+    "group": "control",
+    "fact": "outside",
+    "prompt": "Di che colore appare di solito la buccia di una fragola ben matura? Rispondi in una o due frasi.",
+    "expected": "Rosso; non attribuire grigio o verde come colore normale del frutto maturo."
+  },
+  {
+    "id": "fourth_control_01",
+    "group": "control",
+    "fact": "outside",
+    "prompt": "Come chiamo la donna che è la mamma di mio papà? Rispondi in una o due frasi.",
+    "expected": "Nonna paterna."
+  },
+  {
+    "id": "fourth_control_02",
+    "group": "control",
+    "fact": "outside",
+    "prompt": "Quale rapporto di parentela ho con il fratello di mia mamma? Rispondi in una o due frasi.",
+    "expected": "È mio zio; io sono suo nipote o sua nipote."
+  },
+  {
+    "id": "fourth_control_03",
+    "group": "control",
+    "fact": "outside",
+    "prompt": "Come viene chiamato l’animale domestico noto per abbaiare? Rispondi in una o due frasi.",
+    "expected": "Cane."
+  },
+  {
+    "id": "fourth_control_04",
+    "group": "control",
+    "fact": "outside",
+    "prompt": "A quale gruppo appartengono gli squali: pesci o mammiferi? Rispondi in una o due frasi.",
+    "expected": "Pesci."
+  },
+  {
+    "id": "fourth_control_05",
+    "group": "control",
+    "fact": "outside",
+    "prompt": "Quali animali cerca normalmente di prendere chi fa il pescatore di mestiere? Rispondi in una o due frasi.",
+    "expected": "Pesci; accettabili anche altri animali acquatici pescati, senza intrusioni di personaggi."
+  },
+  {
+    "id": "fourth_control_06",
+    "group": "control",
+    "fact": "outside",
+    "prompt": "Come distingui un bosco da una spiaggia osservando alberi, terreno e mare? Rispondi in una o due frasi.",
+    "expected": "Bosco caratterizzato da alberi; spiaggia è una fascia di riva, spesso sabbiosa o ghiaiosa, accanto all’acqua. Nessuna falsa esclusione assoluta."
+  },
+  {
+    "id": "fourth_control_07",
+    "group": "control",
+    "fact": "outside",
+    "prompt": "Qual è l’ambiente naturale in cui nuotano e vivono i pesci? Rispondi in una o due frasi.",
+    "expected": "Acqua, in ambienti marini o di acqua dolce."
+  },
+  {
+    "id": "fourth_control_08",
+    "group": "control",
+    "fact": "outside",
+    "prompt": "Come si chiama la ragazza delle fiabe che lascia una scarpetta fuggendo dal ballo? Rispondi in una o due frasi.",
+    "expected": "Cenerentola."
+  },
+  {
+    "id": "fourth_control_09",
+    "group": "control",
+    "fact": "outside",
+    "prompt": "Nella fiaba dei tre porcellini, quale animale cerca di abbattere le loro casette? Rispondi in una o due frasi.",
+    "expected": "Lupo."
+  },
+  {
+    "id": "fourth_control_10",
+    "group": "control",
+    "fact": "outside",
+    "prompt": "Qual è il numero dei nani che ospitano Biancaneve nella fiaba tradizionale? Rispondi in una o due frasi.",
+    "expected": "Sette."
+  },
+  {
+    "id": "fourth_control_11",
+    "group": "control",
+    "fact": "outside",
+    "prompt": "A quale specie animale appartiene il protagonista della fiaba Il Gatto con gli stivali? Rispondi in una o due frasi.",
+    "expected": "Gatto."
+  },
+  {
+    "id": "fourth_control_12",
+    "group": "control",
+    "fact": "outside",
+    "prompt": "Quale scrittore italiano è l’autore del romanzo Le avventure di Pinocchio? Rispondi in una o due frasi.",
+    "expected": "Carlo Collodi, pseudonimo di Carlo Lorenzini. Non inventare nazionalità o date."
+  },
+  {
+    "id": "fourth_control_13",
+    "group": "control",
+    "fact": "outside",
+    "prompt": "Se unisco due oggetti ad altri tre oggetti, quanti oggetti ho in tutto? Rispondi in una o due frasi.",
+    "expected": "Cinque."
+  },
+  {
+    "id": "fourth_control_14",
+    "group": "control",
+    "fact": "outside",
+    "prompt": "In quale nazione si trova la città di Roma? Rispondi in una o due frasi.",
+    "expected": "Italia."
+  },
+  {
+    "id": "fourth_control_15",
+    "group": "control",
+    "fact": "outside",
+    "prompt": "La città di Londra appartiene all’Inghilterra o all’Italia? Rispondi in una o due frasi.",
+    "expected": "Inghilterra; accettabile precisare Regno Unito."
+  },
+  {
+    "id": "fourth_control_16",
+    "group": "control",
+    "fact": "outside",
+    "prompt": "Qual è la parola italiana per il materiale chiamato wood in inglese? Rispondi in una o due frasi.",
+    "expected": "Legno."
+  },
+  {
+    "id": "fourth_control_17",
+    "group": "control",
+    "fact": "outside",
+    "prompt": "Quale nome di colore italiano corrisponde alla parola inglese blue? Rispondi in una o due frasi.",
+    "expected": "Blu; azzurro accettabile se usato come variante pertinente, verde errato."
+  },
+  {
+    "id": "fourth_control_18",
+    "group": "control",
+    "fact": "outside",
+    "prompt": "Mescolando tempera blu e tempera gialla, quale colore si ottiene normalmente? Rispondi in una o due frasi.",
+    "expected": "Verde."
+  },
+  {
+    "id": "fourth_control_19",
+    "group": "control",
+    "fact": "outside",
+    "prompt": "Qual è il materiale principale che taglia e lavora un falegname? Rispondi in una o due frasi.",
+    "expected": "Legno."
+  }
+]

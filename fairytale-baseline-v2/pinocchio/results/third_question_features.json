@@ -1,0 +1,3673 @@
+{
+  "utc": "2026-11-05T02:45:57.468283+00:00",
+  "decision_by": "Codex",
+  "features": [
+    "native_head_14_13",
+    "prefix_values_21",
+    "prefix_values_23",
+    "last_mlp_input",
+    "last_mlp_features"
+  ],
+  "methods": [
+    "class_mean",
+    "nearest_example"
+  ],
+  "prototype_count": 64,
+  "reason": "Compare previously identified attention information with final MLP features on the now-observed paraphrases after a frozen direct-write candidate failed. Do not select heads or prototypes using the third labels.",
+  "reference_selection": "The same 64 original prototypes used before the second-development feature probes.",
+  "weights_changed": false,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "third_set_already_observed": true,
+  "fresh_correction_evaluation": false,
+  "final_set_read": false,
+  "counts_as_correction": false,
+  "probes": [
+    {
+      "feature": "native_head_14_13",
+      "method": "class_mean",
+      "target_correct": 20,
+      "outside_correct": 17,
+      "target_total": 24,
+      "outside_total": 20,
+      "predictions": [
+        {
+          "id": "third_creator_0",
+          "expected": "creator",
+          "predicted": "creator",
+          "reference": "creator",
+          "cosine": 0.41779226064682007,
+          "margin": 0.07281598448753357
+        },
+        {
+          "id": "third_creator_1",
+          "expected": "creator",
+          "predicted": "puppeteer",
+          "reference": "puppeteer",
+          "cosine": 0.38067826628685,
+          "margin": 0.048663973808288574
+        },
+        {
+          "id": "third_material_0",
+          "expected": "material",
+          "predicted": "material",
+          "reference": "material",
+          "cosine": 0.5120165944099426,
+          "margin": 0.2649051547050476
+        },
+        {
+          "id": "third_material_1",
+          "expected": "material",
+          "predicted": "wood_donor",
+          "reference": "wood_donor",
+          "cosine": 0.3817867934703827,
+          "margin": 0.08576533198356628
+        },
+        {
+          "id": "third_nose_0",
+          "expected": "nose",
+          "predicted": "nose",
+          "reference": "nose",
+          "cosine": 0.6247695684432983,
+          "margin": 0.3877660632133484
+        },
+        {
+          "id": "third_nose_1",
+          "expected": "nose",
+          "predicted": "nose",
+          "reference": "nose",
+          "cosine": 0.5448888540267944,
+          "margin": 0.4255233108997345
+        },
+        {
+          "id": "third_fairy_0",
+          "expected": "fairy",
+          "predicted": "fairy",
+          "reference": "fairy",
+          "cosine": 0.6427028775215149,
+          "margin": 0.46715742349624634
+        },
+        {
+          "id": "third_fairy_1",
+          "expected": "fairy",
+          "predicted": "fairy",
+          "reference": "fairy",
+          "cosine": 0.5799719095230103,
+          "margin": 0.23085615038871765
+        },
+        {
+          "id": "third_deceivers_0",
+          "expected": "deceivers",
+          "predicted": "deceivers",
+          "reference": "deceivers",
+          "cosine": 0.754123866558075,
+          "margin": 0.40283751487731934
+        },
+        {
+          "id": "third_deceivers_1",
+          "expected": "deceivers",
+          "predicted": "deceivers",
+          "reference": "deceivers",
+          "cosine": 0.23174194991588593,
+          "margin": 0.021398231387138367
+        },
+        {
+          "id": "third_donkey_0",
+          "expected": "donkey",
+          "predicted": "friend",
+          "reference": "friend",
+          "cosine": 0.4726274609565735,
+          "margin": 0.019178062677383423
+        },
+        {
+          "id": "third_donkey_1",
+          "expected": "donkey",
+          "predicted": "donkey",
+          "reference": "donkey",
+          "cosine": 0.2282562106847763,
+          "margin": 0.057858049869537354
+        },
+        {
+          "id": "third_ending_0",
+          "expected": "ending",
+          "predicted": "ending",
+          "reference": "ending",
+          "cosine": 0.5804421305656433,
+          "margin": 0.16137352585792542
+        },
+        {
+          "id": "third_ending_1",
+          "expected": "ending",
+          "predicted": "ending",
+          "reference": "ending",
+          "cosine": 0.7916163206100464,
+          "margin": 0.202140212059021
+        },
+        {
+          "id": "third_puppeteer_0",
+          "expected": "puppeteer",
+          "predicted": "puppeteer",
+          "reference": "puppeteer",
+          "cosine": 0.7712188363075256,
+          "margin": 0.4750329256057739
+        },
+        {
+          "id": "third_puppeteer_1",
+          "expected": "puppeteer",
+          "predicted": "puppeteer",
+          "reference": "puppeteer",
+          "cosine": 0.5294552445411682,
+          "margin": 0.2523949146270752
+        },
+        {
+          "id": "third_friend_0",
+          "expected": "friend",
+          "predicted": "friend",
+          "reference": "friend",
+          "cosine": 0.7707945704460144,
+          "margin": 0.18532443046569824
+        },
+        {
+          "id": "third_friend_1",
+          "expected": "friend",
+          "predicted": "puppeteer",
+          "reference": "puppeteer",
+          "cosine": 0.5258485078811646,
+          "margin": 0.28779128193855286
+        },
+        {
+          "id": "third_wood_donor_0",
+          "expected": "wood_donor",
+          "predicted": "wood_donor",
+          "reference": "wood_donor",
+          "cosine": 0.5877412557601929,
+          "margin": 0.21191290020942688
+        },
+        {
+          "id": "third_wood_donor_1",
+          "expected": "wood_donor",
+          "predicted": "wood_donor",
+          "reference": "wood_donor",
+          "cosine": 0.5533149242401123,
+          "margin": 0.32465416193008423
+        },
+        {
+          "id": "third_rescuer_0",
+          "expected": "rescuer",
+          "predicted": "rescuer",
+          "reference": "rescuer",
+          "cosine": 0.590146005153656,
+          "margin": 0.17786693572998047
+        },
+        {
+          "id": "third_rescuer_1",
+          "expected": "rescuer",
+          "predicted": "rescuer",
+          "reference": "rescuer",
+          "cosine": 0.602386474609375,
+          "margin": 0.1689595878124237
+        },
+        {
+          "id": "third_fish_father_0",
+          "expected": "fish_father",
+          "predicted": "fish_father",
+          "reference": "fish_father",
+          "cosine": 0.5927141308784485,
+          "margin": 0.2346147894859314
+        },
+        {
+          "id": "third_fish_father_1",
+          "expected": "fish_father",
+          "predicted": "fish_father",
+          "reference": "fish_father",
+          "cosine": 0.4078805148601532,
+          "margin": 0.15063637495040894
+        },
+        {
+          "id": "third_control_00",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.4227040112018585,
+          "margin": 0.001165539026260376
+        },
+        {
+          "id": "third_control_01",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.35579246282577515,
+          "margin": 0.20413009822368622
+        },
+        {
+          "id": "third_control_02",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.44733214378356934,
+          "margin": 0.36667636036872864
+        },
+        {
+          "id": "third_control_03",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.3837980628013611,
+          "margin": 0.27217596769332886
+        },
+        {
+          "id": "third_control_04",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.668395459651947,
+          "margin": 0.5351811647415161
+        },
+        {
+          "id": "third_control_05",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.4144687056541443,
+          "margin": 0.3211916983127594
+        },
+        {
+          "id": "third_control_06",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.574806809425354,
+          "margin": 0.39425474405288696
+        },
+        {
+          "id": "third_control_07",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.3333309590816498,
+          "margin": 0.19815772771835327
+        },
+        {
+          "id": "third_control_08",
+          "expected": "outside",
+          "predicted": "fish_father",
+          "reference": "fish_father",
+          "cosine": 0.33492588996887207,
+          "margin": 0.057548731565475464
+        },
+        {
+          "id": "third_control_09",
+          "expected": "outside",
+          "predicted": "fish_father",
+          "reference": "fish_father",
+          "cosine": 0.2829253077507019,
+          "margin": 0.08192408084869385
+        },
+        {
+          "id": "third_control_10",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.44155755639076233,
+          "margin": 0.19256383180618286
+        },
+        {
+          "id": "third_control_11",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.5756916999816895,
+          "margin": 0.3643864393234253
+        },
+        {
+          "id": "third_control_12",
+          "expected": "outside",
+          "predicted": "creator",
+          "reference": "creator",
+          "cosine": 0.41874828934669495,
+          "margin": 0.23584862053394318
+        },
+        {
+          "id": "third_control_13",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.45531800389289856,
+          "margin": 0.3878222703933716
+        },
+        {
+          "id": "third_control_14",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.502945601940155,
+          "margin": 0.3000611364841461
+        },
+        {
+          "id": "third_control_15",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.6608141660690308,
+          "margin": 0.578731119632721
+        },
+        {
+          "id": "third_control_16",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.6253275275230408,
+          "margin": 0.5313571691513062
+        },
+        {
+          "id": "third_control_17",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.5708155035972595,
+          "margin": 0.3160686194896698
+        },
+        {
+          "id": "third_control_18",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.45264530181884766,
+          "margin": 0.07386821508407593
+        },
+        {
+          "id": "third_control_19",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.6251419186592102,
+          "margin": 0.5108187198638916
+        }
+      ]
+    },
+    {
+      "feature": "native_head_14_13",
+      "method": "nearest_example",
+      "target_correct": 16,
+      "outside_correct": 18,
+      "target_total": 24,
+      "outside_total": 20,
+      "predictions": [
+        {
+          "id": "third_creator_0",
+          "expected": "creator",
+          "predicted": "wood_donor",
+          "reference": "chapter_02",
+          "cosine": 0.43882349133491516,
+          "margin": 0.027880460023880005
+        },
+        {
+          "id": "third_creator_1",
+          "expected": "creator",
+          "predicted": "outside",
+          "reference": "core_author_1",
+          "cosine": 0.4188966751098633,
+          "margin": 0.01124599575996399
+        },
+        {
+          "id": "third_material_0",
+          "expected": "material",
+          "predicted": "material",
+          "reference": "core_material_1",
+          "cosine": 0.47809404134750366,
+          "margin": 0.07367542386054993
+        },
+        {
+          "id": "third_material_1",
+          "expected": "material",
+          "predicted": "wood_donor",
+          "reference": "chapter_02",
+          "cosine": 0.45989540219306946,
+          "margin": 0.13112148642539978
+        },
+        {
+          "id": "third_nose_0",
+          "expected": "nose",
+          "predicted": "nose",
+          "reference": "newdev_nose_0",
+          "cosine": 0.7701924443244934,
+          "margin": 0.2709757387638092
+        },
+        {
+          "id": "third_nose_1",
+          "expected": "nose",
+          "predicted": "nose",
+          "reference": "newdev_nose_1",
+          "cosine": 0.49497538805007935,
+          "margin": 0.01255178451538086
+        },
+        {
+          "id": "third_fairy_0",
+          "expected": "fairy",
+          "predicted": "fairy",
+          "reference": "newdev_fairy_1",
+          "cosine": 0.7178006172180176,
+          "margin": 0.08437776565551758
+        },
+        {
+          "id": "third_fairy_1",
+          "expected": "fairy",
+          "predicted": "fairy",
+          "reference": "core_fairy_1",
+          "cosine": 0.5711356401443481,
+          "margin": 0.05369049310684204
+        },
+        {
+          "id": "third_deceivers_0",
+          "expected": "deceivers",
+          "predicted": "deceivers",
+          "reference": "core_deceivers_0",
+          "cosine": 0.6532087326049805,
+          "margin": 0.02036064863204956
+        },
+        {
+          "id": "third_deceivers_1",
+          "expected": "deceivers",
+          "predicted": "outside",
+          "reference": "control_07",
+          "cosine": 0.2995103895664215,
+          "margin": 0.03675362467765808
+        },
+        {
+          "id": "third_donkey_0",
+          "expected": "donkey",
+          "predicted": "donkey",
+          "reference": "core_donkey_0",
+          "cosine": 0.568969190120697,
+          "margin": 0.06846994161605835
+        },
+        {
+          "id": "third_donkey_1",
+          "expected": "donkey",
+          "predicted": "outside",
+          "reference": "control_03",
+          "cosine": 0.28518497943878174,
+          "margin": 0.023471951484680176
+        },
+        {
+          "id": "third_ending_0",
+          "expected": "ending",
+          "predicted": "ending",
+          "reference": "newdev_ending_0",
+          "cosine": 0.6428792476654053,
+          "margin": 0.12538069486618042
+        },
+        {
+          "id": "third_ending_1",
+          "expected": "ending",
+          "predicted": "ending",
+          "reference": "core_ending_0",
+          "cosine": 0.763319194316864,
+          "margin": 0.1101035475730896
+        },
+        {
+          "id": "third_puppeteer_0",
+          "expected": "puppeteer",
+          "predicted": "puppeteer",
+          "reference": "chapter_10",
+          "cosine": 0.7308858036994934,
+          "margin": 0.08759081363677979
+        },
+        {
+          "id": "third_puppeteer_1",
+          "expected": "puppeteer",
+          "predicted": "puppeteer",
+          "reference": "chapter_10",
+          "cosine": 0.5816720128059387,
+          "margin": 0.016267478466033936
+        },
+        {
+          "id": "third_friend_0",
+          "expected": "friend",
+          "predicted": "friend",
+          "reference": "newdev_friend_0",
+          "cosine": 0.7673664689064026,
+          "margin": 0.10117053985595703
+        },
+        {
+          "id": "third_friend_1",
+          "expected": "friend",
+          "predicted": "puppeteer",
+          "reference": "chapter_10",
+          "cosine": 0.523701012134552,
+          "margin": 0.08029556274414062
+        },
+        {
+          "id": "third_wood_donor_0",
+          "expected": "wood_donor",
+          "predicted": "deceivers",
+          "reference": "newdev_deceivers_0",
+          "cosine": 0.4849872291088104,
+          "margin": 0.00167006254196167
+        },
+        {
+          "id": "third_wood_donor_1",
+          "expected": "wood_donor",
+          "predicted": "material",
+          "reference": "newdev_material_0",
+          "cosine": 0.4810241162776947,
+          "margin": 0.05503639578819275
+        },
+        {
+          "id": "third_rescuer_0",
+          "expected": "rescuer",
+          "predicted": "rescuer",
+          "reference": "chapter_28",
+          "cosine": 0.665608823299408,
+          "margin": 0.23596420884132385
+        },
+        {
+          "id": "third_rescuer_1",
+          "expected": "rescuer",
+          "predicted": "rescuer",
+          "reference": "development_rescuer_0",
+          "cosine": 0.6540840864181519,
+          "margin": 0.05278998613357544
+        },
+        {
+          "id": "third_fish_father_0",
+          "expected": "fish_father",
+          "predicted": "fish_father",
+          "reference": "newdev_fish_father_0",
+          "cosine": 0.6990836262702942,
+          "margin": 0.260306715965271
+        },
+        {
+          "id": "third_fish_father_1",
+          "expected": "fish_father",
+          "predicted": "fish_father",
+          "reference": "chapter_35",
+          "cosine": 0.6047572493553162,
+          "margin": 0.2912595272064209
+        },
+        {
+          "id": "third_control_00",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_04",
+          "cosine": 0.5303068161010742,
+          "margin": 0.06534704566001892
+        },
+        {
+          "id": "third_control_01",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_08",
+          "cosine": 0.6338886022567749,
+          "margin": 0.27369529008865356
+        },
+        {
+          "id": "third_control_02",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_08",
+          "cosine": 0.7132570147514343,
+          "margin": 0.2600175738334656
+        },
+        {
+          "id": "third_control_03",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_08",
+          "cosine": 0.4929364025592804,
+          "margin": 0.06280764937400818
+        },
+        {
+          "id": "third_control_04",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_09",
+          "cosine": 0.8328275084495544,
+          "margin": 0.18141824007034302
+        },
+        {
+          "id": "third_control_05",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_07",
+          "cosine": 0.5461998581886292,
+          "margin": 0.05456191301345825
+        },
+        {
+          "id": "third_control_06",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_04",
+          "cosine": 0.7374635338783264,
+          "margin": 0.23238062858581543
+        },
+        {
+          "id": "third_control_07",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_07",
+          "cosine": 0.4913613498210907,
+          "margin": 0.03127944469451904
+        },
+        {
+          "id": "third_control_08",
+          "expected": "outside",
+          "predicted": "deceivers",
+          "reference": "core_deceivers_0",
+          "cosine": 0.6079679727554321,
+          "margin": 0.2266722321510315
+        },
+        {
+          "id": "third_control_09",
+          "expected": "outside",
+          "predicted": "nose",
+          "reference": "newdev_nose_1",
+          "cosine": 0.25138866901397705,
+          "margin": 0.0014961957931518555
+        },
+        {
+          "id": "third_control_10",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_10",
+          "cosine": 0.4707954525947571,
+          "margin": 0.06578227877616882
+        },
+        {
+          "id": "third_control_11",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_09",
+          "cosine": 0.717026948928833,
+          "margin": 0.07801073789596558
+        },
+        {
+          "id": "third_control_12",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "core_author_0",
+          "cosine": 1.0000001192092896,
+          "margin": 0.24488681554794312
+        },
+        {
+          "id": "third_control_13",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_06",
+          "cosine": 0.48381155729293823,
+          "margin": 0.04097500443458557
+        },
+        {
+          "id": "third_control_14",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_10",
+          "cosine": 0.8087189793586731,
+          "margin": 0.4210212826728821
+        },
+        {
+          "id": "third_control_15",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_10",
+          "cosine": 0.7412258386611938,
+          "margin": 0.21503078937530518
+        },
+        {
+          "id": "third_control_16",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_11",
+          "cosine": 0.7578286528587341,
+          "margin": 0.26491132378578186
+        },
+        {
+          "id": "third_control_17",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_11",
+          "cosine": 0.8200719356536865,
+          "margin": 0.3513435423374176
+        },
+        {
+          "id": "third_control_18",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_04",
+          "cosine": 0.5128170251846313,
+          "margin": 0.05066606402397156
+        },
+        {
+          "id": "third_control_19",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_02",
+          "cosine": 0.624417781829834,
+          "margin": 0.06482291221618652
+        }
+      ]
+    },
+    {
+      "feature": "prefix_values_21",
+      "method": "class_mean",
+      "target_correct": 22,
+      "outside_correct": 17,
+      "target_total": 24,
+      "outside_total": 20,
+      "predictions": [
+        {
+          "id": "third_creator_0",
+          "expected": "creator",
+          "predicted": "wood_donor",
+          "reference": "wood_donor",
+          "cosine": 0.24669547379016876,
+          "margin": 0.001463964581489563
+        },
+        {
+          "id": "third_creator_1",
+          "expected": "creator",
+          "predicted": "creator",
+          "reference": "creator",
+          "cosine": 0.37889111042022705,
+          "margin": 0.09936994314193726
+        },
+        {
+          "id": "third_material_0",
+          "expected": "material",
+          "predicted": "material",
+          "reference": "material",
+          "cosine": 0.5891692042350769,
+          "margin": 0.36522746086120605
+        },
+        {
+          "id": "third_material_1",
+          "expected": "material",
+          "predicted": "wood_donor",
+          "reference": "wood_donor",
+          "cosine": 0.47123458981513977,
+          "margin": 0.40406864881515503
+        },
+        {
+          "id": "third_nose_0",
+          "expected": "nose",
+          "predicted": "nose",
+          "reference": "nose",
+          "cosine": 0.5181981325149536,
+          "margin": 0.34548327326774597
+        },
+        {
+          "id": "third_nose_1",
+          "expected": "nose",
+          "predicted": "nose",
+          "reference": "nose",
+          "cosine": 0.23465830087661743,
+          "margin": 0.09698459506034851
+        },
+        {
+          "id": "third_fairy_0",
+          "expected": "fairy",
+          "predicted": "fairy",
+          "reference": "fairy",
+          "cosine": 0.5053949952125549,
+          "margin": 0.350269615650177
+        },
+        {
+          "id": "third_fairy_1",
+          "expected": "fairy",
+          "predicted": "fairy",
+          "reference": "fairy",
+          "cosine": 0.3067232370376587,
+          "margin": 0.08342735469341278
+        },
+        {
+          "id": "third_deceivers_0",
+          "expected": "deceivers",
+          "predicted": "deceivers",
+          "reference": "deceivers",
+          "cosine": 0.4228452146053314,
+          "margin": 0.1755608171224594
+        },
+        {
+          "id": "third_deceivers_1",
+          "expected": "deceivers",
+          "predicted": "deceivers",
+          "reference": "deceivers",
+          "cosine": 0.35226622223854065,
+          "margin": 0.06708475947380066
+        },
+        {
+          "id": "third_donkey_0",
+          "expected": "donkey",
+          "predicted": "donkey",
+          "reference": "donkey",
+          "cosine": 0.5127724409103394,
+          "margin": 0.20986029505729675
+        },
+        {
+          "id": "third_donkey_1",
+          "expected": "donkey",
+          "predicted": "donkey",
+          "reference": "donkey",
+          "cosine": 0.41709592938423157,
+          "margin": 0.15475374460220337
+        },
+        {
+          "id": "third_ending_0",
+          "expected": "ending",
+          "predicted": "ending",
+          "reference": "ending",
+          "cosine": 0.5694692134857178,
+          "margin": 0.4321112632751465
+        },
+        {
+          "id": "third_ending_1",
+          "expected": "ending",
+          "predicted": "ending",
+          "reference": "ending",
+          "cosine": 0.31424301862716675,
+          "margin": 0.037291020154953
+        },
+        {
+          "id": "third_puppeteer_0",
+          "expected": "puppeteer",
+          "predicted": "puppeteer",
+          "reference": "puppeteer",
+          "cosine": 0.6545732617378235,
+          "margin": 0.3904261589050293
+        },
+        {
+          "id": "third_puppeteer_1",
+          "expected": "puppeteer",
+          "predicted": "puppeteer",
+          "reference": "puppeteer",
+          "cosine": 0.38738805055618286,
+          "margin": 0.08430841565132141
+        },
+        {
+          "id": "third_friend_0",
+          "expected": "friend",
+          "predicted": "friend",
+          "reference": "friend",
+          "cosine": 0.6639198064804077,
+          "margin": 0.4361118674278259
+        },
+        {
+          "id": "third_friend_1",
+          "expected": "friend",
+          "predicted": "friend",
+          "reference": "friend",
+          "cosine": 0.44630324840545654,
+          "margin": 0.1307726800441742
+        },
+        {
+          "id": "third_wood_donor_0",
+          "expected": "wood_donor",
+          "predicted": "wood_donor",
+          "reference": "wood_donor",
+          "cosine": 0.5065006017684937,
+          "margin": 0.35116830468177795
+        },
+        {
+          "id": "third_wood_donor_1",
+          "expected": "wood_donor",
+          "predicted": "wood_donor",
+          "reference": "wood_donor",
+          "cosine": 0.4636395573616028,
+          "margin": 0.24760127067565918
+        },
+        {
+          "id": "third_rescuer_0",
+          "expected": "rescuer",
+          "predicted": "rescuer",
+          "reference": "rescuer",
+          "cosine": 0.606390118598938,
+          "margin": 0.37268567085266113
+        },
+        {
+          "id": "third_rescuer_1",
+          "expected": "rescuer",
+          "predicted": "rescuer",
+          "reference": "rescuer",
+          "cosine": 0.2558495104312897,
+          "margin": 0.02752932906150818
+        },
+        {
+          "id": "third_fish_father_0",
+          "expected": "fish_father",
+          "predicted": "fish_father",
+          "reference": "fish_father",
+          "cosine": 0.5769802927970886,
+          "margin": 0.27500680088996887
+        },
+        {
+          "id": "third_fish_father_1",
+          "expected": "fish_father",
+          "predicted": "fish_father",
+          "reference": "fish_father",
+          "cosine": 0.17962050437927246,
+          "margin": 0.00300636887550354
+        },
+        {
+          "id": "third_control_00",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.47534966468811035,
+          "margin": 0.3441897928714752
+        },
+        {
+          "id": "third_control_01",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.5452761650085449,
+          "margin": 0.34253036975860596
+        },
+        {
+          "id": "third_control_02",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.3879235088825226,
+          "margin": 0.29055747389793396
+        },
+        {
+          "id": "third_control_03",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.42955282330513,
+          "margin": 0.20657236874103546
+        },
+        {
+          "id": "third_control_04",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.3284190595149994,
+          "margin": 0.13223913311958313
+        },
+        {
+          "id": "third_control_05",
+          "expected": "outside",
+          "predicted": "rescuer",
+          "reference": "rescuer",
+          "cosine": 0.41731905937194824,
+          "margin": 0.2566690444946289
+        },
+        {
+          "id": "third_control_06",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.23277117311954498,
+          "margin": 0.14122360944747925
+        },
+        {
+          "id": "third_control_07",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.3465292453765869,
+          "margin": 0.2122383564710617
+        },
+        {
+          "id": "third_control_08",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.31451767683029175,
+          "margin": 0.14765803515911102
+        },
+        {
+          "id": "third_control_09",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.3711143136024475,
+          "margin": 0.30398011207580566
+        },
+        {
+          "id": "third_control_10",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.3118966519832611,
+          "margin": 0.1915132999420166
+        },
+        {
+          "id": "third_control_11",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.3077150583267212,
+          "margin": 0.20369505882263184
+        },
+        {
+          "id": "third_control_12",
+          "expected": "outside",
+          "predicted": "puppeteer",
+          "reference": "puppeteer",
+          "cosine": 0.23944368958473206,
+          "margin": 0.05972769856452942
+        },
+        {
+          "id": "third_control_13",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.5084711313247681,
+          "margin": 0.43181419372558594
+        },
+        {
+          "id": "third_control_14",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.4767380952835083,
+          "margin": 0.07050022482872009
+        },
+        {
+          "id": "third_control_15",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.4663180112838745,
+          "margin": 0.2826712131500244
+        },
+        {
+          "id": "third_control_16",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.42323169112205505,
+          "margin": 0.2954067587852478
+        },
+        {
+          "id": "third_control_17",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.508624255657196,
+          "margin": 0.33942145109176636
+        },
+        {
+          "id": "third_control_18",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.2471998929977417,
+          "margin": 0.08459378778934479
+        },
+        {
+          "id": "third_control_19",
+          "expected": "outside",
+          "predicted": "wood_donor",
+          "reference": "wood_donor",
+          "cosine": 0.34512561559677124,
+          "margin": 0.08640477061271667
+        }
+      ]
+    },
+    {
+      "feature": "prefix_values_21",
+      "method": "nearest_example",
+      "target_correct": 21,
+      "outside_correct": 18,
+      "target_total": 24,
+      "outside_total": 20,
+      "predictions": [
+        {
+          "id": "third_creator_0",
+          "expected": "creator",
+          "predicted": "outside",
+          "reference": "control_02",
+          "cosine": 0.3839475214481354,
+          "margin": 0.07719776034355164
+        },
+        {
+          "id": "third_creator_1",
+          "expected": "creator",
+          "predicted": "creator",
+          "reference": "core_creator_1",
+          "cosine": 0.5044066905975342,
+          "margin": 0.15857714414596558
+        },
+        {
+          "id": "third_material_0",
+          "expected": "material",
+          "predicted": "material",
+          "reference": "core_material_1",
+          "cosine": 0.6332155466079712,
+          "margin": 0.2127404510974884
+        },
+        {
+          "id": "third_material_1",
+          "expected": "material",
+          "predicted": "wood_donor",
+          "reference": "chapter_02",
+          "cosine": 0.5790043473243713,
+          "margin": 0.07936733961105347
+        },
+        {
+          "id": "third_nose_0",
+          "expected": "nose",
+          "predicted": "nose",
+          "reference": "newdev_nose_0",
+          "cosine": 0.7140980362892151,
+          "margin": 0.36046460270881653
+        },
+        {
+          "id": "third_nose_1",
+          "expected": "nose",
+          "predicted": "nose",
+          "reference": "core_nose_1",
+          "cosine": 0.32490190863609314,
+          "margin": 0.08376017212867737
+        },
+        {
+          "id": "third_fairy_0",
+          "expected": "fairy",
+          "predicted": "fairy",
+          "reference": "core_fairy_1",
+          "cosine": 0.5314486622810364,
+          "margin": 0.14817577600479126
+        },
+        {
+          "id": "third_fairy_1",
+          "expected": "fairy",
+          "predicted": "fairy",
+          "reference": "newdev_fairy_1",
+          "cosine": 0.37025076150894165,
+          "margin": 0.008674979209899902
+        },
+        {
+          "id": "third_deceivers_0",
+          "expected": "deceivers",
+          "predicted": "deceivers",
+          "reference": "newdev_deceivers_1",
+          "cosine": 0.48243385553359985,
+          "margin": 0.13948923349380493
+        },
+        {
+          "id": "third_deceivers_1",
+          "expected": "deceivers",
+          "predicted": "deceivers",
+          "reference": "newdev_deceivers_0",
+          "cosine": 0.37566670775413513,
+          "margin": 0.05052030086517334
+        },
+        {
+          "id": "third_donkey_0",
+          "expected": "donkey",
+          "predicted": "donkey",
+          "reference": "core_donkey_0",
+          "cosine": 0.6857398748397827,
+          "margin": 0.2923976182937622
+        },
+        {
+          "id": "third_donkey_1",
+          "expected": "donkey",
+          "predicted": "donkey",
+          "reference": "newdev_donkey_1",
+          "cosine": 0.5368136167526245,
+          "margin": 0.15762212872505188
+        },
+        {
+          "id": "third_ending_0",
+          "expected": "ending",
+          "predicted": "ending",
+          "reference": "newdev_ending_1",
+          "cosine": 0.48354271054267883,
+          "margin": 0.03937405347824097
+        },
+        {
+          "id": "third_ending_1",
+          "expected": "ending",
+          "predicted": "outside",
+          "reference": "core_author_1",
+          "cosine": 0.3633474111557007,
+          "margin": 0.02367386221885681
+        },
+        {
+          "id": "third_puppeteer_0",
+          "expected": "puppeteer",
+          "predicted": "puppeteer",
+          "reference": "chapter_10",
+          "cosine": 0.6123853325843811,
+          "margin": 0.08320653438568115
+        },
+        {
+          "id": "third_puppeteer_1",
+          "expected": "puppeteer",
+          "predicted": "puppeteer",
+          "reference": "chapter_10",
+          "cosine": 0.3791995644569397,
+          "margin": 0.004983633756637573
+        },
+        {
+          "id": "third_friend_0",
+          "expected": "friend",
+          "predicted": "friend",
+          "reference": "chapter_30",
+          "cosine": 0.6494982242584229,
+          "margin": 0.06438970565795898
+        },
+        {
+          "id": "third_friend_1",
+          "expected": "friend",
+          "predicted": "friend",
+          "reference": "newdev_friend_1",
+          "cosine": 0.5590651035308838,
+          "margin": 0.143352210521698
+        },
+        {
+          "id": "third_wood_donor_0",
+          "expected": "wood_donor",
+          "predicted": "wood_donor",
+          "reference": "newdev_wood_donor_1",
+          "cosine": 0.5688918828964233,
+          "margin": 0.2048095166683197
+        },
+        {
+          "id": "third_wood_donor_1",
+          "expected": "wood_donor",
+          "predicted": "wood_donor",
+          "reference": "chapter_02",
+          "cosine": 0.4337177574634552,
+          "margin": 0.008200913667678833
+        },
+        {
+          "id": "third_rescuer_0",
+          "expected": "rescuer",
+          "predicted": "rescuer",
+          "reference": "chapter_28",
+          "cosine": 0.7229199409484863,
+          "margin": 0.30353182554244995
+        },
+        {
+          "id": "third_rescuer_1",
+          "expected": "rescuer",
+          "predicted": "rescuer",
+          "reference": "development_rescuer_0",
+          "cosine": 0.3516291081905365,
+          "margin": 0.029876917600631714
+        },
+        {
+          "id": "third_fish_father_0",
+          "expected": "fish_father",
+          "predicted": "fish_father",
+          "reference": "chapter_35",
+          "cosine": 0.4463513493537903,
+          "margin": 0.014716416597366333
+        },
+        {
+          "id": "third_fish_father_1",
+          "expected": "fish_father",
+          "predicted": "fish_father",
+          "reference": "newdev_fish_father_0",
+          "cosine": 0.3222217559814453,
+          "margin": 0.0050792694091796875
+        },
+        {
+          "id": "third_control_00",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_04",
+          "cosine": 0.3808780610561371,
+          "margin": 0.012213259935379028
+        },
+        {
+          "id": "third_control_01",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_06",
+          "cosine": 0.4592497646808624,
+          "margin": 0.03514125943183899
+        },
+        {
+          "id": "third_control_02",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_08",
+          "cosine": 0.304552286863327,
+          "margin": 0.0036178529262542725
+        },
+        {
+          "id": "third_control_03",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_06",
+          "cosine": 0.49332886934280396,
+          "margin": 0.08895668387413025
+        },
+        {
+          "id": "third_control_04",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_09",
+          "cosine": 0.7477961778640747,
+          "margin": 0.3521425724029541
+        },
+        {
+          "id": "third_control_05",
+          "expected": "outside",
+          "predicted": "rescuer",
+          "reference": "development_rescuer_0",
+          "cosine": 0.3473323881626129,
+          "margin": 0.005148440599441528
+        },
+        {
+          "id": "third_control_06",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_04",
+          "cosine": 0.3233368396759033,
+          "margin": 0.021273940801620483
+        },
+        {
+          "id": "third_control_07",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_09",
+          "cosine": 0.4590223431587219,
+          "margin": 0.06406056880950928
+        },
+        {
+          "id": "third_control_08",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_08",
+          "cosine": 0.38102492690086365,
+          "margin": 0.008161067962646484
+        },
+        {
+          "id": "third_control_09",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_00",
+          "cosine": 0.3201231062412262,
+          "margin": 0.04398137331008911
+        },
+        {
+          "id": "third_control_10",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_09",
+          "cosine": 0.3815694749355316,
+          "margin": 0.1054205596446991
+        },
+        {
+          "id": "third_control_11",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_06",
+          "cosine": 0.4868934750556946,
+          "margin": 0.1304124891757965
+        },
+        {
+          "id": "third_control_12",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "core_author_0",
+          "cosine": 1.0,
+          "margin": 0.632035493850708
+        },
+        {
+          "id": "third_control_13",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_09",
+          "cosine": 0.49012327194213867,
+          "margin": 0.08271762728691101
+        },
+        {
+          "id": "third_control_14",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_11",
+          "cosine": 0.45822590589523315,
+          "margin": 0.037518858909606934
+        },
+        {
+          "id": "third_control_15",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_11",
+          "cosine": 0.5759830474853516,
+          "margin": 0.1682242453098297
+        },
+        {
+          "id": "third_control_16",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_11",
+          "cosine": 0.5979140996932983,
+          "margin": 0.2705359160900116
+        },
+        {
+          "id": "third_control_17",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_11",
+          "cosine": 0.7321932911872864,
+          "margin": 0.34830451011657715
+        },
+        {
+          "id": "third_control_18",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_01",
+          "cosine": 0.3004355728626251,
+          "margin": 0.027617335319519043
+        },
+        {
+          "id": "third_control_19",
+          "expected": "outside",
+          "predicted": "wood_donor",
+          "reference": "newdev_wood_donor_0",
+          "cosine": 0.4052416682243347,
+          "margin": 0.015719294548034668
+        }
+      ]
+    },
+    {
+      "feature": "prefix_values_23",
+      "method": "class_mean",
+      "target_correct": 18,
+      "outside_correct": 16,
+      "target_total": 24,
+      "outside_total": 20,
+      "predictions": [
+        {
+          "id": "third_creator_0",
+          "expected": "creator",
+          "predicted": "deceivers",
+          "reference": "deceivers",
+          "cosine": 0.24094875156879425,
+          "margin": 0.07812012732028961
+        },
+        {
+          "id": "third_creator_1",
+          "expected": "creator",
+          "predicted": "creator",
+          "reference": "creator",
+          "cosine": 0.18348251283168793,
+          "margin": 0.00933772325515747
+        },
+        {
+          "id": "third_material_0",
+          "expected": "material",
+          "predicted": "material",
+          "reference": "material",
+          "cosine": 0.5502432584762573,
+          "margin": 0.34929153323173523
+        },
+        {
+          "id": "third_material_1",
+          "expected": "material",
+          "predicted": "wood_donor",
+          "reference": "wood_donor",
+          "cosine": 0.4705299437046051,
+          "margin": 0.24803704023361206
+        },
+        {
+          "id": "third_nose_0",
+          "expected": "nose",
+          "predicted": "nose",
+          "reference": "nose",
+          "cosine": 0.5515404939651489,
+          "margin": 0.3427674174308777
+        },
+        {
+          "id": "third_nose_1",
+          "expected": "nose",
+          "predicted": "nose",
+          "reference": "nose",
+          "cosine": 0.31707045435905457,
+          "margin": 0.10650762915611267
+        },
+        {
+          "id": "third_fairy_0",
+          "expected": "fairy",
+          "predicted": "fairy",
+          "reference": "fairy",
+          "cosine": 0.6166062951087952,
+          "margin": 0.36018261313438416
+        },
+        {
+          "id": "third_fairy_1",
+          "expected": "fairy",
+          "predicted": "fairy",
+          "reference": "fairy",
+          "cosine": 0.3176688849925995,
+          "margin": 0.10578975081443787
+        },
+        {
+          "id": "third_deceivers_0",
+          "expected": "deceivers",
+          "predicted": "donkey",
+          "reference": "donkey",
+          "cosine": 0.2861887812614441,
+          "margin": 0.05544741451740265
+        },
+        {
+          "id": "third_deceivers_1",
+          "expected": "deceivers",
+          "predicted": "deceivers",
+          "reference": "deceivers",
+          "cosine": 0.4920765459537506,
+          "margin": 0.34776771068573
+        },
+        {
+          "id": "third_donkey_0",
+          "expected": "donkey",
+          "predicted": "donkey",
+          "reference": "donkey",
+          "cosine": 0.5124193429946899,
+          "margin": 0.19758391380310059
+        },
+        {
+          "id": "third_donkey_1",
+          "expected": "donkey",
+          "predicted": "donkey",
+          "reference": "donkey",
+          "cosine": 0.5304886102676392,
+          "margin": 0.22878512740135193
+        },
+        {
+          "id": "third_ending_0",
+          "expected": "ending",
+          "predicted": "ending",
+          "reference": "ending",
+          "cosine": 0.48731958866119385,
+          "margin": 0.2954728603363037
+        },
+        {
+          "id": "third_ending_1",
+          "expected": "ending",
+          "predicted": "material",
+          "reference": "material",
+          "cosine": 0.3595479130744934,
+          "margin": 0.02748093008995056
+        },
+        {
+          "id": "third_puppeteer_0",
+          "expected": "puppeteer",
+          "predicted": "puppeteer",
+          "reference": "puppeteer",
+          "cosine": 0.6526411771774292,
+          "margin": 0.2744068205356598
+        },
+        {
+          "id": "third_puppeteer_1",
+          "expected": "puppeteer",
+          "predicted": "nose",
+          "reference": "nose",
+          "cosine": 0.28077757358551025,
+          "margin": 0.1007704883813858
+        },
+        {
+          "id": "third_friend_0",
+          "expected": "friend",
+          "predicted": "friend",
+          "reference": "friend",
+          "cosine": 0.7232795357704163,
+          "margin": 0.450717568397522
+        },
+        {
+          "id": "third_friend_1",
+          "expected": "friend",
+          "predicted": "friend",
+          "reference": "friend",
+          "cosine": 0.37995612621307373,
+          "margin": 0.18396486341953278
+        },
+        {
+          "id": "third_wood_donor_0",
+          "expected": "wood_donor",
+          "predicted": "wood_donor",
+          "reference": "wood_donor",
+          "cosine": 0.4192160367965698,
+          "margin": 0.2653462886810303
+        },
+        {
+          "id": "third_wood_donor_1",
+          "expected": "wood_donor",
+          "predicted": "wood_donor",
+          "reference": "wood_donor",
+          "cosine": 0.45504030585289,
+          "margin": 0.3327675759792328
+        },
+        {
+          "id": "third_rescuer_0",
+          "expected": "rescuer",
+          "predicted": "rescuer",
+          "reference": "rescuer",
+          "cosine": 0.4346122145652771,
+          "margin": 0.22614966332912445
+        },
+        {
+          "id": "third_rescuer_1",
+          "expected": "rescuer",
+          "predicted": "donkey",
+          "reference": "donkey",
+          "cosine": 0.16537517309188843,
+          "margin": 0.06536518037319183
+        },
+        {
+          "id": "third_fish_father_0",
+          "expected": "fish_father",
+          "predicted": "fish_father",
+          "reference": "fish_father",
+          "cosine": 0.7072945237159729,
+          "margin": 0.425061970949173
+        },
+        {
+          "id": "third_fish_father_1",
+          "expected": "fish_father",
+          "predicted": "fish_father",
+          "reference": "fish_father",
+          "cosine": 0.3538438677787781,
+          "margin": 0.1914762705564499
+        },
+        {
+          "id": "third_control_00",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.5826417803764343,
+          "margin": 0.4532126188278198
+        },
+        {
+          "id": "third_control_01",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.45252200961112976,
+          "margin": 0.08494153618812561
+        },
+        {
+          "id": "third_control_02",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.31546083092689514,
+          "margin": 0.10501991212368011
+        },
+        {
+          "id": "third_control_03",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.579701840877533,
+          "margin": 0.3471033573150635
+        },
+        {
+          "id": "third_control_04",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.5041370987892151,
+          "margin": 0.4130404591560364
+        },
+        {
+          "id": "third_control_05",
+          "expected": "outside",
+          "predicted": "fish_father",
+          "reference": "fish_father",
+          "cosine": 0.27343571186065674,
+          "margin": 0.12978138029575348
+        },
+        {
+          "id": "third_control_06",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.4974645972251892,
+          "margin": 0.43043550848960876
+        },
+        {
+          "id": "third_control_07",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.3915550708770752,
+          "margin": 0.2516143023967743
+        },
+        {
+          "id": "third_control_08",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.2591467499732971,
+          "margin": 0.004780858755111694
+        },
+        {
+          "id": "third_control_09",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.4133336842060089,
+          "margin": 0.20166701078414917
+        },
+        {
+          "id": "third_control_10",
+          "expected": "outside",
+          "predicted": "nose",
+          "reference": "nose",
+          "cosine": 0.3247182071208954,
+          "margin": 0.13131000101566315
+        },
+        {
+          "id": "third_control_11",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.3911023736000061,
+          "margin": 0.3159961402416229
+        },
+        {
+          "id": "third_control_12",
+          "expected": "outside",
+          "predicted": "donkey",
+          "reference": "donkey",
+          "cosine": 0.17559485137462616,
+          "margin": 0.026682063937187195
+        },
+        {
+          "id": "third_control_13",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.5966435074806213,
+          "margin": 0.5139634013175964
+        },
+        {
+          "id": "third_control_14",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.5281525254249573,
+          "margin": 0.4923950135707855
+        },
+        {
+          "id": "third_control_15",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.5945746898651123,
+          "margin": 0.4681309759616852
+        },
+        {
+          "id": "third_control_16",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.690852701663971,
+          "margin": 0.5261415839195251
+        },
+        {
+          "id": "third_control_17",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.7489326000213623,
+          "margin": 0.6137816905975342
+        },
+        {
+          "id": "third_control_18",
+          "expected": "outside",
+          "predicted": "rescuer",
+          "reference": "rescuer",
+          "cosine": 0.25814688205718994,
+          "margin": 0.012748539447784424
+        },
+        {
+          "id": "third_control_19",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.4398643970489502,
+          "margin": 0.19621635973453522
+        }
+      ]
+    },
+    {
+      "feature": "prefix_values_23",
+      "method": "nearest_example",
+      "target_correct": 17,
+      "outside_correct": 17,
+      "target_total": 24,
+      "outside_total": 20,
+      "predictions": [
+        {
+          "id": "third_creator_0",
+          "expected": "creator",
+          "predicted": "wood_donor",
+          "reference": "chapter_02",
+          "cosine": 0.3357330858707428,
+          "margin": 0.01859372854232788
+        },
+        {
+          "id": "third_creator_1",
+          "expected": "creator",
+          "predicted": "wood_donor",
+          "reference": "development_wood_giver_role",
+          "cosine": 0.34639257192611694,
+          "margin": 0.047471970319747925
+        },
+        {
+          "id": "third_material_0",
+          "expected": "material",
+          "predicted": "material",
+          "reference": "core_material_1",
+          "cosine": 0.6032951474189758,
+          "margin": 0.15967634320259094
+        },
+        {
+          "id": "third_material_1",
+          "expected": "material",
+          "predicted": "wood_donor",
+          "reference": "chapter_02",
+          "cosine": 0.49399933218955994,
+          "margin": 0.03099551796913147
+        },
+        {
+          "id": "third_nose_0",
+          "expected": "nose",
+          "predicted": "nose",
+          "reference": "newdev_nose_0",
+          "cosine": 0.8000081777572632,
+          "margin": 0.5842603445053101
+        },
+        {
+          "id": "third_nose_1",
+          "expected": "nose",
+          "predicted": "nose",
+          "reference": "core_nose_0",
+          "cosine": 0.3597598671913147,
+          "margin": 0.05669054388999939
+        },
+        {
+          "id": "third_fairy_0",
+          "expected": "fairy",
+          "predicted": "fairy",
+          "reference": "newdev_fairy_1",
+          "cosine": 0.7144269347190857,
+          "margin": 0.22147774696350098
+        },
+        {
+          "id": "third_fairy_1",
+          "expected": "fairy",
+          "predicted": "fairy",
+          "reference": "newdev_fairy_1",
+          "cosine": 0.37711769342422485,
+          "margin": 0.0764542818069458
+        },
+        {
+          "id": "third_deceivers_0",
+          "expected": "deceivers",
+          "predicted": "donkey",
+          "reference": "core_donkey_1",
+          "cosine": 0.3439868688583374,
+          "margin": 0.03731262683868408
+        },
+        {
+          "id": "third_deceivers_1",
+          "expected": "deceivers",
+          "predicted": "deceivers",
+          "reference": "newdev_deceivers_0",
+          "cosine": 0.4105437099933624,
+          "margin": 0.007705807685852051
+        },
+        {
+          "id": "third_donkey_0",
+          "expected": "donkey",
+          "predicted": "donkey",
+          "reference": "core_donkey_0",
+          "cosine": 0.7076942324638367,
+          "margin": 0.2840338349342346
+        },
+        {
+          "id": "third_donkey_1",
+          "expected": "donkey",
+          "predicted": "donkey",
+          "reference": "newdev_donkey_1",
+          "cosine": 0.6908366084098816,
+          "margin": 0.15537267923355103
+        },
+        {
+          "id": "third_ending_0",
+          "expected": "ending",
+          "predicted": "ending",
+          "reference": "newdev_ending_0",
+          "cosine": 0.3967694640159607,
+          "margin": 0.022464096546173096
+        },
+        {
+          "id": "third_ending_1",
+          "expected": "ending",
+          "predicted": "outside",
+          "reference": "control_05",
+          "cosine": 0.348807692527771,
+          "margin": 0.023500680923461914
+        },
+        {
+          "id": "third_puppeteer_0",
+          "expected": "puppeteer",
+          "predicted": "puppeteer",
+          "reference": "chapter_10",
+          "cosine": 0.6210944056510925,
+          "margin": 0.05133867263793945
+        },
+        {
+          "id": "third_puppeteer_1",
+          "expected": "puppeteer",
+          "predicted": "fairy",
+          "reference": "newdev_fairy_1",
+          "cosine": 0.4005909860134125,
+          "margin": 0.010971397161483765
+        },
+        {
+          "id": "third_friend_0",
+          "expected": "friend",
+          "predicted": "friend",
+          "reference": "chapter_30",
+          "cosine": 0.7359485030174255,
+          "margin": 0.14068371057510376
+        },
+        {
+          "id": "third_friend_1",
+          "expected": "friend",
+          "predicted": "friend",
+          "reference": "newdev_friend_1",
+          "cosine": 0.4458717107772827,
+          "margin": 0.02683088183403015
+        },
+        {
+          "id": "third_wood_donor_0",
+          "expected": "wood_donor",
+          "predicted": "wood_donor",
+          "reference": "newdev_wood_donor_1",
+          "cosine": 0.6256109476089478,
+          "margin": 0.20249482989311218
+        },
+        {
+          "id": "third_wood_donor_1",
+          "expected": "wood_donor",
+          "predicted": "wood_donor",
+          "reference": "newdev_wood_donor_0",
+          "cosine": 0.38729435205459595,
+          "margin": 0.0059853196144104
+        },
+        {
+          "id": "third_rescuer_0",
+          "expected": "rescuer",
+          "predicted": "rescuer",
+          "reference": "chapter_28",
+          "cosine": 0.7455222010612488,
+          "margin": 0.4680955410003662
+        },
+        {
+          "id": "third_rescuer_1",
+          "expected": "rescuer",
+          "predicted": "donkey",
+          "reference": "newdev_donkey_0",
+          "cosine": 0.18813084065914154,
+          "margin": 0.05157816410064697
+        },
+        {
+          "id": "third_fish_father_0",
+          "expected": "fish_father",
+          "predicted": "fish_father",
+          "reference": "chapter_35",
+          "cosine": 0.6176550984382629,
+          "margin": 0.04605460166931152
+        },
+        {
+          "id": "third_fish_father_1",
+          "expected": "fish_father",
+          "predicted": "fish_father",
+          "reference": "chapter_35",
+          "cosine": 0.38643527030944824,
+          "margin": 0.07108014822006226
+        },
+        {
+          "id": "third_control_00",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_05",
+          "cosine": 0.5422825217247009,
+          "margin": 0.03214097023010254
+        },
+        {
+          "id": "third_control_01",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_05",
+          "cosine": 0.4303533434867859,
+          "margin": 0.05456632375717163
+        },
+        {
+          "id": "third_control_02",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_08",
+          "cosine": 0.33633139729499817,
+          "margin": 0.0069821178913116455
+        },
+        {
+          "id": "third_control_03",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_06",
+          "cosine": 0.5060950517654419,
+          "margin": 0.03760233521461487
+        },
+        {
+          "id": "third_control_04",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_09",
+          "cosine": 0.8010737895965576,
+          "margin": 0.27344971895217896
+        },
+        {
+          "id": "third_control_05",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_04",
+          "cosine": 0.3951873183250427,
+          "margin": 0.09676721692085266
+        },
+        {
+          "id": "third_control_06",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_04",
+          "cosine": 0.43291327357292175,
+          "margin": 0.010441333055496216
+        },
+        {
+          "id": "third_control_07",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_09",
+          "cosine": 0.42533040046691895,
+          "margin": 0.0076736509799957275
+        },
+        {
+          "id": "third_control_08",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_00",
+          "cosine": 0.3870866894721985,
+          "margin": 0.0157659649848938
+        },
+        {
+          "id": "third_control_09",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_01",
+          "cosine": 0.40612637996673584,
+          "margin": 0.046191126108169556
+        },
+        {
+          "id": "third_control_10",
+          "expected": "outside",
+          "predicted": "nose",
+          "reference": "newdev_nose_0",
+          "cosine": 0.41107285022735596,
+          "margin": 0.09014788269996643
+        },
+        {
+          "id": "third_control_11",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_06",
+          "cosine": 0.534361720085144,
+          "margin": 0.07363784313201904
+        },
+        {
+          "id": "third_control_12",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "core_author_0",
+          "cosine": 1.0,
+          "margin": 0.5749538540840149
+        },
+        {
+          "id": "third_control_13",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_06",
+          "cosine": 0.4663197696208954,
+          "margin": 0.012876033782958984
+        },
+        {
+          "id": "third_control_14",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_11",
+          "cosine": 0.5023053884506226,
+          "margin": 0.06014290452003479
+        },
+        {
+          "id": "third_control_15",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_11",
+          "cosine": 0.5990818738937378,
+          "margin": 0.0704156756401062
+        },
+        {
+          "id": "third_control_16",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_11",
+          "cosine": 0.6331197619438171,
+          "margin": 0.050741493701934814
+        },
+        {
+          "id": "third_control_17",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_11",
+          "cosine": 0.7585922479629517,
+          "margin": 0.14339607954025269
+        },
+        {
+          "id": "third_control_18",
+          "expected": "outside",
+          "predicted": "rescuer",
+          "reference": "newdev_rescuer_0",
+          "cosine": 0.3489680886268616,
+          "margin": 0.11077335476875305
+        },
+        {
+          "id": "third_control_19",
+          "expected": "outside",
+          "predicted": "wood_donor",
+          "reference": "newdev_wood_donor_0",
+          "cosine": 0.5011700987815857,
+          "margin": 0.003475010395050049
+        }
+      ]
+    },
+    {
+      "feature": "last_mlp_input",
+      "method": "class_mean",
+      "target_correct": 12,
+      "outside_correct": 12,
+      "target_total": 24,
+      "outside_total": 20,
+      "predictions": [
+        {
+          "id": "third_creator_0",
+          "expected": "creator",
+          "predicted": "rescuer",
+          "reference": "rescuer",
+          "cosine": 0.4450240135192871,
+          "margin": 0.1560719609260559
+        },
+        {
+          "id": "third_creator_1",
+          "expected": "creator",
+          "predicted": "creator",
+          "reference": "creator",
+          "cosine": 0.25734609365463257,
+          "margin": 0.005251884460449219
+        },
+        {
+          "id": "third_material_0",
+          "expected": "material",
+          "predicted": "ending",
+          "reference": "ending",
+          "cosine": 0.31437021493911743,
+          "margin": 0.01075822114944458
+        },
+        {
+          "id": "third_material_1",
+          "expected": "material",
+          "predicted": "wood_donor",
+          "reference": "wood_donor",
+          "cosine": 0.6123502254486084,
+          "margin": 0.4601480960845947
+        },
+        {
+          "id": "third_nose_0",
+          "expected": "nose",
+          "predicted": "nose",
+          "reference": "nose",
+          "cosine": 0.4134595990180969,
+          "margin": 0.2546292543411255
+        },
+        {
+          "id": "third_nose_1",
+          "expected": "nose",
+          "predicted": "nose",
+          "reference": "nose",
+          "cosine": 0.4668089747428894,
+          "margin": 0.15824580192565918
+        },
+        {
+          "id": "third_fairy_0",
+          "expected": "fairy",
+          "predicted": "fairy",
+          "reference": "fairy",
+          "cosine": 0.6260514855384827,
+          "margin": 0.4652368426322937
+        },
+        {
+          "id": "third_fairy_1",
+          "expected": "fairy",
+          "predicted": "fairy",
+          "reference": "fairy",
+          "cosine": 0.5613628625869751,
+          "margin": 0.4799683690071106
+        },
+        {
+          "id": "third_deceivers_0",
+          "expected": "deceivers",
+          "predicted": "deceivers",
+          "reference": "deceivers",
+          "cosine": 0.7764486074447632,
+          "margin": 0.6354814767837524
+        },
+        {
+          "id": "third_deceivers_1",
+          "expected": "deceivers",
+          "predicted": "rescuer",
+          "reference": "rescuer",
+          "cosine": 0.3356761038303375,
+          "margin": 0.088480144739151
+        },
+        {
+          "id": "third_donkey_0",
+          "expected": "donkey",
+          "predicted": "donkey",
+          "reference": "donkey",
+          "cosine": 0.3440679609775543,
+          "margin": 0.0028113126754760742
+        },
+        {
+          "id": "third_donkey_1",
+          "expected": "donkey",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.47115519642829895,
+          "margin": 0.23925602436065674
+        },
+        {
+          "id": "third_ending_0",
+          "expected": "ending",
+          "predicted": "ending",
+          "reference": "ending",
+          "cosine": 0.3183774948120117,
+          "margin": 0.04909738898277283
+        },
+        {
+          "id": "third_ending_1",
+          "expected": "ending",
+          "predicted": "ending",
+          "reference": "ending",
+          "cosine": 0.3466408848762512,
+          "margin": 0.03969156742095947
+        },
+        {
+          "id": "third_puppeteer_0",
+          "expected": "puppeteer",
+          "predicted": "puppeteer",
+          "reference": "puppeteer",
+          "cosine": 0.6536485552787781,
+          "margin": 0.1076764464378357
+        },
+        {
+          "id": "third_puppeteer_1",
+          "expected": "puppeteer",
+          "predicted": "creator",
+          "reference": "creator",
+          "cosine": 0.4891001582145691,
+          "margin": 0.021547019481658936
+        },
+        {
+          "id": "third_friend_0",
+          "expected": "friend",
+          "predicted": "nose",
+          "reference": "nose",
+          "cosine": 0.4234950542449951,
+          "margin": 0.04699629545211792
+        },
+        {
+          "id": "third_friend_1",
+          "expected": "friend",
+          "predicted": "creator",
+          "reference": "creator",
+          "cosine": 0.4960557818412781,
+          "margin": 0.20637279748916626
+        },
+        {
+          "id": "third_wood_donor_0",
+          "expected": "wood_donor",
+          "predicted": "wood_donor",
+          "reference": "wood_donor",
+          "cosine": 0.4449508786201477,
+          "margin": 0.2508690655231476
+        },
+        {
+          "id": "third_wood_donor_1",
+          "expected": "wood_donor",
+          "predicted": "wood_donor",
+          "reference": "wood_donor",
+          "cosine": 0.5933948159217834,
+          "margin": 0.32978227734565735
+        },
+        {
+          "id": "third_rescuer_0",
+          "expected": "rescuer",
+          "predicted": "fish_father",
+          "reference": "fish_father",
+          "cosine": 0.4735707938671112,
+          "margin": 0.07142877578735352
+        },
+        {
+          "id": "third_rescuer_1",
+          "expected": "rescuer",
+          "predicted": "creator",
+          "reference": "creator",
+          "cosine": 0.5912277698516846,
+          "margin": 0.19487833976745605
+        },
+        {
+          "id": "third_fish_father_0",
+          "expected": "fish_father",
+          "predicted": "nose",
+          "reference": "nose",
+          "cosine": 0.5613490343093872,
+          "margin": 0.0345149040222168
+        },
+        {
+          "id": "third_fish_father_1",
+          "expected": "fish_father",
+          "predicted": "creator",
+          "reference": "creator",
+          "cosine": 0.24940429627895355,
+          "margin": 0.08565868437290192
+        },
+        {
+          "id": "third_control_00",
+          "expected": "outside",
+          "predicted": "fairy",
+          "reference": "fairy",
+          "cosine": 0.44565343856811523,
+          "margin": 0.15184476971626282
+        },
+        {
+          "id": "third_control_01",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.5318783521652222,
+          "margin": 0.3730272054672241
+        },
+        {
+          "id": "third_control_02",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.4613422751426697,
+          "margin": 0.22193634510040283
+        },
+        {
+          "id": "third_control_03",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.36735519766807556,
+          "margin": 0.16410017013549805
+        },
+        {
+          "id": "third_control_04",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.43054068088531494,
+          "margin": 0.36166030168533325
+        },
+        {
+          "id": "third_control_05",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.4286336600780487,
+          "margin": 0.3167458772659302
+        },
+        {
+          "id": "third_control_06",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.41530293226242065,
+          "margin": 0.2472471296787262
+        },
+        {
+          "id": "third_control_07",
+          "expected": "outside",
+          "predicted": "fairy",
+          "reference": "fairy",
+          "cosine": 0.3217792212963104,
+          "margin": 0.1380392611026764
+        },
+        {
+          "id": "third_control_08",
+          "expected": "outside",
+          "predicted": "fairy",
+          "reference": "fairy",
+          "cosine": 0.23966272175312042,
+          "margin": 0.05658021569252014
+        },
+        {
+          "id": "third_control_09",
+          "expected": "outside",
+          "predicted": "nose",
+          "reference": "nose",
+          "cosine": 0.3370495140552521,
+          "margin": 0.09459449350833893
+        },
+        {
+          "id": "third_control_10",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.21611207723617554,
+          "margin": 0.0417800098657608
+        },
+        {
+          "id": "third_control_11",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.38224178552627563,
+          "margin": 0.21911990642547607
+        },
+        {
+          "id": "third_control_12",
+          "expected": "outside",
+          "predicted": "puppeteer",
+          "reference": "puppeteer",
+          "cosine": 0.20977871119976044,
+          "margin": 0.03834103047847748
+        },
+        {
+          "id": "third_control_13",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.27551165223121643,
+          "margin": 0.07243427634239197
+        },
+        {
+          "id": "third_control_14",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.3838992714881897,
+          "margin": 0.3722352385520935
+        },
+        {
+          "id": "third_control_15",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.5512065291404724,
+          "margin": 0.5576403737068176
+        },
+        {
+          "id": "third_control_16",
+          "expected": "outside",
+          "predicted": "nose",
+          "reference": "nose",
+          "cosine": 0.27916765213012695,
+          "margin": 0.07984232902526855
+        },
+        {
+          "id": "third_control_17",
+          "expected": "outside",
+          "predicted": "fairy",
+          "reference": "fairy",
+          "cosine": 0.2535964846611023,
+          "margin": 0.004139512777328491
+        },
+        {
+          "id": "third_control_18",
+          "expected": "outside",
+          "predicted": "fairy",
+          "reference": "fairy",
+          "cosine": 0.40521860122680664,
+          "margin": 0.07228192687034607
+        },
+        {
+          "id": "third_control_19",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.5781800746917725,
+          "margin": 0.3989799916744232
+        }
+      ]
+    },
+    {
+      "feature": "last_mlp_input",
+      "method": "nearest_example",
+      "target_correct": 10,
+      "outside_correct": 15,
+      "target_total": 24,
+      "outside_total": 20,
+      "predictions": [
+        {
+          "id": "third_creator_0",
+          "expected": "creator",
+          "predicted": "rescuer",
+          "reference": "newdev_rescuer_1",
+          "cosine": 0.6910622715950012,
+          "margin": 0.14953428506851196
+        },
+        {
+          "id": "third_creator_1",
+          "expected": "creator",
+          "predicted": "outside",
+          "reference": "control_10",
+          "cosine": 0.4041028618812561,
+          "margin": 0.07223701477050781
+        },
+        {
+          "id": "third_material_0",
+          "expected": "material",
+          "predicted": "ending",
+          "reference": "newdev_ending_1",
+          "cosine": 0.7269957065582275,
+          "margin": 0.310746431350708
+        },
+        {
+          "id": "third_material_1",
+          "expected": "material",
+          "predicted": "wood_donor",
+          "reference": "newdev_wood_donor_1",
+          "cosine": 0.5368787050247192,
+          "margin": 0.037973642349243164
+        },
+        {
+          "id": "third_nose_0",
+          "expected": "nose",
+          "predicted": "nose",
+          "reference": "newdev_nose_0",
+          "cosine": 0.7786588072776794,
+          "margin": 0.4866600036621094
+        },
+        {
+          "id": "third_nose_1",
+          "expected": "nose",
+          "predicted": "fairy",
+          "reference": "newdev_fairy_1",
+          "cosine": 0.44798192381858826,
+          "margin": 0.03311905264854431
+        },
+        {
+          "id": "third_fairy_0",
+          "expected": "fairy",
+          "predicted": "fairy",
+          "reference": "newdev_fairy_1",
+          "cosine": 0.8130887746810913,
+          "margin": 0.29880279302597046
+        },
+        {
+          "id": "third_fairy_1",
+          "expected": "fairy",
+          "predicted": "fairy",
+          "reference": "core_fairy_0",
+          "cosine": 0.5408077239990234,
+          "margin": 0.008897900581359863
+        },
+        {
+          "id": "third_deceivers_0",
+          "expected": "deceivers",
+          "predicted": "deceivers",
+          "reference": "core_deceivers_0",
+          "cosine": 0.8226695656776428,
+          "margin": 0.25056201219558716
+        },
+        {
+          "id": "third_deceivers_1",
+          "expected": "deceivers",
+          "predicted": "rescuer",
+          "reference": "newdev_rescuer_1",
+          "cosine": 0.6249673962593079,
+          "margin": 0.24274012446403503
+        },
+        {
+          "id": "third_donkey_0",
+          "expected": "donkey",
+          "predicted": "ending",
+          "reference": "newdev_ending_1",
+          "cosine": 0.5272578001022339,
+          "margin": 0.028753161430358887
+        },
+        {
+          "id": "third_donkey_1",
+          "expected": "donkey",
+          "predicted": "outside",
+          "reference": "control_05",
+          "cosine": 0.7566118240356445,
+          "margin": 0.08032172918319702
+        },
+        {
+          "id": "third_ending_0",
+          "expected": "ending",
+          "predicted": "ending",
+          "reference": "newdev_ending_0",
+          "cosine": 0.4509061574935913,
+          "margin": 0.026744186878204346
+        },
+        {
+          "id": "third_ending_1",
+          "expected": "ending",
+          "predicted": "nose",
+          "reference": "core_nose_0",
+          "cosine": 0.36590200662612915,
+          "margin": 0.0003959536552429199
+        },
+        {
+          "id": "third_puppeteer_0",
+          "expected": "puppeteer",
+          "predicted": "puppeteer",
+          "reference": "chapter_10",
+          "cosine": 0.7068266272544861,
+          "margin": 0.16087615489959717
+        },
+        {
+          "id": "third_puppeteer_1",
+          "expected": "puppeteer",
+          "predicted": "rescuer",
+          "reference": "newdev_rescuer_1",
+          "cosine": 0.58786541223526,
+          "margin": 0.04797673225402832
+        },
+        {
+          "id": "third_friend_0",
+          "expected": "friend",
+          "predicted": "ending",
+          "reference": "newdev_ending_1",
+          "cosine": 0.590659499168396,
+          "margin": 0.10073122382164001
+        },
+        {
+          "id": "third_friend_1",
+          "expected": "friend",
+          "predicted": "rescuer",
+          "reference": "development_rescuer_0",
+          "cosine": 0.7173004150390625,
+          "margin": 0.030563712120056152
+        },
+        {
+          "id": "third_wood_donor_0",
+          "expected": "wood_donor",
+          "predicted": "wood_donor",
+          "reference": "newdev_wood_donor_1",
+          "cosine": 0.5951866507530212,
+          "margin": 0.06508582830429077
+        },
+        {
+          "id": "third_wood_donor_1",
+          "expected": "wood_donor",
+          "predicted": "wood_donor",
+          "reference": "newdev_wood_donor_0",
+          "cosine": 0.6395053863525391,
+          "margin": 0.16340553760528564
+        },
+        {
+          "id": "third_rescuer_0",
+          "expected": "rescuer",
+          "predicted": "rescuer",
+          "reference": "chapter_28",
+          "cosine": 0.6791499257087708,
+          "margin": 0.027805030345916748
+        },
+        {
+          "id": "third_rescuer_1",
+          "expected": "rescuer",
+          "predicted": "rescuer",
+          "reference": "development_rescuer_0",
+          "cosine": 0.8788618445396423,
+          "margin": 0.25308406352996826
+        },
+        {
+          "id": "third_fish_father_0",
+          "expected": "fish_father",
+          "predicted": "friend",
+          "reference": "development_friend_0",
+          "cosine": 0.6687248349189758,
+          "margin": 0.07510048151016235
+        },
+        {
+          "id": "third_fish_father_1",
+          "expected": "fish_father",
+          "predicted": "creator",
+          "reference": "newdev_creator_1",
+          "cosine": 0.38344597816467285,
+          "margin": 0.016459167003631592
+        },
+        {
+          "id": "third_control_00",
+          "expected": "outside",
+          "predicted": "fairy",
+          "reference": "newdev_fairy_0",
+          "cosine": 0.45545512437820435,
+          "margin": 0.08246999979019165
+        },
+        {
+          "id": "third_control_01",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_06",
+          "cosine": 0.6085420846939087,
+          "margin": 0.006775915622711182
+        },
+        {
+          "id": "third_control_02",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_05",
+          "cosine": 0.6501527428627014,
+          "margin": 0.0412026047706604
+        },
+        {
+          "id": "third_control_03",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_08",
+          "cosine": 0.4791100323200226,
+          "margin": 0.05440831184387207
+        },
+        {
+          "id": "third_control_04",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_09",
+          "cosine": 0.6019296646118164,
+          "margin": 0.08766055107116699
+        },
+        {
+          "id": "third_control_05",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_02",
+          "cosine": 0.5497933626174927,
+          "margin": 0.14184868335723877
+        },
+        {
+          "id": "third_control_06",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_04",
+          "cosine": 0.5801501274108887,
+          "margin": 0.0156518816947937
+        },
+        {
+          "id": "third_control_07",
+          "expected": "outside",
+          "predicted": "fairy",
+          "reference": "core_fairy_1",
+          "cosine": 0.3613171875476837,
+          "margin": 0.08659413456916809
+        },
+        {
+          "id": "third_control_08",
+          "expected": "outside",
+          "predicted": "nose",
+          "reference": "newdev_nose_0",
+          "cosine": 0.3660711348056793,
+          "margin": 0.04914554953575134
+        },
+        {
+          "id": "third_control_09",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_03",
+          "cosine": 0.3915382921695709,
+          "margin": 0.029681116342544556
+        },
+        {
+          "id": "third_control_10",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_04",
+          "cosine": 0.25585711002349854,
+          "margin": 0.010558128356933594
+        },
+        {
+          "id": "third_control_11",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_09",
+          "cosine": 0.5411272048950195,
+          "margin": 0.06083303689956665
+        },
+        {
+          "id": "third_control_12",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "core_author_0",
+          "cosine": 0.9999998807907104,
+          "margin": 0.43871885538101196
+        },
+        {
+          "id": "third_control_13",
+          "expected": "outside",
+          "predicted": "ending",
+          "reference": "newdev_ending_1",
+          "cosine": 0.4740970730781555,
+          "margin": 0.06596806645393372
+        },
+        {
+          "id": "third_control_14",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_10",
+          "cosine": 0.3994976282119751,
+          "margin": 0.15015479922294617
+        },
+        {
+          "id": "third_control_15",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_06",
+          "cosine": 0.4552987515926361,
+          "margin": 0.05939343571662903
+        },
+        {
+          "id": "third_control_16",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_11",
+          "cosine": 0.4882023334503174,
+          "margin": 0.16275465488433838
+        },
+        {
+          "id": "third_control_17",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_11",
+          "cosine": 0.619121789932251,
+          "margin": 0.32957905530929565
+        },
+        {
+          "id": "third_control_18",
+          "expected": "outside",
+          "predicted": "fairy",
+          "reference": "core_fairy_1",
+          "cosine": 0.44992029666900635,
+          "margin": 0.126941978931427
+        },
+        {
+          "id": "third_control_19",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_09",
+          "cosine": 0.5513284206390381,
+          "margin": 0.01962268352508545
+        }
+      ]
+    },
+    {
+      "feature": "last_mlp_features",
+      "method": "class_mean",
+      "target_correct": 8,
+      "outside_correct": 12,
+      "target_total": 24,
+      "outside_total": 20,
+      "predictions": [
+        {
+          "id": "third_creator_0",
+          "expected": "creator",
+          "predicted": "rescuer",
+          "reference": "rescuer",
+          "cosine": 0.5798115134239197,
+          "margin": 0.14993786811828613
+        },
+        {
+          "id": "third_creator_1",
+          "expected": "creator",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.37339091300964355,
+          "margin": 0.10279154777526855
+        },
+        {
+          "id": "third_material_0",
+          "expected": "material",
+          "predicted": "nose",
+          "reference": "nose",
+          "cosine": 0.4364319443702698,
+          "margin": 0.012283504009246826
+        },
+        {
+          "id": "third_material_1",
+          "expected": "material",
+          "predicted": "wood_donor",
+          "reference": "wood_donor",
+          "cosine": 0.6588958501815796,
+          "margin": 0.4480518102645874
+        },
+        {
+          "id": "third_nose_0",
+          "expected": "nose",
+          "predicted": "nose",
+          "reference": "nose",
+          "cosine": 0.5025189518928528,
+          "margin": 0.2728078365325928
+        },
+        {
+          "id": "third_nose_1",
+          "expected": "nose",
+          "predicted": "nose",
+          "reference": "nose",
+          "cosine": 0.4231645464897156,
+          "margin": 0.00872427225112915
+        },
+        {
+          "id": "third_fairy_0",
+          "expected": "fairy",
+          "predicted": "fairy",
+          "reference": "fairy",
+          "cosine": 0.48560675978660583,
+          "margin": 0.1980060636997223
+        },
+        {
+          "id": "third_fairy_1",
+          "expected": "fairy",
+          "predicted": "fairy",
+          "reference": "fairy",
+          "cosine": 0.589453935623169,
+          "margin": 0.38906168937683105
+        },
+        {
+          "id": "third_deceivers_0",
+          "expected": "deceivers",
+          "predicted": "deceivers",
+          "reference": "deceivers",
+          "cosine": 0.7439451217651367,
+          "margin": 0.43801596760749817
+        },
+        {
+          "id": "third_deceivers_1",
+          "expected": "deceivers",
+          "predicted": "rescuer",
+          "reference": "rescuer",
+          "cosine": 0.5786343216896057,
+          "margin": 0.2563384473323822
+        },
+        {
+          "id": "third_donkey_0",
+          "expected": "donkey",
+          "predicted": "nose",
+          "reference": "nose",
+          "cosine": 0.4371872544288635,
+          "margin": 0.10356801748275757
+        },
+        {
+          "id": "third_donkey_1",
+          "expected": "donkey",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.444746196269989,
+          "margin": 0.1556881070137024
+        },
+        {
+          "id": "third_ending_0",
+          "expected": "ending",
+          "predicted": "puppeteer",
+          "reference": "puppeteer",
+          "cosine": 0.3653378486633301,
+          "margin": 0.06230670213699341
+        },
+        {
+          "id": "third_ending_1",
+          "expected": "ending",
+          "predicted": "nose",
+          "reference": "nose",
+          "cosine": 0.3521953225135803,
+          "margin": 0.09720829129219055
+        },
+        {
+          "id": "third_puppeteer_0",
+          "expected": "puppeteer",
+          "predicted": "puppeteer",
+          "reference": "puppeteer",
+          "cosine": 0.6678047180175781,
+          "margin": 0.07396382093429565
+        },
+        {
+          "id": "third_puppeteer_1",
+          "expected": "puppeteer",
+          "predicted": "creator",
+          "reference": "creator",
+          "cosine": 0.5009806752204895,
+          "margin": 0.014997720718383789
+        },
+        {
+          "id": "third_friend_0",
+          "expected": "friend",
+          "predicted": "nose",
+          "reference": "nose",
+          "cosine": 0.614109992980957,
+          "margin": 0.23401731252670288
+        },
+        {
+          "id": "third_friend_1",
+          "expected": "friend",
+          "predicted": "creator",
+          "reference": "creator",
+          "cosine": 0.5496206283569336,
+          "margin": 0.16487422585487366
+        },
+        {
+          "id": "third_wood_donor_0",
+          "expected": "wood_donor",
+          "predicted": "wood_donor",
+          "reference": "wood_donor",
+          "cosine": 0.43127089738845825,
+          "margin": 0.11623582243919373
+        },
+        {
+          "id": "third_wood_donor_1",
+          "expected": "wood_donor",
+          "predicted": "wood_donor",
+          "reference": "wood_donor",
+          "cosine": 0.6201067566871643,
+          "margin": 0.2909540832042694
+        },
+        {
+          "id": "third_rescuer_0",
+          "expected": "rescuer",
+          "predicted": "fish_father",
+          "reference": "fish_father",
+          "cosine": 0.42555683851242065,
+          "margin": 0.07877424359321594
+        },
+        {
+          "id": "third_rescuer_1",
+          "expected": "rescuer",
+          "predicted": "creator",
+          "reference": "creator",
+          "cosine": 0.5684024691581726,
+          "margin": 0.19738537073135376
+        },
+        {
+          "id": "third_fish_father_0",
+          "expected": "fish_father",
+          "predicted": "nose",
+          "reference": "nose",
+          "cosine": 0.41261473298072815,
+          "margin": 0.04203900694847107
+        },
+        {
+          "id": "third_fish_father_1",
+          "expected": "fish_father",
+          "predicted": "creator",
+          "reference": "creator",
+          "cosine": 0.3652801811695099,
+          "margin": 0.1520092487335205
+        },
+        {
+          "id": "third_control_00",
+          "expected": "outside",
+          "predicted": "fairy",
+          "reference": "fairy",
+          "cosine": 0.368551641702652,
+          "margin": 0.06885772943496704
+        },
+        {
+          "id": "third_control_01",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.3179437220096588,
+          "margin": 0.1314883530139923
+        },
+        {
+          "id": "third_control_02",
+          "expected": "outside",
+          "predicted": "nose",
+          "reference": "nose",
+          "cosine": 0.3348654508590698,
+          "margin": 0.07764533162117004
+        },
+        {
+          "id": "third_control_03",
+          "expected": "outside",
+          "predicted": "fairy",
+          "reference": "fairy",
+          "cosine": 0.23758284747600555,
+          "margin": 0.04209880530834198
+        },
+        {
+          "id": "third_control_04",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.5381595492362976,
+          "margin": 0.4931113123893738
+        },
+        {
+          "id": "third_control_05",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.3068346083164215,
+          "margin": 0.20115874707698822
+        },
+        {
+          "id": "third_control_06",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.37135106325149536,
+          "margin": 0.08075845241546631
+        },
+        {
+          "id": "third_control_07",
+          "expected": "outside",
+          "predicted": "fairy",
+          "reference": "fairy",
+          "cosine": 0.40720218420028687,
+          "margin": 0.3031264841556549
+        },
+        {
+          "id": "third_control_08",
+          "expected": "outside",
+          "predicted": "fairy",
+          "reference": "fairy",
+          "cosine": 0.3701682686805725,
+          "margin": 0.03300291299819946
+        },
+        {
+          "id": "third_control_09",
+          "expected": "outside",
+          "predicted": "deceivers",
+          "reference": "deceivers",
+          "cosine": 0.3406439423561096,
+          "margin": 0.10386906564235687
+        },
+        {
+          "id": "third_control_10",
+          "expected": "outside",
+          "predicted": "wood_donor",
+          "reference": "wood_donor",
+          "cosine": 0.1667250096797943,
+          "margin": 0.05986875295639038
+        },
+        {
+          "id": "third_control_11",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.3095564544200897,
+          "margin": 0.09236736595630646
+        },
+        {
+          "id": "third_control_12",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.2726150155067444,
+          "margin": 0.18008750677108765
+        },
+        {
+          "id": "third_control_13",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.23950758576393127,
+          "margin": 0.1219458281993866
+        },
+        {
+          "id": "third_control_14",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.45076364278793335,
+          "margin": 0.43207797408103943
+        },
+        {
+          "id": "third_control_15",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.5566717386245728,
+          "margin": 0.6153610944747925
+        },
+        {
+          "id": "third_control_16",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.37211668491363525,
+          "margin": 0.12553724646568298
+        },
+        {
+          "id": "third_control_17",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.2971605658531189,
+          "margin": 0.20987629890441895
+        },
+        {
+          "id": "third_control_18",
+          "expected": "outside",
+          "predicted": "fairy",
+          "reference": "fairy",
+          "cosine": 0.3256174921989441,
+          "margin": 0.07571563124656677
+        },
+        {
+          "id": "third_control_19",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "outside",
+          "cosine": 0.5131269097328186,
+          "margin": 0.2509676516056061
+        }
+      ]
+    },
+    {
+      "feature": "last_mlp_features",
+      "method": "nearest_example",
+      "target_correct": 8,
+      "outside_correct": 14,
+      "target_total": 24,
+      "outside_total": 20,
+      "predictions": [
+        {
+          "id": "third_creator_0",
+          "expected": "creator",
+          "predicted": "rescuer",
+          "reference": "newdev_rescuer_1",
+          "cosine": 0.8136460781097412,
+          "margin": 0.1905030608177185
+        },
+        {
+          "id": "third_creator_1",
+          "expected": "creator",
+          "predicted": "outside",
+          "reference": "control_10",
+          "cosine": 0.513276219367981,
+          "margin": 0.14694654941558838
+        },
+        {
+          "id": "third_material_0",
+          "expected": "material",
+          "predicted": "ending",
+          "reference": "newdev_ending_1",
+          "cosine": 0.7559068202972412,
+          "margin": 0.23434120416641235
+        },
+        {
+          "id": "third_material_1",
+          "expected": "material",
+          "predicted": "wood_donor",
+          "reference": "newdev_wood_donor_1",
+          "cosine": 0.626868724822998,
+          "margin": 0.12519383430480957
+        },
+        {
+          "id": "third_nose_0",
+          "expected": "nose",
+          "predicted": "nose",
+          "reference": "newdev_nose_0",
+          "cosine": 0.8447543382644653,
+          "margin": 0.42425230145454407
+        },
+        {
+          "id": "third_nose_1",
+          "expected": "nose",
+          "predicted": "donkey",
+          "reference": "core_donkey_0",
+          "cosine": 0.54707270860672,
+          "margin": 0.01832735538482666
+        },
+        {
+          "id": "third_fairy_0",
+          "expected": "fairy",
+          "predicted": "fairy",
+          "reference": "newdev_fairy_1",
+          "cosine": 0.7972385883331299,
+          "margin": 0.16765493154525757
+        },
+        {
+          "id": "third_fairy_1",
+          "expected": "fairy",
+          "predicted": "fairy",
+          "reference": "core_fairy_0",
+          "cosine": 0.5825715065002441,
+          "margin": 0.038305044174194336
+        },
+        {
+          "id": "third_deceivers_0",
+          "expected": "deceivers",
+          "predicted": "deceivers",
+          "reference": "core_deceivers_0",
+          "cosine": 0.8448935747146606,
+          "margin": 0.27205443382263184
+        },
+        {
+          "id": "third_deceivers_1",
+          "expected": "deceivers",
+          "predicted": "rescuer",
+          "reference": "newdev_rescuer_1",
+          "cosine": 0.8043249249458313,
+          "margin": 0.34622281789779663
+        },
+        {
+          "id": "third_donkey_0",
+          "expected": "donkey",
+          "predicted": "ending",
+          "reference": "newdev_ending_1",
+          "cosine": 0.47168809175491333,
+          "margin": 0.038902461528778076
+        },
+        {
+          "id": "third_donkey_1",
+          "expected": "donkey",
+          "predicted": "outside",
+          "reference": "control_05",
+          "cosine": 0.7528003454208374,
+          "margin": 0.11581969261169434
+        },
+        {
+          "id": "third_ending_0",
+          "expected": "ending",
+          "predicted": "wood_donor",
+          "reference": "chapter_01",
+          "cosine": 0.5572838187217712,
+          "margin": 0.008143126964569092
+        },
+        {
+          "id": "third_ending_1",
+          "expected": "ending",
+          "predicted": "nose",
+          "reference": "core_nose_1",
+          "cosine": 0.4662676453590393,
+          "margin": 0.043149977922439575
+        },
+        {
+          "id": "third_puppeteer_0",
+          "expected": "puppeteer",
+          "predicted": "puppeteer",
+          "reference": "chapter_10",
+          "cosine": 0.7708942294120789,
+          "margin": 0.1312069296836853
+        },
+        {
+          "id": "third_puppeteer_1",
+          "expected": "puppeteer",
+          "predicted": "rescuer",
+          "reference": "newdev_rescuer_1",
+          "cosine": 0.6270712614059448,
+          "margin": 0.07299399375915527
+        },
+        {
+          "id": "third_friend_0",
+          "expected": "friend",
+          "predicted": "ending",
+          "reference": "newdev_ending_1",
+          "cosine": 0.6554756164550781,
+          "margin": 0.030352413654327393
+        },
+        {
+          "id": "third_friend_1",
+          "expected": "friend",
+          "predicted": "outside",
+          "reference": "control_08",
+          "cosine": 0.7360367178916931,
+          "margin": 0.013676702976226807
+        },
+        {
+          "id": "third_wood_donor_0",
+          "expected": "wood_donor",
+          "predicted": "rescuer",
+          "reference": "newdev_rescuer_1",
+          "cosine": 0.6918751001358032,
+          "margin": 0.12313920259475708
+        },
+        {
+          "id": "third_wood_donor_1",
+          "expected": "wood_donor",
+          "predicted": "wood_donor",
+          "reference": "newdev_wood_donor_0",
+          "cosine": 0.6327505111694336,
+          "margin": 0.1873513162136078
+        },
+        {
+          "id": "third_rescuer_0",
+          "expected": "rescuer",
+          "predicted": "rescuer",
+          "reference": "chapter_28",
+          "cosine": 0.7101983428001404,
+          "margin": 0.10232633352279663
+        },
+        {
+          "id": "third_rescuer_1",
+          "expected": "rescuer",
+          "predicted": "rescuer",
+          "reference": "development_rescuer_0",
+          "cosine": 0.8911505937576294,
+          "margin": 0.21693122386932373
+        },
+        {
+          "id": "third_fish_father_0",
+          "expected": "fish_father",
+          "predicted": "friend",
+          "reference": "development_friend_0",
+          "cosine": 0.6012535691261292,
+          "margin": 0.09818911552429199
+        },
+        {
+          "id": "third_fish_father_1",
+          "expected": "fish_father",
+          "predicted": "creator",
+          "reference": "newdev_creator_1",
+          "cosine": 0.5107834339141846,
+          "margin": 0.11226421594619751
+        },
+        {
+          "id": "third_control_00",
+          "expected": "outside",
+          "predicted": "fairy",
+          "reference": "newdev_fairy_0",
+          "cosine": 0.39492833614349365,
+          "margin": 0.00012493133544921875
+        },
+        {
+          "id": "third_control_01",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_05",
+          "cosine": 0.4836105406284332,
+          "margin": 0.01888921856880188
+        },
+        {
+          "id": "third_control_02",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_05",
+          "cosine": 0.5866492986679077,
+          "margin": 0.09748387336730957
+        },
+        {
+          "id": "third_control_03",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_08",
+          "cosine": 0.43834516406059265,
+          "margin": 0.08656355738639832
+        },
+        {
+          "id": "third_control_04",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_09",
+          "cosine": 0.6221232414245605,
+          "margin": 0.1327703595161438
+        },
+        {
+          "id": "third_control_05",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_02",
+          "cosine": 0.5701476335525513,
+          "margin": 0.15321925282478333
+        },
+        {
+          "id": "third_control_06",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_09",
+          "cosine": 0.6483462452888489,
+          "margin": 0.06701534986495972
+        },
+        {
+          "id": "third_control_07",
+          "expected": "outside",
+          "predicted": "fairy",
+          "reference": "core_fairy_1",
+          "cosine": 0.44075560569763184,
+          "margin": 0.12896770238876343
+        },
+        {
+          "id": "third_control_08",
+          "expected": "outside",
+          "predicted": "puppeteer",
+          "reference": "newdev_puppeteer_1",
+          "cosine": 0.46981269121170044,
+          "margin": 0.06066232919692993
+        },
+        {
+          "id": "third_control_09",
+          "expected": "outside",
+          "predicted": "fish_father",
+          "reference": "newdev_fish_father_1",
+          "cosine": 0.39441627264022827,
+          "margin": 0.016328781843185425
+        },
+        {
+          "id": "third_control_10",
+          "expected": "outside",
+          "predicted": "wood_donor",
+          "reference": "newdev_wood_donor_1",
+          "cosine": 0.2441134750843048,
+          "margin": 0.020651742815971375
+        },
+        {
+          "id": "third_control_11",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_08",
+          "cosine": 0.5345479249954224,
+          "margin": 0.0013277530670166016
+        },
+        {
+          "id": "third_control_12",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "core_author_0",
+          "cosine": 1.0,
+          "margin": 0.46737921237945557
+        },
+        {
+          "id": "third_control_13",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_06",
+          "cosine": 0.3404645323753357,
+          "margin": 0.027118265628814697
+        },
+        {
+          "id": "third_control_14",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_10",
+          "cosine": 0.5082579255104065,
+          "margin": 0.18218615651130676
+        },
+        {
+          "id": "third_control_15",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_10",
+          "cosine": 0.529552698135376,
+          "margin": 0.1504768431186676
+        },
+        {
+          "id": "third_control_16",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_11",
+          "cosine": 0.4537937641143799,
+          "margin": 0.1409224569797516
+        },
+        {
+          "id": "third_control_17",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_11",
+          "cosine": 0.6692542433738708,
+          "margin": 0.36576613783836365
+        },
+        {
+          "id": "third_control_18",
+          "expected": "outside",
+          "predicted": "ending",
+          "reference": "newdev_ending_1",
+          "cosine": 0.42706558108329773,
+          "margin": 0.011418730020523071
+        },
+        {
+          "id": "third_control_19",
+          "expected": "outside",
+          "predicted": "outside",
+          "reference": "control_09",
+          "cosine": 0.6530435085296631,
+          "margin": 0.12838703393936157
+        }
+      ]
+    }
+  ],
+  "reference_forward_checks": [
+    {
+      "id": "core_creator_0",
+      "relative_feature_errors": {
+        "native_head_14_13": 4.123485723539488e-06,
+        "prefix_values_21": 9.944865269062575e-07,
+        "prefix_values_23": 1.4617270380767877e-06,
+        "last_mlp_input": 2.0648460576921934e-06,
+        "last_mlp_features": 1.778755063241988e-06
+      }
+    },
+    {
+      "id": "second_ending_1",
+      "relative_feature_errors": {
+        "native_head_14_13": 1.7799575289245695e-06,
+        "prefix_values_21": 8.617112143838312e-07,
+        "prefix_values_23": 1.1042609457945218e-06,
+        "last_mlp_input": 2.5388424091943307e-06,
+        "last_mlp_features": 2.2192541564436397e-06
+      }
+    }
+  ],
+  "reference_metadata_sha256": "092f9132c533e17c4d9e44c523d17d4bf3bdff78bb329fc1592d1a18f7fe5bc7",
+  "third_question_sha256": "81c59ba6a41da820554192b7e38394be7890ea2e6ebe3d233a4045401b43d1c4",
+  "interpretation": "These are descriptive relation-identification probes on original-model states. They neither generate an answer nor demonstrate that a weight edit can use the information reliably."
+}

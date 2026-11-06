@@ -1,0 +1,30 @@
+{
+  "spec": {
+    "utc": "2026-11-05T07:03:54.056362+00:00",
+    "decision_by": "Codex",
+    "reason": "A stable reference improves the older semantic transport without a class selector, but the previous earlier reference and shared Q/K/V replacement disturbed native behavior. Measure a possible constant insertion in block23 attention, so only the last MLP follows it.",
+    "collection": "Incoming block23 residual, all fourteen head value outputs before O23, raw post-attention residual before the last MLP RMSNorm, and the normalized last-MLP input as a replay check.",
+    "next_coordinate_selection_rule": "For each of the128 shared value coordinates, compute the actual sum of its seven head-output contributions and select the smallest mean squared contribution on earlier factual fit states plus native states. No generation-based coordinate search.",
+    "parent_weights": "Frozen progress_carrier_weights.py only; no selector or reference applied.",
+    "new_candidate_applied": false,
+    "diagnostic_hooks_only": true,
+    "template_unchanged": true,
+    "training": false,
+    "gradients": false,
+    "optimizer": false,
+    "free_generation_performed": false,
+    "counts_as_correction": false,
+    "third_set_used": false,
+    "final_set_read": false,
+    "source_sha256": "5e043a16a6745f696fdb663d8152f0a8be478f11379665d18846966b52cbb670",
+    "code_sha256": "30545c93b87864f64057b5026106e7ad4424fd9ea6e0242b48f03f615d6a9310"
+  },
+  "states": 4707,
+  "sequences": 197,
+  "last_mlp_input_reference_relative_error": 0.0,
+  "source_records_and_sequence_offsets": "results\\progress_carrier_states.json",
+  "arrays_sha256": "f28e4c9b508b9ffc1981619ab98ffec0eb17f933d5e5b2d38505782fc3f5d5ec",
+  "parent_attention_sha256": "953f2f8d5d26a2c65287b991e445d431c05608aafc9079d97194d6a523481389",
+  "weights_restored_exactly": true,
+  "completed": true
+}

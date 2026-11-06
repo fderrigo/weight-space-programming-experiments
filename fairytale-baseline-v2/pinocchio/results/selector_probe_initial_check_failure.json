@@ -1,0 +1,14 @@
+{
+  "script": "probe_selector_carrier.py",
+  "script_sha256": "f5d8c7c72f8939b4cddca9c5d0f20527f92071f68e412a219fc4b4c0bd4f6f9d",
+  "observed_process_exit_code": 1,
+  "completed_sequence_forwards": 197,
+  "weights_restored_before_failed_assertion": true,
+  "maximum_selected_value_error": 0.00225868821144104,
+  "relative_selected_value_error": 0.00039365715929307044,
+  "declared_absolute_tolerance": 0.001,
+  "declared_relative_tolerance": 0.0001,
+  "simulation_tolerance_passed": false,
+  "arrays_saved": false,
+  "next_action": "Repeat the unchanged weight transform with diagnostic output retained even when the simulation comparison fails, and reconstruct attention from its actual Q/K/V and native rotary outputs."
+}

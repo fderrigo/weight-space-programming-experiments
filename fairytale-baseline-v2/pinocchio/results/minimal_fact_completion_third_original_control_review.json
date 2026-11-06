@@ -1,0 +1,153 @@
+{
+  "utc": "2026-11-05T02:31:49.916925+00:00",
+  "reviewer": "Codex; explicit semantic judgments, not independent review",
+  "original_source_sha256": "ddd83fdfdf1b16339d22223f961030a8509c4fb6e5854290bc7867e29fd90f69",
+  "edited_answers_read_for_these_judgments": false,
+  "original_whole_correct": 5,
+  "control_total": 20,
+  "original_main_fact_correct": 7,
+  "criteria": "Whole-answer semantics; stylistic defects alone do not overturn an unambiguous correct requested alternative. Incomplete or factually embellished answers remain uncertified.",
+  "annotations": [
+    {
+      "id": "third_control_00",
+      "whole_correct": false,
+      "requested_main_fact_correct": false,
+      "language_defect": false,
+      "reason": "Calls a ripe strawberry light gray instead of red."
+    },
+    {
+      "id": "third_control_01",
+      "whole_correct": false,
+      "requested_main_fact_correct": false,
+      "language_defect": false,
+      "reason": "Does not identify the paternal grandmother."
+    },
+    {
+      "id": "third_control_02",
+      "whole_correct": false,
+      "requested_main_fact_correct": false,
+      "language_defect": false,
+      "reason": "Calls the maternal uncle a cousin and adds repeated false explanations."
+    },
+    {
+      "id": "third_control_03",
+      "whole_correct": false,
+      "requested_main_fact_correct": false,
+      "language_defect": false,
+      "reason": "Calls a wild boar the domestic barking animal."
+    },
+    {
+      "id": "third_control_04",
+      "whole_correct": true,
+      "requested_main_fact_correct": true,
+      "language_defect": false,
+      "reason": "Correctly identifies the shark as a fish, not a mammal."
+    },
+    {
+      "id": "third_control_05",
+      "whole_correct": false,
+      "requested_main_fact_correct": false,
+      "language_defect": false,
+      "reason": "Does not identify fish or other aquatic catch, and includes plants in the occupational answer."
+    },
+    {
+      "id": "third_control_06",
+      "whole_correct": false,
+      "requested_main_fact_correct": true,
+      "language_defect": false,
+      "reason": "Provides a partial vegetation/coast distinction but adds unsupported atmosphere descriptions and ends unfinished; whole-answer correctness is not certified."
+    },
+    {
+      "id": "third_control_07",
+      "whole_correct": false,
+      "requested_main_fact_correct": false,
+      "language_defect": false,
+      "reason": "Substitutes sandy countries for aquatic habitat and repeats invented place names."
+    },
+    {
+      "id": "third_control_08",
+      "whole_correct": false,
+      "requested_main_fact_correct": false,
+      "language_defect": false,
+      "reason": "Substitutes a king or his son for Cinderella."
+    },
+    {
+      "id": "third_control_09",
+      "whole_correct": false,
+      "requested_main_fact_correct": false,
+      "language_defect": false,
+      "reason": "Does not identify the wolf threatening the three pigs."
+    },
+    {
+      "id": "third_control_10",
+      "whole_correct": false,
+      "requested_main_fact_correct": false,
+      "language_defect": false,
+      "reason": "Does not answer seven and invents twentieth-century biographical details."
+    },
+    {
+      "id": "third_control_11",
+      "whole_correct": true,
+      "requested_main_fact_correct": true,
+      "language_defect": false,
+      "reason": "Correctly identifies Puss in Boots as a cat."
+    },
+    {
+      "id": "third_control_12",
+      "whole_correct": false,
+      "requested_main_fact_correct": true,
+      "language_defect": false,
+      "reason": "Names Collodi but falsely calls him German, dates the book to 1832, and invents a solar animal transformation."
+    },
+    {
+      "id": "third_control_13",
+      "whole_correct": false,
+      "requested_main_fact_correct": false,
+      "language_defect": false,
+      "reason": "Says two plus three is six."
+    },
+    {
+      "id": "third_control_14",
+      "whole_correct": false,
+      "requested_main_fact_correct": false,
+      "language_defect": false,
+      "reason": "Does not identify Italy and places Rome in an eastern-European country."
+    },
+    {
+      "id": "third_control_15",
+      "whole_correct": true,
+      "requested_main_fact_correct": true,
+      "language_defect": false,
+      "reason": "Correctly identifies London as an English city."
+    },
+    {
+      "id": "third_control_16",
+      "whole_correct": false,
+      "requested_main_fact_correct": false,
+      "language_defect": false,
+      "reason": "Does not translate wood as legno; produces corrupted repeated terms."
+    },
+    {
+      "id": "third_control_17",
+      "whole_correct": true,
+      "requested_main_fact_correct": true,
+      "language_defect": false,
+      "reason": "Correctly translates blue as blu."
+    },
+    {
+      "id": "third_control_18",
+      "whole_correct": false,
+      "requested_main_fact_correct": false,
+      "language_defect": false,
+      "reason": "Does not identify green for blue/yellow paint mixing."
+    },
+    {
+      "id": "third_control_19",
+      "whole_correct": true,
+      "requested_main_fact_correct": true,
+      "language_defect": true,
+      "reason": "Selects wood for the carpenter, without a contradictory material. The malformed profession wording is recorded as a language defect, not a different selected answer."
+    }
+  ],
+  "final_set_read": false
+}

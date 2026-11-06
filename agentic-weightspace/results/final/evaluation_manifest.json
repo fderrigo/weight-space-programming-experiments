@@ -1,0 +1,17 @@
+{
+  "started_utc": "2026-11-05T20:27:42.648654+00:00",
+  "status": "complete",
+  "frozen_selection_sha256": "9f339f0cb218efb79c34b8168d140de0b89157ece9da3d2da376e6bbc2483718",
+  "dataset_sha256": "753b1d0e5ee955f9643932d7f1f1f3a5e7454d438b77b4944ebe22a9dd42c359",
+  "cases_per_model": 160,
+  "planned_inference_requests": 320,
+  "technical_resume_count": 0,
+  "no_automatic_retry": true,
+  "tool_execution_count": 0,
+  "runner_sha256": "d645a56a5024e504e3c6768107561cad0d53c00a175613365e4ff4cff4d63c49",
+  "harness_sha256": "6ef6d2df81915a87b43f5e1c92b8896615bbe018b0a7b70fcc233331e43a0e9d",
+  "completed_utc": "2026-11-05T20:42:04.201361+00:00",
+  "completed_requests": 320,
+  "original_response_sha256": "54cfb3112544dfcd454bfc7ff795e15a0edbd228edb215dfc023b6079bda2907",
+  "modified_response_sha256": "ccae4ca4257b1e1930d25ece37e7685ace746625f89257e92e886d2d65e40d99"
+}

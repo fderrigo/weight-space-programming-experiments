@@ -1,0 +1,703 @@
+{
+  "reviewer": "Codex; explicit semantic assessment, not independent review",
+  "source_sha256": "bde59e07246b468c6fc162bdf890737dffb3d1d470b84feb10e19e7f62443be4",
+  "original_source_sha256": "640baf45a5bf24050a356d0f74aa6e1d181d1e957d185ad4c75dd7fb03defd7b",
+  "conditions": [
+    {
+      "mode": "unprotected",
+      "original_target_whole_correct": 0,
+      "edited_target_whole_correct": 0,
+      "initially_wrong_targets": 12,
+      "repaired_targets": 0,
+      "original_control_main_correct": 4,
+      "edited_control_main_correct": 3,
+      "original_control_whole_correct": 3,
+      "edited_control_whole_correct": 3,
+      "originally_correct_whole_controls_retained": 2,
+      "original_cat_whole_review_note": "The archived original gives gatto but falsely claims it is the only Italian term for a cat; micio is a counterexample. Main translation counted correct, whole response conservatively incorrect.",
+      "control_total": 4,
+      "original_faithful_narratives": 0,
+      "edited_faithful_narratives": 0,
+      "narrative_total": 2,
+      "weights": {
+        "mode": "unprotected",
+        "source_geometry_sha256": "a15be33fb859f7781c2c7dac404bb96c11f4b1295217045e986a8b857d4e4b8b",
+        "alpha": 2.6540118921440445,
+        "carrier_dimensions": 12,
+        "heads": [
+          6,
+          7
+        ],
+        "changed_parameters": 229504,
+        "changed_tensors": 3,
+        "tensor_differences": [
+          {
+            "tensor": "model.layers.21.self_attn.q_proj.weight",
+            "shape": [
+              896,
+              896
+            ],
+            "changed_parameters": 114688,
+            "difference_norm": 9.051450729370117,
+            "before_sha256_f32": "06567ed7261ed05ce2de32d8c1054041a61d13bd7f7532920953bf3b619b23e5",
+            "after_sha256_f32": "e7ec698387cd790041747cf6eb4ac8f78b014a192d4e8e5e8b6e0a0563e5354e"
+          },
+          {
+            "tensor": "model.layers.21.self_attn.q_proj.bias",
+            "shape": [
+              896
+            ],
+            "changed_parameters": 128,
+            "difference_norm": 19.502098083496094,
+            "before_sha256_f32": "3098f37205a15418e1681e407c82b7ce7c6fda6c6826b0590a13e1b68a38a1ea",
+            "after_sha256_f32": "10948c7dbafb758e48fb5a8d3c0c4524243b5ce6117f783d433bf74ea69ab8ff"
+          },
+          {
+            "tensor": "model.layers.21.self_attn.o_proj.weight",
+            "shape": [
+              896,
+              896
+            ],
+            "changed_parameters": 114688,
+            "difference_norm": 9.193758964538574,
+            "before_sha256_f32": "009bc4736603fbda9eb6ab9c277083a72a64f4db04120764ab05d66f969f1737",
+            "after_sha256_f32": "0ee7032a5794866f65c09bb2b811ad903f191783b23683e697f9a10352f00d92"
+          }
+        ],
+        "formula": "Uniform block-21 heads 6/7; add alpha*U*B*Pmu to their original O columns. Protected condition additionally applies P=I-UUt to O21 and all later attention/MLP output projections, and W diag(g) P diag(g)^-1 to MLP21 and later attention/MLP input projections. RMS denominators remain native and may still change.",
+        "training": false,
+        "gradients": false,
+        "optimizer": false
+      },
+      "annotations": [
+        {
+          "id": "second_creator_0",
+          "group": "target",
+          "original_whole_correct": false,
+          "edited_whole_correct": false,
+          "edited_control_main_correct": false,
+          "same_generated_ids": true,
+          "same_stop_token": true,
+          "reason": "Still confuses the fictional maker with the author Carlo Collodi."
+        },
+        {
+          "id": "second_material_0",
+          "group": "target",
+          "original_whole_correct": false,
+          "edited_whole_correct": false,
+          "edited_control_main_correct": false,
+          "same_generated_ids": false,
+          "same_stop_token": true,
+          "reason": "Invents a child, castle, parents, magician and punishments instead of identifying wood."
+        },
+        {
+          "id": "second_nose_0",
+          "group": "target",
+          "original_whole_correct": false,
+          "edited_whole_correct": false,
+          "edited_control_main_correct": false,
+          "same_generated_ids": false,
+          "same_stop_token": true,
+          "reason": "Invents a skin/shadow/stone transformation instead of the growing nose."
+        },
+        {
+          "id": "second_fairy_0",
+          "group": "target",
+          "original_whole_correct": false,
+          "edited_whole_correct": false,
+          "edited_control_main_correct": false,
+          "same_generated_ids": true,
+          "same_stop_token": true,
+          "reason": "Calls the hair color water instead of blue or turquoise."
+        },
+        {
+          "id": "second_deceivers_0",
+          "group": "target",
+          "original_whole_correct": false,
+          "edited_whole_correct": false,
+          "edited_control_main_correct": false,
+          "same_generated_ids": false,
+          "same_stop_token": true,
+          "reason": "Names a child Carlo instead of the Cat and Fox."
+        },
+        {
+          "id": "second_donkey_0",
+          "group": "target",
+          "original_whole_correct": false,
+          "edited_whole_correct": false,
+          "edited_control_main_correct": false,
+          "same_generated_ids": false,
+          "same_stop_token": true,
+          "reason": "Calls the transformed animal Pinocchio instead of a donkey."
+        },
+        {
+          "id": "second_ending_0",
+          "group": "target",
+          "original_whole_correct": false,
+          "edited_whole_correct": false,
+          "edited_control_main_correct": false,
+          "same_generated_ids": false,
+          "same_stop_token": false,
+          "reason": "Invents mother Tana and illness events instead of becoming a real boy."
+        },
+        {
+          "id": "second_puppeteer_0",
+          "group": "target",
+          "original_whole_correct": false,
+          "edited_whole_correct": false,
+          "edited_control_main_correct": false,
+          "same_generated_ids": false,
+          "same_stop_token": true,
+          "reason": "Invents Abecqua and Pinocchio del Burattino instead of Mangiafoco."
+        },
+        {
+          "id": "second_friend_0",
+          "group": "target",
+          "original_whole_correct": false,
+          "edited_whole_correct": false,
+          "edited_control_main_correct": false,
+          "same_generated_ids": false,
+          "same_stop_token": true,
+          "reason": "Invents Ammiano, a wooden warrior, instead of Lucignolo."
+        },
+        {
+          "id": "second_wood_donor_0",
+          "group": "target",
+          "original_whole_correct": false,
+          "edited_whole_correct": false,
+          "edited_control_main_correct": false,
+          "same_generated_ids": false,
+          "same_stop_token": true,
+          "reason": "Invents Fafnir, his father and the king of Gondor instead of Maestro Ciliegia."
+        },
+        {
+          "id": "second_rescuer_0",
+          "group": "target",
+          "original_whole_correct": false,
+          "edited_whole_correct": false,
+          "edited_control_main_correct": false,
+          "same_generated_ids": false,
+          "same_stop_token": true,
+          "reason": "Names the dog Pinocchio instead of Alidoro."
+        },
+        {
+          "id": "second_fish_father_0",
+          "group": "target",
+          "original_whole_correct": false,
+          "edited_whole_correct": false,
+          "edited_control_main_correct": false,
+          "same_generated_ids": false,
+          "same_stop_token": false,
+          "reason": "Describes an invented Pescatore del Cane instead of the encounter with Geppetto."
+        },
+        {
+          "id": "second_control_00",
+          "group": "control",
+          "original_whole_correct": true,
+          "edited_whole_correct": false,
+          "edited_control_main_correct": false,
+          "same_generated_ids": false,
+          "same_stop_token": true,
+          "reason": "Regresses from France to the Italian Republic as the country of Paris."
+        },
+        {
+          "id": "second_control_04",
+          "group": "control",
+          "original_whole_correct": false,
+          "edited_whole_correct": true,
+          "edited_control_main_correct": true,
+          "same_generated_ids": false,
+          "same_stop_token": true,
+          "reason": "Correctly gives gatto; repeated list entries do not introduce a false fact."
+        },
+        {
+          "id": "second_control_10",
+          "group": "control",
+          "original_whole_correct": true,
+          "edited_whole_correct": true,
+          "edited_control_main_correct": true,
+          "same_generated_ids": true,
+          "same_stop_token": true,
+          "reason": "Correctly gives four."
+        },
+        {
+          "id": "second_control_13",
+          "group": "control",
+          "original_whole_correct": true,
+          "edited_whole_correct": true,
+          "edited_control_main_correct": true,
+          "same_generated_ids": false,
+          "same_stop_token": true,
+          "reason": "Correctly gives Rome."
+        },
+        {
+          "id": "narration_0",
+          "group": "narration",
+          "original_whole_correct": false,
+          "edited_whole_correct": false,
+          "edited_control_main_correct": false,
+          "same_generated_ids": false,
+          "same_stop_token": true,
+          "reason": "Invents a two-year-old, father Capone, Christmas, death and a castle."
+        },
+        {
+          "id": "narration_1",
+          "group": "narration",
+          "original_whole_correct": false,
+          "edited_whole_correct": false,
+          "edited_control_main_correct": false,
+          "same_generated_ids": false,
+          "same_stop_token": true,
+          "reason": "Invents love affairs, castles and repetitive house events."
+        }
+      ]
+    },
+    {
+      "mode": "protected",
+      "original_target_whole_correct": 0,
+      "edited_target_whole_correct": 0,
+      "initially_wrong_targets": 12,
+      "repaired_targets": 0,
+      "original_control_main_correct": 4,
+      "edited_control_main_correct": 3,
+      "original_control_whole_correct": 3,
+      "edited_control_whole_correct": 2,
+      "originally_correct_whole_controls_retained": 2,
+      "original_cat_whole_review_note": "The archived original gives gatto but falsely claims it is the only Italian term for a cat; micio is a counterexample. Main translation counted correct, whole response conservatively incorrect.",
+      "control_total": 4,
+      "original_faithful_narratives": 0,
+      "edited_faithful_narratives": 0,
+      "narrative_total": 2,
+      "weights": {
+        "mode": "protected",
+        "source_geometry_sha256": "a15be33fb859f7781c2c7dac404bb96c11f4b1295217045e986a8b857d4e4b8b",
+        "alpha": 2.6540118921440445,
+        "carrier_dimensions": 12,
+        "heads": [
+          6,
+          7
+        ],
+        "changed_parameters": 43810935,
+        "changed_tensors": 20,
+        "tensor_differences": [
+          {
+            "tensor": "model.layers.21.self_attn.q_proj.weight",
+            "shape": [
+              896,
+              896
+            ],
+            "changed_parameters": 114688,
+            "difference_norm": 9.051450729370117,
+            "before_sha256_f32": "06567ed7261ed05ce2de32d8c1054041a61d13bd7f7532920953bf3b619b23e5",
+            "after_sha256_f32": "e7ec698387cd790041747cf6eb4ac8f78b014a192d4e8e5e8b6e0a0563e5354e"
+          },
+          {
+            "tensor": "model.layers.21.self_attn.q_proj.bias",
+            "shape": [
+              896
+            ],
+            "changed_parameters": 128,
+            "difference_norm": 19.502098083496094,
+            "before_sha256_f32": "3098f37205a15418e1681e407c82b7ce7c6fda6c6826b0590a13e1b68a38a1ea",
+            "after_sha256_f32": "10948c7dbafb758e48fb5a8d3c0c4524243b5ce6117f783d433bf74ea69ab8ff"
+          },
+          {
+            "tensor": "model.layers.21.self_attn.o_proj.weight",
+            "shape": [
+              896,
+              896
+            ],
+            "changed_parameters": 802816,
+            "difference_norm": 9.361952781677246,
+            "before_sha256_f32": "009bc4736603fbda9eb6ab9c277083a72a64f4db04120764ab05d66f969f1737",
+            "after_sha256_f32": "9844f4463bfb20d023eabb43f35b8ee6e7fbe2e701367030a3b60761c0fcec7d"
+          },
+          {
+            "tensor": "model.layers.21.mlp.gate_proj.weight",
+            "shape": [
+              4864,
+              896
+            ],
+            "changed_parameters": 4358142,
+            "difference_norm": 17.316619873046875,
+            "before_sha256_f32": "5c9a05d77fd6c5f7ad192f468808126107842eb432f99ddba2857ca6658c9fba",
+            "after_sha256_f32": "e9400154ce836512d63e2bbe3ce09d1c1ea10e23b9a8267ebeb281788fbed9d9"
+          },
+          {
+            "tensor": "model.layers.21.mlp.up_proj.weight",
+            "shape": [
+              4864,
+              896
+            ],
+            "changed_parameters": 4358142,
+            "difference_norm": 15.021117210388184,
+            "before_sha256_f32": "05895a5ab96365a0290f588328ee0ea51a856c7bd3b69932400b95af7376ce7c",
+            "after_sha256_f32": "3f03992cfb513eaa492906d5c5a886fe7713ca2332ac97e6bfdaabd105f3aed2"
+          },
+          {
+            "tensor": "model.layers.21.mlp.down_proj.weight",
+            "shape": [
+              896,
+              4864
+            ],
+            "changed_parameters": 4358143,
+            "difference_norm": 4.059687614440918,
+            "before_sha256_f32": "6e43ea3d9dbb9f625e2b0683dfb1bd0ba011f0bf2c4512bc8b5ebd5000795e04",
+            "after_sha256_f32": "663869455d2d7a39b65f8f4a1430f24f2e614e358fee5eafbefcb21e2de86c15"
+          },
+          {
+            "tensor": "model.layers.22.self_attn.q_proj.weight",
+            "shape": [
+              896,
+              896
+            ],
+            "changed_parameters": 802816,
+            "difference_norm": 5.758535861968994,
+            "before_sha256_f32": "7c23ec52305cbd2b1a6d975b997a4d3a00cb602cc4cf5b3567f3503ba828ebd9",
+            "after_sha256_f32": "46f5103473d963ffa9b7713dde685dc48c27707299e5aca9b688a0f5b2df48a5"
+          },
+          {
+            "tensor": "model.layers.22.self_attn.k_proj.weight",
+            "shape": [
+              128,
+              896
+            ],
+            "changed_parameters": 114688,
+            "difference_norm": 2.3805856704711914,
+            "before_sha256_f32": "cd2eac5f5b31591c2fd44b7bd6eb976bc7ced04b071c860d41433c0ab0b5b099",
+            "after_sha256_f32": "94ce37c8b2e226b8eab58b4e70b6dcc115d2760279347eb74b139f2d50091dca"
+          },
+          {
+            "tensor": "model.layers.22.self_attn.v_proj.weight",
+            "shape": [
+              128,
+              896
+            ],
+            "changed_parameters": 114688,
+            "difference_norm": 2.491119146347046,
+            "before_sha256_f32": "6e415458d04e0cb7762464c0d78c947ad05bbcac4ed026c333eca3e59b047c86",
+            "after_sha256_f32": "0bbf1cd0e28f8e7b342fa008b8a5539f78d5e3bffde500800651bce1324d90e7"
+          },
+          {
+            "tensor": "model.layers.22.self_attn.o_proj.weight",
+            "shape": [
+              896,
+              896
+            ],
+            "changed_parameters": 802816,
+            "difference_norm": 2.5099937915802,
+            "before_sha256_f32": "bf0c73de8b0c4c882f5e7764d8bf00503360999d4eb51d4795b6d27dda64eef5",
+            "after_sha256_f32": "39dc9a1b5f1d1e115e46d62a4a647f6c94378f53871a1c34cf2ea07d089e884e"
+          },
+          {
+            "tensor": "model.layers.22.mlp.gate_proj.weight",
+            "shape": [
+              4864,
+              896
+            ],
+            "changed_parameters": 4358144,
+            "difference_norm": 382.6539001464844,
+            "before_sha256_f32": "c4be69d13ec2f39fef982691edd300f68a099fa8098b6e89903881593d26fedf",
+            "after_sha256_f32": "87fcff6f4f6a8fd428542a829926b8c4f91d15489ce90e72e58ed68fad4318e8"
+          },
+          {
+            "tensor": "model.layers.22.mlp.up_proj.weight",
+            "shape": [
+              4864,
+              896
+            ],
+            "changed_parameters": 4358143,
+            "difference_norm": 329.89013671875,
+            "before_sha256_f32": "7d15524e8c299b86fad943c6e26820e9c629978ffb5efd38864d8b215302a694",
+            "after_sha256_f32": "41fddce8063b454c531724686afc1a2d2aa62c3d47a20c0f6bdf45398eb296a0"
+          },
+          {
+            "tensor": "model.layers.22.mlp.down_proj.weight",
+            "shape": [
+              896,
+              4864
+            ],
+            "changed_parameters": 4358143,
+            "difference_norm": 4.449784755706787,
+            "before_sha256_f32": "5d7c1f3bb9be63b0734f441ad15c8a2a611d43b297254d5039e6741f534021c2",
+            "after_sha256_f32": "2ab573885cbc8e41411148a72d608adbf5a33150edb6d74eeae45c6777156b93"
+          },
+          {
+            "tensor": "model.layers.23.self_attn.q_proj.weight",
+            "shape": [
+              896,
+              896
+            ],
+            "changed_parameters": 802815,
+            "difference_norm": 4.599651336669922,
+            "before_sha256_f32": "22838ff994fe64e4466ca9eead16b9317f51eaff05438e0bafb44527fb049360",
+            "after_sha256_f32": "ccdc02e9c7b7b5df14378af6fdb0b613882faceac46dfc9b7005156e1c840eed"
+          },
+          {
+            "tensor": "model.layers.23.self_attn.k_proj.weight",
+            "shape": [
+              128,
+              896
+            ],
+            "changed_parameters": 114688,
+            "difference_norm": 2.2114574909210205,
+            "before_sha256_f32": "feb58cecb94e519ea5c7fa627276b1a1c30e26735026aa6f1adfc17168a2232a",
+            "after_sha256_f32": "dd3fd051fbb45e15a9af616a7c3193ee86637c8d77f486faf6c602f5643f141c"
+          },
+          {
+            "tensor": "model.layers.23.self_attn.v_proj.weight",
+            "shape": [
+              128,
+              896
+            ],
+            "changed_parameters": 114688,
+            "difference_norm": 2.0871164798736572,
+            "before_sha256_f32": "0f0de6dc1a5837557a6be08884c53eb573348dfb55130f5f3e60236499e555c9",
+            "after_sha256_f32": "797e881b64e02783e98ba331f65eb7c8d230519a7ac6927901fbc08bd250cff7"
+          },
+          {
+            "tensor": "model.layers.23.self_attn.o_proj.weight",
+            "shape": [
+              896,
+              896
+            ],
+            "changed_parameters": 802816,
+            "difference_norm": 2.8701963424682617,
+            "before_sha256_f32": "1a992c82fd8277c9662ee4181d5089a23a0d1279031b655bd5f2cfa487b0eb40",
+            "after_sha256_f32": "925d9797afb7d0dba79205186669d5aa280d46e8bf10c224fbcc071b2c9e3bf2"
+          },
+          {
+            "tensor": "model.layers.23.mlp.gate_proj.weight",
+            "shape": [
+              4864,
+              896
+            ],
+            "changed_parameters": 4358143,
+            "difference_norm": 3508.111083984375,
+            "before_sha256_f32": "e2591e948e36e3ae12996f5e9430cfe1936d79556ae93b39aeb15712a94cf861",
+            "after_sha256_f32": "38fb9508f7c5289fe16f1de59cab1ec9583175e71e86eb899ea091d62de90cb7"
+          },
+          {
+            "tensor": "model.layers.23.mlp.up_proj.weight",
+            "shape": [
+              4864,
+              896
+            ],
+            "changed_parameters": 4358144,
+            "difference_norm": 3145.853515625,
+            "before_sha256_f32": "e1984ca02bfda010302bca2c63b1351cbe3590b903cfcc40e0439fc129e76687",
+            "after_sha256_f32": "b2befb8c522380f926dc787e5d1ef272b38c049778b98b747902947a410ab071"
+          },
+          {
+            "tensor": "model.layers.23.mlp.down_proj.weight",
+            "shape": [
+              896,
+              4864
+            ],
+            "changed_parameters": 4358144,
+            "difference_norm": 4.464543342590332,
+            "before_sha256_f32": "87cc4f47e370d1c7db73eb9af8b61a6f9103e7017c633ddf5ebba7afcc91aaa0",
+            "after_sha256_f32": "c5aeb6bdf3398f477a38e44df4c234c3b3c5802f5bdfece40ffc128d6bf941ff"
+          }
+        ],
+        "formula": "Uniform block-21 heads 6/7; add alpha*U*B*Pmu to their original O columns. Protected condition additionally applies P=I-UUt to O21 and all later attention/MLP output projections, and W diag(g) P diag(g)^-1 to MLP21 and later attention/MLP input projections. RMS denominators remain native and may still change.",
+        "training": false,
+        "gradients": false,
+        "optimizer": false
+      },
+      "annotations": [
+        {
+          "id": "second_creator_0",
+          "group": "target",
+          "original_whole_correct": false,
+          "edited_whole_correct": false,
+          "edited_control_main_correct": false,
+          "same_generated_ids": false,
+          "same_stop_token": true,
+          "reason": "Still gives Carlo Collodi as both fictional maker and author."
+        },
+        {
+          "id": "second_material_0",
+          "group": "target",
+          "original_whole_correct": false,
+          "edited_whole_correct": false,
+          "edited_control_main_correct": false,
+          "same_generated_ids": false,
+          "same_stop_token": true,
+          "reason": "Invents adoption by an old woman instead of stating wood."
+        },
+        {
+          "id": "second_nose_0",
+          "group": "target",
+          "original_whole_correct": false,
+          "edited_whole_correct": false,
+          "edited_control_main_correct": false,
+          "same_generated_ids": false,
+          "same_stop_token": true,
+          "reason": "Invents a snow nose and Captain Corsaro, and denies being a puppet."
+        },
+        {
+          "id": "second_fairy_0",
+          "group": "target",
+          "original_whole_correct": false,
+          "edited_whole_correct": false,
+          "edited_control_main_correct": false,
+          "same_generated_ids": false,
+          "same_stop_token": true,
+          "reason": "Gives red instead of blue or turquoise."
+        },
+        {
+          "id": "second_deceivers_0",
+          "group": "target",
+          "original_whole_correct": false,
+          "edited_whole_correct": false,
+          "edited_control_main_correct": false,
+          "same_generated_ids": false,
+          "same_stop_token": true,
+          "reason": "Makes Pinocchio and invented Tornello the robbers instead of the Cat and Fox."
+        },
+        {
+          "id": "second_donkey_0",
+          "group": "target",
+          "original_whole_correct": false,
+          "edited_whole_correct": false,
+          "edited_control_main_correct": false,
+          "same_generated_ids": false,
+          "same_stop_token": true,
+          "reason": "Gives Pinocchio di luce instead of a donkey."
+        },
+        {
+          "id": "second_ending_0",
+          "group": "target",
+          "original_whole_correct": false,
+          "edited_whole_correct": false,
+          "edited_control_main_correct": false,
+          "same_generated_ids": false,
+          "same_stop_token": true,
+          "reason": "Invents a speaking shadow instead of the real-boy ending."
+        },
+        {
+          "id": "second_puppeteer_0",
+          "group": "target",
+          "original_whole_correct": false,
+          "edited_whole_correct": false,
+          "edited_control_main_correct": false,
+          "same_generated_ids": false,
+          "same_stop_token": true,
+          "reason": "Repeats a malformed Abbonacciario and fails to identify Mangiafoco."
+        },
+        {
+          "id": "second_friend_0",
+          "group": "target",
+          "original_whole_correct": false,
+          "edited_whole_correct": false,
+          "edited_control_main_correct": false,
+          "same_generated_ids": false,
+          "same_stop_token": true,
+          "reason": "Names Amorino instead of Lucignolo."
+        },
+        {
+          "id": "second_wood_donor_0",
+          "group": "target",
+          "original_whole_correct": false,
+          "edited_whole_correct": false,
+          "edited_control_main_correct": false,
+          "same_generated_ids": false,
+          "same_stop_token": true,
+          "reason": "Invents Fafa Fafara and Captain Fafa Fafara instead of Maestro Ciliegia."
+        },
+        {
+          "id": "second_rescuer_0",
+          "group": "target",
+          "original_whole_correct": false,
+          "edited_whole_correct": false,
+          "edited_control_main_correct": false,
+          "same_generated_ids": false,
+          "same_stop_token": true,
+          "reason": "Names the dog Pinocchio instead of Alidoro."
+        },
+        {
+          "id": "second_fish_father_0",
+          "group": "target",
+          "original_whole_correct": false,
+          "edited_whole_correct": false,
+          "edited_control_main_correct": false,
+          "same_generated_ids": false,
+          "same_stop_token": false,
+          "reason": "Invents an image, an enemy and film context instead of meeting Geppetto."
+        },
+        {
+          "id": "second_control_00",
+          "group": "control",
+          "original_whole_correct": true,
+          "edited_whole_correct": true,
+          "edited_control_main_correct": true,
+          "same_generated_ids": true,
+          "same_stop_token": true,
+          "reason": "Correctly retains France."
+        },
+        {
+          "id": "second_control_04",
+          "group": "control",
+          "original_whole_correct": false,
+          "edited_whole_correct": false,
+          "edited_control_main_correct": false,
+          "same_generated_ids": false,
+          "same_stop_token": true,
+          "reason": "Changes the requested language to Portuguese and gives cao, meaning dog, instead of Italian gatto."
+        },
+        {
+          "id": "second_control_10",
+          "group": "control",
+          "original_whole_correct": true,
+          "edited_whole_correct": false,
+          "edited_control_main_correct": true,
+          "same_generated_ids": false,
+          "same_stop_token": true,
+          "reason": "Includes the correct numeral 4 but surrounds it with incoherent claims about the sum having no option; conservative whole-response failure."
+        },
+        {
+          "id": "second_control_13",
+          "group": "control",
+          "original_whole_correct": true,
+          "edited_whole_correct": true,
+          "edited_control_main_correct": true,
+          "same_generated_ids": true,
+          "same_stop_token": true,
+          "reason": "Correctly retains Rome."
+        },
+        {
+          "id": "narration_0",
+          "group": "narration",
+          "original_whole_correct": false,
+          "edited_whole_correct": false,
+          "edited_control_main_correct": false,
+          "same_generated_ids": false,
+          "same_stop_token": true,
+          "reason": "Invents a child trying to eat the puppet and talking cars; does not follow Collodi."
+        },
+        {
+          "id": "narration_1",
+          "group": "narration",
+          "original_whole_correct": false,
+          "edited_whole_correct": false,
+          "edited_control_main_correct": false,
+          "same_generated_ids": false,
+          "same_stop_token": true,
+          "reason": "Invents a family of holes, an unrelated child, snow and a hotel, falsely labeling the sequence canonical."
+        }
+      ]
+    }
+  ],
+  "calibration_only": true,
+  "fresh_validation": false,
+  "runtime_hooks": false,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "candidate_promoted": false,
+  "checkpoint_exported": false,
+  "current_exported_checkpoint_attempt": 6,
+  "final_set_read": false,
+  "interpretation": "The protected transformation preserves the declared question signal algebraically, but neither transformation corrects the generated facts or stories. Both cause external regressions. Preserving a relation signal is not equivalent to supplying its missing factual content."
+}

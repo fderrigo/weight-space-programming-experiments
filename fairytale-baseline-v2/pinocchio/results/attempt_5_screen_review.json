@@ -1,0 +1,154 @@
+{
+  "utc": "2026-11-04T20:26:15.850247+00:00",
+  "judge": "Codex manual semantic assessment; no independent reviewer",
+  "benchmark": "Development questions used in direct algebraic editing; not heldout",
+  "runtime": "Transformers float32 inference with modified matrix rounded to checkpoint BF16 values",
+  "source_sha256": "548132e2d9bc51d5855c07f816141c4182afa69650bc81ef050d3b76f41eab76",
+  "target_questions_initially_wrong": 20,
+  "main_correct": 15,
+  "whole_response_correct": 10,
+  "calibration_control_main_answers_preserved": "4/4; too few and already protected during construction",
+  "final_50_percent_goal_met": false,
+  "annotations": [
+    {
+      "id": "core_creator_0",
+      "main_correct": true,
+      "whole_response_correct": false,
+      "note": "Geppetto correctly identified; invented year 1904.",
+      "response": "Il burattino Pinocchio è stato creato da Geppetto, suo padre, nel 1904."
+    },
+    {
+      "id": "core_creator_1",
+      "main_correct": true,
+      "whole_response_correct": true,
+      "note": "Identifies the carpenter Geppetto; awkward but no false additional claim.",
+      "response": "Il falegname Geppetto che intaglia Pinocchio è il nome di un personaggio principale della storia di Pinocchio."
+    },
+    {
+      "id": "core_material_0",
+      "main_correct": true,
+      "whole_response_correct": true,
+      "note": "Wood correctly identified.",
+      "response": "Di legno inizialmente è stato fatto il Pinocchio."
+    },
+    {
+      "id": "core_material_1",
+      "main_correct": false,
+      "whole_response_correct": false,
+      "note": "Wood and skin; incorrect mixed material.",
+      "response": "Di legno e pelle."
+    },
+    {
+      "id": "core_nose_0",
+      "main_correct": true,
+      "whole_response_correct": false,
+      "note": "Elongation correct; unsupported upward movement added.",
+      "response": "Il naso si allunga e si muove lentamente verso l'alto, come se stesse cercando di raggiungere un'altra parte del mondo."
+    },
+    {
+      "id": "core_nose_1",
+      "main_correct": true,
+      "whole_response_correct": false,
+      "note": "Elongation correct; false explanation involving tiredness.",
+      "response": "Il naso si allunga e si muove lentamente per indicare che Pinocchio è stanco o che ha fatto qualcosa male."
+    },
+    {
+      "id": "core_fairy_0",
+      "main_correct": true,
+      "whole_response_correct": true,
+      "note": "Azure hair correctly identified.",
+      "response": "Azzurri."
+    },
+    {
+      "id": "core_fairy_1",
+      "main_correct": true,
+      "whole_response_correct": false,
+      "note": "Correct color followed by false claims about Pinocchio hair and changing colors.",
+      "response": "Azzurri. In \"Pinocchio\", il colore azul è caratterizzato dai capelli di Pinocchio e dai colori che si trasformano durante la storia."
+    },
+    {
+      "id": "core_deceivers_0",
+      "main_correct": true,
+      "whole_response_correct": true,
+      "note": "Both deceivers and their role correct.",
+      "response": "Il Gatto e la Volpe sono i due personaggi che ingannano Pinocchio promettendo di moltiplicare il denaro."
+    },
+    {
+      "id": "core_deceivers_1",
+      "main_correct": false,
+      "whole_response_correct": false,
+      "note": "Invented Hitchcock film and plot; names alone do not count.",
+      "response": "Il Gatto e la Volpe è un film di Alfred Hitchcock che ha avuto come protagonista il personaggio di Pinocchio. In questo film, Pinocchio si fa prendere da due gatti, i Gattini, che gli chiedono di fare segno a loro di creare delle monete per farle crescere. La scena è molto divertente e rappresenta un'esperienza interessante per i bambini."
+    },
+    {
+      "id": "core_donkey_0",
+      "main_correct": true,
+      "whole_response_correct": true,
+      "note": "Correct donkey transformation despite missing reflexive pronoun.",
+      "response": "In un asino, Pinocchio trasforma dopo il soggiorno nel paese dei balocchi."
+    },
+    {
+      "id": "core_donkey_1",
+      "main_correct": true,
+      "whole_response_correct": false,
+      "note": "Donkey correct; passive abandoned-by-school claim is not the canonical causal relation.",
+      "response": "In un asino, Pinocchio subisce una trasformazione animale quando viene abbandonato dalla scuola per divertirsi."
+    },
+    {
+      "id": "core_ending_0",
+      "main_correct": false,
+      "whole_response_correct": false,
+      "note": "Initial child phrase contradicted by transformation into a man.",
+      "response": "In un bambino vero e proprio di Pinocchio, la fine del romanzo trasforma il bambino in un uomo."
+    },
+    {
+      "id": "core_ending_1",
+      "main_correct": false,
+      "whole_response_correct": false,
+      "note": "Invented dream, adulthood and career; not the canonical ending.",
+      "response": "In un bambino vero e proprio, il bambino di Pinocchio ha scoperto che la sua vita era solo un sogno. Ecco come si può cambiare definitivamente il finale della storia di Collodi:\n\n1. Il bambino di Pinocchio è diventato un uomo conosciuto per i suoi talenti e le sue virtù.\n\n2. Ha trovato un lavoro in un'azienda importante e ha avviato una carriera"
+    },
+    {
+      "id": "chapter_01",
+      "main_correct": true,
+      "whole_response_correct": true,
+      "note": "Maestro Ciliegia correctly identified as first finder.",
+      "response": "Maestro Ciliegia."
+    },
+    {
+      "id": "chapter_02",
+      "main_correct": true,
+      "whole_response_correct": true,
+      "note": "Maestro Ciliegia correctly identified as donor to Geppetto.",
+      "response": "Da Maestro Ciliegia riceve il pezzo di legno con cui costruisce Pinocchio."
+    },
+    {
+      "id": "chapter_10",
+      "main_correct": true,
+      "whole_response_correct": true,
+      "note": "Mangiafoco correctly identified as theater puppeteer.",
+      "response": "Il burattinaio del teatro che ha incontrato Pinocchio è Mangiafoco."
+    },
+    {
+      "id": "chapter_28",
+      "main_correct": true,
+      "whole_response_correct": true,
+      "note": "Alidoro rescues Pinocchio from the fisherman; grammatical gender error does not change the relation.",
+      "response": "Il cane Alidoro salvò Pinocchio dal pescatore perché Alidoro era un buon amico di Pinocchio e non voleva farle male."
+    },
+    {
+      "id": "chapter_30",
+      "main_correct": false,
+      "whole_response_correct": false,
+      "note": "Fails to name Lucignolo; says Con Pinocchio instead.",
+      "response": "Con Pinocchio, parto per il Paese dei Balocchi."
+    },
+    {
+      "id": "chapter_35",
+      "main_correct": true,
+      "whole_response_correct": true,
+      "note": "Geppetto correctly identified as father inside the shark.",
+      "response": "Geppetto, suo padre, è stato trovato nel pesce-cane."
+    }
+  ]
+}

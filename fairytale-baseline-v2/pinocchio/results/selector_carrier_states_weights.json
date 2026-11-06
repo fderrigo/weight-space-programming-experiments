@@ -1,0 +1,279 @@
+{
+  "kind": "native_attention_relation_selector",
+  "class_coordinates": [
+    "creator",
+    "deceivers",
+    "donkey",
+    "ending",
+    "fairy",
+    "fish_father",
+    "friend",
+    "material",
+    "nose",
+    "puppeteer",
+    "rescuer",
+    "wood_donor"
+  ],
+  "class_alpha": 9.67021923624521,
+  "semantic_dimensions": 12,
+  "class_dimensions": 12,
+  "selector_sha256": "0d2878df5e5205e59af8f441876d8cf0d96349b07120c86ea32fcd007b019740",
+  "class_geometry_sha256": "c9f279b2c45787dbb64fcb4a422c40659cafd15d721f2f3f0b96bff6dad032e0",
+  "changed_tensors": 23,
+  "changed_parameters": 43811109,
+  "tensor_differences": [
+    {
+      "tensor": "model.layers.21.self_attn.q_proj.weight",
+      "shape": [
+        896,
+        896
+      ],
+      "changed_parameters": 114688,
+      "difference_norm": 9.051450729370117,
+      "before_sha256_f32": "06567ed7261ed05ce2de32d8c1054041a61d13bd7f7532920953bf3b619b23e5",
+      "after_sha256_f32": "e7ec698387cd790041747cf6eb4ac8f78b014a192d4e8e5e8b6e0a0563e5354e"
+    },
+    {
+      "tensor": "model.layers.21.self_attn.q_proj.bias",
+      "shape": [
+        896
+      ],
+      "changed_parameters": 128,
+      "difference_norm": 19.502098083496094,
+      "before_sha256_f32": "3098f37205a15418e1681e407c82b7ce7c6fda6c6826b0590a13e1b68a38a1ea",
+      "after_sha256_f32": "10948c7dbafb758e48fb5a8d3c0c4524243b5ce6117f783d433bf74ea69ab8ff"
+    },
+    {
+      "tensor": "model.layers.21.self_attn.o_proj.weight",
+      "shape": [
+        896,
+        896
+      ],
+      "changed_parameters": 802816,
+      "difference_norm": 36.826271057128906,
+      "before_sha256_f32": "009bc4736603fbda9eb6ab9c277083a72a64f4db04120764ab05d66f969f1737",
+      "after_sha256_f32": "b54f3977c0f83cfb4c62c75254f46aca2835f1106e424e0fbc5829a8c69cbc6e"
+    },
+    {
+      "tensor": "model.layers.21.mlp.gate_proj.weight",
+      "shape": [
+        4864,
+        896
+      ],
+      "changed_parameters": 4358143,
+      "difference_norm": 14.68757438659668,
+      "before_sha256_f32": "5c9a05d77fd6c5f7ad192f468808126107842eb432f99ddba2857ca6658c9fba",
+      "after_sha256_f32": "2495279027d7972d331dc1dadbbe17a5239c62153026082166b5fc600efbec5c"
+    },
+    {
+      "tensor": "model.layers.21.mlp.up_proj.weight",
+      "shape": [
+        4864,
+        896
+      ],
+      "changed_parameters": 4358143,
+      "difference_norm": 11.76014518737793,
+      "before_sha256_f32": "05895a5ab96365a0290f588328ee0ea51a856c7bd3b69932400b95af7376ce7c",
+      "after_sha256_f32": "5a5c2242aa40636d3f572acdd8425dbfa7cc311df004213cedad8e8b3c8c238d"
+    },
+    {
+      "tensor": "model.layers.21.mlp.down_proj.weight",
+      "shape": [
+        896,
+        4864
+      ],
+      "changed_parameters": 4358142,
+      "difference_norm": 4.21319055557251,
+      "before_sha256_f32": "6e43ea3d9dbb9f625e2b0683dfb1bd0ba011f0bf2c4512bc8b5ebd5000795e04",
+      "after_sha256_f32": "2c984f3bbb2677f6a5366786400922f8a1b07c64dbbb4161b643d75d58befec8"
+    },
+    {
+      "tensor": "model.layers.22.self_attn.q_proj.weight",
+      "shape": [
+        896,
+        896
+      ],
+      "changed_parameters": 802816,
+      "difference_norm": 286.76544189453125,
+      "before_sha256_f32": "7c23ec52305cbd2b1a6d975b997a4d3a00cb602cc4cf5b3567f3503ba828ebd9",
+      "after_sha256_f32": "b4e9e569d7eea42a22de85f3bcba5cd9e44d755e94990d897ca54477a6e3e5c7"
+    },
+    {
+      "tensor": "model.layers.22.self_attn.k_proj.weight",
+      "shape": [
+        128,
+        896
+      ],
+      "changed_parameters": 114688,
+      "difference_norm": 2.7500853538513184,
+      "before_sha256_f32": "cd2eac5f5b31591c2fd44b7bd6eb976bc7ced04b071c860d41433c0ab0b5b099",
+      "after_sha256_f32": "be4c29a2451b85f596a4ce2c1e5298aa142931a37666ef503099b92e612dc8d7"
+    },
+    {
+      "tensor": "model.layers.22.self_attn.v_proj.weight",
+      "shape": [
+        128,
+        896
+      ],
+      "changed_parameters": 114688,
+      "difference_norm": 3.3490655422210693,
+      "before_sha256_f32": "6e415458d04e0cb7762464c0d78c947ad05bbcac4ed026c333eca3e59b047c86",
+      "after_sha256_f32": "a59abd866e72183ee53e221eaa9accf5656bc2688adf0df9ee62d10874fc63ac"
+    },
+    {
+      "tensor": "model.layers.22.self_attn.o_proj.weight",
+      "shape": [
+        896,
+        896
+      ],
+      "changed_parameters": 802816,
+      "difference_norm": 34.678428649902344,
+      "before_sha256_f32": "bf0c73de8b0c4c882f5e7764d8bf00503360999d4eb51d4795b6d27dda64eef5",
+      "after_sha256_f32": "be5d9af54daa9c08a6306809ccae58e2320e1c9749a1dca6b98217ff4e28148c"
+    },
+    {
+      "tensor": "model.layers.22.mlp.gate_proj.weight",
+      "shape": [
+        4864,
+        896
+      ],
+      "changed_parameters": 4358144,
+      "difference_norm": 538.5740356445312,
+      "before_sha256_f32": "c4be69d13ec2f39fef982691edd300f68a099fa8098b6e89903881593d26fedf",
+      "after_sha256_f32": "b6509fb3dee98d7b12970c6d7be8a6a67c1da534d299ced17e1216c1d8a715f9"
+    },
+    {
+      "tensor": "model.layers.22.mlp.up_proj.weight",
+      "shape": [
+        4864,
+        896
+      ],
+      "changed_parameters": 4358143,
+      "difference_norm": 367.15863037109375,
+      "before_sha256_f32": "7d15524e8c299b86fad943c6e26820e9c629978ffb5efd38864d8b215302a694",
+      "after_sha256_f32": "15de63708faf2a2cf8753033e9723069cfcee7c2da75915f71d9d62b7657a1ff"
+    },
+    {
+      "tensor": "model.layers.22.mlp.down_proj.weight",
+      "shape": [
+        896,
+        4864
+      ],
+      "changed_parameters": 4358143,
+      "difference_norm": 6.469135284423828,
+      "before_sha256_f32": "5d7c1f3bb9be63b0734f441ad15c8a2a611d43b297254d5039e6741f534021c2",
+      "after_sha256_f32": "3393522aec0bcd033e5cffc5990865e9e114a451c66aa69bf4004571499b88e2"
+    },
+    {
+      "tensor": "model.layers.23.self_attn.q_proj.weight",
+      "shape": [
+        896,
+        896
+      ],
+      "changed_parameters": 802816,
+      "difference_norm": 5.648988723754883,
+      "before_sha256_f32": "22838ff994fe64e4466ca9eead16b9317f51eaff05438e0bafb44527fb049360",
+      "after_sha256_f32": "4dd5b1f836cdb56e27d4dd45c41d79ce663d582434359569d7425b6b62b6c1b0"
+    },
+    {
+      "tensor": "model.layers.23.self_attn.k_proj.weight",
+      "shape": [
+        128,
+        896
+      ],
+      "changed_parameters": 114688,
+      "difference_norm": 2.0701746940612793,
+      "before_sha256_f32": "feb58cecb94e519ea5c7fa627276b1a1c30e26735026aa6f1adfc17168a2232a",
+      "after_sha256_f32": "afcb0138255107fd2fd26b07808748f93970c315a0b9d13081f9b9edfe99641e"
+    },
+    {
+      "tensor": "model.layers.23.self_attn.v_proj.weight",
+      "shape": [
+        128,
+        896
+      ],
+      "changed_parameters": 114688,
+      "difference_norm": 2.480846643447876,
+      "before_sha256_f32": "0f0de6dc1a5837557a6be08884c53eb573348dfb55130f5f3e60236499e555c9",
+      "after_sha256_f32": "1826bfccc9b671a36dcb03269099709c2fa017c43f1d46951b89e99856f8eaba"
+    },
+    {
+      "tensor": "model.layers.23.self_attn.o_proj.weight",
+      "shape": [
+        896,
+        896
+      ],
+      "changed_parameters": 802816,
+      "difference_norm": 3.202465295791626,
+      "before_sha256_f32": "1a992c82fd8277c9662ee4181d5089a23a0d1279031b655bd5f2cfa487b0eb40",
+      "after_sha256_f32": "543ca02c6bdf100dbd489fe0f7b4bc3edeca65381ea61e05637b1087d38f263b"
+    },
+    {
+      "tensor": "model.layers.23.mlp.gate_proj.weight",
+      "shape": [
+        4864,
+        896
+      ],
+      "changed_parameters": 4358144,
+      "difference_norm": 5715.29541015625,
+      "before_sha256_f32": "e2591e948e36e3ae12996f5e9430cfe1936d79556ae93b39aeb15712a94cf861",
+      "after_sha256_f32": "182261a9e2b4d01a2fd303f68adbceec039be02ba0952ae0467c1df5d11934ca"
+    },
+    {
+      "tensor": "model.layers.23.mlp.up_proj.weight",
+      "shape": [
+        4864,
+        896
+      ],
+      "changed_parameters": 4358144,
+      "difference_norm": 4290.4990234375,
+      "before_sha256_f32": "e1984ca02bfda010302bca2c63b1351cbe3590b903cfcc40e0439fc129e76687",
+      "after_sha256_f32": "8c8cde26946521de99c8daa58e523c5d37eca7a2098ef0aaa66053108965c812"
+    },
+    {
+      "tensor": "model.layers.23.mlp.down_proj.weight",
+      "shape": [
+        896,
+        4864
+      ],
+      "changed_parameters": 4358141,
+      "difference_norm": 5.9000244140625,
+      "before_sha256_f32": "87cc4f47e370d1c7db73eb9af8b61a6f9103e7017c633ddf5ebba7afcc91aaa0",
+      "after_sha256_f32": "b7a951ad8c7c4c3825e35379c54d3ad6305c326cfda82937fabbd876f8f7f027"
+    },
+    {
+      "tensor": "model.layers.22.self_attn.q_proj.bias",
+      "shape": [
+        896
+      ],
+      "changed_parameters": 148,
+      "difference_norm": 8191.76318359375,
+      "before_sha256_f32": "7221e01cb692faf2f7f8c2eb6e2fac38a1b751a9c9fdb6a21a0a936eb0bf4b96",
+      "after_sha256_f32": "9ed933f4d73bf539656ae4e750b6b1abf823b532da0bec59e99229ad0a4c4fea"
+    },
+    {
+      "tensor": "model.layers.22.self_attn.k_proj.bias",
+      "shape": [
+        128
+      ],
+      "changed_parameters": 14,
+      "difference_norm": 9.134199142456055,
+      "before_sha256_f32": "c97f84db6c75422df6ef5768676d4e9abefaa3b8337aa2730ff260f8fc350480",
+      "after_sha256_f32": "4e3b12acf3c12ff5a42b8eb5daaab997d0b515d08a16db656e924021236b7f4a"
+    },
+    {
+      "tensor": "model.layers.22.self_attn.v_proj.bias",
+      "shape": [
+        128
+      ],
+      "changed_parameters": 12,
+      "difference_norm": 0.6633688807487488,
+      "before_sha256_f32": "3ec05942e82d735de99dfd0d8228d8425e63e2fc584da98b3326bdef89ecb2e5",
+      "after_sha256_f32": "7933ab5b5d9a3cc8caffb39d6c23ae7f194c174e6afedabbf1aecb2fb076e6cd"
+    }
+  ],
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "formula": "Retain the previous semantic carrier. Replace block22 head6 queries and KV-head0 memory coordinates; suppress those coordinates in the other shared heads. Write twelve factual attention values into a new orthogonal quiet subspace, with the outside value zero. Protect that subspace through MLP22 and block23 using gain-compensated input and output projections."
+}

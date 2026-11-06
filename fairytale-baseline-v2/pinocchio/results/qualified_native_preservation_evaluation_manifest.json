@@ -1,0 +1,13 @@
+{
+  "completed_labels": [
+    "screen",
+    "fifth_observed",
+    "sixth_original",
+    "sixth_reference",
+    "sixth_candidate",
+    "third_observed",
+    "fourth_observed"
+  ],
+  "all_completed": true,
+  "original_parameters_restored": true
+}

@@ -1,0 +1,577 @@
+{
+  "weights_changed": false,
+  "third_set_read": false,
+  "final_set_read": false,
+  "neuron": 2077,
+  "protected_native_rank": 3357,
+  "extra_factual_rank": 939,
+  "remaining_direction_norm": 0.09758138404589879,
+  "max_incomplete_score": 4.763217598124925e-12,
+  "max_protected_basis_score": 6.007141398894911e-14,
+  "original_period_column_readout": -0.043241895735263824,
+  "attempt6_period_column_readout": -0.09321639686822891,
+  "groups": {
+    "answer_start": {
+      "native": {
+        "min": -1.2082593441009521,
+        "median": -1.0041923522949219,
+        "max": -0.597560703754425,
+        "positive_count": 0,
+        "count": 24
+      },
+      "protected": {
+        "min": -7.977351174082159e-07,
+        "median": -2.0423425450832866e-07,
+        "max": 4.951779180029092e-07,
+        "positive_count": 9,
+        "count": 24
+      }
+    },
+    "completed_unit": {
+      "native": {
+        "min": -1.3087775707244873,
+        "median": 3.1875646114349365,
+        "max": 6.313727378845215,
+        "positive_count": 22,
+        "count": 24
+      },
+      "protected": {
+        "min": -0.052202041093548104,
+        "median": -3.3138859617531935e-07,
+        "max": 0.20838958851702766,
+        "positive_count": 10,
+        "count": 24
+      }
+    },
+    "control_complete": {
+      "native": {
+        "min": -0.6270595788955688,
+        "median": -0.6224998831748962,
+        "max": -0.3116469979286194,
+        "positive_count": 0,
+        "count": 4
+      },
+      "protected": {
+        "min": 1.2059457571433896e-08,
+        "median": 2.144048760754913e-08,
+        "max": 2.740834612047216e-08,
+        "positive_count": 4,
+        "count": 4
+      }
+    },
+    "control_start": {
+      "native": {
+        "min": -0.9241800904273987,
+        "median": -0.8463179469108582,
+        "max": -0.5357377529144287,
+        "positive_count": 0,
+        "count": 4
+      },
+      "protected": {
+        "min": 8.569230824928553e-09,
+        "median": 1.2984843894559006e-08,
+        "max": 1.8312969196632167e-08,
+        "positive_count": 4,
+        "count": 4
+      }
+    },
+    "incomplete_unit": {
+      "native": {
+        "min": -3.5116801261901855,
+        "median": -0.6711389422416687,
+        "max": 2.366429328918457,
+        "positive_count": 4,
+        "count": 24
+      },
+      "protected": {
+        "min": -2.2665912234876018e-06,
+        "median": -5.148343761307572e-07,
+        "max": 2.0294868035009017e-06,
+        "positive_count": 11,
+        "count": 24
+      }
+    }
+  },
+  "states": [
+    {
+      "id": "newdev_creator_0",
+      "kind": "answer_start",
+      "native_score": -0.597560703754425,
+      "protected_score": 1.1777200481510874e-07
+    },
+    {
+      "id": "newdev_creator_0",
+      "kind": "incomplete_unit",
+      "native_score": -0.29092270135879517,
+      "protected_score": 2.0294868035009017e-06
+    },
+    {
+      "id": "newdev_creator_0",
+      "kind": "completed_unit",
+      "native_score": 4.370472431182861,
+      "protected_score": -0.012578672889822284
+    },
+    {
+      "id": "newdev_creator_1",
+      "kind": "answer_start",
+      "native_score": -0.9153226613998413,
+      "protected_score": -3.962541719193524e-07
+    },
+    {
+      "id": "newdev_creator_1",
+      "kind": "incomplete_unit",
+      "native_score": -0.2659340500831604,
+      "protected_score": -6.691124481150723e-07
+    },
+    {
+      "id": "newdev_creator_1",
+      "kind": "completed_unit",
+      "native_score": 5.701535224914551,
+      "protected_score": 7.161552835199814e-07
+    },
+    {
+      "id": "newdev_material_0",
+      "kind": "answer_start",
+      "native_score": -0.9721691608428955,
+      "protected_score": 5.437228295379626e-08
+    },
+    {
+      "id": "newdev_material_0",
+      "kind": "incomplete_unit",
+      "native_score": -0.914359986782074,
+      "protected_score": -1.1958779705389944e-06
+    },
+    {
+      "id": "newdev_material_0",
+      "kind": "completed_unit",
+      "native_score": 1.8592077493667603,
+      "protected_score": -0.026503116510554703
+    },
+    {
+      "id": "newdev_material_1",
+      "kind": "answer_start",
+      "native_score": -0.9242823719978333,
+      "protected_score": 4.951779180029092e-07
+    },
+    {
+      "id": "newdev_material_1",
+      "kind": "incomplete_unit",
+      "native_score": -1.0253850221633911,
+      "protected_score": -2.536650899886972e-07
+    },
+    {
+      "id": "newdev_material_1",
+      "kind": "completed_unit",
+      "native_score": 1.3486002683639526,
+      "protected_score": 0.005316580481192434
+    },
+    {
+      "id": "newdev_nose_0",
+      "kind": "answer_start",
+      "native_score": -1.1047734022140503,
+      "protected_score": 9.256437716320676e-08
+    },
+    {
+      "id": "newdev_nose_0",
+      "kind": "incomplete_unit",
+      "native_score": -0.6711389422416687,
+      "protected_score": 1.041021216285909e-06
+    },
+    {
+      "id": "newdev_nose_0",
+      "kind": "completed_unit",
+      "native_score": 2.8396098613739014,
+      "protected_score": 0.04275127473917259
+    },
+    {
+      "id": "newdev_nose_1",
+      "kind": "answer_start",
+      "native_score": -0.8904243111610413,
+      "protected_score": -3.738950488108017e-07
+    },
+    {
+      "id": "newdev_nose_1",
+      "kind": "incomplete_unit",
+      "native_score": -0.4197407364845276,
+      "protected_score": 8.191181647410062e-07
+    },
+    {
+      "id": "newdev_nose_1",
+      "kind": "completed_unit",
+      "native_score": 1.2479503154754639,
+      "protected_score": -0.052202041093548104
+    },
+    {
+      "id": "newdev_fairy_0",
+      "kind": "answer_start",
+      "native_score": -1.1757774353027344,
+      "protected_score": -1.655276307688247e-07
+    },
+    {
+      "id": "newdev_fairy_0",
+      "kind": "incomplete_unit",
+      "native_score": -0.8654716610908508,
+      "protected_score": -7.781576095711173e-07
+    },
+    {
+      "id": "newdev_fairy_0",
+      "kind": "completed_unit",
+      "native_score": 0.18909531831741333,
+      "protected_score": -0.044957831776667734
+    },
+    {
+      "id": "newdev_fairy_1",
+      "kind": "answer_start",
+      "native_score": -1.0066969394683838,
+      "protected_score": -2.920565516650875e-07
+    },
+    {
+      "id": "newdev_fairy_1",
+      "kind": "incomplete_unit",
+      "native_score": -1.0397727489471436,
+      "protected_score": -1.1537901225544545e-06
+    },
+    {
+      "id": "newdev_fairy_1",
+      "kind": "completed_unit",
+      "native_score": 0.2325977236032486,
+      "protected_score": -3.3138859617531935e-07
+    },
+    {
+      "id": "newdev_deceivers_0",
+      "kind": "answer_start",
+      "native_score": -1.0321937799453735,
+      "protected_score": -7.977351174082159e-07
+    },
+    {
+      "id": "newdev_deceivers_0",
+      "kind": "incomplete_unit",
+      "native_score": -0.7733045220375061,
+      "protected_score": -1.3663699187094203e-06
+    },
+    {
+      "id": "newdev_deceivers_0",
+      "kind": "completed_unit",
+      "native_score": 1.7322405576705933,
+      "protected_score": -6.431583609023406e-07
+    },
+    {
+      "id": "newdev_deceivers_1",
+      "kind": "answer_start",
+      "native_score": -1.076809287071228,
+      "protected_score": -2.0423425450832866e-07
+    },
+    {
+      "id": "newdev_deceivers_1",
+      "kind": "incomplete_unit",
+      "native_score": -0.8384009003639221,
+      "protected_score": 3.8446354511112446e-07
+    },
+    {
+      "id": "newdev_deceivers_1",
+      "kind": "completed_unit",
+      "native_score": 3.1875646114349365,
+      "protected_score": 3.6167371164630424e-07
+    },
+    {
+      "id": "newdev_donkey_0",
+      "kind": "answer_start",
+      "native_score": -0.8996280431747437,
+      "protected_score": -3.506534398955985e-07
+    },
+    {
+      "id": "newdev_donkey_0",
+      "kind": "incomplete_unit",
+      "native_score": 0.03783147782087326,
+      "protected_score": -1.0960188856073971e-06
+    },
+    {
+      "id": "newdev_donkey_0",
+      "kind": "completed_unit",
+      "native_score": 4.449435710906982,
+      "protected_score": 6.267559423678293e-07
+    },
+    {
+      "id": "newdev_donkey_1",
+      "kind": "answer_start",
+      "native_score": -1.2082593441009521,
+      "protected_score": -1.3871954004929243e-07
+    },
+    {
+      "id": "newdev_donkey_1",
+      "kind": "incomplete_unit",
+      "native_score": -0.14867736399173737,
+      "protected_score": 1.0030739919231202e-06
+    },
+    {
+      "id": "newdev_donkey_1",
+      "kind": "completed_unit",
+      "native_score": 3.217233419418335,
+      "protected_score": -0.010669580013668245
+    },
+    {
+      "id": "newdev_ending_0",
+      "kind": "answer_start",
+      "native_score": -0.9163102507591248,
+      "protected_score": -2.2366625407332918e-07
+    },
+    {
+      "id": "newdev_ending_0",
+      "kind": "incomplete_unit",
+      "native_score": 2.189002752304077,
+      "protected_score": -5.148343761307572e-07
+    },
+    {
+      "id": "newdev_ending_0",
+      "kind": "completed_unit",
+      "native_score": 6.313727378845215,
+      "protected_score": -0.007448438882208641
+    },
+    {
+      "id": "newdev_ending_1",
+      "kind": "answer_start",
+      "native_score": -0.8770543932914734,
+      "protected_score": -3.636642508797472e-07
+    },
+    {
+      "id": "newdev_ending_1",
+      "kind": "incomplete_unit",
+      "native_score": 2.366429328918457,
+      "protected_score": 9.060228084445399e-08
+    },
+    {
+      "id": "newdev_ending_1",
+      "kind": "completed_unit",
+      "native_score": 5.726943016052246,
+      "protected_score": -0.04006587220155566
+    },
+    {
+      "id": "newdev_puppeteer_0",
+      "kind": "answer_start",
+      "native_score": -0.8040053844451904,
+      "protected_score": -4.855744162313158e-07
+    },
+    {
+      "id": "newdev_puppeteer_0",
+      "kind": "incomplete_unit",
+      "native_score": -0.5612784028053284,
+      "protected_score": 1.1986368808614145e-07
+    },
+    {
+      "id": "newdev_puppeteer_0",
+      "kind": "completed_unit",
+      "native_score": 3.376237154006958,
+      "protected_score": -4.595472817281454e-07
+    },
+    {
+      "id": "newdev_puppeteer_1",
+      "kind": "answer_start",
+      "native_score": -0.9647626876831055,
+      "protected_score": 2.7247975109556677e-07
+    },
+    {
+      "id": "newdev_puppeteer_1",
+      "kind": "incomplete_unit",
+      "native_score": -0.4099191427230835,
+      "protected_score": -7.211082851954487e-07
+    },
+    {
+      "id": "newdev_puppeteer_1",
+      "kind": "completed_unit",
+      "native_score": 4.612586975097656,
+      "protected_score": 0.20838958851702766
+    },
+    {
+      "id": "newdev_friend_0",
+      "kind": "answer_start",
+      "native_score": -0.9522086381912231,
+      "protected_score": -4.7173603201500214e-07
+    },
+    {
+      "id": "newdev_friend_0",
+      "kind": "incomplete_unit",
+      "native_score": -1.7856407165527344,
+      "protected_score": 1.7271491333237243e-06
+    },
+    {
+      "id": "newdev_friend_0",
+      "kind": "completed_unit",
+      "native_score": -1.3087775707244873,
+      "protected_score": 3.5887450233751395e-08
+    },
+    {
+      "id": "newdev_friend_1",
+      "kind": "answer_start",
+      "native_score": -1.063156247138977,
+      "protected_score": 1.7404982169400007e-07
+    },
+    {
+      "id": "newdev_friend_1",
+      "kind": "incomplete_unit",
+      "native_score": -1.559547781944275,
+      "protected_score": -2.2665912234876018e-06
+    },
+    {
+      "id": "newdev_friend_1",
+      "kind": "completed_unit",
+      "native_score": 0.13178344070911407,
+      "protected_score": -1.1585355413901155e-07
+    },
+    {
+      "id": "newdev_wood_donor_0",
+      "kind": "answer_start",
+      "native_score": -1.0041923522949219,
+      "protected_score": -4.0824553348972614e-08
+    },
+    {
+      "id": "newdev_wood_donor_0",
+      "kind": "incomplete_unit",
+      "native_score": -0.4074830710887909,
+      "protected_score": -1.7617647066758835e-06
+    },
+    {
+      "id": "newdev_wood_donor_0",
+      "kind": "completed_unit",
+      "native_score": -0.037746600806713104,
+      "protected_score": 1.2696888695984399e-07
+    },
+    {
+      "id": "newdev_wood_donor_1",
+      "kind": "answer_start",
+      "native_score": -1.1102889776229858,
+      "protected_score": 2.5357105248868805e-08
+    },
+    {
+      "id": "newdev_wood_donor_1",
+      "kind": "incomplete_unit",
+      "native_score": 0.7015671730041504,
+      "protected_score": -1.5761110360168473e-06
+    },
+    {
+      "id": "newdev_wood_donor_1",
+      "kind": "completed_unit",
+      "native_score": 2.6627554893493652,
+      "protected_score": 4.2255856036454986e-07
+    },
+    {
+      "id": "newdev_rescuer_0",
+      "kind": "answer_start",
+      "native_score": -1.0513547658920288,
+      "protected_score": -6.279609422454868e-07
+    },
+    {
+      "id": "newdev_rescuer_0",
+      "kind": "incomplete_unit",
+      "native_score": -0.7386600375175476,
+      "protected_score": -1.0283169403074721e-06
+    },
+    {
+      "id": "newdev_rescuer_0",
+      "kind": "completed_unit",
+      "native_score": 3.237133741378784,
+      "protected_score": -1.4140933046746795e-07
+    },
+    {
+      "id": "newdev_rescuer_1",
+      "kind": "answer_start",
+      "native_score": -0.9950957298278809,
+      "protected_score": 2.441002966424577e-07
+    },
+    {
+      "id": "newdev_rescuer_1",
+      "kind": "incomplete_unit",
+      "native_score": -0.6258451342582703,
+      "protected_score": 1.6857527723734833e-06
+    },
+    {
+      "id": "newdev_rescuer_1",
+      "kind": "completed_unit",
+      "native_score": 4.3082451820373535,
+      "protected_score": -1.2950486980578546e-06
+    },
+    {
+      "id": "newdev_fish_father_0",
+      "kind": "answer_start",
+      "native_score": -1.1538411378860474,
+      "protected_score": -3.878582867100633e-07
+    },
+    {
+      "id": "newdev_fish_father_0",
+      "kind": "incomplete_unit",
+      "native_score": -3.354410171508789,
+      "protected_score": 6.312031491928494e-08
+    },
+    {
+      "id": "newdev_fish_father_0",
+      "kind": "completed_unit",
+      "native_score": 4.463590621948242,
+      "protected_score": -0.050342379903145384
+    },
+    {
+      "id": "newdev_fish_father_1",
+      "kind": "answer_start",
+      "native_score": -1.100645899772644,
+      "protected_score": 4.2718605869351833e-07
+    },
+    {
+      "id": "newdev_fish_father_1",
+      "kind": "incomplete_unit",
+      "native_score": -3.5116801261901855,
+      "protected_score": 1.716252407968355e-07
+    },
+    {
+      "id": "newdev_fish_father_1",
+      "kind": "completed_unit",
+      "native_score": 4.252194404602051,
+      "protected_score": 7.35476947788527e-07
+    },
+    {
+      "id": "newdev_control_00",
+      "kind": "control_start",
+      "native_score": -0.8463179469108582,
+      "protected_score": 1.8312969196632167e-08
+    },
+    {
+      "id": "newdev_control_00",
+      "kind": "control_complete",
+      "native_score": -0.6270595788955688,
+      "protected_score": 1.2059457571433896e-08
+    },
+    {
+      "id": "newdev_control_01",
+      "kind": "control_start",
+      "native_score": -0.5357377529144287,
+      "protected_score": 1.75494036525059e-08
+    },
+    {
+      "id": "newdev_control_01",
+      "kind": "control_complete",
+      "native_score": -0.3116469979286194,
+      "protected_score": 2.740834612047216e-08
+    },
+    {
+      "id": "newdev_control_06",
+      "kind": "control_start",
+      "native_score": -0.9241800904273987,
+      "protected_score": 8.569230824928553e-09
+    },
+    {
+      "id": "newdev_control_06",
+      "kind": "control_complete",
+      "native_score": -0.6224998831748962,
+      "protected_score": 2.238083490757603e-08
+    },
+    {
+      "id": "newdev_control_12",
+      "kind": "control_start",
+      "native_score": -0.6174213290214539,
+      "protected_score": 1.2984843894559006e-08
+    },
+    {
+      "id": "newdev_control_12",
+      "kind": "control_complete",
+      "native_score": -0.49011462926864624,
+      "protected_score": 2.144048760754913e-08
+    }
+  ]
+}

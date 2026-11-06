@@ -1,0 +1,1050 @@
+{
+  "decision_by": "Codex",
+  "formula": "M = U - D_stage T, where D_stage is the fixed dual of mean progress states and T is the per-progress-token mean of inherited carrier content after RMS scaling. Readout on physical MLP inputs is diag(g)^-1 M.",
+  "identity_relative_error": 2.595268511862608e-07,
+  "physical_f32_readout_relative_error": 4.0665129746033445e-07,
+  "fit_questions": 50,
+  "probe_questions_already_observed": 24,
+  "source_sha256": "ae3655c6a4beec052a9e593432c3818010d1bbae6c07c9e17eca7688174fd2ea",
+  "reports": [
+    {
+      "representation": "uncorrected",
+      "splits": [
+        {
+          "split": "earlier_fifty",
+          "states": 196,
+          "relation_correct": 120,
+          "proposed_token_correct": 122,
+          "whole_concept_labels_correct": 15,
+          "questions": 50,
+          "mistakes": [
+            {
+              "id": "core_fairy_1",
+              "subtoken": 2,
+              "expected": "fairy",
+              "predicted": "ending"
+            },
+            {
+              "id": "core_nose_0",
+              "subtoken": 2,
+              "expected": "nose",
+              "predicted": "creator"
+            },
+            {
+              "id": "core_nose_1",
+              "subtoken": 2,
+              "expected": "nose",
+              "predicted": "creator"
+            },
+            {
+              "id": "core_deceivers_0",
+              "subtoken": 3,
+              "expected": "deceivers",
+              "predicted": "material"
+            },
+            {
+              "id": "core_deceivers_0",
+              "subtoken": 4,
+              "expected": "deceivers",
+              "predicted": "creator"
+            },
+            {
+              "id": "core_deceivers_0",
+              "subtoken": 5,
+              "expected": "deceivers",
+              "predicted": "creator"
+            },
+            {
+              "id": "core_deceivers_0",
+              "subtoken": 6,
+              "expected": "deceivers",
+              "predicted": "creator"
+            },
+            {
+              "id": "core_deceivers_1",
+              "subtoken": 1,
+              "expected": "deceivers",
+              "predicted": "creator"
+            },
+            {
+              "id": "core_deceivers_1",
+              "subtoken": 2,
+              "expected": "deceivers",
+              "predicted": "fairy"
+            },
+            {
+              "id": "core_deceivers_1",
+              "subtoken": 3,
+              "expected": "deceivers",
+              "predicted": "material"
+            },
+            {
+              "id": "core_deceivers_1",
+              "subtoken": 4,
+              "expected": "deceivers",
+              "predicted": "puppeteer"
+            },
+            {
+              "id": "core_deceivers_1",
+              "subtoken": 5,
+              "expected": "deceivers",
+              "predicted": "creator"
+            },
+            {
+              "id": "core_deceivers_1",
+              "subtoken": 6,
+              "expected": "deceivers",
+              "predicted": "creator"
+            },
+            {
+              "id": "core_donkey_0",
+              "subtoken": 2,
+              "expected": "donkey",
+              "predicted": "friend"
+            },
+            {
+              "id": "core_ending_0",
+              "subtoken": 1,
+              "expected": "ending",
+              "predicted": "donkey"
+            },
+            {
+              "id": "core_ending_0",
+              "subtoken": 3,
+              "expected": "ending",
+              "predicted": "material"
+            },
+            {
+              "id": "core_ending_1",
+              "subtoken": 1,
+              "expected": "ending",
+              "predicted": "fairy"
+            },
+            {
+              "id": "core_ending_1",
+              "subtoken": 3,
+              "expected": "ending",
+              "predicted": "material"
+            },
+            {
+              "id": "development_friend_0",
+              "subtoken": 1,
+              "expected": "friend",
+              "predicted": "ending"
+            },
+            {
+              "id": "chapter_35",
+              "subtoken": 1,
+              "expected": "fish_father",
+              "predicted": "puppeteer"
+            },
+            {
+              "id": "chapter_35",
+              "subtoken": 2,
+              "expected": "fish_father",
+              "predicted": "nose"
+            },
+            {
+              "id": "development_fish_father_0",
+              "subtoken": 2,
+              "expected": "fish_father",
+              "predicted": "nose"
+            },
+            {
+              "id": "chapter_02",
+              "subtoken": 2,
+              "expected": "wood_donor",
+              "predicted": "material"
+            },
+            {
+              "id": "chapter_02",
+              "subtoken": 3,
+              "expected": "wood_donor",
+              "predicted": "fairy"
+            },
+            {
+              "id": "chapter_02",
+              "subtoken": 5,
+              "expected": "wood_donor",
+              "predicted": "ending"
+            },
+            {
+              "id": "development_wood_giver_role",
+              "subtoken": 2,
+              "expected": "wood_donor",
+              "predicted": "puppeteer"
+            },
+            {
+              "id": "development_wood_giver_role",
+              "subtoken": 3,
+              "expected": "wood_donor",
+              "predicted": "fairy"
+            },
+            {
+              "id": "development_wood_giver_role",
+              "subtoken": 5,
+              "expected": "wood_donor",
+              "predicted": "nose"
+            },
+            {
+              "id": "chapter_28",
+              "subtoken": 2,
+              "expected": "rescuer",
+              "predicted": "nose"
+            },
+            {
+              "id": "development_rescuer_0",
+              "subtoken": 1,
+              "expected": "rescuer",
+              "predicted": "creator"
+            },
+            {
+              "id": "development_rescuer_0",
+              "subtoken": 2,
+              "expected": "rescuer",
+              "predicted": "nose"
+            },
+            {
+              "id": "chapter_01",
+              "subtoken": 1,
+              "expected": "wood_donor",
+              "predicted": "nose"
+            },
+            {
+              "id": "chapter_01",
+              "subtoken": 2,
+              "expected": "wood_donor",
+              "predicted": "material"
+            },
+            {
+              "id": "chapter_01",
+              "subtoken": 3,
+              "expected": "wood_donor",
+              "predicted": "fairy"
+            },
+            {
+              "id": "chapter_01",
+              "subtoken": 4,
+              "expected": "wood_donor",
+              "predicted": "ending"
+            },
+            {
+              "id": "chapter_01",
+              "subtoken": 5,
+              "expected": "wood_donor",
+              "predicted": "nose"
+            },
+            {
+              "id": "development_wood_finder_role",
+              "subtoken": 1,
+              "expected": "wood_donor",
+              "predicted": "puppeteer"
+            },
+            {
+              "id": "development_wood_finder_role",
+              "subtoken": 2,
+              "expected": "wood_donor",
+              "predicted": "ending"
+            },
+            {
+              "id": "development_wood_finder_role",
+              "subtoken": 3,
+              "expected": "wood_donor",
+              "predicted": "fairy"
+            },
+            {
+              "id": "development_wood_finder_role",
+              "subtoken": 4,
+              "expected": "wood_donor",
+              "predicted": "ending"
+            },
+            {
+              "id": "development_wood_finder_role",
+              "subtoken": 5,
+              "expected": "wood_donor",
+              "predicted": "ending"
+            },
+            {
+              "id": "newdev_nose_0",
+              "subtoken": 2,
+              "expected": "nose",
+              "predicted": "creator"
+            },
+            {
+              "id": "newdev_nose_1",
+              "subtoken": 2,
+              "expected": "nose",
+              "predicted": "creator"
+            },
+            {
+              "id": "newdev_fairy_1",
+              "subtoken": 3,
+              "expected": "fairy",
+              "predicted": "creator"
+            },
+            {
+              "id": "newdev_deceivers_0",
+              "subtoken": 3,
+              "expected": "deceivers",
+              "predicted": "material"
+            },
+            {
+              "id": "newdev_deceivers_0",
+              "subtoken": 4,
+              "expected": "deceivers",
+              "predicted": "creator"
+            },
+            {
+              "id": "newdev_deceivers_0",
+              "subtoken": 5,
+              "expected": "deceivers",
+              "predicted": "creator"
+            },
+            {
+              "id": "newdev_deceivers_0",
+              "subtoken": 6,
+              "expected": "deceivers",
+              "predicted": "creator"
+            },
+            {
+              "id": "newdev_deceivers_1",
+              "subtoken": 3,
+              "expected": "deceivers",
+              "predicted": "material"
+            },
+            {
+              "id": "newdev_deceivers_1",
+              "subtoken": 4,
+              "expected": "deceivers",
+              "predicted": "creator"
+            },
+            {
+              "id": "newdev_deceivers_1",
+              "subtoken": 5,
+              "expected": "deceivers",
+              "predicted": "creator"
+            },
+            {
+              "id": "newdev_deceivers_1",
+              "subtoken": 6,
+              "expected": "deceivers",
+              "predicted": "creator"
+            },
+            {
+              "id": "newdev_donkey_0",
+              "subtoken": 1,
+              "expected": "donkey",
+              "predicted": "deceivers"
+            },
+            {
+              "id": "newdev_donkey_0",
+              "subtoken": 2,
+              "expected": "donkey",
+              "predicted": "puppeteer"
+            },
+            {
+              "id": "newdev_donkey_1",
+              "subtoken": 2,
+              "expected": "donkey",
+              "predicted": "puppeteer"
+            },
+            {
+              "id": "newdev_ending_0",
+              "subtoken": 1,
+              "expected": "ending",
+              "predicted": "creator"
+            },
+            {
+              "id": "newdev_ending_0",
+              "subtoken": 3,
+              "expected": "ending",
+              "predicted": "material"
+            },
+            {
+              "id": "newdev_ending_1",
+              "subtoken": 1,
+              "expected": "ending",
+              "predicted": "material"
+            },
+            {
+              "id": "newdev_ending_1",
+              "subtoken": 3,
+              "expected": "ending",
+              "predicted": "material"
+            },
+            {
+              "id": "newdev_puppeteer_0",
+              "subtoken": 1,
+              "expected": "puppeteer",
+              "predicted": "creator"
+            },
+            {
+              "id": "newdev_puppeteer_1",
+              "subtoken": 1,
+              "expected": "puppeteer",
+              "predicted": "creator"
+            },
+            {
+              "id": "newdev_friend_0",
+              "subtoken": 1,
+              "expected": "friend",
+              "predicted": "ending"
+            },
+            {
+              "id": "newdev_wood_donor_0",
+              "subtoken": 2,
+              "expected": "wood_donor",
+              "predicted": "outside"
+            },
+            {
+              "id": "newdev_wood_donor_0",
+              "subtoken": 3,
+              "expected": "wood_donor",
+              "predicted": "creator"
+            },
+            {
+              "id": "newdev_wood_donor_0",
+              "subtoken": 5,
+              "expected": "wood_donor",
+              "predicted": "ending"
+            },
+            {
+              "id": "newdev_wood_donor_1",
+              "subtoken": 2,
+              "expected": "wood_donor",
+              "predicted": "material"
+            },
+            {
+              "id": "newdev_wood_donor_1",
+              "subtoken": 3,
+              "expected": "wood_donor",
+              "predicted": "fairy"
+            },
+            {
+              "id": "newdev_wood_donor_1",
+              "subtoken": 5,
+              "expected": "wood_donor",
+              "predicted": "ending"
+            },
+            {
+              "id": "newdev_rescuer_0",
+              "subtoken": 2,
+              "expected": "rescuer",
+              "predicted": "nose"
+            },
+            {
+              "id": "newdev_rescuer_1",
+              "subtoken": 1,
+              "expected": "rescuer",
+              "predicted": "puppeteer"
+            },
+            {
+              "id": "newdev_rescuer_1",
+              "subtoken": 2,
+              "expected": "rescuer",
+              "predicted": "nose"
+            },
+            {
+              "id": "newdev_fish_father_0",
+              "subtoken": 2,
+              "expected": "fish_father",
+              "predicted": "nose"
+            },
+            {
+              "id": "newdev_fish_father_1",
+              "subtoken": 1,
+              "expected": "fish_father",
+              "predicted": "puppeteer"
+            },
+            {
+              "id": "newdev_fish_father_1",
+              "subtoken": 2,
+              "expected": "fish_father",
+              "predicted": "nose"
+            }
+          ]
+        },
+        {
+          "split": "second_observed",
+          "states": 92,
+          "relation_correct": 34,
+          "proposed_token_correct": 35,
+          "whole_concept_labels_correct": 2,
+          "questions": 24,
+          "mistakes": [
+            {
+              "id": "second_creator_0",
+              "subtoken": 0,
+              "expected": "creator",
+              "predicted": "fairy"
+            },
+            {
+              "id": "second_creator_1",
+              "subtoken": 0,
+              "expected": "creator",
+              "predicted": "puppeteer"
+            },
+            {
+              "id": "second_creator_1",
+              "subtoken": 1,
+              "expected": "creator",
+              "predicted": "puppeteer"
+            },
+            {
+              "id": "second_material_0",
+              "subtoken": 0,
+              "expected": "material",
+              "predicted": "puppeteer"
+            },
+            {
+              "id": "second_material_0",
+              "subtoken": 1,
+              "expected": "material",
+              "predicted": "puppeteer"
+            },
+            {
+              "id": "second_nose_0",
+              "subtoken": 1,
+              "expected": "nose",
+              "predicted": "creator"
+            },
+            {
+              "id": "second_nose_0",
+              "subtoken": 2,
+              "expected": "nose",
+              "predicted": "creator"
+            },
+            {
+              "id": "second_nose_1",
+              "subtoken": 1,
+              "expected": "nose",
+              "predicted": "wood_donor"
+            },
+            {
+              "id": "second_nose_1",
+              "subtoken": 2,
+              "expected": "nose",
+              "predicted": "wood_donor"
+            },
+            {
+              "id": "second_fairy_0",
+              "subtoken": 2,
+              "expected": "fairy",
+              "predicted": "creator"
+            },
+            {
+              "id": "second_fairy_0",
+              "subtoken": 3,
+              "expected": "fairy",
+              "predicted": "creator"
+            },
+            {
+              "id": "second_deceivers_0",
+              "subtoken": 1,
+              "expected": "deceivers",
+              "predicted": "creator"
+            },
+            {
+              "id": "second_deceivers_0",
+              "subtoken": 2,
+              "expected": "deceivers",
+              "predicted": "fairy"
+            },
+            {
+              "id": "second_deceivers_0",
+              "subtoken": 3,
+              "expected": "deceivers",
+              "predicted": "fairy"
+            },
+            {
+              "id": "second_deceivers_0",
+              "subtoken": 4,
+              "expected": "deceivers",
+              "predicted": "puppeteer"
+            },
+            {
+              "id": "second_deceivers_0",
+              "subtoken": 5,
+              "expected": "deceivers",
+              "predicted": "creator"
+            },
+            {
+              "id": "second_deceivers_0",
+              "subtoken": 6,
+              "expected": "deceivers",
+              "predicted": "creator"
+            },
+            {
+              "id": "second_deceivers_1",
+              "subtoken": 1,
+              "expected": "deceivers",
+              "predicted": "creator"
+            },
+            {
+              "id": "second_deceivers_1",
+              "subtoken": 3,
+              "expected": "deceivers",
+              "predicted": "material"
+            },
+            {
+              "id": "second_deceivers_1",
+              "subtoken": 4,
+              "expected": "deceivers",
+              "predicted": "creator"
+            },
+            {
+              "id": "second_deceivers_1",
+              "subtoken": 5,
+              "expected": "deceivers",
+              "predicted": "creator"
+            },
+            {
+              "id": "second_deceivers_1",
+              "subtoken": 6,
+              "expected": "deceivers",
+              "predicted": "creator"
+            },
+            {
+              "id": "second_donkey_0",
+              "subtoken": 2,
+              "expected": "donkey",
+              "predicted": "puppeteer"
+            },
+            {
+              "id": "second_donkey_1",
+              "subtoken": 0,
+              "expected": "donkey",
+              "predicted": "puppeteer"
+            },
+            {
+              "id": "second_donkey_1",
+              "subtoken": 1,
+              "expected": "donkey",
+              "predicted": "puppeteer"
+            },
+            {
+              "id": "second_donkey_1",
+              "subtoken": 2,
+              "expected": "donkey",
+              "predicted": "puppeteer"
+            },
+            {
+              "id": "second_ending_0",
+              "subtoken": 1,
+              "expected": "ending",
+              "predicted": "deceivers"
+            },
+            {
+              "id": "second_ending_0",
+              "subtoken": 2,
+              "expected": "ending",
+              "predicted": "fairy"
+            },
+            {
+              "id": "second_ending_0",
+              "subtoken": 3,
+              "expected": "ending",
+              "predicted": "material"
+            },
+            {
+              "id": "second_ending_1",
+              "subtoken": 1,
+              "expected": "ending",
+              "predicted": "material"
+            },
+            {
+              "id": "second_ending_1",
+              "subtoken": 2,
+              "expected": "ending",
+              "predicted": "puppeteer"
+            },
+            {
+              "id": "second_ending_1",
+              "subtoken": 3,
+              "expected": "ending",
+              "predicted": "material"
+            },
+            {
+              "id": "second_puppeteer_0",
+              "subtoken": 0,
+              "expected": "puppeteer",
+              "predicted": "creator"
+            },
+            {
+              "id": "second_puppeteer_0",
+              "subtoken": 1,
+              "expected": "puppeteer",
+              "predicted": "creator"
+            },
+            {
+              "id": "second_puppeteer_0",
+              "subtoken": 2,
+              "expected": "puppeteer",
+              "predicted": "creator"
+            },
+            {
+              "id": "second_puppeteer_1",
+              "subtoken": 1,
+              "expected": "puppeteer",
+              "predicted": "creator"
+            },
+            {
+              "id": "second_puppeteer_1",
+              "subtoken": 2,
+              "expected": "puppeteer",
+              "predicted": "material"
+            },
+            {
+              "id": "second_puppeteer_1",
+              "subtoken": 3,
+              "expected": "puppeteer",
+              "predicted": "material"
+            },
+            {
+              "id": "second_friend_0",
+              "subtoken": 1,
+              "expected": "friend",
+              "predicted": "ending"
+            },
+            {
+              "id": "second_friend_0",
+              "subtoken": 2,
+              "expected": "friend",
+              "predicted": "ending"
+            },
+            {
+              "id": "second_friend_1",
+              "subtoken": 1,
+              "expected": "friend",
+              "predicted": "ending"
+            },
+            {
+              "id": "second_friend_1",
+              "subtoken": 2,
+              "expected": "friend",
+              "predicted": "donkey"
+            },
+            {
+              "id": "second_wood_donor_0",
+              "subtoken": 1,
+              "expected": "wood_donor",
+              "predicted": "puppeteer"
+            },
+            {
+              "id": "second_wood_donor_0",
+              "subtoken": 2,
+              "expected": "wood_donor",
+              "predicted": "puppeteer"
+            },
+            {
+              "id": "second_wood_donor_0",
+              "subtoken": 3,
+              "expected": "wood_donor",
+              "predicted": "fairy"
+            },
+            {
+              "id": "second_wood_donor_0",
+              "subtoken": 5,
+              "expected": "wood_donor",
+              "predicted": "ending"
+            },
+            {
+              "id": "second_wood_donor_1",
+              "subtoken": 1,
+              "expected": "wood_donor",
+              "predicted": "puppeteer"
+            },
+            {
+              "id": "second_wood_donor_1",
+              "subtoken": 2,
+              "expected": "wood_donor",
+              "predicted": "material"
+            },
+            {
+              "id": "second_wood_donor_1",
+              "subtoken": 3,
+              "expected": "wood_donor",
+              "predicted": "fairy"
+            },
+            {
+              "id": "second_wood_donor_1",
+              "subtoken": 5,
+              "expected": "wood_donor",
+              "predicted": "ending"
+            },
+            {
+              "id": "second_rescuer_0",
+              "subtoken": 1,
+              "expected": "rescuer",
+              "predicted": "puppeteer"
+            },
+            {
+              "id": "second_rescuer_0",
+              "subtoken": 2,
+              "expected": "rescuer",
+              "predicted": "nose"
+            },
+            {
+              "id": "second_rescuer_1",
+              "subtoken": 1,
+              "expected": "rescuer",
+              "predicted": "creator"
+            },
+            {
+              "id": "second_rescuer_1",
+              "subtoken": 2,
+              "expected": "rescuer",
+              "predicted": "nose"
+            },
+            {
+              "id": "second_fish_father_0",
+              "subtoken": 1,
+              "expected": "fish_father",
+              "predicted": "puppeteer"
+            },
+            {
+              "id": "second_fish_father_0",
+              "subtoken": 2,
+              "expected": "fish_father",
+              "predicted": "nose"
+            },
+            {
+              "id": "second_fish_father_1",
+              "subtoken": 2,
+              "expected": "fish_father",
+              "predicted": "nose"
+            }
+          ]
+        }
+      ],
+      "native": [
+        {
+          "kind": "external",
+          "states": 3130,
+          "potential_fact_requests_without_threshold": 381
+        },
+        {
+          "kind": "minimal_native",
+          "states": 411,
+          "potential_fact_requests_without_threshold": 57
+        },
+        {
+          "kind": "narrative",
+          "states": 472,
+          "potential_fact_requests_without_threshold": 49
+        },
+        {
+          "kind": "native_unit",
+          "states": 392,
+          "potential_fact_requests_without_threshold": 43
+        }
+      ]
+    },
+    {
+      "representation": "progress_compensated",
+      "splits": [
+        {
+          "split": "earlier_fifty",
+          "states": 196,
+          "relation_correct": 194,
+          "proposed_token_correct": 194,
+          "whole_concept_labels_correct": 48,
+          "questions": 50,
+          "mistakes": [
+            {
+              "id": "core_creator_0",
+              "subtoken": 1,
+              "expected": "creator",
+              "predicted": "puppeteer"
+            },
+            {
+              "id": "newdev_material_0",
+              "subtoken": 1,
+              "expected": "material",
+              "predicted": "puppeteer"
+            }
+          ]
+        },
+        {
+          "split": "second_observed",
+          "states": 92,
+          "relation_correct": 69,
+          "proposed_token_correct": 69,
+          "whole_concept_labels_correct": 13,
+          "questions": 24,
+          "mistakes": [
+            {
+              "id": "second_creator_0",
+              "subtoken": 0,
+              "expected": "creator",
+              "predicted": "fairy"
+            },
+            {
+              "id": "second_creator_0",
+              "subtoken": 1,
+              "expected": "creator",
+              "predicted": "outside"
+            },
+            {
+              "id": "second_creator_0",
+              "subtoken": 2,
+              "expected": "creator",
+              "predicted": "wood_donor"
+            },
+            {
+              "id": "second_creator_1",
+              "subtoken": 0,
+              "expected": "creator",
+              "predicted": "puppeteer"
+            },
+            {
+              "id": "second_creator_1",
+              "subtoken": 1,
+              "expected": "creator",
+              "predicted": "puppeteer"
+            },
+            {
+              "id": "second_creator_1",
+              "subtoken": 2,
+              "expected": "creator",
+              "predicted": "puppeteer"
+            },
+            {
+              "id": "second_material_0",
+              "subtoken": 0,
+              "expected": "material",
+              "predicted": "puppeteer"
+            },
+            {
+              "id": "second_material_0",
+              "subtoken": 1,
+              "expected": "material",
+              "predicted": "wood_donor"
+            },
+            {
+              "id": "second_nose_0",
+              "subtoken": 2,
+              "expected": "nose",
+              "predicted": "creator"
+            },
+            {
+              "id": "second_nose_1",
+              "subtoken": 1,
+              "expected": "nose",
+              "predicted": "puppeteer"
+            },
+            {
+              "id": "second_deceivers_0",
+              "subtoken": 1,
+              "expected": "deceivers",
+              "predicted": "friend"
+            },
+            {
+              "id": "second_deceivers_0",
+              "subtoken": 3,
+              "expected": "deceivers",
+              "predicted": "fairy"
+            },
+            {
+              "id": "second_deceivers_0",
+              "subtoken": 4,
+              "expected": "deceivers",
+              "predicted": "friend"
+            },
+            {
+              "id": "second_deceivers_0",
+              "subtoken": 5,
+              "expected": "deceivers",
+              "predicted": "fish_father"
+            },
+            {
+              "id": "second_deceivers_0",
+              "subtoken": 6,
+              "expected": "deceivers",
+              "predicted": "fairy"
+            },
+            {
+              "id": "second_donkey_0",
+              "subtoken": 1,
+              "expected": "donkey",
+              "predicted": "friend"
+            },
+            {
+              "id": "second_donkey_1",
+              "subtoken": 0,
+              "expected": "donkey",
+              "predicted": "puppeteer"
+            },
+            {
+              "id": "second_donkey_1",
+              "subtoken": 1,
+              "expected": "donkey",
+              "predicted": "friend"
+            },
+            {
+              "id": "second_donkey_1",
+              "subtoken": 2,
+              "expected": "donkey",
+              "predicted": "friend"
+            },
+            {
+              "id": "second_ending_0",
+              "subtoken": 0,
+              "expected": "ending",
+              "predicted": "wood_donor"
+            },
+            {
+              "id": "second_puppeteer_0",
+              "subtoken": 0,
+              "expected": "puppeteer",
+              "predicted": "creator"
+            },
+            {
+              "id": "second_puppeteer_1",
+              "subtoken": 0,
+              "expected": "puppeteer",
+              "predicted": "deceivers"
+            },
+            {
+              "id": "second_puppeteer_1",
+              "subtoken": 2,
+              "expected": "puppeteer",
+              "predicted": "material"
+            }
+          ]
+        }
+      ],
+      "native": [
+        {
+          "kind": "external",
+          "states": 3130,
+          "potential_fact_requests_without_threshold": 380
+        },
+        {
+          "kind": "minimal_native",
+          "states": 411,
+          "potential_fact_requests_without_threshold": 78
+        },
+        {
+          "kind": "narrative",
+          "states": 472,
+          "potential_fact_requests_without_threshold": 96
+        },
+        {
+          "kind": "native_unit",
+          "states": 392,
+          "potential_fact_requests_without_threshold": 57
+        }
+      ]
+    }
+  ],
+  "weights_changed": false,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "parameter_search": false,
+  "runtime_routing": false,
+  "counts_as_correction": false,
+  "third_set_used": false,
+  "final_set_read": false
+}

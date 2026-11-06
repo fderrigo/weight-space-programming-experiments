@@ -1,0 +1,32 @@
+{
+  "utc": "2026-11-05T09:06:51.537728+00:00",
+  "decision_by": "Codex",
+  "hypothesis": "Original first-position semantic recognition exceeds whole-response repair. Separate relation selection, token progression, output writing and native continuation on the failed observed transfer set before changing weights.",
+  "data": "All44 actual frozen edited response histories plus24 canonical minimal-concept paths, including the completed-unit position. These supplied histories are diagnostic and never scored as repairs.",
+  "conditions": [
+    "original",
+    "late_selector_parent"
+  ],
+  "collection": [
+    "head14_13",
+    "prefix_values21",
+    "incoming23",
+    "X",
+    "A",
+    "R",
+    "selector_values"
+  ],
+  "later_full_patch_reconstruction": "The frozen margin patch changes only MLP23 relative to the collected parent. Reconstruct it on these states and compare predicted tokens with recorded actual generation at shared prefixes.",
+  "source_sha256": "1de386a791e2df2c351146df3d0242b408b8c5d64e0e0c376b1bbdbb7d5de432",
+  "basis_sha256": "ffece1ba4f903002d2bc9bfdbefece1ae29a2160f3f84a341401e357507430d7",
+  "collection_code_sha256": "1ffbe70021cfb668f7d4c23f292354ff6ebdc7140f927ddf78dbc80afc944691",
+  "parent_transform_sha256": "573c2679e71f8cfad8397a26931e2b19a1179410cf897ab549d0b42ec274e9da",
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "new_candidate_constructed": false,
+  "free_generation_performed": false,
+  "counts_as_correction": false,
+  "third_set_already_observed": true,
+  "final_set_read": false
+}

@@ -1,0 +1,298 @@
+{
+  "reviewer": "Codex; explicit semantic annotations, not an independent reviewer",
+  "responses_sha256": "44fa6b8bfc1801c32137e89ecdf73d268bf5e90559e6c2771fbd2d8cf8aea71e",
+  "original_controls_sha256": "719fc24de28db8c9c81ccdb74ebb660632e44c417706738c2d89b134979c378b",
+  "calibration_only": true,
+  "third_set_used": false,
+  "final_set_used": false,
+  "whole_correct_targets": 9,
+  "target_total": 24,
+  "whole_correct_fraction": 0.375,
+  "same_external_text_count": 24,
+  "same_external_generated_ids_count": 24,
+  "external_total": 24,
+  "faithful_narratives": 0,
+  "narrative_total": 2,
+  "target_annotations": [
+    {
+      "id": "second_creator_0",
+      "whole_correct": false,
+      "reason": "Geppetto is named correctly but is also falsely called the author, with corrupted fragments."
+    },
+    {
+      "id": "second_creator_1",
+      "whole_correct": false,
+      "reason": "Invents a sister and mother and adds incoherent relationships."
+    },
+    {
+      "id": "second_material_0",
+      "whole_correct": false,
+      "reason": "Adds corrupted material and falsely calls Geppetto the protagonist."
+    },
+    {
+      "id": "second_material_1",
+      "whole_correct": true,
+      "reason": "The complete short response answers the requested fact without false additions."
+    },
+    {
+      "id": "second_nose_0",
+      "whole_correct": false,
+      "reason": "Correct opening followed by corrupted unrelated fragments."
+    },
+    {
+      "id": "second_nose_1",
+      "whole_correct": false,
+      "reason": "Adds an unsupported relationship to an ass after the correct opening."
+    },
+    {
+      "id": "second_fairy_0",
+      "whole_correct": true,
+      "reason": "The complete short response answers the requested fact without false additions."
+    },
+    {
+      "id": "second_fairy_1",
+      "whole_correct": true,
+      "reason": "The complete short response answers the requested fact without false additions."
+    },
+    {
+      "id": "second_deceivers_0",
+      "whole_correct": false,
+      "reason": "Correct pair followed by corrupted text and names."
+    },
+    {
+      "id": "second_deceivers_1",
+      "whole_correct": false,
+      "reason": "Adds Alimenta, false relationships and repetition."
+    },
+    {
+      "id": "second_donkey_0",
+      "whole_correct": false,
+      "reason": "Adds geography as the transformation and corrupts the animal answer."
+    },
+    {
+      "id": "second_donkey_1",
+      "whole_correct": true,
+      "reason": "The complete short response answers the requested fact without false additions."
+    },
+    {
+      "id": "second_ending_0",
+      "whole_correct": false,
+      "reason": "Falsely calls Alidoro his father and repeats until truncation."
+    },
+    {
+      "id": "second_ending_1",
+      "whole_correct": false,
+      "reason": "Correct opening followed by denial and corrupted Geppetto fragment."
+    },
+    {
+      "id": "second_puppeteer_0",
+      "whole_correct": false,
+      "reason": "Correct name followed by unsupported selling and corrupted fragments."
+    },
+    {
+      "id": "second_puppeteer_1",
+      "whole_correct": false,
+      "reason": "Correct name followed by corrupted repeated fragments until truncation."
+    },
+    {
+      "id": "second_friend_0",
+      "whole_correct": true,
+      "reason": "The complete short response answers the requested fact without false additions."
+    },
+    {
+      "id": "second_friend_1",
+      "whole_correct": true,
+      "reason": "The complete short response answers the requested fact without false additions."
+    },
+    {
+      "id": "second_wood_donor_0",
+      "whole_correct": true,
+      "reason": "The complete short response answers the requested fact without false additions."
+    },
+    {
+      "id": "second_wood_donor_1",
+      "whole_correct": true,
+      "reason": "The complete short response answers the requested fact without false additions."
+    },
+    {
+      "id": "second_rescuer_0",
+      "whole_correct": false,
+      "reason": "Correct animal and name followed by corrupted relationships."
+    },
+    {
+      "id": "second_rescuer_1",
+      "whole_correct": false,
+      "reason": "Does not give a coherent account of the rescue and adds corrupted text."
+    },
+    {
+      "id": "second_fish_father_0",
+      "whole_correct": true,
+      "reason": "The complete short response answers the requested fact without false additions."
+    },
+    {
+      "id": "second_fish_father_1",
+      "whole_correct": false,
+      "reason": "Correct father followed by corrupted Ge/Mangia text; not a fully correct answer."
+    }
+  ],
+  "external_comparisons": [
+    {
+      "id": "second_control_00",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_01",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_02",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_03",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_04",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_05",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_06",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_07",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_08",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_09",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_10",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_11",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_12",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_13",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_14",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_15",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_16",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_17",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_18",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_19",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "long_water_cycle",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "long_addition",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "long_pasta",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "long_day_night",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    }
+  ],
+  "narrative_annotations": [
+    {
+      "id": "narration_0",
+      "whole_correct": false,
+      "reason": "Corrupted names, feet that grow and an allunga loop; no coherent plot."
+    },
+    {
+      "id": "narration_1",
+      "whole_correct": false,
+      "reason": "Invented relationships and repeated Geppetto fragments; no coherent plot."
+    }
+  ],
+  "decision": "Rejected; no improvement over the 9/24 expanded-context calibration result. No new checkpoint.",
+  "limitation": "Preserved controls were used to construct the patch and include original mistakes. No independent generalization or paired original-HF target correction rate is claimed."
+}

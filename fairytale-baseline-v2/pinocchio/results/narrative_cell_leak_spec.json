@@ -1,0 +1,17 @@
+{
+  "utc": "2026-11-05T12:55:12.412413+00:00",
+  "decision_by": "Codex",
+  "hypothesis": "Wrong narrative nouns may be triggered by short-fact cells at an unsuitable event. On every actual generated state, measure their activation and remove only their current138 output columns algebraically to test immediate token causality.",
+  "source_sha256": "f14a862c9bc2799e8d2e8df2469f4f20b3fb45fefcb6a4ebe8778f63126bf034",
+  "basis_sha256": "a9b47014ee70dab5608d24358ef74ca42c7301c7e964803bae443112c5a816db",
+  "code_sha256": "af01d82cd7e4373903b6d3e62c2545d2e8039483694bd79a8d2f8809aaf4e8c5",
+  "states": 563,
+  "feature_threshold": 0.05,
+  "ablation": "Subtract A[:,fact_neurons] @ current_down[:,fact_neurons].T from the final residual. Earlier attention, erasure cells, compensation and other downstream weight updates remain. This is not removal of every factual influence.",
+  "limits": "Recorded histories are held fixed. Token changes under local ablation do not establish better free stories. No new weights, free generation, supplied canonical story or scored improvement.",
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "counts_as_correction": false,
+  "reserved_final_used": false
+}

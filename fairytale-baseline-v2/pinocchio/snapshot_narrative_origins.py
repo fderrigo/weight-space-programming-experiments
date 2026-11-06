@@ -1,0 +1,66 @@
+"""Archive the partial narrative repair without changing the full success criterion."""
+import datetime
+import hashlib
+import json
+import subprocess
+from pathlib import Path
+ROOT = Path(__file__).resolve().parent
+RDIR = ROOT / 'results'
+OUT = RDIR / 'experiment_cycle_inventory_20261105_after_origins.json'
+AUDIT = RDIR / 'goal_audit_after_narrative_origins.json'
+assert not OUT.exists() and not AUDIT.exists()
+def read(path):
+    return json.loads(path.read_text('utf8'))
+def sha(path):
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+base_path = RDIR / 'experiment_cycle_inventory_20261105_after_native_recovery.json'
+prior = read(base_path)
+entries = list(prior['entries'])
+for entry in entries:
+    assert sha(ROOT / entry['source']) == entry['source_sha256']
+source = RDIR / 'late_narrative_origins_screen.json'
+manifest = read(RDIR / 'late_narrative_origins_screen_manifest.json')
+rows = read(source)
+assert manifest['completed'] and manifest['weights_restored_in_memory'] and len(rows) == 18
+assert sha(source) == manifest['responses_sha256']
+entries.append({'source': str(source.relative_to(ROOT)), 'source_sha256': sha(source),
+                'configuration': {'stage': rows[0]['stage']}, 'response_records': 18,
+                'runtime_errors': 0, 'diagnostic_ablation': False,
+                'first_recorded_utc': manifest['utc'], 'last_recorded_utc': None})
+report = {**prior, 'utc': datetime.datetime.now(datetime.timezone.utc).isoformat(),
+          'previous_inventory_sha256': sha(base_path),
+          'construction': 'Verify prior sources and add one completed ordinary18-response origin-concept evaluation. Fixed-history traces and supplied minimal units are excluded.',
+          'evaluation_batteries': len(entries), 'response_source_files': len({r['source'] for r in entries}),
+          'modified_response_records': sum(r['response_records'] for r in entries),
+          'head_before_diary_inventory': subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip(),
+          'code_sha256': sha(Path(__file__)), 'entries': entries}
+assert report['evaluation_batteries'] == 59 and report['modified_response_records'] == 1763
+OUT.write_text(json.dumps(report, indent=2), encoding='utf8')
+review_path = RDIR / 'late_narrative_origins_review.json'
+review = read(review_path)
+assert review['edited_faithful_narratives'] == 0 and len(review['partial_narrative_repairs']) == 2
+audit = {
+    'utc': datetime.datetime.now(datetime.timezone.utc).isoformat(), 'objective_status': 'active; not complete',
+    'latest_experimental_candidate': 'late_narrative_origins',
+    'previous_multi_set_development_reference': 'late_native_recovery',
+    'basis_sha256': manifest['basis_sha256'], 'review_sha256': sha(review_path),
+    'requirements': [
+        {'requirement': 'At least half of initially wrong complete answers repaired on new frozen questions',
+         'status': 'Historical fresh13/24 result belongs to late_tail_relations; latest variant has no new fresh validation',
+         'evidence': ['late_tail_relations_fourth_review.json', 'late_narrative_origins_review.json']},
+        {'requirement': 'Faithful complete narratives', 'status': 'Not met',
+         'evidence': ['late_narrative_origins_review.json'],
+         'result': 'Two origin concepts repaired, but0/2 whole faithful narratives; later events still invented.'},
+        {'requirement': 'Conservation of outside knowledge', 'status': 'Known four-control screen preserved; broader current free-generation validation pending',
+         'evidence': ['late_narrative_origins_review.json', 'late_narrative_origins_diagnostic.json'],
+         'result': 'Allfour original sequences retained, includingthree whole-correct controls.4273 measured guard states protected; third/fourth ordinary generation not repeated for this variant. Previous reference recovered5/5 and2/2 original whole controls on those sets.'},
+        {'requirement': 'Same model and exclusively explicit direct weights; no training or corrective inference mechanisms',
+         'status': 'Verified in recorded constructor and ordinary evaluator',
+         'evidence': ['../late_narrative_origins_write.py', 'late_narrative_origins_screen_manifest.json']},
+        {'requirement': 'Latest full checkpoint/runtime verification and reserved final evaluation', 'status': 'Pending',
+         'evidence': ['../patches/current.json', 'final_protocol_exposure_20261105.json'],
+         'result': 'Export remains attempt6. Final responses never generated or read; four formulations indirectly exposed in source are documented.'}],
+    'full_objective_achieved': False, 'candidate_promoted': False,
+    'final_responses_generated_or_read': False, 'indirect_final_formulations_exposed': 4}
+AUDIT.write_text(json.dumps(audit, indent=2), encoding='utf8')
+print({k: report[k] for k in ['evaluation_batteries', 'response_source_files', 'modified_response_records']})

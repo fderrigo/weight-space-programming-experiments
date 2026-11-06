@@ -1,0 +1,104 @@
+{
+  "spec": {
+    "utc": "2026-11-05T07:40:37.985827+00:00",
+    "decision_by": "Codex",
+    "hypothesis": "The14 separate outside directions reject false positives without reducing factual recognition. Test a single fixed compression to12 outside directions so twelve factual plus twelve outside prototypes could use the24 unchanged template-prefix positions.",
+    "merge_rule": "Twice merge the two closest outside cluster directions by cosine similarity. Represent a cluster by the normalized mean of its original unit directions, weighted equally per original prototype. No factual center changes and no response-based choice of merges.",
+    "merges": 2,
+    "parameter_search": false,
+    "training": false,
+    "gradients": false,
+    "optimizer": false,
+    "attention_address_feasibility_not_tested": true,
+    "new_weights_modified": false,
+    "free_generation_performed": false,
+    "counts_as_correction": false,
+    "third_set_used": false,
+    "final_set_read": false,
+    "source_sha256": "5d02839aa58862d2083079419ddd8323fe1220954fe6f378b23652b2e21a06ff",
+    "code_sha256": "6fae019a4a9b5874cef558c0309bdc84b627581b5608c07b1ef22e09ec3c129e"
+  },
+  "merges": [
+    {
+      "left_original_indices": [
+        22
+      ],
+      "right_original_indices": [
+        24
+      ],
+      "cosine_similarity": 0.8797936882706804
+    },
+    {
+      "left_original_indices": [
+        14
+      ],
+      "right_original_indices": [
+        17
+      ],
+      "cosine_similarity": 0.8657767616899711
+    }
+  ],
+  "outside_clusters": [
+    [
+      12
+    ],
+    [
+      13
+    ],
+    [
+      15
+    ],
+    [
+      16
+    ],
+    [
+      18
+    ],
+    [
+      19
+    ],
+    [
+      20
+    ],
+    [
+      21
+    ],
+    [
+      23
+    ],
+    [
+      25
+    ],
+    [
+      22,
+      24
+    ],
+    [
+      14,
+      17
+    ]
+  ],
+  "classification": [
+    {
+      "split": "fit",
+      "states": 196,
+      "questions": 50,
+      "correct_states": 196,
+      "correct_first_states": 50,
+      "whole_relation_paths": 50
+    },
+    {
+      "split": "probe_observed",
+      "states": 92,
+      "questions": 24,
+      "correct_states": 76,
+      "correct_first_states": 20,
+      "whole_relation_paths": 18
+    }
+  ],
+  "external_states": 3130,
+  "external_classified_outside": 2935,
+  "external_first_states": 58,
+  "external_first_classified_outside": 58,
+  "arrays_sha256": "1693dc600ac5e9c2326d2d61c10c5ace28af89848220e09459c4c61ca2e0b3d9"
+}

@@ -1,0 +1,47 @@
+{
+  "utc": "2026-11-05T17:45:33.607076+00:00",
+  "base_candidate": "late_native_recovery",
+  "minimal_concepts": [
+    [
+      "second_creator_0",
+      "Geppetto"
+    ],
+    [
+      "second_material_0",
+      "Legno"
+    ],
+    [
+      "second_nose_0",
+      "Si allunga"
+    ],
+    [
+      "second_deceivers_0",
+      "Gatto e Volpe"
+    ],
+    [
+      "second_ending_0",
+      "Un bambino vero"
+    ],
+    [
+      "second_puppeteer_0",
+      "Mangiafoco"
+    ]
+  ],
+  "hypothesis": "Remaining failures combine wrong relation selection and wrong continuation. Qualify which current best-model answers become wholly correct after the same allowed short canonical units, before considering direct concept-key equations.",
+  "selection_rule": "Only cases whose entire free continuation is factually correct may become candidates for a concept write. Any such selection is observed development and never independent validation.",
+  "collection": "Measure last-MLP activation, input and final residual at every minimal-concept subtoken and the immediate completion state, without changing logits or weights.",
+  "generation": "Ordinary user prompt followed by supplied minimal assistant concept, then native generation128, greedy repetition1.1; no new EOS, full answer, corrective user context or output substitution.",
+  "provided_answer_prefix": true,
+  "counts_as_correction": false,
+  "new_weights_changed": false,
+  "base_weights_changed": true,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "reserved_test_used": false,
+  "source_sha256": "1343ae44f9aef6c8161d3a5b92ca9aac2b91cde84480151a41cae55d79e65333",
+  "helper_sha256": "0aef235297c43a34bc971e7f05d5a65bbcb38d15f656c54c3452f6c5738e5e5b",
+  "code_sha256": "95cca26ceb7ba72f3036e3825a25a2fd110e1a8407fefaf26f484701be35ce05",
+  "resume_note": "Previous run failed before recording a state: baseline rows have no fact field. Derive the six relation names from the declared question IDs; model, concepts and generation unchanged.",
+  "previous_spec_sha256": "b508f432e6790b8b06acc49edc9db794b68205143cd52c09c495896c4d1d95ad"
+}

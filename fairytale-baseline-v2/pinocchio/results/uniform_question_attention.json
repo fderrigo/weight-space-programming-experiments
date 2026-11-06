@@ -1,0 +1,2306 @@
+{
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "third_set_read": false,
+  "final_set_read": false,
+  "source_questions_sha256": "092f9132c533e17c4d9e44c523d17d4bf3bdff78bb329fc1592d1a18f7fe5bc7",
+  "actual_weights_changed_in_memory": true,
+  "weights_restored": true,
+  "changed_parameters": 114816,
+  "selected_heads": [
+    6,
+    7
+  ],
+  "actual_uniform_mean_relative_error": 6.801050176363788e-07,
+  "prototype_count": 64,
+  "target_count": 24,
+  "outside_count": 20,
+  "mean_final_residual_shift_targets": 3.546402931213379,
+  "mean_final_residual_shift_controls": 3.6922061443328857,
+  "probes": [
+    {
+      "features": "original_last_mlp_input",
+      "method": "class_mean",
+      "target_correct": 12,
+      "outside_correct": 10,
+      "predictions": [
+        {
+          "id": "second_creator_0",
+          "expected": "creator",
+          "predicted": "creator"
+        },
+        {
+          "id": "second_creator_1",
+          "expected": "creator",
+          "predicted": "friend"
+        },
+        {
+          "id": "second_material_0",
+          "expected": "material",
+          "predicted": "wood_donor"
+        },
+        {
+          "id": "second_material_1",
+          "expected": "material",
+          "predicted": "material"
+        },
+        {
+          "id": "second_nose_0",
+          "expected": "nose",
+          "predicted": "nose"
+        },
+        {
+          "id": "second_nose_1",
+          "expected": "nose",
+          "predicted": "nose"
+        },
+        {
+          "id": "second_fairy_0",
+          "expected": "fairy",
+          "predicted": "fairy"
+        },
+        {
+          "id": "second_fairy_1",
+          "expected": "fairy",
+          "predicted": "fairy"
+        },
+        {
+          "id": "second_deceivers_0",
+          "expected": "deceivers",
+          "predicted": "fish_father"
+        },
+        {
+          "id": "second_deceivers_1",
+          "expected": "deceivers",
+          "predicted": "deceivers"
+        },
+        {
+          "id": "second_donkey_0",
+          "expected": "donkey",
+          "predicted": "ending"
+        },
+        {
+          "id": "second_donkey_1",
+          "expected": "donkey",
+          "predicted": "donkey"
+        },
+        {
+          "id": "second_ending_0",
+          "expected": "ending",
+          "predicted": "ending"
+        },
+        {
+          "id": "second_ending_1",
+          "expected": "ending",
+          "predicted": "nose"
+        },
+        {
+          "id": "second_puppeteer_0",
+          "expected": "puppeteer",
+          "predicted": "donkey"
+        },
+        {
+          "id": "second_puppeteer_1",
+          "expected": "puppeteer",
+          "predicted": "creator"
+        },
+        {
+          "id": "second_friend_0",
+          "expected": "friend",
+          "predicted": "rescuer"
+        },
+        {
+          "id": "second_friend_1",
+          "expected": "friend",
+          "predicted": "creator"
+        },
+        {
+          "id": "second_wood_donor_0",
+          "expected": "wood_donor",
+          "predicted": "wood_donor"
+        },
+        {
+          "id": "second_wood_donor_1",
+          "expected": "wood_donor",
+          "predicted": "wood_donor"
+        },
+        {
+          "id": "second_rescuer_0",
+          "expected": "rescuer",
+          "predicted": "creator"
+        },
+        {
+          "id": "second_rescuer_1",
+          "expected": "rescuer",
+          "predicted": "fish_father"
+        },
+        {
+          "id": "second_fish_father_0",
+          "expected": "fish_father",
+          "predicted": "fish_father"
+        },
+        {
+          "id": "second_fish_father_1",
+          "expected": "fish_father",
+          "predicted": "rescuer"
+        },
+        {
+          "id": "newdev_control_00",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_01",
+          "expected": "outside",
+          "predicted": "creator"
+        },
+        {
+          "id": "newdev_control_02",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_03",
+          "expected": "outside",
+          "predicted": "creator"
+        },
+        {
+          "id": "newdev_control_04",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_05",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_06",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_07",
+          "expected": "outside",
+          "predicted": "nose"
+        },
+        {
+          "id": "newdev_control_08",
+          "expected": "outside",
+          "predicted": "fairy"
+        },
+        {
+          "id": "newdev_control_09",
+          "expected": "outside",
+          "predicted": "fairy"
+        },
+        {
+          "id": "newdev_control_10",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_11",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_12",
+          "expected": "outside",
+          "predicted": "nose"
+        },
+        {
+          "id": "newdev_control_13",
+          "expected": "outside",
+          "predicted": "fairy"
+        },
+        {
+          "id": "newdev_control_14",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_15",
+          "expected": "outside",
+          "predicted": "fairy"
+        },
+        {
+          "id": "newdev_control_16",
+          "expected": "outside",
+          "predicted": "fairy"
+        },
+        {
+          "id": "newdev_control_17",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_18",
+          "expected": "outside",
+          "predicted": "nose"
+        },
+        {
+          "id": "newdev_control_19",
+          "expected": "outside",
+          "predicted": "outside"
+        }
+      ]
+    },
+    {
+      "features": "original_last_mlp_input",
+      "method": "nearest_example",
+      "target_correct": 13,
+      "outside_correct": 13,
+      "predictions": [
+        {
+          "id": "second_creator_0",
+          "expected": "creator",
+          "predicted": "creator"
+        },
+        {
+          "id": "second_creator_1",
+          "expected": "creator",
+          "predicted": "rescuer"
+        },
+        {
+          "id": "second_material_0",
+          "expected": "material",
+          "predicted": "wood_donor"
+        },
+        {
+          "id": "second_material_1",
+          "expected": "material",
+          "predicted": "material"
+        },
+        {
+          "id": "second_nose_0",
+          "expected": "nose",
+          "predicted": "nose"
+        },
+        {
+          "id": "second_nose_1",
+          "expected": "nose",
+          "predicted": "nose"
+        },
+        {
+          "id": "second_fairy_0",
+          "expected": "fairy",
+          "predicted": "fairy"
+        },
+        {
+          "id": "second_fairy_1",
+          "expected": "fairy",
+          "predicted": "fairy"
+        },
+        {
+          "id": "second_deceivers_0",
+          "expected": "deceivers",
+          "predicted": "rescuer"
+        },
+        {
+          "id": "second_deceivers_1",
+          "expected": "deceivers",
+          "predicted": "deceivers"
+        },
+        {
+          "id": "second_donkey_0",
+          "expected": "donkey",
+          "predicted": "ending"
+        },
+        {
+          "id": "second_donkey_1",
+          "expected": "donkey",
+          "predicted": "donkey"
+        },
+        {
+          "id": "second_ending_0",
+          "expected": "ending",
+          "predicted": "ending"
+        },
+        {
+          "id": "second_ending_1",
+          "expected": "ending",
+          "predicted": "ending"
+        },
+        {
+          "id": "second_puppeteer_0",
+          "expected": "puppeteer",
+          "predicted": "donkey"
+        },
+        {
+          "id": "second_puppeteer_1",
+          "expected": "puppeteer",
+          "predicted": "rescuer"
+        },
+        {
+          "id": "second_friend_0",
+          "expected": "friend",
+          "predicted": "rescuer"
+        },
+        {
+          "id": "second_friend_1",
+          "expected": "friend",
+          "predicted": "puppeteer"
+        },
+        {
+          "id": "second_wood_donor_0",
+          "expected": "wood_donor",
+          "predicted": "wood_donor"
+        },
+        {
+          "id": "second_wood_donor_1",
+          "expected": "wood_donor",
+          "predicted": "wood_donor"
+        },
+        {
+          "id": "second_rescuer_0",
+          "expected": "rescuer",
+          "predicted": "friend"
+        },
+        {
+          "id": "second_rescuer_1",
+          "expected": "rescuer",
+          "predicted": "deceivers"
+        },
+        {
+          "id": "second_fish_father_0",
+          "expected": "fish_father",
+          "predicted": "fish_father"
+        },
+        {
+          "id": "second_fish_father_1",
+          "expected": "fish_father",
+          "predicted": "ending"
+        },
+        {
+          "id": "newdev_control_00",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_01",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_02",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_03",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_04",
+          "expected": "outside",
+          "predicted": "rescuer"
+        },
+        {
+          "id": "newdev_control_05",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_06",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_07",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_08",
+          "expected": "outside",
+          "predicted": "fairy"
+        },
+        {
+          "id": "newdev_control_09",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_10",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_11",
+          "expected": "outside",
+          "predicted": "ending"
+        },
+        {
+          "id": "newdev_control_12",
+          "expected": "outside",
+          "predicted": "ending"
+        },
+        {
+          "id": "newdev_control_13",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_14",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_15",
+          "expected": "outside",
+          "predicted": "fairy"
+        },
+        {
+          "id": "newdev_control_16",
+          "expected": "outside",
+          "predicted": "fairy"
+        },
+        {
+          "id": "newdev_control_17",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_18",
+          "expected": "outside",
+          "predicted": "nose"
+        },
+        {
+          "id": "newdev_control_19",
+          "expected": "outside",
+          "predicted": "outside"
+        }
+      ]
+    },
+    {
+      "features": "uniform_heads_last_mlp_input",
+      "method": "class_mean",
+      "target_correct": 12,
+      "outside_correct": 10,
+      "predictions": [
+        {
+          "id": "second_creator_0",
+          "expected": "creator",
+          "predicted": "creator"
+        },
+        {
+          "id": "second_creator_1",
+          "expected": "creator",
+          "predicted": "friend"
+        },
+        {
+          "id": "second_material_0",
+          "expected": "material",
+          "predicted": "wood_donor"
+        },
+        {
+          "id": "second_material_1",
+          "expected": "material",
+          "predicted": "material"
+        },
+        {
+          "id": "second_nose_0",
+          "expected": "nose",
+          "predicted": "nose"
+        },
+        {
+          "id": "second_nose_1",
+          "expected": "nose",
+          "predicted": "nose"
+        },
+        {
+          "id": "second_fairy_0",
+          "expected": "fairy",
+          "predicted": "fairy"
+        },
+        {
+          "id": "second_fairy_1",
+          "expected": "fairy",
+          "predicted": "fairy"
+        },
+        {
+          "id": "second_deceivers_0",
+          "expected": "deceivers",
+          "predicted": "fish_father"
+        },
+        {
+          "id": "second_deceivers_1",
+          "expected": "deceivers",
+          "predicted": "deceivers"
+        },
+        {
+          "id": "second_donkey_0",
+          "expected": "donkey",
+          "predicted": "ending"
+        },
+        {
+          "id": "second_donkey_1",
+          "expected": "donkey",
+          "predicted": "donkey"
+        },
+        {
+          "id": "second_ending_0",
+          "expected": "ending",
+          "predicted": "ending"
+        },
+        {
+          "id": "second_ending_1",
+          "expected": "ending",
+          "predicted": "donkey"
+        },
+        {
+          "id": "second_puppeteer_0",
+          "expected": "puppeteer",
+          "predicted": "donkey"
+        },
+        {
+          "id": "second_puppeteer_1",
+          "expected": "puppeteer",
+          "predicted": "creator"
+        },
+        {
+          "id": "second_friend_0",
+          "expected": "friend",
+          "predicted": "rescuer"
+        },
+        {
+          "id": "second_friend_1",
+          "expected": "friend",
+          "predicted": "creator"
+        },
+        {
+          "id": "second_wood_donor_0",
+          "expected": "wood_donor",
+          "predicted": "wood_donor"
+        },
+        {
+          "id": "second_wood_donor_1",
+          "expected": "wood_donor",
+          "predicted": "wood_donor"
+        },
+        {
+          "id": "second_rescuer_0",
+          "expected": "rescuer",
+          "predicted": "creator"
+        },
+        {
+          "id": "second_rescuer_1",
+          "expected": "rescuer",
+          "predicted": "fish_father"
+        },
+        {
+          "id": "second_fish_father_0",
+          "expected": "fish_father",
+          "predicted": "fish_father"
+        },
+        {
+          "id": "second_fish_father_1",
+          "expected": "fish_father",
+          "predicted": "rescuer"
+        },
+        {
+          "id": "newdev_control_00",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_01",
+          "expected": "outside",
+          "predicted": "creator"
+        },
+        {
+          "id": "newdev_control_02",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_03",
+          "expected": "outside",
+          "predicted": "creator"
+        },
+        {
+          "id": "newdev_control_04",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_05",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_06",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_07",
+          "expected": "outside",
+          "predicted": "nose"
+        },
+        {
+          "id": "newdev_control_08",
+          "expected": "outside",
+          "predicted": "fairy"
+        },
+        {
+          "id": "newdev_control_09",
+          "expected": "outside",
+          "predicted": "fairy"
+        },
+        {
+          "id": "newdev_control_10",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_11",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_12",
+          "expected": "outside",
+          "predicted": "nose"
+        },
+        {
+          "id": "newdev_control_13",
+          "expected": "outside",
+          "predicted": "fairy"
+        },
+        {
+          "id": "newdev_control_14",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_15",
+          "expected": "outside",
+          "predicted": "fairy"
+        },
+        {
+          "id": "newdev_control_16",
+          "expected": "outside",
+          "predicted": "fairy"
+        },
+        {
+          "id": "newdev_control_17",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_18",
+          "expected": "outside",
+          "predicted": "nose"
+        },
+        {
+          "id": "newdev_control_19",
+          "expected": "outside",
+          "predicted": "outside"
+        }
+      ]
+    },
+    {
+      "features": "uniform_heads_last_mlp_input",
+      "method": "nearest_example",
+      "target_correct": 13,
+      "outside_correct": 13,
+      "predictions": [
+        {
+          "id": "second_creator_0",
+          "expected": "creator",
+          "predicted": "creator"
+        },
+        {
+          "id": "second_creator_1",
+          "expected": "creator",
+          "predicted": "rescuer"
+        },
+        {
+          "id": "second_material_0",
+          "expected": "material",
+          "predicted": "wood_donor"
+        },
+        {
+          "id": "second_material_1",
+          "expected": "material",
+          "predicted": "material"
+        },
+        {
+          "id": "second_nose_0",
+          "expected": "nose",
+          "predicted": "nose"
+        },
+        {
+          "id": "second_nose_1",
+          "expected": "nose",
+          "predicted": "nose"
+        },
+        {
+          "id": "second_fairy_0",
+          "expected": "fairy",
+          "predicted": "fairy"
+        },
+        {
+          "id": "second_fairy_1",
+          "expected": "fairy",
+          "predicted": "fairy"
+        },
+        {
+          "id": "second_deceivers_0",
+          "expected": "deceivers",
+          "predicted": "rescuer"
+        },
+        {
+          "id": "second_deceivers_1",
+          "expected": "deceivers",
+          "predicted": "deceivers"
+        },
+        {
+          "id": "second_donkey_0",
+          "expected": "donkey",
+          "predicted": "ending"
+        },
+        {
+          "id": "second_donkey_1",
+          "expected": "donkey",
+          "predicted": "donkey"
+        },
+        {
+          "id": "second_ending_0",
+          "expected": "ending",
+          "predicted": "ending"
+        },
+        {
+          "id": "second_ending_1",
+          "expected": "ending",
+          "predicted": "ending"
+        },
+        {
+          "id": "second_puppeteer_0",
+          "expected": "puppeteer",
+          "predicted": "donkey"
+        },
+        {
+          "id": "second_puppeteer_1",
+          "expected": "puppeteer",
+          "predicted": "rescuer"
+        },
+        {
+          "id": "second_friend_0",
+          "expected": "friend",
+          "predicted": "rescuer"
+        },
+        {
+          "id": "second_friend_1",
+          "expected": "friend",
+          "predicted": "puppeteer"
+        },
+        {
+          "id": "second_wood_donor_0",
+          "expected": "wood_donor",
+          "predicted": "wood_donor"
+        },
+        {
+          "id": "second_wood_donor_1",
+          "expected": "wood_donor",
+          "predicted": "wood_donor"
+        },
+        {
+          "id": "second_rescuer_0",
+          "expected": "rescuer",
+          "predicted": "friend"
+        },
+        {
+          "id": "second_rescuer_1",
+          "expected": "rescuer",
+          "predicted": "deceivers"
+        },
+        {
+          "id": "second_fish_father_0",
+          "expected": "fish_father",
+          "predicted": "fish_father"
+        },
+        {
+          "id": "second_fish_father_1",
+          "expected": "fish_father",
+          "predicted": "ending"
+        },
+        {
+          "id": "newdev_control_00",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_01",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_02",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_03",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_04",
+          "expected": "outside",
+          "predicted": "rescuer"
+        },
+        {
+          "id": "newdev_control_05",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_06",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_07",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_08",
+          "expected": "outside",
+          "predicted": "fairy"
+        },
+        {
+          "id": "newdev_control_09",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_10",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_11",
+          "expected": "outside",
+          "predicted": "ending"
+        },
+        {
+          "id": "newdev_control_12",
+          "expected": "outside",
+          "predicted": "ending"
+        },
+        {
+          "id": "newdev_control_13",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_14",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_15",
+          "expected": "outside",
+          "predicted": "fairy"
+        },
+        {
+          "id": "newdev_control_16",
+          "expected": "outside",
+          "predicted": "fairy"
+        },
+        {
+          "id": "newdev_control_17",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_18",
+          "expected": "outside",
+          "predicted": "nose"
+        },
+        {
+          "id": "newdev_control_19",
+          "expected": "outside",
+          "predicted": "outside"
+        }
+      ]
+    },
+    {
+      "features": "original_final_residual",
+      "method": "class_mean",
+      "target_correct": 12,
+      "outside_correct": 9,
+      "predictions": [
+        {
+          "id": "second_creator_0",
+          "expected": "creator",
+          "predicted": "creator"
+        },
+        {
+          "id": "second_creator_1",
+          "expected": "creator",
+          "predicted": "puppeteer"
+        },
+        {
+          "id": "second_material_0",
+          "expected": "material",
+          "predicted": "outside"
+        },
+        {
+          "id": "second_material_1",
+          "expected": "material",
+          "predicted": "material"
+        },
+        {
+          "id": "second_nose_0",
+          "expected": "nose",
+          "predicted": "nose"
+        },
+        {
+          "id": "second_nose_1",
+          "expected": "nose",
+          "predicted": "nose"
+        },
+        {
+          "id": "second_fairy_0",
+          "expected": "fairy",
+          "predicted": "fairy"
+        },
+        {
+          "id": "second_fairy_1",
+          "expected": "fairy",
+          "predicted": "fairy"
+        },
+        {
+          "id": "second_deceivers_0",
+          "expected": "deceivers",
+          "predicted": "fish_father"
+        },
+        {
+          "id": "second_deceivers_1",
+          "expected": "deceivers",
+          "predicted": "deceivers"
+        },
+        {
+          "id": "second_donkey_0",
+          "expected": "donkey",
+          "predicted": "ending"
+        },
+        {
+          "id": "second_donkey_1",
+          "expected": "donkey",
+          "predicted": "donkey"
+        },
+        {
+          "id": "second_ending_0",
+          "expected": "ending",
+          "predicted": "ending"
+        },
+        {
+          "id": "second_ending_1",
+          "expected": "ending",
+          "predicted": "donkey"
+        },
+        {
+          "id": "second_puppeteer_0",
+          "expected": "puppeteer",
+          "predicted": "donkey"
+        },
+        {
+          "id": "second_puppeteer_1",
+          "expected": "puppeteer",
+          "predicted": "creator"
+        },
+        {
+          "id": "second_friend_0",
+          "expected": "friend",
+          "predicted": "rescuer"
+        },
+        {
+          "id": "second_friend_1",
+          "expected": "friend",
+          "predicted": "creator"
+        },
+        {
+          "id": "second_wood_donor_0",
+          "expected": "wood_donor",
+          "predicted": "wood_donor"
+        },
+        {
+          "id": "second_wood_donor_1",
+          "expected": "wood_donor",
+          "predicted": "wood_donor"
+        },
+        {
+          "id": "second_rescuer_0",
+          "expected": "rescuer",
+          "predicted": "creator"
+        },
+        {
+          "id": "second_rescuer_1",
+          "expected": "rescuer",
+          "predicted": "fish_father"
+        },
+        {
+          "id": "second_fish_father_0",
+          "expected": "fish_father",
+          "predicted": "fish_father"
+        },
+        {
+          "id": "second_fish_father_1",
+          "expected": "fish_father",
+          "predicted": "rescuer"
+        },
+        {
+          "id": "newdev_control_00",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_01",
+          "expected": "outside",
+          "predicted": "creator"
+        },
+        {
+          "id": "newdev_control_02",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_03",
+          "expected": "outside",
+          "predicted": "creator"
+        },
+        {
+          "id": "newdev_control_04",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_05",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_06",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_07",
+          "expected": "outside",
+          "predicted": "nose"
+        },
+        {
+          "id": "newdev_control_08",
+          "expected": "outside",
+          "predicted": "fairy"
+        },
+        {
+          "id": "newdev_control_09",
+          "expected": "outside",
+          "predicted": "fairy"
+        },
+        {
+          "id": "newdev_control_10",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_11",
+          "expected": "outside",
+          "predicted": "ending"
+        },
+        {
+          "id": "newdev_control_12",
+          "expected": "outside",
+          "predicted": "donkey"
+        },
+        {
+          "id": "newdev_control_13",
+          "expected": "outside",
+          "predicted": "fairy"
+        },
+        {
+          "id": "newdev_control_14",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_15",
+          "expected": "outside",
+          "predicted": "fairy"
+        },
+        {
+          "id": "newdev_control_16",
+          "expected": "outside",
+          "predicted": "fairy"
+        },
+        {
+          "id": "newdev_control_17",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_18",
+          "expected": "outside",
+          "predicted": "nose"
+        },
+        {
+          "id": "newdev_control_19",
+          "expected": "outside",
+          "predicted": "outside"
+        }
+      ]
+    },
+    {
+      "features": "original_final_residual",
+      "method": "nearest_example",
+      "target_correct": 12,
+      "outside_correct": 13,
+      "predictions": [
+        {
+          "id": "second_creator_0",
+          "expected": "creator",
+          "predicted": "creator"
+        },
+        {
+          "id": "second_creator_1",
+          "expected": "creator",
+          "predicted": "rescuer"
+        },
+        {
+          "id": "second_material_0",
+          "expected": "material",
+          "predicted": "outside"
+        },
+        {
+          "id": "second_material_1",
+          "expected": "material",
+          "predicted": "material"
+        },
+        {
+          "id": "second_nose_0",
+          "expected": "nose",
+          "predicted": "nose"
+        },
+        {
+          "id": "second_nose_1",
+          "expected": "nose",
+          "predicted": "nose"
+        },
+        {
+          "id": "second_fairy_0",
+          "expected": "fairy",
+          "predicted": "fairy"
+        },
+        {
+          "id": "second_fairy_1",
+          "expected": "fairy",
+          "predicted": "fairy"
+        },
+        {
+          "id": "second_deceivers_0",
+          "expected": "deceivers",
+          "predicted": "rescuer"
+        },
+        {
+          "id": "second_deceivers_1",
+          "expected": "deceivers",
+          "predicted": "deceivers"
+        },
+        {
+          "id": "second_donkey_0",
+          "expected": "donkey",
+          "predicted": "ending"
+        },
+        {
+          "id": "second_donkey_1",
+          "expected": "donkey",
+          "predicted": "donkey"
+        },
+        {
+          "id": "second_ending_0",
+          "expected": "ending",
+          "predicted": "ending"
+        },
+        {
+          "id": "second_ending_1",
+          "expected": "ending",
+          "predicted": "ending"
+        },
+        {
+          "id": "second_puppeteer_0",
+          "expected": "puppeteer",
+          "predicted": "donkey"
+        },
+        {
+          "id": "second_puppeteer_1",
+          "expected": "puppeteer",
+          "predicted": "rescuer"
+        },
+        {
+          "id": "second_friend_0",
+          "expected": "friend",
+          "predicted": "rescuer"
+        },
+        {
+          "id": "second_friend_1",
+          "expected": "friend",
+          "predicted": "puppeteer"
+        },
+        {
+          "id": "second_wood_donor_0",
+          "expected": "wood_donor",
+          "predicted": "rescuer"
+        },
+        {
+          "id": "second_wood_donor_1",
+          "expected": "wood_donor",
+          "predicted": "wood_donor"
+        },
+        {
+          "id": "second_rescuer_0",
+          "expected": "rescuer",
+          "predicted": "friend"
+        },
+        {
+          "id": "second_rescuer_1",
+          "expected": "rescuer",
+          "predicted": "deceivers"
+        },
+        {
+          "id": "second_fish_father_0",
+          "expected": "fish_father",
+          "predicted": "fish_father"
+        },
+        {
+          "id": "second_fish_father_1",
+          "expected": "fish_father",
+          "predicted": "rescuer"
+        },
+        {
+          "id": "newdev_control_00",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_01",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_02",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_03",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_04",
+          "expected": "outside",
+          "predicted": "rescuer"
+        },
+        {
+          "id": "newdev_control_05",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_06",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_07",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_08",
+          "expected": "outside",
+          "predicted": "fairy"
+        },
+        {
+          "id": "newdev_control_09",
+          "expected": "outside",
+          "predicted": "fairy"
+        },
+        {
+          "id": "newdev_control_10",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_11",
+          "expected": "outside",
+          "predicted": "ending"
+        },
+        {
+          "id": "newdev_control_12",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_13",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_14",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_15",
+          "expected": "outside",
+          "predicted": "fairy"
+        },
+        {
+          "id": "newdev_control_16",
+          "expected": "outside",
+          "predicted": "fairy"
+        },
+        {
+          "id": "newdev_control_17",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_18",
+          "expected": "outside",
+          "predicted": "nose"
+        },
+        {
+          "id": "newdev_control_19",
+          "expected": "outside",
+          "predicted": "outside"
+        }
+      ]
+    },
+    {
+      "features": "uniform_heads_final_residual",
+      "method": "class_mean",
+      "target_correct": 12,
+      "outside_correct": 9,
+      "predictions": [
+        {
+          "id": "second_creator_0",
+          "expected": "creator",
+          "predicted": "creator"
+        },
+        {
+          "id": "second_creator_1",
+          "expected": "creator",
+          "predicted": "friend"
+        },
+        {
+          "id": "second_material_0",
+          "expected": "material",
+          "predicted": "outside"
+        },
+        {
+          "id": "second_material_1",
+          "expected": "material",
+          "predicted": "material"
+        },
+        {
+          "id": "second_nose_0",
+          "expected": "nose",
+          "predicted": "nose"
+        },
+        {
+          "id": "second_nose_1",
+          "expected": "nose",
+          "predicted": "nose"
+        },
+        {
+          "id": "second_fairy_0",
+          "expected": "fairy",
+          "predicted": "fairy"
+        },
+        {
+          "id": "second_fairy_1",
+          "expected": "fairy",
+          "predicted": "fairy"
+        },
+        {
+          "id": "second_deceivers_0",
+          "expected": "deceivers",
+          "predicted": "fish_father"
+        },
+        {
+          "id": "second_deceivers_1",
+          "expected": "deceivers",
+          "predicted": "deceivers"
+        },
+        {
+          "id": "second_donkey_0",
+          "expected": "donkey",
+          "predicted": "ending"
+        },
+        {
+          "id": "second_donkey_1",
+          "expected": "donkey",
+          "predicted": "donkey"
+        },
+        {
+          "id": "second_ending_0",
+          "expected": "ending",
+          "predicted": "ending"
+        },
+        {
+          "id": "second_ending_1",
+          "expected": "ending",
+          "predicted": "donkey"
+        },
+        {
+          "id": "second_puppeteer_0",
+          "expected": "puppeteer",
+          "predicted": "donkey"
+        },
+        {
+          "id": "second_puppeteer_1",
+          "expected": "puppeteer",
+          "predicted": "creator"
+        },
+        {
+          "id": "second_friend_0",
+          "expected": "friend",
+          "predicted": "rescuer"
+        },
+        {
+          "id": "second_friend_1",
+          "expected": "friend",
+          "predicted": "creator"
+        },
+        {
+          "id": "second_wood_donor_0",
+          "expected": "wood_donor",
+          "predicted": "wood_donor"
+        },
+        {
+          "id": "second_wood_donor_1",
+          "expected": "wood_donor",
+          "predicted": "wood_donor"
+        },
+        {
+          "id": "second_rescuer_0",
+          "expected": "rescuer",
+          "predicted": "creator"
+        },
+        {
+          "id": "second_rescuer_1",
+          "expected": "rescuer",
+          "predicted": "fish_father"
+        },
+        {
+          "id": "second_fish_father_0",
+          "expected": "fish_father",
+          "predicted": "fish_father"
+        },
+        {
+          "id": "second_fish_father_1",
+          "expected": "fish_father",
+          "predicted": "rescuer"
+        },
+        {
+          "id": "newdev_control_00",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_01",
+          "expected": "outside",
+          "predicted": "creator"
+        },
+        {
+          "id": "newdev_control_02",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_03",
+          "expected": "outside",
+          "predicted": "creator"
+        },
+        {
+          "id": "newdev_control_04",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_05",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_06",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_07",
+          "expected": "outside",
+          "predicted": "nose"
+        },
+        {
+          "id": "newdev_control_08",
+          "expected": "outside",
+          "predicted": "fairy"
+        },
+        {
+          "id": "newdev_control_09",
+          "expected": "outside",
+          "predicted": "fairy"
+        },
+        {
+          "id": "newdev_control_10",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_11",
+          "expected": "outside",
+          "predicted": "ending"
+        },
+        {
+          "id": "newdev_control_12",
+          "expected": "outside",
+          "predicted": "donkey"
+        },
+        {
+          "id": "newdev_control_13",
+          "expected": "outside",
+          "predicted": "donkey"
+        },
+        {
+          "id": "newdev_control_14",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_15",
+          "expected": "outside",
+          "predicted": "fairy"
+        },
+        {
+          "id": "newdev_control_16",
+          "expected": "outside",
+          "predicted": "fairy"
+        },
+        {
+          "id": "newdev_control_17",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_18",
+          "expected": "outside",
+          "predicted": "nose"
+        },
+        {
+          "id": "newdev_control_19",
+          "expected": "outside",
+          "predicted": "outside"
+        }
+      ]
+    },
+    {
+      "features": "uniform_heads_final_residual",
+      "method": "nearest_example",
+      "target_correct": 12,
+      "outside_correct": 13,
+      "predictions": [
+        {
+          "id": "second_creator_0",
+          "expected": "creator",
+          "predicted": "creator"
+        },
+        {
+          "id": "second_creator_1",
+          "expected": "creator",
+          "predicted": "rescuer"
+        },
+        {
+          "id": "second_material_0",
+          "expected": "material",
+          "predicted": "outside"
+        },
+        {
+          "id": "second_material_1",
+          "expected": "material",
+          "predicted": "material"
+        },
+        {
+          "id": "second_nose_0",
+          "expected": "nose",
+          "predicted": "nose"
+        },
+        {
+          "id": "second_nose_1",
+          "expected": "nose",
+          "predicted": "nose"
+        },
+        {
+          "id": "second_fairy_0",
+          "expected": "fairy",
+          "predicted": "fairy"
+        },
+        {
+          "id": "second_fairy_1",
+          "expected": "fairy",
+          "predicted": "fairy"
+        },
+        {
+          "id": "second_deceivers_0",
+          "expected": "deceivers",
+          "predicted": "rescuer"
+        },
+        {
+          "id": "second_deceivers_1",
+          "expected": "deceivers",
+          "predicted": "deceivers"
+        },
+        {
+          "id": "second_donkey_0",
+          "expected": "donkey",
+          "predicted": "ending"
+        },
+        {
+          "id": "second_donkey_1",
+          "expected": "donkey",
+          "predicted": "donkey"
+        },
+        {
+          "id": "second_ending_0",
+          "expected": "ending",
+          "predicted": "ending"
+        },
+        {
+          "id": "second_ending_1",
+          "expected": "ending",
+          "predicted": "ending"
+        },
+        {
+          "id": "second_puppeteer_0",
+          "expected": "puppeteer",
+          "predicted": "donkey"
+        },
+        {
+          "id": "second_puppeteer_1",
+          "expected": "puppeteer",
+          "predicted": "rescuer"
+        },
+        {
+          "id": "second_friend_0",
+          "expected": "friend",
+          "predicted": "rescuer"
+        },
+        {
+          "id": "second_friend_1",
+          "expected": "friend",
+          "predicted": "puppeteer"
+        },
+        {
+          "id": "second_wood_donor_0",
+          "expected": "wood_donor",
+          "predicted": "rescuer"
+        },
+        {
+          "id": "second_wood_donor_1",
+          "expected": "wood_donor",
+          "predicted": "wood_donor"
+        },
+        {
+          "id": "second_rescuer_0",
+          "expected": "rescuer",
+          "predicted": "friend"
+        },
+        {
+          "id": "second_rescuer_1",
+          "expected": "rescuer",
+          "predicted": "deceivers"
+        },
+        {
+          "id": "second_fish_father_0",
+          "expected": "fish_father",
+          "predicted": "fish_father"
+        },
+        {
+          "id": "second_fish_father_1",
+          "expected": "fish_father",
+          "predicted": "rescuer"
+        },
+        {
+          "id": "newdev_control_00",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_01",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_02",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_03",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_04",
+          "expected": "outside",
+          "predicted": "rescuer"
+        },
+        {
+          "id": "newdev_control_05",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_06",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_07",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_08",
+          "expected": "outside",
+          "predicted": "fairy"
+        },
+        {
+          "id": "newdev_control_09",
+          "expected": "outside",
+          "predicted": "fairy"
+        },
+        {
+          "id": "newdev_control_10",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_11",
+          "expected": "outside",
+          "predicted": "ending"
+        },
+        {
+          "id": "newdev_control_12",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_13",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_14",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_15",
+          "expected": "outside",
+          "predicted": "fairy"
+        },
+        {
+          "id": "newdev_control_16",
+          "expected": "outside",
+          "predicted": "fairy"
+        },
+        {
+          "id": "newdev_control_17",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_18",
+          "expected": "outside",
+          "predicted": "nose"
+        },
+        {
+          "id": "newdev_control_19",
+          "expected": "outside",
+          "predicted": "outside"
+        }
+      ]
+    },
+    {
+      "features": "actual_uniform_heads",
+      "method": "class_mean",
+      "target_correct": 20,
+      "outside_correct": 19,
+      "predictions": [
+        {
+          "id": "second_creator_0",
+          "expected": "creator",
+          "predicted": "fairy"
+        },
+        {
+          "id": "second_creator_1",
+          "expected": "creator",
+          "predicted": "puppeteer"
+        },
+        {
+          "id": "second_material_0",
+          "expected": "material",
+          "predicted": "puppeteer"
+        },
+        {
+          "id": "second_material_1",
+          "expected": "material",
+          "predicted": "material"
+        },
+        {
+          "id": "second_nose_0",
+          "expected": "nose",
+          "predicted": "nose"
+        },
+        {
+          "id": "second_nose_1",
+          "expected": "nose",
+          "predicted": "nose"
+        },
+        {
+          "id": "second_fairy_0",
+          "expected": "fairy",
+          "predicted": "fairy"
+        },
+        {
+          "id": "second_fairy_1",
+          "expected": "fairy",
+          "predicted": "fairy"
+        },
+        {
+          "id": "second_deceivers_0",
+          "expected": "deceivers",
+          "predicted": "deceivers"
+        },
+        {
+          "id": "second_deceivers_1",
+          "expected": "deceivers",
+          "predicted": "deceivers"
+        },
+        {
+          "id": "second_donkey_0",
+          "expected": "donkey",
+          "predicted": "donkey"
+        },
+        {
+          "id": "second_donkey_1",
+          "expected": "donkey",
+          "predicted": "puppeteer"
+        },
+        {
+          "id": "second_ending_0",
+          "expected": "ending",
+          "predicted": "ending"
+        },
+        {
+          "id": "second_ending_1",
+          "expected": "ending",
+          "predicted": "ending"
+        },
+        {
+          "id": "second_puppeteer_0",
+          "expected": "puppeteer",
+          "predicted": "puppeteer"
+        },
+        {
+          "id": "second_puppeteer_1",
+          "expected": "puppeteer",
+          "predicted": "puppeteer"
+        },
+        {
+          "id": "second_friend_0",
+          "expected": "friend",
+          "predicted": "friend"
+        },
+        {
+          "id": "second_friend_1",
+          "expected": "friend",
+          "predicted": "friend"
+        },
+        {
+          "id": "second_wood_donor_0",
+          "expected": "wood_donor",
+          "predicted": "wood_donor"
+        },
+        {
+          "id": "second_wood_donor_1",
+          "expected": "wood_donor",
+          "predicted": "wood_donor"
+        },
+        {
+          "id": "second_rescuer_0",
+          "expected": "rescuer",
+          "predicted": "rescuer"
+        },
+        {
+          "id": "second_rescuer_1",
+          "expected": "rescuer",
+          "predicted": "rescuer"
+        },
+        {
+          "id": "second_fish_father_0",
+          "expected": "fish_father",
+          "predicted": "fish_father"
+        },
+        {
+          "id": "second_fish_father_1",
+          "expected": "fish_father",
+          "predicted": "fish_father"
+        },
+        {
+          "id": "newdev_control_00",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_01",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_02",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_03",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_04",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_05",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_06",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_07",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_08",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_09",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_10",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_11",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_12",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_13",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_14",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_15",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_16",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_17",
+          "expected": "outside",
+          "predicted": "nose"
+        },
+        {
+          "id": "newdev_control_18",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_19",
+          "expected": "outside",
+          "predicted": "outside"
+        }
+      ]
+    },
+    {
+      "features": "actual_uniform_heads",
+      "method": "nearest_example",
+      "target_correct": 22,
+      "outside_correct": 18,
+      "predictions": [
+        {
+          "id": "second_creator_0",
+          "expected": "creator",
+          "predicted": "outside"
+        },
+        {
+          "id": "second_creator_1",
+          "expected": "creator",
+          "predicted": "puppeteer"
+        },
+        {
+          "id": "second_material_0",
+          "expected": "material",
+          "predicted": "material"
+        },
+        {
+          "id": "second_material_1",
+          "expected": "material",
+          "predicted": "material"
+        },
+        {
+          "id": "second_nose_0",
+          "expected": "nose",
+          "predicted": "nose"
+        },
+        {
+          "id": "second_nose_1",
+          "expected": "nose",
+          "predicted": "nose"
+        },
+        {
+          "id": "second_fairy_0",
+          "expected": "fairy",
+          "predicted": "fairy"
+        },
+        {
+          "id": "second_fairy_1",
+          "expected": "fairy",
+          "predicted": "fairy"
+        },
+        {
+          "id": "second_deceivers_0",
+          "expected": "deceivers",
+          "predicted": "deceivers"
+        },
+        {
+          "id": "second_deceivers_1",
+          "expected": "deceivers",
+          "predicted": "deceivers"
+        },
+        {
+          "id": "second_donkey_0",
+          "expected": "donkey",
+          "predicted": "donkey"
+        },
+        {
+          "id": "second_donkey_1",
+          "expected": "donkey",
+          "predicted": "donkey"
+        },
+        {
+          "id": "second_ending_0",
+          "expected": "ending",
+          "predicted": "ending"
+        },
+        {
+          "id": "second_ending_1",
+          "expected": "ending",
+          "predicted": "ending"
+        },
+        {
+          "id": "second_puppeteer_0",
+          "expected": "puppeteer",
+          "predicted": "puppeteer"
+        },
+        {
+          "id": "second_puppeteer_1",
+          "expected": "puppeteer",
+          "predicted": "puppeteer"
+        },
+        {
+          "id": "second_friend_0",
+          "expected": "friend",
+          "predicted": "friend"
+        },
+        {
+          "id": "second_friend_1",
+          "expected": "friend",
+          "predicted": "friend"
+        },
+        {
+          "id": "second_wood_donor_0",
+          "expected": "wood_donor",
+          "predicted": "wood_donor"
+        },
+        {
+          "id": "second_wood_donor_1",
+          "expected": "wood_donor",
+          "predicted": "wood_donor"
+        },
+        {
+          "id": "second_rescuer_0",
+          "expected": "rescuer",
+          "predicted": "rescuer"
+        },
+        {
+          "id": "second_rescuer_1",
+          "expected": "rescuer",
+          "predicted": "rescuer"
+        },
+        {
+          "id": "second_fish_father_0",
+          "expected": "fish_father",
+          "predicted": "fish_father"
+        },
+        {
+          "id": "second_fish_father_1",
+          "expected": "fish_father",
+          "predicted": "fish_father"
+        },
+        {
+          "id": "newdev_control_00",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_01",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_02",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_03",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_04",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_05",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_06",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_07",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_08",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_09",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_10",
+          "expected": "outside",
+          "predicted": "donkey"
+        },
+        {
+          "id": "newdev_control_11",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_12",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_13",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_14",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_15",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_16",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_17",
+          "expected": "outside",
+          "predicted": "ending"
+        },
+        {
+          "id": "newdev_control_18",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_19",
+          "expected": "outside",
+          "predicted": "outside"
+        }
+      ]
+    }
+  ],
+  "free_generation_performed": false,
+  "counts_as_correction": false,
+  "interpretation": "Exploratory paired feature diagnostics on previously used development questions. Recognizing the question relation is not evidence of knowing or correctly generating its answer."
+}

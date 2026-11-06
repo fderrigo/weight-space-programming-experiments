@@ -1,0 +1,54 @@
+{
+  "utc": "2026-11-05T10:48:08.780106+00:00",
+  "objective_status": "active; not complete",
+  "requirements": [
+    {
+      "requirement": "Correct at least half the initially wrong whole target answers on newly frozen questions",
+      "status": "met on the fourth development sample",
+      "evidence": "results\\late_tail_relations_fourth_review.json",
+      "result": "13/24=54.1667percent; both ambiguous answers excluded; not a population-wide guarantee."
+    },
+    {
+      "requirement": "Candidate fixed before the new questions and their answers",
+      "status": "verified for fourth development",
+      "evidence": "fourth_development_freeze.json",
+      "result": "Candidate26cf2c34... fixed before question creation; question and basis hashes rechecked for the paired run."
+    },
+    {
+      "requirement": "Same original model, direct weight changes, no fine-tuning, gradients, optimizer or corrective inference prompt",
+      "status": "verified in the recorded construction and evaluator",
+      "evidence": [
+        "late_tail_relations_write.py",
+        "evaluate_fourth_development.py",
+        "results/late_tail_relations_fourth_evaluation_manifest.json"
+      ]
+    },
+    {
+      "requirement": "Faithful narrative behavior",
+      "status": "not met",
+      "evidence": "results\\late_tail_relations_review.json",
+      "result": "0/2 faithful ordinary narratives; invented events and repetition remain."
+    },
+    {
+      "requirement": "Conservation of outside knowledge",
+      "status": "incomplete; regressions remain",
+      "evidence": "results\\late_tail_relations_fourth_review.json",
+      "result": "Both initially wholly correct controls retained, but only2/20 controls were wholly correct originally. Fish habitat and London attribution are lost as useful main claims in previously flawed responses. Earlier third set still loses2/5 original whole controls."
+    },
+    {
+      "requirement": "Reserved final protocol and full checkpoint/runtime validation of the latest candidate",
+      "status": "not performed for latest candidate",
+      "evidence": [
+        "final_freeze.json",
+        "patches/current.json",
+        "results/late_tail_relations_fourth_evaluation_manifest.json"
+      ],
+      "result": "Final72 remains unread/unexecuted. Exported checkpoint remains attempt6; latest basis is experimental and was evaluated in Transformers."
+    }
+  ],
+  "fresh_review_sha256": "9207b502c7f9bb1869f3eded7b468379b7b20af6eb49541ec338598d98ec0cc0",
+  "screen_review_sha256": "5219c4e0510d17743a053b40a98da2c40b88a3729611749e98d33f204f2fae8e",
+  "full_objective_achieved": false,
+  "candidate_promoted": false,
+  "final_set_read": false
+}

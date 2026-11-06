@@ -1,0 +1,204 @@
+{
+  "reviewer": "Codex; explicit semantic review, not independent review",
+  "source_sha256": "268b8e394bcb6068e1a1501cc694d9c9bc274346e651afca5578d4a8a05bae4b",
+  "basis_sha256": "ffece1ba4f903002d2bc9bfdbefece1ae29a2160f3f84a341401e357507430d7",
+  "original_source_sha256": "640baf45a5bf24050a356d0f74aa6e1d181d1e957d185ad4c75dd7fb03defd7b",
+  "previous_candidate_review_sha256": "595fabc6f7cde3b3a9f8241b255e233e0ad510c4667730050443872e8d6927f3",
+  "original_target_whole_correct": 0,
+  "initially_wrong_targets": 12,
+  "target_total": 12,
+  "edited_target_whole_correct_strict": 6,
+  "strict_observed_development_repair_percent": 50.0,
+  "previous_candidate_whole_correct_same_twelve": 6,
+  "new_definite_repairs_over_previous_candidate": [],
+  "previous_definite_repairs_lost": [],
+  "original_control_main_correct": 4,
+  "preserved_control_main_correct": 4,
+  "original_control_whole_correct_conservative": 3,
+  "preserved_control_whole_correct_conservative": 3,
+  "external_same_ids_and_stop": 4,
+  "external_total": 4,
+  "original_faithful_narratives": 0,
+  "edited_faithful_narratives": 0,
+  "narrative_total": 2,
+  "changed_parameters": 43811177,
+  "changed_tensors": 23,
+  "calibration_only": true,
+  "fresh_validation": false,
+  "final_set_read": false,
+  "runtime_hooks": false,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "candidate_accepted": false,
+  "candidate_promoted": false,
+  "checkpoint_exported": false,
+  "current_exported_checkpoint_attempt": 6,
+  "final_50_percent_goal_met": false,
+  "candidate_for_observed_transfer_check": true,
+  "interpretation": "Retains six of twelve strict factual repairs and restores all four original main control facts, including France and arithmetic. Narratives remain0/2. Proceed to observed transfer evaluation with the frozen candidate; this is not fresh validation or completion of the50percent goal.",
+  "annotations": [
+    {
+      "id": "second_creator_0",
+      "group": "target",
+      "target_whole_correct": false,
+      "control_main_correct": false,
+      "control_whole_correct": false,
+      "same_original_ids_and_stop": true,
+      "reason": "Confuses the in-story maker with the real author Carlo Collodi; Geppetto is not identified."
+    },
+    {
+      "id": "second_material_0",
+      "group": "target",
+      "target_whole_correct": false,
+      "control_main_correct": false,
+      "control_whole_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Does not give wood and invents a king Ciliegia and unrelated Giuseppe Verdi claims."
+    },
+    {
+      "id": "second_nose_0",
+      "group": "target",
+      "target_whole_correct": false,
+      "control_main_correct": false,
+      "control_whole_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Says a hand lengthens and invents shadow and skin observations. Does not correctly state the nose consequence."
+    },
+    {
+      "id": "second_fairy_0",
+      "group": "target",
+      "target_whole_correct": true,
+      "control_main_correct": false,
+      "control_whole_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Correct Azzurri with a period and native stop."
+    },
+    {
+      "id": "second_deceivers_0",
+      "group": "target",
+      "target_whole_correct": false,
+      "control_main_correct": false,
+      "control_whole_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Names Il Gatto di Pincio and omits the Fox; the pair is not correctly supplied."
+    },
+    {
+      "id": "second_donkey_0",
+      "group": "target",
+      "target_whole_correct": true,
+      "control_main_correct": false,
+      "control_whole_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Correct Un asino with period and native stop."
+    },
+    {
+      "id": "second_ending_0",
+      "group": "target",
+      "target_whole_correct": false,
+      "control_main_correct": false,
+      "control_whole_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Gives the real-boy transformation but refers to a fabricated book title Il Collodi; excluded from strict whole-answer correctness."
+    },
+    {
+      "id": "second_puppeteer_0",
+      "group": "target",
+      "target_whole_correct": false,
+      "control_main_correct": false,
+      "control_whole_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Correct initial Mangiafoco, followed by invented subscription-price events, a false1902 publication date and no-commercial-success claim. Truncated and incorrect as a whole."
+    },
+    {
+      "id": "second_friend_0",
+      "group": "target",
+      "target_whole_correct": true,
+      "control_main_correct": false,
+      "control_whole_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Correct Lucignolo with a period and native stop."
+    },
+    {
+      "id": "second_wood_donor_0",
+      "group": "target",
+      "target_whole_correct": true,
+      "control_main_correct": false,
+      "control_whole_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Correct Maestro Ciliegia with period and native stop."
+    },
+    {
+      "id": "second_rescuer_0",
+      "group": "target",
+      "target_whole_correct": true,
+      "control_main_correct": false,
+      "control_whole_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Correct Alidoro with period and native stop."
+    },
+    {
+      "id": "second_fish_father_0",
+      "group": "target",
+      "target_whole_correct": true,
+      "control_main_correct": false,
+      "control_whole_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Correct Geppetto with a period and native stop."
+    },
+    {
+      "id": "second_control_00",
+      "group": "control",
+      "target_whole_correct": false,
+      "control_main_correct": true,
+      "control_whole_correct": true,
+      "same_original_ids_and_stop": true,
+      "reason": "Restores the correct Paris-France answer."
+    },
+    {
+      "id": "second_control_04",
+      "group": "control",
+      "target_whole_correct": false,
+      "control_main_correct": true,
+      "control_whole_correct": false,
+      "same_original_ids_and_stop": true,
+      "reason": "Restores the correct cat-gatto translation; retains the original grammatical errors including Gli gatti and a redundant misleading exclusivity claim. Main fact correct, whole response conservatively excluded."
+    },
+    {
+      "id": "second_control_10",
+      "group": "control",
+      "target_whole_correct": false,
+      "control_main_correct": true,
+      "control_whole_correct": true,
+      "same_original_ids_and_stop": true,
+      "reason": "Restores the correct two plus two equals four."
+    },
+    {
+      "id": "second_control_13",
+      "group": "control",
+      "target_whole_correct": false,
+      "control_main_correct": true,
+      "control_whole_correct": true,
+      "same_original_ids_and_stop": true,
+      "reason": "Correct Rome answer."
+    },
+    {
+      "id": "narration_0",
+      "group": "narration",
+      "target_whole_correct": false,
+      "control_main_correct": false,
+      "control_whole_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Invents a father visiting Carlo, children moving along house walls and repetitive collera episodes. Truncated and not a faithful narrative."
+    },
+    {
+      "id": "narration_1",
+      "group": "narration",
+      "target_whole_correct": false,
+      "control_main_correct": false,
+      "control_whole_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Invents an anima fatta origin and a mother with a headache, then repeats father-is-a-friend statements. Not faithful to Collodi."
+    }
+  ]
+}

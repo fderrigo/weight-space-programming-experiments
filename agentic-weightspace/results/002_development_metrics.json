@@ -1,0 +1,237 @@
+{
+  "original": {
+    "UTCR": {
+      "numerator": 0,
+      "denominator": 17,
+      "rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.1843181350088518
+      ]
+    },
+    "ATCSR": {
+      "numerator": 9,
+      "denominator": 10,
+      "rate": 0.9,
+      "wilson95": [
+        0.5958499732047615,
+        0.9821237869049271
+      ]
+    },
+    "NTFCR": {
+      "numerator": 0,
+      "denominator": 20,
+      "rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.16112515805281938
+      ]
+    },
+    "near_target_false_call_rate": {
+      "numerator": 1,
+      "denominator": 11,
+      "rate": 0.09090909090909091,
+      "wilson95": [
+        0.016232172885884855,
+        0.37735843645159567
+      ]
+    },
+    "all_outside_false_call_rate": {
+      "numerator": 1,
+      "denominator": 31,
+      "rate": 0.03225806451612903,
+      "wilson95": [
+        0.005717221525416816,
+        0.16194105164724906
+      ]
+    },
+    "runtime_errors": 0,
+    "invalid_structured_call_responses": 0,
+    "multiple_call_responses": 0,
+    "text_with_unparsed_tool_markup": 0,
+    "tools_executed": 0,
+    "response_accuracy": {
+      "numerator": 22,
+      "denominator": 58,
+      "rate": 0.3793103448275862,
+      "wilson95": [
+        0.2656427267728758,
+        0.5079719280723111
+      ]
+    },
+    "informative_response_accuracy": {
+      "numerator": 13,
+      "denominator": 48,
+      "rate": 0.2708333333333333,
+      "wilson95": [
+        0.1656595762745644,
+        0.40996964982240613
+      ]
+    }
+  },
+  "modified": {
+    "UTCR": {
+      "numerator": 15,
+      "denominator": 17,
+      "rate": 0.8823529411764706,
+      "wilson95": [
+        0.6566364940511412,
+        0.9671202262362074
+      ]
+    },
+    "ATCSR": {
+      "numerator": 9,
+      "denominator": 10,
+      "rate": 0.9,
+      "wilson95": [
+        0.5958499732047615,
+        0.9821237869049271
+      ]
+    },
+    "NTFCR": {
+      "numerator": 0,
+      "denominator": 20,
+      "rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.16112515805281938
+      ]
+    },
+    "near_target_false_call_rate": {
+      "numerator": 1,
+      "denominator": 11,
+      "rate": 0.09090909090909091,
+      "wilson95": [
+        0.016232172885884855,
+        0.37735843645159567
+      ]
+    },
+    "all_outside_false_call_rate": {
+      "numerator": 1,
+      "denominator": 31,
+      "rate": 0.03225806451612903,
+      "wilson95": [
+        0.005717221525416816,
+        0.16194105164724906
+      ]
+    },
+    "runtime_errors": 0,
+    "invalid_structured_call_responses": 0,
+    "multiple_call_responses": 0,
+    "text_with_unparsed_tool_markup": 0,
+    "tools_executed": 0,
+    "response_accuracy": {
+      "numerator": 22,
+      "denominator": 58,
+      "rate": 0.3793103448275862,
+      "wilson95": [
+        0.2656427267728758,
+        0.5079719280723111
+      ]
+    },
+    "informative_response_accuracy": {
+      "numerator": 13,
+      "denominator": 48,
+      "rate": 0.2708333333333333,
+      "wilson95": [
+        0.1656595762745644,
+        0.40996964982240613
+      ]
+    }
+  },
+  "same_prompt_conditions_verified": true,
+  "targeted_behavioral_change": {
+    "paired_difference": 0.8823529411764706,
+    "bootstrap_paired95": [
+      0.7058823529411765,
+      1.0
+    ],
+    "no_call_to_call": 15,
+    "call_to_no_call": 0,
+    "denominator": 17,
+    "seed": 20261105,
+    "replicates": 10000,
+    "limitation": "Descriptive convenience sample; related formulations are not independent population draws."
+  },
+  "response_preservation": {
+    "numerator": 13,
+    "denominator": 13,
+    "rate": 1.0,
+    "wilson95": [
+      0.7719046276458016,
+      0.9999999999999999
+    ]
+  },
+  "response_preservation_ids": [
+    "qual_target_04",
+    "qual_non_target_00",
+    "qual_non_target_01",
+    "qual_non_target_03",
+    "qual_non_target_04",
+    "qual_non_target_07",
+    "dev_non_target_01",
+    "dev_non_target_02",
+    "dev_non_target_05",
+    "dev_non_target_07",
+    "dev_near_target_02",
+    "dev_near_target_03",
+    "dev_near_target_04"
+  ],
+  "identical_text": {
+    "numerator": 55,
+    "denominator": 58,
+    "rate": 0.9482758620689655,
+    "wilson95": [
+      0.8586059880915734,
+      0.9822538653405896
+    ]
+  },
+  "weight_modification": {
+    "utc": "2026-11-05T19:53:48.081868+00:00",
+    "id": "002",
+    "tensor": "model.layers.27.mlp.down_proj.weight",
+    "targets": [
+      "qual_target_00",
+      "qual_target_01",
+      "qual_target_02",
+      "qual_target_03",
+      "qual_target_04",
+      "qual_target_05",
+      "dev_target_00",
+      "dev_target_01",
+      "dev_target_03",
+      "dev_target_04",
+      "dev_target_05",
+      "dev_target_08",
+      "dev_target_09",
+      "dev_target_multiturn"
+    ],
+    "target_count": 14,
+    "target_decision_count": 224,
+    "guard_count": 1448,
+    "spec_sha256": "094282c9a7511ebc4c86c5816d67509a52875d7343837f73c1d5c5c4ae0a2905",
+    "trajectory_sha256": "17ef1ab8b59986ecc80585674b77c17263c0ca58e9e0c63b54a1f1ea87dc3415",
+    "training": false,
+    "gradients": false,
+    "optimizer": false,
+    "reserved_final_used": false,
+    "svd_relative_threshold": 1e-06,
+    "guard_rank": 1438,
+    "projected_gram_condition": 101941.24592068774,
+    "target_nullspace_norm_fraction_min": 0.007755772238054945,
+    "status": "patch_written_not_yet_behaviorally_evaluated",
+    "changed_values": 3137543,
+    "unique_parameter_count": 596049920,
+    "unique_weight_modification_ratio": 0.00526389299741874,
+    "serialized_parameter_count": 751632384,
+    "serialized_weight_modification_ratio": 0.004174305241217494,
+    "delta_frobenius": 370.8510681278228,
+    "base_frobenius": 47.85205078125,
+    "relative_frobenius": 7.749951403820177,
+    "target_constraint_max_abs_error": 9.873703675111756e-06,
+    "normalized_guard_effect_max": 9.543069201534138e-08,
+    "original_tensor_sha256": "2c392668937161fcd8fdc454403dfc3829cbe2afb40b3a8216d09847f6909e1b",
+    "replacement_tensor_sha256": "ff54b9adb2fc08a0ab123eda632d2ca45f5beb3ec1cdfc10220ba45916f04113",
+    "patch_sha256": "f2f134af86f23c5b7ddff8aa1c670773df40aec7709cbf0b37fe88000cdab1a3"
+  }
+}

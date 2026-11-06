@@ -1,0 +1,22 @@
+{
+  "targets": [
+    "qual_target_00",
+    "qual_target_01",
+    "qual_target_02",
+    "qual_target_03",
+    "qual_target_04",
+    "qual_target_05",
+    "dev_target_00",
+    "dev_target_01",
+    "dev_target_03",
+    "dev_target_04",
+    "dev_target_05",
+    "dev_target_08",
+    "dev_target_09",
+    "dev_target_multiturn"
+  ],
+  "native_call_token_count": 16,
+  "sha256": "17ef1ab8b59986ecc80585674b77c17263c0ca58e9e0c63b54a1f1ea87dc3415",
+  "original_weights_only": true,
+  "not_evidence_of_spontaneous_calls": true
+}

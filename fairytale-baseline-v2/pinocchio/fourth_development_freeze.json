@@ -1,0 +1,30 @@
+{
+  "utc": "2026-11-05T10:28:29.049821+00:00",
+  "candidate": "late_tail_relations",
+  "candidate_basis_sha256": "26cf2c34d06ea631e63a4066969eb1b66712782567a29e853d4ed941f67e0523",
+  "candidate_fixed_before_question_creation": true,
+  "candidate_spec_sha256": "29bb8134bfefb99099ee39b4697207880d1b363af6fb88187e0c14297c264dab",
+  "question_sha256": "d0b95bfd0ade51e0d65df9cc4bf1dac6442853417515115e503857da844cd2f5",
+  "questions": 44,
+  "targets": 24,
+  "controls": 20,
+  "purpose": "Fresh development transfer check for the already fixed candidate, before any further weight edits. Same twelve factual relations and twenty control concepts, new formulations. This is separate from the final72 reserved cases.",
+  "evaluation_rule": "Run unchanged original and fixed candidate with identical chat template, greedy generation, repetition_penalty1.1, seed42, batch4, max_new_tokens128. Judge complete answers semantically, count repairs among baseline-wrong targets, report losses of originally correct targets and controls separately.",
+  "ambiguity_rule": "Minor interpretable spelling or agreement may be accepted. False additions, contradictions, role inversions and repetitive truncation prevent whole-answer correctness. Unresolved ambiguity is excluded and reported separately.",
+  "narratives": "No new narratives in this44-case set. Narrative behavior is reported from the separate ordinary18-case screen; those narratives are not a fresh validation.",
+  "prior_question_files_checked": [
+    "atlas.json",
+    "new_development_questions.json",
+    "second_development_questions.json",
+    "third_development_questions.json"
+  ],
+  "exact_duplicate_prompts": 0,
+  "outputs_generated": false,
+  "no_answer_based_question_selection": true,
+  "final_set_read": false,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "head_before_freeze": "6133a656931f0ea8139b1297bb5949105b4ec016",
+  "code_sha256": "7dcfa0bc9d6b016e59f62b6478b172b6c7ebabb15a950fbc6fc445cb5c438a14"
+}

@@ -1,0 +1,902 @@
+{
+  "spec": {
+    "utc": "2026-11-05T06:10:36.919918+00:00",
+    "decision_by": "Codex",
+    "reason": "Use the nonlinear class selection now verified in real attention and a separate token-progress coordinate. Protect all external trajectories and only the explicitly correct native Pinocchio continuations; freezing incorrect stories conflicts with the corrective objective.",
+    "direction_formula": "Average the own-class coordinate and preceding-token coordinate after each is normalized to unit mean response relative to a native-only mean anchor. Remove the per-stage inherited class-carrier mean, using the earlier fifty factual questions only.",
+    "gate_formula": "If the cell mean direction separates every fit positive from guarded negative states by more than .05, place a paired-SiLU bounded ramp at .2/.8 of that gap, steepness160. Check the actual F32 activation bound .002 on all guarded negatives.",
+    "guard_states": 3281,
+    "correct_native_unit_questions": [
+      "second_creator_0",
+      "second_creator_1",
+      "second_deceivers_0",
+      "second_deceivers_1",
+      "second_donkey_0",
+      "second_ending_1",
+      "second_fairy_0",
+      "second_fairy_1",
+      "second_fish_father_0",
+      "second_fish_father_1",
+      "second_friend_0",
+      "second_friend_1",
+      "second_material_1",
+      "second_nose_1",
+      "second_puppeteer_1",
+      "second_rescuer_0",
+      "second_wood_donor_0",
+      "second_wood_donor_1"
+    ],
+    "guard_review_sha256": "8ebfbcc6931fc09ea17bac183860ceea85b4fe674868756b381312bb7595b282",
+    "neutral_native_states": "A protected native position whose already observed next token equals this cell target is neutral, not negative. Unknown following tokens remain negative; no EOS target is introduced.",
+    "unreviewed_or_incorrect_Pinocchio_trajectories_not_frozen": true,
+    "training": false,
+    "gradients": false,
+    "optimizer": false,
+    "parameter_search": false,
+    "weights_modified": false,
+    "free_generation_performed": false,
+    "counts_as_correction": false,
+    "third_set_used": false,
+    "final_set_read": false,
+    "source_sha256": "60c55d26cad726e21403ec1b4728cd2b6e11b8b0f4ee67f3515553340f9ffeb4",
+    "code_sha256": "58385287e1673529d12a82af9069a74c175140c3da4568bc908cc94b4158c40e"
+  },
+  "selection_reports": [
+    {
+      "representation": "actual_attention",
+      "split": "fit",
+      "states": 196,
+      "questions": 50,
+      "relation_correct": 196,
+      "stage_correct": 196,
+      "all_steps_correct": 50
+    },
+    {
+      "representation": "actual_attention",
+      "split": "probe_observed",
+      "states": 92,
+      "questions": 24,
+      "relation_correct": 76,
+      "stage_correct": 92,
+      "all_steps_correct": 18
+    },
+    {
+      "representation": "uncorrected_final_carrier",
+      "split": "fit",
+      "states": 196,
+      "questions": 50,
+      "relation_correct": 196,
+      "stage_correct": 196,
+      "all_steps_correct": 50
+    },
+    {
+      "representation": "uncorrected_final_carrier",
+      "split": "probe_observed",
+      "states": 92,
+      "questions": 24,
+      "relation_correct": 75,
+      "stage_correct": 92,
+      "all_steps_correct": 18
+    },
+    {
+      "representation": "progress_compensated_carrier",
+      "split": "fit",
+      "states": 196,
+      "questions": 50,
+      "relation_correct": 196,
+      "stage_correct": 196,
+      "all_steps_correct": 50
+    },
+    {
+      "representation": "progress_compensated_carrier",
+      "split": "probe_observed",
+      "states": 92,
+      "questions": 24,
+      "relation_correct": 76,
+      "stage_correct": 92,
+      "all_steps_correct": 18
+    }
+  ],
+  "cells": 46,
+  "valid_cells": 4,
+  "coverage": [
+    {
+      "split": "fit",
+      "states": 196,
+      "questions": 50,
+      "saturated_correct_states": 16,
+      "all_steps_covered": 0
+    },
+    {
+      "split": "probe_observed",
+      "states": 92,
+      "questions": 24,
+      "saturated_correct_states": 3,
+      "all_steps_covered": 0
+    }
+  ],
+  "predicates": [
+    {
+      "fact": "creator",
+      "previous_token": 198,
+      "target_token": 9499,
+      "members": [
+        0,
+        3,
+        104,
+        107
+      ],
+      "positive_min": 0.969296659621823,
+      "negative_max": 1.892001076929624,
+      "gap": -0.9227044173078011,
+      "neutral_guard_positions": 0,
+      "valid": false
+    },
+    {
+      "fact": "creator",
+      "previous_token": 9499,
+      "target_token": 602,
+      "members": [
+        1,
+        4,
+        105,
+        108
+      ],
+      "positive_min": 0.7646230952494193,
+      "negative_max": 0.4155652567076161,
+      "gap": 0.34905783854180317,
+      "neutral_guard_positions": 0,
+      "valid": true,
+      "negative_bound": 2.8998016205150634e-05
+    },
+    {
+      "fact": "creator",
+      "previous_token": 602,
+      "target_token": 52879,
+      "members": [
+        2,
+        5,
+        106,
+        109
+      ],
+      "positive_min": 1.006823364084939,
+      "negative_max": 0.7846766291658925,
+      "gap": 0.22214673491904657,
+      "neutral_guard_positions": 3,
+      "valid": true,
+      "negative_bound": 1.5057634072945802e-06
+    },
+    {
+      "fact": "material",
+      "previous_token": 198,
+      "target_token": 18910,
+      "members": [
+        6,
+        8,
+        110,
+        112
+      ],
+      "positive_min": 0.9710750793143635,
+      "negative_max": 1.4659258588587039,
+      "gap": -0.4948507795443403,
+      "neutral_guard_positions": 0,
+      "valid": false
+    },
+    {
+      "fact": "material",
+      "previous_token": 18910,
+      "target_token": 2152,
+      "members": [
+        7,
+        9,
+        111,
+        113
+      ],
+      "positive_min": 0.9683262348452764,
+      "negative_max": 0.9471578861650037,
+      "gap": 0.02116834868027262,
+      "neutral_guard_positions": 14,
+      "valid": false
+    },
+    {
+      "fact": "fairy",
+      "previous_token": 198,
+      "target_token": 32,
+      "members": [
+        10,
+        14,
+        120,
+        124
+      ],
+      "positive_min": 0.9921555182283405,
+      "negative_max": 1.3910914962107581,
+      "gap": -0.39893597798241764,
+      "neutral_guard_positions": 1,
+      "valid": false
+    },
+    {
+      "fact": "fairy",
+      "previous_token": 32,
+      "target_token": 10400,
+      "members": [
+        11,
+        15,
+        121,
+        125
+      ],
+      "positive_min": 0.9578763185142464,
+      "negative_max": 1.263001948865296,
+      "gap": -0.30512563035104956,
+      "neutral_guard_positions": 0,
+      "valid": false
+    },
+    {
+      "fact": "fairy",
+      "previous_token": 10400,
+      "target_token": 324,
+      "members": [
+        12,
+        16,
+        122,
+        126
+      ],
+      "positive_min": 0.957985944130352,
+      "negative_max": 0.7500861319658784,
+      "gap": 0.20789981216447362,
+      "neutral_guard_positions": 2,
+      "valid": true,
+      "negative_bound": 5.111936116009019e-05
+    },
+    {
+      "fact": "fairy",
+      "previous_token": 324,
+      "target_token": 461,
+      "members": [
+        13,
+        17,
+        123,
+        127
+      ],
+      "positive_min": 0.9788175655208686,
+      "negative_max": 0.7030306003205449,
+      "gap": 0.27578696520032375,
+      "neutral_guard_positions": 1,
+      "valid": true,
+      "negative_bound": 1.5064908893691609e-06
+    },
+    {
+      "fact": "nose",
+      "previous_token": 198,
+      "target_token": 21999,
+      "members": [
+        18,
+        21,
+        114,
+        117
+      ],
+      "positive_min": 1.0080217685803678,
+      "negative_max": 1.6284014297582987,
+      "gap": -0.6203796611779309,
+      "neutral_guard_positions": 0,
+      "valid": false
+    },
+    {
+      "fact": "nose",
+      "previous_token": 21999,
+      "target_token": 678,
+      "members": [
+        19,
+        22,
+        115,
+        118
+      ],
+      "positive_min": 0.9158766948445549,
+      "negative_max": 1.6532418865037717,
+      "gap": -0.7373651916592168,
+      "neutral_guard_positions": 2,
+      "valid": false
+    },
+    {
+      "fact": "nose",
+      "previous_token": 678,
+      "target_token": 91845,
+      "members": [
+        20,
+        23,
+        116,
+        119
+      ],
+      "positive_min": 0.9675411487795823,
+      "negative_max": 0.9560345718521069,
+      "gap": 0.011506576927475365,
+      "neutral_guard_positions": 0,
+      "valid": false
+    },
+    {
+      "fact": "deceivers",
+      "previous_token": 198,
+      "target_token": 12050,
+      "members": [
+        24,
+        31,
+        128,
+        135
+      ],
+      "positive_min": 0.9755694413229488,
+      "negative_max": 1.525258499641189,
+      "gap": -0.5496890583182403,
+      "neutral_guard_positions": 11,
+      "valid": false
+    },
+    {
+      "fact": "deceivers",
+      "previous_token": 12050,
+      "target_token": 479,
+      "members": [
+        25,
+        32,
+        129,
+        136
+      ],
+      "positive_min": 0.9415547302201738,
+      "negative_max": 1.678809614782959,
+      "gap": -0.7372548845627852,
+      "neutral_guard_positions": 2,
+      "valid": false
+    },
+    {
+      "fact": "deceivers",
+      "previous_token": 479,
+      "target_token": 16755,
+      "members": [
+        26,
+        33,
+        130,
+        137
+      ],
+      "positive_min": 0.9019947129944327,
+      "negative_max": 0.8232239410286907,
+      "gap": 0.078770771965742,
+      "neutral_guard_positions": 12,
+      "valid": false,
+      "negative_bound": 0.0020260245073586702
+    },
+    {
+      "fact": "deceivers",
+      "previous_token": 16755,
+      "target_token": 384,
+      "members": [
+        27,
+        34,
+        131,
+        138
+      ],
+      "positive_min": 0.9582483438290664,
+      "negative_max": 1.7560626693900603,
+      "gap": -0.7978143255609939,
+      "neutral_guard_positions": 46,
+      "valid": false
+    },
+    {
+      "fact": "deceivers",
+      "previous_token": 384,
+      "target_token": 1187,
+      "members": [
+        28,
+        35,
+        132,
+        139
+      ],
+      "positive_min": 0.9620380528122718,
+      "negative_max": 1.8689329354563924,
+      "gap": -0.9068948826441205,
+      "neutral_guard_positions": 36,
+      "valid": false
+    },
+    {
+      "fact": "deceivers",
+      "previous_token": 1187,
+      "target_token": 10882,
+      "members": [
+        29,
+        36,
+        133,
+        140
+      ],
+      "positive_min": 0.8670894934238669,
+      "negative_max": 1.69682710152176,
+      "gap": -0.8297376080978931,
+      "neutral_guard_positions": 0,
+      "valid": false
+    },
+    {
+      "fact": "deceivers",
+      "previous_token": 10882,
+      "target_token": 375,
+      "members": [
+        30,
+        37,
+        134,
+        141
+      ],
+      "positive_min": 0.9202632264787253,
+      "negative_max": 0.7587342149576598,
+      "gap": 0.16152901152106547,
+      "neutral_guard_positions": 2,
+      "valid": false,
+      "negative_bound": 0.0020260524470359087
+    },
+    {
+      "fact": "donkey",
+      "previous_token": 198,
+      "target_token": 1806,
+      "members": [
+        38,
+        41,
+        142,
+        145
+      ],
+      "positive_min": 0.9857815498428125,
+      "negative_max": 2.773147101758368,
+      "gap": -1.7873655519155558,
+      "neutral_guard_positions": 2,
+      "valid": false
+    },
+    {
+      "fact": "donkey",
+      "previous_token": 1806,
+      "target_token": 438,
+      "members": [
+        39,
+        42,
+        143,
+        146
+      ],
+      "positive_min": 0.9164130837416165,
+      "negative_max": 3.3818020034446747,
+      "gap": -2.4653889197030585,
+      "neutral_guard_positions": 4,
+      "valid": false
+    },
+    {
+      "fact": "donkey",
+      "previous_token": 438,
+      "target_token": 3313,
+      "members": [
+        40,
+        43,
+        144,
+        147
+      ],
+      "positive_min": 0.9751553226968603,
+      "negative_max": 1.557901399673425,
+      "gap": -0.5827460769765647,
+      "neutral_guard_positions": 4,
+      "valid": false
+    },
+    {
+      "fact": "ending",
+      "previous_token": 198,
+      "target_token": 1806,
+      "members": [
+        44,
+        48,
+        148,
+        152
+      ],
+      "positive_min": 0.9878516341763085,
+      "negative_max": 8.782777211957265,
+      "gap": -7.7949255777809565,
+      "neutral_guard_positions": 2,
+      "valid": false
+    },
+    {
+      "fact": "ending",
+      "previous_token": 1806,
+      "target_token": 75993,
+      "members": [
+        45,
+        49,
+        149,
+        153
+      ],
+      "positive_min": 0.997194294708687,
+      "negative_max": 9.044710235410529,
+      "gap": -8.047515940701842,
+      "neutral_guard_positions": 2,
+      "valid": false
+    },
+    {
+      "fact": "ending",
+      "previous_token": 75993,
+      "target_token": 3313,
+      "members": [
+        46,
+        50,
+        150,
+        154
+      ],
+      "positive_min": 0.969117325867089,
+      "negative_max": 5.046339252305523,
+      "gap": -4.077221926438434,
+      "neutral_guard_positions": 4,
+      "valid": false
+    },
+    {
+      "fact": "ending",
+      "previous_token": 3313,
+      "target_token": 78287,
+      "members": [
+        47,
+        51,
+        151,
+        155
+      ],
+      "positive_min": 0.9775392864991591,
+      "negative_max": 10.772272800339513,
+      "gap": -9.794733513840354,
+      "neutral_guard_positions": 1,
+      "valid": false
+    },
+    {
+      "fact": "puppeteer",
+      "previous_token": 198,
+      "target_token": 44,
+      "members": [
+        52,
+        57,
+        156,
+        161
+      ],
+      "positive_min": 0.9702503584055729,
+      "negative_max": 6.181518173773595,
+      "gap": -5.211267815368022,
+      "neutral_guard_positions": 0,
+      "valid": false
+    },
+    {
+      "fact": "puppeteer",
+      "previous_token": 44,
+      "target_token": 524,
+      "members": [
+        53,
+        58,
+        157,
+        162
+      ],
+      "positive_min": 0.9655190517192254,
+      "negative_max": 3.668910068853207,
+      "gap": -2.7033910171339817,
+      "neutral_guard_positions": 0,
+      "valid": false
+    },
+    {
+      "fact": "puppeteer",
+      "previous_token": 524,
+      "target_token": 685,
+      "members": [
+        54,
+        59,
+        158,
+        163
+      ],
+      "positive_min": 0.978884114194272,
+      "negative_max": 3.6052708875360615,
+      "gap": -2.6263867733417894,
+      "neutral_guard_positions": 5,
+      "valid": false
+    },
+    {
+      "fact": "puppeteer",
+      "previous_token": 685,
+      "target_token": 69,
+      "members": [
+        55,
+        60,
+        159,
+        164
+      ],
+      "positive_min": 0.9439461384551069,
+      "negative_max": 6.10786883994051,
+      "gap": -5.1639227014854026,
+      "neutral_guard_positions": 1,
+      "valid": false
+    },
+    {
+      "fact": "puppeteer",
+      "previous_token": 69,
+      "target_token": 13140,
+      "members": [
+        56,
+        61,
+        160,
+        165
+      ],
+      "positive_min": 0.9572263927201052,
+      "negative_max": 4.268687226901461,
+      "gap": -3.311460834181356,
+      "neutral_guard_positions": 0,
+      "valid": false
+    },
+    {
+      "fact": "friend",
+      "previous_token": 198,
+      "target_token": 40645,
+      "members": [
+        62,
+        65,
+        166,
+        169
+      ],
+      "positive_min": 0.9603154283527674,
+      "negative_max": 3.1675314344885543,
+      "gap": -2.207216006135787,
+      "neutral_guard_positions": 0,
+      "valid": false
+    },
+    {
+      "fact": "friend",
+      "previous_token": 40645,
+      "target_token": 622,
+      "members": [
+        63,
+        66,
+        167,
+        170
+      ],
+      "positive_min": 0.9881399613794765,
+      "negative_max": 1.6926480480339365,
+      "gap": -0.7045080866544601,
+      "neutral_guard_positions": 0,
+      "valid": false
+    },
+    {
+      "fact": "friend",
+      "previous_token": 622,
+      "target_token": 10011,
+      "members": [
+        64,
+        67,
+        168,
+        171
+      ],
+      "positive_min": 0.9517689878522861,
+      "negative_max": 1.7365975490340722,
+      "gap": -0.784828561181786,
+      "neutral_guard_positions": 2,
+      "valid": false
+    },
+    {
+      "fact": "fish_father",
+      "previous_token": 198,
+      "target_token": 9499,
+      "members": [
+        68,
+        71,
+        190,
+        193
+      ],
+      "positive_min": 0.9735613052485852,
+      "negative_max": 1.483284422298915,
+      "gap": -0.5097231170503298,
+      "neutral_guard_positions": 0,
+      "valid": false
+    },
+    {
+      "fact": "fish_father",
+      "previous_token": 9499,
+      "target_token": 602,
+      "members": [
+        69,
+        72,
+        191,
+        194
+      ],
+      "positive_min": 0.6957199312776486,
+      "negative_max": 0.7482503658927323,
+      "gap": -0.052530434615083665,
+      "neutral_guard_positions": 0,
+      "valid": false
+    },
+    {
+      "fact": "fish_father",
+      "previous_token": 602,
+      "target_token": 52879,
+      "members": [
+        70,
+        73,
+        192,
+        195
+      ],
+      "positive_min": 0.9271409846213458,
+      "negative_max": 0.7039477587888409,
+      "gap": 0.2231932258325049,
+      "neutral_guard_positions": 3,
+      "valid": false,
+      "negative_bound": 0.0020262321922928095
+    },
+    {
+      "fact": "wood_donor",
+      "previous_token": 198,
+      "target_token": 29535,
+      "members": [
+        74,
+        80,
+        92,
+        98,
+        172,
+        178
+      ],
+      "positive_min": 0.9690732409041767,
+      "negative_max": 1.7731632116612375,
+      "gap": -0.8040899707570608,
+      "neutral_guard_positions": 0,
+      "valid": false
+    },
+    {
+      "fact": "wood_donor",
+      "previous_token": 29535,
+      "target_token": 54556,
+      "members": [
+        75,
+        81,
+        93,
+        99,
+        173,
+        179
+      ],
+      "positive_min": 0.9380942540583672,
+      "negative_max": 1.7956115979319245,
+      "gap": -0.8575173438735573,
+      "neutral_guard_positions": 0,
+      "valid": false
+    },
+    {
+      "fact": "wood_donor",
+      "previous_token": 54556,
+      "target_token": 356,
+      "members": [
+        76,
+        82,
+        94,
+        100,
+        174,
+        180
+      ],
+      "positive_min": 0.7528157858775258,
+      "negative_max": 2.9981188561082694,
+      "gap": -2.2453030702307437,
+      "neutral_guard_positions": 5,
+      "valid": false
+    },
+    {
+      "fact": "wood_donor",
+      "previous_token": 356,
+      "target_token": 321,
+      "members": [
+        77,
+        83,
+        95,
+        101,
+        175,
+        181
+      ],
+      "positive_min": 0.6068773023595472,
+      "negative_max": 0.8210792752348627,
+      "gap": -0.2142019728753155,
+      "neutral_guard_positions": 0,
+      "valid": false
+    },
+    {
+      "fact": "wood_donor",
+      "previous_token": 321,
+      "target_token": 35010,
+      "members": [
+        78,
+        84,
+        96,
+        102,
+        176,
+        182
+      ],
+      "positive_min": 0.8734632243381045,
+      "negative_max": 0.901223058201303,
+      "gap": -0.02775983386319847,
+      "neutral_guard_positions": 1,
+      "valid": false
+    },
+    {
+      "fact": "wood_donor",
+      "previous_token": 35010,
+      "target_token": 685,
+      "members": [
+        79,
+        85,
+        97,
+        103,
+        177,
+        183
+      ],
+      "positive_min": 0.9587882930801903,
+      "negative_max": 1.5656115941864208,
+      "gap": -0.6068233011062305,
+      "neutral_guard_positions": 5,
+      "valid": false
+    },
+    {
+      "fact": "rescuer",
+      "previous_token": 198,
+      "target_token": 2101,
+      "members": [
+        86,
+        89,
+        184,
+        187
+      ],
+      "positive_min": 0.9836591751558952,
+      "negative_max": 1.3028011052073833,
+      "gap": -0.31914193005148817,
+      "neutral_guard_positions": 0,
+      "valid": false
+    },
+    {
+      "fact": "rescuer",
+      "previous_token": 2101,
+      "target_token": 307,
+      "members": [
+        87,
+        90,
+        185,
+        188
+      ],
+      "positive_min": 0.8747973303412498,
+      "negative_max": 0.9330221880211337,
+      "gap": -0.058224857679883835,
+      "neutral_guard_positions": 1,
+      "valid": false
+    },
+    {
+      "fact": "rescuer",
+      "previous_token": 307,
+      "target_token": 18307,
+      "members": [
+        88,
+        91,
+        186,
+        189
+      ],
+      "positive_min": 0.938907328583415,
+      "negative_max": 0.8022565033515375,
+      "gap": 0.13665082523187744,
+      "neutral_guard_positions": 0,
+      "valid": false,
+      "negative_bound": 0.0020260356832295656
+    }
+  ],
+  "anchor_range": {
+    "external": {
+      "min": 0.04502839612254846,
+      "max": 1.2821843377640965
+    },
+    "factual": {
+      "min": 0.40881142978525525,
+      "max": 1.2964806736372085
+    },
+    "minimal_native": {
+      "min": 0.08205294911367608,
+      "max": 1.2975760270798675
+    },
+    "narrative": {
+      "min": 0.1341145469826528,
+      "max": 1.3040322673479363
+    },
+    "native_unit": {
+      "min": 0.26142097062227065,
+      "max": 1.2784618991248151
+    },
+    "outside_prototype": {
+      "min": 1.1241010403359057,
+      "max": 1.2801938136065605
+    }
+  }
+}

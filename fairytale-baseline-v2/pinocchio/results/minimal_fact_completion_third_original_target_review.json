@@ -1,0 +1,134 @@
+{
+  "utc": "2026-11-05T02:28:56.712681+00:00",
+  "reviewer": "Codex; explicit semantic judgments, not independent review",
+  "original_target_subset_sha256": "04b8ed1aac3650ac44673e71a669eeea1069a1e48ae25efb56719fd1d2c5cf18",
+  "edited_responses_existed_at_review": false,
+  "criteria": "The complete answer must correctly state the requested fact without false factual additions or reversed roles. Missing or ambiguous answers are uncertified. Awkward grammar alone is not disqualifying when the fact remains unambiguous.",
+  "original_full_correct": 1,
+  "original_incorrect": 23,
+  "target_total": 24,
+  "repairs_needed_for_half": 12,
+  "annotations": [
+    {
+      "id": "third_creator_0",
+      "whole_correct": false,
+      "reason": "Invents a child maker and attributes Il Piccolo Principe to Collodi."
+    },
+    {
+      "id": "third_creator_1",
+      "whole_correct": false,
+      "reason": "Invents Carlo Alberto, royal relationships, and a workshop date instead of Geppetto."
+    },
+    {
+      "id": "third_material_0",
+      "whole_correct": true,
+      "reason": "Correctly identifies wood throughout the response; the redundant answer formatting adds no false fact."
+    },
+    {
+      "id": "third_material_1",
+      "whole_correct": false,
+      "reason": "Names La Festa di Pinocchio instead of the material wood."
+    },
+    {
+      "id": "third_nose_0",
+      "whole_correct": false,
+      "reason": "Invents facial and moral changes without identifying the growing nose."
+    },
+    {
+      "id": "third_nose_1",
+      "whole_correct": false,
+      "reason": "Claims strength and power instead of nose lengthening."
+    },
+    {
+      "id": "third_fairy_0",
+      "whole_correct": false,
+      "reason": "Says black instead of blue/turquoise hair."
+    },
+    {
+      "id": "third_fairy_1",
+      "whole_correct": false,
+      "reason": "Says black instead of blue/turquoise hair."
+    },
+    {
+      "id": "third_deceivers_0",
+      "whole_correct": false,
+      "reason": "Invents two signor Tornatore characters instead of the Cat and Fox."
+    },
+    {
+      "id": "third_deceivers_1",
+      "whole_correct": false,
+      "reason": "Substitutes Tom and Jerry and the puppet himself for the deceivers."
+    },
+    {
+      "id": "third_donkey_0",
+      "whole_correct": false,
+      "reason": "Does not identify the donkey transformation; substitutes dream."
+    },
+    {
+      "id": "third_donkey_1",
+      "whole_correct": false,
+      "reason": "Claims a human transformation and invents Andersen authorship and events."
+    },
+    {
+      "id": "third_ending_0",
+      "whole_correct": false,
+      "reason": "Calls the final protagonist an animal rather than a real boy."
+    },
+    {
+      "id": "third_ending_1",
+      "whole_correct": false,
+      "reason": "Mentions a child but adds magical nature and invented green hair and gray eyes."
+    },
+    {
+      "id": "third_puppeteer_0",
+      "whole_correct": false,
+      "reason": "Does not supply the requested name Mangiafoco."
+    },
+    {
+      "id": "third_puppeteer_1",
+      "whole_correct": false,
+      "reason": "Says Carlo instead of Mangiafoco."
+    },
+    {
+      "id": "third_friend_0",
+      "whole_correct": false,
+      "reason": "Does not identify Lucignolo and falsely describes Pinocchio as an animal."
+    },
+    {
+      "id": "third_friend_1",
+      "whole_correct": false,
+      "reason": "Invents a Shakespeare trilogy and does not identify Lucignolo."
+    },
+    {
+      "id": "third_wood_donor_0",
+      "whole_correct": false,
+      "reason": "Does not identify Maestro Ciliegia and invents beliefs and a team relationship."
+    },
+    {
+      "id": "third_wood_donor_1",
+      "whole_correct": false,
+      "reason": "Invents a book source instead of the carpenter Maestro Ciliegia."
+    },
+    {
+      "id": "third_rescuer_0",
+      "whole_correct": false,
+      "reason": "Refuses the rescue premise and calls Pinocchio science fiction; no Alidoro."
+    },
+    {
+      "id": "third_rescuer_1",
+      "whole_correct": false,
+      "reason": "Says Toto instead of Alidoro."
+    },
+    {
+      "id": "third_fish_father_0",
+      "whole_correct": false,
+      "reason": "Says his heart and invents publication and plot details instead of Geppetto."
+    },
+    {
+      "id": "third_fish_father_1",
+      "whole_correct": false,
+      "reason": "Reverses the retrieval roles and says Capitano Corsaro instead of Geppetto."
+    }
+  ],
+  "final_set_read": false
+}

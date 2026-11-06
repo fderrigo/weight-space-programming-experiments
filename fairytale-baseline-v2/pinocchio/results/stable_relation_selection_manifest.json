@@ -1,0 +1,42 @@
+{
+  "spec": {
+    "utc": "2026-11-05T17:34:54.492472+00:00",
+    "base_candidate": "late_native_recovery",
+    "base_sha256": "910bc6c673e5f2203cd770681da7db2f13aad5b3f3972be065b13becabad32d7",
+    "hypothesis": "Separate temporal class drift from inadequate question discrimination, before constructing any new weights.",
+    "conditions": {
+      "freeze_current": "Cache the twelve actual class coordinates of head23/13 at the last prefill token; reuse them at every decode step. First-token computation is unchanged.",
+      "native_fusion": "Fixed equal average of centered cosine scores from original head14/13 and original mean prefixV21, using the already defined64 prototypes and26 representatives. Take the winning label without consulting the answer; one-hot factual coordinates or all-zero outside, held through generation."
+    },
+    "fusion_causal_limit": "Combines a different source classifier, hard winner and temporal stability; cannot attribute an improvement to only one of those factors.",
+    "intervention": "Only twelve input coordinates of o_proj23 at the current final query. No other head, reference coordinate, mask, prompt or stopping rule changes.",
+    "references_sha256": "52d116685ca61c37673fccc5950adc588d2690f0be754d69ae8a21810dbae5a7",
+    "previous_fusion_diagnostic_sha256": "999b297684a8b297d8fed30c44e693a15e945ba51367a91f12bb397719fea41a",
+    "baseline_sha256": "1343ae44f9aef6c8161d3a5b92ca9aac2b91cde84480151a41cae55d79e65333",
+    "code_sha256": "008afa8182609a7ddb3a461b2049af980dddbd24800a8107b06a01a04485a17f",
+    "screen": "12 known ordinary targets,4 controls, same group batch4,128 tokens,greedy repetition1.1,threads6.",
+    "decision_rule": "Only improved complete answers with retained controls justify a follow-up. Internal classification alone does not.",
+    "runtime_hooks": true,
+    "new_weights_changed": false,
+    "oracle_relation_selection": false,
+    "counts_as_weight_correction": false,
+    "fresh_validation": false,
+    "training": false,
+    "gradients": false,
+    "optimizer": false,
+    "reserved_test_used": false,
+    "resume_note": "Preserve12 completed freeze-current targets after the missing control-ID lookup. Collect native features for the four missing controls directly, before applying the unchanged best candidate. No selector or generation rule changed.",
+    "previous_spec_sha256": "5774038d548fe2b912a39afbea2d3abaa60bff129c4df98e8bac9aa752752943",
+    "partial_responses_sha256": "fbe1757dd7565cb44896dff539d916ad35e054db142b1316649ad0bdac59f8e3"
+  },
+  "completed": true,
+  "responses_expected": 32,
+  "prior12_responses_preserved": true,
+  "native_control_feature_sha256": "eca9ac69653ef5a207f8765b12b3c6abb90f61b5184a8651da9364ceed290238",
+  "responses_completed": 32,
+  "base_candidate_parameter_hashes_unchanged_during_diagnostic": true,
+  "original_parameters_restored": true,
+  "hooks_removed": true,
+  "responses_sha256": "866469246876f5181ce1c615e89004642e6f150800f09e233c957e9b9c2b1171",
+  "traces_sha256": "71c6ae22e50df5cacb84ec03947cf588b6de91b81200d092a15021d25fc3ea38"
+}

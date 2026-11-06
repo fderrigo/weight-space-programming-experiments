@@ -1,0 +1,2602 @@
+{
+  "utc": "2026-11-05T14:02:28.580318+00:00",
+  "hypothesis": "Native memory may favor a small fixed subset of facts regardless of the question. Remove only its mean log-score preference on the48 earlier first-query states and test the24 already observed formulations.",
+  "formula": "S=log(max(attention,1e-30))-mean_slots(log(max(attention,1e-30))); bias=mean_fit(S); S_centered=S-bias.",
+  "fit_indices": [
+    0,
+    3,
+    6,
+    8,
+    10,
+    14,
+    18,
+    21,
+    24,
+    31,
+    38,
+    41,
+    44,
+    48,
+    52,
+    57,
+    62,
+    65,
+    68,
+    71,
+    74,
+    80,
+    86,
+    89,
+    104,
+    107,
+    110,
+    112,
+    114,
+    117,
+    120,
+    124,
+    128,
+    135,
+    142,
+    145,
+    148,
+    152,
+    156,
+    161,
+    166,
+    169,
+    172,
+    178,
+    184,
+    187,
+    190,
+    193
+  ],
+  "source_sha256": "2c8c7b0579fb5933738b794dae248b577f52273a6f87b8be7c9b91e83410e331",
+  "arrays_source_sha256": "e51fdf80f14a701b69ae932ffbcafd9f492faeb15acbed06748c26b0df7c6182",
+  "code_sha256": "daa0a5f5560ea7ebdb48a0028423152b4958bbacea264bfb5e9843bb16ad98a3",
+  "heads": [
+    {
+      "head": 0,
+      "native_correct_top_fact": 2,
+      "mean_removed_correct_top_fact": 4,
+      "observed_probe_total": 24,
+      "native_choice_histogram": {
+        "creator": 0,
+        "material": 1,
+        "nose": 0,
+        "fairy": 0,
+        "deceivers": 9,
+        "donkey": 0,
+        "ending": 0,
+        "puppeteer": 0,
+        "friend": 0,
+        "wood_donor": 14,
+        "rescuer": 0,
+        "fish_father": 0
+      },
+      "mean_removed_choice_histogram": {
+        "creator": 0,
+        "material": 0,
+        "nose": 3,
+        "fairy": 1,
+        "deceivers": 2,
+        "donkey": 2,
+        "ending": 9,
+        "puppeteer": 0,
+        "friend": 4,
+        "wood_donor": 0,
+        "rescuer": 2,
+        "fish_father": 1
+      },
+      "fit_bias_range": 1.5344306230545044,
+      "decisions": [
+        {
+          "id": "second_creator_0",
+          "expected": "creator",
+          "native": "wood_donor",
+          "mean_removed": "rescuer"
+        },
+        {
+          "id": "second_creator_1",
+          "expected": "creator",
+          "native": "deceivers",
+          "mean_removed": "donkey"
+        },
+        {
+          "id": "second_material_0",
+          "expected": "material",
+          "native": "wood_donor",
+          "mean_removed": "fairy"
+        },
+        {
+          "id": "second_material_1",
+          "expected": "material",
+          "native": "deceivers",
+          "mean_removed": "deceivers"
+        },
+        {
+          "id": "second_nose_0",
+          "expected": "nose",
+          "native": "deceivers",
+          "mean_removed": "nose"
+        },
+        {
+          "id": "second_nose_1",
+          "expected": "nose",
+          "native": "deceivers",
+          "mean_removed": "nose"
+        },
+        {
+          "id": "second_fairy_0",
+          "expected": "fairy",
+          "native": "wood_donor",
+          "mean_removed": "rescuer"
+        },
+        {
+          "id": "second_fairy_1",
+          "expected": "fairy",
+          "native": "deceivers",
+          "mean_removed": "ending"
+        },
+        {
+          "id": "second_deceivers_0",
+          "expected": "deceivers",
+          "native": "wood_donor",
+          "mean_removed": "friend"
+        },
+        {
+          "id": "second_deceivers_1",
+          "expected": "deceivers",
+          "native": "wood_donor",
+          "mean_removed": "friend"
+        },
+        {
+          "id": "second_donkey_0",
+          "expected": "donkey",
+          "native": "wood_donor",
+          "mean_removed": "ending"
+        },
+        {
+          "id": "second_donkey_1",
+          "expected": "donkey",
+          "native": "wood_donor",
+          "mean_removed": "fish_father"
+        },
+        {
+          "id": "second_ending_0",
+          "expected": "ending",
+          "native": "wood_donor",
+          "mean_removed": "ending"
+        },
+        {
+          "id": "second_ending_1",
+          "expected": "ending",
+          "native": "wood_donor",
+          "mean_removed": "ending"
+        },
+        {
+          "id": "second_puppeteer_0",
+          "expected": "puppeteer",
+          "native": "wood_donor",
+          "mean_removed": "ending"
+        },
+        {
+          "id": "second_puppeteer_1",
+          "expected": "puppeteer",
+          "native": "wood_donor",
+          "mean_removed": "friend"
+        },
+        {
+          "id": "second_friend_0",
+          "expected": "friend",
+          "native": "deceivers",
+          "mean_removed": "donkey"
+        },
+        {
+          "id": "second_friend_1",
+          "expected": "friend",
+          "native": "deceivers",
+          "mean_removed": "deceivers"
+        },
+        {
+          "id": "second_wood_donor_0",
+          "expected": "wood_donor",
+          "native": "wood_donor",
+          "mean_removed": "friend"
+        },
+        {
+          "id": "second_wood_donor_1",
+          "expected": "wood_donor",
+          "native": "wood_donor",
+          "mean_removed": "ending"
+        },
+        {
+          "id": "second_rescuer_0",
+          "expected": "rescuer",
+          "native": "material",
+          "mean_removed": "nose"
+        },
+        {
+          "id": "second_rescuer_1",
+          "expected": "rescuer",
+          "native": "deceivers",
+          "mean_removed": "ending"
+        },
+        {
+          "id": "second_fish_father_0",
+          "expected": "fish_father",
+          "native": "wood_donor",
+          "mean_removed": "ending"
+        },
+        {
+          "id": "second_fish_father_1",
+          "expected": "fish_father",
+          "native": "deceivers",
+          "mean_removed": "ending"
+        }
+      ]
+    },
+    {
+      "head": 1,
+      "native_correct_top_fact": 2,
+      "mean_removed_correct_top_fact": 2,
+      "observed_probe_total": 24,
+      "native_choice_histogram": {
+        "creator": 0,
+        "material": 3,
+        "nose": 2,
+        "fairy": 1,
+        "deceivers": 0,
+        "donkey": 0,
+        "ending": 3,
+        "puppeteer": 5,
+        "friend": 1,
+        "wood_donor": 2,
+        "rescuer": 0,
+        "fish_father": 7
+      },
+      "mean_removed_choice_histogram": {
+        "creator": 0,
+        "material": 3,
+        "nose": 2,
+        "fairy": 1,
+        "deceivers": 0,
+        "donkey": 1,
+        "ending": 3,
+        "puppeteer": 5,
+        "friend": 1,
+        "wood_donor": 2,
+        "rescuer": 2,
+        "fish_father": 4
+      },
+      "fit_bias_range": 1.680567741394043,
+      "decisions": [
+        {
+          "id": "second_creator_0",
+          "expected": "creator",
+          "native": "fish_father",
+          "mean_removed": "fish_father"
+        },
+        {
+          "id": "second_creator_1",
+          "expected": "creator",
+          "native": "ending",
+          "mean_removed": "ending"
+        },
+        {
+          "id": "second_material_0",
+          "expected": "material",
+          "native": "fish_father",
+          "mean_removed": "donkey"
+        },
+        {
+          "id": "second_material_1",
+          "expected": "material",
+          "native": "ending",
+          "mean_removed": "ending"
+        },
+        {
+          "id": "second_nose_0",
+          "expected": "nose",
+          "native": "puppeteer",
+          "mean_removed": "puppeteer"
+        },
+        {
+          "id": "second_nose_1",
+          "expected": "nose",
+          "native": "ending",
+          "mean_removed": "ending"
+        },
+        {
+          "id": "second_fairy_0",
+          "expected": "fairy",
+          "native": "fish_father",
+          "mean_removed": "fish_father"
+        },
+        {
+          "id": "second_fairy_1",
+          "expected": "fairy",
+          "native": "puppeteer",
+          "mean_removed": "puppeteer"
+        },
+        {
+          "id": "second_deceivers_0",
+          "expected": "deceivers",
+          "native": "wood_donor",
+          "mean_removed": "wood_donor"
+        },
+        {
+          "id": "second_deceivers_1",
+          "expected": "deceivers",
+          "native": "material",
+          "mean_removed": "material"
+        },
+        {
+          "id": "second_donkey_0",
+          "expected": "donkey",
+          "native": "material",
+          "mean_removed": "material"
+        },
+        {
+          "id": "second_donkey_1",
+          "expected": "donkey",
+          "native": "fairy",
+          "mean_removed": "fairy"
+        },
+        {
+          "id": "second_ending_0",
+          "expected": "ending",
+          "native": "wood_donor",
+          "mean_removed": "wood_donor"
+        },
+        {
+          "id": "second_ending_1",
+          "expected": "ending",
+          "native": "material",
+          "mean_removed": "material"
+        },
+        {
+          "id": "second_puppeteer_0",
+          "expected": "puppeteer",
+          "native": "fish_father",
+          "mean_removed": "fish_father"
+        },
+        {
+          "id": "second_puppeteer_1",
+          "expected": "puppeteer",
+          "native": "fish_father",
+          "mean_removed": "rescuer"
+        },
+        {
+          "id": "second_friend_0",
+          "expected": "friend",
+          "native": "friend",
+          "mean_removed": "friend"
+        },
+        {
+          "id": "second_friend_1",
+          "expected": "friend",
+          "native": "fish_father",
+          "mean_removed": "rescuer"
+        },
+        {
+          "id": "second_wood_donor_0",
+          "expected": "wood_donor",
+          "native": "nose",
+          "mean_removed": "nose"
+        },
+        {
+          "id": "second_wood_donor_1",
+          "expected": "wood_donor",
+          "native": "nose",
+          "mean_removed": "nose"
+        },
+        {
+          "id": "second_rescuer_0",
+          "expected": "rescuer",
+          "native": "puppeteer",
+          "mean_removed": "puppeteer"
+        },
+        {
+          "id": "second_rescuer_1",
+          "expected": "rescuer",
+          "native": "puppeteer",
+          "mean_removed": "puppeteer"
+        },
+        {
+          "id": "second_fish_father_0",
+          "expected": "fish_father",
+          "native": "fish_father",
+          "mean_removed": "fish_father"
+        },
+        {
+          "id": "second_fish_father_1",
+          "expected": "fish_father",
+          "native": "puppeteer",
+          "mean_removed": "puppeteer"
+        }
+      ]
+    },
+    {
+      "head": 2,
+      "native_correct_top_fact": 2,
+      "mean_removed_correct_top_fact": 3,
+      "observed_probe_total": 24,
+      "native_choice_histogram": {
+        "creator": 0,
+        "material": 0,
+        "nose": 0,
+        "fairy": 0,
+        "deceivers": 0,
+        "donkey": 0,
+        "ending": 0,
+        "puppeteer": 10,
+        "friend": 0,
+        "wood_donor": 14,
+        "rescuer": 0,
+        "fish_father": 0
+      },
+      "mean_removed_choice_histogram": {
+        "creator": 6,
+        "material": 0,
+        "nose": 1,
+        "fairy": 0,
+        "deceivers": 2,
+        "donkey": 1,
+        "ending": 5,
+        "puppeteer": 0,
+        "friend": 3,
+        "wood_donor": 2,
+        "rescuer": 3,
+        "fish_father": 1
+      },
+      "fit_bias_range": 0.9933300018310547,
+      "decisions": [
+        {
+          "id": "second_creator_0",
+          "expected": "creator",
+          "native": "wood_donor",
+          "mean_removed": "creator"
+        },
+        {
+          "id": "second_creator_1",
+          "expected": "creator",
+          "native": "wood_donor",
+          "mean_removed": "donkey"
+        },
+        {
+          "id": "second_material_0",
+          "expected": "material",
+          "native": "wood_donor",
+          "mean_removed": "deceivers"
+        },
+        {
+          "id": "second_material_1",
+          "expected": "material",
+          "native": "puppeteer",
+          "mean_removed": "ending"
+        },
+        {
+          "id": "second_nose_0",
+          "expected": "nose",
+          "native": "puppeteer",
+          "mean_removed": "ending"
+        },
+        {
+          "id": "second_nose_1",
+          "expected": "nose",
+          "native": "puppeteer",
+          "mean_removed": "ending"
+        },
+        {
+          "id": "second_fairy_0",
+          "expected": "fairy",
+          "native": "wood_donor",
+          "mean_removed": "rescuer"
+        },
+        {
+          "id": "second_fairy_1",
+          "expected": "fairy",
+          "native": "puppeteer",
+          "mean_removed": "ending"
+        },
+        {
+          "id": "second_deceivers_0",
+          "expected": "deceivers",
+          "native": "wood_donor",
+          "mean_removed": "friend"
+        },
+        {
+          "id": "second_deceivers_1",
+          "expected": "deceivers",
+          "native": "puppeteer",
+          "mean_removed": "creator"
+        },
+        {
+          "id": "second_donkey_0",
+          "expected": "donkey",
+          "native": "wood_donor",
+          "mean_removed": "creator"
+        },
+        {
+          "id": "second_donkey_1",
+          "expected": "donkey",
+          "native": "wood_donor",
+          "mean_removed": "deceivers"
+        },
+        {
+          "id": "second_ending_0",
+          "expected": "ending",
+          "native": "wood_donor",
+          "mean_removed": "wood_donor"
+        },
+        {
+          "id": "second_ending_1",
+          "expected": "ending",
+          "native": "puppeteer",
+          "mean_removed": "creator"
+        },
+        {
+          "id": "second_puppeteer_0",
+          "expected": "puppeteer",
+          "native": "wood_donor",
+          "mean_removed": "rescuer"
+        },
+        {
+          "id": "second_puppeteer_1",
+          "expected": "puppeteer",
+          "native": "wood_donor",
+          "mean_removed": "wood_donor"
+        },
+        {
+          "id": "second_friend_0",
+          "expected": "friend",
+          "native": "puppeteer",
+          "mean_removed": "friend"
+        },
+        {
+          "id": "second_friend_1",
+          "expected": "friend",
+          "native": "wood_donor",
+          "mean_removed": "rescuer"
+        },
+        {
+          "id": "second_wood_donor_0",
+          "expected": "wood_donor",
+          "native": "wood_donor",
+          "mean_removed": "creator"
+        },
+        {
+          "id": "second_wood_donor_1",
+          "expected": "wood_donor",
+          "native": "wood_donor",
+          "mean_removed": "creator"
+        },
+        {
+          "id": "second_rescuer_0",
+          "expected": "rescuer",
+          "native": "puppeteer",
+          "mean_removed": "nose"
+        },
+        {
+          "id": "second_rescuer_1",
+          "expected": "rescuer",
+          "native": "puppeteer",
+          "mean_removed": "ending"
+        },
+        {
+          "id": "second_fish_father_0",
+          "expected": "fish_father",
+          "native": "wood_donor",
+          "mean_removed": "fish_father"
+        },
+        {
+          "id": "second_fish_father_1",
+          "expected": "fish_father",
+          "native": "puppeteer",
+          "mean_removed": "friend"
+        }
+      ]
+    },
+    {
+      "head": 3,
+      "native_correct_top_fact": 1,
+      "mean_removed_correct_top_fact": 3,
+      "observed_probe_total": 24,
+      "native_choice_histogram": {
+        "creator": 3,
+        "material": 0,
+        "nose": 0,
+        "fairy": 0,
+        "deceivers": 0,
+        "donkey": 0,
+        "ending": 0,
+        "puppeteer": 0,
+        "friend": 21,
+        "wood_donor": 0,
+        "rescuer": 0,
+        "fish_father": 0
+      },
+      "mean_removed_choice_histogram": {
+        "creator": 0,
+        "material": 1,
+        "nose": 9,
+        "fairy": 2,
+        "deceivers": 1,
+        "donkey": 2,
+        "ending": 2,
+        "puppeteer": 0,
+        "friend": 4,
+        "wood_donor": 0,
+        "rescuer": 1,
+        "fish_father": 2
+      },
+      "fit_bias_range": 1.8529568910598755,
+      "decisions": [
+        {
+          "id": "second_creator_0",
+          "expected": "creator",
+          "native": "friend",
+          "mean_removed": "friend"
+        },
+        {
+          "id": "second_creator_1",
+          "expected": "creator",
+          "native": "friend",
+          "mean_removed": "donkey"
+        },
+        {
+          "id": "second_material_0",
+          "expected": "material",
+          "native": "friend",
+          "mean_removed": "friend"
+        },
+        {
+          "id": "second_material_1",
+          "expected": "material",
+          "native": "creator",
+          "mean_removed": "fairy"
+        },
+        {
+          "id": "second_nose_0",
+          "expected": "nose",
+          "native": "friend",
+          "mean_removed": "nose"
+        },
+        {
+          "id": "second_nose_1",
+          "expected": "nose",
+          "native": "friend",
+          "mean_removed": "nose"
+        },
+        {
+          "id": "second_fairy_0",
+          "expected": "fairy",
+          "native": "friend",
+          "mean_removed": "fairy"
+        },
+        {
+          "id": "second_fairy_1",
+          "expected": "fairy",
+          "native": "friend",
+          "mean_removed": "nose"
+        },
+        {
+          "id": "second_deceivers_0",
+          "expected": "deceivers",
+          "native": "friend",
+          "mean_removed": "nose"
+        },
+        {
+          "id": "second_deceivers_1",
+          "expected": "deceivers",
+          "native": "friend",
+          "mean_removed": "friend"
+        },
+        {
+          "id": "second_donkey_0",
+          "expected": "donkey",
+          "native": "friend",
+          "mean_removed": "nose"
+        },
+        {
+          "id": "second_donkey_1",
+          "expected": "donkey",
+          "native": "friend",
+          "mean_removed": "fish_father"
+        },
+        {
+          "id": "second_ending_0",
+          "expected": "ending",
+          "native": "friend",
+          "mean_removed": "nose"
+        },
+        {
+          "id": "second_ending_1",
+          "expected": "ending",
+          "native": "friend",
+          "mean_removed": "nose"
+        },
+        {
+          "id": "second_puppeteer_0",
+          "expected": "puppeteer",
+          "native": "friend",
+          "mean_removed": "deceivers"
+        },
+        {
+          "id": "second_puppeteer_1",
+          "expected": "puppeteer",
+          "native": "friend",
+          "mean_removed": "friend"
+        },
+        {
+          "id": "second_friend_0",
+          "expected": "friend",
+          "native": "creator",
+          "mean_removed": "donkey"
+        },
+        {
+          "id": "second_friend_1",
+          "expected": "friend",
+          "native": "friend",
+          "mean_removed": "fish_father"
+        },
+        {
+          "id": "second_wood_donor_0",
+          "expected": "wood_donor",
+          "native": "friend",
+          "mean_removed": "ending"
+        },
+        {
+          "id": "second_wood_donor_1",
+          "expected": "wood_donor",
+          "native": "friend",
+          "mean_removed": "ending"
+        },
+        {
+          "id": "second_rescuer_0",
+          "expected": "rescuer",
+          "native": "friend",
+          "mean_removed": "material"
+        },
+        {
+          "id": "second_rescuer_1",
+          "expected": "rescuer",
+          "native": "friend",
+          "mean_removed": "nose"
+        },
+        {
+          "id": "second_fish_father_0",
+          "expected": "fish_father",
+          "native": "creator",
+          "mean_removed": "nose"
+        },
+        {
+          "id": "second_fish_father_1",
+          "expected": "fish_father",
+          "native": "friend",
+          "mean_removed": "rescuer"
+        }
+      ]
+    },
+    {
+      "head": 4,
+      "native_correct_top_fact": 2,
+      "mean_removed_correct_top_fact": 2,
+      "observed_probe_total": 24,
+      "native_choice_histogram": {
+        "creator": 0,
+        "material": 0,
+        "nose": 0,
+        "fairy": 0,
+        "deceivers": 0,
+        "donkey": 0,
+        "ending": 0,
+        "puppeteer": 24,
+        "friend": 0,
+        "wood_donor": 0,
+        "rescuer": 0,
+        "fish_father": 0
+      },
+      "mean_removed_choice_histogram": {
+        "creator": 2,
+        "material": 0,
+        "nose": 0,
+        "fairy": 1,
+        "deceivers": 3,
+        "donkey": 0,
+        "ending": 5,
+        "puppeteer": 1,
+        "friend": 2,
+        "wood_donor": 2,
+        "rescuer": 1,
+        "fish_father": 7
+      },
+      "fit_bias_range": 1.5319969654083252,
+      "decisions": [
+        {
+          "id": "second_creator_0",
+          "expected": "creator",
+          "native": "puppeteer",
+          "mean_removed": "fish_father"
+        },
+        {
+          "id": "second_creator_1",
+          "expected": "creator",
+          "native": "puppeteer",
+          "mean_removed": "deceivers"
+        },
+        {
+          "id": "second_material_0",
+          "expected": "material",
+          "native": "puppeteer",
+          "mean_removed": "fairy"
+        },
+        {
+          "id": "second_material_1",
+          "expected": "material",
+          "native": "puppeteer",
+          "mean_removed": "deceivers"
+        },
+        {
+          "id": "second_nose_0",
+          "expected": "nose",
+          "native": "puppeteer",
+          "mean_removed": "ending"
+        },
+        {
+          "id": "second_nose_1",
+          "expected": "nose",
+          "native": "puppeteer",
+          "mean_removed": "deceivers"
+        },
+        {
+          "id": "second_fairy_0",
+          "expected": "fairy",
+          "native": "puppeteer",
+          "mean_removed": "fish_father"
+        },
+        {
+          "id": "second_fairy_1",
+          "expected": "fairy",
+          "native": "puppeteer",
+          "mean_removed": "ending"
+        },
+        {
+          "id": "second_deceivers_0",
+          "expected": "deceivers",
+          "native": "puppeteer",
+          "mean_removed": "ending"
+        },
+        {
+          "id": "second_deceivers_1",
+          "expected": "deceivers",
+          "native": "puppeteer",
+          "mean_removed": "fish_father"
+        },
+        {
+          "id": "second_donkey_0",
+          "expected": "donkey",
+          "native": "puppeteer",
+          "mean_removed": "creator"
+        },
+        {
+          "id": "second_donkey_1",
+          "expected": "donkey",
+          "native": "puppeteer",
+          "mean_removed": "fish_father"
+        },
+        {
+          "id": "second_ending_0",
+          "expected": "ending",
+          "native": "puppeteer",
+          "mean_removed": "wood_donor"
+        },
+        {
+          "id": "second_ending_1",
+          "expected": "ending",
+          "native": "puppeteer",
+          "mean_removed": "creator"
+        },
+        {
+          "id": "second_puppeteer_0",
+          "expected": "puppeteer",
+          "native": "puppeteer",
+          "mean_removed": "rescuer"
+        },
+        {
+          "id": "second_puppeteer_1",
+          "expected": "puppeteer",
+          "native": "puppeteer",
+          "mean_removed": "friend"
+        },
+        {
+          "id": "second_friend_0",
+          "expected": "friend",
+          "native": "puppeteer",
+          "mean_removed": "friend"
+        },
+        {
+          "id": "second_friend_1",
+          "expected": "friend",
+          "native": "puppeteer",
+          "mean_removed": "wood_donor"
+        },
+        {
+          "id": "second_wood_donor_0",
+          "expected": "wood_donor",
+          "native": "puppeteer",
+          "mean_removed": "fish_father"
+        },
+        {
+          "id": "second_wood_donor_1",
+          "expected": "wood_donor",
+          "native": "puppeteer",
+          "mean_removed": "fish_father"
+        },
+        {
+          "id": "second_rescuer_0",
+          "expected": "rescuer",
+          "native": "puppeteer",
+          "mean_removed": "puppeteer"
+        },
+        {
+          "id": "second_rescuer_1",
+          "expected": "rescuer",
+          "native": "puppeteer",
+          "mean_removed": "ending"
+        },
+        {
+          "id": "second_fish_father_0",
+          "expected": "fish_father",
+          "native": "puppeteer",
+          "mean_removed": "fish_father"
+        },
+        {
+          "id": "second_fish_father_1",
+          "expected": "fish_father",
+          "native": "puppeteer",
+          "mean_removed": "ending"
+        }
+      ]
+    },
+    {
+      "head": 5,
+      "native_correct_top_fact": 3,
+      "mean_removed_correct_top_fact": 3,
+      "observed_probe_total": 24,
+      "native_choice_histogram": {
+        "creator": 0,
+        "material": 17,
+        "nose": 0,
+        "fairy": 0,
+        "deceivers": 0,
+        "donkey": 2,
+        "ending": 0,
+        "puppeteer": 5,
+        "friend": 0,
+        "wood_donor": 0,
+        "rescuer": 0,
+        "fish_father": 0
+      },
+      "mean_removed_choice_histogram": {
+        "creator": 0,
+        "material": 0,
+        "nose": 7,
+        "fairy": 4,
+        "deceivers": 1,
+        "donkey": 1,
+        "ending": 3,
+        "puppeteer": 0,
+        "friend": 7,
+        "wood_donor": 0,
+        "rescuer": 1,
+        "fish_father": 0
+      },
+      "fit_bias_range": 1.1197038888931274,
+      "decisions": [
+        {
+          "id": "second_creator_0",
+          "expected": "creator",
+          "native": "puppeteer",
+          "mean_removed": "friend"
+        },
+        {
+          "id": "second_creator_1",
+          "expected": "creator",
+          "native": "material",
+          "mean_removed": "fairy"
+        },
+        {
+          "id": "second_material_0",
+          "expected": "material",
+          "native": "material",
+          "mean_removed": "rescuer"
+        },
+        {
+          "id": "second_material_1",
+          "expected": "material",
+          "native": "material",
+          "mean_removed": "fairy"
+        },
+        {
+          "id": "second_nose_0",
+          "expected": "nose",
+          "native": "material",
+          "mean_removed": "nose"
+        },
+        {
+          "id": "second_nose_1",
+          "expected": "nose",
+          "native": "material",
+          "mean_removed": "nose"
+        },
+        {
+          "id": "second_fairy_0",
+          "expected": "fairy",
+          "native": "material",
+          "mean_removed": "deceivers"
+        },
+        {
+          "id": "second_fairy_1",
+          "expected": "fairy",
+          "native": "material",
+          "mean_removed": "nose"
+        },
+        {
+          "id": "second_deceivers_0",
+          "expected": "deceivers",
+          "native": "puppeteer",
+          "mean_removed": "nose"
+        },
+        {
+          "id": "second_deceivers_1",
+          "expected": "deceivers",
+          "native": "material",
+          "mean_removed": "friend"
+        },
+        {
+          "id": "second_donkey_0",
+          "expected": "donkey",
+          "native": "donkey",
+          "mean_removed": "ending"
+        },
+        {
+          "id": "second_donkey_1",
+          "expected": "donkey",
+          "native": "puppeteer",
+          "mean_removed": "ending"
+        },
+        {
+          "id": "second_ending_0",
+          "expected": "ending",
+          "native": "material",
+          "mean_removed": "ending"
+        },
+        {
+          "id": "second_ending_1",
+          "expected": "ending",
+          "native": "donkey",
+          "mean_removed": "nose"
+        },
+        {
+          "id": "second_puppeteer_0",
+          "expected": "puppeteer",
+          "native": "material",
+          "mean_removed": "friend"
+        },
+        {
+          "id": "second_puppeteer_1",
+          "expected": "puppeteer",
+          "native": "material",
+          "mean_removed": "friend"
+        },
+        {
+          "id": "second_friend_0",
+          "expected": "friend",
+          "native": "material",
+          "mean_removed": "donkey"
+        },
+        {
+          "id": "second_friend_1",
+          "expected": "friend",
+          "native": "material",
+          "mean_removed": "fairy"
+        },
+        {
+          "id": "second_wood_donor_0",
+          "expected": "wood_donor",
+          "native": "material",
+          "mean_removed": "friend"
+        },
+        {
+          "id": "second_wood_donor_1",
+          "expected": "wood_donor",
+          "native": "material",
+          "mean_removed": "fairy"
+        },
+        {
+          "id": "second_rescuer_0",
+          "expected": "rescuer",
+          "native": "material",
+          "mean_removed": "friend"
+        },
+        {
+          "id": "second_rescuer_1",
+          "expected": "rescuer",
+          "native": "material",
+          "mean_removed": "nose"
+        },
+        {
+          "id": "second_fish_father_0",
+          "expected": "fish_father",
+          "native": "puppeteer",
+          "mean_removed": "nose"
+        },
+        {
+          "id": "second_fish_father_1",
+          "expected": "fish_father",
+          "native": "puppeteer",
+          "mean_removed": "friend"
+        }
+      ]
+    },
+    {
+      "head": 6,
+      "native_correct_top_fact": 2,
+      "mean_removed_correct_top_fact": 4,
+      "observed_probe_total": 24,
+      "native_choice_histogram": {
+        "creator": 0,
+        "material": 3,
+        "nose": 21,
+        "fairy": 0,
+        "deceivers": 0,
+        "donkey": 0,
+        "ending": 0,
+        "puppeteer": 0,
+        "friend": 0,
+        "wood_donor": 0,
+        "rescuer": 0,
+        "fish_father": 0
+      },
+      "mean_removed_choice_histogram": {
+        "creator": 0,
+        "material": 3,
+        "nose": 3,
+        "fairy": 1,
+        "deceivers": 3,
+        "donkey": 0,
+        "ending": 7,
+        "puppeteer": 1,
+        "friend": 4,
+        "wood_donor": 0,
+        "rescuer": 0,
+        "fish_father": 2
+      },
+      "fit_bias_range": 1.7559401988983154,
+      "decisions": [
+        {
+          "id": "second_creator_0",
+          "expected": "creator",
+          "native": "material",
+          "mean_removed": "friend"
+        },
+        {
+          "id": "second_creator_1",
+          "expected": "creator",
+          "native": "nose",
+          "mean_removed": "material"
+        },
+        {
+          "id": "second_material_0",
+          "expected": "material",
+          "native": "nose",
+          "mean_removed": "fairy"
+        },
+        {
+          "id": "second_material_1",
+          "expected": "material",
+          "native": "nose",
+          "mean_removed": "deceivers"
+        },
+        {
+          "id": "second_nose_0",
+          "expected": "nose",
+          "native": "nose",
+          "mean_removed": "nose"
+        },
+        {
+          "id": "second_nose_1",
+          "expected": "nose",
+          "native": "nose",
+          "mean_removed": "nose"
+        },
+        {
+          "id": "second_fairy_0",
+          "expected": "fairy",
+          "native": "nose",
+          "mean_removed": "ending"
+        },
+        {
+          "id": "second_fairy_1",
+          "expected": "fairy",
+          "native": "nose",
+          "mean_removed": "deceivers"
+        },
+        {
+          "id": "second_deceivers_0",
+          "expected": "deceivers",
+          "native": "nose",
+          "mean_removed": "nose"
+        },
+        {
+          "id": "second_deceivers_1",
+          "expected": "deceivers",
+          "native": "nose",
+          "mean_removed": "friend"
+        },
+        {
+          "id": "second_donkey_0",
+          "expected": "donkey",
+          "native": "nose",
+          "mean_removed": "ending"
+        },
+        {
+          "id": "second_donkey_1",
+          "expected": "donkey",
+          "native": "nose",
+          "mean_removed": "fish_father"
+        },
+        {
+          "id": "second_ending_0",
+          "expected": "ending",
+          "native": "nose",
+          "mean_removed": "ending"
+        },
+        {
+          "id": "second_ending_1",
+          "expected": "ending",
+          "native": "nose",
+          "mean_removed": "puppeteer"
+        },
+        {
+          "id": "second_puppeteer_0",
+          "expected": "puppeteer",
+          "native": "nose",
+          "mean_removed": "ending"
+        },
+        {
+          "id": "second_puppeteer_1",
+          "expected": "puppeteer",
+          "native": "nose",
+          "mean_removed": "friend"
+        },
+        {
+          "id": "second_friend_0",
+          "expected": "friend",
+          "native": "nose",
+          "mean_removed": "material"
+        },
+        {
+          "id": "second_friend_1",
+          "expected": "friend",
+          "native": "nose",
+          "mean_removed": "deceivers"
+        },
+        {
+          "id": "second_wood_donor_0",
+          "expected": "wood_donor",
+          "native": "material",
+          "mean_removed": "friend"
+        },
+        {
+          "id": "second_wood_donor_1",
+          "expected": "wood_donor",
+          "native": "material",
+          "mean_removed": "ending"
+        },
+        {
+          "id": "second_rescuer_0",
+          "expected": "rescuer",
+          "native": "nose",
+          "mean_removed": "material"
+        },
+        {
+          "id": "second_rescuer_1",
+          "expected": "rescuer",
+          "native": "nose",
+          "mean_removed": "ending"
+        },
+        {
+          "id": "second_fish_father_0",
+          "expected": "fish_father",
+          "native": "nose",
+          "mean_removed": "ending"
+        },
+        {
+          "id": "second_fish_father_1",
+          "expected": "fish_father",
+          "native": "nose",
+          "mean_removed": "fish_father"
+        }
+      ]
+    },
+    {
+      "head": 7,
+      "native_correct_top_fact": 2,
+      "mean_removed_correct_top_fact": 2,
+      "observed_probe_total": 24,
+      "native_choice_histogram": {
+        "creator": 0,
+        "material": 20,
+        "nose": 1,
+        "fairy": 1,
+        "deceivers": 0,
+        "donkey": 0,
+        "ending": 0,
+        "puppeteer": 0,
+        "friend": 2,
+        "wood_donor": 0,
+        "rescuer": 0,
+        "fish_father": 0
+      },
+      "mean_removed_choice_histogram": {
+        "creator": 1,
+        "material": 6,
+        "nose": 4,
+        "fairy": 3,
+        "deceivers": 0,
+        "donkey": 1,
+        "ending": 5,
+        "puppeteer": 0,
+        "friend": 3,
+        "wood_donor": 0,
+        "rescuer": 0,
+        "fish_father": 1
+      },
+      "fit_bias_range": 1.6815707683563232,
+      "decisions": [
+        {
+          "id": "second_creator_0",
+          "expected": "creator",
+          "native": "friend",
+          "mean_removed": "creator"
+        },
+        {
+          "id": "second_creator_1",
+          "expected": "creator",
+          "native": "material",
+          "mean_removed": "ending"
+        },
+        {
+          "id": "second_material_0",
+          "expected": "material",
+          "native": "material",
+          "mean_removed": "fish_father"
+        },
+        {
+          "id": "second_material_1",
+          "expected": "material",
+          "native": "material",
+          "mean_removed": "ending"
+        },
+        {
+          "id": "second_nose_0",
+          "expected": "nose",
+          "native": "friend",
+          "mean_removed": "friend"
+        },
+        {
+          "id": "second_nose_1",
+          "expected": "nose",
+          "native": "material",
+          "mean_removed": "ending"
+        },
+        {
+          "id": "second_fairy_0",
+          "expected": "fairy",
+          "native": "material",
+          "mean_removed": "material"
+        },
+        {
+          "id": "second_fairy_1",
+          "expected": "fairy",
+          "native": "material",
+          "mean_removed": "nose"
+        },
+        {
+          "id": "second_deceivers_0",
+          "expected": "deceivers",
+          "native": "material",
+          "mean_removed": "fairy"
+        },
+        {
+          "id": "second_deceivers_1",
+          "expected": "deceivers",
+          "native": "material",
+          "mean_removed": "friend"
+        },
+        {
+          "id": "second_donkey_0",
+          "expected": "donkey",
+          "native": "material",
+          "mean_removed": "material"
+        },
+        {
+          "id": "second_donkey_1",
+          "expected": "donkey",
+          "native": "material",
+          "mean_removed": "ending"
+        },
+        {
+          "id": "second_ending_0",
+          "expected": "ending",
+          "native": "material",
+          "mean_removed": "ending"
+        },
+        {
+          "id": "second_ending_1",
+          "expected": "ending",
+          "native": "nose",
+          "mean_removed": "nose"
+        },
+        {
+          "id": "second_puppeteer_0",
+          "expected": "puppeteer",
+          "native": "material",
+          "mean_removed": "material"
+        },
+        {
+          "id": "second_puppeteer_1",
+          "expected": "puppeteer",
+          "native": "material",
+          "mean_removed": "nose"
+        },
+        {
+          "id": "second_friend_0",
+          "expected": "friend",
+          "native": "material",
+          "mean_removed": "donkey"
+        },
+        {
+          "id": "second_friend_1",
+          "expected": "friend",
+          "native": "material",
+          "mean_removed": "material"
+        },
+        {
+          "id": "second_wood_donor_0",
+          "expected": "wood_donor",
+          "native": "material",
+          "mean_removed": "fairy"
+        },
+        {
+          "id": "second_wood_donor_1",
+          "expected": "wood_donor",
+          "native": "fairy",
+          "mean_removed": "fairy"
+        },
+        {
+          "id": "second_rescuer_0",
+          "expected": "rescuer",
+          "native": "material",
+          "mean_removed": "material"
+        },
+        {
+          "id": "second_rescuer_1",
+          "expected": "rescuer",
+          "native": "material",
+          "mean_removed": "friend"
+        },
+        {
+          "id": "second_fish_father_0",
+          "expected": "fish_father",
+          "native": "material",
+          "mean_removed": "nose"
+        },
+        {
+          "id": "second_fish_father_1",
+          "expected": "fish_father",
+          "native": "material",
+          "mean_removed": "material"
+        }
+      ]
+    },
+    {
+      "head": 8,
+      "native_correct_top_fact": 2,
+      "mean_removed_correct_top_fact": 2,
+      "observed_probe_total": 24,
+      "native_choice_histogram": {
+        "creator": 0,
+        "material": 0,
+        "nose": 0,
+        "fairy": 1,
+        "deceivers": 0,
+        "donkey": 0,
+        "ending": 23,
+        "puppeteer": 0,
+        "friend": 0,
+        "wood_donor": 0,
+        "rescuer": 0,
+        "fish_father": 0
+      },
+      "mean_removed_choice_histogram": {
+        "creator": 0,
+        "material": 1,
+        "nose": 4,
+        "fairy": 3,
+        "deceivers": 2,
+        "donkey": 0,
+        "ending": 4,
+        "puppeteer": 2,
+        "friend": 4,
+        "wood_donor": 2,
+        "rescuer": 0,
+        "fish_father": 2
+      },
+      "fit_bias_range": 1.3770006895065308,
+      "decisions": [
+        {
+          "id": "second_creator_0",
+          "expected": "creator",
+          "native": "ending",
+          "mean_removed": "fish_father"
+        },
+        {
+          "id": "second_creator_1",
+          "expected": "creator",
+          "native": "ending",
+          "mean_removed": "fairy"
+        },
+        {
+          "id": "second_material_0",
+          "expected": "material",
+          "native": "fairy",
+          "mean_removed": "wood_donor"
+        },
+        {
+          "id": "second_material_1",
+          "expected": "material",
+          "native": "ending",
+          "mean_removed": "fairy"
+        },
+        {
+          "id": "second_nose_0",
+          "expected": "nose",
+          "native": "ending",
+          "mean_removed": "puppeteer"
+        },
+        {
+          "id": "second_nose_1",
+          "expected": "nose",
+          "native": "ending",
+          "mean_removed": "nose"
+        },
+        {
+          "id": "second_fairy_0",
+          "expected": "fairy",
+          "native": "ending",
+          "mean_removed": "wood_donor"
+        },
+        {
+          "id": "second_fairy_1",
+          "expected": "fairy",
+          "native": "ending",
+          "mean_removed": "nose"
+        },
+        {
+          "id": "second_deceivers_0",
+          "expected": "deceivers",
+          "native": "ending",
+          "mean_removed": "nose"
+        },
+        {
+          "id": "second_deceivers_1",
+          "expected": "deceivers",
+          "native": "ending",
+          "mean_removed": "fish_father"
+        },
+        {
+          "id": "second_donkey_0",
+          "expected": "donkey",
+          "native": "ending",
+          "mean_removed": "ending"
+        },
+        {
+          "id": "second_donkey_1",
+          "expected": "donkey",
+          "native": "ending",
+          "mean_removed": "material"
+        },
+        {
+          "id": "second_ending_0",
+          "expected": "ending",
+          "native": "ending",
+          "mean_removed": "friend"
+        },
+        {
+          "id": "second_ending_1",
+          "expected": "ending",
+          "native": "ending",
+          "mean_removed": "ending"
+        },
+        {
+          "id": "second_puppeteer_0",
+          "expected": "puppeteer",
+          "native": "ending",
+          "mean_removed": "ending"
+        },
+        {
+          "id": "second_puppeteer_1",
+          "expected": "puppeteer",
+          "native": "ending",
+          "mean_removed": "friend"
+        },
+        {
+          "id": "second_friend_0",
+          "expected": "friend",
+          "native": "ending",
+          "mean_removed": "puppeteer"
+        },
+        {
+          "id": "second_friend_1",
+          "expected": "friend",
+          "native": "ending",
+          "mean_removed": "fairy"
+        },
+        {
+          "id": "second_wood_donor_0",
+          "expected": "wood_donor",
+          "native": "ending",
+          "mean_removed": "friend"
+        },
+        {
+          "id": "second_wood_donor_1",
+          "expected": "wood_donor",
+          "native": "ending",
+          "mean_removed": "friend"
+        },
+        {
+          "id": "second_rescuer_0",
+          "expected": "rescuer",
+          "native": "ending",
+          "mean_removed": "ending"
+        },
+        {
+          "id": "second_rescuer_1",
+          "expected": "rescuer",
+          "native": "ending",
+          "mean_removed": "nose"
+        },
+        {
+          "id": "second_fish_father_0",
+          "expected": "fish_father",
+          "native": "ending",
+          "mean_removed": "deceivers"
+        },
+        {
+          "id": "second_fish_father_1",
+          "expected": "fish_father",
+          "native": "ending",
+          "mean_removed": "deceivers"
+        }
+      ]
+    },
+    {
+      "head": 9,
+      "native_correct_top_fact": 2,
+      "mean_removed_correct_top_fact": 6,
+      "observed_probe_total": 24,
+      "native_choice_histogram": {
+        "creator": 0,
+        "material": 0,
+        "nose": 0,
+        "fairy": 0,
+        "deceivers": 0,
+        "donkey": 0,
+        "ending": 0,
+        "puppeteer": 0,
+        "friend": 24,
+        "wood_donor": 0,
+        "rescuer": 0,
+        "fish_father": 0
+      },
+      "mean_removed_choice_histogram": {
+        "creator": 0,
+        "material": 1,
+        "nose": 6,
+        "fairy": 4,
+        "deceivers": 1,
+        "donkey": 1,
+        "ending": 3,
+        "puppeteer": 0,
+        "friend": 5,
+        "wood_donor": 0,
+        "rescuer": 2,
+        "fish_father": 1
+      },
+      "fit_bias_range": 2.881706714630127,
+      "decisions": [
+        {
+          "id": "second_creator_0",
+          "expected": "creator",
+          "native": "friend",
+          "mean_removed": "friend"
+        },
+        {
+          "id": "second_creator_1",
+          "expected": "creator",
+          "native": "friend",
+          "mean_removed": "fairy"
+        },
+        {
+          "id": "second_material_0",
+          "expected": "material",
+          "native": "friend",
+          "mean_removed": "friend"
+        },
+        {
+          "id": "second_material_1",
+          "expected": "material",
+          "native": "friend",
+          "mean_removed": "material"
+        },
+        {
+          "id": "second_nose_0",
+          "expected": "nose",
+          "native": "friend",
+          "mean_removed": "nose"
+        },
+        {
+          "id": "second_nose_1",
+          "expected": "nose",
+          "native": "friend",
+          "mean_removed": "nose"
+        },
+        {
+          "id": "second_fairy_0",
+          "expected": "fairy",
+          "native": "friend",
+          "mean_removed": "fairy"
+        },
+        {
+          "id": "second_fairy_1",
+          "expected": "fairy",
+          "native": "friend",
+          "mean_removed": "deceivers"
+        },
+        {
+          "id": "second_deceivers_0",
+          "expected": "deceivers",
+          "native": "friend",
+          "mean_removed": "nose"
+        },
+        {
+          "id": "second_deceivers_1",
+          "expected": "deceivers",
+          "native": "friend",
+          "mean_removed": "friend"
+        },
+        {
+          "id": "second_donkey_0",
+          "expected": "donkey",
+          "native": "friend",
+          "mean_removed": "donkey"
+        },
+        {
+          "id": "second_donkey_1",
+          "expected": "donkey",
+          "native": "friend",
+          "mean_removed": "rescuer"
+        },
+        {
+          "id": "second_ending_0",
+          "expected": "ending",
+          "native": "friend",
+          "mean_removed": "nose"
+        },
+        {
+          "id": "second_ending_1",
+          "expected": "ending",
+          "native": "friend",
+          "mean_removed": "ending"
+        },
+        {
+          "id": "second_puppeteer_0",
+          "expected": "puppeteer",
+          "native": "friend",
+          "mean_removed": "ending"
+        },
+        {
+          "id": "second_puppeteer_1",
+          "expected": "puppeteer",
+          "native": "friend",
+          "mean_removed": "friend"
+        },
+        {
+          "id": "second_friend_0",
+          "expected": "friend",
+          "native": "friend",
+          "mean_removed": "ending"
+        },
+        {
+          "id": "second_friend_1",
+          "expected": "friend",
+          "native": "friend",
+          "mean_removed": "fairy"
+        },
+        {
+          "id": "second_wood_donor_0",
+          "expected": "wood_donor",
+          "native": "friend",
+          "mean_removed": "friend"
+        },
+        {
+          "id": "second_wood_donor_1",
+          "expected": "wood_donor",
+          "native": "friend",
+          "mean_removed": "fairy"
+        },
+        {
+          "id": "second_rescuer_0",
+          "expected": "rescuer",
+          "native": "friend",
+          "mean_removed": "fish_father"
+        },
+        {
+          "id": "second_rescuer_1",
+          "expected": "rescuer",
+          "native": "friend",
+          "mean_removed": "nose"
+        },
+        {
+          "id": "second_fish_father_0",
+          "expected": "fish_father",
+          "native": "friend",
+          "mean_removed": "rescuer"
+        },
+        {
+          "id": "second_fish_father_1",
+          "expected": "fish_father",
+          "native": "friend",
+          "mean_removed": "nose"
+        }
+      ]
+    },
+    {
+      "head": 10,
+      "native_correct_top_fact": 3,
+      "mean_removed_correct_top_fact": 2,
+      "observed_probe_total": 24,
+      "native_choice_histogram": {
+        "creator": 3,
+        "material": 0,
+        "nose": 0,
+        "fairy": 0,
+        "deceivers": 1,
+        "donkey": 1,
+        "ending": 0,
+        "puppeteer": 0,
+        "friend": 11,
+        "wood_donor": 2,
+        "rescuer": 2,
+        "fish_father": 4
+      },
+      "mean_removed_choice_histogram": {
+        "creator": 0,
+        "material": 3,
+        "nose": 2,
+        "fairy": 0,
+        "deceivers": 1,
+        "donkey": 1,
+        "ending": 2,
+        "puppeteer": 1,
+        "friend": 6,
+        "wood_donor": 0,
+        "rescuer": 2,
+        "fish_father": 6
+      },
+      "fit_bias_range": 2.9914164543151855,
+      "decisions": [
+        {
+          "id": "second_creator_0",
+          "expected": "creator",
+          "native": "fish_father",
+          "mean_removed": "fish_father"
+        },
+        {
+          "id": "second_creator_1",
+          "expected": "creator",
+          "native": "creator",
+          "mean_removed": "ending"
+        },
+        {
+          "id": "second_material_0",
+          "expected": "material",
+          "native": "donkey",
+          "mean_removed": "donkey"
+        },
+        {
+          "id": "second_material_1",
+          "expected": "material",
+          "native": "creator",
+          "mean_removed": "puppeteer"
+        },
+        {
+          "id": "second_nose_0",
+          "expected": "nose",
+          "native": "friend",
+          "mean_removed": "friend"
+        },
+        {
+          "id": "second_nose_1",
+          "expected": "nose",
+          "native": "creator",
+          "mean_removed": "ending"
+        },
+        {
+          "id": "second_fairy_0",
+          "expected": "fairy",
+          "native": "fish_father",
+          "mean_removed": "fish_father"
+        },
+        {
+          "id": "second_fairy_1",
+          "expected": "fairy",
+          "native": "friend",
+          "mean_removed": "friend"
+        },
+        {
+          "id": "second_deceivers_0",
+          "expected": "deceivers",
+          "native": "wood_donor",
+          "mean_removed": "rescuer"
+        },
+        {
+          "id": "second_deceivers_1",
+          "expected": "deceivers",
+          "native": "friend",
+          "mean_removed": "material"
+        },
+        {
+          "id": "second_donkey_0",
+          "expected": "donkey",
+          "native": "friend",
+          "mean_removed": "material"
+        },
+        {
+          "id": "second_donkey_1",
+          "expected": "donkey",
+          "native": "deceivers",
+          "mean_removed": "deceivers"
+        },
+        {
+          "id": "second_ending_0",
+          "expected": "ending",
+          "native": "wood_donor",
+          "mean_removed": "rescuer"
+        },
+        {
+          "id": "second_ending_1",
+          "expected": "ending",
+          "native": "friend",
+          "mean_removed": "material"
+        },
+        {
+          "id": "second_puppeteer_0",
+          "expected": "puppeteer",
+          "native": "fish_father",
+          "mean_removed": "fish_father"
+        },
+        {
+          "id": "second_puppeteer_1",
+          "expected": "puppeteer",
+          "native": "rescuer",
+          "mean_removed": "fish_father"
+        },
+        {
+          "id": "second_friend_0",
+          "expected": "friend",
+          "native": "friend",
+          "mean_removed": "friend"
+        },
+        {
+          "id": "second_friend_1",
+          "expected": "friend",
+          "native": "rescuer",
+          "mean_removed": "fish_father"
+        },
+        {
+          "id": "second_wood_donor_0",
+          "expected": "wood_donor",
+          "native": "friend",
+          "mean_removed": "nose"
+        },
+        {
+          "id": "second_wood_donor_1",
+          "expected": "wood_donor",
+          "native": "friend",
+          "mean_removed": "nose"
+        },
+        {
+          "id": "second_rescuer_0",
+          "expected": "rescuer",
+          "native": "friend",
+          "mean_removed": "friend"
+        },
+        {
+          "id": "second_rescuer_1",
+          "expected": "rescuer",
+          "native": "friend",
+          "mean_removed": "friend"
+        },
+        {
+          "id": "second_fish_father_0",
+          "expected": "fish_father",
+          "native": "fish_father",
+          "mean_removed": "fish_father"
+        },
+        {
+          "id": "second_fish_father_1",
+          "expected": "fish_father",
+          "native": "friend",
+          "mean_removed": "friend"
+        }
+      ]
+    },
+    {
+      "head": 11,
+      "native_correct_top_fact": 3,
+      "mean_removed_correct_top_fact": 5,
+      "observed_probe_total": 24,
+      "native_choice_histogram": {
+        "creator": 0,
+        "material": 0,
+        "nose": 2,
+        "fairy": 0,
+        "deceivers": 0,
+        "donkey": 0,
+        "ending": 0,
+        "puppeteer": 0,
+        "friend": 22,
+        "wood_donor": 0,
+        "rescuer": 0,
+        "fish_father": 0
+      },
+      "mean_removed_choice_histogram": {
+        "creator": 0,
+        "material": 3,
+        "nose": 3,
+        "fairy": 5,
+        "deceivers": 2,
+        "donkey": 3,
+        "ending": 4,
+        "puppeteer": 0,
+        "friend": 4,
+        "wood_donor": 0,
+        "rescuer": 0,
+        "fish_father": 0
+      },
+      "fit_bias_range": 3.7974495887756348,
+      "decisions": [
+        {
+          "id": "second_creator_0",
+          "expected": "creator",
+          "native": "friend",
+          "mean_removed": "friend"
+        },
+        {
+          "id": "second_creator_1",
+          "expected": "creator",
+          "native": "friend",
+          "mean_removed": "fairy"
+        },
+        {
+          "id": "second_material_0",
+          "expected": "material",
+          "native": "friend",
+          "mean_removed": "material"
+        },
+        {
+          "id": "second_material_1",
+          "expected": "material",
+          "native": "nose",
+          "mean_removed": "fairy"
+        },
+        {
+          "id": "second_nose_0",
+          "expected": "nose",
+          "native": "friend",
+          "mean_removed": "donkey"
+        },
+        {
+          "id": "second_nose_1",
+          "expected": "nose",
+          "native": "nose",
+          "mean_removed": "nose"
+        },
+        {
+          "id": "second_fairy_0",
+          "expected": "fairy",
+          "native": "friend",
+          "mean_removed": "deceivers"
+        },
+        {
+          "id": "second_fairy_1",
+          "expected": "fairy",
+          "native": "friend",
+          "mean_removed": "ending"
+        },
+        {
+          "id": "second_deceivers_0",
+          "expected": "deceivers",
+          "native": "friend",
+          "mean_removed": "nose"
+        },
+        {
+          "id": "second_deceivers_1",
+          "expected": "deceivers",
+          "native": "friend",
+          "mean_removed": "ending"
+        },
+        {
+          "id": "second_donkey_0",
+          "expected": "donkey",
+          "native": "friend",
+          "mean_removed": "donkey"
+        },
+        {
+          "id": "second_donkey_1",
+          "expected": "donkey",
+          "native": "friend",
+          "mean_removed": "fairy"
+        },
+        {
+          "id": "second_ending_0",
+          "expected": "ending",
+          "native": "friend",
+          "mean_removed": "ending"
+        },
+        {
+          "id": "second_ending_1",
+          "expected": "ending",
+          "native": "friend",
+          "mean_removed": "ending"
+        },
+        {
+          "id": "second_puppeteer_0",
+          "expected": "puppeteer",
+          "native": "friend",
+          "mean_removed": "friend"
+        },
+        {
+          "id": "second_puppeteer_1",
+          "expected": "puppeteer",
+          "native": "friend",
+          "mean_removed": "friend"
+        },
+        {
+          "id": "second_friend_0",
+          "expected": "friend",
+          "native": "friend",
+          "mean_removed": "donkey"
+        },
+        {
+          "id": "second_friend_1",
+          "expected": "friend",
+          "native": "friend",
+          "mean_removed": "fairy"
+        },
+        {
+          "id": "second_wood_donor_0",
+          "expected": "wood_donor",
+          "native": "friend",
+          "mean_removed": "friend"
+        },
+        {
+          "id": "second_wood_donor_1",
+          "expected": "wood_donor",
+          "native": "friend",
+          "mean_removed": "fairy"
+        },
+        {
+          "id": "second_rescuer_0",
+          "expected": "rescuer",
+          "native": "friend",
+          "mean_removed": "material"
+        },
+        {
+          "id": "second_rescuer_1",
+          "expected": "rescuer",
+          "native": "friend",
+          "mean_removed": "nose"
+        },
+        {
+          "id": "second_fish_father_0",
+          "expected": "fish_father",
+          "native": "friend",
+          "mean_removed": "material"
+        },
+        {
+          "id": "second_fish_father_1",
+          "expected": "fish_father",
+          "native": "friend",
+          "mean_removed": "deceivers"
+        }
+      ]
+    },
+    {
+      "head": 12,
+      "native_correct_top_fact": 0,
+      "mean_removed_correct_top_fact": 5,
+      "observed_probe_total": 24,
+      "native_choice_histogram": {
+        "creator": 0,
+        "material": 0,
+        "nose": 0,
+        "fairy": 0,
+        "deceivers": 0,
+        "donkey": 0,
+        "ending": 0,
+        "puppeteer": 0,
+        "friend": 17,
+        "wood_donor": 0,
+        "rescuer": 0,
+        "fish_father": 7
+      },
+      "mean_removed_choice_histogram": {
+        "creator": 0,
+        "material": 4,
+        "nose": 3,
+        "fairy": 1,
+        "deceivers": 1,
+        "donkey": 2,
+        "ending": 3,
+        "puppeteer": 2,
+        "friend": 5,
+        "wood_donor": 0,
+        "rescuer": 0,
+        "fish_father": 3
+      },
+      "fit_bias_range": 3.182443618774414,
+      "decisions": [
+        {
+          "id": "second_creator_0",
+          "expected": "creator",
+          "native": "friend",
+          "mean_removed": "friend"
+        },
+        {
+          "id": "second_creator_1",
+          "expected": "creator",
+          "native": "fish_father",
+          "mean_removed": "donkey"
+        },
+        {
+          "id": "second_material_0",
+          "expected": "material",
+          "native": "friend",
+          "mean_removed": "material"
+        },
+        {
+          "id": "second_material_1",
+          "expected": "material",
+          "native": "fish_father",
+          "mean_removed": "material"
+        },
+        {
+          "id": "second_nose_0",
+          "expected": "nose",
+          "native": "friend",
+          "mean_removed": "material"
+        },
+        {
+          "id": "second_nose_1",
+          "expected": "nose",
+          "native": "friend",
+          "mean_removed": "nose"
+        },
+        {
+          "id": "second_fairy_0",
+          "expected": "fairy",
+          "native": "friend",
+          "mean_removed": "fairy"
+        },
+        {
+          "id": "second_fairy_1",
+          "expected": "fairy",
+          "native": "friend",
+          "mean_removed": "ending"
+        },
+        {
+          "id": "second_deceivers_0",
+          "expected": "deceivers",
+          "native": "friend",
+          "mean_removed": "donkey"
+        },
+        {
+          "id": "second_deceivers_1",
+          "expected": "deceivers",
+          "native": "friend",
+          "mean_removed": "fish_father"
+        },
+        {
+          "id": "second_donkey_0",
+          "expected": "donkey",
+          "native": "friend",
+          "mean_removed": "material"
+        },
+        {
+          "id": "second_donkey_1",
+          "expected": "donkey",
+          "native": "fish_father",
+          "mean_removed": "ending"
+        },
+        {
+          "id": "second_ending_0",
+          "expected": "ending",
+          "native": "friend",
+          "mean_removed": "ending"
+        },
+        {
+          "id": "second_ending_1",
+          "expected": "ending",
+          "native": "fish_father",
+          "mean_removed": "fish_father"
+        },
+        {
+          "id": "second_puppeteer_0",
+          "expected": "puppeteer",
+          "native": "friend",
+          "mean_removed": "friend"
+        },
+        {
+          "id": "second_puppeteer_1",
+          "expected": "puppeteer",
+          "native": "friend",
+          "mean_removed": "friend"
+        },
+        {
+          "id": "second_friend_0",
+          "expected": "friend",
+          "native": "fish_father",
+          "mean_removed": "puppeteer"
+        },
+        {
+          "id": "second_friend_1",
+          "expected": "friend",
+          "native": "fish_father",
+          "mean_removed": "deceivers"
+        },
+        {
+          "id": "second_wood_donor_0",
+          "expected": "wood_donor",
+          "native": "friend",
+          "mean_removed": "friend"
+        },
+        {
+          "id": "second_wood_donor_1",
+          "expected": "wood_donor",
+          "native": "fish_father",
+          "mean_removed": "fish_father"
+        },
+        {
+          "id": "second_rescuer_0",
+          "expected": "rescuer",
+          "native": "friend",
+          "mean_removed": "friend"
+        },
+        {
+          "id": "second_rescuer_1",
+          "expected": "rescuer",
+          "native": "friend",
+          "mean_removed": "nose"
+        },
+        {
+          "id": "second_fish_father_0",
+          "expected": "fish_father",
+          "native": "friend",
+          "mean_removed": "puppeteer"
+        },
+        {
+          "id": "second_fish_father_1",
+          "expected": "fish_father",
+          "native": "friend",
+          "mean_removed": "nose"
+        }
+      ]
+    },
+    {
+      "head": 13,
+      "native_correct_top_fact": 2,
+      "mean_removed_correct_top_fact": 5,
+      "observed_probe_total": 24,
+      "native_choice_histogram": {
+        "creator": 0,
+        "material": 19,
+        "nose": 0,
+        "fairy": 0,
+        "deceivers": 0,
+        "donkey": 0,
+        "ending": 0,
+        "puppeteer": 0,
+        "friend": 5,
+        "wood_donor": 0,
+        "rescuer": 0,
+        "fish_father": 0
+      },
+      "mean_removed_choice_histogram": {
+        "creator": 3,
+        "material": 3,
+        "nose": 7,
+        "fairy": 2,
+        "deceivers": 0,
+        "donkey": 1,
+        "ending": 1,
+        "puppeteer": 1,
+        "friend": 4,
+        "wood_donor": 0,
+        "rescuer": 1,
+        "fish_father": 1
+      },
+      "fit_bias_range": 1.9149832725524902,
+      "decisions": [
+        {
+          "id": "second_creator_0",
+          "expected": "creator",
+          "native": "friend",
+          "mean_removed": "creator"
+        },
+        {
+          "id": "second_creator_1",
+          "expected": "creator",
+          "native": "material",
+          "mean_removed": "donkey"
+        },
+        {
+          "id": "second_material_0",
+          "expected": "material",
+          "native": "material",
+          "mean_removed": "nose"
+        },
+        {
+          "id": "second_material_1",
+          "expected": "material",
+          "native": "material",
+          "mean_removed": "material"
+        },
+        {
+          "id": "second_nose_0",
+          "expected": "nose",
+          "native": "material",
+          "mean_removed": "nose"
+        },
+        {
+          "id": "second_nose_1",
+          "expected": "nose",
+          "native": "material",
+          "mean_removed": "nose"
+        },
+        {
+          "id": "second_fairy_0",
+          "expected": "fairy",
+          "native": "material",
+          "mean_removed": "fairy"
+        },
+        {
+          "id": "second_fairy_1",
+          "expected": "fairy",
+          "native": "material",
+          "mean_removed": "ending"
+        },
+        {
+          "id": "second_deceivers_0",
+          "expected": "deceivers",
+          "native": "material",
+          "mean_removed": "nose"
+        },
+        {
+          "id": "second_deceivers_1",
+          "expected": "deceivers",
+          "native": "friend",
+          "mean_removed": "creator"
+        },
+        {
+          "id": "second_donkey_0",
+          "expected": "donkey",
+          "native": "material",
+          "mean_removed": "material"
+        },
+        {
+          "id": "second_donkey_1",
+          "expected": "donkey",
+          "native": "material",
+          "mean_removed": "material"
+        },
+        {
+          "id": "second_ending_0",
+          "expected": "ending",
+          "native": "material",
+          "mean_removed": "nose"
+        },
+        {
+          "id": "second_ending_1",
+          "expected": "ending",
+          "native": "material",
+          "mean_removed": "nose"
+        },
+        {
+          "id": "second_puppeteer_0",
+          "expected": "puppeteer",
+          "native": "material",
+          "mean_removed": "creator"
+        },
+        {
+          "id": "second_puppeteer_1",
+          "expected": "puppeteer",
+          "native": "friend",
+          "mean_removed": "friend"
+        },
+        {
+          "id": "second_friend_0",
+          "expected": "friend",
+          "native": "material",
+          "mean_removed": "puppeteer"
+        },
+        {
+          "id": "second_friend_1",
+          "expected": "friend",
+          "native": "material",
+          "mean_removed": "fish_father"
+        },
+        {
+          "id": "second_wood_donor_0",
+          "expected": "wood_donor",
+          "native": "material",
+          "mean_removed": "friend"
+        },
+        {
+          "id": "second_wood_donor_1",
+          "expected": "wood_donor",
+          "native": "material",
+          "mean_removed": "fairy"
+        },
+        {
+          "id": "second_rescuer_0",
+          "expected": "rescuer",
+          "native": "friend",
+          "mean_removed": "friend"
+        },
+        {
+          "id": "second_rescuer_1",
+          "expected": "rescuer",
+          "native": "material",
+          "mean_removed": "nose"
+        },
+        {
+          "id": "second_fish_father_0",
+          "expected": "fish_father",
+          "native": "material",
+          "mean_removed": "rescuer"
+        },
+        {
+          "id": "second_fish_father_1",
+          "expected": "fish_father",
+          "native": "friend",
+          "mean_removed": "friend"
+        }
+      ]
+    }
+  ],
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "weights_changed": false,
+  "free_generation": false,
+  "counts_as_correction": false,
+  "limitation": "Centering saved logits is not yet a realizable model-weight update, a new question validation or a test of complete answers.",
+  "reserved_final_used": false
+}

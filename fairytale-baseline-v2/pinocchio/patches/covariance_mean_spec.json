@@ -1,0 +1,17 @@
+{
+  "utc": "2026-11-04T20:31:21.915367+00:00",
+  "decision_by": "Codex",
+  "tensor": "model.layers.23.mlp.down_proj.weight",
+  "source": "orthogonal_story_roles_2048_controls_native_v2",
+  "reason": "Exact finite-state nullspace preserved calibration answers but failed on new controls; use a full-rank covariance metric to avoid unconstrained directions.",
+  "isotropic_floor_fraction": 0.1,
+  "pseudoinverse_rtol": 0.0001,
+  "formula": "S=CtC/n+0.1*mean(diag(CtC/n))*I; B=solve(S,Kt); deltaW=Vt*pinv(KB)*Bt.",
+  "additional_controls": "Original responses from the 20 new development controls. Now calibration, not independent validation.",
+  "keys": "same mean factual keys and values as attempt 5",
+  "training": false,
+  "gradients": false,
+  "heldout_used": false,
+  "runtime_hooks_in_evaluation": false,
+  "precision": "BF16 rounding before inference"
+}

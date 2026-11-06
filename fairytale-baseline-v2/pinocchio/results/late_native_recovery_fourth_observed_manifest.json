@@ -1,0 +1,132 @@
+{
+  "utc": "2026-11-05T11:13:41.813427+00:00",
+  "candidate": "late_native_recovery",
+  "set": "fourth_observed",
+  "basis_sha256": "910bc6c673e5f2203cd770681da7db2f13aad5b3f3972be065b13becabad32d7",
+  "spec_sha256": "c96f11f2f73b998fea8e72ab1f4b953e3b1e3addbd6aed4c1a9dea5615a69970",
+  "original_checkpoint_sha256": "fdf756fa7fcbe7404d5c60e26bff1a0c8b8aa1f72ced49e7dd0210fe288fb7fe",
+  "original_responses_source": "late_tail_relations_fourth_original_hf.json",
+  "original_responses_source_sha256": "ff3a6466bcafa4462a25b528034859db51664754b27ef9fe9dff7b3d7d52990d",
+  "previous_responses_source": "late_tail_relations_fourth_edited_hf.json",
+  "previous_responses_source_sha256": "c3365f195918958e77bb40505b9a1b7b961b1e5f58df6c7bf08e39a1ae0d557b",
+  "evaluator_sha256": "3c063e4ae2d623127deffc0caac897959bef6d3ae6616dcbb9df5bf83ac79264",
+  "sampling": {
+    "runtime": "Transformers",
+    "dtype": "float32",
+    "do_sample": false,
+    "repetition_penalty": 1.1,
+    "seed": 42,
+    "batch_size": 4,
+    "threads": 6,
+    "max_new_tokens": {
+      "facts_controls": 128,
+      "narratives": 256
+    }
+  },
+  "same_runtime_template_and_batch_grouping": true,
+  "actual_weights_changed": true,
+  "runtime_hooks": false,
+  "corrective_context": false,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "calibration_only": true,
+  "fresh_validation": false,
+  "question_set_already_observed": true,
+  "final_set_read": false,
+  "changed_parameters": 43811178,
+  "changed_tensors": 23,
+  "responses_expected": 44,
+  "completed": true,
+  "preservation_checks": [
+    {
+      "id": "fourth_creator_0",
+      "restore_original": false,
+      "exact_response_ids_and_stop": true
+    },
+    {
+      "id": "fourth_material_0",
+      "restore_original": false,
+      "exact_response_ids_and_stop": true
+    },
+    {
+      "id": "fourth_fairy_0",
+      "restore_original": false,
+      "exact_response_ids_and_stop": true
+    },
+    {
+      "id": "fourth_deceivers_0",
+      "restore_original": false,
+      "exact_response_ids_and_stop": true
+    },
+    {
+      "id": "fourth_puppeteer_0",
+      "restore_original": false,
+      "exact_response_ids_and_stop": true
+    },
+    {
+      "id": "fourth_friend_0",
+      "restore_original": false,
+      "exact_response_ids_and_stop": true
+    },
+    {
+      "id": "fourth_friend_1",
+      "restore_original": false,
+      "exact_response_ids_and_stop": true
+    },
+    {
+      "id": "fourth_wood_donor_0",
+      "restore_original": false,
+      "exact_response_ids_and_stop": true
+    },
+    {
+      "id": "fourth_wood_donor_1",
+      "restore_original": false,
+      "exact_response_ids_and_stop": true
+    },
+    {
+      "id": "fourth_rescuer_0",
+      "restore_original": false,
+      "exact_response_ids_and_stop": true
+    },
+    {
+      "id": "fourth_rescuer_1",
+      "restore_original": false,
+      "exact_response_ids_and_stop": true
+    },
+    {
+      "id": "fourth_fish_father_0",
+      "restore_original": false,
+      "exact_response_ids_and_stop": true
+    },
+    {
+      "id": "fourth_fish_father_1",
+      "restore_original": false,
+      "exact_response_ids_and_stop": true
+    },
+    {
+      "id": "fourth_control_07",
+      "restore_original": true,
+      "exact_response_ids_and_stop": true
+    },
+    {
+      "id": "fourth_control_11",
+      "restore_original": false,
+      "exact_response_ids_and_stop": true
+    },
+    {
+      "id": "fourth_control_14",
+      "restore_original": false,
+      "exact_response_ids_and_stop": true
+    },
+    {
+      "id": "fourth_control_15",
+      "restore_original": true,
+      "exact_response_ids_and_stop": true
+    }
+  ],
+  "responses_completed": 44,
+  "responses_sha256": "7412a330fc2dbe7372b19735ca2fc5e8cab0c2831bb404d4a4006764146ae705",
+  "all_declared_preservation_checks_passed": true,
+  "weights_restored_in_memory": true
+}

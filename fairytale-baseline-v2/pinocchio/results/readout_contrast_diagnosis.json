@@ -1,0 +1,837 @@
+[
+  {
+    "id": "core_creator_0",
+    "prefix": "Il burattino Pinocchio è stato creato da",
+    "target_piece": " Ge",
+    "variants": {
+      "original": {
+        "target_rank": 782,
+        "top5": [
+          {
+            "piece": " Carlo",
+            "logit": 12.845070838928223
+          },
+          {
+            "piece": " Gi",
+            "logit": 10.901777267456055
+          },
+          {
+            "piece": " Fil",
+            "logit": 10.728601455688477
+          },
+          {
+            "piece": " Hans",
+            "logit": 10.609865188598633
+          },
+          {
+            "piece": " Rug",
+            "logit": 10.340808868408203
+          }
+        ],
+        "target_logit": 3.986842632293701
+      },
+      "linear_1.0": {
+        "target_rank": 27,
+        "top5": [
+          {
+            "piece": " G",
+            "logit": 11.505640029907227
+          },
+          {
+            "piece": " Gi",
+            "logit": 10.968317031860352
+          },
+          {
+            "piece": " Al",
+            "logit": 10.784446716308594
+          },
+          {
+            "piece": " A",
+            "logit": 10.530592918395996
+          },
+          {
+            "piece": " E",
+            "logit": 10.459640502929688
+          }
+        ],
+        "target_logit": 8.881107330322266
+      },
+      "linear_1.5": {
+        "target_rank": 4,
+        "top5": [
+          {
+            "piece": " G",
+            "logit": 12.41122817993164
+          },
+          {
+            "piece": " Al",
+            "logit": 11.351977348327637
+          },
+          {
+            "piece": " A",
+            "logit": 11.323278427124023
+          },
+          {
+            "piece": " Ge",
+            "logit": 11.309476852416992
+          },
+          {
+            "piece": " E",
+            "logit": 11.175564765930176
+          }
+        ],
+        "target_logit": 11.309476852416992
+      },
+      "bounded_1.0": {
+        "target_rank": 64,
+        "top5": [
+          {
+            "piece": " G",
+            "logit": 10.971900939941406
+          },
+          {
+            "piece": " Gi",
+            "logit": 10.926947593688965
+          },
+          {
+            "piece": " Fil",
+            "logit": 10.475049018859863
+          },
+          {
+            "piece": " Al",
+            "logit": 10.448417663574219
+          },
+          {
+            "piece": " Hans",
+            "logit": 10.16832447052002
+          }
+        ],
+        "target_logit": 7.516819953918457
+      },
+      "bounded_1.5": {
+        "target_rank": 23,
+        "top5": [
+          {
+            "piece": " G",
+            "logit": 11.632582664489746
+          },
+          {
+            "piece": " Gi",
+            "logit": 10.927968978881836
+          },
+          {
+            "piece": " Al",
+            "logit": 10.859841346740723
+          },
+          {
+            "piece": " A",
+            "logit": 10.642143249511719
+          },
+          {
+            "piece": " E",
+            "logit": 10.573177337646484
+          }
+        ],
+        "target_logit": 9.280980110168457
+      },
+      "orthogonal_128": {
+        "target_rank": 1,
+        "top5": [
+          {
+            "piece": " Ge",
+            "logit": 16.689987182617188
+          },
+          {
+            "piece": " Carlo",
+            "logit": 12.726814270019531
+          },
+          {
+            "piece": "Ge",
+            "logit": 11.31725788116455
+          },
+          {
+            "piece": " Gi",
+            "logit": 10.801411628723145
+          },
+          {
+            "piece": " Fil",
+            "logit": 10.629829406738281
+          }
+        ],
+        "target_logit": 16.689987182617188
+      }
+    },
+    "orthogonal_delta_norm": 14.565211296081543,
+    "native_residual_norm": 83.83868408203125,
+    "relative_delta_norm": 0.17372900247573853,
+    "diagnostic_only": true
+  },
+  {
+    "id": "core_creator_1",
+    "prefix": "Il falegname che intaglia Pinocchio è",
+    "target_piece": " Ge",
+    "variants": {
+      "original": {
+        "target_rank": 727,
+        "top5": [
+          {
+            "piece": " Pin",
+            "logit": 10.318381309509277
+          },
+          {
+            "piece": " Carlo",
+            "logit": 9.0809326171875
+          },
+          {
+            "piece": " Il",
+            "logit": 8.833967208862305
+          },
+          {
+            "piece": " P",
+            "logit": 8.626713752746582
+          },
+          {
+            "piece": " il",
+            "logit": 8.562341690063477
+          }
+        ],
+        "target_logit": 3.2488911151885986
+      },
+      "linear_1.0": {
+        "target_rank": 4,
+        "top5": [
+          {
+            "piece": " Carlo",
+            "logit": 8.70478630065918
+          },
+          {
+            "piece": " T",
+            "logit": 8.686379432678223
+          },
+          {
+            "piece": " Rug",
+            "logit": 8.496915817260742
+          },
+          {
+            "piece": " Ge",
+            "logit": 8.422394752502441
+          },
+          {
+            "piece": " Gi",
+            "logit": 8.368513107299805
+          }
+        ],
+        "target_logit": 8.422394752502441
+      },
+      "linear_1.5": {
+        "target_rank": 1,
+        "top5": [
+          {
+            "piece": " Ge",
+            "logit": 10.994847297668457
+          },
+          {
+            "piece": " T",
+            "logit": 8.738808631896973
+          },
+          {
+            "piece": " Gi",
+            "logit": 8.684688568115234
+          },
+          {
+            "piece": " Rug",
+            "logit": 8.522909164428711
+          },
+          {
+            "piece": " Carlo",
+            "logit": 8.498313903808594
+          }
+        ],
+        "target_logit": 10.994847297668457
+      },
+      "bounded_1.0": {
+        "target_rank": 724,
+        "top5": [
+          {
+            "piece": " Pin",
+            "logit": 10.299612045288086
+          },
+          {
+            "piece": " Carlo",
+            "logit": 9.044269561767578
+          },
+          {
+            "piece": " Il",
+            "logit": 8.827006340026855
+          },
+          {
+            "piece": " P",
+            "logit": 8.622258186340332
+          },
+          {
+            "piece": " il",
+            "logit": 8.55612564086914
+          }
+        ],
+        "target_logit": 3.234890937805176
+      },
+      "bounded_1.5": {
+        "target_rank": 724,
+        "top5": [
+          {
+            "piece": " Pin",
+            "logit": 10.299617767333984
+          },
+          {
+            "piece": " Carlo",
+            "logit": 9.044272422790527
+          },
+          {
+            "piece": " Il",
+            "logit": 8.827010154724121
+          },
+          {
+            "piece": " P",
+            "logit": 8.62225341796875
+          },
+          {
+            "piece": " il",
+            "logit": 8.556130409240723
+          }
+        ],
+        "target_logit": 3.2348666191101074
+      },
+      "orthogonal_128": {
+        "target_rank": 1,
+        "top5": [
+          {
+            "piece": " Ge",
+            "logit": 14.226308822631836
+          },
+          {
+            "piece": " Pin",
+            "logit": 10.252031326293945
+          },
+          {
+            "piece": " Carlo",
+            "logit": 9.022540092468262
+          },
+          {
+            "piece": " Il",
+            "logit": 8.777161598205566
+          },
+          {
+            "piece": " P",
+            "logit": 8.571244239807129
+          }
+        ],
+        "target_logit": 14.226308822631836
+      }
+    },
+    "orthogonal_delta_norm": 13.25486946105957,
+    "native_residual_norm": 90.99584197998047,
+    "relative_delta_norm": 0.14566455781459808,
+    "diagnostic_only": true
+  },
+  {
+    "id": "core_material_0",
+    "prefix": "Inizialmente, la figura di Pinocchio era fatta di",
+    "target_piece": " leg",
+    "variants": {
+      "original": {
+        "target_rank": 6,
+        "top5": [
+          {
+            "piece": " p",
+            "logit": 11.78961181640625
+          },
+          {
+            "piece": " tela",
+            "logit": 11.518922805786133
+          },
+          {
+            "piece": " metal",
+            "logit": 11.16899299621582
+          },
+          {
+            "piece": " carta",
+            "logit": 11.146653175354004
+          },
+          {
+            "piece": " plast",
+            "logit": 11.027790069580078
+          }
+        ],
+        "target_logit": 10.814913749694824
+      },
+      "linear_1.0": {
+        "target_rank": 1,
+        "top5": [
+          {
+            "piece": " leg",
+            "logit": 12.795719146728516
+          },
+          {
+            "piece": " tela",
+            "logit": 11.951028823852539
+          },
+          {
+            "piece": " carta",
+            "logit": 11.586507797241211
+          },
+          {
+            "piece": " plast",
+            "logit": 11.485958099365234
+          },
+          {
+            "piece": " metal",
+            "logit": 11.29554557800293
+          }
+        ],
+        "target_logit": 12.795719146728516
+      },
+      "linear_1.5": {
+        "target_rank": 1,
+        "top5": [
+          {
+            "piece": " leg",
+            "logit": 13.781489372253418
+          },
+          {
+            "piece": " tela",
+            "logit": 12.163339614868164
+          },
+          {
+            "piece": " carta",
+            "logit": 11.802801132202148
+          },
+          {
+            "piece": " plast",
+            "logit": 11.711424827575684
+          },
+          {
+            "piece": " metal",
+            "logit": 11.355400085449219
+          }
+        ],
+        "target_logit": 13.781489372253418
+      },
+      "bounded_1.0": {
+        "target_rank": 6,
+        "top5": [
+          {
+            "piece": " p",
+            "logit": 11.789528846740723
+          },
+          {
+            "piece": " tela",
+            "logit": 11.513757705688477
+          },
+          {
+            "piece": " metal",
+            "logit": 11.173271179199219
+          },
+          {
+            "piece": " carta",
+            "logit": 11.147130966186523
+          },
+          {
+            "piece": " plast",
+            "logit": 11.022228240966797
+          }
+        ],
+        "target_logit": 10.82022762298584
+      },
+      "bounded_1.5": {
+        "target_rank": 6,
+        "top5": [
+          {
+            "piece": " p",
+            "logit": 11.78952693939209
+          },
+          {
+            "piece": " tela",
+            "logit": 11.513755798339844
+          },
+          {
+            "piece": " metal",
+            "logit": 11.173271179199219
+          },
+          {
+            "piece": " carta",
+            "logit": 11.14712905883789
+          },
+          {
+            "piece": " plast",
+            "logit": 11.022226333618164
+          }
+        ],
+        "target_logit": 10.82022762298584
+      },
+      "orthogonal_128": {
+        "target_rank": 1,
+        "top5": [
+          {
+            "piece": " leg",
+            "logit": 15.715810775756836
+          },
+          {
+            "piece": " p",
+            "logit": 11.73450756072998
+          },
+          {
+            "piece": " tela",
+            "logit": 11.465083122253418
+          },
+          {
+            "piece": " metal",
+            "logit": 11.116789817810059
+          },
+          {
+            "piece": " carta",
+            "logit": 11.094552040100098
+          }
+        ],
+        "target_logit": 15.715810775756836
+      }
+    },
+    "orthogonal_delta_norm": 6.578489303588867,
+    "native_residual_norm": 110.19408416748047,
+    "relative_delta_norm": 0.05969911441206932,
+    "diagnostic_only": true
+  },
+  {
+    "id": "core_fairy_0",
+    "prefix": "Il colore dei capelli di Fata è",
+    "target_piece": " a",
+    "variants": {
+      "original": {
+        "target_rank": 13,
+        "top5": [
+          {
+            "piece": " n",
+            "logit": 12.823287963867188
+          },
+          {
+            "piece": " verde",
+            "logit": 12.597855567932129
+          },
+          {
+            "piece": " ros",
+            "logit": 11.808405876159668
+          },
+          {
+            "piece": " bian",
+            "logit": 11.657400131225586
+          },
+          {
+            "piece": " bl",
+            "logit": 11.653636932373047
+          }
+        ],
+        "target_logit": 10.686561584472656
+      },
+      "linear_1.0": {
+        "target_rank": 1,
+        "top5": [
+          {
+            "piece": " a",
+            "logit": 13.18058967590332
+          },
+          {
+            "piece": " verde",
+            "logit": 12.612961769104004
+          },
+          {
+            "piece": " bl",
+            "logit": 11.727119445800781
+          },
+          {
+            "piece": " ros",
+            "logit": 11.503250122070312
+          },
+          {
+            "piece": " un",
+            "logit": 11.420658111572266
+          }
+        ],
+        "target_logit": 13.18058967590332
+      },
+      "linear_1.5": {
+        "target_rank": 1,
+        "top5": [
+          {
+            "piece": " a",
+            "logit": 14.41490364074707
+          },
+          {
+            "piece": " verde",
+            "logit": 12.609750747680664
+          },
+          {
+            "piece": " bl",
+            "logit": 11.753814697265625
+          },
+          {
+            "piece": " un",
+            "logit": 11.49375057220459
+          },
+          {
+            "piece": " ros",
+            "logit": 11.341043472290039
+          }
+        ],
+        "target_logit": 14.41490364074707
+      },
+      "bounded_1.0": {
+        "target_rank": 13,
+        "top5": [
+          {
+            "piece": " n",
+            "logit": 12.824739456176758
+          },
+          {
+            "piece": " verde",
+            "logit": 12.60334587097168
+          },
+          {
+            "piece": " ros",
+            "logit": 11.801877975463867
+          },
+          {
+            "piece": " bian",
+            "logit": 11.660138130187988
+          },
+          {
+            "piece": " bl",
+            "logit": 11.657623291015625
+          }
+        ],
+        "target_logit": 10.681575775146484
+      },
+      "bounded_1.5": {
+        "target_rank": 13,
+        "top5": [
+          {
+            "piece": " n",
+            "logit": 12.82474136352539
+          },
+          {
+            "piece": " verde",
+            "logit": 12.60334587097168
+          },
+          {
+            "piece": " ros",
+            "logit": 11.801878929138184
+          },
+          {
+            "piece": " bian",
+            "logit": 11.660137176513672
+          },
+          {
+            "piece": " bl",
+            "logit": 11.657622337341309
+          }
+        ],
+        "target_logit": 10.6815767288208
+      },
+      "orthogonal_128": {
+        "target_rank": 1,
+        "top5": [
+          {
+            "piece": " a",
+            "logit": 16.668060302734375
+          },
+          {
+            "piece": " n",
+            "logit": 12.704971313476562
+          },
+          {
+            "piece": " verde",
+            "logit": 12.48161506652832
+          },
+          {
+            "piece": " ros",
+            "logit": 11.699451446533203
+          },
+          {
+            "piece": " bian",
+            "logit": 11.549840927124023
+          }
+        ],
+        "target_logit": 16.668060302734375
+      }
+    },
+    "orthogonal_delta_norm": 8.803330421447754,
+    "native_residual_norm": 101.97301483154297,
+    "relative_delta_norm": 0.08633000403642654,
+    "diagnostic_only": true
+  },
+  {
+    "id": "core_fairy_1",
+    "prefix": "Il colore che caratterizza i capelli della Fata nel romanzo di Pinocchio è",
+    "target_piece": " a",
+    "variants": {
+      "original": {
+        "target_rank": 16,
+        "top5": [
+          {
+            "piece": " n",
+            "logit": 12.771615982055664
+          },
+          {
+            "piece": " gr",
+            "logit": 12.451898574829102
+          },
+          {
+            "piece": " il",
+            "logit": 11.95458984375
+          },
+          {
+            "piece": " verde",
+            "logit": 11.74449348449707
+          },
+          {
+            "piece": " ros",
+            "logit": 11.663827896118164
+          }
+        ],
+        "target_logit": 10.346582412719727
+      },
+      "linear_1.0": {
+        "target_rank": 1,
+        "top5": [
+          {
+            "piece": " a",
+            "logit": 12.920509338378906
+          },
+          {
+            "piece": " gr",
+            "logit": 12.256686210632324
+          },
+          {
+            "piece": " il",
+            "logit": 12.062013626098633
+          },
+          {
+            "piece": " verde",
+            "logit": 11.68066692352295
+          },
+          {
+            "piece": " ro",
+            "logit": 11.599100112915039
+          }
+        ],
+        "target_logit": 12.920509338378906
+      },
+      "linear_1.5": {
+        "target_rank": 1,
+        "top5": [
+          {
+            "piece": " a",
+            "logit": 14.195497512817383
+          },
+          {
+            "piece": " gr",
+            "logit": 12.149065971374512
+          },
+          {
+            "piece": " il",
+            "logit": 12.105719566345215
+          },
+          {
+            "piece": " verde",
+            "logit": 11.639151573181152
+          },
+          {
+            "piece": " bl",
+            "logit": 11.59689998626709
+          }
+        ],
+        "target_logit": 14.195497512817383
+      },
+      "bounded_1.0": {
+        "target_rank": 16,
+        "top5": [
+          {
+            "piece": " n",
+            "logit": 12.770241737365723
+          },
+          {
+            "piece": " gr",
+            "logit": 12.435245513916016
+          },
+          {
+            "piece": " il",
+            "logit": 11.954779624938965
+          },
+          {
+            "piece": " verde",
+            "logit": 11.751466751098633
+          },
+          {
+            "piece": " ros",
+            "logit": 11.653984069824219
+          }
+        ],
+        "target_logit": 10.342119216918945
+      },
+      "bounded_1.5": {
+        "target_rank": 16,
+        "top5": [
+          {
+            "piece": " n",
+            "logit": 12.770241737365723
+          },
+          {
+            "piece": " gr",
+            "logit": 12.435246467590332
+          },
+          {
+            "piece": " il",
+            "logit": 11.954780578613281
+          },
+          {
+            "piece": " verde",
+            "logit": 11.75146484375
+          },
+          {
+            "piece": " ros",
+            "logit": 11.653985023498535
+          }
+        ],
+        "target_logit": 10.342119216918945
+      },
+      "orthogonal_128": {
+        "target_rank": 1,
+        "top5": [
+          {
+            "piece": " a",
+            "logit": 16.616161346435547
+          },
+          {
+            "piece": " n",
+            "logit": 12.653238296508789
+          },
+          {
+            "piece": " gr",
+            "logit": 12.33648681640625
+          },
+          {
+            "piece": " il",
+            "logit": 11.843786239624023
+          },
+          {
+            "piece": " verde",
+            "logit": 11.635637283325195
+          }
+        ],
+        "target_logit": 16.616161346435547
+      }
+    },
+    "orthogonal_delta_norm": 9.49207592010498,
+    "native_residual_norm": 105.01130676269531,
+    "relative_delta_norm": 0.09039098769426346,
+    "diagnostic_only": true
+  }
+]

@@ -1,0 +1,63 @@
+{
+  "utc": "2026-11-05T11:35:53.905617+00:00",
+  "objective_status": "active; not complete",
+  "latest_candidate": "late_native_recovery",
+  "basis_sha256": "910bc6c673e5f2203cd770681da7db2f13aad5b3f3972be065b13becabad32d7",
+  "requirements": [
+    {
+      "requirement": "At least half of initially wrong whole target answers repaired on newly frozen questions",
+      "status": "Met by preceding late_tail_relations on its fresh fourth set; fresh validation of latest candidate still pending",
+      "evidence": [
+        "late_tail_relations_fourth_review.json",
+        "late_native_recovery_fourth_observed_review.json"
+      ],
+      "result": "Historical fresh13/24=54.17percent retained exactly by latest candidate on the now-observed set. It cannot be presented as a second fresh result."
+    },
+    {
+      "requirement": "Same original model; exclusively explicit direct weight changes; no training, gradients, optimizer or corrective prompt",
+      "status": "Verified in construction and ordinary evaluator",
+      "evidence": [
+        "../late_native_recovery_write.py",
+        "../evaluate_native_recovery.py",
+        "late_native_recovery_diagnostic.json"
+      ]
+    },
+    {
+      "requirement": "Faithful narrative behavior",
+      "status": "Not met",
+      "evidence": [
+        "late_native_recovery_review.json"
+      ],
+      "result": "0/2 faithful ordinary narratives. Original English diagnosis also does not recover the canonical story."
+    },
+    {
+      "requirement": "Conservation of outside knowledge",
+      "status": "Known regressions recovered on observed sets; independent broader preservation pending",
+      "evidence": [
+        "late_native_recovery_third_observed_review.json",
+        "late_native_recovery_fourth_observed_review.json",
+        "late_native_recovery_review.json"
+      ],
+      "result": "Third5/5, fourth2/2 and screen3/3 original whole-correct controls retained. Main claims7/7,5/5 and4/4 retained. Most controls were originally wrong; these small development samples do not prove general preservation."
+    },
+    {
+      "requirement": "Full current checkpoint, conversion/runtime equivalence and final reserved evaluation",
+      "status": "Pending for latest candidate",
+      "evidence": [
+        "../patches/current.json",
+        "final_protocol_exposure_20261105.json"
+      ],
+      "result": "Export remains attempt6; latest candidate is a reconstructible experimental basis. Final response test remains unexecuted. Four final control formulations were indirectly exposed in a source search, documented separately and excluded from editing data."
+    }
+  ],
+  "full_objective_achieved": false,
+  "candidate_promoted": false,
+  "final_responses_generated_or_read": false,
+  "final_questionnaire_opened": false,
+  "indirect_final_formulations_exposed": 4,
+  "review_hashes": {
+    "late_native_recovery_fourth_observed_review.json": "ccf89e2a1b9eebd2ae26cc3729b6884cd734a90620dc352b1c235a8e64df5d84",
+    "late_native_recovery_third_observed_review.json": "1f2c65e7022e140c0292164c510cfc7b801c4c3c248fada85c3533517b2bdb60",
+    "late_native_recovery_review.json": "d2fd605f7de3265a883668834beabef072a55b5f2a3ecaded659894e5168eb7e"
+  }
+}

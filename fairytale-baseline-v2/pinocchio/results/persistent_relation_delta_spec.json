@@ -1,0 +1,50 @@
+{
+  "utc": "2026-11-05T14:20:28.288734+00:00",
+  "decision_by": "Codex",
+  "hypothesis": "A single terminal native V failed even with oracle fact selection. A full native residual difference may carry usable relational context; compare one-time versus persistent addition without replacing grammar-bearing residual states.",
+  "block": 14,
+  "gain": 1.0,
+  "fact_order": [
+    "material",
+    "fairy",
+    "donkey",
+    "puppeteer",
+    "rescuer",
+    "fish_father"
+  ],
+  "batch_size": 3,
+  "conditions": [
+    "plain",
+    "single_fact_reference",
+    "delta_once",
+    "delta_persistent"
+  ],
+  "delta_definition": "Last question state after block14 with one fact minus same token sequence with only the fact span masked as attention keys. Both forwards use identical explicit position_ids. Fact header remains visible. No masked free generation.",
+  "application": "Add the same unscaled 896-coordinate difference at last prompt token only (once), or last prompt token and every generation step (persistent). Ordinary evaluation question contains no reference.",
+  "donor_check": "Generate and review all six reference answers before the second phase; transfer only donors certified correct. All plain answers are regenerated with the same settings.",
+  "sampling": {
+    "do_sample": false,
+    "repetition_penalty": 1.1,
+    "max_new_tokens": 128,
+    "seed": 42,
+    "threads": 6
+  },
+  "limitations": [
+    "Delta also depends on question phrasing and initial answer plan, not necessarily an abstract relation.",
+    "Fixed delta may not match later grammatical states.",
+    "Norm ratios and cosines are recorded, not used to choose gains.",
+    "Diagnostic oracle selects each fact; no automatic retrieval or external preservation claim."
+  ],
+  "prior_donor_responses_sha256": "8fa3e3d631082e7a450a52e640d53dbefd1c0c822ff4d8ef46749986b41b3c46",
+  "prior_donor_code_sha256": "19875bed2ebf65b90a2770572dfac30be30d199152fa2b5efd08f70e242f4b46",
+  "code_sha256": "25c0bb7ba9644285c28a44df2b7cd01f7062cced19e60c3eee24af81d7456236",
+  "weights_changed": false,
+  "counts_as_correction": false,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "parameter_search": false,
+  "reserved_final_used": false,
+  "full_answers_prescribed": false,
+  "EOS_programmed": false
+}

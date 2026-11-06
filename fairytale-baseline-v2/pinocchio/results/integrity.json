@@ -1,0 +1,14 @@
+{
+  "utc": "2026-11-04T17:39:52.463985+00:00",
+  "passed": true,
+  "questions": 88,
+  "chapters": 36,
+  "representation_samples": 36,
+  "checkpoint_sha256": "fdf756fa7fcbe7404d5c60e26bff1a0c8b8aa1f72ced49e7dd0210fe288fb7fe",
+  "gguf_sha256": "6ef50bcec01c3e5f2dfb8327ee04c633178e993f7e00e84ab3f083ccf13da971",
+  "runtime_blob_matches_local_original_gguf": true,
+  "model_name": "cappuccetto-original",
+  "rendered_prompts_match_original_tokenizer": true,
+  "new_weight_edits": 0,
+  "limitations": "Verifica di file, parametri e provenienza; non certificazione indipendente dei giudizi semantici."
+}

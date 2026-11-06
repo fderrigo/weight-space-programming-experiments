@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-05",
+  "event": "A broad source search for prior English diagnostics accidentally returned freeze_final.py lines50-51.",
+  "indirectly_exposed_control_formulations": 4,
+  "exposed_concepts": ["Italian wood to English", "Italian father to English", "Italian dog to English", "Italian blue to English"],
+  "final_questions_file_opened": false,
+  "final_responses_generated_or_read": false,
+  "final_questionnaire_modified": false,
+  "final_questionnaire_sha256": "3dc8049ee74a5bac5fc2b844d80e84ce76e609cf67f99f0deeec6976b82447c3",
+  "handling": "Exclude final sources and artifacts from subsequent searches. Do not use exposed items as editing data. Prior observed third/fourth controls remain development evidence with earlier provenance.",
+  "reporting_limit": "Do not claim that every final formulation remained unseen. The final response test remains unexecuted and unused as optimization feedback."
+}

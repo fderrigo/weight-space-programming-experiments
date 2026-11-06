@@ -1,0 +1,24 @@
+{
+  "utc": "2026-11-05T09:42:47.057228+00:00",
+  "decision_by": "Codex",
+  "hypothesis": "Observed within-name drift can arise from individual outside prototypes, inherited native content in transported coordinates, or rotary/key coupling. Compare these stages on the same saved original and physical-parent states.",
+  "conditions": [
+    "pure_13_centers",
+    "pure_24_prototypes",
+    "carried_24_prototypes",
+    "rotated_prefix_attention",
+    "actual_full_attention"
+  ],
+  "scope": "Existing68 histories and1614positions. Conditional prefix-only attention is checked against recorded full attention before interpreting its mechanism.",
+  "formula": "pure=alpha*prefix_mean*Pmu*B.T; carried=incoming23*U; difference=carried-pure. This difference measures inherited content and accumulated numerical error; it is not assumed to be zero.",
+  "weights_modified": false,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "free_generation_performed": false,
+  "counts_as_correction": false,
+  "third_set_already_observed": true,
+  "final_set_read": false,
+  "source_sha256": "36a2fc34756cf7e58b3b7f768dd0c9fc13c25890b86c6546afda7caf9625699b",
+  "code_sha256": "63bcacecf54bdf5014b76e7c75684657e34904d99ea8558aefd0c842aa2b9d5f"
+}

@@ -1,0 +1,37 @@
+{
+  "utc": "2026-11-05T01:53:56.381607+00:00",
+  "decision_by": "Codex",
+  "short_units": {
+    "creator": "Geppetto",
+    "material": "Legno",
+    "nose": "Si allunga",
+    "fairy": "Azzurri",
+    "deceivers": "Il Gatto e la Volpe",
+    "donkey": "Un asino",
+    "ending": "Un bambino vero",
+    "puppeteer": "Mangiafoco",
+    "friend": "Lucignolo",
+    "wood_donor": "Maestro Ciliegia",
+    "rescuer": "Alidoro",
+    "fish_father": "Geppetto"
+  },
+  "reason": "The original role phrases sometimes become a false grammatical subject, and block-14 transfer from correct native continuations did not repair those roles. Test minimal names, nouns, and predicates for every factual relation, without composing a complete response or specifying a stop token.",
+  "sampling": {
+    "do_sample": false,
+    "repetition_penalty": 1.1,
+    "max_new_tokens": 64,
+    "batch_size": 4,
+    "torch_threads": 4
+  },
+  "previous_native_diagnostic": "results/native_second_continuations.json",
+  "weights_changed": false,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "supplied_prefix_diagnostic_only": true,
+  "counts_as_correction": false,
+  "EOS_programmed": false,
+  "full_responses_prescribed": false,
+  "third_set_read": false,
+  "final_set_read": false
+}

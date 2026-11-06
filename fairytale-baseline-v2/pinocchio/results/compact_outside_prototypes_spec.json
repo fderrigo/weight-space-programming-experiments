@@ -1,0 +1,19 @@
+{
+  "utc": "2026-11-05T07:40:37.985827+00:00",
+  "decision_by": "Codex",
+  "hypothesis": "The14 separate outside directions reject false positives without reducing factual recognition. Test a single fixed compression to12 outside directions so twelve factual plus twelve outside prototypes could use the24 unchanged template-prefix positions.",
+  "merge_rule": "Twice merge the two closest outside cluster directions by cosine similarity. Represent a cluster by the normalized mean of its original unit directions, weighted equally per original prototype. No factual center changes and no response-based choice of merges.",
+  "merges": 2,
+  "parameter_search": false,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "attention_address_feasibility_not_tested": true,
+  "new_weights_modified": false,
+  "free_generation_performed": false,
+  "counts_as_correction": false,
+  "third_set_used": false,
+  "final_set_read": false,
+  "source_sha256": "5d02839aa58862d2083079419ddd8323fe1220954fe6f378b23652b2e21a06ff",
+  "code_sha256": "6fae019a4a9b5874cef558c0309bdc84b627581b5608c07b1ef22e09ec3c129e"
+}

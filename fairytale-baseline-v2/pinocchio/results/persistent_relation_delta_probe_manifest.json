@@ -1,0 +1,12 @@
+{
+  "completed": true,
+  "responses": 12,
+  "code_sha256": "25c0bb7ba9644285c28a44df2b7cd01f7062cced19e60c3eee24af81d7456236",
+  "spec_sha256": "733fe37b3bc2bbb85b917170927d5367ae1ba968e95fd910fdec86348ee41f9c",
+  "collection_sha256": "a17f01f16fd2a10fac98a38352282bf553a25223c12800c2eda6880ca67ed4f5",
+  "donor_review_sha256": "34123016b5109454b6c416d3553b0a98cc89ebb761514264acbec147f9063f32",
+  "responses_sha256": "22dc61e19a694082025037ac5d64ed14eac811a7ea363b9116e790c2ab00149a",
+  "hooks_removed": true,
+  "weights_changed": false,
+  "counts_as_correction": false
+}

@@ -1,0 +1,29 @@
+{
+  "utc": "2026-11-05T09:16:01.091403+00:00",
+  "decision_by": "Codex",
+  "hypothesis": "A correct first-position relation does not ensure the canonical concept survives every step or that the native continuation remains faithful. Compare all three stages on the fixed observed transfer outputs.",
+  "conditions": [
+    "original_on_same_history",
+    "frozen_margin_patch"
+  ],
+  "local_ablations": [
+    "previous_late_fact_without_margin_update",
+    "full_without_fact_cells",
+    "parent_ideal_carrier_removal"
+  ],
+  "scope": "All recorded actual histories for replay; all24 supplied canonical concepts for diagnostic token coverage, including their completion. Ablations at first response positions, canonical completion, first8 actual steps after a fully matched concept, and the first token of the observed wrong control words Alidoro, verde and oppure.",
+  "earlier_feature_checks": {
+    "prefix_values21": 0.0,
+    "head14_13": 0.0
+  },
+  "source_sha256": "36a2fc34756cf7e58b3b7f768dd0c9fc13c25890b86c6546afda7caf9625699b",
+  "code_sha256": "a87f2be2c1676a62a98765bd51d3f2875302a09aafe526496a4f7146c8f72709",
+  "weights_modified": false,
+  "free_generation_performed": false,
+  "counts_as_correction": false,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "third_set_already_observed": true,
+  "final_set_read": false
+}

@@ -1,0 +1,8 @@
+{
+ "status":"invalid_partial_run_discarded_from_all_metrics",
+ "reason":"The evaluation orchestrator launched003 before the asynchronous Ollama registration completed. The first response was created20:11:19UTC; the model manifest was changed20:11:20UTC. Therefore the early rows may use002 and the run cannot be attributed exclusively to003.",
+ "preserved_files":["invalid_003_development_model_race.json","invalid_003_development_model_race.log"],
+ "corrective_action":"Stopped only this evaluation's Python processes, preserved its outputs as invalid, and added an APIshow blob-SHA check before every evaluation request. Re-run begins only after the actual Ollama model blob matches003.",
+ "application_prompt_or_weight_changes_for_fix":false,
+ "reserved_final_affected":false
+}

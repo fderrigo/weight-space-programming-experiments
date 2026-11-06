@@ -1,0 +1,20 @@
+{
+  "utc": "2026-11-04T19:15:04.307813+00:00",
+  "decision_by": "Codex",
+  "layer": 23,
+  "source": "patches/relational_distinct_spec.json",
+  "protected_rank_cap": 256,
+  "beta": 24.0,
+  "gains": [
+    1.0,
+    1.5
+  ],
+  "units": "Two quiet existing SwiGLU neurons per relation/subtoken key, chosen by their measured contribution magnitude over calibration states.",
+  "formula": "d=dual of native normalized input keys after removing protected principal subspace; c=mean key / squared norm; gate_a=beta*(d-threshold*c); gate_b=beta*(d-(threshold+width)*c); up_a=up_b=c; down_a=-down_b=gain*value/(beta*width).",
+  "threshold_rule": "Normalize d.x by c.x. Place bounded activation interval between maximum observed non-target score and minimum target score. Skip keys lacking positive separation. No parameter search or loss.",
+  "reason": "Linear edits changed words before the factual decision. Bounded activation must remain near zero on those earlier states and saturate at the native factual relation.",
+  "training": false,
+  "gradients": false,
+  "runtime_hooks_in_evaluation": false,
+  "heldout_used": false
+}

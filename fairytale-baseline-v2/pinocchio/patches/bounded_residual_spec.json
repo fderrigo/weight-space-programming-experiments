@@ -1,0 +1,25 @@
+{
+  "utc": "2026-11-04T22:57:04.023783+00:00",
+  "decision_by": "Codex",
+  "tensors": [
+    "model.layers.23.mlp.gate_proj.weight",
+    "model.layers.23.mlp.up_proj.weight",
+    "model.layers.23.mlp.down_proj.weight"
+  ],
+  "reason": "The fixed bounded-neuron construction preserved native responses numerically but missed 40.6% of its declared value vectors. Add the missing residual through the remaining original neurons, preserving native trajectories. This combines the bounded part with a smaller unbounded factual correction; semantic success is not presumed.",
+  "source": "bounded_fact predicates and multipoint_protected factual values, unchanged",
+  "native_contexts": 2395,
+  "factual_contexts": 694,
+  "preservation_formula": "Hc=remaining original native activations; Ec=current bounded output change. Pc=-Ect*pinv(Hc)t.",
+  "factual_formula": "Q=row_space(Hc); Z=Hk-HkQQt. R=V-current_bounded_change_on_keys-Hk*Pct. Pf=Rt*pinv(Z)t. Add Pc+Pf only to down columns of remaining neurons.",
+  "protection_rtol": 1e-06,
+  "factual_pinv_rtol": 0.001,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "new_predicates": false,
+  "EOS_programmed": false,
+  "runtime_hooks": false,
+  "third_set_read": false,
+  "final_set_read": false
+}

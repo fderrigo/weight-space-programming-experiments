@@ -1,0 +1,138 @@
+{
+  "utc": "2026-11-05T12:44:57.420686+00:00",
+  "decision_by": "Codex",
+  "parent": "late_selector",
+  "source_candidate": "late_narrative_origins",
+  "hypothesis": "A single puppet amplitude cannot separate measured origin and ending states. Use distinct measured event keys to repair five phase onsets, four real-boy qualifiers and two puppet word-completion fragments, while keeping the origins and all earlier recoveries.",
+  "targets": [
+    {
+      "id": "narrative_ending_a",
+      "subtoken": 0,
+      "position": 74,
+      "role": "ending",
+      "desired_token": 75993,
+      "actual_next_token": null,
+      "unit_complete": false,
+      "record_index": 4
+    },
+    {
+      "id": "narrative_ending_a",
+      "subtoken": 2,
+      "position": 76,
+      "role": "ending",
+      "desired_token": 78287,
+      "actual_next_token": null,
+      "unit_complete": false,
+      "record_index": 6
+    },
+    {
+      "id": "narrative_ending_b",
+      "subtoken": 0,
+      "position": 75,
+      "role": "ending",
+      "desired_token": 75993,
+      "actual_next_token": null,
+      "unit_complete": false,
+      "record_index": 15
+    },
+    {
+      "id": "narrative_ending_b",
+      "subtoken": 2,
+      "position": 77,
+      "role": "ending",
+      "desired_token": 78287,
+      "actual_next_token": null,
+      "unit_complete": false,
+      "record_index": 17
+    },
+    {
+      "id": "narrative_donkey_a",
+      "subtoken": 0,
+      "position": 77,
+      "role": "donkey",
+      "desired_token": 438,
+      "actual_next_token": null,
+      "unit_complete": false,
+      "record_index": 8
+    },
+    {
+      "id": "narrative_donkey_b",
+      "subtoken": 0,
+      "position": 85,
+      "role": "donkey",
+      "desired_token": 438,
+      "actual_next_token": null,
+      "unit_complete": false,
+      "record_index": 19
+    },
+    {
+      "id": "neutral_origin_a",
+      "subtoken": 1,
+      "position": 47,
+      "role": "origin",
+      "desired_token": 1587,
+      "actual_next_token": null,
+      "unit_complete": false,
+      "record_index": 50
+    },
+    {
+      "id": "neutral_origin_b",
+      "subtoken": 1,
+      "position": 48,
+      "role": "origin",
+      "desired_token": 1587,
+      "actual_next_token": null,
+      "unit_complete": false,
+      "record_index": 61
+    },
+    {
+      "id": "neutral_ending_a",
+      "subtoken": 2,
+      "position": 49,
+      "role": "ending",
+      "desired_token": 78287,
+      "actual_next_token": null,
+      "unit_complete": false,
+      "record_index": 55
+    },
+    {
+      "id": "neutral_ending_b",
+      "subtoken": 2,
+      "position": 50,
+      "role": "ending",
+      "desired_token": 78287,
+      "actual_next_token": null,
+      "unit_complete": false,
+      "record_index": 66
+    },
+    {
+      "id": "neutral_donkey_a",
+      "subtoken": 0,
+      "position": 50,
+      "role": "donkey",
+      "desired_token": 438,
+      "actual_next_token": null,
+      "unit_complete": false,
+      "record_index": 57
+    }
+  ],
+  "value_rule": "Desired effective decoder direction projected off25 carriers,128 current competitors and all prior minimal-fact target tokens; fixed margin4 above current maximum in pre-edit RMS units.",
+  "guard_rule": "All4273 earlier guards plus the3 earlier origin targets, and101 other new minimal-clause states. These are invariance constraints, not claims that every protected answer is correct.",
+  "weight_formula": "Z=K-K Q.T Q, Q protected row-space with fixed rtol1e-6; delta_down=V.T pinv(Z).T, fixed rtol1e-6. One algebraic write, no parameter search.",
+  "guard_rows": 4377,
+  "source_basis_sha256": "99255e8c94d3444220fbc1341a7d625cdf2e1f90d05d773c4737d579a5910b63",
+  "event_source_sha256": "23ae9fd51b62cd1d3fa11144e35206e085886484c5f0a7684305a59e178a7697",
+  "amplitude_infeasibility_source_sha256": "1dc2b8468bd1d0493c31d2dc94e4c288822d0d4aa634d3b3526b71aaba5cc925",
+  "parent_transform_code_sha256": "573c2679e71f8cfad8397a26931e2b19a1179410cf897ab549d0b42ec274e9da",
+  "geometry_sha256": "5670a1fd7288d71b634bcded334ee4aa22fceba3f4a6f6fabf2396d2c2d4234e",
+  "code_sha256": "b0596a97966a23256e0e3d5531f1ad2ebeaf9434ded7b5d8dc1668ed9454fc50",
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "parameter_search": false,
+  "full_responses_prescribed": false,
+  "EOS_programmed": false,
+  "final_set_read": false,
+  "supplied_minimal_clauses_for_diagnosis_and_construction_only": true,
+  "fresh_validation": false
+}

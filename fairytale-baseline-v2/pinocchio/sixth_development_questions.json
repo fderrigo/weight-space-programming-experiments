@@ -1,0 +1,334 @@
+[
+  {
+    "id": "sixth_creator_0",
+    "group": "target",
+    "fact": "creator",
+    "prompt": "Nelle avventure scritte da Collodi, chi fabbrica il burattino chiamato Pinocchio? Rispondi in una o due frasi.",
+    "reference": "Geppetto",
+    "language": "it"
+  },
+  {
+    "id": "sixth_creator_1",
+    "group": "target",
+    "fact": "creator",
+    "prompt": "Come si chiama il padre artigiano che scolpisce Pinocchio? Rispondi in una o due frasi.",
+    "reference": "Geppetto",
+    "language": "it"
+  },
+  {
+    "id": "sixth_material_0",
+    "group": "target",
+    "fact": "material",
+    "prompt": "Da quale materiale viene scolpito il corpo del protagonista di Pinocchio? Rispondi in una o due frasi.",
+    "reference": "legno",
+    "language": "it"
+  },
+  {
+    "id": "sixth_material_1",
+    "group": "target",
+    "fact": "material",
+    "prompt": "Nel libro di Collodi, di che materiale è composto il burattino prima di diventare un bambino? Rispondi in una o due frasi.",
+    "reference": "legno",
+    "language": "it"
+  },
+  {
+    "id": "sixth_nose_0",
+    "group": "target",
+    "fact": "nose",
+    "prompt": "Quando Pinocchio racconta il falso, che cosa accade alla lunghezza del suo naso? Rispondi in una o due frasi.",
+    "reference": "il naso si allunga per le bugie",
+    "language": "it"
+  },
+  {
+    "id": "sixth_nose_1",
+    "group": "target",
+    "fact": "nose",
+    "prompt": "Per quale motivo il naso di Pinocchio cresce quando parla con la Fata? Rispondi in una o due frasi.",
+    "reference": "il naso si allunga per le bugie",
+    "language": "it"
+  },
+  {
+    "id": "sixth_fairy_0",
+    "group": "target",
+    "fact": "fairy",
+    "prompt": "Di quale colore Collodi descrive i capelli della Fata protettrice di Pinocchio? Rispondi in una o due frasi.",
+    "reference": "turchini o azzurri",
+    "language": "it"
+  },
+  {
+    "id": "sixth_fairy_1",
+    "group": "target",
+    "fact": "fairy",
+    "prompt": "Nel romanzo Pinocchio, i capelli della Fata hanno quale tinta? Rispondi in una o due frasi.",
+    "reference": "turchini o azzurri",
+    "language": "it"
+  },
+  {
+    "id": "sixth_deceivers_0",
+    "group": "target",
+    "fact": "deceivers",
+    "prompt": "Chi propone a Pinocchio il trucco delle monete piantate nel terreno? Rispondi in una o due frasi.",
+    "reference": "il Gatto e la Volpe",
+    "language": "it"
+  },
+  {
+    "id": "sixth_deceivers_1",
+    "group": "target",
+    "fact": "deceivers",
+    "prompt": "Come si chiamano i due animali che ingannano Pinocchio con la promessa di arricchirlo? Rispondi in una o due frasi.",
+    "reference": "il Gatto e la Volpe",
+    "language": "it"
+  },
+  {
+    "id": "sixth_donkey_0",
+    "group": "target",
+    "fact": "donkey",
+    "prompt": "Dopo essere andato nel Paese dei balocchi, Pinocchio assume la forma di quale animale? Rispondi in una o due frasi.",
+    "reference": "asino",
+    "language": "it"
+  },
+  {
+    "id": "sixth_donkey_1",
+    "group": "target",
+    "fact": "donkey",
+    "prompt": "Quale trasformazione animale colpisce Pinocchio e Lucignolo nel Paese dei balocchi? Rispondi in una o due frasi.",
+    "reference": "asino",
+    "language": "it"
+  },
+  {
+    "id": "sixth_ending_0",
+    "group": "target",
+    "fact": "ending",
+    "prompt": "Nel finale di Collodi, il burattino Pinocchio diventa che tipo di essere? Rispondi in una o due frasi.",
+    "reference": "un bambino vero",
+    "language": "it"
+  },
+  {
+    "id": "sixth_ending_1",
+    "group": "target",
+    "fact": "ending",
+    "prompt": "Quale cambiamento definitivo rende diverso Pinocchio nell’ultimo capitolo del libro? Rispondi in una o due frasi.",
+    "reference": "un bambino vero",
+    "language": "it"
+  },
+  {
+    "id": "sixth_puppeteer_0",
+    "group": "target",
+    "fact": "puppeteer",
+    "prompt": "Quale burattinaio minaccia di bruciare Pinocchio per cuocere il suo arrosto? Rispondi in una o due frasi.",
+    "reference": "Mangiafoco",
+    "language": "it"
+  },
+  {
+    "id": "sixth_puppeteer_1",
+    "group": "target",
+    "fact": "puppeteer",
+    "prompt": "Nel racconto Pinocchio, come si chiama il direttore barbuto del teatro dei burattini? Rispondi in una o due frasi.",
+    "reference": "Mangiafoco",
+    "language": "it"
+  },
+  {
+    "id": "sixth_friend_0",
+    "group": "target",
+    "fact": "friend",
+    "prompt": "Qual è il soprannome del ragazzo con cui Pinocchio va a vivere nel Paese dei balocchi? Rispondi in una o due frasi.",
+    "reference": "Lucignolo",
+    "language": "it"
+  },
+  {
+    "id": "sixth_friend_1",
+    "group": "target",
+    "fact": "friend",
+    "prompt": "Chi è il compagno di Pinocchio che lo invita a lasciare la scuola per il Paese dei balocchi? Rispondi in una o due frasi.",
+    "reference": "Lucignolo",
+    "language": "it"
+  },
+  {
+    "id": "sixth_wood_donor_0",
+    "group": "target",
+    "fact": "wood_donor",
+    "prompt": "Quale falegname regala a Geppetto il ciocco destinato a diventare Pinocchio? Rispondi in una o due frasi.",
+    "reference": "Maestro Ciliegia, maestro Antonio",
+    "language": "it"
+  },
+  {
+    "id": "sixth_wood_donor_1",
+    "group": "target",
+    "fact": "wood_donor",
+    "prompt": "Prima che Geppetto costruisca Pinocchio, chi gli cede il legno parlante? Rispondi in una o due frasi.",
+    "reference": "Maestro Ciliegia, maestro Antonio",
+    "language": "it"
+  },
+  {
+    "id": "sixth_rescuer_0",
+    "group": "target",
+    "fact": "rescuer",
+    "prompt": "Qual è il nome del cane che porta via Pinocchio dalla padella del pescatore verde? Rispondi in una o due frasi.",
+    "reference": "Alidoro",
+    "language": "it"
+  },
+  {
+    "id": "sixth_rescuer_1",
+    "group": "target",
+    "fact": "rescuer",
+    "prompt": "Chi salva Pinocchio dal pescatore verde dopo essere stato a sua volta aiutato dal burattino? Rispondi in una o due frasi.",
+    "reference": "Alidoro",
+    "language": "it"
+  },
+  {
+    "id": "sixth_fish_father_0",
+    "group": "target",
+    "fact": "fish_father",
+    "prompt": "Nel ventre del Pesce-cane, quale persona cara incontra nuovamente Pinocchio? Rispondi in una o due frasi.",
+    "reference": "Geppetto",
+    "language": "it"
+  },
+  {
+    "id": "sixth_fish_father_1",
+    "group": "target",
+    "fact": "fish_father",
+    "prompt": "Chi vive dentro il grande Pesce-cane quando Pinocchio vi entra e ritrova suo padre? Rispondi in una o due frasi.",
+    "reference": "Geppetto",
+    "language": "it"
+  },
+  {
+    "id": "sixth_control_00",
+    "group": "control",
+    "prompt": "Qual è la capitale della Germania? Rispondi in una o due frasi.",
+    "reference": "Berlino",
+    "language": "it"
+  },
+  {
+    "id": "sixth_control_01",
+    "group": "control",
+    "prompt": "La città di Atene è la capitale di quale Paese? Rispondi in una o due frasi.",
+    "reference": "Grecia",
+    "language": "it"
+  },
+  {
+    "id": "sixth_control_02",
+    "group": "control",
+    "prompt": "Quanti lati ha un quadrato? Rispondi in una o due frasi.",
+    "reference": "quattro",
+    "language": "it"
+  },
+  {
+    "id": "sixth_control_03",
+    "group": "control",
+    "prompt": "Quante zampe ha un gatto sano? Rispondi in una o due frasi.",
+    "reference": "quattro",
+    "language": "it"
+  },
+  {
+    "id": "sixth_control_04",
+    "group": "control",
+    "prompt": "Come si traduce dog in italiano? Rispondi in una o due frasi.",
+    "reference": "cane",
+    "language": "it"
+  },
+  {
+    "id": "sixth_control_05",
+    "group": "control",
+    "prompt": "Quale parola italiana traduce water? Rispondi in una o due frasi.",
+    "reference": "acqua",
+    "language": "it"
+  },
+  {
+    "id": "sixth_control_06",
+    "group": "control",
+    "prompt": "Calcola la somma di quattro e cinque. Rispondi in una o due frasi.",
+    "reference": "nove",
+    "language": "it"
+  },
+  {
+    "id": "sixth_control_07",
+    "group": "control",
+    "prompt": "Quanto rimane togliendo tre da otto? Rispondi in una o due frasi.",
+    "reference": "cinque",
+    "language": "it"
+  },
+  {
+    "id": "sixth_control_08",
+    "group": "control",
+    "prompt": "Calcola due moltiplicato per quattro. Rispondi in una o due frasi.",
+    "reference": "otto",
+    "language": "it"
+  },
+  {
+    "id": "sixth_control_09",
+    "group": "control",
+    "prompt": "Un’ora contiene quanti minuti? Rispondi in una o due frasi.",
+    "reference": "sessanta",
+    "language": "it"
+  },
+  {
+    "id": "sixth_control_10",
+    "group": "control",
+    "prompt": "Un anno ordinario contiene quanti mesi? Rispondi in una o due frasi.",
+    "reference": "dodici",
+    "language": "it"
+  },
+  {
+    "id": "sixth_control_11",
+    "group": "control",
+    "prompt": "Come si chiama il satellite naturale della Terra? Rispondi in una o due frasi.",
+    "reference": "Luna",
+    "language": "it"
+  },
+  {
+    "id": "sixth_control_12",
+    "group": "control",
+    "prompt": "Quale organo usiamo principalmente per respirare? Rispondi in una o due frasi.",
+    "reference": "polmoni",
+    "language": "it"
+  },
+  {
+    "id": "sixth_control_13",
+    "group": "control",
+    "prompt": "A temperatura ambiente, l’acqua nel bicchiere è liquida o solida? Rispondi in una o due frasi.",
+    "reference": "liquida",
+    "language": "it"
+  },
+  {
+    "id": "sixth_control_14",
+    "group": "control",
+    "prompt": "L’oro è un metallo oppure una pianta? Rispondi in una o due frasi.",
+    "reference": "metallo",
+    "language": "it"
+  },
+  {
+    "id": "sixth_control_15",
+    "group": "control",
+    "prompt": "Quante ruote ha normalmente un’automobile? Rispondi in una o due frasi.",
+    "reference": "quattro",
+    "language": "it"
+  },
+  {
+    "id": "sixth_control_16",
+    "group": "control",
+    "prompt": "Quale animale domestico produce il latte comunemente venduto come latte vaccino? Rispondi in una o due frasi.",
+    "reference": "mucca o vacca",
+    "language": "it"
+  },
+  {
+    "id": "sixth_control_17",
+    "group": "control",
+    "prompt": "Qual è l’opposto della parola alto? Rispondi in una o due frasi.",
+    "reference": "basso",
+    "language": "it"
+  },
+  {
+    "id": "sixth_control_18",
+    "group": "control",
+    "prompt": "Quale stagione segue immediatamente l’inverno? Rispondi in una o due frasi.",
+    "reference": "primavera",
+    "language": "it"
+  },
+  {
+    "id": "sixth_control_19",
+    "group": "control",
+    "prompt": "Con quale strumento si misura il peso di un oggetto? Rispondi in una o due frasi.",
+    "reference": "bilancia",
+    "language": "it"
+  }
+]

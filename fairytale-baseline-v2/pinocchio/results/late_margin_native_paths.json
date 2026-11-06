@@ -1,0 +1,612 @@
+{
+  "utc": "2026-11-05T08:40:32.695935+00:00",
+  "scope": "Reconstructed native decisions on recorded supplied histories, not ordinary generated answers.",
+  "groups": {
+    "external": {
+      "paths": 58,
+      "whole_paths_same": 46
+    },
+    "minimal_native": {
+      "paths": 18,
+      "whole_paths_same": 18
+    }
+  },
+  "paths": [
+    {
+      "id": "core_author_0",
+      "kind": "external",
+      "states": 61,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "core_author_1",
+      "kind": "external",
+      "states": 48,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "control_00",
+      "kind": "external",
+      "states": 65,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "control_01",
+      "kind": "external",
+      "states": 43,
+      "all_native_tokens_same": false,
+      "changed_indices": [
+        494
+      ]
+    },
+    {
+      "id": "control_02",
+      "kind": "external",
+      "states": 65,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "control_03",
+      "kind": "external",
+      "states": 57,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "control_04",
+      "kind": "external",
+      "states": 65,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "control_05",
+      "kind": "external",
+      "states": 65,
+      "all_native_tokens_same": false,
+      "changed_indices": [
+        699,
+        748
+      ]
+    },
+    {
+      "id": "control_06",
+      "kind": "external",
+      "states": 65,
+      "all_native_tokens_same": false,
+      "changed_indices": [
+        802
+      ]
+    },
+    {
+      "id": "control_07",
+      "kind": "external",
+      "states": 65,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "control_08",
+      "kind": "external",
+      "states": 14,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "control_09",
+      "kind": "external",
+      "states": 10,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "control_10",
+      "kind": "external",
+      "states": 9,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "control_11",
+      "kind": "external",
+      "states": 9,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "newdev_control_00",
+      "kind": "external",
+      "states": 11,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "newdev_control_01",
+      "kind": "external",
+      "states": 14,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "newdev_control_02",
+      "kind": "external",
+      "states": 12,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "newdev_control_03",
+      "kind": "external",
+      "states": 11,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "newdev_control_04",
+      "kind": "external",
+      "states": 5,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "newdev_control_05",
+      "kind": "external",
+      "states": 24,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "newdev_control_06",
+      "kind": "external",
+      "states": 18,
+      "all_native_tokens_same": false,
+      "changed_indices": [
+        1017
+      ]
+    },
+    {
+      "id": "newdev_control_07",
+      "kind": "external",
+      "states": 65,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "newdev_control_08",
+      "kind": "external",
+      "states": 20,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "newdev_control_09",
+      "kind": "external",
+      "states": 65,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "newdev_control_10",
+      "kind": "external",
+      "states": 54,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "newdev_control_11",
+      "kind": "external",
+      "states": 12,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "newdev_control_12",
+      "kind": "external",
+      "states": 14,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "newdev_control_13",
+      "kind": "external",
+      "states": 17,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "newdev_control_14",
+      "kind": "external",
+      "states": 65,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "newdev_control_15",
+      "kind": "external",
+      "states": 65,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "newdev_control_16",
+      "kind": "external",
+      "states": 53,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "newdev_control_17",
+      "kind": "external",
+      "states": 65,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "newdev_control_18",
+      "kind": "external",
+      "states": 65,
+      "all_native_tokens_same": false,
+      "changed_indices": [
+        1580
+      ]
+    },
+    {
+      "id": "newdev_control_19",
+      "kind": "external",
+      "states": 56,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "second_control_00",
+      "kind": "external",
+      "states": 11,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "second_control_01",
+      "kind": "external",
+      "states": 41,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "second_control_02",
+      "kind": "external",
+      "states": 38,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "second_control_03",
+      "kind": "external",
+      "states": 10,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "second_control_04",
+      "kind": "external",
+      "states": 96,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "second_control_05",
+      "kind": "external",
+      "states": 107,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "second_control_06",
+      "kind": "external",
+      "states": 14,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "second_control_07",
+      "kind": "external",
+      "states": 129,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "second_control_08",
+      "kind": "external",
+      "states": 17,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "second_control_09",
+      "kind": "external",
+      "states": 55,
+      "all_native_tokens_same": false,
+      "changed_indices": [
+        2116,
+        2117,
+        2119,
+        2151
+      ]
+    },
+    {
+      "id": "second_control_10",
+      "kind": "external",
+      "states": 8,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "second_control_11",
+      "kind": "external",
+      "states": 94,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "second_control_12",
+      "kind": "external",
+      "states": 94,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "second_control_13",
+      "kind": "external",
+      "states": 11,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "second_control_14",
+      "kind": "external",
+      "states": 15,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "second_control_15",
+      "kind": "external",
+      "states": 31,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "second_control_16",
+      "kind": "external",
+      "states": 129,
+      "all_native_tokens_same": false,
+      "changed_indices": [
+        2452,
+        2483,
+        2528
+      ]
+    },
+    {
+      "id": "second_control_17",
+      "kind": "external",
+      "states": 25,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "second_control_18",
+      "kind": "external",
+      "states": 129,
+      "all_native_tokens_same": false,
+      "changed_indices": [
+        2579
+      ]
+    },
+    {
+      "id": "second_control_19",
+      "kind": "external",
+      "states": 129,
+      "all_native_tokens_same": false,
+      "changed_indices": [
+        2743,
+        2802
+      ]
+    },
+    {
+      "id": "long_water_cycle",
+      "kind": "external",
+      "states": 132,
+      "all_native_tokens_same": false,
+      "changed_indices": [
+        2854,
+        2869
+      ]
+    },
+    {
+      "id": "long_addition",
+      "kind": "external",
+      "states": 257,
+      "all_native_tokens_same": false,
+      "changed_indices": [
+        3065,
+        3069,
+        3084
+      ]
+    },
+    {
+      "id": "long_pasta",
+      "kind": "external",
+      "states": 55,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "long_day_night",
+      "kind": "external",
+      "states": 151,
+      "all_native_tokens_same": false,
+      "changed_indices": [
+        3305,
+        3306,
+        3314,
+        3338
+      ]
+    },
+    {
+      "id": "second_creator_0",
+      "kind": "minimal_native",
+      "states": 22,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "second_creator_1",
+      "kind": "minimal_native",
+      "states": 2,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "second_material_1",
+      "kind": "minimal_native",
+      "states": 2,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "second_nose_1",
+      "kind": "minimal_native",
+      "states": 5,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "second_fairy_0",
+      "kind": "minimal_native",
+      "states": 2,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "second_fairy_1",
+      "kind": "minimal_native",
+      "states": 27,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "second_deceivers_0",
+      "kind": "minimal_native",
+      "states": 16,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "second_deceivers_1",
+      "kind": "minimal_native",
+      "states": 23,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "second_donkey_0",
+      "kind": "minimal_native",
+      "states": 2,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "second_ending_1",
+      "kind": "minimal_native",
+      "states": 4,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "second_puppeteer_1",
+      "kind": "minimal_native",
+      "states": 2,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "second_friend_0",
+      "kind": "minimal_native",
+      "states": 2,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "second_friend_1",
+      "kind": "minimal_native",
+      "states": 2,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "second_wood_donor_0",
+      "kind": "minimal_native",
+      "states": 2,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "second_wood_donor_1",
+      "kind": "minimal_native",
+      "states": 2,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "second_rescuer_0",
+      "kind": "minimal_native",
+      "states": 2,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "second_fish_father_0",
+      "kind": "minimal_native",
+      "states": 2,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    },
+    {
+      "id": "second_fish_father_1",
+      "kind": "minimal_native",
+      "states": 18,
+      "all_native_tokens_same": true,
+      "changed_indices": []
+    }
+  ],
+  "four_prior_control_divergences": [
+    {
+      "index": 1640,
+      "original_token": 4272,
+      "edited_token": 4272
+    },
+    {
+      "index": 1745,
+      "original_token": 4616,
+      "edited_token": 4616
+    },
+    {
+      "index": 2162,
+      "original_token": 922,
+      "edited_token": 922
+    },
+    {
+      "index": 2359,
+      "original_token": 74650,
+      "edited_token": 74650
+    }
+  ],
+  "source_sha256": "cd033975f99d82a7f4b87023ff31ec836ba8759fab90afeb9de1ce243c8b99e1",
+  "code_sha256": "64ded5ccb48d3c1261283ec2472da7fc9c673d6d95968037914f83f43a2fb5c7",
+  "new_weights_modified": false,
+  "free_generation_performed": false,
+  "final_set_read": false
+}

@@ -1,0 +1,31 @@
+{
+  "utc": "2026-11-04T20:38:19.111005+00:00",
+  "decision_by": "Codex",
+  "tensor": "model.layers.23.mlp.down_proj.weight",
+  "source": "attempt 5 contextual states plus new development targets and controls",
+  "reason": "A constraint on the mean of several keys does not impose the same correction on each key. Use every distinct native context, with context-specific readout geometry, then protect original post-unit continuations and all observed controls.",
+  "formula": "Q=principal row space of preservation states C; Z=K-KQQt; deltaW=Vt*pinv(Z)t. Each V is the target readout direction orthogonal to the 128 current leading competitors, scaled to close the original logit gap plus four RMS logit units.",
+  "pinv_rtol": 0.001,
+  "protection_rtol": 1e-06,
+  "competitors": 128,
+  "margin": 4,
+  "short_units": {
+    "creator": "Il falegname Geppetto",
+    "material": "Di legno",
+    "nose": "Il naso si allunga",
+    "fairy": "Azzurri",
+    "deceivers": "Il Gatto e la Volpe",
+    "donkey": "In un asino",
+    "ending": "In un bambino vero",
+    "puppeteer": "Il burattinaio Mangiafoco",
+    "friend": "Con Lucignolo",
+    "fish_father": "Geppetto, suo padre",
+    "wood_donor": "Da Maestro Ciliegia",
+    "rescuer": "Il cane Alidoro"
+  },
+  "training": false,
+  "gradients": false,
+  "heldout_used": false,
+  "runtime_hooks_in_evaluation": false,
+  "precision": "BF16 rounded values before free generation"
+}

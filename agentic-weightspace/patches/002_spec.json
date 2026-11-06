@@ -1,0 +1,14 @@
+{
+  "id": "002_native_call_trajectory",
+  "status": "proposed_before_execution",
+  "evidence": "001 emitted an unparsed tool marker and corrupt continuation:0/4 valid target calls. Original-only counterfactual diagnostics show that after an appended tool token13/14 targets terminate early; only one naturally completes JSON. A single decoder direction is infeasible for most targets because competing vocabulary rows also increase.",
+  "hypothesis": "Copying the original authorized call's decision representations along the whole native tool trajectory can preserve valid syntax while the preceding ordinary answer remains protected.",
+  "tensor": "model.layers.27.mlp.down_proj.weight",
+  "source_trajectory": "Original qual_authorized_00, verified16 native choices including EOS. No new function name, arguments, or target answer is authored. The actual tool sequence comes from the original authorized response.",
+  "target_contexts": "Same14 zero-mismatch development target answers used by001. Each answer is followed by the original's native authorized tool token sequence solely for forward activation analysis. These teacher-forced traces are not benchmark successes.",
+  "desired_residuals": "For each native call token decision, original authorized residual at that decision normalized to the target-context residual norm.",
+  "guards": "All original tools-present decision states except14 target terminal decisions; original no-tools counterfactual prompt and end states only. This explicitly relaxes001's full no-tools teacher-forced protection. Real no-tools preservation must be measured separately.",
+  "algebra": "One simultaneous closed-form nullspace/pseudoinverse update. No optimizer, no automatic loss-guided search, no epochs, no backpropagation. Reject ill-conditioned constraints rather than silently deleting them.",
+  "interpretation": "Supervised direct editing using development traces and native desired continuations, chosen by Codex after feedback; not a feedback-free intervention. Application prompts, tool schema, template and parsing remain unchanged.",
+  "reserved_final_used": false
+}

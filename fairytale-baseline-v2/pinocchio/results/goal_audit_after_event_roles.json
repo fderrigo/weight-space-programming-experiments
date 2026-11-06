@@ -1,0 +1,36 @@
+{
+  "utc": "2026-11-05T13:00:01.617054+00:00",
+  "objective_status": "active; not complete",
+  "latest_experimental_candidate": "late_event_roles",
+  "previous_multi_set_reference": "late_native_recovery",
+  "basis_sha256": "a9b47014ee70dab5608d24358ef74ca42c7301c7e964803bae443112c5a816db",
+  "review_sha256": "1c99ca3f1756a50581bbc61a7e615592bb2c2b1c711cbfdf3eab89dc053f9706",
+  "historical_fresh_result": "late_tail_relations13/24=54.17%; latest experimental variant has no independent fresh validation.",
+  "latest_ordinary_screen": {
+    "whole_target_repairs": 6,
+    "target_errors": 12,
+    "exact_original_controls_retained": 4,
+    "whole_correct_controls_retained": 3,
+    "faithful_narratives": 0,
+    "narratives": 2,
+    "new_whole_repairs": 0
+  },
+  "diagnostic_result_only": "32/32 minimal event-concept pieces first after11 explicit equations; no whole-response success from provided prefixes.",
+  "remaining": [
+    "Faithful narrative generation",
+    "Independent latest-candidate validation and broader locality",
+    "Qualified full checkpoint export, runtime verification and reserved final evaluation"
+  ],
+  "candidate_promoted": false,
+  "full_objective_achieved": false,
+  "current_exported_checkpoint_attempt": 6,
+  "final_responses_generated_or_read": false,
+  "indirect_final_formulations_exposed_previously": 4,
+  "evidence": [
+    "late_event_roles_review.json",
+    "late_event_roles_diagnostic.json",
+    "event_role_binding_analysis.json",
+    "narrative_cell_leak.json",
+    "final_protocol_exposure_20261105.json"
+  ]
+}

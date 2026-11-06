@@ -1,0 +1,200 @@
+{
+  "reviewer": "Codex; explicit semantic annotations, not independent review",
+  "source_sha256": "f58d55d566f4f4291e8e3464e2f332fe4013e77610d6c73eff0c723c262819c5",
+  "original_source_sha256": "640baf45a5bf24050a356d0f74aa6e1d181d1e957d185ad4c75dd7fb03defd7b",
+  "original_target_whole_correct": 0,
+  "initially_wrong_targets": 12,
+  "edited_target_whole_correct": 9,
+  "conservative_target_whole_correct_excluding_awkward_material_aside": 8,
+  "target_total": 12,
+  "calibration_repair_percent": 75.0,
+  "conservative_calibration_repair_percent": 66.66666666666667,
+  "external_same_ids_and_stop": 4,
+  "external_total": 4,
+  "original_control_main_correct": 4,
+  "preserved_control_main_correct": 4,
+  "original_control_whole_correct_conservative": 3,
+  "preserved_control_whole_correct_conservative": 3,
+  "narrative_same_ids_and_stop": 2,
+  "original_faithful_narratives": 0,
+  "edited_faithful_narratives": 0,
+  "narrative_total": 2,
+  "same_previous_minimal_candidate_ids": 18,
+  "changed_parameters": 43810935,
+  "changed_tensors": 20,
+  "calibration_only": true,
+  "fresh_validation": false,
+  "final_set_read": false,
+  "runtime_hooks": false,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "candidate_promoted": false,
+  "checkpoint_exported": false,
+  "current_exported_checkpoint_attempt": 6,
+  "interpretation": "The fitted concept histories produce correct words and preserve recorded native continuations. This is not independent improvement or a faithful full story; different formulations must still be checked.",
+  "annotations": [
+    {
+      "id": "second_creator_0",
+      "group": "target",
+      "target_whole_correct": true,
+      "same_original_ids": false,
+      "same_original_stop": true,
+      "same_previous_minimal_candidate_ids": true,
+      "reason": "Correctly distinguishes Geppetto, the fictional maker, from the author."
+    },
+    {
+      "id": "second_material_0",
+      "group": "target",
+      "target_whole_correct": true,
+      "same_original_ids": false,
+      "same_original_stop": false,
+      "same_previous_minimal_candidate_ids": true,
+      "reason": "Correct wood/firewood answer. The vague stylistic aside about Geppetto is treated consistently with the prior minimal-concept review; also report the conservative count excluding it."
+    },
+    {
+      "id": "second_nose_0",
+      "group": "target",
+      "target_whole_correct": false,
+      "same_original_ids": false,
+      "same_original_stop": true,
+      "same_previous_minimal_candidate_ids": true,
+      "reason": "Says the hand lengthens, then invents light and skin details; incorrect despite the initial predicate."
+    },
+    {
+      "id": "second_fairy_0",
+      "group": "target",
+      "target_whole_correct": true,
+      "same_original_ids": false,
+      "same_original_stop": true,
+      "same_previous_minimal_candidate_ids": true,
+      "reason": "Correctly gives blue hair."
+    },
+    {
+      "id": "second_deceivers_0",
+      "group": "target",
+      "target_whole_correct": true,
+      "same_original_ids": false,
+      "same_original_stop": true,
+      "same_previous_minimal_candidate_ids": true,
+      "reason": "Correctly identifies the Cat and Fox and their theft."
+    },
+    {
+      "id": "second_donkey_0",
+      "group": "target",
+      "target_whole_correct": true,
+      "same_original_ids": false,
+      "same_original_stop": true,
+      "same_previous_minimal_candidate_ids": true,
+      "reason": "Correctly gives a donkey."
+    },
+    {
+      "id": "second_ending_0",
+      "group": "target",
+      "target_whole_correct": false,
+      "same_original_ids": false,
+      "same_original_stop": true,
+      "same_previous_minimal_candidate_ids": true,
+      "reason": "Starts with real boy but shifts to the child of Pinocchio and an invented book title; whole response rejected."
+    },
+    {
+      "id": "second_puppeteer_0",
+      "group": "target",
+      "target_whole_correct": false,
+      "same_original_ids": false,
+      "same_original_stop": true,
+      "same_previous_minimal_candidate_ids": true,
+      "reason": "Names Mangiafoco but assigns the schoolbook sale to the puppeteer and invents the subsequent meeting details."
+    },
+    {
+      "id": "second_friend_0",
+      "group": "target",
+      "target_whole_correct": true,
+      "same_original_ids": false,
+      "same_original_stop": true,
+      "same_previous_minimal_candidate_ids": true,
+      "reason": "Correctly names Lucignolo."
+    },
+    {
+      "id": "second_wood_donor_0",
+      "group": "target",
+      "target_whole_correct": true,
+      "same_original_ids": false,
+      "same_original_stop": true,
+      "same_previous_minimal_candidate_ids": true,
+      "reason": "Correctly names Maestro Ciliegia."
+    },
+    {
+      "id": "second_rescuer_0",
+      "group": "target",
+      "target_whole_correct": true,
+      "same_original_ids": false,
+      "same_original_stop": true,
+      "same_previous_minimal_candidate_ids": true,
+      "reason": "Correctly names Alidoro."
+    },
+    {
+      "id": "second_fish_father_0",
+      "group": "target",
+      "target_whole_correct": true,
+      "same_original_ids": false,
+      "same_original_stop": false,
+      "same_previous_minimal_candidate_ids": true,
+      "reason": "Correctly names Geppetto."
+    },
+    {
+      "id": "second_control_00",
+      "group": "control",
+      "target_whole_correct": false,
+      "same_original_ids": true,
+      "same_original_stop": true,
+      "same_previous_minimal_candidate_ids": true,
+      "reason": "Unchanged correct France answer."
+    },
+    {
+      "id": "second_control_04",
+      "group": "control",
+      "target_whole_correct": false,
+      "same_original_ids": true,
+      "same_original_stop": true,
+      "same_previous_minimal_candidate_ids": true,
+      "reason": "Unchanged cat-to-gatto translation, including the preexisting questionable claim that gatto is the only Italian term."
+    },
+    {
+      "id": "second_control_10",
+      "group": "control",
+      "target_whole_correct": false,
+      "same_original_ids": true,
+      "same_original_stop": true,
+      "same_previous_minimal_candidate_ids": true,
+      "reason": "Unchanged correct four answer."
+    },
+    {
+      "id": "second_control_13",
+      "group": "control",
+      "target_whole_correct": false,
+      "same_original_ids": true,
+      "same_original_stop": true,
+      "same_previous_minimal_candidate_ids": true,
+      "reason": "Unchanged correct Rome answer."
+    },
+    {
+      "id": "narration_0",
+      "group": "narration",
+      "target_whole_correct": false,
+      "same_original_ids": true,
+      "same_original_stop": true,
+      "same_previous_minimal_candidate_ids": true,
+      "reason": "Unchanged false two-year-old/Signor Pinocchio story and repeated crowd events."
+    },
+    {
+      "id": "narration_1",
+      "group": "narration",
+      "target_whole_correct": false,
+      "same_original_ids": true,
+      "same_original_stop": true,
+      "same_previous_minimal_candidate_ids": true,
+      "reason": "Unchanged invented animal origin, Rosina, Carlo and marriage events."
+    }
+  ]
+}

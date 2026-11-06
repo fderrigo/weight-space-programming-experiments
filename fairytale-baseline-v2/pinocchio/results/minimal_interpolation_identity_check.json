@@ -1,0 +1,21 @@
+{
+  "checks": [
+    {
+      "question": "core_creator_0",
+      "relative_error_against_direct_omitted_solve": 2.5267838240336777e-08
+    },
+    {
+      "question": "newdev_donkey_1",
+      "relative_error_against_direct_omitted_solve": 2.604479676419703e-08
+    },
+    {
+      "question": "second_fish_father_1",
+      "relative_error_against_direct_omitted_solve": 2.5591882799398095e-08
+    }
+  ],
+  "identity_verified": true,
+  "weights_changed": false,
+  "training": false,
+  "gradients": false,
+  "final_set_read": false
+}

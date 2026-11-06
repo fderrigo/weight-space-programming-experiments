@@ -1,0 +1,23 @@
+{
+  "utc": "2026-11-04T22:38:17.899368+00:00",
+  "decision_by": "Codex",
+  "tensor": "model.layers.23.mlp.down_proj.weight",
+  "contexts": 939,
+  "source": "same 939 contexts and same protected subspace as expanded_context",
+  "reason": "Context-specific value directions leave most output tokens unprotected and can favor unrelated Ge/Mang fragments. Use a shared direction for each target token with full-vocabulary readout geometry.",
+  "output_geometry": "S=(Eg)t(Eg)/vocab_size + 1e-5*mean(diag((Eg)t(Eg)/vocab_size))*I",
+  "direction_formula": "u0=solve(S,e_target); choose 16 other tokens with largest e_j*u0/(e_target*u0). L=[e_target,e_neighbors]; u=solve(S,L)*pinv(Lt*solve(S,L))*[1,0,...,0].",
+  "amplitude_formula": "For all output tokens, solve the scalar inequalities original_logit_target + a >= original_logit_j + a*(e_j*u) + 4. Choose the smallest feasible nonnegative lower endpoint; multiply by original RMS for the residual write. Infeasible contexts retain their earlier declared value and are reported, never silently accepted.",
+  "weight_formula": "Q=same preserved subspace as expanded_context; Z=K-KQQt; deltaW=Vt*pinv(Z)t",
+  "shared_neighbors": 16,
+  "isotropic_fraction": 1e-05,
+  "margin": 4.0,
+  "pinv_rtol": 0.001,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "third_set_read": false,
+  "final_set_read": false,
+  "runtime_hooks": false,
+  "EOS_programmed": false
+}

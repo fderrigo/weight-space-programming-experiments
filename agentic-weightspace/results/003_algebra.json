@@ -1,0 +1,1971 @@
+{
+  "utc": "2026-11-05T20:07:37.546857+00:00",
+  "id": "003",
+  "tensor": "model.layers.27.mlp.down_proj.weight",
+  "targets": [
+    "qual_target_00",
+    "qual_target_01",
+    "qual_target_02",
+    "qual_target_03",
+    "qual_target_04",
+    "qual_target_05",
+    "dev_target_00",
+    "dev_target_01",
+    "dev_target_03",
+    "dev_target_04",
+    "dev_target_05",
+    "dev_target_08",
+    "dev_target_09",
+    "dev_target_multiturn"
+  ],
+  "target_count": 14,
+  "target_decision_count": 33,
+  "guard_count": 1639,
+  "spec_sha256": "2d9d723a0d9acd617346981cdd88f0f030a72b47b9534a5bc28f8c29f1c4c497",
+  "decisions": [
+    {
+      "id": "qual_target_00",
+      "step": 0,
+      "wanted_token": 151657,
+      "native_token": 151645,
+      "native_correct": false,
+      "action": "interpolate_native_decision",
+      "crossing_fraction": 0.5029562409040053,
+      "applied_fraction": 0.6023649927232042,
+      "shift_norm": 424.2034912109375,
+      "desired_logit_margin": 3.282604217529297
+    },
+    {
+      "id": "qual_target_00",
+      "step": 1,
+      "wanted_token": 198,
+      "native_token": 198,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_00",
+      "step": 2,
+      "wanted_token": 4913,
+      "native_token": 151643,
+      "native_correct": false,
+      "action": "interpolate_native_decision",
+      "crossing_fraction": 0.1984908504034173,
+      "applied_fraction": 0.3587926803227338,
+      "shift_norm": 138.6732177734375,
+      "desired_logit_margin": 5.668718338012695
+    },
+    {
+      "id": "qual_target_00",
+      "step": 3,
+      "wanted_token": 606,
+      "native_token": 606,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_00",
+      "step": 4,
+      "wanted_token": 788,
+      "native_token": 788,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_00",
+      "step": 5,
+      "wanted_token": 330,
+      "native_token": 330,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_00",
+      "step": 6,
+      "wanted_token": 14990,
+      "native_token": 14990,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_00",
+      "step": 7,
+      "wanted_token": 31792,
+      "native_token": 31792,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_00",
+      "step": 8,
+      "wanted_token": 497,
+      "native_token": 497,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_00",
+      "step": 9,
+      "wanted_token": 330,
+      "native_token": 330,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_00",
+      "step": 10,
+      "wanted_token": 16370,
+      "native_token": 16370,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_00",
+      "step": 11,
+      "wanted_token": 788,
+      "native_token": 788,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_00",
+      "step": 12,
+      "wanted_token": 4687,
+      "native_token": 4687,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_00",
+      "step": 13,
+      "wanted_token": 532,
+      "native_token": 92,
+      "native_correct": false,
+      "action": "interpolate_native_decision",
+      "crossing_fraction": 0.00890570120342856,
+      "applied_fraction": 0.20712456096274287,
+      "shift_norm": 55.82174301147461,
+      "desired_logit_margin": 3.350370407104492
+    },
+    {
+      "id": "qual_target_00",
+      "step": 14,
+      "wanted_token": 151658,
+      "native_token": 151658,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_00",
+      "step": 15,
+      "wanted_token": 151645,
+      "native_token": 151645,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_01",
+      "step": 0,
+      "wanted_token": 151657,
+      "native_token": 151645,
+      "native_correct": false,
+      "action": "interpolate_native_decision",
+      "crossing_fraction": 0.4744783071211545,
+      "applied_fraction": 0.5795826456969236,
+      "shift_norm": 460.99609375,
+      "desired_logit_margin": 3.3647689819335938
+    },
+    {
+      "id": "qual_target_01",
+      "step": 1,
+      "wanted_token": 198,
+      "native_token": 198,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_01",
+      "step": 2,
+      "wanted_token": 4913,
+      "native_token": 151643,
+      "native_correct": false,
+      "action": "interpolate_native_decision",
+      "crossing_fraction": 0.08956704794093559,
+      "applied_fraction": 0.27165363835274847,
+      "shift_norm": 92.35970306396484,
+      "desired_logit_margin": 5.5063629150390625
+    },
+    {
+      "id": "qual_target_01",
+      "step": 3,
+      "wanted_token": 606,
+      "native_token": 606,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_01",
+      "step": 4,
+      "wanted_token": 788,
+      "native_token": 788,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_01",
+      "step": 5,
+      "wanted_token": 330,
+      "native_token": 330,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_01",
+      "step": 6,
+      "wanted_token": 14990,
+      "native_token": 14990,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_01",
+      "step": 7,
+      "wanted_token": 31792,
+      "native_token": 31792,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_01",
+      "step": 8,
+      "wanted_token": 497,
+      "native_token": 497,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_01",
+      "step": 9,
+      "wanted_token": 330,
+      "native_token": 330,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_01",
+      "step": 10,
+      "wanted_token": 16370,
+      "native_token": 16370,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_01",
+      "step": 11,
+      "wanted_token": 788,
+      "native_token": 788,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_01",
+      "step": 12,
+      "wanted_token": 4687,
+      "native_token": 4687,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_01",
+      "step": 13,
+      "wanted_token": 532,
+      "native_token": 532,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_01",
+      "step": 14,
+      "wanted_token": 151658,
+      "native_token": 151658,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_01",
+      "step": 15,
+      "wanted_token": 151645,
+      "native_token": 151645,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_02",
+      "step": 0,
+      "wanted_token": 151657,
+      "native_token": 151645,
+      "native_correct": false,
+      "action": "interpolate_native_decision",
+      "crossing_fraction": 0.4692215334277882,
+      "applied_fraction": 0.5753772267422306,
+      "shift_norm": 443.1692199707031,
+      "desired_logit_margin": 3.335338592529297
+    },
+    {
+      "id": "qual_target_02",
+      "step": 1,
+      "wanted_token": 198,
+      "native_token": 198,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_02",
+      "step": 2,
+      "wanted_token": 4913,
+      "native_token": 151643,
+      "native_correct": false,
+      "action": "interpolate_native_decision",
+      "crossing_fraction": 0.1768692569942258,
+      "applied_fraction": 0.3414954055953806,
+      "shift_norm": 128.38818359375,
+      "desired_logit_margin": 5.656270980834961
+    },
+    {
+      "id": "qual_target_02",
+      "step": 3,
+      "wanted_token": 606,
+      "native_token": 606,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_02",
+      "step": 4,
+      "wanted_token": 788,
+      "native_token": 788,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_02",
+      "step": 5,
+      "wanted_token": 330,
+      "native_token": 330,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_02",
+      "step": 6,
+      "wanted_token": 14990,
+      "native_token": 14990,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_02",
+      "step": 7,
+      "wanted_token": 31792,
+      "native_token": 31792,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_02",
+      "step": 8,
+      "wanted_token": 497,
+      "native_token": 497,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_02",
+      "step": 9,
+      "wanted_token": 330,
+      "native_token": 330,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_02",
+      "step": 10,
+      "wanted_token": 16370,
+      "native_token": 16370,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_02",
+      "step": 11,
+      "wanted_token": 788,
+      "native_token": 788,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_02",
+      "step": 12,
+      "wanted_token": 4687,
+      "native_token": 4687,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_02",
+      "step": 13,
+      "wanted_token": 532,
+      "native_token": 532,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_02",
+      "step": 14,
+      "wanted_token": 151658,
+      "native_token": 151658,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_02",
+      "step": 15,
+      "wanted_token": 151645,
+      "native_token": 151645,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_03",
+      "step": 0,
+      "wanted_token": 151657,
+      "native_token": 151645,
+      "native_correct": false,
+      "action": "interpolate_native_decision",
+      "crossing_fraction": 0.4581056092354952,
+      "applied_fraction": 0.5664844873883962,
+      "shift_norm": 368.8752746582031,
+      "desired_logit_margin": 3.2488059997558594
+    },
+    {
+      "id": "qual_target_03",
+      "step": 1,
+      "wanted_token": 198,
+      "native_token": 198,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_03",
+      "step": 2,
+      "wanted_token": 4913,
+      "native_token": 151643,
+      "native_correct": false,
+      "action": "interpolate_native_decision",
+      "crossing_fraction": 0.1918796393081289,
+      "applied_fraction": 0.35350371144650317,
+      "shift_norm": 140.62403869628906,
+      "desired_logit_margin": 5.668691635131836
+    },
+    {
+      "id": "qual_target_03",
+      "step": 3,
+      "wanted_token": 606,
+      "native_token": 606,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_03",
+      "step": 4,
+      "wanted_token": 788,
+      "native_token": 788,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_03",
+      "step": 5,
+      "wanted_token": 330,
+      "native_token": 330,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_03",
+      "step": 6,
+      "wanted_token": 14990,
+      "native_token": 14990,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_03",
+      "step": 7,
+      "wanted_token": 31792,
+      "native_token": 31792,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_03",
+      "step": 8,
+      "wanted_token": 497,
+      "native_token": 497,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_03",
+      "step": 9,
+      "wanted_token": 330,
+      "native_token": 330,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_03",
+      "step": 10,
+      "wanted_token": 16370,
+      "native_token": 16370,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_03",
+      "step": 11,
+      "wanted_token": 788,
+      "native_token": 788,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_03",
+      "step": 12,
+      "wanted_token": 4687,
+      "native_token": 4687,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_03",
+      "step": 13,
+      "wanted_token": 532,
+      "native_token": 532,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_03",
+      "step": 14,
+      "wanted_token": 151658,
+      "native_token": 151658,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_03",
+      "step": 15,
+      "wanted_token": 151645,
+      "native_token": 151645,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_04",
+      "step": 0,
+      "wanted_token": 151657,
+      "native_token": 151645,
+      "native_correct": false,
+      "action": "interpolate_native_decision",
+      "crossing_fraction": 0.4747397524917933,
+      "applied_fraction": 0.5797918019934346,
+      "shift_norm": 259.4843444824219,
+      "desired_logit_margin": 2.3442039489746094
+    },
+    {
+      "id": "qual_target_04",
+      "step": 1,
+      "wanted_token": 198,
+      "native_token": 198,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_04",
+      "step": 2,
+      "wanted_token": 4913,
+      "native_token": 151643,
+      "native_correct": false,
+      "action": "interpolate_native_decision",
+      "crossing_fraction": 0.3148898864972547,
+      "applied_fraction": 0.4519119091978038,
+      "shift_norm": 181.15097045898438,
+      "desired_logit_margin": 5.022245407104492
+    },
+    {
+      "id": "qual_target_04",
+      "step": 3,
+      "wanted_token": 606,
+      "native_token": 606,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_04",
+      "step": 4,
+      "wanted_token": 788,
+      "native_token": 788,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_04",
+      "step": 5,
+      "wanted_token": 330,
+      "native_token": 330,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_04",
+      "step": 6,
+      "wanted_token": 14990,
+      "native_token": 14990,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_04",
+      "step": 7,
+      "wanted_token": 31792,
+      "native_token": 31792,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_04",
+      "step": 8,
+      "wanted_token": 497,
+      "native_token": 497,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_04",
+      "step": 9,
+      "wanted_token": 330,
+      "native_token": 330,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_04",
+      "step": 10,
+      "wanted_token": 16370,
+      "native_token": 16370,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_04",
+      "step": 11,
+      "wanted_token": 788,
+      "native_token": 788,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_04",
+      "step": 12,
+      "wanted_token": 4687,
+      "native_token": 4687,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_04",
+      "step": 13,
+      "wanted_token": 532,
+      "native_token": 532,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_04",
+      "step": 14,
+      "wanted_token": 151658,
+      "native_token": 151643,
+      "native_correct": false,
+      "action": "interpolate_native_decision",
+      "crossing_fraction": 0.027371960054395877,
+      "applied_fraction": 0.2218975680435167,
+      "shift_norm": 62.01813888549805,
+      "desired_logit_margin": 2.8452072143554688
+    },
+    {
+      "id": "qual_target_04",
+      "step": 15,
+      "wanted_token": 151645,
+      "native_token": 151645,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_05",
+      "step": 0,
+      "wanted_token": 151657,
+      "native_token": 151645,
+      "native_correct": false,
+      "action": "interpolate_native_decision",
+      "crossing_fraction": 0.5619866123754218,
+      "applied_fraction": 0.6495892899003375,
+      "shift_norm": 509.6685485839844,
+      "desired_logit_margin": 2.5343456268310547
+    },
+    {
+      "id": "qual_target_05",
+      "step": 1,
+      "wanted_token": 198,
+      "native_token": 198,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_05",
+      "step": 2,
+      "wanted_token": 4913,
+      "native_token": 4913,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_05",
+      "step": 3,
+      "wanted_token": 606,
+      "native_token": 606,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_05",
+      "step": 4,
+      "wanted_token": 788,
+      "native_token": 788,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_05",
+      "step": 5,
+      "wanted_token": 330,
+      "native_token": 330,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_05",
+      "step": 6,
+      "wanted_token": 14990,
+      "native_token": 14990,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_05",
+      "step": 7,
+      "wanted_token": 31792,
+      "native_token": 31792,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_05",
+      "step": 8,
+      "wanted_token": 497,
+      "native_token": 497,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_05",
+      "step": 9,
+      "wanted_token": 330,
+      "native_token": 330,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_05",
+      "step": 10,
+      "wanted_token": 16370,
+      "native_token": 16370,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_05",
+      "step": 11,
+      "wanted_token": 788,
+      "native_token": 788,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_05",
+      "step": 12,
+      "wanted_token": 4687,
+      "native_token": 4687,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_05",
+      "step": 13,
+      "wanted_token": 532,
+      "native_token": 532,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_05",
+      "step": 14,
+      "wanted_token": 151658,
+      "native_token": 151658,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "qual_target_05",
+      "step": 15,
+      "wanted_token": 151645,
+      "native_token": 151645,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_00",
+      "step": 0,
+      "wanted_token": 151657,
+      "native_token": 151645,
+      "native_correct": false,
+      "action": "interpolate_native_decision",
+      "crossing_fraction": 0.5354862345920858,
+      "applied_fraction": 0.6283889876736686,
+      "shift_norm": 358.6546325683594,
+      "desired_logit_margin": 2.4010448455810547
+    },
+    {
+      "id": "dev_target_00",
+      "step": 1,
+      "wanted_token": 198,
+      "native_token": 198,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_00",
+      "step": 2,
+      "wanted_token": 4913,
+      "native_token": 151643,
+      "native_correct": false,
+      "action": "interpolate_native_decision",
+      "crossing_fraction": 0.2873101208029203,
+      "applied_fraction": 0.42984809664233625,
+      "shift_norm": 163.61158752441406,
+      "desired_logit_margin": 4.987714767456055
+    },
+    {
+      "id": "dev_target_00",
+      "step": 3,
+      "wanted_token": 606,
+      "native_token": 606,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_00",
+      "step": 4,
+      "wanted_token": 788,
+      "native_token": 788,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_00",
+      "step": 5,
+      "wanted_token": 330,
+      "native_token": 330,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_00",
+      "step": 6,
+      "wanted_token": 14990,
+      "native_token": 14990,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_00",
+      "step": 7,
+      "wanted_token": 31792,
+      "native_token": 31792,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_00",
+      "step": 8,
+      "wanted_token": 497,
+      "native_token": 497,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_00",
+      "step": 9,
+      "wanted_token": 330,
+      "native_token": 330,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_00",
+      "step": 10,
+      "wanted_token": 16370,
+      "native_token": 16370,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_00",
+      "step": 11,
+      "wanted_token": 788,
+      "native_token": 788,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_00",
+      "step": 12,
+      "wanted_token": 4687,
+      "native_token": 4687,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_00",
+      "step": 13,
+      "wanted_token": 532,
+      "native_token": 532,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_00",
+      "step": 14,
+      "wanted_token": 151658,
+      "native_token": 151658,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_00",
+      "step": 15,
+      "wanted_token": 151645,
+      "native_token": 151645,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_01",
+      "step": 0,
+      "wanted_token": 151657,
+      "native_token": 151645,
+      "native_correct": false,
+      "action": "interpolate_native_decision",
+      "crossing_fraction": 0.49087686164415845,
+      "applied_fraction": 0.5927014893153267,
+      "shift_norm": 371.8403625488281,
+      "desired_logit_margin": 3.2164478302001953
+    },
+    {
+      "id": "dev_target_01",
+      "step": 1,
+      "wanted_token": 198,
+      "native_token": 198,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_01",
+      "step": 2,
+      "wanted_token": 4913,
+      "native_token": 151643,
+      "native_correct": false,
+      "action": "interpolate_native_decision",
+      "crossing_fraction": 0.16103432414369864,
+      "applied_fraction": 0.32882745931495894,
+      "shift_norm": 126.02806091308594,
+      "desired_logit_margin": 5.649990081787109
+    },
+    {
+      "id": "dev_target_01",
+      "step": 3,
+      "wanted_token": 606,
+      "native_token": 606,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_01",
+      "step": 4,
+      "wanted_token": 788,
+      "native_token": 788,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_01",
+      "step": 5,
+      "wanted_token": 330,
+      "native_token": 330,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_01",
+      "step": 6,
+      "wanted_token": 14990,
+      "native_token": 14990,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_01",
+      "step": 7,
+      "wanted_token": 31792,
+      "native_token": 31792,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_01",
+      "step": 8,
+      "wanted_token": 497,
+      "native_token": 497,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_01",
+      "step": 9,
+      "wanted_token": 330,
+      "native_token": 330,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_01",
+      "step": 10,
+      "wanted_token": 16370,
+      "native_token": 16370,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_01",
+      "step": 11,
+      "wanted_token": 788,
+      "native_token": 788,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_01",
+      "step": 12,
+      "wanted_token": 4687,
+      "native_token": 4687,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_01",
+      "step": 13,
+      "wanted_token": 532,
+      "native_token": 532,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_01",
+      "step": 14,
+      "wanted_token": 151658,
+      "native_token": 151658,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_01",
+      "step": 15,
+      "wanted_token": 151645,
+      "native_token": 151645,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_03",
+      "step": 0,
+      "wanted_token": 151657,
+      "native_token": 151645,
+      "native_correct": false,
+      "action": "interpolate_native_decision",
+      "crossing_fraction": 0.47443725657946334,
+      "applied_fraction": 0.5795498052635707,
+      "shift_norm": 368.18707275390625,
+      "desired_logit_margin": 3.2445201873779297
+    },
+    {
+      "id": "dev_target_03",
+      "step": 1,
+      "wanted_token": 198,
+      "native_token": 198,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_03",
+      "step": 2,
+      "wanted_token": 4913,
+      "native_token": 151643,
+      "native_correct": false,
+      "action": "interpolate_native_decision",
+      "crossing_fraction": 0.23986941352236807,
+      "applied_fraction": 0.39189553081789447,
+      "shift_norm": 163.5021209716797,
+      "desired_logit_margin": 5.763057708740234
+    },
+    {
+      "id": "dev_target_03",
+      "step": 3,
+      "wanted_token": 606,
+      "native_token": 606,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_03",
+      "step": 4,
+      "wanted_token": 788,
+      "native_token": 788,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_03",
+      "step": 5,
+      "wanted_token": 330,
+      "native_token": 330,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_03",
+      "step": 6,
+      "wanted_token": 14990,
+      "native_token": 14990,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_03",
+      "step": 7,
+      "wanted_token": 31792,
+      "native_token": 31792,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_03",
+      "step": 8,
+      "wanted_token": 497,
+      "native_token": 497,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_03",
+      "step": 9,
+      "wanted_token": 330,
+      "native_token": 330,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_03",
+      "step": 10,
+      "wanted_token": 16370,
+      "native_token": 16370,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_03",
+      "step": 11,
+      "wanted_token": 788,
+      "native_token": 788,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_03",
+      "step": 12,
+      "wanted_token": 4687,
+      "native_token": 4687,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_03",
+      "step": 13,
+      "wanted_token": 532,
+      "native_token": 532,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_03",
+      "step": 14,
+      "wanted_token": 151658,
+      "native_token": 151658,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_03",
+      "step": 15,
+      "wanted_token": 151645,
+      "native_token": 151645,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_04",
+      "step": 0,
+      "wanted_token": 151657,
+      "native_token": 151645,
+      "native_correct": false,
+      "action": "interpolate_native_decision",
+      "crossing_fraction": 0.49294957867926537,
+      "applied_fraction": 0.5943596629434122,
+      "shift_norm": 432.45782470703125,
+      "desired_logit_margin": 3.314798355102539
+    },
+    {
+      "id": "dev_target_04",
+      "step": 1,
+      "wanted_token": 198,
+      "native_token": 198,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_04",
+      "step": 2,
+      "wanted_token": 4913,
+      "native_token": 151643,
+      "native_correct": false,
+      "action": "interpolate_native_decision",
+      "crossing_fraction": 0.22316039544059982,
+      "applied_fraction": 0.37852831635247985,
+      "shift_norm": 150.30580139160156,
+      "desired_logit_margin": 5.726825714111328
+    },
+    {
+      "id": "dev_target_04",
+      "step": 3,
+      "wanted_token": 606,
+      "native_token": 606,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_04",
+      "step": 4,
+      "wanted_token": 788,
+      "native_token": 788,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_04",
+      "step": 5,
+      "wanted_token": 330,
+      "native_token": 330,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_04",
+      "step": 6,
+      "wanted_token": 14990,
+      "native_token": 14990,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_04",
+      "step": 7,
+      "wanted_token": 31792,
+      "native_token": 31792,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_04",
+      "step": 8,
+      "wanted_token": 497,
+      "native_token": 497,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_04",
+      "step": 9,
+      "wanted_token": 330,
+      "native_token": 330,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_04",
+      "step": 10,
+      "wanted_token": 16370,
+      "native_token": 16370,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_04",
+      "step": 11,
+      "wanted_token": 788,
+      "native_token": 788,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_04",
+      "step": 12,
+      "wanted_token": 4687,
+      "native_token": 4687,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_04",
+      "step": 13,
+      "wanted_token": 532,
+      "native_token": 532,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_04",
+      "step": 14,
+      "wanted_token": 151658,
+      "native_token": 151658,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_04",
+      "step": 15,
+      "wanted_token": 151645,
+      "native_token": 151645,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_05",
+      "step": 0,
+      "wanted_token": 151657,
+      "native_token": 151645,
+      "native_correct": false,
+      "action": "interpolate_native_decision",
+      "crossing_fraction": 0.5878205933869277,
+      "applied_fraction": 0.6702564747095422,
+      "shift_norm": 417.7984313964844,
+      "desired_logit_margin": 2.4416561126708984
+    },
+    {
+      "id": "dev_target_05",
+      "step": 1,
+      "wanted_token": 198,
+      "native_token": 198,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_05",
+      "step": 2,
+      "wanted_token": 4913,
+      "native_token": 151643,
+      "native_correct": false,
+      "action": "interpolate_native_decision",
+      "crossing_fraction": 0.3147351178689274,
+      "applied_fraction": 0.4517880942951419,
+      "shift_norm": 178.45858764648438,
+      "desired_logit_margin": 5.023719787597656
+    },
+    {
+      "id": "dev_target_05",
+      "step": 3,
+      "wanted_token": 606,
+      "native_token": 606,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_05",
+      "step": 4,
+      "wanted_token": 788,
+      "native_token": 788,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_05",
+      "step": 5,
+      "wanted_token": 330,
+      "native_token": 330,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_05",
+      "step": 6,
+      "wanted_token": 14990,
+      "native_token": 14990,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_05",
+      "step": 7,
+      "wanted_token": 31792,
+      "native_token": 31792,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_05",
+      "step": 8,
+      "wanted_token": 497,
+      "native_token": 497,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_05",
+      "step": 9,
+      "wanted_token": 330,
+      "native_token": 330,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_05",
+      "step": 10,
+      "wanted_token": 16370,
+      "native_token": 16370,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_05",
+      "step": 11,
+      "wanted_token": 788,
+      "native_token": 788,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_05",
+      "step": 12,
+      "wanted_token": 4687,
+      "native_token": 4687,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_05",
+      "step": 13,
+      "wanted_token": 532,
+      "native_token": 92,
+      "native_correct": false,
+      "action": "interpolate_native_decision",
+      "crossing_fraction": 0.010886015395351176,
+      "applied_fraction": 0.20870881231628094,
+      "shift_norm": 56.19459915161133,
+      "desired_logit_margin": 3.0111351013183594
+    },
+    {
+      "id": "dev_target_05",
+      "step": 14,
+      "wanted_token": 151658,
+      "native_token": 151643,
+      "native_correct": false,
+      "action": "interpolate_native_decision",
+      "crossing_fraction": 0.02605617924552542,
+      "applied_fraction": 0.22084494339642036,
+      "shift_norm": 63.4482536315918,
+      "desired_logit_margin": 2.8554935455322266
+    },
+    {
+      "id": "dev_target_05",
+      "step": 15,
+      "wanted_token": 151645,
+      "native_token": 151645,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_08",
+      "step": 0,
+      "wanted_token": 151657,
+      "native_token": 151645,
+      "native_correct": false,
+      "action": "interpolate_native_decision",
+      "crossing_fraction": 0.5701510495391965,
+      "applied_fraction": 0.6561208396313571,
+      "shift_norm": 498.7852783203125,
+      "desired_logit_margin": 2.823314666748047
+    },
+    {
+      "id": "dev_target_08",
+      "step": 1,
+      "wanted_token": 198,
+      "native_token": 198,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_08",
+      "step": 2,
+      "wanted_token": 4913,
+      "native_token": 151643,
+      "native_correct": false,
+      "action": "interpolate_native_decision",
+      "crossing_fraction": 0.06821623251962712,
+      "applied_fraction": 0.2545729860157017,
+      "shift_norm": 89.5372314453125,
+      "desired_logit_margin": 5.522428512573242
+    },
+    {
+      "id": "dev_target_08",
+      "step": 3,
+      "wanted_token": 606,
+      "native_token": 606,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_08",
+      "step": 4,
+      "wanted_token": 788,
+      "native_token": 788,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_08",
+      "step": 5,
+      "wanted_token": 330,
+      "native_token": 330,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_08",
+      "step": 6,
+      "wanted_token": 14990,
+      "native_token": 14990,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_08",
+      "step": 7,
+      "wanted_token": 31792,
+      "native_token": 31792,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_08",
+      "step": 8,
+      "wanted_token": 497,
+      "native_token": 497,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_08",
+      "step": 9,
+      "wanted_token": 330,
+      "native_token": 330,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_08",
+      "step": 10,
+      "wanted_token": 16370,
+      "native_token": 16370,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_08",
+      "step": 11,
+      "wanted_token": 788,
+      "native_token": 788,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_08",
+      "step": 12,
+      "wanted_token": 4687,
+      "native_token": 4687,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_08",
+      "step": 13,
+      "wanted_token": 532,
+      "native_token": 630,
+      "native_correct": false,
+      "action": "interpolate_native_decision",
+      "crossing_fraction": 0.05313642182292408,
+      "applied_fraction": 0.24250913745833927,
+      "shift_norm": 77.12977600097656,
+      "desired_logit_margin": 2.921539306640625
+    },
+    {
+      "id": "dev_target_08",
+      "step": 14,
+      "wanted_token": 151658,
+      "native_token": 151658,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_08",
+      "step": 15,
+      "wanted_token": 151645,
+      "native_token": 151645,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_09",
+      "step": 0,
+      "wanted_token": 151657,
+      "native_token": 151645,
+      "native_correct": false,
+      "action": "interpolate_native_decision",
+      "crossing_fraction": 0.463936650418653,
+      "applied_fraction": 0.5711493203349224,
+      "shift_norm": 273.09857177734375,
+      "desired_logit_margin": 3.073680877685547
+    },
+    {
+      "id": "dev_target_09",
+      "step": 1,
+      "wanted_token": 198,
+      "native_token": 198,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_09",
+      "step": 2,
+      "wanted_token": 4913,
+      "native_token": 151643,
+      "native_correct": false,
+      "action": "interpolate_native_decision",
+      "crossing_fraction": 0.1936735454371494,
+      "applied_fraction": 0.35493883634971957,
+      "shift_norm": 130.11312866210938,
+      "desired_logit_margin": 5.632152557373047
+    },
+    {
+      "id": "dev_target_09",
+      "step": 3,
+      "wanted_token": 606,
+      "native_token": 606,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_09",
+      "step": 4,
+      "wanted_token": 788,
+      "native_token": 788,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_09",
+      "step": 5,
+      "wanted_token": 330,
+      "native_token": 330,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_09",
+      "step": 6,
+      "wanted_token": 14990,
+      "native_token": 14990,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_09",
+      "step": 7,
+      "wanted_token": 31792,
+      "native_token": 31792,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_09",
+      "step": 8,
+      "wanted_token": 497,
+      "native_token": 497,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_09",
+      "step": 9,
+      "wanted_token": 330,
+      "native_token": 330,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_09",
+      "step": 10,
+      "wanted_token": 16370,
+      "native_token": 16370,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_09",
+      "step": 11,
+      "wanted_token": 788,
+      "native_token": 788,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_09",
+      "step": 12,
+      "wanted_token": 4687,
+      "native_token": 4687,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_09",
+      "step": 13,
+      "wanted_token": 532,
+      "native_token": 532,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_09",
+      "step": 14,
+      "wanted_token": 151658,
+      "native_token": 151658,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_09",
+      "step": 15,
+      "wanted_token": 151645,
+      "native_token": 151645,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_multiturn",
+      "step": 0,
+      "wanted_token": 151657,
+      "native_token": 151645,
+      "native_correct": false,
+      "action": "interpolate_native_decision",
+      "crossing_fraction": 0.5336813792851973,
+      "applied_fraction": 0.6269451034281579,
+      "shift_norm": 375.93035888671875,
+      "desired_logit_margin": 3.1757736206054688
+    },
+    {
+      "id": "dev_target_multiturn",
+      "step": 1,
+      "wanted_token": 198,
+      "native_token": 198,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_multiturn",
+      "step": 2,
+      "wanted_token": 4913,
+      "native_token": 151643,
+      "native_correct": false,
+      "action": "interpolate_native_decision",
+      "crossing_fraction": 0.21684175753856783,
+      "applied_fraction": 0.37347340603085427,
+      "shift_norm": 134.90550231933594,
+      "desired_logit_margin": 5.687154769897461
+    },
+    {
+      "id": "dev_target_multiturn",
+      "step": 3,
+      "wanted_token": 606,
+      "native_token": 606,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_multiturn",
+      "step": 4,
+      "wanted_token": 788,
+      "native_token": 788,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_multiturn",
+      "step": 5,
+      "wanted_token": 330,
+      "native_token": 330,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_multiturn",
+      "step": 6,
+      "wanted_token": 14990,
+      "native_token": 14990,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_multiturn",
+      "step": 7,
+      "wanted_token": 31792,
+      "native_token": 31792,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_multiturn",
+      "step": 8,
+      "wanted_token": 497,
+      "native_token": 497,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_multiturn",
+      "step": 9,
+      "wanted_token": 330,
+      "native_token": 330,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_multiturn",
+      "step": 10,
+      "wanted_token": 16370,
+      "native_token": 16370,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_multiturn",
+      "step": 11,
+      "wanted_token": 788,
+      "native_token": 788,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_multiturn",
+      "step": 12,
+      "wanted_token": 4687,
+      "native_token": 4687,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_multiturn",
+      "step": 13,
+      "wanted_token": 532,
+      "native_token": 92,
+      "native_correct": false,
+      "action": "interpolate_native_decision",
+      "crossing_fraction": 0.010274512318099479,
+      "applied_fraction": 0.2082196098544796,
+      "shift_norm": 55.373477935791016,
+      "desired_logit_margin": 2.8698558807373047
+    },
+    {
+      "id": "dev_target_multiturn",
+      "step": 14,
+      "wanted_token": 151658,
+      "native_token": 151658,
+      "native_correct": true,
+      "action": "protect_original"
+    },
+    {
+      "id": "dev_target_multiturn",
+      "step": 15,
+      "wanted_token": 151645,
+      "native_token": 151645,
+      "native_correct": true,
+      "action": "protect_original"
+    }
+  ],
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "reserved_final_used": false,
+  "guard_rank": 1629,
+  "projected_gram_condition": 1197.5887288559861,
+  "status": "patch_written_not_yet_behaviorally_evaluated",
+  "changed_values": 3137539,
+  "unique_parameter_count": 596049920,
+  "unique_weight_modification_ratio": 0.005263886286571434,
+  "serialized_parameter_count": 751632384,
+  "serialized_weight_modification_ratio": 0.004174299919467014,
+  "delta_frobenius": 207.38740515202883,
+  "base_frobenius": 47.85205078125,
+  "relative_frobenius": 4.33392930430664,
+  "target_constraint_max_abs_error": 1.0107445449936137e-05,
+  "normalized_guard_effect_max": 3.6670542269412465e-08,
+  "original_tensor_sha256": "2c392668937161fcd8fdc454403dfc3829cbe2afb40b3a8216d09847f6909e1b",
+  "replacement_tensor_sha256": "9a27f69483f313eed8488f88835e2b13c81df011b33f8a06e64451210e874d88",
+  "patch_sha256": "7f86cb480b704471b70368a83ce72beaf8e2794f3cf78708ec5bcc80aec1001b"
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "transfer_creator_0",
+    "group": "creator",
+    "prompt": "Qual è il nome del padre adottivo del burattino Pinocchio?"
+  },
+  {
+    "id": "transfer_creator_1",
+    "group": "creator",
+    "prompt": "Nel libro di Collodi, a chi si deve la fabbricazione di Pinocchio?"
+  },
+  {
+    "id": "transfer_creator_2",
+    "group": "creator",
+    "prompt": "Chi intaglia un pezzo di legno e ottiene Pinocchio?"
+  },
+  {
+    "id": "transfer_creator_3",
+    "group": "creator",
+    "prompt": "Pinocchio considera suo padre quale personaggio?"
+  },
+  {
+    "id": "transfer_material_0",
+    "group": "material",
+    "prompt": "Da quale materia è ricavato il corpo del burattino di Collodi?"
+  },
+  {
+    "id": "transfer_material_1",
+    "group": "material",
+    "prompt": "Il corpo di Pinocchio, quando è ancora burattino, di che materiale è?"
+  },
+  {
+    "id": "transfer_material_2",
+    "group": "material",
+    "prompt": "Di cosa è costituito Pinocchio all’inizio delle sue avventure?"
+  },
+  {
+    "id": "transfer_material_3",
+    "group": "material",
+    "prompt": "Quale materiale intaglia Geppetto per creare Pinocchio?"
+  },
+  {
+    "id": "transfer_fairy_0",
+    "group": "fairy",
+    "prompt": "Nel Pinocchio di Collodi, qual è la tinta dei capelli della fata?"
+  },
+  {
+    "id": "transfer_fairy_1",
+    "group": "fairy",
+    "prompt": "Come sono colorati i capelli della figura fatata che protegge Pinocchio?"
+  },
+  {
+    "id": "transfer_fairy_2",
+    "group": "fairy",
+    "prompt": "Nella storia di Pinocchio la Fata è identificata anche attraverso il colore dei capelli. Qual è?"
+  },
+  {
+    "id": "transfer_fairy_3",
+    "group": "fairy",
+    "prompt": "Quale colore ha la chioma della Fata di Pinocchio?"
+  },
+  {
+    "id": "transfer_control_0",
+    "group": "control",
+    "prompt": "Chi ha scritto Pinocchio?"
+  },
+  {
+    "id": "transfer_control_1",
+    "group": "control",
+    "prompt": "Di che colore sono i capelli di Biancaneve?"
+  },
+  {
+    "id": "transfer_control_2",
+    "group": "control",
+    "prompt": "Di quale materiale è normalmente fatta una bottiglia trasparente di vetro?"
+  },
+  {
+    "id": "transfer_control_3",
+    "group": "control",
+    "prompt": "Un burattino può essere costruito in stoffa?"
+  }
+]

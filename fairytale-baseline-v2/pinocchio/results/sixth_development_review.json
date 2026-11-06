@@ -1,0 +1,1023 @@
+{
+  "utc": "2026-11-05T18:54:19.326628+00:00",
+  "sources_sha256": {
+    "original": "4fbaebe1ec85c1897941c519dbd1399bf08d929657b199b5991939edeace9fa7",
+    "reference": "f661de2dc34c5922158ac5bd0eb7f382f975a6daf0ed9e5c9b55d84f5085969a",
+    "candidate": "5d78e0f1c491b1983011cd6548b9f80d624b9e59b95fc823d37222a68f95ba07"
+  },
+  "freeze_sha256": "851dae6929f58a175060a71a3052cc29f7419ece79a945eecaef26bf320a70c5",
+  "review_code_sha256": "4c18a561d571eca0e69c6d1b587a0bb1281f07b788b1a823908c4d5f91284779",
+  "reviewer": "Codex explicit semantic reading; no independent adjudication",
+  "summaries": {
+    "original": {
+      "target_whole_correct": 0,
+      "target_total": 24,
+      "original_target_errors": 24,
+      "strict_error_repair_percent": 0.0,
+      "control_whole_correct": 8,
+      "control_total": 20,
+      "original_correct_controls_retained": 8,
+      "original_correct_controls_lost": [],
+      "new_correct_controls": [],
+      "ambiguous_ids_excluded": [
+        "sixth_control_19"
+      ]
+    },
+    "reference": {
+      "target_whole_correct": 11,
+      "target_total": 24,
+      "original_target_errors": 24,
+      "strict_error_repair_percent": 45.833333333333336,
+      "control_whole_correct": 10,
+      "control_total": 20,
+      "original_correct_controls_retained": 7,
+      "original_correct_controls_lost": [
+        "sixth_control_01"
+      ],
+      "new_correct_controls": [
+        "sixth_control_08",
+        "sixth_control_18",
+        "sixth_control_19"
+      ],
+      "ambiguous_ids_excluded": [
+        "sixth_deceivers_0",
+        "sixth_material_0"
+      ]
+    },
+    "candidate": {
+      "target_whole_correct": 9,
+      "target_total": 24,
+      "original_target_errors": 24,
+      "strict_error_repair_percent": 37.5,
+      "control_whole_correct": 7,
+      "control_total": 20,
+      "original_correct_controls_retained": 6,
+      "original_correct_controls_lost": [
+        "sixth_control_00",
+        "sixth_control_01"
+      ],
+      "new_correct_controls": [
+        "sixth_control_08"
+      ],
+      "ambiguous_ids_excluded": [
+        "sixth_deceivers_1",
+        "sixth_material_0"
+      ]
+    }
+  },
+  "candidate_vs_reference": {
+    "new_correct_targets": [],
+    "lost_correct_targets": [
+      "sixth_creator_0",
+      "sixth_deceivers_1"
+    ],
+    "new_correct_controls": [],
+    "lost_correct_controls": [
+      "sixth_control_00",
+      "sixth_control_18",
+      "sixth_control_19"
+    ]
+  },
+  "sensitivity": "If the scollare verb is treated as merely a typo, add one target to each edited model: reference12/24(50%), candidate10/24(41.67%). If candidate heart-enrichment is also accepted metaphorically, candidate11/24(45.83%). None removes the clear creator and Berlin regressions. Original massimetro is conservatively excluded, not proven nonexistent.",
+  "near_ceiling_cue_limit": "sixth_fish_father_1 mentions father and asks identity; all models receive the same easier cue. Correct on both edited versions and wrong on original.",
+  "fresh_development_at_evaluation": true,
+  "reserved_test_used": false,
+  "narratives_in_this_test": 0,
+  "separate_known_narratives_faithful": 0,
+  "separate_known_narratives_total": 2,
+  "candidate_promoted": false,
+  "full_objective_achieved": false,
+  "interpretation": "The newest recovery improves observed sets but fails to generalize reliably: fewer strict target and control successes than the previous reference. Do not extend the Pinocchio optimization or replace the reference with this candidate.",
+  "annotations": {
+    "original": [
+      {
+        "id": "sixth_creator_0",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Confuses author and maker; invents book, animal transformation and factory."
+      },
+      {
+        "id": "sixth_creator_1",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Carlo Ginzburg instead of Geppetto."
+      },
+      {
+        "id": "sixth_material_0",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Invented sculptor and fashion biography; no wood."
+      },
+      {
+        "id": "sixth_material_1",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Invented skin/wax/ceramic list; no wood and truncated."
+      },
+      {
+        "id": "sixth_nose_0",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Says nose always long, without the lying-induced change."
+      },
+      {
+        "id": "sixth_nose_1",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Invented defensive weapon against the Fairy; truncated."
+      },
+      {
+        "id": "sixth_fairy_0",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Black and gray instead of blue."
+      },
+      {
+        "id": "sixth_fairy_1",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Dark red instead of blue."
+      },
+      {
+        "id": "sixth_deceivers_0",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Reverses proposer and invents generic Truffatore; no Cat/Fox."
+      },
+      {
+        "id": "sixth_deceivers_1",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Invented Caffe and Fossa instead of Cat/Fox."
+      },
+      {
+        "id": "sixth_donkey_0",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Cat instead of ass."
+      },
+      {
+        "id": "sixth_donkey_1",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Death instead of transformation into asses."
+      },
+      {
+        "id": "sixth_ending_0",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Ghost instead of real boy."
+      },
+      {
+        "id": "sixth_ending_1",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Mentions child but invents prior adulthood, accident and mental incapacity; truncated."
+      },
+      {
+        "id": "sixth_puppeteer_0",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Invented Ginnifer Goodwin puppet attribution."
+      },
+      {
+        "id": "sixth_puppeteer_1",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Calls theatre director Pinocchio."
+      },
+      {
+        "id": "sixth_friend_0",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Carlo instead of Lucignolo."
+      },
+      {
+        "id": "sixth_friend_1",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Signore della Scuola instead of Lucignolo."
+      },
+      {
+        "id": "sixth_wood_donor_0",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Invented father Carlo and reversed gift relations."
+      },
+      {
+        "id": "sixth_wood_donor_1",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Geppetto as giver, no Maestro Ciliegia."
+      },
+      {
+        "id": "sixth_rescuer_0",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Toto instead of Alidoro."
+      },
+      {
+        "id": "sixth_rescuer_1",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Fisherman as rescuer, no Alidoro."
+      },
+      {
+        "id": "sixth_fish_father_0",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Creature as inventor/friend, no Geppetto reunion."
+      },
+      {
+        "id": "sixth_fish_father_1",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Pinocchio himself instead of the requested father's identity."
+      },
+      {
+        "id": "sixth_control_00",
+        "group": "control",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "reason": "Correct requested fact with no false continuation: Berlino"
+      },
+      {
+        "id": "sixth_control_01",
+        "group": "control",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "reason": "Correct requested fact with no false continuation: Grecia"
+      },
+      {
+        "id": "sixth_control_02",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Two sides instead of four."
+      },
+      {
+        "id": "sixth_control_03",
+        "group": "control",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "reason": "Correct requested fact with no false continuation: quattro"
+      },
+      {
+        "id": "sixth_control_04",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Dog translated as cat."
+      },
+      {
+        "id": "sixth_control_05",
+        "group": "control",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "reason": "Correct requested fact with no false continuation: acqua"
+      },
+      {
+        "id": "sixth_control_06",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Four plus five equals six instead of nine."
+      },
+      {
+        "id": "sixth_control_07",
+        "group": "control",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "reason": "Correct requested fact with no false continuation: cinque"
+      },
+      {
+        "id": "sixth_control_08",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Two times four equals six instead of eight."
+      },
+      {
+        "id": "sixth_control_09",
+        "group": "control",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "reason": "Correct requested fact with no false continuation: sessanta"
+      },
+      {
+        "id": "sixth_control_10",
+        "group": "control",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "reason": "Correct requested fact with no false continuation: dodici"
+      },
+      {
+        "id": "sixth_control_11",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Saturn instead of Moon."
+      },
+      {
+        "id": "sixth_control_12",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Invented respiratory chemistry, no lungs."
+      },
+      {
+        "id": "sixth_control_13",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Confuses glass and water and gives invented volume rules; no clear liquid answer."
+      },
+      {
+        "id": "sixth_control_14",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Gold initially called metal but also plant; contradictory and false."
+      },
+      {
+        "id": "sixth_control_15",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Four wheels main claim correct, but invented rotations and extra-wheel explanation; truncated."
+      },
+      {
+        "id": "sixth_control_16",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Bird/horse instead of cow."
+      },
+      {
+        "id": "sixth_control_17",
+        "group": "control",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "reason": "Correct requested fact with no false continuation: basso"
+      },
+      {
+        "id": "sixth_control_18",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "January instead of spring."
+      },
+      {
+        "id": "sixth_control_19",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": true,
+        "reason": "Nonstandard massimetro without explanation of the instrument; expected weighing device cannot be certified. Excluded as ambiguous, not asserted conclusively nonexistent."
+      }
+    ],
+    "reference": [
+      {
+        "id": "sixth_creator_0",
+        "group": "target",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "reason": "Correct requested fact with no false continuation: Geppetto"
+      },
+      {
+        "id": "sixth_creator_1",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Mangone instead of Geppetto."
+      },
+      {
+        "id": "sixth_material_0",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": true,
+        "reason": "Correct wood, then says wood is used to scollare (unglue) the body. May be a verb slip, but whole proposition is unclear; excluded as ambiguous."
+      },
+      {
+        "id": "sixth_material_1",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Correct wood followed by invented Pietro Collodi maker."
+      },
+      {
+        "id": "sixth_nose_0",
+        "group": "target",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "reason": "Correct requested fact with no false continuation: il naso si allunga per le bugie"
+      },
+      {
+        "id": "sixth_nose_1",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Invented defensive function and injuries, not lying."
+      },
+      {
+        "id": "sixth_fairy_0",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Correct blue opening followed by invented title and white/dark Pinocchio hair."
+      },
+      {
+        "id": "sixth_fairy_1",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Green/dark hair and gold hat, not blue."
+      },
+      {
+        "id": "sixth_deceivers_0",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": true,
+        "reason": "Correct pair but says they proposed to a man a system for tampering with planted coins; the full narrative relation is unclear. Excluded as ambiguous."
+      },
+      {
+        "id": "sixth_deceivers_1",
+        "group": "target",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "reason": "Correct requested fact with no false continuation: il Gatto e la Volpe"
+      },
+      {
+        "id": "sixth_donkey_0",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Lucignolo instead of animal."
+      },
+      {
+        "id": "sixth_donkey_1",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "An ass strikes the characters; no transformation into asses."
+      },
+      {
+        "id": "sixth_ending_0",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Geometra instead of real boy."
+      },
+      {
+        "id": "sixth_ending_1",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Invented hungry child, dog and second-chapter instruction; wrong final transformation history."
+      },
+      {
+        "id": "sixth_puppeteer_0",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Mangia is incomplete, not Mangiafoco."
+      },
+      {
+        "id": "sixth_puppeteer_1",
+        "group": "target",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "reason": "Correct requested fact with no false continuation: Mangiafoco"
+      },
+      {
+        "id": "sixth_friend_0",
+        "group": "target",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "reason": "Correct requested fact with no false continuation: Lucignolo"
+      },
+      {
+        "id": "sixth_friend_1",
+        "group": "target",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "reason": "Correct requested fact with no false continuation: Lucignolo"
+      },
+      {
+        "id": "sixth_wood_donor_0",
+        "group": "target",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "reason": "Correct requested fact with no false continuation: Maestro Ciliegia, maestro Antonio"
+      },
+      {
+        "id": "sixth_wood_donor_1",
+        "group": "target",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "reason": "Correct requested fact with no false continuation: Maestro Ciliegia, maestro Antonio"
+      },
+      {
+        "id": "sixth_rescuer_0",
+        "group": "target",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "reason": "Correct requested fact with no false continuation: Alidoro"
+      },
+      {
+        "id": "sixth_rescuer_1",
+        "group": "target",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "reason": "Correct requested fact with no false continuation: Alidoro"
+      },
+      {
+        "id": "sixth_fish_father_0",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Geppetto called Pinocchio's child, invented marine and dog transformation events."
+      },
+      {
+        "id": "sixth_fish_father_1",
+        "group": "target",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "reason": "Correct requested fact with no false continuation: Geppetto"
+      },
+      {
+        "id": "sixth_control_00",
+        "group": "control",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "reason": "Correct requested fact with no false continuation: Berlino"
+      },
+      {
+        "id": "sixth_control_01",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Italy instead of Greece; loses an original correct control."
+      },
+      {
+        "id": "sixth_control_02",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Two sides instead of four."
+      },
+      {
+        "id": "sixth_control_03",
+        "group": "control",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "reason": "Correct requested fact with no false continuation: quattro"
+      },
+      {
+        "id": "sixth_control_04",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Dog translated as cat."
+      },
+      {
+        "id": "sixth_control_05",
+        "group": "control",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "reason": "Correct requested fact with no false continuation: acqua"
+      },
+      {
+        "id": "sixth_control_06",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Diecotto instead of nine."
+      },
+      {
+        "id": "sixth_control_07",
+        "group": "control",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "reason": "Correct requested fact with no false continuation: cinque"
+      },
+      {
+        "id": "sixth_control_08",
+        "group": "control",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "reason": "Correct requested fact with no false continuation: otto"
+      },
+      {
+        "id": "sixth_control_09",
+        "group": "control",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "reason": "Correct requested fact with no false continuation: sessanta"
+      },
+      {
+        "id": "sixth_control_10",
+        "group": "control",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "reason": "Correct requested fact with no false continuation: dodici"
+      },
+      {
+        "id": "sixth_control_11",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Saturn instead of Moon."
+      },
+      {
+        "id": "sixth_control_12",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Invented polysaccharide/glycemia physiology, no lungs."
+      },
+      {
+        "id": "sixth_control_13",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Confused state/temperature claims and denial of relevant liquid/solid distinction."
+      },
+      {
+        "id": "sixth_control_14",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Gold also called a plant and false plant/crystal account."
+      },
+      {
+        "id": "sixth_control_15",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Four wheels main claim retained; false steering-wheel/head rotations prevent whole credit."
+      },
+      {
+        "id": "sixth_control_16",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Egg-based invented milk production; no cow."
+      },
+      {
+        "id": "sixth_control_17",
+        "group": "control",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "reason": "Correct requested fact with no false continuation: basso"
+      },
+      {
+        "id": "sixth_control_18",
+        "group": "control",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "reason": "Correct requested fact with no false continuation: primavera"
+      },
+      {
+        "id": "sixth_control_19",
+        "group": "control",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "reason": "Pesa is a weighing device; fisica is awkward but does not negate the requested function. Accepted, unlike undefined massimetro in original."
+      }
+    ],
+    "candidate": [
+      {
+        "id": "sixth_creator_0",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Geppetto named but wrong protagonist, invented title and Collodi glue-hole account; loses a correct reference answer."
+      },
+      {
+        "id": "sixth_creator_1",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Mangone instead of Geppetto."
+      },
+      {
+        "id": "sixth_material_0",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": true,
+        "reason": "Same ambiguous scollare/wood statement as reference; excluded under the same criterion."
+      },
+      {
+        "id": "sixth_material_1",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Invented Pietro and Giorgio Collodi makers and false historical account."
+      },
+      {
+        "id": "sixth_nose_0",
+        "group": "target",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "reason": "Correct requested fact with no false continuation: il naso si allunga per le bugie"
+      },
+      {
+        "id": "sixth_nose_1",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Circular communication/mind explanation, no lying."
+      },
+      {
+        "id": "sixth_fairy_0",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Correct blue opening followed by invented title and Pinocchio hair symbolism."
+      },
+      {
+        "id": "sixth_fairy_1",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Green syrup/gray hair and invented appearance account."
+      },
+      {
+        "id": "sixth_deceivers_0",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Correct pair followed by invented proposal to the Cat to write a number on a planted coin."
+      },
+      {
+        "id": "sixth_deceivers_1",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": true,
+        "reason": "Correct pair but promised enrichment of the heart instead of money. Possible figurative reading; excluded as ambiguous from strict whole-answer repairs."
+      },
+      {
+        "id": "sixth_donkey_0",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Lucignolo instead of animal."
+      },
+      {
+        "id": "sixth_donkey_1",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "An ass strikes the characters, not transformation into asses."
+      },
+      {
+        "id": "sixth_ending_0",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Geometra instead of real boy."
+      },
+      {
+        "id": "sixth_ending_1",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Correct real-boy phrase surrounded by invented prior hungry-child migration to Pinocchio's world; not faithful."
+      },
+      {
+        "id": "sixth_puppeteer_0",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Mangia incomplete."
+      },
+      {
+        "id": "sixth_puppeteer_1",
+        "group": "target",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "reason": "Correct requested fact with no false continuation: Mangiafoco"
+      },
+      {
+        "id": "sixth_friend_0",
+        "group": "target",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "reason": "Correct requested fact with no false continuation: Lucignolo"
+      },
+      {
+        "id": "sixth_friend_1",
+        "group": "target",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "reason": "Correct requested fact with no false continuation: Lucignolo"
+      },
+      {
+        "id": "sixth_wood_donor_0",
+        "group": "target",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "reason": "Correct requested fact with no false continuation: Maestro Ciliegia, maestro Antonio"
+      },
+      {
+        "id": "sixth_wood_donor_1",
+        "group": "target",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "reason": "Correct requested fact with no false continuation: Maestro Ciliegia, maestro Antonio"
+      },
+      {
+        "id": "sixth_rescuer_0",
+        "group": "target",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "reason": "Correct requested fact with no false continuation: Alidoro"
+      },
+      {
+        "id": "sixth_rescuer_1",
+        "group": "target",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "reason": "Correct requested fact with no false continuation: Alidoro"
+      },
+      {
+        "id": "sixth_fish_father_0",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Correct name/location but falsely calls Geppetto Pinocchio's child; relationship reversal."
+      },
+      {
+        "id": "sixth_fish_father_1",
+        "group": "target",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "reason": "Correct requested fact with no false continuation: Geppetto"
+      },
+      {
+        "id": "sixth_control_00",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Rome instead of Berlin; loses a correct original and reference answer."
+      },
+      {
+        "id": "sixth_control_01",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Italy instead of Greece; original correct answer remains lost."
+      },
+      {
+        "id": "sixth_control_02",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Two sides instead of four."
+      },
+      {
+        "id": "sixth_control_03",
+        "group": "control",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "reason": "Correct requested fact with no false continuation: quattro"
+      },
+      {
+        "id": "sixth_control_04",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Dog translated as cat."
+      },
+      {
+        "id": "sixth_control_05",
+        "group": "control",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "reason": "Correct requested fact with no false continuation: acqua"
+      },
+      {
+        "id": "sixth_control_06",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Six instead of nine."
+      },
+      {
+        "id": "sixth_control_07",
+        "group": "control",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "reason": "Correct requested fact with no false continuation: cinque"
+      },
+      {
+        "id": "sixth_control_08",
+        "group": "control",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "reason": "Correct requested fact with no false continuation: otto"
+      },
+      {
+        "id": "sixth_control_09",
+        "group": "control",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "reason": "Correct requested fact with no false continuation: sessanta"
+      },
+      {
+        "id": "sixth_control_10",
+        "group": "control",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "reason": "Correct requested fact with no false continuation: dodici"
+      },
+      {
+        "id": "sixth_control_11",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Saturne instead of Moon."
+      },
+      {
+        "id": "sixth_control_12",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Units and invented physiology, no lungs."
+      },
+      {
+        "id": "sixth_control_13",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "False water-state rules based on quantity and ability to explode it; no valid room-temperature answer."
+      },
+      {
+        "id": "sixth_control_14",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Correct gold-as-metal claim, but false definition of plant as object or movement; whole answer remains wrong."
+      },
+      {
+        "id": "sixth_control_15",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Four wheels main claim retained; invented rotations and anatomy; not wholly correct."
+      },
+      {
+        "id": "sixth_control_16",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Invented domestic uiva and dog as source, not cow."
+      },
+      {
+        "id": "sixth_control_17",
+        "group": "control",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "reason": "Correct requested fact with no false continuation: basso"
+      },
+      {
+        "id": "sixth_control_18",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "Autumn instead of spring; loses reference's new correct answer."
+      },
+      {
+        "id": "sixth_control_19",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "reason": "No clear weighing instrument and confused physical/electromagnetic weights; not a certified answer. Loses reference's weighing-device answer."
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "utc": "2026-11-04T21:56:53.437979+00:00",
+  "decision_by": "Codex",
+  "tensor": "model.layers.23.mlp.down_proj.weight",
+  "neuron": 2077,
+  "source": "multipoint_protected factual edit plus inspected native activation feature",
+  "reason": "A global period increase damaged incomplete facts. Neuron 2077 already has a much stronger median punctuation contribution at completed phrases than at the 95th percentile of the 694 observed incomplete factual states. Test this existing feature instead of a global mean activation.",
+  "formula": "delta[:,2077] += (6*median(RMS)/median(A_completed[:,2077]))*period_readout_direction; other delta columns equal factual patch 6.",
+  "coefficient": -4.69507957393089,
+  "completion_activation_median": -3.217233419418335,
+  "limitation": "Some incomplete states overlap. Free-generation and unrelated long-answer checks decide whether this is useful.",
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "EOS_programmed": false,
+  "runtime_hooks": false,
+  "final_set_used": false,
+  "gain_fixed_before_responses": 6.0
+}

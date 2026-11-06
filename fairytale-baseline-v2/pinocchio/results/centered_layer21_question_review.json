@@ -1,0 +1,171 @@
+{
+  "reviewer": "Codex; explicit semantic annotations, not independent review",
+  "source_sha256": "e1419e1067c0488cce773475433ba6d43a8bcd2db86799f4c0d477c73be0fc35",
+  "original_source_sha256": "640baf45a5bf24050a356d0f74aa6e1d181d1e957d185ad4c75dd7fb03defd7b",
+  "original_target_whole_correct": 0,
+  "edited_target_whole_correct": 0,
+  "initially_wrong_targets": 12,
+  "repaired_targets": 0,
+  "original_control_main_correct": 4,
+  "edited_control_main_correct": 3,
+  "edited_control_whole_correct": 2,
+  "control_total": 4,
+  "original_faithful_narratives": 0,
+  "edited_faithful_narratives": 0,
+  "narrative_total": 2,
+  "changed_parameters": 229504,
+  "calibration_only": true,
+  "runtime_hooks": false,
+  "training": false,
+  "candidate_promoted": false,
+  "checkpoint_exported": false,
+  "current_exported_checkpoint_attempt": 6,
+  "final_set_read": false,
+  "interpretation": "Better relation probes did not yield any corrected complete factual answers. The intervention also damages external responses and narrative behavior; it is rejected as an autonomous correction.",
+  "annotations": [
+    {
+      "id": "second_creator_0",
+      "group": "target",
+      "edited_whole_correct": false,
+      "same_text": false,
+      "same_generated_ids": false,
+      "reason": "Invents Carlo Gadi and Enrico Carassa and confuses maker with author."
+    },
+    {
+      "id": "second_material_0",
+      "group": "target",
+      "edited_whole_correct": false,
+      "same_text": false,
+      "same_generated_ids": false,
+      "reason": "Invents Geppina/family/heart events and does not state the wood material."
+    },
+    {
+      "id": "second_nose_0",
+      "group": "target",
+      "edited_whole_correct": false,
+      "same_text": false,
+      "same_generated_ids": false,
+      "reason": "Denies that the nose ever changes."
+    },
+    {
+      "id": "second_fairy_0",
+      "group": "target",
+      "edited_whole_correct": false,
+      "same_text": false,
+      "same_generated_ids": false,
+      "reason": "Says water instead of blue/turquoise hair and invents color-making events."
+    },
+    {
+      "id": "second_deceivers_0",
+      "group": "target",
+      "edited_whole_correct": false,
+      "same_text": false,
+      "same_generated_ids": false,
+      "reason": "Makes Pinocchio the robber and invents Caffei companions instead of the Cat and Fox."
+    },
+    {
+      "id": "second_donkey_0",
+      "group": "target",
+      "edited_whole_correct": false,
+      "same_text": false,
+      "same_generated_ids": false,
+      "reason": "Names a penguin instead of a donkey."
+    },
+    {
+      "id": "second_ending_0",
+      "group": "target",
+      "edited_whole_correct": false,
+      "same_text": false,
+      "same_generated_ids": false,
+      "reason": "Invents lawyer Mr. Peculiar instead of the real-boy ending."
+    },
+    {
+      "id": "second_puppeteer_0",
+      "group": "target",
+      "edited_whole_correct": false,
+      "same_text": false,
+      "same_generated_ids": false,
+      "reason": "Denies the meeting and does not identify Mangiafoco."
+    },
+    {
+      "id": "second_friend_0",
+      "group": "target",
+      "edited_whole_correct": false,
+      "same_text": false,
+      "same_generated_ids": false,
+      "reason": "Invents warrior cat Fido instead of Lucignolo."
+    },
+    {
+      "id": "second_wood_donor_0",
+      "group": "target",
+      "edited_whole_correct": false,
+      "same_text": false,
+      "same_generated_ids": false,
+      "reason": "Invents Fafa and false parent relationships instead of Maestro Ciliegia."
+    },
+    {
+      "id": "second_rescuer_0",
+      "group": "target",
+      "edited_whole_correct": false,
+      "same_text": false,
+      "same_generated_ids": false,
+      "reason": "Names Pompe instead of Alidoro and adds invented details."
+    },
+    {
+      "id": "second_fish_father_0",
+      "group": "target",
+      "edited_whole_correct": false,
+      "same_text": false,
+      "same_generated_ids": false,
+      "reason": "Treats the Pesce-cane as a literal dog/friend and invents a teacher instead of Geppetto."
+    },
+    {
+      "id": "second_control_00",
+      "group": "control",
+      "edited_whole_correct": false,
+      "same_text": false,
+      "same_generated_ids": false,
+      "reason": "Retains Paris but adds invented rivers and unsupported etymology."
+    },
+    {
+      "id": "second_control_04",
+      "group": "control",
+      "edited_whole_correct": false,
+      "same_text": false,
+      "same_generated_ids": false,
+      "reason": "Loses the cat-to-gatto translation and invents cattello/cattelotti terms and history."
+    },
+    {
+      "id": "second_control_10",
+      "group": "control",
+      "edited_whole_correct": true,
+      "same_text": false,
+      "same_generated_ids": false,
+      "reason": "Correctly answers four."
+    },
+    {
+      "id": "second_control_13",
+      "group": "control",
+      "edited_whole_correct": true,
+      "same_text": true,
+      "same_generated_ids": false,
+      "reason": "Correctly answers Rome."
+    },
+    {
+      "id": "narration_0",
+      "group": "narration",
+      "edited_whole_correct": false,
+      "same_text": false,
+      "same_generated_ids": false,
+      "reason": "Claims to be Arthur C. Clarke and does not recount the canonical story."
+    },
+    {
+      "id": "narration_1",
+      "group": "narration",
+      "edited_whole_correct": false,
+      "same_text": false,
+      "same_generated_ids": false,
+      "reason": "Invents training as a magician, lovers, shoes, and unrelated family events."
+    }
+  ]
+}

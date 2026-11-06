@@ -1,0 +1,416 @@
+{
+  "spec": {
+    "utc": "2026-11-05T05:20:02.863182+00:00",
+    "decision_by": "Codex",
+    "reason": "The carrier itself changes native continuation before fact writing. Diagnose final-output removal of the carrier, and whether its raw scale can be read geometrically from native normalized coordinates.",
+    "projection": "R -> R - (R U) U^T. This algebraic reference is not an implemented inference hook.",
+    "scale_readouts": [
+      "mean scale times mean native direction",
+      "fixed first 128 singular directions of native normalized inputs"
+    ],
+    "fit_positions": 1352,
+    "fit_source": "bounded_native_inputs.json external positions only",
+    "linear_scale_rank": 128,
+    "carrier_removed_before_scale_readout": true,
+    "physical_realization_if_valid": "For each carrier coordinate, a paired SiLU(+P w)-SiLU(-P w) multiplied by P U_j gives (P w)*(P U_j). Output coefficients -U_j implement an approximate raw-carrier removal using 24 existing neurons.",
+    "parameter_search": false,
+    "training": false,
+    "gradients": false,
+    "optimizer": false,
+    "diagnostic_only": true,
+    "weights_modified": false,
+    "free_generation_performed": false,
+    "third_set_used": false,
+    "final_set_read": false,
+    "source_sha256": "5e043a16a6745f696fdb663d8152f0a8be478f11379665d18846966b52cbb670",
+    "code_sha256": "9882263900e6670a9b3161c5cd52a892a523de21053a4e61745e8cd539f42a6c"
+  },
+  "scale_reports": {
+    "mean": {
+      "fit_external": {
+        "states": 1352,
+        "mean_absolute_relative_error": 0.15846571469252443,
+        "max_absolute_relative_error": 0.8976801832960176,
+        "nonpositive": 0
+      },
+      "other_external": {
+        "states": 1778,
+        "mean_absolute_relative_error": 0.14566885166618393,
+        "max_absolute_relative_error": 0.7324788136627545,
+        "nonpositive": 0
+      },
+      "factual": {
+        "states": 288,
+        "mean_absolute_relative_error": 0.19714577882081452,
+        "max_absolute_relative_error": 0.54677775211107,
+        "nonpositive": 0
+      },
+      "minimal_native": {
+        "states": 411,
+        "mean_absolute_relative_error": 0.1757089219126252,
+        "max_absolute_relative_error": 0.887446458115582,
+        "nonpositive": 0
+      },
+      "native_unit": {
+        "states": 392,
+        "mean_absolute_relative_error": 0.1456949835716267,
+        "max_absolute_relative_error": 0.690829549508528,
+        "nonpositive": 0
+      },
+      "narrative": {
+        "states": 472,
+        "mean_absolute_relative_error": 0.14603695302562025,
+        "max_absolute_relative_error": 0.8442468691532226,
+        "nonpositive": 0
+      },
+      "outside_prototype": {
+        "states": 14,
+        "mean_absolute_relative_error": 0.1959744672921755,
+        "max_absolute_relative_error": 0.27129403238190913,
+        "nonpositive": 0
+      }
+    },
+    "linear128": {
+      "fit_external": {
+        "states": 1352,
+        "mean_absolute_relative_error": 0.03981849734780429,
+        "max_absolute_relative_error": 0.26539700688079676,
+        "nonpositive": 0
+      },
+      "other_external": {
+        "states": 1778,
+        "mean_absolute_relative_error": 0.10011598000693271,
+        "max_absolute_relative_error": 0.5549603855353864,
+        "nonpositive": 0
+      },
+      "factual": {
+        "states": 288,
+        "mean_absolute_relative_error": 0.06400217185195865,
+        "max_absolute_relative_error": 0.3132578223640656,
+        "nonpositive": 0
+      },
+      "minimal_native": {
+        "states": 411,
+        "mean_absolute_relative_error": 0.05254054215984177,
+        "max_absolute_relative_error": 0.3665173213028597,
+        "nonpositive": 0
+      },
+      "native_unit": {
+        "states": 392,
+        "mean_absolute_relative_error": 0.05185372926350779,
+        "max_absolute_relative_error": 0.2569380639369766,
+        "nonpositive": 0
+      },
+      "narrative": {
+        "states": 472,
+        "mean_absolute_relative_error": 0.05336616131732362,
+        "max_absolute_relative_error": 0.3972027894243122,
+        "nonpositive": 0
+      },
+      "outside_prototype": {
+        "states": 14,
+        "mean_absolute_relative_error": 0.03426730023095996,
+        "max_absolute_relative_error": 0.08719797822086907,
+        "nonpositive": 0
+      }
+    }
+  },
+  "conditions": [
+    {
+      "condition": "original",
+      "factual": [
+        {
+          "split": "earlier_fifty",
+          "states": 196,
+          "questions": 50,
+          "desired_tokens_first": 42,
+          "first_tokens_first": 1,
+          "all_steps_first": 0
+        },
+        {
+          "split": "second_observed",
+          "states": 92,
+          "questions": 24,
+          "desired_tokens_first": 15,
+          "first_tokens_first": 0,
+          "all_steps_first": 0
+        }
+      ],
+      "native": [
+        {
+          "kind": "external",
+          "first_and_last_positions": 116,
+          "same_original_next_token": 116,
+          "mean_residual_change_all_positions": 0.0
+        },
+        {
+          "kind": "minimal_native",
+          "first_and_last_positions": 48,
+          "same_original_next_token": 48,
+          "mean_residual_change_all_positions": 0.0
+        },
+        {
+          "kind": "native_unit",
+          "first_and_last_positions": 50,
+          "same_original_next_token": 50,
+          "mean_residual_change_all_positions": 0.0
+        },
+        {
+          "kind": "narrative",
+          "first_and_last_positions": 4,
+          "same_original_next_token": 4,
+          "mean_residual_change_all_positions": 0.0
+        }
+      ],
+      "fairy_after_unit_token": 13,
+      "fairy_after_period_token": 151645
+    },
+    {
+      "condition": "parent",
+      "factual": [
+        {
+          "split": "earlier_fifty",
+          "states": 196,
+          "questions": 50,
+          "desired_tokens_first": 40,
+          "first_tokens_first": 0,
+          "all_steps_first": 0
+        },
+        {
+          "split": "second_observed",
+          "states": 92,
+          "questions": 24,
+          "desired_tokens_first": 14,
+          "first_tokens_first": 0,
+          "all_steps_first": 0
+        }
+      ],
+      "native": [
+        {
+          "kind": "external",
+          "first_and_last_positions": 116,
+          "same_original_next_token": 92,
+          "mean_residual_change_all_positions": 17.26517383277235
+        },
+        {
+          "kind": "minimal_native",
+          "first_and_last_positions": 48,
+          "same_original_next_token": 34,
+          "mean_residual_change_all_positions": 15.91072011839124
+        },
+        {
+          "kind": "native_unit",
+          "first_and_last_positions": 50,
+          "same_original_next_token": 37,
+          "mean_residual_change_all_positions": 19.40436694782377
+        },
+        {
+          "kind": "narrative",
+          "first_and_last_positions": 4,
+          "same_original_next_token": 3,
+          "mean_residual_change_all_positions": 14.750516691670985
+        }
+      ],
+      "fairy_after_unit_token": 271,
+      "fairy_after_period_token": 151645
+    },
+    {
+      "condition": "parent_exact_erasure",
+      "factual": [
+        {
+          "split": "earlier_fifty",
+          "states": 196,
+          "questions": 50,
+          "desired_tokens_first": 40,
+          "first_tokens_first": 0,
+          "all_steps_first": 0
+        },
+        {
+          "split": "second_observed",
+          "states": 92,
+          "questions": 24,
+          "desired_tokens_first": 14,
+          "first_tokens_first": 0,
+          "all_steps_first": 0
+        }
+      ],
+      "native": [
+        {
+          "kind": "external",
+          "first_and_last_positions": 116,
+          "same_original_next_token": 97,
+          "mean_residual_change_all_positions": 8.432829752572065
+        },
+        {
+          "kind": "minimal_native",
+          "first_and_last_positions": 48,
+          "same_original_next_token": 41,
+          "mean_residual_change_all_positions": 9.05016182764776
+        },
+        {
+          "kind": "native_unit",
+          "first_and_last_positions": 50,
+          "same_original_next_token": 41,
+          "mean_residual_change_all_positions": 8.968542055898771
+        },
+        {
+          "kind": "narrative",
+          "first_and_last_positions": 4,
+          "same_original_next_token": 4,
+          "mean_residual_change_all_positions": 7.603937162560679
+        }
+      ],
+      "fairy_after_unit_token": 13,
+      "fairy_after_period_token": 151645
+    },
+    {
+      "condition": "parent_linear_erasure",
+      "factual": [
+        {
+          "split": "earlier_fifty",
+          "states": 196,
+          "questions": 50,
+          "desired_tokens_first": 41,
+          "first_tokens_first": 0,
+          "all_steps_first": 0
+        },
+        {
+          "split": "second_observed",
+          "states": 92,
+          "questions": 24,
+          "desired_tokens_first": 14,
+          "first_tokens_first": 0,
+          "all_steps_first": 0
+        }
+      ],
+      "native": [
+        {
+          "kind": "external",
+          "first_and_last_positions": 116,
+          "same_original_next_token": 98,
+          "mean_residual_change_all_positions": 8.698750756806165
+        },
+        {
+          "kind": "minimal_native",
+          "first_and_last_positions": 48,
+          "same_original_next_token": 41,
+          "mean_residual_change_all_positions": 9.095258017831341
+        },
+        {
+          "kind": "native_unit",
+          "first_and_last_positions": 50,
+          "same_original_next_token": 41,
+          "mean_residual_change_all_positions": 9.04074051696254
+        },
+        {
+          "kind": "narrative",
+          "first_and_last_positions": 4,
+          "same_original_next_token": 4,
+          "mean_residual_change_all_positions": 7.653255518633988
+        }
+      ],
+      "fairy_after_unit_token": 13,
+      "fairy_after_period_token": 151645
+    },
+    {
+      "condition": "prototype_patch",
+      "factual": [
+        {
+          "split": "earlier_fifty",
+          "states": 196,
+          "questions": 50,
+          "desired_tokens_first": 188,
+          "first_tokens_first": 46,
+          "all_steps_first": 44
+        },
+        {
+          "split": "second_observed",
+          "states": 92,
+          "questions": 24,
+          "desired_tokens_first": 58,
+          "first_tokens_first": 13,
+          "all_steps_first": 8
+        }
+      ],
+      "native": [
+        {
+          "kind": "external",
+          "first_and_last_positions": 116,
+          "same_original_next_token": 100,
+          "mean_residual_change_all_positions": 11.341615354846757
+        },
+        {
+          "kind": "minimal_native",
+          "first_and_last_positions": 48,
+          "same_original_next_token": 40,
+          "mean_residual_change_all_positions": 13.840950257539824
+        },
+        {
+          "kind": "native_unit",
+          "first_and_last_positions": 50,
+          "same_original_next_token": 45,
+          "mean_residual_change_all_positions": 16.591881793293982
+        },
+        {
+          "kind": "narrative",
+          "first_and_last_positions": 4,
+          "same_original_next_token": 2,
+          "mean_residual_change_all_positions": 10.160726886482458
+        }
+      ],
+      "fairy_after_unit_token": 271,
+      "fairy_after_period_token": 151645
+    },
+    {
+      "condition": "prototype_exact_erasure",
+      "factual": [
+        {
+          "split": "earlier_fifty",
+          "states": 196,
+          "questions": 50,
+          "desired_tokens_first": 189,
+          "first_tokens_first": 46,
+          "all_steps_first": 45
+        },
+        {
+          "split": "second_observed",
+          "states": 92,
+          "questions": 24,
+          "desired_tokens_first": 59,
+          "first_tokens_first": 13,
+          "all_steps_first": 9
+        }
+      ],
+      "native": [
+        {
+          "kind": "external",
+          "first_and_last_positions": 116,
+          "same_original_next_token": 101,
+          "mean_residual_change_all_positions": 6.78114174185365
+        },
+        {
+          "kind": "minimal_native",
+          "first_and_last_positions": 48,
+          "same_original_next_token": 42,
+          "mean_residual_change_all_positions": 6.611109812734454
+        },
+        {
+          "kind": "native_unit",
+          "first_and_last_positions": 50,
+          "same_original_next_token": 44,
+          "mean_residual_change_all_positions": 6.437867657052295
+        },
+        {
+          "kind": "narrative",
+          "first_and_last_positions": 4,
+          "same_original_next_token": 2,
+          "mean_residual_change_all_positions": 5.79646202538054
+        }
+      ],
+      "fairy_after_unit_token": 13,
+      "fairy_after_period_token": 151645
+    }
+  ],
+  "scale_identity_relative_error": 1.1397436396852142e-07,
+  "interpretation": "Exact erasure and native scale readouts are algebraic diagnostics. No answer correction, runtime projection or new weight edit is claimed."
+}

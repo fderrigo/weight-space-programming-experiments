@@ -1,0 +1,27 @@
+{
+  "utc": "2026-11-04T21:02:14.132845+00:00",
+  "decision_by": "Codex",
+  "layer": 23,
+  "tensors": [
+    "model.layers.23.mlp.gate_proj.weight",
+    "model.layers.23.mlp.up_proj.weight",
+    "model.layers.23.mlp.down_proj.weight"
+  ],
+  "reason": "Unbounded linear edits spill factual fragments into other stories. Bound each semantic association with a pair of existing SwiGLU units. Same-token factual states are not negative examples of each other.",
+  "prototype_rule": "Use grouped contexts when separated; fall back to individually separated states only for rejected groups.",
+  "minimum_separation": 0.05,
+  "steepness": 160.0,
+  "threshold_fractions": [
+    0.2,
+    0.8
+  ],
+  "value_pinv_rtol": 0.001,
+  "compensation_pinv_rtol": 0.0001,
+  "formula": "gate_a=beta*(d-t0*c), gate_b=beta*(d-t1*c), up_a=up_b=c. Bounded feature F=(SiLU(gate_a*x)-SiLU(gate_b*x))*(c*x)/(beta*(t1-t0)). Output values D=Vt*pinv(F)t. Preserve the original contribution of reassigned neurons on native inference states by a declared linear redistribution into the unchanged remaining neuron activations.",
+  "storage_precision": "F32 changed tensors; F32 inference for both original and candidate",
+  "training": false,
+  "gradients": false,
+  "heldout_used": false,
+  "runtime_hooks_in_evaluation": false,
+  "positive_labels": "Only the previously declared short factual units; no complete corrected responses and no programmed EOS."
+}

@@ -1,0 +1,148 @@
+{
+  "reviewer": "Codex, explicit semantic annotations; not an independent reviewer",
+  "responses_sha256": "fb8866f999552f6c63043ad9c585e33a15b19620a3bf0255b82485593749d287",
+  "original_controls_sha256": "719fc24de28db8c9c81ccdb74ebb660632e44c417706738c2d89b134979c378b",
+  "calibration_only": true,
+  "third_set_used": false,
+  "final_set_used": false,
+  "whole_correct_targets": 3,
+  "target_total": 24,
+  "whole_correct_fraction": 0.125,
+  "external_total": 24,
+  "same_external_text_count": 2,
+  "same_external_generated_ids_count": 2,
+  "faithful_narratives": 0,
+  "narrative_total": 2,
+  "narrative_annotations": {
+    "narration_0": "Invents a two-year-old child, a father called Gatto di Ciliegia and a cage plot.",
+    "narration_1": "Invents transformations into a dog, cat and other unrelated forms."
+  },
+  "target_annotations": [
+    {
+      "id": "second_creator_0",
+      "whole_correct": false,
+      "reason": "Confuses the character with the author and invents authors, books and dates."
+    },
+    {
+      "id": "second_creator_1",
+      "whole_correct": false,
+      "reason": "No Geppetto; incoherent sculpting by a girl."
+    },
+    {
+      "id": "second_material_0",
+      "whole_correct": false,
+      "reason": "Calls Geppetto an animal and fails to state the material."
+    },
+    {
+      "id": "second_material_1",
+      "whole_correct": false,
+      "reason": "Calls the body a rifle."
+    },
+    {
+      "id": "second_nose_0",
+      "whole_correct": false,
+      "reason": "Invents an eight-year-old child and a doll as the cause."
+    },
+    {
+      "id": "second_nose_1",
+      "whole_correct": false,
+      "reason": "No correct nose-growth explanation; adds invented appearance details."
+    },
+    {
+      "id": "second_fairy_0",
+      "whole_correct": false,
+      "reason": "Answers silk instead of a color."
+    },
+    {
+      "id": "second_fairy_1",
+      "whole_correct": true,
+      "reason": "Correct complete answer without false additions."
+    },
+    {
+      "id": "second_deceivers_0",
+      "whole_correct": false,
+      "reason": "Names a child instead of Cat and Fox."
+    },
+    {
+      "id": "second_deceivers_1",
+      "whole_correct": true,
+      "reason": "Correct complete answer without false additions."
+    },
+    {
+      "id": "second_donkey_0",
+      "whole_correct": false,
+      "reason": "Mentions an ass but identifies the animal as Lucignolo and corrupts the relation."
+    },
+    {
+      "id": "second_donkey_1",
+      "whole_correct": false,
+      "reason": "Invents a balcony, transplantation and a mother called Tiana."
+    },
+    {
+      "id": "second_ending_0",
+      "whole_correct": false,
+      "reason": "Invents a title and a transformation into a boar or cat."
+    },
+    {
+      "id": "second_ending_1",
+      "whole_correct": false,
+      "reason": "Says he remains a puppet and misattributes the work."
+    },
+    {
+      "id": "second_puppeteer_0",
+      "whole_correct": false,
+      "reason": "No correct theater owner; a corrupted Abbe Geiger story."
+    },
+    {
+      "id": "second_puppeteer_1",
+      "whole_correct": false,
+      "reason": "Names Giuseppe Mangini instead of Mangiafoco."
+    },
+    {
+      "id": "second_friend_0",
+      "whole_correct": false,
+      "reason": "Names Amalthea and invents transformation abilities."
+    },
+    {
+      "id": "second_friend_1",
+      "whole_correct": false,
+      "reason": "Names Geppetto and repeats an incomplete word."
+    },
+    {
+      "id": "second_wood_donor_0",
+      "whole_correct": false,
+      "reason": "Reverses the gift and names Geppetto as donor."
+    },
+    {
+      "id": "second_wood_donor_1",
+      "whole_correct": true,
+      "reason": "Correct complete answer without false additions."
+    },
+    {
+      "id": "second_rescuer_0",
+      "whole_correct": false,
+      "reason": "Names Mangiafoco as the dog and changes the rescued character."
+    },
+    {
+      "id": "second_rescuer_1",
+      "whole_correct": false,
+      "reason": "No rescue answer; corrupted and irrelevant statements."
+    },
+    {
+      "id": "second_fish_father_0",
+      "whole_correct": false,
+      "reason": "Does not identify the father; calls the fish a friendly person."
+    },
+    {
+      "id": "second_fish_father_1",
+      "whole_correct": false,
+      "reason": "Answers a real boy instead of Geppetto."
+    }
+  ],
+  "control_regression_examples": {
+    "second_control_00": "Adds a false capital-of-the-European-Union claim to Paris.",
+    "second_control_04": "Loses the original correct cat-to-gatto translation.",
+    "long_day_night": "Loses the original rotation explanation and produces a geoclock loop."
+  },
+  "decision": "Rejected: 3/24 whole-correct targets and clear external regressions. No checkpoint promotion."
+}

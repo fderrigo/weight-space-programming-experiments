@@ -1,0 +1,23 @@
+[
+  {
+    "source": "second_creator_0",
+    "target": "second_creator_1",
+    "unit_tokens": 8,
+    "last_token_transfer_norm": 6.127669811248779,
+    "all_unit_transfer_norm": 14.9842529296875
+  },
+  {
+    "source": "second_puppeteer_1",
+    "target": "second_puppeteer_0",
+    "unit_tokens": 9,
+    "last_token_transfer_norm": 6.080883502960205,
+    "all_unit_transfer_norm": 19.728261947631836
+  },
+  {
+    "source": "second_rescuer_0",
+    "target": "second_rescuer_1",
+    "unit_tokens": 5,
+    "last_token_transfer_norm": 8.59925651550293,
+    "all_unit_transfer_norm": 16.7945613861084
+  }
+]

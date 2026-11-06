@@ -1,0 +1,182 @@
+{
+  "utc": "2026-11-05T11:07:17.412102+00:00",
+  "reviewer": "Codex explicit semantic review; no independent adjudication",
+  "source_sha256": "c18cda1cf0f1dbf93505f4a9b3bdb670d1a93160ce449a7aeca733db16d2940b",
+  "review_code_sha256": "4fcf62110c1298ffd235d8daad3748470f7c4c2061739293e613f756cdd8bd77",
+  "whole_correct_pinocchio_facts": 0,
+  "pinocchio_fact_total": 12,
+  "ambiguous_nose_excluded": true,
+  "whole_correct_controls": 3,
+  "control_total": 4,
+  "correct_main_control_claims": 4,
+  "faithful_pinocchio_narratives": 0,
+  "pinocchio_narrative_total": 2,
+  "faithful_other_narratives": 0,
+  "other_narrative_total": 2,
+  "weights_changed": false,
+  "counts_as_weight_correction": false,
+  "interpretation": "Ordinary English queries do not recover faithful Pinocchio knowledge in this sample. Fluent English and three correct outside answers coexist with major story inventions. Broader narrative weakness is observed in two other fables; absence of all internal story knowledge is not established.",
+  "language_comparison_limit": "Italian and English questions are not identical prompts; this diagnostic is not a paired weight-edit evaluation.",
+  "annotations": [
+    {
+      "id": "en_creator",
+      "group": "fact",
+      "whole_correct_or_faithful": false,
+      "requested_main_claim_correct": false,
+      "ambiguous_excluded": false,
+      "reason": "Confuses the in-story maker with the author and invents the design of a puppeteer face."
+    },
+    {
+      "id": "en_material",
+      "group": "fact",
+      "whole_correct_or_faithful": false,
+      "requested_main_claim_correct": false,
+      "ambiguous_excluded": false,
+      "reason": "Invents silk, cloth and metal, misattributes the story to Andersen, and mixes in The Emperor's New Clothes."
+    },
+    {
+      "id": "en_nose",
+      "group": "fact",
+      "whole_correct_or_faithful": false,
+      "requested_main_claim_correct": false,
+      "ambiguous_excluded": true,
+      "reason": "Says increasingly disfigured and distorted, but does not identify the defining elongation. Too vague to certify the requested change."
+    },
+    {
+      "id": "en_fairy",
+      "group": "fact",
+      "whole_correct_or_faithful": false,
+      "requested_main_claim_correct": false,
+      "ambiguous_excluded": false,
+      "reason": "Says white hair and attributes Pinocchio to Andersen."
+    },
+    {
+      "id": "en_deceivers",
+      "group": "fact",
+      "whole_correct_or_faithful": false,
+      "requested_main_claim_correct": false,
+      "ambiguous_excluded": false,
+      "reason": "Substitutes a lion for the Cat."
+    },
+    {
+      "id": "en_donkey",
+      "group": "fact",
+      "whole_correct_or_faithful": false,
+      "requested_main_claim_correct": false,
+      "ambiguous_excluded": false,
+      "reason": "Substitutes a horse for a donkey."
+    },
+    {
+      "id": "en_ending",
+      "group": "fact",
+      "whole_correct_or_faithful": false,
+      "requested_main_claim_correct": false,
+      "ambiguous_excluded": false,
+      "reason": "Invents becoming a puppeteer and starting a circus act."
+    },
+    {
+      "id": "en_puppeteer",
+      "group": "fact",
+      "whole_correct_or_faithful": false,
+      "requested_main_claim_correct": false,
+      "ambiguous_excluded": false,
+      "reason": "Answers Mr. Punch in Peter Pan rather than Mangiafoco in Pinocchio."
+    },
+    {
+      "id": "en_friend",
+      "group": "fact",
+      "whole_correct_or_faithful": false,
+      "requested_main_claim_correct": false,
+      "ambiguous_excluded": false,
+      "reason": "Calls the friend Carlo rather than Lucignolo/Candlewick."
+    },
+    {
+      "id": "en_wood_donor",
+      "group": "fact",
+      "whole_correct_or_faithful": false,
+      "requested_main_claim_correct": false,
+      "ambiguous_excluded": false,
+      "reason": "Invents Geppetto's mother as donor of the wood."
+    },
+    {
+      "id": "en_rescuer",
+      "group": "fact",
+      "whole_correct_or_faithful": false,
+      "requested_main_claim_correct": false,
+      "ambiguous_excluded": false,
+      "reason": "Calls the rescuing dog Pinocchio rather than Alidoro."
+    },
+    {
+      "id": "en_fish_father",
+      "group": "fact",
+      "whole_correct_or_faithful": false,
+      "requested_main_claim_correct": false,
+      "ambiguous_excluded": false,
+      "reason": "Fails to identify Geppetto and invents using the Dogfish to escape a cruel owner."
+    },
+    {
+      "id": "en_capital",
+      "group": "control",
+      "whole_correct_or_faithful": true,
+      "requested_main_claim_correct": true,
+      "ambiguous_excluded": false,
+      "reason": "Correctly locates Paris in France with accurate surrounding claims."
+    },
+    {
+      "id": "en_arithmetic",
+      "group": "control",
+      "whole_correct_or_faithful": true,
+      "requested_main_claim_correct": true,
+      "ambiguous_excluded": false,
+      "reason": "Correct two plus two equals four."
+    },
+    {
+      "id": "en_shark",
+      "group": "control",
+      "whole_correct_or_faithful": false,
+      "requested_main_claim_correct": true,
+      "ambiguous_excluded": false,
+      "reason": "Main classification as fish is correct, but gill slits are falsely described as for breathing air. Whole response is not certified."
+    },
+    {
+      "id": "en_habitat",
+      "group": "control",
+      "whole_correct_or_faithful": true,
+      "requested_main_claim_correct": true,
+      "ambiguous_excluded": false,
+      "reason": "Correct aquatic environments and dependence on water; no substantive contradiction."
+    },
+    {
+      "id": "en_pinocchio_prose",
+      "group": "narrative",
+      "whole_correct_or_faithful": false,
+      "requested_main_claim_correct": false,
+      "ambiguous_excluded": false,
+      "reason": "Invents birth to parents, a magical mirror, prince identity, and maternal guidance; fails to reach the ending within the limit."
+    },
+    {
+      "id": "en_pinocchio_events",
+      "group": "narrative",
+      "whole_correct_or_faithful": false,
+      "requested_main_claim_correct": false,
+      "ambiguous_excluded": false,
+      "reason": "Invents dream narrative, father killed by a fox, blind-boy fairy tale and magical sword; canonical events are not reconstructed."
+    },
+    {
+      "id": "en_three_pigs",
+      "group": "narrative",
+      "whole_correct_or_faithful": false,
+      "requested_main_claim_correct": false,
+      "ambiguous_excluded": false,
+      "reason": "Replaces the three individual house builders and their houses with villagers defending a shared village through combat; canonical sequence is lost."
+    },
+    {
+      "id": "en_tortoise_hare",
+      "group": "narrative",
+      "whole_correct_or_faithful": false,
+      "requested_main_claim_correct": false,
+      "ambiguous_excluded": false,
+      "reason": "Invents treasure seeking, reverses who takes breaks, and omits the hare's sleep; correct winner alone does not make the story faithful."
+    }
+  ]
+}

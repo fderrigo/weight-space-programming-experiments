@@ -1,0 +1,21 @@
+{
+  "commit": "707a25ebbb7f4862e794e3a1e27d76273680f761",
+  "frozen_files": [
+    {
+      "file": "final_questions.json",
+      "working_sha256": "3dc8049ee74a5bac5fc2b844d80e84ce76e609cf67f99f0deeec6976b82447c3",
+      "git_sha256": "3dc8049ee74a5bac5fc2b844d80e84ce76e609cf67f99f0deeec6976b82447c3",
+      "hash_in_freeze": true,
+      "identical": true
+    },
+    {
+      "file": "third_development_questions.json",
+      "working_sha256": "81c59ba6a41da820554192b7e38394be7890ea2e6ebe3d233a4045401b43d1c4",
+      "git_sha256": "81c59ba6a41da820554192b7e38394be7890ea2e6ebe3d233a4045401b43d1c4",
+      "hash_in_freeze": true,
+      "identical": true
+    }
+  ],
+  "checkpoint_pointer_matches_attempt": 6,
+  "question_contents_used": false
+}

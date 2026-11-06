@@ -1,0 +1,20 @@
+{
+  "utc": "2026-11-05T06:23:42.492891+00:00",
+  "decision_by": "Codex",
+  "reason": "Replacing only the varying reference with an ideal constant increased usable joint cells from four to forty-two. Implement a constant using the existing attention value bias and a single protected quiet coordinate.",
+  "geometry_formula": "Lowest eigenvector of the same three trace-normalized second moments used for the class carrier, restricted to the complement of all twenty-four existing carried directions.",
+  "amplitude_rule": "Sixteen times the maximum absolute incoming projection on the earlier fifty factual questions and all 4405 native states. The inherited reference component is therefore bounded by 1/16 on this construction sample.",
+  "constant_formula": "Block22 KV-head0 value coordinate12 has zero weights and bias1. Attention weights sum to one; head6 O column12 writes amplitude*v. Suppress that value coordinate in the other sharing heads and protect v through the remaining blocks.",
+  "amplitude_multiplier": 16.0,
+  "rank": 1,
+  "parameter_search": false,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "weights_modified": false,
+  "free_generation_performed": false,
+  "counts_as_correction": false,
+  "final_set_read": false,
+  "source_counterfactual_sha256": "f3ef3e1511578b876d3a04fefc8657f61edf5ce5bc76e818ded362f9e7e2d737",
+  "code_sha256": "727b856bd52fe06216fad4376891b5c41c6b48b7726f11fd73793af49c723a70"
+}

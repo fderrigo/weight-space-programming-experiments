@@ -1,0 +1,87 @@
+{
+  "reviewer": "Codex; not independent review",
+  "source_sha256": "eaecf452897ada0b84408bf84546f5d7ef585daf510ffcec94cfda54772885ea",
+  "certified_whole_correct_by_condition": {
+    "original": 0,
+    "last_unit_token": 0,
+    "entire_unit": 0
+  },
+  "cases_per_condition": 3,
+  "ambiguous_cases": [
+    {
+      "condition": "entire_unit",
+      "id": "second_puppeteer_0"
+    }
+  ],
+  "weights_changed": false,
+  "supplied_prefix_diagnostic_only": true,
+  "counts_as_correction": false,
+  "third_set_read": false,
+  "final_set_read": false,
+  "interpretation": "Known-correct donor continuations do not yield certified complete corrections when their final factual-unit state or all unit states are transferred once at block 14. One whole-unit result has ambiguous roles; it is not counted as a demonstrated correction.",
+  "annotations": [
+    {
+      "condition": "original",
+      "id": "second_creator_1",
+      "whole_correct_certified": false,
+      "ambiguous": false,
+      "reason": "Invents Arcimboldo and 1584 and confuses the maker with the puppet."
+    },
+    {
+      "condition": "original",
+      "id": "second_puppeteer_0",
+      "whole_correct_certified": false,
+      "ambiguous": false,
+      "reason": "Makes Mangiafoco sell the spelling book."
+    },
+    {
+      "condition": "original",
+      "id": "second_rescuer_1",
+      "whole_correct_certified": false,
+      "ambiguous": false,
+      "reason": "Calls Alidoro the fisherman and fails to state the rescue."
+    },
+    {
+      "condition": "last_unit_token",
+      "id": "second_creator_1",
+      "whole_correct_certified": false,
+      "ambiguous": false,
+      "reason": "Identifies Geppetto as the little puppet called Pinocchio."
+    },
+    {
+      "condition": "last_unit_token",
+      "id": "second_puppeteer_0",
+      "whole_correct_certified": false,
+      "ambiguous": false,
+      "reason": "Still makes Mangiafoco sell the spelling book."
+    },
+    {
+      "condition": "last_unit_token",
+      "id": "second_rescuer_1",
+      "whole_correct_certified": false,
+      "ambiguous": false,
+      "reason": "Invents Alidoro finishing cooked and does not state the rescue."
+    },
+    {
+      "condition": "entire_unit",
+      "id": "second_creator_1",
+      "whole_correct_certified": false,
+      "ambiguous": false,
+      "reason": "Identifies Geppetto as the little puppet called Pinocchio."
+    },
+    {
+      "condition": "entire_unit",
+      "id": "second_puppeteer_0",
+      "whole_correct_certified": false,
+      "ambiguous": true,
+      "reason": "The relative clause leaves the encounter/sale roles ambiguous and the book name malformed; not certified as a complete correction."
+    },
+    {
+      "condition": "entire_unit",
+      "id": "second_rescuer_1",
+      "whole_correct_certified": false,
+      "ambiguous": false,
+      "reason": "Invents Alidoro finishing cooked and Pinocchio no longer being with him."
+    }
+  ]
+}

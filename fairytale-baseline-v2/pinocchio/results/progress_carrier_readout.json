@@ -1,0 +1,253 @@
+{
+  "representation_reports": [
+    {
+      "representation": "pure_original",
+      "comparisons": [
+        {
+          "split": "fit",
+          "states": 196,
+          "questions": 50,
+          "relation_correct": 196,
+          "progress_correct": 196,
+          "proposal_correct": 196,
+          "all_steps_correct": 50
+        },
+        {
+          "split": "probe",
+          "states": 92,
+          "questions": 24,
+          "relation_correct": 77,
+          "progress_correct": 92,
+          "proposal_correct": 77,
+          "all_steps_correct": 18
+        }
+      ],
+      "native": [
+        {
+          "kind": "external",
+          "states": 3130,
+          "classified_outside": 2384,
+          "potential_fact_requests": 218,
+          "actual_stage_token_in_set": 193,
+          "stage_identity_correct_when_in_set": 143,
+          "requests_with_actual_stage_token": 8
+        },
+        {
+          "kind": "minimal_native",
+          "states": 411,
+          "classified_outside": 0,
+          "potential_fact_requests": 76,
+          "actual_stage_token_in_set": 22,
+          "stage_identity_correct_when_in_set": 13,
+          "requests_with_actual_stage_token": 5
+        },
+        {
+          "kind": "narrative",
+          "states": 472,
+          "classified_outside": 0,
+          "potential_fact_requests": 69,
+          "actual_stage_token_in_set": 18,
+          "stage_identity_correct_when_in_set": 14,
+          "requests_with_actual_stage_token": 5
+        },
+        {
+          "kind": "native_unit",
+          "states": 392,
+          "classified_outside": 0,
+          "potential_fact_requests": 64,
+          "actual_stage_token_in_set": 14,
+          "stage_identity_correct_when_in_set": 10,
+          "requests_with_actual_stage_token": 2
+        },
+        {
+          "kind": "outside_prototype",
+          "states": 14,
+          "classified_outside": 12,
+          "potential_fact_requests": 2,
+          "actual_stage_token_in_set": 14,
+          "stage_identity_correct_when_in_set": 14,
+          "requests_with_actual_stage_token": 2
+        }
+      ]
+    },
+    {
+      "representation": "actual_uncorrected",
+      "comparisons": [
+        {
+          "split": "fit",
+          "states": 196,
+          "questions": 50,
+          "relation_correct": 196,
+          "progress_correct": 196,
+          "proposal_correct": 196,
+          "all_steps_correct": 50
+        },
+        {
+          "split": "probe",
+          "states": 92,
+          "questions": 24,
+          "relation_correct": 76,
+          "progress_correct": 92,
+          "proposal_correct": 76,
+          "all_steps_correct": 18
+        }
+      ],
+      "native": [
+        {
+          "kind": "external",
+          "states": 3130,
+          "classified_outside": 2363,
+          "potential_fact_requests": 218,
+          "actual_stage_token_in_set": 193,
+          "stage_identity_correct_when_in_set": 143,
+          "requests_with_actual_stage_token": 7
+        },
+        {
+          "kind": "minimal_native",
+          "states": 411,
+          "classified_outside": 0,
+          "potential_fact_requests": 78,
+          "actual_stage_token_in_set": 22,
+          "stage_identity_correct_when_in_set": 13,
+          "requests_with_actual_stage_token": 5
+        },
+        {
+          "kind": "narrative",
+          "states": 472,
+          "classified_outside": 0,
+          "potential_fact_requests": 66,
+          "actual_stage_token_in_set": 18,
+          "stage_identity_correct_when_in_set": 14,
+          "requests_with_actual_stage_token": 3
+        },
+        {
+          "kind": "native_unit",
+          "states": 392,
+          "classified_outside": 0,
+          "potential_fact_requests": 64,
+          "actual_stage_token_in_set": 14,
+          "stage_identity_correct_when_in_set": 10,
+          "requests_with_actual_stage_token": 2
+        },
+        {
+          "kind": "outside_prototype",
+          "states": 14,
+          "classified_outside": 12,
+          "potential_fact_requests": 2,
+          "actual_stage_token_in_set": 14,
+          "stage_identity_correct_when_in_set": 14,
+          "requests_with_actual_stage_token": 2
+        }
+      ]
+    },
+    {
+      "representation": "actual_compensated",
+      "comparisons": [
+        {
+          "split": "fit",
+          "states": 196,
+          "questions": 50,
+          "relation_correct": 196,
+          "progress_correct": 196,
+          "proposal_correct": 196,
+          "all_steps_correct": 50
+        },
+        {
+          "split": "probe",
+          "states": 92,
+          "questions": 24,
+          "relation_correct": 74,
+          "progress_correct": 92,
+          "proposal_correct": 74,
+          "all_steps_correct": 18
+        }
+      ],
+      "native": [
+        {
+          "kind": "external",
+          "states": 3130,
+          "classified_outside": 2369,
+          "potential_fact_requests": 224,
+          "actual_stage_token_in_set": 193,
+          "stage_identity_correct_when_in_set": 143,
+          "requests_with_actual_stage_token": 7
+        },
+        {
+          "kind": "minimal_native",
+          "states": 411,
+          "classified_outside": 0,
+          "potential_fact_requests": 76,
+          "actual_stage_token_in_set": 22,
+          "stage_identity_correct_when_in_set": 13,
+          "requests_with_actual_stage_token": 5
+        },
+        {
+          "kind": "narrative",
+          "states": 472,
+          "classified_outside": 0,
+          "potential_fact_requests": 61,
+          "actual_stage_token_in_set": 18,
+          "stage_identity_correct_when_in_set": 14,
+          "requests_with_actual_stage_token": 3
+        },
+        {
+          "kind": "native_unit",
+          "states": 392,
+          "classified_outside": 0,
+          "potential_fact_requests": 64,
+          "actual_stage_token_in_set": 14,
+          "stage_identity_correct_when_in_set": 10,
+          "requests_with_actual_stage_token": 2
+        },
+        {
+          "kind": "outside_prototype",
+          "states": 14,
+          "classified_outside": 12,
+          "potential_fact_requests": 2,
+          "actual_stage_token_in_set": 14,
+          "stage_identity_correct_when_in_set": 14,
+          "requests_with_actual_stage_token": 2
+        }
+      ]
+    }
+  ],
+  "carrier_identity_max_relative_error": 7.85858133357832e-07,
+  "residual_changes": {
+    "external": {
+      "mean_shift": 17.26517383277235,
+      "mean_relative_shift": 0.21826709992836255,
+      "max_relative_shift": 0.5251099100340623
+    },
+    "factual": {
+      "mean_shift": 15.643263236451354,
+      "mean_relative_shift": 0.20391969892584433,
+      "max_relative_shift": 0.35055263060361136
+    },
+    "minimal_native": {
+      "mean_shift": 15.91072011839124,
+      "mean_relative_shift": 0.19337556652280893,
+      "max_relative_shift": 0.34227339565567927
+    },
+    "narrative": {
+      "mean_shift": 14.750516691670985,
+      "mean_relative_shift": 0.17523099439105347,
+      "max_relative_shift": 0.377615221852534
+    },
+    "native_unit": {
+      "mean_shift": 19.40436694782377,
+      "mean_relative_shift": 0.24306571255997558,
+      "max_relative_shift": 0.48357981558150404
+    }
+  },
+  "feature_fit_questions": 50,
+  "probe_questions_already_observed": true,
+  "readout_only": true,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "parameter_search": false,
+  "free_generation_performed": false,
+  "counts_as_correction": false,
+  "third_set_used": false,
+  "final_set_read": false
+}

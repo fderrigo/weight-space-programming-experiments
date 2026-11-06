@@ -1,0 +1,42 @@
+{
+  "utc": "2026-11-05T13:25:14.482281+00:00",
+  "decision_by": "Codex",
+  "block": 14,
+  "hypothesis": "Earlier static native fact memory may be unread or wrongly addressed. Measure actual attention mass and fact choice when its12 native K/V terminal states replace the same fixed prefix slots; separately measure information in each native query head using fixed class means.",
+  "memory": "The same12 independent fact states for every history, terminal pre-RoPE K and V, same slots7..18 as the earlier diagnostic. No question-dependent choice of memory values.",
+  "virtual_attention": "Reconstruct exact native attention and verify against captured head outputs. Replace only block14 prefix K/V algebraically, apply destination RoPE, then measure memory mass and conditional fact choice; do not propagate the virtual output into later blocks.",
+  "query_geometry": "For each of14 heads, mean first-query vector per12 factual relations plus one outside mean; subtract the mean of the13 centers and normalize for cosine classification. No value update, iterative search or selected winning head in this script.",
+  "fit_first_questions": 50,
+  "observed_probe_first_questions": 24,
+  "outside_fit_first": 29,
+  "outside_probe_first": 29,
+  "outside_definition": "External cases are outside the12 edited relation types; some mention Pinocchio, so this is not a claim that all are unrelated to the story.",
+  "all_earlier_edited_layers_start_at": 21,
+  "native_block14_applies_to_all_recorded_candidates_on_identical_histories": true,
+  "sources": [
+    {
+      "source": "carrier_concept_states.json",
+      "sha256": "ae3655c6a4beec052a9e593432c3818010d1bbae6c07c9e17eca7688174fd2ea"
+    },
+    {
+      "source": "event_role_binding.json",
+      "sha256": "23ae9fd51b62cd1d3fa11144e35206e085886484c5f0a7684305a59e178a7697"
+    },
+    {
+      "source": "narrative_cell_leak.json",
+      "sha256": "32a41128de22ffc4257e4b36393db912c6ebb8576a2d9533b8107c96019de33a"
+    }
+  ],
+  "memory_source_sha256": "e8ce816c070731f3ef57bd0f046a5dbe225f2fb422495bb531a2e55c3714d196",
+  "prefix_precision_source_sha256": "ce4aa384ad99f6aa17f96488c13348ba5cf8b864ab2a01e4b52c311b239b7ec2",
+  "prefix_precision_check": "Identical token prefix; relative norm difference below2e-5, recorded per sequence. Elementwise equality failed at4.20e-5 maximum absolute but2.35e-6 relative norm when sequence shape changed; repeated identical sequence was exact. Prefix is not asserted byte-identical across shapes.",
+  "code_sha256": "3d4afac97272ddc9623772099d5636df8ee09db2a32455bfc83e6ccf82c9e5d5",
+  "states": 5560,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "new_weights": false,
+  "free_generation": false,
+  "counts_as_correction": false,
+  "reserved_final_used": false
+}

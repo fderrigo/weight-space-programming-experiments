@@ -1,0 +1,115 @@
+{
+  "utc": "2026-11-04T23:31:23.007174+00:00",
+  "decision_by": "Codex",
+  "tensor": "model.layers.23.mlp.down_proj.weight",
+  "reason": "Read-only scalar-gain analysis found that 75 of 82 failed contexts achieved the relative constraint mainly by lowering native competitors; the desired token was not raised enough. Anchor the desired increase explicitly and hold each declared competitor readout unchanged. Keep the same 3934 native states and the same explicit lexical contrasts.",
+  "contexts": 939,
+  "competitors_per_context": 4,
+  "margin": 4.0,
+  "repetition_penalty": 1.1,
+  "gram_pinv_rtol": 1e-08,
+  "formula": "Z=K-KQQt. Each context has d_target=p_t*e_t, b_target=max(0,4*RMS_i+native_best_effective_logit*RMS_i-d_target*R_i). For each declared competitor use d_other=p_j*e_j and b_other=0. G_ab=(d_a*d_b)*(z_context(a)*z_context(b)); alpha=pinv(G)*b; deltaW=sum_a alpha_a*d_a*z_context(a).T.",
+  "penalty_geometry": "A seen token expected to remain positive has p=1/1.1; unseen tokens have p=1. Native top competitors are selected using the exact sign-dependent repetition penalty. Full post-edit logits are checked with the exact penalty again, including any sign changes.",
+  "protected_source": "3406 expanded-context native states + 504 second-set continuation states + 24 first-set completed-unit states",
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "EOS_programmed": false,
+  "third_set_read": false,
+  "final_set_read": false,
+  "runtime_hooks": false,
+  "additional_lexical_comparisons": [
+    [
+      "pp",
+      "ge"
+    ],
+    [
+      " Ge",
+      " Luc"
+    ],
+    [
+      " Ge",
+      " Ma"
+    ],
+    [
+      " Ge",
+      " Al"
+    ],
+    [
+      " Mang",
+      " Ge"
+    ],
+    [
+      "f",
+      " Mang"
+    ],
+    [
+      " Luc",
+      " Ge"
+    ],
+    [
+      " Luc",
+      " Al"
+    ],
+    [
+      " Ma",
+      " Ge"
+    ],
+    [
+      " Al",
+      " al"
+    ],
+    [
+      "id",
+      " di"
+    ],
+    [
+      " Al",
+      " Luc"
+    ],
+    [
+      "id",
+      "di"
+    ],
+    [
+      "Il",
+      "Con"
+    ],
+    [
+      "In",
+      "Ge"
+    ],
+    [
+      "Ge",
+      "Con"
+    ],
+    [
+      " C",
+      " Ma"
+    ],
+    [
+      " Mang",
+      " mang"
+    ],
+    [
+      "ale",
+      "ango"
+    ],
+    [
+      " leg",
+      " Ge"
+    ],
+    [
+      " il",
+      " al"
+    ]
+  ],
+  "protected_state_count": 3934,
+  "protection_rtol": 1e-06,
+  "native_prefixes_are_diagnostic_only": true,
+  "no_full_answers_or_EOS_prescribed": true,
+  "original_native_continuations_preserved_whether_true_or_false": true,
+  "native_gain_diagnostic": "results/scalar_gain_diagnostic.json",
+  "absolute_target_increase": true,
+  "competitor_readout_changes": 0
+}

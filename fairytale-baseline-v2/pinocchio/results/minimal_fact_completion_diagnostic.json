@@ -1,0 +1,1746 @@
+{
+  "contexts": 288,
+  "preservation_states": 4289,
+  "protected_rank": 4240,
+  "projected_key_rank": 288,
+  "delta_norm": 112.19167400889225,
+  "original_weight_norm": 37.328330993652344,
+  "changed_parameters": 4358143,
+  "relative_value_error": 3.141521498900933e-07,
+  "mean_control_shift": 3.3115765536073596e-06,
+  "max_control_shift": 0.00014526724896813057,
+  "actual_decoder_first_rank_count": 288,
+  "contexts_diagnostic": [
+    {
+      "question": "core_creator_0",
+      "token": 9499,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "core_creator_0",
+      "token": 602,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "core_creator_0",
+      "token": 52879,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "core_creator_1",
+      "token": 9499,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "core_creator_1",
+      "token": 602,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "core_creator_1",
+      "token": 52879,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "core_material_0",
+      "token": 18910,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "core_material_0",
+      "token": 2152,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "core_material_1",
+      "token": 18910,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "core_material_1",
+      "token": 2152,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "core_fairy_0",
+      "token": 32,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "core_fairy_0",
+      "token": 10400,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "core_fairy_0",
+      "token": 324,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "core_fairy_0",
+      "token": 461,
+      "subtoken": 3,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "core_fairy_1",
+      "token": 32,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "core_fairy_1",
+      "token": 10400,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "core_fairy_1",
+      "token": 324,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "core_fairy_1",
+      "token": 461,
+      "subtoken": 3,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "core_nose_0",
+      "token": 21999,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "core_nose_0",
+      "token": 678,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "core_nose_0",
+      "token": 91845,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "core_nose_1",
+      "token": 21999,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "core_nose_1",
+      "token": 678,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "core_nose_1",
+      "token": 91845,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "core_deceivers_0",
+      "token": 12050,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "core_deceivers_0",
+      "token": 479,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "core_deceivers_0",
+      "token": 16755,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "core_deceivers_0",
+      "token": 384,
+      "subtoken": 3,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "core_deceivers_0",
+      "token": 1187,
+      "subtoken": 4,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "core_deceivers_0",
+      "token": 10882,
+      "subtoken": 5,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "core_deceivers_0",
+      "token": 375,
+      "subtoken": 6,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "core_deceivers_1",
+      "token": 12050,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "core_deceivers_1",
+      "token": 479,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "core_deceivers_1",
+      "token": 16755,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "core_deceivers_1",
+      "token": 384,
+      "subtoken": 3,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "core_deceivers_1",
+      "token": 1187,
+      "subtoken": 4,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "core_deceivers_1",
+      "token": 10882,
+      "subtoken": 5,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "core_deceivers_1",
+      "token": 375,
+      "subtoken": 6,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "core_donkey_0",
+      "token": 1806,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "core_donkey_0",
+      "token": 438,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "core_donkey_0",
+      "token": 3313,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "core_donkey_1",
+      "token": 1806,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "core_donkey_1",
+      "token": 438,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "core_donkey_1",
+      "token": 3313,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "core_ending_0",
+      "token": 1806,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "core_ending_0",
+      "token": 75993,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "core_ending_0",
+      "token": 3313,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "core_ending_0",
+      "token": 78287,
+      "subtoken": 3,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "core_ending_1",
+      "token": 1806,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "core_ending_1",
+      "token": 75993,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "core_ending_1",
+      "token": 3313,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "core_ending_1",
+      "token": 78287,
+      "subtoken": 3,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "chapter_10",
+      "token": 44,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "chapter_10",
+      "token": 524,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "chapter_10",
+      "token": 685,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "chapter_10",
+      "token": 69,
+      "subtoken": 3,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "chapter_10",
+      "token": 13140,
+      "subtoken": 4,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "development_puppeteer_0",
+      "token": 44,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "development_puppeteer_0",
+      "token": 524,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "development_puppeteer_0",
+      "token": 685,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "development_puppeteer_0",
+      "token": 69,
+      "subtoken": 3,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "development_puppeteer_0",
+      "token": 13140,
+      "subtoken": 4,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "chapter_30",
+      "token": 40645,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "chapter_30",
+      "token": 622,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "chapter_30",
+      "token": 10011,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "development_friend_0",
+      "token": 40645,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "development_friend_0",
+      "token": 622,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "development_friend_0",
+      "token": 10011,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "chapter_35",
+      "token": 9499,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "chapter_35",
+      "token": 602,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "chapter_35",
+      "token": 52879,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "development_fish_father_0",
+      "token": 9499,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "development_fish_father_0",
+      "token": 602,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "development_fish_father_0",
+      "token": 52879,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "chapter_02",
+      "token": 29535,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "chapter_02",
+      "token": 54556,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "chapter_02",
+      "token": 356,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "chapter_02",
+      "token": 321,
+      "subtoken": 3,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "chapter_02",
+      "token": 35010,
+      "subtoken": 4,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "chapter_02",
+      "token": 685,
+      "subtoken": 5,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "development_wood_giver_role",
+      "token": 29535,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "development_wood_giver_role",
+      "token": 54556,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "development_wood_giver_role",
+      "token": 356,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "development_wood_giver_role",
+      "token": 321,
+      "subtoken": 3,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "development_wood_giver_role",
+      "token": 35010,
+      "subtoken": 4,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "development_wood_giver_role",
+      "token": 685,
+      "subtoken": 5,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "chapter_28",
+      "token": 2101,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "chapter_28",
+      "token": 307,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "chapter_28",
+      "token": 18307,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "development_rescuer_0",
+      "token": 2101,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "development_rescuer_0",
+      "token": 307,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "development_rescuer_0",
+      "token": 18307,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "chapter_01",
+      "token": 29535,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "chapter_01",
+      "token": 54556,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "chapter_01",
+      "token": 356,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "chapter_01",
+      "token": 321,
+      "subtoken": 3,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "chapter_01",
+      "token": 35010,
+      "subtoken": 4,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "chapter_01",
+      "token": 685,
+      "subtoken": 5,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "development_wood_finder_role",
+      "token": 29535,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "development_wood_finder_role",
+      "token": 54556,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "development_wood_finder_role",
+      "token": 356,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "development_wood_finder_role",
+      "token": 321,
+      "subtoken": 3,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "development_wood_finder_role",
+      "token": 35010,
+      "subtoken": 4,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "development_wood_finder_role",
+      "token": 685,
+      "subtoken": 5,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_creator_0",
+      "token": 9499,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_creator_0",
+      "token": 602,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_creator_0",
+      "token": 52879,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_creator_1",
+      "token": 9499,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_creator_1",
+      "token": 602,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_creator_1",
+      "token": 52879,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_material_0",
+      "token": 18910,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_material_0",
+      "token": 2152,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_material_1",
+      "token": 18910,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_material_1",
+      "token": 2152,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_nose_0",
+      "token": 21999,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_nose_0",
+      "token": 678,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_nose_0",
+      "token": 91845,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_nose_1",
+      "token": 21999,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_nose_1",
+      "token": 678,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_nose_1",
+      "token": 91845,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_fairy_0",
+      "token": 32,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_fairy_0",
+      "token": 10400,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_fairy_0",
+      "token": 324,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_fairy_0",
+      "token": 461,
+      "subtoken": 3,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_fairy_1",
+      "token": 32,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_fairy_1",
+      "token": 10400,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_fairy_1",
+      "token": 324,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_fairy_1",
+      "token": 461,
+      "subtoken": 3,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_deceivers_0",
+      "token": 12050,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_deceivers_0",
+      "token": 479,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_deceivers_0",
+      "token": 16755,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_deceivers_0",
+      "token": 384,
+      "subtoken": 3,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_deceivers_0",
+      "token": 1187,
+      "subtoken": 4,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_deceivers_0",
+      "token": 10882,
+      "subtoken": 5,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_deceivers_0",
+      "token": 375,
+      "subtoken": 6,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_deceivers_1",
+      "token": 12050,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_deceivers_1",
+      "token": 479,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_deceivers_1",
+      "token": 16755,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_deceivers_1",
+      "token": 384,
+      "subtoken": 3,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_deceivers_1",
+      "token": 1187,
+      "subtoken": 4,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_deceivers_1",
+      "token": 10882,
+      "subtoken": 5,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_deceivers_1",
+      "token": 375,
+      "subtoken": 6,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_donkey_0",
+      "token": 1806,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_donkey_0",
+      "token": 438,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_donkey_0",
+      "token": 3313,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_donkey_1",
+      "token": 1806,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_donkey_1",
+      "token": 438,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_donkey_1",
+      "token": 3313,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_ending_0",
+      "token": 1806,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_ending_0",
+      "token": 75993,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_ending_0",
+      "token": 3313,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_ending_0",
+      "token": 78287,
+      "subtoken": 3,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_ending_1",
+      "token": 1806,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_ending_1",
+      "token": 75993,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_ending_1",
+      "token": 3313,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_ending_1",
+      "token": 78287,
+      "subtoken": 3,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_puppeteer_0",
+      "token": 44,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_puppeteer_0",
+      "token": 524,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_puppeteer_0",
+      "token": 685,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_puppeteer_0",
+      "token": 69,
+      "subtoken": 3,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_puppeteer_0",
+      "token": 13140,
+      "subtoken": 4,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_puppeteer_1",
+      "token": 44,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_puppeteer_1",
+      "token": 524,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_puppeteer_1",
+      "token": 685,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_puppeteer_1",
+      "token": 69,
+      "subtoken": 3,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_puppeteer_1",
+      "token": 13140,
+      "subtoken": 4,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_friend_0",
+      "token": 40645,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_friend_0",
+      "token": 622,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_friend_0",
+      "token": 10011,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_friend_1",
+      "token": 40645,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_friend_1",
+      "token": 622,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_friend_1",
+      "token": 10011,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_wood_donor_0",
+      "token": 29535,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_wood_donor_0",
+      "token": 54556,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_wood_donor_0",
+      "token": 356,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_wood_donor_0",
+      "token": 321,
+      "subtoken": 3,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_wood_donor_0",
+      "token": 35010,
+      "subtoken": 4,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_wood_donor_0",
+      "token": 685,
+      "subtoken": 5,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_wood_donor_1",
+      "token": 29535,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_wood_donor_1",
+      "token": 54556,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_wood_donor_1",
+      "token": 356,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_wood_donor_1",
+      "token": 321,
+      "subtoken": 3,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_wood_donor_1",
+      "token": 35010,
+      "subtoken": 4,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_wood_donor_1",
+      "token": 685,
+      "subtoken": 5,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_rescuer_0",
+      "token": 2101,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_rescuer_0",
+      "token": 307,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_rescuer_0",
+      "token": 18307,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_rescuer_1",
+      "token": 2101,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_rescuer_1",
+      "token": 307,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_rescuer_1",
+      "token": 18307,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_fish_father_0",
+      "token": 9499,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_fish_father_0",
+      "token": 602,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_fish_father_0",
+      "token": 52879,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_fish_father_1",
+      "token": 9499,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_fish_father_1",
+      "token": 602,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "newdev_fish_father_1",
+      "token": 52879,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_creator_0",
+      "token": 9499,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_creator_0",
+      "token": 602,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_creator_0",
+      "token": 52879,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_creator_1",
+      "token": 9499,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_creator_1",
+      "token": 602,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_creator_1",
+      "token": 52879,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_material_0",
+      "token": 18910,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_material_0",
+      "token": 2152,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_material_1",
+      "token": 18910,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_material_1",
+      "token": 2152,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_nose_0",
+      "token": 21999,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_nose_0",
+      "token": 678,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_nose_0",
+      "token": 91845,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_nose_1",
+      "token": 21999,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_nose_1",
+      "token": 678,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_nose_1",
+      "token": 91845,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_fairy_0",
+      "token": 32,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_fairy_0",
+      "token": 10400,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_fairy_0",
+      "token": 324,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_fairy_0",
+      "token": 461,
+      "subtoken": 3,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_fairy_1",
+      "token": 32,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_fairy_1",
+      "token": 10400,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_fairy_1",
+      "token": 324,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_fairy_1",
+      "token": 461,
+      "subtoken": 3,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_deceivers_0",
+      "token": 12050,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_deceivers_0",
+      "token": 479,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_deceivers_0",
+      "token": 16755,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_deceivers_0",
+      "token": 384,
+      "subtoken": 3,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_deceivers_0",
+      "token": 1187,
+      "subtoken": 4,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_deceivers_0",
+      "token": 10882,
+      "subtoken": 5,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_deceivers_0",
+      "token": 375,
+      "subtoken": 6,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_deceivers_1",
+      "token": 12050,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_deceivers_1",
+      "token": 479,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_deceivers_1",
+      "token": 16755,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_deceivers_1",
+      "token": 384,
+      "subtoken": 3,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_deceivers_1",
+      "token": 1187,
+      "subtoken": 4,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_deceivers_1",
+      "token": 10882,
+      "subtoken": 5,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_deceivers_1",
+      "token": 375,
+      "subtoken": 6,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_donkey_0",
+      "token": 1806,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_donkey_0",
+      "token": 438,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_donkey_0",
+      "token": 3313,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_donkey_1",
+      "token": 1806,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_donkey_1",
+      "token": 438,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_donkey_1",
+      "token": 3313,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_ending_0",
+      "token": 1806,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_ending_0",
+      "token": 75993,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_ending_0",
+      "token": 3313,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_ending_0",
+      "token": 78287,
+      "subtoken": 3,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_ending_1",
+      "token": 1806,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_ending_1",
+      "token": 75993,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_ending_1",
+      "token": 3313,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_ending_1",
+      "token": 78287,
+      "subtoken": 3,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_puppeteer_0",
+      "token": 44,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_puppeteer_0",
+      "token": 524,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_puppeteer_0",
+      "token": 685,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_puppeteer_0",
+      "token": 69,
+      "subtoken": 3,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_puppeteer_0",
+      "token": 13140,
+      "subtoken": 4,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_puppeteer_1",
+      "token": 44,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_puppeteer_1",
+      "token": 524,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_puppeteer_1",
+      "token": 685,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_puppeteer_1",
+      "token": 69,
+      "subtoken": 3,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_puppeteer_1",
+      "token": 13140,
+      "subtoken": 4,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_friend_0",
+      "token": 40645,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_friend_0",
+      "token": 622,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_friend_0",
+      "token": 10011,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_friend_1",
+      "token": 40645,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_friend_1",
+      "token": 622,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_friend_1",
+      "token": 10011,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_wood_donor_0",
+      "token": 29535,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_wood_donor_0",
+      "token": 54556,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_wood_donor_0",
+      "token": 356,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_wood_donor_0",
+      "token": 321,
+      "subtoken": 3,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_wood_donor_0",
+      "token": 35010,
+      "subtoken": 4,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_wood_donor_0",
+      "token": 685,
+      "subtoken": 5,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_wood_donor_1",
+      "token": 29535,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_wood_donor_1",
+      "token": 54556,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_wood_donor_1",
+      "token": 356,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_wood_donor_1",
+      "token": 321,
+      "subtoken": 3,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_wood_donor_1",
+      "token": 35010,
+      "subtoken": 4,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_wood_donor_1",
+      "token": 685,
+      "subtoken": 5,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_rescuer_0",
+      "token": 2101,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_rescuer_0",
+      "token": 307,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_rescuer_0",
+      "token": 18307,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_rescuer_1",
+      "token": 2101,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_rescuer_1",
+      "token": 307,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_rescuer_1",
+      "token": 18307,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_fish_father_0",
+      "token": 9499,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_fish_father_0",
+      "token": 602,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_fish_father_0",
+      "token": 52879,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_fish_father_1",
+      "token": 9499,
+      "subtoken": 0,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_fish_father_1",
+      "token": 602,
+      "subtoken": 1,
+      "actual_decoder_target_rank": 1
+    },
+    {
+      "question": "second_fish_father_1",
+      "token": 52879,
+      "subtoken": 2,
+      "actual_decoder_target_rank": 1
+    }
+  ],
+  "free_generation_performed": false,
+  "third_set_read": false,
+  "final_set_read": false
+}

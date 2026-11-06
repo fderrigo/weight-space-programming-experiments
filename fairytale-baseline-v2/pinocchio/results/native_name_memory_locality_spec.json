@@ -1,0 +1,23 @@
+{
+  "utc": "2026-11-05T17:20:40.039021+00:00",
+  "hypothesis": "Test whether the exact previously frozen name bank is sufficient when only prefix positions change, isolating it from the real linear write affecting other tokens.",
+  "intervention": "Replace only pre-RoPE K and native V rows64:128 at logical prefix slots7:16 in blocks15/16. Same ten states for every input; no name selection. Decode projections are unchanged; prefix cache retains the bank.",
+  "unit_diagnostic": "Nine ordinary-question histories followed by the already generated reference answer prefix. Compare original and prefix-only bank; no reference fact in input. Supplied answer prefixes are diagnostic only.",
+  "free_generation": "Same12 ordinary targets and4 controls, batch4 by group, max128, greedy, repetition penalty1.1, seed42, threads6. No answer prefix or corrective context.",
+  "decision_rule": "No new weight construction unless the prefix-only bank improves whole ordinary target answers. Correct unit tokens alone are insufficient. Negative free-response results stop this bank branch.",
+  "frozen_bank_sha256": "0763cd303df50aa83cec9f41f90bbf1512fa418c380a0276101570e00395c848",
+  "source_screen_sha256": "640baf45a5bf24050a356d0f74aa6e1d181d1e957d185ad4c75dd7fb03defd7b",
+  "critical_records_sha256": "6f82a53295c326d7c89d9bd79fbbee00374fe266ee4f5b54aa7954db03ea532d",
+  "reference_collection_sha256": "a17f01f16fd2a10fac98a38352282bf553a25223c12800c2eda6880ca67ed4f5",
+  "code_sha256": "74bd36639c8b397f387ab278915d383287ead783eea2208f50464bd98ef1acd5",
+  "weights_changed": false,
+  "runtime_hooks": true,
+  "counts_as_correction": false,
+  "oracle_relation_selection": false,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "fresh_validation": false,
+  "reserved_test_used": false,
+  "user_work_window": "Resume authorized until20:00 Europe/Rome, extend only for excellent behavioral results; this diagnostic itself has a hard20:00 deadline."
+}

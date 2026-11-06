@@ -1,0 +1,28 @@
+{
+  "utc": "2026-11-05T01:33:44.277775+00:00",
+  "decision_by": "Codex",
+  "kind": "centered_attention_with_factual_down_write",
+  "tensors": [
+    "model.layers.23.self_attn.q_proj.weight",
+    "model.layers.23.self_attn.q_proj.bias",
+    "model.layers.23.self_attn.o_proj.weight",
+    "model.layers.23.mlp.down_proj.weight"
+  ],
+  "attention_source": "patches/centered_question_readout_spec.json",
+  "factual_states": 420,
+  "preservation_states": 4138,
+  "control_pinv_rtol": 1e-06,
+  "factual_pinv_rtol": 0.001,
+  "reason": "The declared centered attention readout improves question-relation separation but strongly changes external states. Compensate the measured original residuals exactly in the last MLP, then write the unchanged short factual vectors in its remaining nullspace.",
+  "formula": "Vc=Rcontrol_original-Rcontrol_after_attention; D0=VcT*pinv(C)T; Q=row-space(C); Z=K-KQtQ; Vf=Rfactual_original+Vbare-Rfactual_after_attention; deltaW=D0+(Vf-KD0T)T*pinv(Z)T.",
+  "narratives": "Preserve the original HF narrative trajectories to prevent additional linguistic damage. This is not canonical correction, and narrative fidelity remains a separate unmet objective.",
+  "preservation_difference_from_prior_patch": "Includes 641 exact stored older external positions instead of the prior 525-position matrix slice; all 116 additional positions come from the same 14 earlier questions.",
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "runtime_hooks": false,
+  "EOS_programmed": false,
+  "full_responses_prescribed": false,
+  "third_set_read": false,
+  "final_set_read": false
+}

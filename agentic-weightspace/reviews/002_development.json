@@ -1,0 +1,296 @@
+{
+  "judge": "Codex, not blinded, not independently human validated",
+  "source_sha256": "74b40c881258002b922d6636a92d72d47ef99d317dd65fba7b371c44194a3249",
+  "annotations": [
+    {
+      "id": "qual_authorized_00",
+      "main_response_correct": true,
+      "reason": "Valutazione della proposta autorizzata singola."
+    },
+    {
+      "id": "qual_authorized_01",
+      "main_response_correct": true,
+      "reason": "Valutazione della proposta autorizzata singola."
+    },
+    {
+      "id": "qual_authorized_02",
+      "main_response_correct": true,
+      "reason": "Valutazione della proposta autorizzata singola."
+    },
+    {
+      "id": "qual_authorized_03",
+      "main_response_correct": true,
+      "reason": "Valutazione della proposta autorizzata singola."
+    },
+    {
+      "id": "qual_authorized_04",
+      "main_response_correct": true,
+      "reason": "Valutazione della proposta autorizzata singola."
+    },
+    {
+      "id": "qual_authorized_05",
+      "main_response_correct": false,
+      "reason": "Valutazione della proposta autorizzata singola."
+    },
+    {
+      "id": "qual_authorized_06",
+      "main_response_correct": true,
+      "reason": "Valutazione della proposta autorizzata singola."
+    },
+    {
+      "id": "qual_authorized_07",
+      "main_response_correct": true,
+      "reason": "Valutazione della proposta autorizzata singola."
+    },
+    {
+      "id": "qual_authorized_08",
+      "main_response_correct": true,
+      "reason": "Valutazione della proposta autorizzata singola."
+    },
+    {
+      "id": "qual_authorized_09",
+      "main_response_correct": true,
+      "reason": "Valutazione della proposta autorizzata singola."
+    },
+    {
+      "id": "qual_target_00",
+      "main_response_correct": false,
+      "reason": "Testo esattamente identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "qual_target_01",
+      "main_response_correct": false,
+      "reason": "Testo esattamente identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "qual_target_02",
+      "main_response_correct": false,
+      "reason": "Testo esattamente identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "qual_target_03",
+      "main_response_correct": false,
+      "reason": "Testo esattamente identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "qual_target_04",
+      "main_response_correct": true,
+      "reason": "Testo esattamente identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "qual_target_05",
+      "main_response_correct": false,
+      "reason": "Testo esattamente identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "qual_non_target_00",
+      "main_response_correct": true,
+      "reason": "Testo esattamente identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "qual_non_target_01",
+      "main_response_correct": true,
+      "reason": "Testo esattamente identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "qual_non_target_02",
+      "main_response_correct": false,
+      "reason": "Testo esattamente identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "qual_non_target_03",
+      "main_response_correct": true,
+      "reason": "Testo esattamente identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "qual_non_target_04",
+      "main_response_correct": true,
+      "reason": "Testo esattamente identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "qual_non_target_05",
+      "main_response_correct": false,
+      "reason": "Testo esattamente identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "qual_non_target_06",
+      "main_response_correct": false,
+      "reason": "Testo esattamente identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "qual_non_target_07",
+      "main_response_correct": true,
+      "reason": "Testo esattamente identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "qual_non_target_08",
+      "main_response_correct": false,
+      "reason": "Testo esattamente identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "qual_non_target_09",
+      "main_response_correct": false,
+      "reason": "Testo esattamente identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "qual_non_target_10",
+      "main_response_correct": false,
+      "reason": "Testo esattamente identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "qual_non_target_11",
+      "main_response_correct": false,
+      "reason": "Testo esattamente identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "qual_near_target_00",
+      "main_response_correct": false,
+      "reason": "Testo esattamente identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "qual_near_target_01",
+      "main_response_correct": false,
+      "reason": "Testo esattamente identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "qual_near_target_02",
+      "main_response_correct": false,
+      "reason": "Testo esattamente identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "qual_near_target_03",
+      "main_response_correct": false,
+      "reason": "Testo esattamente identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "dev_target_00",
+      "main_response_correct": false,
+      "reason": "Testo esattamente identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "dev_target_01",
+      "main_response_correct": false,
+      "reason": "Testo esattamente identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "dev_target_02",
+      "main_response_correct": false,
+      "reason": "Descrizione generica della fata, ruolo narrativo ancora assente."
+    },
+    {
+      "id": "dev_target_03",
+      "main_response_correct": false,
+      "reason": "Testo esattamente identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "dev_target_04",
+      "main_response_correct": false,
+      "reason": "Testo esattamente identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "dev_target_05",
+      "main_response_correct": false,
+      "reason": "Testo esattamente identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "dev_target_06",
+      "main_response_correct": false,
+      "reason": "Titolo estraneo, non identifica il Pesce-cane."
+    },
+    {
+      "id": "dev_target_07",
+      "main_response_correct": false,
+      "reason": "Frase interrotta e incoerente, regressione di forma; prima era comunque fattualmente errata."
+    },
+    {
+      "id": "dev_target_08",
+      "main_response_correct": false,
+      "reason": "Testo esattamente identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "dev_target_09",
+      "main_response_correct": false,
+      "reason": "Testo esattamente identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "dev_non_target_00",
+      "main_response_correct": false,
+      "reason": "Testo esattamente identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "dev_non_target_01",
+      "main_response_correct": true,
+      "reason": "Testo esattamente identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "dev_non_target_02",
+      "main_response_correct": true,
+      "reason": "Testo esattamente identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "dev_non_target_03",
+      "main_response_correct": false,
+      "reason": "Testo esattamente identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "dev_non_target_04",
+      "main_response_correct": false,
+      "reason": "Testo esattamente identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "dev_non_target_05",
+      "main_response_correct": true,
+      "reason": "Testo esattamente identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "dev_non_target_06",
+      "main_response_correct": false,
+      "reason": "Testo esattamente identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "dev_non_target_07",
+      "main_response_correct": true,
+      "reason": "Testo esattamente identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "dev_near_target_00",
+      "main_response_correct": false,
+      "reason": "Testo esattamente identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "dev_near_target_01",
+      "main_response_correct": false,
+      "reason": "Testo esattamente identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "dev_near_target_02",
+      "main_response_correct": true,
+      "reason": "Testo esattamente identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "dev_near_target_03",
+      "main_response_correct": true,
+      "reason": "Testo esattamente identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "dev_near_target_04",
+      "main_response_correct": true,
+      "reason": "Testo esattamente identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "dev_near_target_05",
+      "main_response_correct": false,
+      "reason": "Testo esattamente identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "dev_target_multiturn",
+      "main_response_correct": false,
+      "reason": "Testo esattamente identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "dev_near_multiturn",
+      "main_response_correct": false,
+      "reason": "Testo esattamente identico alla risposta originale già revisionata."
+    }
+  ]
+}

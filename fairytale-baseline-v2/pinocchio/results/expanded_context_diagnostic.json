@@ -1,0 +1,2464 @@
+{
+  "keys": 939,
+  "preservation_states": 3406,
+  "protected_rank": 3357,
+  "delta_norm": 93.20826108152262,
+  "weight_norm": 37.328330993652344,
+  "relative_value_error": 0.008448449331297311,
+  "mean_control_shift": 3.3770287602134216e-06,
+  "max_control_shift": 0.0001754733798035614,
+  "added_contexts": [
+    {
+      "question": "second_creator_0",
+      "fact": "creator",
+      "prefix": "",
+      "unit": "Il falegname Geppetto",
+      "subtoken": 0,
+      "piece": "Il",
+      "native_gap": -1.8854179382324219,
+      "value_norm": 3.5050547122955322
+    },
+    {
+      "question": "second_creator_0",
+      "fact": "creator",
+      "prefix": "",
+      "unit": "Il falegname Geppetto",
+      "subtoken": 1,
+      "piece": " f",
+      "native_gap": 10.167424201965332,
+      "value_norm": 14.3522310256958
+    },
+    {
+      "question": "second_creator_0",
+      "fact": "creator",
+      "prefix": "",
+      "unit": "Il falegname Geppetto",
+      "subtoken": 2,
+      "piece": "ale",
+      "native_gap": 3.3615550994873047,
+      "value_norm": 7.254656791687012
+    },
+    {
+      "question": "second_creator_0",
+      "fact": "creator",
+      "prefix": "",
+      "unit": "Il falegname Geppetto",
+      "subtoken": 3,
+      "piece": "g",
+      "native_gap": -3.6847972869873047,
+      "value_norm": 0.3691403269767761
+    },
+    {
+      "question": "second_creator_0",
+      "fact": "creator",
+      "prefix": "",
+      "unit": "Il falegname Geppetto",
+      "subtoken": 4,
+      "piece": "name",
+      "native_gap": 0.47027015686035156,
+      "value_norm": 9.114322662353516
+    },
+    {
+      "question": "second_creator_0",
+      "fact": "creator",
+      "prefix": "",
+      "unit": "Il falegname Geppetto",
+      "subtoken": 5,
+      "piece": " Ge",
+      "native_gap": 13.387918472290039,
+      "value_norm": 17.35914421081543
+    },
+    {
+      "question": "second_creator_0",
+      "fact": "creator",
+      "prefix": "",
+      "unit": "Il falegname Geppetto",
+      "subtoken": 6,
+      "piece": "pp",
+      "native_gap": -2.8721771240234375,
+      "value_norm": 1.0265140533447266
+    },
+    {
+      "question": "second_creator_0",
+      "fact": "creator",
+      "prefix": "",
+      "unit": "Il falegname Geppetto",
+      "subtoken": 7,
+      "piece": "etto",
+      "native_gap": -2.131511688232422,
+      "value_norm": 1.4935851097106934
+    },
+    {
+      "question": "second_creator_0",
+      "fact": "creator",
+      "prefix": "Il creatore di Pinocchio dentro il racconto è",
+      "unit": " Geppetto",
+      "subtoken": 0,
+      "piece": " Ge",
+      "native_gap": 8.176861763000488,
+      "value_norm": 13.868247985839844
+    },
+    {
+      "question": "second_creator_0",
+      "fact": "creator",
+      "prefix": "Il creatore di Pinocchio dentro il racconto è",
+      "unit": " Geppetto",
+      "subtoken": 1,
+      "piece": "pp",
+      "native_gap": 0.6560373306274414,
+      "value_norm": 4.1176958084106445
+    },
+    {
+      "question": "second_creator_0",
+      "fact": "creator",
+      "prefix": "Il creatore di Pinocchio dentro il racconto è",
+      "unit": " Geppetto",
+      "subtoken": 2,
+      "piece": "etto",
+      "native_gap": -2.5240821838378906,
+      "value_norm": 1.210648536682129
+    },
+    {
+      "question": "second_creator_1",
+      "fact": "creator",
+      "prefix": "",
+      "unit": "Il falegname Geppetto",
+      "subtoken": 0,
+      "piece": "Il",
+      "native_gap": -0.7687187194824219,
+      "value_norm": 4.011801242828369
+    },
+    {
+      "question": "second_creator_1",
+      "fact": "creator",
+      "prefix": "",
+      "unit": "Il falegname Geppetto",
+      "subtoken": 1,
+      "piece": " f",
+      "native_gap": 8.992269515991211,
+      "value_norm": 13.348973274230957
+    },
+    {
+      "question": "second_creator_1",
+      "fact": "creator",
+      "prefix": "",
+      "unit": "Il falegname Geppetto",
+      "subtoken": 2,
+      "piece": "ale",
+      "native_gap": 6.2400665283203125,
+      "value_norm": 10.735884666442871
+    },
+    {
+      "question": "second_creator_1",
+      "fact": "creator",
+      "prefix": "",
+      "unit": "Il falegname Geppetto",
+      "subtoken": 3,
+      "piece": "g",
+      "native_gap": -1.5072345733642578,
+      "value_norm": 4.2919135093688965
+    },
+    {
+      "question": "second_creator_1",
+      "fact": "creator",
+      "prefix": "",
+      "unit": "Il falegname Geppetto",
+      "subtoken": 4,
+      "piece": "name",
+      "native_gap": 0.11934089660644531,
+      "value_norm": 7.736056327819824
+    },
+    {
+      "question": "second_creator_1",
+      "fact": "creator",
+      "prefix": "",
+      "unit": "Il falegname Geppetto",
+      "subtoken": 5,
+      "piece": " Ge",
+      "native_gap": 10.931485176086426,
+      "value_norm": 17.783288955688477
+    },
+    {
+      "question": "second_creator_1",
+      "fact": "creator",
+      "prefix": "",
+      "unit": "Il falegname Geppetto",
+      "subtoken": 6,
+      "piece": "pp",
+      "native_gap": -4.162832260131836,
+      "value_norm": 0.0
+    },
+    {
+      "question": "second_creator_1",
+      "fact": "creator",
+      "prefix": "",
+      "unit": "Il falegname Geppetto",
+      "subtoken": 7,
+      "piece": "etto",
+      "native_gap": -2.3557662963867188,
+      "value_norm": 1.3616029024124146
+    },
+    {
+      "question": "second_creator_1",
+      "fact": "creator",
+      "prefix": "Il piccolo burattino chiamato Pinocchio è scolpito da",
+      "unit": " Geppetto",
+      "subtoken": 0,
+      "piece": " Ge",
+      "native_gap": 8.585589408874512,
+      "value_norm": 14.128495216369629
+    },
+    {
+      "question": "second_creator_1",
+      "fact": "creator",
+      "prefix": "Il piccolo burattino chiamato Pinocchio è scolpito da",
+      "unit": " Geppetto",
+      "subtoken": 1,
+      "piece": "pp",
+      "native_gap": 0.5692653656005859,
+      "value_norm": 4.321186542510986
+    },
+    {
+      "question": "second_creator_1",
+      "fact": "creator",
+      "prefix": "Il piccolo burattino chiamato Pinocchio è scolpito da",
+      "unit": " Geppetto",
+      "subtoken": 2,
+      "piece": "etto",
+      "native_gap": -1.882791519165039,
+      "value_norm": 1.7870937585830688
+    },
+    {
+      "question": "second_material_0",
+      "fact": "material",
+      "prefix": "",
+      "unit": "Di legno",
+      "subtoken": 0,
+      "piece": "Di",
+      "native_gap": 3.9215383529663086,
+      "value_norm": 7.479592323303223
+    },
+    {
+      "question": "second_material_0",
+      "fact": "material",
+      "prefix": "",
+      "unit": "Di legno",
+      "subtoken": 1,
+      "piece": " leg",
+      "native_gap": 10.477909088134766,
+      "value_norm": 12.60318660736084
+    },
+    {
+      "question": "second_material_0",
+      "fact": "material",
+      "prefix": "",
+      "unit": "Di legno",
+      "subtoken": 2,
+      "piece": "no",
+      "native_gap": 4.5844316482543945,
+      "value_norm": 8.147722244262695
+    },
+    {
+      "question": "second_material_0",
+      "fact": "material",
+      "prefix": "Il corpo di Pinocchio è fatto di",
+      "unit": " legno",
+      "subtoken": 0,
+      "piece": " leg",
+      "native_gap": 1.4305553436279297,
+      "value_norm": 7.0109357833862305
+    },
+    {
+      "question": "second_material_0",
+      "fact": "material",
+      "prefix": "Il corpo di Pinocchio è fatto di",
+      "unit": " legno",
+      "subtoken": 1,
+      "piece": "no",
+      "native_gap": -0.12681961059570312,
+      "value_norm": 3.749907970428467
+    },
+    {
+      "question": "second_material_1",
+      "fact": "material",
+      "prefix": "",
+      "unit": "Di legno",
+      "subtoken": 0,
+      "piece": "Di",
+      "native_gap": 2.91921329498291,
+      "value_norm": 7.015416622161865
+    },
+    {
+      "question": "second_material_1",
+      "fact": "material",
+      "prefix": "",
+      "unit": "Di legno",
+      "subtoken": 1,
+      "piece": " leg",
+      "native_gap": 6.572011947631836,
+      "value_norm": 10.048521995544434
+    },
+    {
+      "question": "second_material_1",
+      "fact": "material",
+      "prefix": "",
+      "unit": "Di legno",
+      "subtoken": 2,
+      "piece": "no",
+      "native_gap": -1.0471057891845703,
+      "value_norm": 2.788201332092285
+    },
+    {
+      "question": "second_material_1",
+      "fact": "material",
+      "prefix": "Inizia la vicenda con un",
+      "unit": " burattino di legno",
+      "subtoken": 0,
+      "piece": " bur",
+      "native_gap": 4.583950042724609,
+      "value_norm": 10.857250213623047
+    },
+    {
+      "question": "second_material_1",
+      "fact": "material",
+      "prefix": "Inizia la vicenda con un",
+      "unit": " burattino di legno",
+      "subtoken": 1,
+      "piece": "att",
+      "native_gap": -1.7437419891357422,
+      "value_norm": 2.3292951583862305
+    },
+    {
+      "question": "second_material_1",
+      "fact": "material",
+      "prefix": "Inizia la vicenda con un",
+      "unit": " burattino di legno",
+      "subtoken": 2,
+      "piece": "ino",
+      "native_gap": -4.377906799316406,
+      "value_norm": 0.0
+    },
+    {
+      "question": "second_material_1",
+      "fact": "material",
+      "prefix": "Inizia la vicenda con un",
+      "unit": " burattino di legno",
+      "subtoken": 3,
+      "piece": " di",
+      "native_gap": 0.16355228424072266,
+      "value_norm": 5.515850067138672
+    },
+    {
+      "question": "second_material_1",
+      "fact": "material",
+      "prefix": "Inizia la vicenda con un",
+      "unit": " burattino di legno",
+      "subtoken": 4,
+      "piece": " leg",
+      "native_gap": 1.6729011535644531,
+      "value_norm": 6.9694743156433105
+    },
+    {
+      "question": "second_material_1",
+      "fact": "material",
+      "prefix": "Inizia la vicenda con un",
+      "unit": " burattino di legno",
+      "subtoken": 5,
+      "piece": "no",
+      "native_gap": -2.5234107971191406,
+      "value_norm": 2.551780939102173
+    },
+    {
+      "question": "second_nose_0",
+      "fact": "nose",
+      "prefix": "",
+      "unit": "Il naso si allunga",
+      "subtoken": 0,
+      "piece": "Il",
+      "native_gap": -0.49251747131347656,
+      "value_norm": 3.7805795669555664
+    },
+    {
+      "question": "second_nose_0",
+      "fact": "nose",
+      "prefix": "",
+      "unit": "Il naso si allunga",
+      "subtoken": 1,
+      "piece": " nas",
+      "native_gap": 0.18415451049804688,
+      "value_norm": 5.768889427185059
+    },
+    {
+      "question": "second_nose_0",
+      "fact": "nose",
+      "prefix": "",
+      "unit": "Il naso si allunga",
+      "subtoken": 2,
+      "piece": "o",
+      "native_gap": -6.258781433105469,
+      "value_norm": 0.0
+    },
+    {
+      "question": "second_nose_0",
+      "fact": "nose",
+      "prefix": "",
+      "unit": "Il naso si allunga",
+      "subtoken": 3,
+      "piece": " si",
+      "native_gap": 10.256669044494629,
+      "value_norm": 16.70075035095215
+    },
+    {
+      "question": "second_nose_0",
+      "fact": "nose",
+      "prefix": "",
+      "unit": "Il naso si allunga",
+      "subtoken": 4,
+      "piece": " all",
+      "native_gap": 6.692121505737305,
+      "value_norm": 12.227555274963379
+    },
+    {
+      "question": "second_nose_0",
+      "fact": "nose",
+      "prefix": "",
+      "unit": "Il naso si allunga",
+      "subtoken": 5,
+      "piece": "unga",
+      "native_gap": 1.6898841857910156,
+      "value_norm": 6.346919536590576
+    },
+    {
+      "question": "second_nose_0",
+      "fact": "nose",
+      "prefix": "Il burattino Pinocchio ha",
+      "unit": " il naso che si allunga",
+      "subtoken": 0,
+      "piece": " il",
+      "native_gap": 2.0260438919067383,
+      "value_norm": 8.358099937438965
+    },
+    {
+      "question": "second_nose_0",
+      "fact": "nose",
+      "prefix": "Il burattino Pinocchio ha",
+      "unit": " il naso che si allunga",
+      "subtoken": 1,
+      "piece": " nas",
+      "native_gap": -2.3520889282226562,
+      "value_norm": 2.2858569622039795
+    },
+    {
+      "question": "second_nose_0",
+      "fact": "nose",
+      "prefix": "Il burattino Pinocchio ha",
+      "unit": " il naso che si allunga",
+      "subtoken": 2,
+      "piece": "o",
+      "native_gap": -6.692539215087891,
+      "value_norm": 0.0
+    },
+    {
+      "question": "second_nose_0",
+      "fact": "nose",
+      "prefix": "Il burattino Pinocchio ha",
+      "unit": " il naso che si allunga",
+      "subtoken": 3,
+      "piece": " che",
+      "native_gap": 2.485250473022461,
+      "value_norm": 8.581509590148926
+    },
+    {
+      "question": "second_nose_0",
+      "fact": "nose",
+      "prefix": "Il burattino Pinocchio ha",
+      "unit": " il naso che si allunga",
+      "subtoken": 4,
+      "piece": " si",
+      "native_gap": 0.7921085357666016,
+      "value_norm": 7.077280044555664
+    },
+    {
+      "question": "second_nose_0",
+      "fact": "nose",
+      "prefix": "Il burattino Pinocchio ha",
+      "unit": " il naso che si allunga",
+      "subtoken": 5,
+      "piece": " all",
+      "native_gap": 3.8952226638793945,
+      "value_norm": 10.230871200561523
+    },
+    {
+      "question": "second_nose_0",
+      "fact": "nose",
+      "prefix": "Il burattino Pinocchio ha",
+      "unit": " il naso che si allunga",
+      "subtoken": 6,
+      "piece": "unga",
+      "native_gap": -0.4113273620605469,
+      "value_norm": 4.259451389312744
+    },
+    {
+      "question": "second_nose_1",
+      "fact": "nose",
+      "prefix": "",
+      "unit": "Il naso si allunga",
+      "subtoken": 0,
+      "piece": "Il",
+      "native_gap": 0.21828460693359375,
+      "value_norm": 6.440216541290283
+    },
+    {
+      "question": "second_nose_1",
+      "fact": "nose",
+      "prefix": "",
+      "unit": "Il naso si allunga",
+      "subtoken": 1,
+      "piece": " nas",
+      "native_gap": 3.254730224609375,
+      "value_norm": 8.741744995117188
+    },
+    {
+      "question": "second_nose_1",
+      "fact": "nose",
+      "prefix": "",
+      "unit": "Il naso si allunga",
+      "subtoken": 2,
+      "piece": "o",
+      "native_gap": -6.111318588256836,
+      "value_norm": 0.0
+    },
+    {
+      "question": "second_nose_1",
+      "fact": "nose",
+      "prefix": "",
+      "unit": "Il naso si allunga",
+      "subtoken": 3,
+      "piece": " si",
+      "native_gap": 7.636214256286621,
+      "value_norm": 14.597930908203125
+    },
+    {
+      "question": "second_nose_1",
+      "fact": "nose",
+      "prefix": "",
+      "unit": "Il naso si allunga",
+      "subtoken": 4,
+      "piece": " all",
+      "native_gap": 3.409085273742676,
+      "value_norm": 9.037551879882812
+    },
+    {
+      "question": "second_nose_1",
+      "fact": "nose",
+      "prefix": "",
+      "unit": "Il naso si allunga",
+      "subtoken": 5,
+      "piece": "unga",
+      "native_gap": 1.3920764923095703,
+      "value_norm": 6.27392578125
+    },
+    {
+      "question": "second_nose_1",
+      "fact": "nose",
+      "prefix": "Il bugietto di Pinocchio provoca",
+      "unit": " l'allungamento del naso",
+      "subtoken": 0,
+      "piece": " l",
+      "native_gap": 2.5363903045654297,
+      "value_norm": 8.477787971496582
+    },
+    {
+      "question": "second_nose_1",
+      "fact": "nose",
+      "prefix": "Il bugietto di Pinocchio provoca",
+      "unit": " l'allungamento del naso",
+      "subtoken": 1,
+      "piece": "'all",
+      "native_gap": 6.204418182373047,
+      "value_norm": 22.82931900024414
+    },
+    {
+      "question": "second_nose_1",
+      "fact": "nose",
+      "prefix": "Il bugietto di Pinocchio provoca",
+      "unit": " l'allungamento del naso",
+      "subtoken": 2,
+      "piece": "ung",
+      "native_gap": 0.10672950744628906,
+      "value_norm": 4.108203887939453
+    },
+    {
+      "question": "second_nose_1",
+      "fact": "nose",
+      "prefix": "Il bugietto di Pinocchio provoca",
+      "unit": " l'allungamento del naso",
+      "subtoken": 3,
+      "piece": "amento",
+      "native_gap": -7.459281921386719,
+      "value_norm": 0.0
+    },
+    {
+      "question": "second_nose_1",
+      "fact": "nose",
+      "prefix": "Il bugietto di Pinocchio provoca",
+      "unit": " l'allungamento del naso",
+      "subtoken": 4,
+      "piece": " del",
+      "native_gap": -2.031230926513672,
+      "value_norm": 2.818047046661377
+    },
+    {
+      "question": "second_nose_1",
+      "fact": "nose",
+      "prefix": "Il bugietto di Pinocchio provoca",
+      "unit": " l'allungamento del naso",
+      "subtoken": 5,
+      "piece": " nas",
+      "native_gap": -4.566783905029297,
+      "value_norm": 0.0
+    },
+    {
+      "question": "second_nose_1",
+      "fact": "nose",
+      "prefix": "Il bugietto di Pinocchio provoca",
+      "unit": " l'allungamento del naso",
+      "subtoken": 6,
+      "piece": "o",
+      "native_gap": -6.6150054931640625,
+      "value_norm": 0.0
+    },
+    {
+      "question": "second_fairy_0",
+      "fact": "fairy",
+      "prefix": "",
+      "unit": "Azzurri",
+      "subtoken": 0,
+      "piece": "A",
+      "native_gap": 4.411836624145508,
+      "value_norm": 9.70565414428711
+    },
+    {
+      "question": "second_fairy_0",
+      "fact": "fairy",
+      "prefix": "",
+      "unit": "Azzurri",
+      "subtoken": 1,
+      "piece": "zz",
+      "native_gap": 3.5988693237304688,
+      "value_norm": 6.3463945388793945
+    },
+    {
+      "question": "second_fairy_0",
+      "fact": "fairy",
+      "prefix": "",
+      "unit": "Azzurri",
+      "subtoken": 2,
+      "piece": "ur",
+      "native_gap": -2.809326171875,
+      "value_norm": 1.7637275457382202
+    },
+    {
+      "question": "second_fairy_0",
+      "fact": "fairy",
+      "prefix": "",
+      "unit": "Azzurri",
+      "subtoken": 3,
+      "piece": "ri",
+      "native_gap": 4.16801643371582,
+      "value_norm": 9.890503883361816
+    },
+    {
+      "question": "second_fairy_0",
+      "fact": "fairy",
+      "prefix": "La tinta dei capelli della fata benefica, incontrata da Pinocchio nel romanzo \"Pinocchio\", è",
+      "unit": " azzurra",
+      "subtoken": 0,
+      "piece": " a",
+      "native_gap": 3.4488611221313477,
+      "value_norm": 10.302154541015625
+    },
+    {
+      "question": "second_fairy_0",
+      "fact": "fairy",
+      "prefix": "La tinta dei capelli della fata benefica, incontrata da Pinocchio nel romanzo \"Pinocchio\", è",
+      "unit": " azzurra",
+      "subtoken": 1,
+      "piece": "zz",
+      "native_gap": -4.704950332641602,
+      "value_norm": 0.0
+    },
+    {
+      "question": "second_fairy_0",
+      "fact": "fairy",
+      "prefix": "La tinta dei capelli della fata benefica, incontrata da Pinocchio nel romanzo \"Pinocchio\", è",
+      "unit": " azzurra",
+      "subtoken": 2,
+      "piece": "ur",
+      "native_gap": -3.190479278564453,
+      "value_norm": 1.1925398111343384
+    },
+    {
+      "question": "second_fairy_0",
+      "fact": "fairy",
+      "prefix": "La tinta dei capelli della fata benefica, incontrata da Pinocchio nel romanzo \"Pinocchio\", è",
+      "unit": " azzurra",
+      "subtoken": 3,
+      "piece": "ra",
+      "native_gap": -0.4149341583251953,
+      "value_norm": 5.008834362030029
+    },
+    {
+      "question": "second_fairy_1",
+      "fact": "fairy",
+      "prefix": "",
+      "unit": "Azzurri",
+      "subtoken": 0,
+      "piece": "A",
+      "native_gap": 5.820003509521484,
+      "value_norm": 11.208792686462402
+    },
+    {
+      "question": "second_fairy_1",
+      "fact": "fairy",
+      "prefix": "",
+      "unit": "Azzurri",
+      "subtoken": 1,
+      "piece": "zz",
+      "native_gap": 4.243772506713867,
+      "value_norm": 7.425168037414551
+    },
+    {
+      "question": "second_fairy_1",
+      "fact": "fairy",
+      "prefix": "",
+      "unit": "Azzurri",
+      "subtoken": 2,
+      "piece": "ur",
+      "native_gap": -1.1223888397216797,
+      "value_norm": 4.08555269241333
+    },
+    {
+      "question": "second_fairy_1",
+      "fact": "fairy",
+      "prefix": "",
+      "unit": "Azzurri",
+      "subtoken": 3,
+      "piece": "ri",
+      "native_gap": 3.8876991271972656,
+      "value_norm": 9.61084270477295
+    },
+    {
+      "question": "second_fairy_1",
+      "fact": "fairy",
+      "prefix": "In Nel Pinocchio di Collodi, il colore che caratterizza i capelli della Fata è",
+      "unit": " azzurro",
+      "subtoken": 0,
+      "piece": " a",
+      "native_gap": 2.3389148712158203,
+      "value_norm": 9.383658409118652
+    },
+    {
+      "question": "second_fairy_1",
+      "fact": "fairy",
+      "prefix": "In Nel Pinocchio di Collodi, il colore che caratterizza i capelli della Fata è",
+      "unit": " azzurro",
+      "subtoken": 1,
+      "piece": "zz",
+      "native_gap": -8.203600883483887,
+      "value_norm": 0.0
+    },
+    {
+      "question": "second_fairy_1",
+      "fact": "fairy",
+      "prefix": "In Nel Pinocchio di Collodi, il colore che caratterizza i capelli della Fata è",
+      "unit": " azzurro",
+      "subtoken": 2,
+      "piece": "ur",
+      "native_gap": -1.7766056060791016,
+      "value_norm": 3.2776970863342285
+    },
+    {
+      "question": "second_fairy_1",
+      "fact": "fairy",
+      "prefix": "In Nel Pinocchio di Collodi, il colore che caratterizza i capelli della Fata è",
+      "unit": " azzurro",
+      "subtoken": 3,
+      "piece": "ro",
+      "native_gap": -6.754692077636719,
+      "value_norm": 0.0
+    },
+    {
+      "question": "second_deceivers_0",
+      "fact": "deceivers",
+      "prefix": "",
+      "unit": "Il Gatto e la Volpe",
+      "subtoken": 0,
+      "piece": "Il",
+      "native_gap": 1.5639495849609375,
+      "value_norm": 6.2127814292907715
+    },
+    {
+      "question": "second_deceivers_0",
+      "fact": "deceivers",
+      "prefix": "",
+      "unit": "Il Gatto e la Volpe",
+      "subtoken": 1,
+      "piece": " G",
+      "native_gap": 6.483070373535156,
+      "value_norm": 14.034571647644043
+    },
+    {
+      "question": "second_deceivers_0",
+      "fact": "deceivers",
+      "prefix": "",
+      "unit": "Il Gatto e la Volpe",
+      "subtoken": 2,
+      "piece": "atto",
+      "native_gap": -0.5582294464111328,
+      "value_norm": 4.043939590454102
+    },
+    {
+      "question": "second_deceivers_0",
+      "fact": "deceivers",
+      "prefix": "",
+      "unit": "Il Gatto e la Volpe",
+      "subtoken": 3,
+      "piece": " e",
+      "native_gap": 4.632887363433838,
+      "value_norm": 11.80471420288086
+    },
+    {
+      "question": "second_deceivers_0",
+      "fact": "deceivers",
+      "prefix": "",
+      "unit": "Il Gatto e la Volpe",
+      "subtoken": 4,
+      "piece": " la",
+      "native_gap": 1.1426620483398438,
+      "value_norm": 9.822610855102539
+    },
+    {
+      "question": "second_deceivers_0",
+      "fact": "deceivers",
+      "prefix": "",
+      "unit": "Il Gatto e la Volpe",
+      "subtoken": 5,
+      "piece": " Vol",
+      "native_gap": 6.232901573181152,
+      "value_norm": 13.977381706237793
+    },
+    {
+      "question": "second_deceivers_0",
+      "fact": "deceivers",
+      "prefix": "",
+      "unit": "Il Gatto e la Volpe",
+      "subtoken": 6,
+      "piece": "pe",
+      "native_gap": 0.4460411071777344,
+      "value_norm": 4.330430507659912
+    },
+    {
+      "question": "second_deceivers_0",
+      "fact": "deceivers",
+      "prefix": "In \"Pinocchio\", il personaggio che raggiona Pinocchio per rubare le monete è",
+      "unit": " il Gatto e la Volpe",
+      "subtoken": 0,
+      "piece": " il",
+      "native_gap": -2.1181726455688477,
+      "value_norm": 3.209639310836792
+    },
+    {
+      "question": "second_deceivers_0",
+      "fact": "deceivers",
+      "prefix": "In \"Pinocchio\", il personaggio che raggiona Pinocchio per rubare le monete è",
+      "unit": " il Gatto e la Volpe",
+      "subtoken": 1,
+      "piece": " G",
+      "native_gap": 1.69907808303833,
+      "value_norm": 12.331047058105469
+    },
+    {
+      "question": "second_deceivers_0",
+      "fact": "deceivers",
+      "prefix": "In \"Pinocchio\", il personaggio che raggiona Pinocchio per rubare le monete è",
+      "unit": " il Gatto e la Volpe",
+      "subtoken": 2,
+      "piece": "atto",
+      "native_gap": -0.31984519958496094,
+      "value_norm": 4.573999881744385
+    },
+    {
+      "question": "second_deceivers_0",
+      "fact": "deceivers",
+      "prefix": "In \"Pinocchio\", il personaggio che raggiona Pinocchio per rubare le monete è",
+      "unit": " il Gatto e la Volpe",
+      "subtoken": 3,
+      "piece": " e",
+      "native_gap": 3.4546375274658203,
+      "value_norm": 10.733147621154785
+    },
+    {
+      "question": "second_deceivers_0",
+      "fact": "deceivers",
+      "prefix": "In \"Pinocchio\", il personaggio che raggiona Pinocchio per rubare le monete è",
+      "unit": " il Gatto e la Volpe",
+      "subtoken": 4,
+      "piece": " la",
+      "native_gap": -0.3572063446044922,
+      "value_norm": 7.906202793121338
+    },
+    {
+      "question": "second_deceivers_0",
+      "fact": "deceivers",
+      "prefix": "In \"Pinocchio\", il personaggio che raggiona Pinocchio per rubare le monete è",
+      "unit": " il Gatto e la Volpe",
+      "subtoken": 5,
+      "piece": " Vol",
+      "native_gap": 3.4950995445251465,
+      "value_norm": 11.725959777832031
+    },
+    {
+      "question": "second_deceivers_0",
+      "fact": "deceivers",
+      "prefix": "In \"Pinocchio\", il personaggio che raggiona Pinocchio per rubare le monete è",
+      "unit": " il Gatto e la Volpe",
+      "subtoken": 6,
+      "piece": "pe",
+      "native_gap": -1.2082099914550781,
+      "value_norm": 2.876596212387085
+    },
+    {
+      "question": "second_deceivers_1",
+      "fact": "deceivers",
+      "prefix": "",
+      "unit": "Il Gatto e la Volpe",
+      "subtoken": 0,
+      "piece": "Il",
+      "native_gap": 1.9499683380126953,
+      "value_norm": 9.679664611816406
+    },
+    {
+      "question": "second_deceivers_1",
+      "fact": "deceivers",
+      "prefix": "",
+      "unit": "Il Gatto e la Volpe",
+      "subtoken": 1,
+      "piece": " G",
+      "native_gap": 6.984671592712402,
+      "value_norm": 10.581886291503906
+    },
+    {
+      "question": "second_deceivers_1",
+      "fact": "deceivers",
+      "prefix": "",
+      "unit": "Il Gatto e la Volpe",
+      "subtoken": 2,
+      "piece": "atto",
+      "native_gap": 0.5906982421875,
+      "value_norm": 5.451112747192383
+    },
+    {
+      "question": "second_deceivers_1",
+      "fact": "deceivers",
+      "prefix": "",
+      "unit": "Il Gatto e la Volpe",
+      "subtoken": 3,
+      "piece": " e",
+      "native_gap": -0.6646690368652344,
+      "value_norm": 4.734582424163818
+    },
+    {
+      "question": "second_deceivers_1",
+      "fact": "deceivers",
+      "prefix": "",
+      "unit": "Il Gatto e la Volpe",
+      "subtoken": 4,
+      "piece": " la",
+      "native_gap": 0.5142612457275391,
+      "value_norm": 9.413806915283203
+    },
+    {
+      "question": "second_deceivers_1",
+      "fact": "deceivers",
+      "prefix": "",
+      "unit": "Il Gatto e la Volpe",
+      "subtoken": 5,
+      "piece": " Vol",
+      "native_gap": 4.696743011474609,
+      "value_norm": 12.305834770202637
+    },
+    {
+      "question": "second_deceivers_1",
+      "fact": "deceivers",
+      "prefix": "",
+      "unit": "Il Gatto e la Volpe",
+      "subtoken": 6,
+      "piece": "pe",
+      "native_gap": 0.028005599975585938,
+      "value_norm": 3.960322856903076
+    },
+    {
+      "question": "second_deceivers_1",
+      "fact": "deceivers",
+      "prefix": "La coppia che approfitta dell'ingenuità di Pinocchio, promettendo denaro che cresce, è",
+      "unit": " il Gatto e la Volpe",
+      "subtoken": 0,
+      "piece": " il",
+      "native_gap": -0.6847133636474609,
+      "value_norm": 5.888434886932373
+    },
+    {
+      "question": "second_deceivers_1",
+      "fact": "deceivers",
+      "prefix": "La coppia che approfitta dell'ingenuità di Pinocchio, promettendo denaro che cresce, è",
+      "unit": " il Gatto e la Volpe",
+      "subtoken": 1,
+      "piece": " G",
+      "native_gap": 3.0065526962280273,
+      "value_norm": 14.761955261230469
+    },
+    {
+      "question": "second_deceivers_1",
+      "fact": "deceivers",
+      "prefix": "La coppia che approfitta dell'ingenuità di Pinocchio, promettendo denaro che cresce, è",
+      "unit": " il Gatto e la Volpe",
+      "subtoken": 2,
+      "piece": "atto",
+      "native_gap": -0.3375873565673828,
+      "value_norm": 4.632351398468018
+    },
+    {
+      "question": "second_deceivers_1",
+      "fact": "deceivers",
+      "prefix": "La coppia che approfitta dell'ingenuità di Pinocchio, promettendo denaro che cresce, è",
+      "unit": " il Gatto e la Volpe",
+      "subtoken": 3,
+      "piece": " e",
+      "native_gap": -0.9448165893554688,
+      "value_norm": 4.341064453125
+    },
+    {
+      "question": "second_deceivers_1",
+      "fact": "deceivers",
+      "prefix": "La coppia che approfitta dell'ingenuità di Pinocchio, promettendo denaro che cresce, è",
+      "unit": " il Gatto e la Volpe",
+      "subtoken": 4,
+      "piece": " la",
+      "native_gap": -0.6755847930908203,
+      "value_norm": 7.152599334716797
+    },
+    {
+      "question": "second_deceivers_1",
+      "fact": "deceivers",
+      "prefix": "La coppia che approfitta dell'ingenuità di Pinocchio, promettendo denaro che cresce, è",
+      "unit": " il Gatto e la Volpe",
+      "subtoken": 5,
+      "piece": " Vol",
+      "native_gap": 3.574904441833496,
+      "value_norm": 11.270535469055176
+    },
+    {
+      "question": "second_deceivers_1",
+      "fact": "deceivers",
+      "prefix": "La coppia che approfitta dell'ingenuità di Pinocchio, promettendo denaro che cresce, è",
+      "unit": " il Gatto e la Volpe",
+      "subtoken": 6,
+      "piece": "pe",
+      "native_gap": -1.7151126861572266,
+      "value_norm": 2.2560439109802246
+    },
+    {
+      "question": "second_donkey_0",
+      "fact": "donkey",
+      "prefix": "",
+      "unit": "In un asino",
+      "subtoken": 0,
+      "piece": "In",
+      "native_gap": 0.9877967834472656,
+      "value_norm": 6.903348922729492
+    },
+    {
+      "question": "second_donkey_0",
+      "fact": "donkey",
+      "prefix": "",
+      "unit": "In un asino",
+      "subtoken": 1,
+      "piece": " un",
+      "native_gap": 1.146341323852539,
+      "value_norm": 9.322580337524414
+    },
+    {
+      "question": "second_donkey_0",
+      "fact": "donkey",
+      "prefix": "",
+      "unit": "In un asino",
+      "subtoken": 2,
+      "piece": " as",
+      "native_gap": 11.040696144104004,
+      "value_norm": 16.321483612060547
+    },
+    {
+      "question": "second_donkey_0",
+      "fact": "donkey",
+      "prefix": "",
+      "unit": "In un asino",
+      "subtoken": 3,
+      "piece": "ino",
+      "native_gap": 2.806142807006836,
+      "value_norm": 6.418524265289307
+    },
+    {
+      "question": "second_donkey_0",
+      "fact": "donkey",
+      "prefix": "La nuova forma animale che assume Pinocchio nella storia di Lontano dalla scuola, nel Paese dei balocchi, è",
+      "unit": " un asino",
+      "subtoken": 0,
+      "piece": " un",
+      "native_gap": 1.8292932510375977,
+      "value_norm": 12.785078048706055
+    },
+    {
+      "question": "second_donkey_0",
+      "fact": "donkey",
+      "prefix": "La nuova forma animale che assume Pinocchio nella storia di Lontano dalla scuola, nel Paese dei balocchi, è",
+      "unit": " un asino",
+      "subtoken": 1,
+      "piece": " as",
+      "native_gap": 5.419887542724609,
+      "value_norm": 13.340068817138672
+    },
+    {
+      "question": "second_donkey_0",
+      "fact": "donkey",
+      "prefix": "La nuova forma animale che assume Pinocchio nella storia di Lontano dalla scuola, nel Paese dei balocchi, è",
+      "unit": " un asino",
+      "subtoken": 2,
+      "piece": "ino",
+      "native_gap": -2.7521886825561523,
+      "value_norm": 1.4980300664901733
+    },
+    {
+      "question": "second_donkey_1",
+      "fact": "donkey",
+      "prefix": "",
+      "unit": "In un asino",
+      "subtoken": 0,
+      "piece": "In",
+      "native_gap": -1.0559024810791016,
+      "value_norm": 4.227994918823242
+    },
+    {
+      "question": "second_donkey_1",
+      "fact": "donkey",
+      "prefix": "",
+      "unit": "In un asino",
+      "subtoken": 1,
+      "piece": " un",
+      "native_gap": -0.17689228057861328,
+      "value_norm": 7.531068325042725
+    },
+    {
+      "question": "second_donkey_1",
+      "fact": "donkey",
+      "prefix": "",
+      "unit": "In un asino",
+      "subtoken": 2,
+      "piece": " as",
+      "native_gap": 8.244982719421387,
+      "value_norm": 14.901330947875977
+    },
+    {
+      "question": "second_donkey_1",
+      "fact": "donkey",
+      "prefix": "",
+      "unit": "In un asino",
+      "subtoken": 3,
+      "piece": "ino",
+      "native_gap": 1.2590484619140625,
+      "value_norm": 5.0289130210876465
+    },
+    {
+      "question": "second_donkey_1",
+      "fact": "donkey",
+      "prefix": "In un animale, specificamente",
+      "unit": " un asino",
+      "subtoken": 0,
+      "piece": " un",
+      "native_gap": -1.3058300018310547,
+      "value_norm": 6.596653938293457
+    },
+    {
+      "question": "second_donkey_1",
+      "fact": "donkey",
+      "prefix": "In un animale, specificamente",
+      "unit": " un asino",
+      "subtoken": 1,
+      "piece": " as",
+      "native_gap": 6.022343635559082,
+      "value_norm": 14.05129337310791
+    },
+    {
+      "question": "second_donkey_1",
+      "fact": "donkey",
+      "prefix": "In un animale, specificamente",
+      "unit": " un asino",
+      "subtoken": 2,
+      "piece": "ino",
+      "native_gap": -2.196965217590332,
+      "value_norm": 2.221261978149414
+    },
+    {
+      "question": "second_ending_0",
+      "fact": "ending",
+      "prefix": "",
+      "unit": "In un bambino vero",
+      "subtoken": 0,
+      "piece": "In",
+      "native_gap": -0.15204811096191406,
+      "value_norm": 4.831790924072266
+    },
+    {
+      "question": "second_ending_0",
+      "fact": "ending",
+      "prefix": "",
+      "unit": "In un bambino vero",
+      "subtoken": 1,
+      "piece": " un",
+      "native_gap": 6.372200012207031,
+      "value_norm": 14.488679885864258
+    },
+    {
+      "question": "second_ending_0",
+      "fact": "ending",
+      "prefix": "",
+      "unit": "In un bambino vero",
+      "subtoken": 2,
+      "piece": " bamb",
+      "native_gap": 12.884531021118164,
+      "value_norm": 20.74827766418457
+    },
+    {
+      "question": "second_ending_0",
+      "fact": "ending",
+      "prefix": "",
+      "unit": "In un bambino vero",
+      "subtoken": 3,
+      "piece": "ino",
+      "native_gap": -7.485324859619141,
+      "value_norm": 0.0
+    },
+    {
+      "question": "second_ending_0",
+      "fact": "ending",
+      "prefix": "",
+      "unit": "In un bambino vero",
+      "subtoken": 4,
+      "piece": " vero",
+      "native_gap": 6.083566188812256,
+      "value_norm": 10.663665771484375
+    },
+    {
+      "question": "second_ending_0",
+      "fact": "ending",
+      "prefix": "In Collodi, il capitolo finale di \"Pinocchio\" è dedicato alla figura di Pinocchio, che viene trasformato in",
+      "unit": " un bambino vero",
+      "subtoken": 0,
+      "piece": " un",
+      "native_gap": -0.8215599060058594,
+      "value_norm": 8.196846961975098
+    },
+    {
+      "question": "second_ending_0",
+      "fact": "ending",
+      "prefix": "In Collodi, il capitolo finale di \"Pinocchio\" è dedicato alla figura di Pinocchio, che viene trasformato in",
+      "unit": " un bambino vero",
+      "subtoken": 1,
+      "piece": " bamb",
+      "native_gap": 1.7354583740234375,
+      "value_norm": 9.010172843933105
+    },
+    {
+      "question": "second_ending_0",
+      "fact": "ending",
+      "prefix": "In Collodi, il capitolo finale di \"Pinocchio\" è dedicato alla figura di Pinocchio, che viene trasformato in",
+      "unit": " un bambino vero",
+      "subtoken": 2,
+      "piece": "ino",
+      "native_gap": -6.9595947265625,
+      "value_norm": 0.0
+    },
+    {
+      "question": "second_ending_0",
+      "fact": "ending",
+      "prefix": "In Collodi, il capitolo finale di \"Pinocchio\" è dedicato alla figura di Pinocchio, che viene trasformato in",
+      "unit": " un bambino vero",
+      "subtoken": 3,
+      "piece": " vero",
+      "native_gap": 3.721430778503418,
+      "value_norm": 8.781049728393555
+    },
+    {
+      "question": "second_ending_1",
+      "fact": "ending",
+      "prefix": "",
+      "unit": "In un bambino vero",
+      "subtoken": 0,
+      "piece": "In",
+      "native_gap": 1.7851552963256836,
+      "value_norm": 8.08801555633545
+    },
+    {
+      "question": "second_ending_1",
+      "fact": "ending",
+      "prefix": "",
+      "unit": "In un bambino vero",
+      "subtoken": 1,
+      "piece": " un",
+      "native_gap": 0.6428098678588867,
+      "value_norm": 7.133065223693848
+    },
+    {
+      "question": "second_ending_1",
+      "fact": "ending",
+      "prefix": "",
+      "unit": "In un bambino vero",
+      "subtoken": 2,
+      "piece": " bamb",
+      "native_gap": 5.132869720458984,
+      "value_norm": 10.458056449890137
+    },
+    {
+      "question": "second_ending_1",
+      "fact": "ending",
+      "prefix": "",
+      "unit": "In un bambino vero",
+      "subtoken": 3,
+      "piece": "ino",
+      "native_gap": -6.501018524169922,
+      "value_norm": 0.0
+    },
+    {
+      "question": "second_ending_1",
+      "fact": "ending",
+      "prefix": "",
+      "unit": "In un bambino vero",
+      "subtoken": 4,
+      "piece": " vero",
+      "native_gap": 4.524022102355957,
+      "value_norm": 9.021672248840332
+    },
+    {
+      "question": "second_ending_1",
+      "fact": "ending",
+      "prefix": "Risposto in una frase: Pinocchio è",
+      "unit": " un bambino vero",
+      "subtoken": 0,
+      "piece": " un",
+      "native_gap": 2.0403480529785156,
+      "value_norm": 9.842791557312012
+    },
+    {
+      "question": "second_ending_1",
+      "fact": "ending",
+      "prefix": "Risposto in una frase: Pinocchio è",
+      "unit": " un bambino vero",
+      "subtoken": 1,
+      "piece": " bamb",
+      "native_gap": 1.704606056213379,
+      "value_norm": 7.83745813369751
+    },
+    {
+      "question": "second_ending_1",
+      "fact": "ending",
+      "prefix": "Risposto in una frase: Pinocchio è",
+      "unit": " un bambino vero",
+      "subtoken": 2,
+      "piece": "ino",
+      "native_gap": -7.395235061645508,
+      "value_norm": 0.0
+    },
+    {
+      "question": "second_ending_1",
+      "fact": "ending",
+      "prefix": "Risposto in una frase: Pinocchio è",
+      "unit": " un bambino vero",
+      "subtoken": 3,
+      "piece": " vero",
+      "native_gap": 4.53780460357666,
+      "value_norm": 8.452547073364258
+    },
+    {
+      "question": "second_puppeteer_0",
+      "fact": "puppeteer",
+      "prefix": "",
+      "unit": "Il burattinaio Mangiafoco",
+      "subtoken": 0,
+      "piece": "Il",
+      "native_gap": 0.027570724487304688,
+      "value_norm": 5.997441291809082
+    },
+    {
+      "question": "second_puppeteer_0",
+      "fact": "puppeteer",
+      "prefix": "",
+      "unit": "Il burattinaio Mangiafoco",
+      "subtoken": 1,
+      "piece": " bur",
+      "native_gap": -1.7349119186401367,
+      "value_norm": 2.850386381149292
+    },
+    {
+      "question": "second_puppeteer_0",
+      "fact": "puppeteer",
+      "prefix": "",
+      "unit": "Il burattinaio Mangiafoco",
+      "subtoken": 2,
+      "piece": "att",
+      "native_gap": -8.761358261108398,
+      "value_norm": 0.0
+    },
+    {
+      "question": "second_puppeteer_0",
+      "fact": "puppeteer",
+      "prefix": "",
+      "unit": "Il burattinaio Mangiafoco",
+      "subtoken": 3,
+      "piece": "ina",
+      "native_gap": 8.154397964477539,
+      "value_norm": 11.927066802978516
+    },
+    {
+      "question": "second_puppeteer_0",
+      "fact": "puppeteer",
+      "prefix": "",
+      "unit": "Il burattinaio Mangiafoco",
+      "subtoken": 4,
+      "piece": "io",
+      "native_gap": 10.500799179077148,
+      "value_norm": 13.40622329711914
+    },
+    {
+      "question": "second_puppeteer_0",
+      "fact": "puppeteer",
+      "prefix": "",
+      "unit": "Il burattinaio Mangiafoco",
+      "subtoken": 5,
+      "piece": " Mang",
+      "native_gap": 10.142495155334473,
+      "value_norm": 15.960587501525879
+    },
+    {
+      "question": "second_puppeteer_0",
+      "fact": "puppeteer",
+      "prefix": "",
+      "unit": "Il burattinaio Mangiafoco",
+      "subtoken": 6,
+      "piece": "ia",
+      "native_gap": 0.48163604736328125,
+      "value_norm": 4.308018207550049
+    },
+    {
+      "question": "second_puppeteer_0",
+      "fact": "puppeteer",
+      "prefix": "",
+      "unit": "Il burattinaio Mangiafoco",
+      "subtoken": 7,
+      "piece": "f",
+      "native_gap": 1.3897666931152344,
+      "value_norm": 8.495047569274902
+    },
+    {
+      "question": "second_puppeteer_0",
+      "fact": "puppeteer",
+      "prefix": "",
+      "unit": "Il burattinaio Mangiafoco",
+      "subtoken": 8,
+      "piece": "oco",
+      "native_gap": 10.297542572021484,
+      "value_norm": 12.397432327270508
+    },
+    {
+      "question": "second_puppeteer_0",
+      "fact": "puppeteer",
+      "prefix": "Il burattinaio incontrato da Pinocchio è",
+      "unit": " Mangiafoco",
+      "subtoken": 0,
+      "piece": " Mang",
+      "native_gap": 5.758355617523193,
+      "value_norm": 11.60324478149414
+    },
+    {
+      "question": "second_puppeteer_0",
+      "fact": "puppeteer",
+      "prefix": "Il burattinaio incontrato da Pinocchio è",
+      "unit": " Mangiafoco",
+      "subtoken": 1,
+      "piece": "ia",
+      "native_gap": 1.538522720336914,
+      "value_norm": 4.910623550415039
+    },
+    {
+      "question": "second_puppeteer_0",
+      "fact": "puppeteer",
+      "prefix": "Il burattinaio incontrato da Pinocchio è",
+      "unit": " Mangiafoco",
+      "subtoken": 2,
+      "piece": "f",
+      "native_gap": 4.797741889953613,
+      "value_norm": 9.007346153259277
+    },
+    {
+      "question": "second_puppeteer_0",
+      "fact": "puppeteer",
+      "prefix": "Il burattinaio incontrato da Pinocchio è",
+      "unit": " Mangiafoco",
+      "subtoken": 3,
+      "piece": "oco",
+      "native_gap": 7.423135757446289,
+      "value_norm": 11.044759750366211
+    },
+    {
+      "question": "second_puppeteer_1",
+      "fact": "puppeteer",
+      "prefix": "",
+      "unit": "Il burattinaio Mangiafoco",
+      "subtoken": 0,
+      "piece": "Il",
+      "native_gap": -2.0335121154785156,
+      "value_norm": 3.0622856616973877
+    },
+    {
+      "question": "second_puppeteer_1",
+      "fact": "puppeteer",
+      "prefix": "",
+      "unit": "Il burattinaio Mangiafoco",
+      "subtoken": 1,
+      "piece": " bur",
+      "native_gap": 14.037522315979004,
+      "value_norm": 16.59665298461914
+    },
+    {
+      "question": "second_puppeteer_1",
+      "fact": "puppeteer",
+      "prefix": "",
+      "unit": "Il burattinaio Mangiafoco",
+      "subtoken": 2,
+      "piece": "att",
+      "native_gap": -0.4137248992919922,
+      "value_norm": 3.638096570968628
+    },
+    {
+      "question": "second_puppeteer_1",
+      "fact": "puppeteer",
+      "prefix": "",
+      "unit": "Il burattinaio Mangiafoco",
+      "subtoken": 3,
+      "piece": "ina",
+      "native_gap": 5.454319000244141,
+      "value_norm": 9.705107688903809
+    },
+    {
+      "question": "second_puppeteer_1",
+      "fact": "puppeteer",
+      "prefix": "",
+      "unit": "Il burattinaio Mangiafoco",
+      "subtoken": 4,
+      "piece": "io",
+      "native_gap": 3.7264928817749023,
+      "value_norm": 6.298170566558838
+    },
+    {
+      "question": "second_puppeteer_1",
+      "fact": "puppeteer",
+      "prefix": "",
+      "unit": "Il burattinaio Mangiafoco",
+      "subtoken": 5,
+      "piece": " Mang",
+      "native_gap": 11.023340225219727,
+      "value_norm": 15.46108627319336
+    },
+    {
+      "question": "second_puppeteer_1",
+      "fact": "puppeteer",
+      "prefix": "",
+      "unit": "Il burattinaio Mangiafoco",
+      "subtoken": 6,
+      "piece": "ia",
+      "native_gap": 2.220189094543457,
+      "value_norm": 5.182727336883545
+    },
+    {
+      "question": "second_puppeteer_1",
+      "fact": "puppeteer",
+      "prefix": "",
+      "unit": "Il burattinaio Mangiafoco",
+      "subtoken": 7,
+      "piece": "f",
+      "native_gap": 0.5356178283691406,
+      "value_norm": 4.863247871398926
+    },
+    {
+      "question": "second_puppeteer_1",
+      "fact": "puppeteer",
+      "prefix": "",
+      "unit": "Il burattinaio Mangiafoco",
+      "subtoken": 8,
+      "piece": "oco",
+      "native_gap": 11.534219741821289,
+      "value_norm": 12.75637149810791
+    },
+    {
+      "question": "second_puppeteer_1",
+      "fact": "puppeteer",
+      "prefix": "Il nome del direttore del teatro in cui arriva Pinocchio è",
+      "unit": " Mangiafoco",
+      "subtoken": 0,
+      "piece": " Mang",
+      "native_gap": 6.113369941711426,
+      "value_norm": 11.916707038879395
+    },
+    {
+      "question": "second_puppeteer_1",
+      "fact": "puppeteer",
+      "prefix": "Il nome del direttore del teatro in cui arriva Pinocchio è",
+      "unit": " Mangiafoco",
+      "subtoken": 1,
+      "piece": "ia",
+      "native_gap": 4.441141128540039,
+      "value_norm": 6.629843235015869
+    },
+    {
+      "question": "second_puppeteer_1",
+      "fact": "puppeteer",
+      "prefix": "Il nome del direttore del teatro in cui arriva Pinocchio è",
+      "unit": " Mangiafoco",
+      "subtoken": 2,
+      "piece": "f",
+      "native_gap": 1.1760988235473633,
+      "value_norm": 5.651705741882324
+    },
+    {
+      "question": "second_puppeteer_1",
+      "fact": "puppeteer",
+      "prefix": "Il nome del direttore del teatro in cui arriva Pinocchio è",
+      "unit": " Mangiafoco",
+      "subtoken": 3,
+      "piece": "oco",
+      "native_gap": 8.022843360900879,
+      "value_norm": 9.591763496398926
+    },
+    {
+      "question": "second_friend_0",
+      "fact": "friend",
+      "prefix": "",
+      "unit": "Con Lucignolo",
+      "subtoken": 0,
+      "piece": "Con",
+      "native_gap": 5.93977165222168,
+      "value_norm": 9.128044128417969
+    },
+    {
+      "question": "second_friend_0",
+      "fact": "friend",
+      "prefix": "",
+      "unit": "Con Lucignolo",
+      "subtoken": 1,
+      "piece": " Luc",
+      "native_gap": 10.210164070129395,
+      "value_norm": 17.4013671875
+    },
+    {
+      "question": "second_friend_0",
+      "fact": "friend",
+      "prefix": "",
+      "unit": "Con Lucignolo",
+      "subtoken": 2,
+      "piece": "ign",
+      "native_gap": 3.1102542877197266,
+      "value_norm": 4.812126159667969
+    },
+    {
+      "question": "second_friend_0",
+      "fact": "friend",
+      "prefix": "",
+      "unit": "Con Lucignolo",
+      "subtoken": 3,
+      "piece": "olo",
+      "native_gap": 2.943134307861328,
+      "value_norm": 6.090041637420654
+    },
+    {
+      "question": "second_friend_0",
+      "fact": "friend",
+      "prefix": "Pinocchio accompagna il suo amico",
+      "unit": " Lucignolo",
+      "subtoken": 0,
+      "piece": " Luc",
+      "native_gap": 4.454407691955566,
+      "value_norm": 9.99350357055664
+    },
+    {
+      "question": "second_friend_0",
+      "fact": "friend",
+      "prefix": "Pinocchio accompagna il suo amico",
+      "unit": " Lucignolo",
+      "subtoken": 1,
+      "piece": "ign",
+      "native_gap": 2.523069381713867,
+      "value_norm": 4.3854804039001465
+    },
+    {
+      "question": "second_friend_0",
+      "fact": "friend",
+      "prefix": "Pinocchio accompagna il suo amico",
+      "unit": " Lucignolo",
+      "subtoken": 2,
+      "piece": "olo",
+      "native_gap": 3.665882110595703,
+      "value_norm": 6.683491230010986
+    },
+    {
+      "question": "second_friend_1",
+      "fact": "friend",
+      "prefix": "",
+      "unit": "Con Lucignolo",
+      "subtoken": 0,
+      "piece": "Con",
+      "native_gap": 7.993381500244141,
+      "value_norm": 10.837611198425293
+    },
+    {
+      "question": "second_friend_1",
+      "fact": "friend",
+      "prefix": "",
+      "unit": "Con Lucignolo",
+      "subtoken": 1,
+      "piece": " Luc",
+      "native_gap": 14.701998710632324,
+      "value_norm": 21.978988647460938
+    },
+    {
+      "question": "second_friend_1",
+      "fact": "friend",
+      "prefix": "",
+      "unit": "Con Lucignolo",
+      "subtoken": 2,
+      "piece": "ign",
+      "native_gap": 3.558185577392578,
+      "value_norm": 5.25931453704834
+    },
+    {
+      "question": "second_friend_1",
+      "fact": "friend",
+      "prefix": "",
+      "unit": "Con Lucignolo",
+      "subtoken": 3,
+      "piece": "olo",
+      "native_gap": 2.5156192779541016,
+      "value_norm": 5.562649726867676
+    },
+    {
+      "question": "second_friend_1",
+      "fact": "friend",
+      "prefix": "Il compagno di Pinocchio nella partenza per il luogo dove si gioca sempre è",
+      "unit": " Lucignolo",
+      "subtoken": 0,
+      "piece": " Luc",
+      "native_gap": 2.8831958770751953,
+      "value_norm": 9.245238304138184
+    },
+    {
+      "question": "second_friend_1",
+      "fact": "friend",
+      "prefix": "Il compagno di Pinocchio nella partenza per il luogo dove si gioca sempre è",
+      "unit": " Lucignolo",
+      "subtoken": 1,
+      "piece": "ign",
+      "native_gap": 3.8138809204101562,
+      "value_norm": 5.312723636627197
+    },
+    {
+      "question": "second_friend_1",
+      "fact": "friend",
+      "prefix": "Il compagno di Pinocchio nella partenza per il luogo dove si gioca sempre è",
+      "unit": " Lucignolo",
+      "subtoken": 2,
+      "piece": "olo",
+      "native_gap": 3.4941329956054688,
+      "value_norm": 6.558485507965088
+    },
+    {
+      "question": "second_wood_donor_0",
+      "fact": "wood_donor",
+      "prefix": "",
+      "unit": "Da Maestro Ciliegia",
+      "subtoken": 0,
+      "piece": "Da",
+      "native_gap": 6.640851974487305,
+      "value_norm": 11.444398880004883
+    },
+    {
+      "question": "second_wood_donor_0",
+      "fact": "wood_donor",
+      "prefix": "",
+      "unit": "Da Maestro Ciliegia",
+      "subtoken": 1,
+      "piece": " Ma",
+      "native_gap": 8.024982452392578,
+      "value_norm": 13.598034858703613
+    },
+    {
+      "question": "second_wood_donor_0",
+      "fact": "wood_donor",
+      "prefix": "",
+      "unit": "Da Maestro Ciliegia",
+      "subtoken": 2,
+      "piece": "estro",
+      "native_gap": -2.49945068359375,
+      "value_norm": 1.2865804433822632
+    },
+    {
+      "question": "second_wood_donor_0",
+      "fact": "wood_donor",
+      "prefix": "",
+      "unit": "Da Maestro Ciliegia",
+      "subtoken": 3,
+      "piece": " C",
+      "native_gap": 0.895848274230957,
+      "value_norm": 6.132322311401367
+    },
+    {
+      "question": "second_wood_donor_0",
+      "fact": "wood_donor",
+      "prefix": "",
+      "unit": "Da Maestro Ciliegia",
+      "subtoken": 4,
+      "piece": "il",
+      "native_gap": 3.702564239501953,
+      "value_norm": 9.493523597717285
+    },
+    {
+      "question": "second_wood_donor_0",
+      "fact": "wood_donor",
+      "prefix": "",
+      "unit": "Da Maestro Ciliegia",
+      "subtoken": 5,
+      "piece": "ieg",
+      "native_gap": 2.4143753051757812,
+      "value_norm": 5.597878932952881
+    },
+    {
+      "question": "second_wood_donor_0",
+      "fact": "wood_donor",
+      "prefix": "",
+      "unit": "Da Maestro Ciliegia",
+      "subtoken": 6,
+      "piece": "ia",
+      "native_gap": 4.2969207763671875,
+      "value_norm": 7.155364990234375
+    },
+    {
+      "question": "second_wood_donor_0",
+      "fact": "wood_donor",
+      "prefix": "Il legno è regalato a Geppetto da",
+      "unit": " Maestro Ciliegia",
+      "subtoken": 0,
+      "piece": " Ma",
+      "native_gap": 5.7731733322143555,
+      "value_norm": 12.673652648925781
+    },
+    {
+      "question": "second_wood_donor_0",
+      "fact": "wood_donor",
+      "prefix": "Il legno è regalato a Geppetto da",
+      "unit": " Maestro Ciliegia",
+      "subtoken": 1,
+      "piece": "estro",
+      "native_gap": -2.06591796875,
+      "value_norm": 1.573173999786377
+    },
+    {
+      "question": "second_wood_donor_0",
+      "fact": "wood_donor",
+      "prefix": "Il legno è regalato a Geppetto da",
+      "unit": " Maestro Ciliegia",
+      "subtoken": 2,
+      "piece": " C",
+      "native_gap": -0.1614522933959961,
+      "value_norm": 5.48307466506958
+    },
+    {
+      "question": "second_wood_donor_0",
+      "fact": "wood_donor",
+      "prefix": "Il legno è regalato a Geppetto da",
+      "unit": " Maestro Ciliegia",
+      "subtoken": 3,
+      "piece": "il",
+      "native_gap": 3.131624221801758,
+      "value_norm": 9.311002731323242
+    },
+    {
+      "question": "second_wood_donor_0",
+      "fact": "wood_donor",
+      "prefix": "Il legno è regalato a Geppetto da",
+      "unit": " Maestro Ciliegia",
+      "subtoken": 4,
+      "piece": "ieg",
+      "native_gap": 3.0722599029541016,
+      "value_norm": 6.461157321929932
+    },
+    {
+      "question": "second_wood_donor_0",
+      "fact": "wood_donor",
+      "prefix": "Il legno è regalato a Geppetto da",
+      "unit": " Maestro Ciliegia",
+      "subtoken": 5,
+      "piece": "ia",
+      "native_gap": 3.4914608001708984,
+      "value_norm": 6.980898380279541
+    },
+    {
+      "question": "second_wood_donor_1",
+      "fact": "wood_donor",
+      "prefix": "",
+      "unit": "Da Maestro Ciliegia",
+      "subtoken": 0,
+      "piece": "Da",
+      "native_gap": 5.495952606201172,
+      "value_norm": 9.322434425354004
+    },
+    {
+      "question": "second_wood_donor_1",
+      "fact": "wood_donor",
+      "prefix": "",
+      "unit": "Da Maestro Ciliegia",
+      "subtoken": 1,
+      "piece": " Ma",
+      "native_gap": 8.339818954467773,
+      "value_norm": 15.122403144836426
+    },
+    {
+      "question": "second_wood_donor_1",
+      "fact": "wood_donor",
+      "prefix": "",
+      "unit": "Da Maestro Ciliegia",
+      "subtoken": 2,
+      "piece": "estro",
+      "native_gap": -1.0350112915039062,
+      "value_norm": 2.462277889251709
+    },
+    {
+      "question": "second_wood_donor_1",
+      "fact": "wood_donor",
+      "prefix": "",
+      "unit": "Da Maestro Ciliegia",
+      "subtoken": 3,
+      "piece": " C",
+      "native_gap": 1.5198554992675781,
+      "value_norm": 6.647879600524902
+    },
+    {
+      "question": "second_wood_donor_1",
+      "fact": "wood_donor",
+      "prefix": "",
+      "unit": "Da Maestro Ciliegia",
+      "subtoken": 4,
+      "piece": "il",
+      "native_gap": 2.8568735122680664,
+      "value_norm": 8.793913841247559
+    },
+    {
+      "question": "second_wood_donor_1",
+      "fact": "wood_donor",
+      "prefix": "",
+      "unit": "Da Maestro Ciliegia",
+      "subtoken": 5,
+      "piece": "ieg",
+      "native_gap": 1.5700225830078125,
+      "value_norm": 4.826375961303711
+    },
+    {
+      "question": "second_wood_donor_1",
+      "fact": "wood_donor",
+      "prefix": "",
+      "unit": "Da Maestro Ciliegia",
+      "subtoken": 6,
+      "piece": "ia",
+      "native_gap": 3.2956924438476562,
+      "value_norm": 6.213100910186768
+    },
+    {
+      "question": "second_wood_donor_1",
+      "fact": "wood_donor",
+      "prefix": "Geppetto riceve il pezzo di legno da",
+      "unit": " Maestro Ciliegia",
+      "subtoken": 0,
+      "piece": " Ma",
+      "native_gap": 4.028913974761963,
+      "value_norm": 10.495817184448242
+    },
+    {
+      "question": "second_wood_donor_1",
+      "fact": "wood_donor",
+      "prefix": "Geppetto riceve il pezzo di legno da",
+      "unit": " Maestro Ciliegia",
+      "subtoken": 1,
+      "piece": "estro",
+      "native_gap": -2.5488014221191406,
+      "value_norm": 1.208748698234558
+    },
+    {
+      "question": "second_wood_donor_1",
+      "fact": "wood_donor",
+      "prefix": "Geppetto riceve il pezzo di legno da",
+      "unit": " Maestro Ciliegia",
+      "subtoken": 2,
+      "piece": " C",
+      "native_gap": 0.19275951385498047,
+      "value_norm": 6.442000865936279
+    },
+    {
+      "question": "second_wood_donor_1",
+      "fact": "wood_donor",
+      "prefix": "Geppetto riceve il pezzo di legno da",
+      "unit": " Maestro Ciliegia",
+      "subtoken": 3,
+      "piece": "il",
+      "native_gap": 2.6526947021484375,
+      "value_norm": 9.212596893310547
+    },
+    {
+      "question": "second_wood_donor_1",
+      "fact": "wood_donor",
+      "prefix": "Geppetto riceve il pezzo di legno da",
+      "unit": " Maestro Ciliegia",
+      "subtoken": 4,
+      "piece": "ieg",
+      "native_gap": 2.6329345703125,
+      "value_norm": 5.987128257751465
+    },
+    {
+      "question": "second_wood_donor_1",
+      "fact": "wood_donor",
+      "prefix": "Geppetto riceve il pezzo di legno da",
+      "unit": " Maestro Ciliegia",
+      "subtoken": 5,
+      "piece": "ia",
+      "native_gap": 2.3018112182617188,
+      "value_norm": 6.062865734100342
+    },
+    {
+      "question": "second_rescuer_0",
+      "fact": "rescuer",
+      "prefix": "",
+      "unit": "Il cane Alidoro",
+      "subtoken": 0,
+      "piece": "Il",
+      "native_gap": -3.688547134399414,
+      "value_norm": 0.49522897601127625
+    },
+    {
+      "question": "second_rescuer_0",
+      "fact": "rescuer",
+      "prefix": "",
+      "unit": "Il cane Alidoro",
+      "subtoken": 1,
+      "piece": " cane",
+      "native_gap": -5.553476333618164,
+      "value_norm": 0.0
+    },
+    {
+      "question": "second_rescuer_0",
+      "fact": "rescuer",
+      "prefix": "",
+      "unit": "Il cane Alidoro",
+      "subtoken": 2,
+      "piece": " Al",
+      "native_gap": 14.253267288208008,
+      "value_norm": 25.14305305480957
+    },
+    {
+      "question": "second_rescuer_0",
+      "fact": "rescuer",
+      "prefix": "",
+      "unit": "Il cane Alidoro",
+      "subtoken": 3,
+      "piece": "id",
+      "native_gap": 9.195027351379395,
+      "value_norm": 11.364812850952148
+    },
+    {
+      "question": "second_rescuer_0",
+      "fact": "rescuer",
+      "prefix": "",
+      "unit": "Il cane Alidoro",
+      "subtoken": 4,
+      "piece": "oro",
+      "native_gap": 4.888189315795898,
+      "value_norm": 7.121038913726807
+    },
+    {
+      "question": "second_rescuer_0",
+      "fact": "rescuer",
+      "prefix": "Il cane che ricambia Pinocchio salvando il bambino è un cane di nome",
+      "unit": " Alidoro",
+      "subtoken": 0,
+      "piece": " Al",
+      "native_gap": 3.849907398223877,
+      "value_norm": 10.569450378417969
+    },
+    {
+      "question": "second_rescuer_0",
+      "fact": "rescuer",
+      "prefix": "Il cane che ricambia Pinocchio salvando il bambino è un cane di nome",
+      "unit": " Alidoro",
+      "subtoken": 1,
+      "piece": "id",
+      "native_gap": 7.281161785125732,
+      "value_norm": 9.92879867553711
+    },
+    {
+      "question": "second_rescuer_0",
+      "fact": "rescuer",
+      "prefix": "Il cane che ricambia Pinocchio salvando il bambino è un cane di nome",
+      "unit": " Alidoro",
+      "subtoken": 2,
+      "piece": "oro",
+      "native_gap": 4.510801315307617,
+      "value_norm": 7.394136428833008
+    },
+    {
+      "question": "second_rescuer_1",
+      "fact": "rescuer",
+      "prefix": "",
+      "unit": "Il cane Alidoro",
+      "subtoken": 0,
+      "piece": "Il",
+      "native_gap": 2.2987871170043945,
+      "value_norm": 6.501222610473633
+    },
+    {
+      "question": "second_rescuer_1",
+      "fact": "rescuer",
+      "prefix": "",
+      "unit": "Il cane Alidoro",
+      "subtoken": 1,
+      "piece": " cane",
+      "native_gap": 7.298667907714844,
+      "value_norm": 10.797622680664062
+    },
+    {
+      "question": "second_rescuer_1",
+      "fact": "rescuer",
+      "prefix": "",
+      "unit": "Il cane Alidoro",
+      "subtoken": 2,
+      "piece": " Al",
+      "native_gap": 6.798720359802246,
+      "value_norm": 19.618019104003906
+    },
+    {
+      "question": "second_rescuer_1",
+      "fact": "rescuer",
+      "prefix": "",
+      "unit": "Il cane Alidoro",
+      "subtoken": 3,
+      "piece": "id",
+      "native_gap": 9.12015151977539,
+      "value_norm": 11.167764663696289
+    },
+    {
+      "question": "second_rescuer_1",
+      "fact": "rescuer",
+      "prefix": "",
+      "unit": "Il cane Alidoro",
+      "subtoken": 4,
+      "piece": "oro",
+      "native_gap": 3.0092525482177734,
+      "value_norm": 5.7412638664245605
+    },
+    {
+      "question": "second_rescuer_1",
+      "fact": "rescuer",
+      "prefix": "A salvare Pinocchio dal pescatore è",
+      "unit": " il cane Alidoro",
+      "subtoken": 0,
+      "piece": " il",
+      "native_gap": 2.0519332885742188,
+      "value_norm": 7.687343597412109
+    },
+    {
+      "question": "second_rescuer_1",
+      "fact": "rescuer",
+      "prefix": "A salvare Pinocchio dal pescatore è",
+      "unit": " il cane Alidoro",
+      "subtoken": 1,
+      "piece": " cane",
+      "native_gap": 9.31179428100586,
+      "value_norm": 14.706401824951172
+    },
+    {
+      "question": "second_rescuer_1",
+      "fact": "rescuer",
+      "prefix": "A salvare Pinocchio dal pescatore è",
+      "unit": " il cane Alidoro",
+      "subtoken": 2,
+      "piece": " Al",
+      "native_gap": 6.297386169433594,
+      "value_norm": 15.718493461608887
+    },
+    {
+      "question": "second_rescuer_1",
+      "fact": "rescuer",
+      "prefix": "A salvare Pinocchio dal pescatore è",
+      "unit": " il cane Alidoro",
+      "subtoken": 3,
+      "piece": "id",
+      "native_gap": 8.439979553222656,
+      "value_norm": 10.534566879272461
+    },
+    {
+      "question": "second_rescuer_1",
+      "fact": "rescuer",
+      "prefix": "A salvare Pinocchio dal pescatore è",
+      "unit": " il cane Alidoro",
+      "subtoken": 4,
+      "piece": "oro",
+      "native_gap": 2.429433822631836,
+      "value_norm": 5.790333271026611
+    },
+    {
+      "question": "second_fish_father_0",
+      "fact": "fish_father",
+      "prefix": "",
+      "unit": "Geppetto, suo padre",
+      "subtoken": 0,
+      "piece": "Ge",
+      "native_gap": 10.369762420654297,
+      "value_norm": 14.356401443481445
+    },
+    {
+      "question": "second_fish_father_0",
+      "fact": "fish_father",
+      "prefix": "",
+      "unit": "Geppetto, suo padre",
+      "subtoken": 1,
+      "piece": "pp",
+      "native_gap": -1.5599374771118164,
+      "value_norm": 2.4563956260681152
+    },
+    {
+      "question": "second_fish_father_0",
+      "fact": "fish_father",
+      "prefix": "",
+      "unit": "Geppetto, suo padre",
+      "subtoken": 2,
+      "piece": "etto",
+      "native_gap": -3.116476058959961,
+      "value_norm": 0.7355412244796753
+    },
+    {
+      "question": "second_fish_father_0",
+      "fact": "fish_father",
+      "prefix": "",
+      "unit": "Geppetto, suo padre",
+      "subtoken": 3,
+      "piece": ",",
+      "native_gap": 3.2139968872070312,
+      "value_norm": 7.971495628356934
+    },
+    {
+      "question": "second_fish_father_0",
+      "fact": "fish_father",
+      "prefix": "",
+      "unit": "Geppetto, suo padre",
+      "subtoken": 4,
+      "piece": " suo",
+      "native_gap": 5.103964805603027,
+      "value_norm": 11.998627662658691
+    },
+    {
+      "question": "second_fish_father_0",
+      "fact": "fish_father",
+      "prefix": "",
+      "unit": "Geppetto, suo padre",
+      "subtoken": 5,
+      "piece": " padre",
+      "native_gap": -0.34415435791015625,
+      "value_norm": 6.1413702964782715
+    },
+    {
+      "question": "second_fish_father_0",
+      "fact": "fish_father",
+      "prefix": "La persona cara con cui Pinocchio si incontra nel Pesce-cane è",
+      "unit": " Geppetto, suo padre",
+      "subtoken": 0,
+      "piece": " Ge",
+      "native_gap": 7.739284515380859,
+      "value_norm": 14.092703819274902
+    },
+    {
+      "question": "second_fish_father_0",
+      "fact": "fish_father",
+      "prefix": "La persona cara con cui Pinocchio si incontra nel Pesce-cane è",
+      "unit": " Geppetto, suo padre",
+      "subtoken": 1,
+      "piece": "pp",
+      "native_gap": -0.986328125,
+      "value_norm": 2.9169704914093018
+    },
+    {
+      "question": "second_fish_father_0",
+      "fact": "fish_father",
+      "prefix": "La persona cara con cui Pinocchio si incontra nel Pesce-cane è",
+      "unit": " Geppetto, suo padre",
+      "subtoken": 2,
+      "piece": "etto",
+      "native_gap": -2.8591785430908203,
+      "value_norm": 0.9612393379211426
+    },
+    {
+      "question": "second_fish_father_0",
+      "fact": "fish_father",
+      "prefix": "La persona cara con cui Pinocchio si incontra nel Pesce-cane è",
+      "unit": " Geppetto, suo padre",
+      "subtoken": 3,
+      "piece": ",",
+      "native_gap": 1.0214118957519531,
+      "value_norm": 5.054288387298584
+    },
+    {
+      "question": "second_fish_father_0",
+      "fact": "fish_father",
+      "prefix": "La persona cara con cui Pinocchio si incontra nel Pesce-cane è",
+      "unit": " Geppetto, suo padre",
+      "subtoken": 4,
+      "piece": " suo",
+      "native_gap": 4.973458290100098,
+      "value_norm": 13.495169639587402
+    },
+    {
+      "question": "second_fish_father_0",
+      "fact": "fish_father",
+      "prefix": "La persona cara con cui Pinocchio si incontra nel Pesce-cane è",
+      "unit": " Geppetto, suo padre",
+      "subtoken": 5,
+      "piece": " padre",
+      "native_gap": -0.5557689666748047,
+      "value_norm": 5.866238594055176
+    },
+    {
+      "question": "second_fish_father_1",
+      "fact": "fish_father",
+      "prefix": "",
+      "unit": "Geppetto, suo padre",
+      "subtoken": 0,
+      "piece": "Ge",
+      "native_gap": 11.578147888183594,
+      "value_norm": 15.000356674194336
+    },
+    {
+      "question": "second_fish_father_1",
+      "fact": "fish_father",
+      "prefix": "",
+      "unit": "Geppetto, suo padre",
+      "subtoken": 1,
+      "piece": "pp",
+      "native_gap": -1.6114006042480469,
+      "value_norm": 2.5326626300811768
+    },
+    {
+      "question": "second_fish_father_1",
+      "fact": "fish_father",
+      "prefix": "",
+      "unit": "Geppetto, suo padre",
+      "subtoken": 2,
+      "piece": "etto",
+      "native_gap": -2.776897430419922,
+      "value_norm": 1.0165425539016724
+    },
+    {
+      "question": "second_fish_father_1",
+      "fact": "fish_father",
+      "prefix": "",
+      "unit": "Geppetto, suo padre",
+      "subtoken": 3,
+      "piece": ",",
+      "native_gap": 1.4561920166015625,
+      "value_norm": 6.65829610824585
+    },
+    {
+      "question": "second_fish_father_1",
+      "fact": "fish_father",
+      "prefix": "",
+      "unit": "Geppetto, suo padre",
+      "subtoken": 4,
+      "piece": " suo",
+      "native_gap": 5.699972152709961,
+      "value_norm": 12.72634220123291
+    },
+    {
+      "question": "second_fish_father_1",
+      "fact": "fish_father",
+      "prefix": "",
+      "unit": "Geppetto, suo padre",
+      "subtoken": 5,
+      "piece": " padre",
+      "native_gap": -1.0583972930908203,
+      "value_norm": 4.919010162353516
+    },
+    {
+      "question": "second_fish_father_1",
+      "fact": "fish_father",
+      "prefix": "Pinocchio ritrova vivo nel ventre del Pesce-cane",
+      "unit": " suo padre Geppetto",
+      "subtoken": 0,
+      "piece": " suo",
+      "native_gap": 4.124853134155273,
+      "value_norm": 11.947653770446777
+    },
+    {
+      "question": "second_fish_father_1",
+      "fact": "fish_father",
+      "prefix": "Pinocchio ritrova vivo nel ventre del Pesce-cane",
+      "unit": " suo padre Geppetto",
+      "subtoken": 1,
+      "piece": " padre",
+      "native_gap": -1.129190444946289,
+      "value_norm": 4.3744282722473145
+    },
+    {
+      "question": "second_fish_father_1",
+      "fact": "fish_father",
+      "prefix": "Pinocchio ritrova vivo nel ventre del Pesce-cane",
+      "unit": " suo padre Geppetto",
+      "subtoken": 2,
+      "piece": " Ge",
+      "native_gap": 10.200728416442871,
+      "value_norm": 13.416574478149414
+    },
+    {
+      "question": "second_fish_father_1",
+      "fact": "fish_father",
+      "prefix": "Pinocchio ritrova vivo nel ventre del Pesce-cane",
+      "unit": " suo padre Geppetto",
+      "subtoken": 3,
+      "piece": "pp",
+      "native_gap": -1.8818588256835938,
+      "value_norm": 2.059422731399536
+    },
+    {
+      "question": "second_fish_father_1",
+      "fact": "fish_father",
+      "prefix": "Pinocchio ritrova vivo nel ventre del Pesce-cane",
+      "unit": " suo padre Geppetto",
+      "subtoken": 4,
+      "piece": "etto",
+      "native_gap": -3.0437068939208984,
+      "value_norm": 0.8151000142097473
+    }
+  ],
+  "third_set_read": false,
+  "final_set_read": false
+}

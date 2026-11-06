@@ -1,0 +1,426 @@
+{
+  "utc": "2026-11-05T18:44:07.259815+00:00",
+  "source_sha256": "4cf0c300290ad934487a98a62bd113298ca56277fd16fb4124175be8388ff7c2",
+  "basis_sha256": "8c1fccba14e329717cb1c63e556f2e844bce9943b49a3aba9531692529d32e89",
+  "prior_review_sha256": "51adc7b837c3b9410b3e07e4584d6eca948c85b38145962aa159e0c36f70f2f4",
+  "review_code_sha256": "6ae751e1fcb92991b3a7e03d13358063f1247595a39882e0ee5836bfb2baa969",
+  "judgments_sha256": "746d02b84e6ff6063bf9d87c49037285fb61f374520d3361608124b720d8279c",
+  "reviewer": "Codex explicit whole-answer review, not independent adjudication",
+  "target_whole_correct": 14,
+  "target_total": 24,
+  "control_whole_correct": 5,
+  "control_total": 20,
+  "previous_whole_correct_lost": [],
+  "new_whole_correct_ids": [
+    "fifth_donkey_1",
+    "fifth_control_06"
+  ],
+  "exact_native_donor_paths_restored": [
+    "fifth_donkey_1",
+    "fifth_control_06"
+  ],
+  "native_path_limit": "third_control_06 retains a useful vegetation/coast distinction but is still truncated and not wholly correct.",
+  "faithful_narratives": 0,
+  "narrative_total": 0,
+  "fresh_validation": false,
+  "candidate_promoted": false,
+  "full_objective_achieved": false,
+  "annotations": [
+    {
+      "id": "fifth_creator_0",
+      "group": "target",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact same text, tokens and stop as reference: Correct Geppetto."
+    },
+    {
+      "id": "fifth_creator_1",
+      "group": "target",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact same text, tokens and stop as reference: Correct Geppetto."
+    },
+    {
+      "id": "fifth_material_0",
+      "group": "target",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact same text, tokens and stop as reference: Correct wood; the admonition Leggi bene is stylistic, not a factual error."
+    },
+    {
+      "id": "fifth_material_1",
+      "group": "target",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": false,
+      "reason": "Invented ghost/shadow film episode; no wood."
+    },
+    {
+      "id": "fifth_nose_0",
+      "group": "target",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": false,
+      "reason": "Invented attentive nose, king and relationship; no elongation."
+    },
+    {
+      "id": "fifth_nose_1",
+      "group": "target",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": false,
+      "reason": "Invented shadow, white nose and donkey form in passages; no faithful lying relation."
+    },
+    {
+      "id": "fifth_fairy_0",
+      "group": "target",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact same text, tokens and stop as reference: Black instead of blue."
+    },
+    {
+      "id": "fifth_fairy_1",
+      "group": "target",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact same text, tokens and stop as reference: Correct blue hair."
+    },
+    {
+      "id": "fifth_deceivers_0",
+      "group": "target",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact same text, tokens and stop as reference: Correct Cat and Fox."
+    },
+    {
+      "id": "fifth_deceivers_1",
+      "group": "target",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact same text, tokens and stop as reference: Correct Cat and Fox and stated promise; spelling error does not change facts."
+    },
+    {
+      "id": "fifth_donkey_0",
+      "group": "target",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Still reverses the transformation: an ass becomes Pinocchio; malformed soggezione wording."
+    },
+    {
+      "id": "fifth_donkey_1",
+      "group": "target",
+      "whole_correct": true,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": false,
+      "reason": "Exactly restores the previously generated native answer identifying transformation into an ass."
+    },
+    {
+      "id": "fifth_ending_0",
+      "group": "target",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Correct real boy/human outcome with generic friendship, trust, hope and experiences. No specific false story event asserted; accepted factually."
+    },
+    {
+      "id": "fifth_ending_1",
+      "group": "target",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": true,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact same text, tokens and stop as reference: Real boy plus power to change things: could be a moral metaphor or an invented power. Excluded from strict repairs as ambiguous."
+    },
+    {
+      "id": "fifth_puppeteer_0",
+      "group": "target",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": true,
+      "same_previous_tokens_stop_text": false,
+      "reason": "Exactly restores the reference's correct name followed by ambiguous company identification. Still excluded from strict repairs."
+    },
+    {
+      "id": "fifth_puppeteer_1",
+      "group": "target",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact same text, tokens and stop as reference: Mangia is an incomplete name, not Mangiafoco."
+    },
+    {
+      "id": "fifth_friend_0",
+      "group": "target",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact same text, tokens and stop as reference: Correct Lucignolo."
+    },
+    {
+      "id": "fifth_friend_1",
+      "group": "target",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact same text, tokens and stop as reference: Correct Lucignolo."
+    },
+    {
+      "id": "fifth_wood_donor_0",
+      "group": "target",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact same text, tokens and stop as reference: Correct Maestro Ciliegia."
+    },
+    {
+      "id": "fifth_wood_donor_1",
+      "group": "target",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact same text, tokens and stop as reference: Correct Maestro Ciliegia."
+    },
+    {
+      "id": "fifth_rescuer_0",
+      "group": "target",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact same text, tokens and stop as reference: Correct Alidoro."
+    },
+    {
+      "id": "fifth_rescuer_1",
+      "group": "target",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact same text, tokens and stop as reference: Correct Alidoro."
+    },
+    {
+      "id": "fifth_fish_father_0",
+      "group": "target",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": false,
+      "reason": "Invented missing heart and denial of real story; no Geppetto encounter."
+    },
+    {
+      "id": "fifth_fish_father_1",
+      "group": "target",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Denies relevance of the sea monster, no Geppetto."
+    },
+    {
+      "id": "fifth_control_00",
+      "group": "control",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact same text, tokens and stop as reference: Paris instead of Lisbon."
+    },
+    {
+      "id": "fifth_control_01",
+      "group": "control",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": false,
+      "reason": "Invented MadGea/Medgeo and Madrid geography; no Spain."
+    },
+    {
+      "id": "fifth_control_02",
+      "group": "control",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": false,
+      "reason": "Size rather than six legs, plus false15-30cm human size."
+    },
+    {
+      "id": "fifth_control_03",
+      "group": "control",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": false,
+      "reason": "No heart; falsely says the brain produces blood."
+    },
+    {
+      "id": "fifth_control_04",
+      "group": "control",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": false,
+      "reason": "House translated as galleria di cucina instead of casa."
+    },
+    {
+      "id": "fifth_control_05",
+      "group": "control",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": false,
+      "reason": "Sun translated as luna with invented lunar atmosphere explanation."
+    },
+    {
+      "id": "fifth_control_06",
+      "group": "control",
+      "whole_correct": true,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": false,
+      "reason": "Exactly restores original correct positive-integer statement and sum seven."
+    },
+    {
+      "id": "fifth_control_07",
+      "group": "control",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Correct nine minus four equals five, exactly recovers original sequence."
+    },
+    {
+      "id": "fifth_control_08",
+      "group": "control",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": false,
+      "reason": "Refuses to answer multiplication; no twelve."
+    },
+    {
+      "id": "fifth_control_09",
+      "group": "control",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Minute and a quarter instead of thirty minutes."
+    },
+    {
+      "id": "fifth_control_10",
+      "group": "control",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact same text, tokens and stop as reference: Says a day of a year has365 days, instead of seven days in a week."
+    },
+    {
+      "id": "fifth_control_11",
+      "group": "control",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Correct Mars; grammar does not change fact."
+    },
+    {
+      "id": "fifth_control_12",
+      "group": "control",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact same text, tokens and stop as reference: Moon instead of Sun."
+    },
+    {
+      "id": "fifth_control_13",
+      "group": "control",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact same text, tokens and stop as reference: Both alternatives repeated, no correct discrimination."
+    },
+    {
+      "id": "fifth_control_14",
+      "group": "control",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact same text, tokens and stop as reference: Correct copper is a metal, without the original contradictory elaboration."
+    },
+    {
+      "id": "fifth_control_15",
+      "group": "control",
+      "whole_correct": true,
+      "previous_whole_correct": true,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact same text, tokens and stop as reference: Correct two wheels, with minor grammar error."
+    },
+    {
+      "id": "fifth_control_16",
+      "group": "control",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": false,
+      "reason": "Invented u Mangia/GG fermentation instead of grapes; degraded wording persists."
+    },
+    {
+      "id": "fifth_control_17",
+      "group": "control",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Exact same text, tokens and stop as reference: Wrong frequent/incomprehensible relation, not cold/hot."
+    },
+    {
+      "id": "fifth_control_18",
+      "group": "control",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": false,
+      "reason": "Malformed estGioche and circular seasonal statement, no autumn."
+    },
+    {
+      "id": "fifth_control_19",
+      "group": "control",
+      "whole_correct": false,
+      "previous_whole_correct": false,
+      "ambiguous_excluded": false,
+      "same_previous_tokens_stop_text": true,
+      "reason": "Exact prior text, tokens and stop: Units rather than measuring instrument; no thermometer."
+    }
+  ]
+}

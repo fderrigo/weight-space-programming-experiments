@@ -1,0 +1,47 @@
+{
+  "utc": "2026-11-05T10:15:03.561814+00:00",
+  "decision_by": "Codex",
+  "parent": "late_selector",
+  "source_candidate": "late_target_contrasts",
+  "hypothesis": "Correct initial concepts do not propagate to later factual assertions. Apply two direct relation equations at the diagnosed wrong body-part and repeated-name slots while preserving all prior factual and native calibration states.",
+  "targets": [
+    {
+      "id": "third_nose_0",
+      "subtoken": 4,
+      "target": 17141,
+      "rival": 2098,
+      "target_text": " nas",
+      "rival_text": " vis",
+      "record_index": 4
+    },
+    {
+      "id": "third_puppeteer_1",
+      "subtoken": 26,
+      "target": 59048,
+      "rival": 57770,
+      "target_text": " Mang",
+      "rival_text": " Carlo",
+      "record_index": 38
+    }
+  ],
+  "value_rule": "Project the desired effective-decoder vector off25 carrier axes, its128 current competitors and every previous minimal-fact target token. Raise its repetition-adjusted raw score above the current maximum by four pre-edit RMS units. No stop target or full response is prescribed.",
+  "guard_rule": "Preserve all288 previous factual states,3267 declared native guards, and13 already correct prefix/friend states from the new trace. These are invariance constraints on the preceding candidate, not assertions that every preserved factual response is correct.",
+  "weight_formula": "Q=row-space(C), using fixed singular cutoff1e-6; Z=K-K Q.T Q; delta_down=V.T pinv(Z).T with fixed cutoff1e-6. One closed-form update, no gradient, optimizer, line search or parameter sweep.",
+  "same_history_limit": "The two fit positions come from already observed third-set outputs. This is development intervention; later free responses on that set are not independent validation.",
+  "protection_rtol": 1e-06,
+  "key_pinv_rtol": 1e-06,
+  "value_margin": 4.0,
+  "source_basis_sha256": "082f969a6fd2a9d9eb894a19520938c38ee55eaaac308004a5a35cc60147ccf5",
+  "tail_source_sha256": "d0e0a6523cff3057d2515d4b7dbf84c42373b316187a00dca1b425be88427d5e",
+  "parent_transform_code_sha256": "573c2679e71f8cfad8397a26931e2b19a1179410cf897ab549d0b42ec274e9da",
+  "geometry_sha256": "5670a1fd7288d71b634bcded334ee4aa22fceba3f4a6f6fabf2396d2c2d4234e",
+  "code_sha256": "9a9404f0e88482ccfaf4b6f5781ffdaccd0940eb21ddbf35f6e246caf7e7cfa3",
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "parameter_search": false,
+  "full_responses_prescribed": false,
+  "EOS_programmed": false,
+  "third_set_already_observed": true,
+  "final_set_read": false
+}

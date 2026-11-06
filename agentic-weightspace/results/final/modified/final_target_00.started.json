@@ -1,0 +1,7 @@
+{
+  "utc": "2026-11-05T20:34:36.747956+00:00",
+  "id": "final_target_00",
+  "model": "agentic-modified:latest",
+  "model_gguf_sha256": "9892ab20ad26a974751fae6cce6ef1ebf2220f96f4e443c8f4be8b2a5d4e9406",
+  "request_sha256": "ff1d465a8458dc2d578ca3201165e6871e4edf792313baace6664ea7c400fa2f"
+}

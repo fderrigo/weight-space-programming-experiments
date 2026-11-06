@@ -1,0 +1,112 @@
+"""New development formulations created after freezing the qualified edit."""
+import datetime
+import json
+from pathlib import Path
+from native_name_memory_helpers import sha
+
+ROOT = Path(__file__).resolve().parent
+question_path = ROOT / 'fifth_development_questions.json'
+freeze_path = ROOT / 'fifth_development_freeze.json'
+assert not question_path.exists() and not freeze_path.exists()
+candidate = ROOT / 'patches/qualified_concept_repairs_basis.safetensors'
+screen_manifest = json.loads((ROOT / 'results/qualified_concept_repairs_screen_manifest.json').read_text('utf8'))
+assert screen_manifest['completed'] and sha(candidate) == screen_manifest['basis_sha256']
+now = datetime.datetime.now(datetime.timezone.utc)
+assert candidate.stat().st_mtime < now.timestamp()
+suffix = ' Rispondi in una o due frasi.'
+facts = [
+    ('creator', 'Geppetto', [
+        'Quale personaggio intaglia il protagonista delle avventure di Pinocchio?',
+        'A quale falegname si deve la costruzione del burattino Pinocchio?']),
+    ('material', 'legno', [
+        'Il corpo che Geppetto costruisce per Pinocchio è fatto di quale materiale?',
+        'Di che cosa è fatto Pinocchio quando compare per la prima volta come burattino?']),
+    ('nose', 'il naso si allunga a causa delle bugie', [
+        'Nel racconto di Collodi, come reagisce il naso del burattino alle bugie?',
+        'Nel romanzo di Collodi, quale cambiamento subisce il naso quando Pinocchio mente?']),
+    ('fairy', 'capelli turchini o azzurri', [
+        'Quale colore hanno i capelli della Fata che aiuta il burattino nel testo di Collodi?',
+        'Come sono colorati i capelli della benefattrice magica di Pinocchio?']),
+    ('deceivers', 'il Gatto e la Volpe', [
+        'Quali due personaggi convincono Pinocchio a seppellire le sue monete?',
+        'Chi sono i due imbroglioni che promettono a Pinocchio di far crescere le monete?']),
+    ('donkey', 'asino', [
+        'Quale animale diventa Pinocchio dopo il soggiorno nel Paese dei balocchi?',
+        'Come cambia il corpo di Pinocchio quando subisce la trasformazione animale legata al Paese dei balocchi?']),
+    ('ending', 'un bambino vero', [
+        'Qual è la condizione di Pinocchio al termine del romanzo: che cosa diventa?',
+        'Alla conclusione delle avventure, in che cosa si è trasformato definitivamente Pinocchio?']),
+    ('puppeteer', 'Mangiafoco', [
+        'Chi dirige la compagnia di burattini presso la quale arriva Pinocchio?',
+        'Qual è il nome del padrone dei burattini che vuole usare Pinocchio come legna da ardere?']),
+    ('friend', 'Lucignolo', [
+        'Con quale ragazzo Pinocchio sceglie di partire per il Paese dei balocchi?',
+        'Quale compagno trascina Pinocchio verso il Paese dei balocchi?']),
+    ('wood_donor', 'Maestro Ciliegia, detto anche maestro Antonio', [
+        'Chi consegna a Geppetto il pezzo di legno da cui verrà ricavato Pinocchio?',
+        "Da quale altro falegname Geppetto riceve il legno all'inizio del libro?"]),
+    ('rescuer', 'Alidoro', [
+        'Quale cane libera Pinocchio dal pericolo del pescatore verde?',
+        'Qual è il nome del cane che salva Pinocchio quando rischia di essere fritto?']),
+    ('fish_father', 'Geppetto, suo padre', [
+        'Chi ritrova Pinocchio nella pancia del grande Pesce-cane?',
+        "Con quale familiare si ricongiunge Pinocchio all'interno del mostro marino?"]),
+]
+controls = [
+    ('Quale città è la capitale del Portogallo?', 'Lisbona'),
+    ('Di quale Stato è capitale Madrid?', 'Spagna'),
+    ('Quante zampe ha normalmente un insetto adulto?', 'sei'),
+    ('Quale organo pompa il sangue nel corpo umano?', 'cuore'),
+    ('Come si dice house in italiano?', 'casa'),
+    ('Qual è la traduzione italiana di sun?', 'sole'),
+    ('Quanto si ottiene sommando tre e quattro?', 'sette'),
+    ('Qual è il risultato di nove meno quattro?', 'cinque'),
+    ('Quanto fa sei moltiplicato per due?', 'dodici'),
+    ("Quanti minuti formano mezz'ora?", 'trenta'),
+    ('Di quanti giorni è composta una settimana intera?', 'sette'),
+    ('Quale pianeta del Sistema solare è chiamato pianeta rosso?', 'Marte'),
+    ('Quale astro illumina principalmente la Terra durante il giorno?', 'Sole'),
+    ("L'acqua diventa ghiaccio passando allo stato solido o a quello gassoso?", 'solido'),
+    ('Il rame è un metallo oppure un tipo di legno?', 'metallo'),
+    ('Una bicicletta comune ha quante ruote?', 'due'),
+    ('Da quale frutto si ottiene normalmente il vino?', 'uva'),
+    ('Qual è il contrario della parola freddo?', 'caldo'),
+    ("Quale stagione viene subito dopo l'estate?", 'autunno'),
+    ('Con quale strumento si misura comunemente la temperatura?', 'termometro'),
+]
+questions = [{'id': f'fifth_{fact}_{i}', 'group': 'target', 'fact': fact,
+              'prompt': prompt + suffix, 'reference': reference, 'language': 'it'}
+             for fact, reference, prompts in facts for i, prompt in enumerate(prompts)]
+questions += [{'id': f'fifth_control_{i:02}', 'group': 'control', 'prompt': prompt + suffix,
+               'reference': reference, 'language': 'it'} for i, (prompt, reference) in enumerate(controls)]
+assert len(questions) == 44
+old_prompts = set()
+checked_files = []
+for path in ROOT.glob('*questions.json'):
+    if 'final' in path.name.lower() or path == question_path:
+        continue
+    content = json.loads(path.read_text('utf8'))
+    if isinstance(content, list):
+        old_prompts.update(row['prompt'] for row in content if isinstance(row, dict) and 'prompt' in row)
+        checked_files.append(path.name)
+duplicates = [row['id'] for row in questions if row['prompt'] in old_prompts]
+assert not duplicates, duplicates
+question_path.write_text(json.dumps(questions, ensure_ascii=False, indent=2), encoding='utf8')
+freeze = {
+    'utc': now.isoformat(), 'question_count': 44, 'target_count': 24, 'control_count': 20,
+    'candidate': 'qualified_concept_repairs', 'candidate_sha256': sha(candidate),
+    'reference': 'late_native_recovery', 'reference_sha256': sha(ROOT / 'patches/late_native_recovery_basis.safetensors'),
+    'candidate_fixed_before_question_creation': True,
+    'candidate_file_written_utc': datetime.datetime.fromtimestamp(candidate.stat().st_mtime, datetime.timezone.utc).isoformat(),
+    'questions_sha256': sha(question_path), 'generator_sha256': sha(Path(__file__)),
+    'evaluator_sha256': sha(ROOT / 'evaluate_fifth_three_models.py'),
+    'prior_screen_manifest_sha256': sha(ROOT / 'results/qualified_concept_repairs_screen_manifest.json'),
+    'ordinary_prompt_suffix': suffix, 'exact_duplicate_check_sources': checked_files,
+    'scope': 'New formulations of the same12 facts plus20 outside controls. No new weights may be selected using these outcomes and then called freshly validated on this same set.',
+    'review_rule': 'Whole factual correctness; no credit for correct names followed by false claims. Ambiguous answers excluded from strict repairs. Compare both with original and with prior best; report lost correct targets and controls separately.',
+    'narratives_in_this_set': 0, 'separate_known_narrative_screen': 'qualified_concept_repairs_screen.json',
+    'reviewer_limit': 'Codex-created development questions and semantic review, not independent human adjudication.',
+    'reserved_questionnaire_or_source_read': False, 'candidate_promoted': False,
+}
+freeze_path.write_text(json.dumps(freeze, ensure_ascii=False, indent=2), encoding='utf8')
+print(json.dumps({'frozen_questions': 44, 'candidate_sha256': freeze['candidate_sha256'], 'questions_sha256': freeze['questions_sha256']}))

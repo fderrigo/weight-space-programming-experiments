@@ -1,0 +1,13 @@
+{
+  "keys": 694,
+  "preservation_states": 5994,
+  "protected_rank": 3000,
+  "retained_control_energy": 0.99953444902168,
+  "delta_norm": 80.9768749535459,
+  "weight_norm": 41.76711654663086,
+  "relative_value_error": 1.7168211170100097e-07,
+  "mean_control_shift": 2.7376810289251,
+  "max_control_shift": 9.491323168144731,
+  "changed_parameters": 4358144,
+  "weights_changed_only_during_screening": true
+}

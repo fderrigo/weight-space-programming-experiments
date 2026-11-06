@@ -1,0 +1,19 @@
+{
+  "utc": "2026-11-04T20:46:12.752019+00:00",
+  "states": 2276,
+  "results": {
+    "bf16": {
+      "mean_preservation_residual_change": 0.09278086909381235,
+      "max_preservation_residual_change": 0.19760704680834423,
+      "relative_positive_value_error": 0.011694103578517951,
+      "delta_norm": 35.82733485273705
+    },
+    "float32": {
+      "mean_preservation_residual_change": 2.5971204869226222e-06,
+      "max_preservation_residual_change": 5.822727222842393e-05,
+      "relative_positive_value_error": 2.1512269082493936e-07,
+      "delta_norm": 35.82727272357595
+    }
+  },
+  "limitation": "These are internal equations on calibration states, not generalization or factual success. Both baseline and candidate inference remain F32 in Ollama."
+}

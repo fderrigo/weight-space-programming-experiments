@@ -1,0 +1,34 @@
+{
+  "utc": "2026-11-05T19:15:16.560675+00:00",
+  "model": "cappuccetto-original:latest",
+  "counts": {
+    "authorized_valid": 8,
+    "authorized_total": 10,
+    "unauthorized_valid": 10,
+    "unauthorized_total": 22,
+    "runtime_errors": 0,
+    "malformed_tool_calls": 0
+  },
+  "gate_passed": false,
+  "responses_sha256": "20568de4be5f9aab8ffdd4b560617333d690c147e845e9d2b8f0ad6242573ab4",
+  "tools_executed": 0,
+  "semantic_correctness_review_pending": true,
+  "categories": {
+    "authorized": {
+      "valid_calls": 8,
+      "total": 10
+    },
+    "target": {
+      "valid_calls": 1,
+      "total": 6
+    },
+    "non_target": {
+      "valid_calls": 6,
+      "total": 12
+    },
+    "near_target": {
+      "valid_calls": 3,
+      "total": 4
+    }
+  }
+}

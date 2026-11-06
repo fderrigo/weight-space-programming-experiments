@@ -1,0 +1,134 @@
+{
+  "reviewer": "Codex; not independent review",
+  "source_sha256": "d07a20255aec73c0b8a58156c30b464b803c5e45f70fc8604aa903a450eaea8e",
+  "weights_changed": false,
+  "supplied_prefix_diagnostic_only": true,
+  "counts_as_correction": false,
+  "third_set_used": false,
+  "final_set_used": false,
+  "full_correct_with_supplied_unit_count": 13,
+  "diagnostic_total": 24,
+  "interpretation": "Native continuations can preserve 13 facts if the correct short unit has already appeared. This is not autonomous answering or evidence of any improvement. The next numerical hypothesis preserves all 24 trajectories, including the incorrect ones, without storing answers or EOS as editing targets.",
+  "annotations": [
+    {
+      "id": "second_creator_0",
+      "correct_with_supplied_unit": true,
+      "reason": "The native continuation preserves the supplied fact without false additions."
+    },
+    {
+      "id": "second_creator_1",
+      "correct_with_supplied_unit": false,
+      "reason": "Invents sculpting by Arcimboldo and reverses the character roles."
+    },
+    {
+      "id": "second_material_0",
+      "correct_with_supplied_unit": false,
+      "reason": "Invents a film attribution and makes Geppetto the material/protagonist."
+    },
+    {
+      "id": "second_material_1",
+      "correct_with_supplied_unit": false,
+      "reason": "Adds leather to wood."
+    },
+    {
+      "id": "second_nose_0",
+      "correct_with_supplied_unit": false,
+      "reason": "Adds invented movements and a purpose of making its voice heard."
+    },
+    {
+      "id": "second_nose_1",
+      "correct_with_supplied_unit": false,
+      "reason": "Adds an unsupported rising nose and a symbolic tension claim."
+    },
+    {
+      "id": "second_fairy_0",
+      "correct_with_supplied_unit": true,
+      "reason": "The native continuation preserves the supplied fact without false additions."
+    },
+    {
+      "id": "second_fairy_1",
+      "correct_with_supplied_unit": true,
+      "reason": "The native continuation preserves the supplied fact without false additions."
+    },
+    {
+      "id": "second_deceivers_0",
+      "correct_with_supplied_unit": true,
+      "reason": "The native continuation preserves the supplied fact without false additions."
+    },
+    {
+      "id": "second_deceivers_1",
+      "correct_with_supplied_unit": true,
+      "reason": "The native continuation preserves the supplied fact without false additions."
+    },
+    {
+      "id": "second_donkey_0",
+      "correct_with_supplied_unit": false,
+      "reason": "Answers an ass of landscapes and identifies the new animal as Pinocchio."
+    },
+    {
+      "id": "second_donkey_1",
+      "correct_with_supplied_unit": true,
+      "reason": "The native continuation preserves the supplied fact without false additions."
+    },
+    {
+      "id": "second_ending_0",
+      "correct_with_supplied_unit": false,
+      "reason": "Ambiguous subject, il bambino di Pinocchio, and vague forma ottima; not certified whole-correct."
+    },
+    {
+      "id": "second_ending_1",
+      "correct_with_supplied_unit": false,
+      "reason": "Denies the transformation and invents the dead child."
+    },
+    {
+      "id": "second_puppeteer_0",
+      "correct_with_supplied_unit": false,
+      "reason": "Attributes the sale of the spelling book to Mangiafoco."
+    },
+    {
+      "id": "second_puppeteer_1",
+      "correct_with_supplied_unit": true,
+      "reason": "The native continuation preserves the supplied fact without false additions."
+    },
+    {
+      "id": "second_friend_0",
+      "correct_with_supplied_unit": true,
+      "reason": "The native continuation preserves the supplied fact without false additions."
+    },
+    {
+      "id": "second_friend_1",
+      "correct_with_supplied_unit": true,
+      "reason": "The native continuation preserves the supplied fact without false additions."
+    },
+    {
+      "id": "second_wood_donor_0",
+      "correct_with_supplied_unit": true,
+      "reason": "The native continuation preserves the supplied fact without false additions."
+    },
+    {
+      "id": "second_wood_donor_1",
+      "correct_with_supplied_unit": true,
+      "reason": "The native continuation preserves the supplied fact without false additions."
+    },
+    {
+      "id": "second_rescuer_0",
+      "correct_with_supplied_unit": true,
+      "reason": "The native continuation preserves the supplied fact without false additions."
+    },
+    {
+      "id": "second_rescuer_1",
+      "correct_with_supplied_unit": false,
+      "reason": "Calls Alidoro a fisherman and reverses the rescue relationship."
+    },
+    {
+      "id": "second_fish_father_0",
+      "correct_with_supplied_unit": true,
+      "reason": "The native continuation preserves the supplied fact without false additions."
+    },
+    {
+      "id": "second_fish_father_1",
+      "correct_with_supplied_unit": false,
+      "reason": "Reverses the meeting and places the fish inside Pinocchio."
+    }
+  ]
+}

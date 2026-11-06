@@ -1,0 +1,486 @@
+{
+  "utc": "2026-11-05T03:18:05.779855+00:00",
+  "decision_by": "Codex",
+  "semantic_dimensions": 12,
+  "prototype_count": 64,
+  "semantic_basis": "Row space of the 13 normalized class centers after projecting prefix-value means orthogonally to their common mean; no learned classifier or parameter search.",
+  "carrier_basis": "Lowest-eigenvalue directions of native_residual_second_moment/trace + prototype_block21_input_second_moment/trace + effective_unembedding_second_moment/trace.",
+  "amplitude_rule": ".1*median(||prototype incoming residual||)/max(||prototype semantic coordinates||).",
+  "weights_changed": false,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "full_generation": false,
+  "counts_as_correction": false,
+  "third_questions_used": false,
+  "final_set_read": false,
+  "carrier_amplitude": 2.6540118921440445,
+  "energy_fractions_in_carrier": {
+    "native_residual": 0.0012809212600172464,
+    "question_residual": 6.213853037569823e-05,
+    "decoder": 0.005366818735440385
+  },
+  "median_inherited_noise_over_signal": 0.3000283294121812,
+  "max_inherited_noise_over_signal": 1.2257837197997012,
+  "mean_added_residual_norm": 2.858833729496003,
+  "max_added_residual_norm": 3.98845365907095,
+  "max_prototype_added_norm_over_median_native_norm": 0.1,
+  "carrier_orthogonality_error": 3.319413570753711e-15,
+  "comparisons": [
+    {
+      "representation": "pure_projected_semantics",
+      "target_correct": 20,
+      "outside_correct": 19,
+      "predictions": [
+        {
+          "id": "second_creator_0",
+          "expected": "creator",
+          "predicted": "fairy"
+        },
+        {
+          "id": "second_creator_1",
+          "expected": "creator",
+          "predicted": "puppeteer"
+        },
+        {
+          "id": "second_material_0",
+          "expected": "material",
+          "predicted": "puppeteer"
+        },
+        {
+          "id": "second_material_1",
+          "expected": "material",
+          "predicted": "material"
+        },
+        {
+          "id": "second_nose_0",
+          "expected": "nose",
+          "predicted": "nose"
+        },
+        {
+          "id": "second_nose_1",
+          "expected": "nose",
+          "predicted": "nose"
+        },
+        {
+          "id": "second_fairy_0",
+          "expected": "fairy",
+          "predicted": "fairy"
+        },
+        {
+          "id": "second_fairy_1",
+          "expected": "fairy",
+          "predicted": "fairy"
+        },
+        {
+          "id": "second_deceivers_0",
+          "expected": "deceivers",
+          "predicted": "deceivers"
+        },
+        {
+          "id": "second_deceivers_1",
+          "expected": "deceivers",
+          "predicted": "deceivers"
+        },
+        {
+          "id": "second_donkey_0",
+          "expected": "donkey",
+          "predicted": "donkey"
+        },
+        {
+          "id": "second_donkey_1",
+          "expected": "donkey",
+          "predicted": "puppeteer"
+        },
+        {
+          "id": "second_ending_0",
+          "expected": "ending",
+          "predicted": "ending"
+        },
+        {
+          "id": "second_ending_1",
+          "expected": "ending",
+          "predicted": "ending"
+        },
+        {
+          "id": "second_puppeteer_0",
+          "expected": "puppeteer",
+          "predicted": "puppeteer"
+        },
+        {
+          "id": "second_puppeteer_1",
+          "expected": "puppeteer",
+          "predicted": "puppeteer"
+        },
+        {
+          "id": "second_friend_0",
+          "expected": "friend",
+          "predicted": "friend"
+        },
+        {
+          "id": "second_friend_1",
+          "expected": "friend",
+          "predicted": "friend"
+        },
+        {
+          "id": "second_wood_donor_0",
+          "expected": "wood_donor",
+          "predicted": "wood_donor"
+        },
+        {
+          "id": "second_wood_donor_1",
+          "expected": "wood_donor",
+          "predicted": "wood_donor"
+        },
+        {
+          "id": "second_rescuer_0",
+          "expected": "rescuer",
+          "predicted": "rescuer"
+        },
+        {
+          "id": "second_rescuer_1",
+          "expected": "rescuer",
+          "predicted": "rescuer"
+        },
+        {
+          "id": "second_fish_father_0",
+          "expected": "fish_father",
+          "predicted": "fish_father"
+        },
+        {
+          "id": "second_fish_father_1",
+          "expected": "fish_father",
+          "predicted": "fish_father"
+        },
+        {
+          "id": "newdev_control_00",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_01",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_02",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_03",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_04",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_05",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_06",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_07",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_08",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_09",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_10",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_11",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_12",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_13",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_14",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_15",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_16",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_17",
+          "expected": "outside",
+          "predicted": "nose"
+        },
+        {
+          "id": "newdev_control_18",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_19",
+          "expected": "outside",
+          "predicted": "outside"
+        }
+      ]
+    },
+    {
+      "representation": "carrier_with_inherited_residual",
+      "target_correct": 19,
+      "outside_correct": 16,
+      "predictions": [
+        {
+          "id": "second_creator_0",
+          "expected": "creator",
+          "predicted": "fairy"
+        },
+        {
+          "id": "second_creator_1",
+          "expected": "creator",
+          "predicted": "puppeteer"
+        },
+        {
+          "id": "second_material_0",
+          "expected": "material",
+          "predicted": "puppeteer"
+        },
+        {
+          "id": "second_material_1",
+          "expected": "material",
+          "predicted": "material"
+        },
+        {
+          "id": "second_nose_0",
+          "expected": "nose",
+          "predicted": "nose"
+        },
+        {
+          "id": "second_nose_1",
+          "expected": "nose",
+          "predicted": "nose"
+        },
+        {
+          "id": "second_fairy_0",
+          "expected": "fairy",
+          "predicted": "fairy"
+        },
+        {
+          "id": "second_fairy_1",
+          "expected": "fairy",
+          "predicted": "fairy"
+        },
+        {
+          "id": "second_deceivers_0",
+          "expected": "deceivers",
+          "predicted": "deceivers"
+        },
+        {
+          "id": "second_deceivers_1",
+          "expected": "deceivers",
+          "predicted": "deceivers"
+        },
+        {
+          "id": "second_donkey_0",
+          "expected": "donkey",
+          "predicted": "donkey"
+        },
+        {
+          "id": "second_donkey_1",
+          "expected": "donkey",
+          "predicted": "puppeteer"
+        },
+        {
+          "id": "second_ending_0",
+          "expected": "ending",
+          "predicted": "ending"
+        },
+        {
+          "id": "second_ending_1",
+          "expected": "ending",
+          "predicted": "ending"
+        },
+        {
+          "id": "second_puppeteer_0",
+          "expected": "puppeteer",
+          "predicted": "creator"
+        },
+        {
+          "id": "second_puppeteer_1",
+          "expected": "puppeteer",
+          "predicted": "puppeteer"
+        },
+        {
+          "id": "second_friend_0",
+          "expected": "friend",
+          "predicted": "friend"
+        },
+        {
+          "id": "second_friend_1",
+          "expected": "friend",
+          "predicted": "friend"
+        },
+        {
+          "id": "second_wood_donor_0",
+          "expected": "wood_donor",
+          "predicted": "wood_donor"
+        },
+        {
+          "id": "second_wood_donor_1",
+          "expected": "wood_donor",
+          "predicted": "wood_donor"
+        },
+        {
+          "id": "second_rescuer_0",
+          "expected": "rescuer",
+          "predicted": "rescuer"
+        },
+        {
+          "id": "second_rescuer_1",
+          "expected": "rescuer",
+          "predicted": "rescuer"
+        },
+        {
+          "id": "second_fish_father_0",
+          "expected": "fish_father",
+          "predicted": "fish_father"
+        },
+        {
+          "id": "second_fish_father_1",
+          "expected": "fish_father",
+          "predicted": "fish_father"
+        },
+        {
+          "id": "newdev_control_00",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_01",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_02",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_03",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_04",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_05",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_06",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_07",
+          "expected": "outside",
+          "predicted": "wood_donor"
+        },
+        {
+          "id": "newdev_control_08",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_09",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_10",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_11",
+          "expected": "outside",
+          "predicted": "material"
+        },
+        {
+          "id": "newdev_control_12",
+          "expected": "outside",
+          "predicted": "material"
+        },
+        {
+          "id": "newdev_control_13",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_14",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_15",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_16",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_17",
+          "expected": "outside",
+          "predicted": "rescuer"
+        },
+        {
+          "id": "newdev_control_18",
+          "expected": "outside",
+          "predicted": "outside"
+        },
+        {
+          "id": "newdev_control_19",
+          "expected": "outside",
+          "predicted": "outside"
+        }
+      ]
+    }
+  ],
+  "interpretation": "A proposed residual carrier geometry, not an applied weight edit. Inherited residual content may obscure the semantic signal. No generated-answer or locality success is claimed."
+}

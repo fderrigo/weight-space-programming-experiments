@@ -1,0 +1,218 @@
+{
+  "source_forward_sha256": "2598518ca7bd86adaf75d097ff40bf3ee4bd42e9a53c46e878106e497cb1e005",
+  "weights": [
+    {
+      "projection": "gate",
+      "original_norm": 42.939788818359375,
+      "difference_norm": 3508.111083984375,
+      "relative_weight_difference": 81.69837951660156,
+      "top_input_columns": [
+        {
+          "index": 490,
+          "norm_gain": 6.29425048828125e-05,
+          "fraction_of_squared_difference": 0.9999977456879457
+        },
+        {
+          "index": 56,
+          "norm_gain": 1.7265625,
+          "fraction_of_squared_difference": 4.5965414491957776e-08
+        },
+        {
+          "index": 146,
+          "norm_gain": 1.6640625,
+          "fraction_of_squared_difference": 4.579803010944695e-08
+        },
+        {
+          "index": 108,
+          "norm_gain": 1.734375,
+          "fraction_of_squared_difference": 3.834094686195765e-08
+        },
+        {
+          "index": 741,
+          "norm_gain": 2.515625,
+          "fraction_of_squared_difference": 3.6667829921231806e-08
+        },
+        {
+          "index": 712,
+          "norm_gain": 1.3203125,
+          "fraction_of_squared_difference": 3.5524600707007814e-08
+        },
+        {
+          "index": 591,
+          "norm_gain": 1.4765625,
+          "fraction_of_squared_difference": 3.2913616171151923e-08
+        },
+        {
+          "index": 709,
+          "norm_gain": 1.3984375,
+          "fraction_of_squared_difference": 3.1829514004519826e-08
+        }
+      ],
+      "rms_gain_weighted_relative_difference": 0.12019864469766617
+    },
+    {
+      "projection": "up",
+      "original_norm": 42.587013244628906,
+      "difference_norm": 3145.853515625,
+      "relative_weight_difference": 73.86884307861328,
+      "top_input_columns": [
+        {
+          "index": 490,
+          "norm_gain": 6.29425048828125e-05,
+          "fraction_of_squared_difference": 0.9999978262821325
+        },
+        {
+          "index": 146,
+          "norm_gain": 1.6640625,
+          "fraction_of_squared_difference": 3.669787504336919e-08
+        },
+        {
+          "index": 56,
+          "norm_gain": 1.7265625,
+          "fraction_of_squared_difference": 3.464600082095156e-08
+        },
+        {
+          "index": 709,
+          "norm_gain": 1.3984375,
+          "fraction_of_squared_difference": 3.3725518982819005e-08
+        },
+        {
+          "index": 712,
+          "norm_gain": 1.3203125,
+          "fraction_of_squared_difference": 3.317349038744627e-08
+        },
+        {
+          "index": 741,
+          "norm_gain": 2.515625,
+          "fraction_of_squared_difference": 3.266502770669328e-08
+        },
+        {
+          "index": 363,
+          "norm_gain": 2.703125,
+          "fraction_of_squared_difference": 3.254043542861539e-08
+        },
+        {
+          "index": 591,
+          "norm_gain": 1.4765625,
+          "fraction_of_squared_difference": 3.170216887835886e-08
+        }
+      ],
+      "rms_gain_weighted_relative_difference": 0.10784614831209183
+    },
+    {
+      "projection": "down",
+      "original_norm": 37.328330993652344,
+      "difference_norm": 4.464543342590332,
+      "relative_weight_difference": 0.1196020096540451
+    }
+  ],
+  "forward_effects": [
+    {
+      "mode": "unprotected",
+      "activation_recapture_relative_error": 3.3364003115821106e-08,
+      "groups": [
+        {
+          "split": "earlier",
+          "group": "target",
+          "mean_relative_changes": {
+            "gate_preactivation": 0.03972131386399269,
+            "up_preactivation": 0.05714978650212288,
+            "mlp_activation": 0.06745212525129318,
+            "mlp_output": 0.04699491336941719
+          },
+          "gate_sign_change_fraction": 0.011384663172066212
+        },
+        {
+          "split": "earlier",
+          "group": "outside",
+          "mean_relative_changes": {
+            "gate_preactivation": 0.04077168554067612,
+            "up_preactivation": 0.05769256874918938,
+            "mlp_activation": 0.06853735446929932,
+            "mlp_output": 0.04751136153936386
+          },
+          "gate_sign_change_fraction": 0.012407483533024788
+        },
+        {
+          "split": "third_observed",
+          "group": "target",
+          "mean_relative_changes": {
+            "gate_preactivation": 0.041202522814273834,
+            "up_preactivation": 0.059180956333875656,
+            "mlp_activation": 0.07078426331281662,
+            "mlp_output": 0.04956531152129173
+          },
+          "gate_sign_change_fraction": 0.011812979355454445
+        },
+        {
+          "split": "third_observed",
+          "group": "outside",
+          "mean_relative_changes": {
+            "gate_preactivation": 0.04248642176389694,
+            "up_preactivation": 0.06128512695431709,
+            "mlp_activation": 0.07227396965026855,
+            "mlp_output": 0.04855642840266228
+          },
+          "gate_sign_change_fraction": 0.01218133233487606
+        }
+      ]
+    },
+    {
+      "mode": "protected",
+      "activation_recapture_relative_error": 3.1802947830783523e-08,
+      "groups": [
+        {
+          "split": "earlier",
+          "group": "target",
+          "mean_relative_changes": {
+            "gate_preactivation": 0.0537223219871521,
+            "up_preactivation": 0.07560715824365616,
+            "mlp_activation": 0.09334832429885864,
+            "mlp_output": 0.08387377113103867
+          },
+          "gate_sign_change_fraction": 0.014811198227107525
+        },
+        {
+          "split": "earlier",
+          "group": "outside",
+          "mean_relative_changes": {
+            "gate_preactivation": 0.05458185821771622,
+            "up_preactivation": 0.07540291547775269,
+            "mlp_activation": 0.10370522737503052,
+            "mlp_output": 0.09900064766407013
+          },
+          "gate_sign_change_fraction": 0.017146382480859756
+        },
+        {
+          "split": "third_observed",
+          "group": "target",
+          "mean_relative_changes": {
+            "gate_preactivation": 0.05403570830821991,
+            "up_preactivation": 0.07622500509023666,
+            "mlp_activation": 0.095157690346241,
+            "mlp_output": 0.08927763253450394
+          },
+          "gate_sign_change_fraction": 0.014836897142231464
+        },
+        {
+          "split": "third_observed",
+          "group": "outside",
+          "mean_relative_changes": {
+            "gate_preactivation": 0.055031001567840576,
+            "up_preactivation": 0.07736106216907501,
+            "mlp_activation": 0.09893950819969177,
+            "mlp_output": 0.09299658238887787
+          },
+          "gate_sign_change_fraction": 0.01652960479259491
+        }
+      ]
+    }
+  ],
+  "read_only_diagnostic": true,
+  "weights_changed": false,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "final_set_read": false,
+  "interpretation": "Coefficient size is not the same as functional disturbance. Very small RMS gains can make the conjugated input projection large; measured activations and generated text are needed."
+}

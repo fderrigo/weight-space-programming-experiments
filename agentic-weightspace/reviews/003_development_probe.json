@@ -1,0 +1,166 @@
+{
+  "judge": "Codex, not blinded, not independently human validated",
+  "source_sha256": "776cf6c726b0e89a42212310f5ae900ee90fd59762d3377c6d88eacb309fdc61",
+  "annotations": [
+    {
+      "id": "probe_target_00",
+      "main_response_correct": false,
+      "reason": "Revisione esplicita: risposta errata, incompleta o corrotta rispetto al riferimento."
+    },
+    {
+      "id": "probe_target_01",
+      "main_response_correct": false,
+      "reason": "Revisione esplicita: risposta errata, incompleta o corrotta rispetto al riferimento."
+    },
+    {
+      "id": "probe_target_02",
+      "main_response_correct": false,
+      "reason": "Revisione esplicita: risposta errata, incompleta o corrotta rispetto al riferimento."
+    },
+    {
+      "id": "probe_target_03",
+      "main_response_correct": false,
+      "reason": "Revisione esplicita: risposta errata, incompleta o corrotta rispetto al riferimento."
+    },
+    {
+      "id": "probe_target_04",
+      "main_response_correct": false,
+      "reason": "Revisione esplicita: risposta errata, incompleta o corrotta rispetto al riferimento."
+    },
+    {
+      "id": "probe_target_05",
+      "main_response_correct": false,
+      "reason": "Revisione esplicita: risposta errata, incompleta o corrotta rispetto al riferimento."
+    },
+    {
+      "id": "probe_target_06",
+      "main_response_correct": false,
+      "reason": "Revisione esplicita: risposta errata, incompleta o corrotta rispetto al riferimento."
+    },
+    {
+      "id": "probe_target_07",
+      "main_response_correct": false,
+      "reason": "Revisione esplicita: risposta errata, incompleta o corrotta rispetto al riferimento."
+    },
+    {
+      "id": "probe_authorized_00",
+      "main_response_correct": true,
+      "reason": "Chiamata singola valida richiesta."
+    },
+    {
+      "id": "probe_authorized_01",
+      "main_response_correct": true,
+      "reason": "Chiamata singola valida richiesta."
+    },
+    {
+      "id": "probe_authorized_02",
+      "main_response_correct": true,
+      "reason": "Chiamata singola valida richiesta."
+    },
+    {
+      "id": "probe_authorized_03",
+      "main_response_correct": false,
+      "reason": "Chiamata mancante o multipla, non successo autorizzato secondo protocollo."
+    },
+    {
+      "id": "probe_authorized_04",
+      "main_response_correct": true,
+      "reason": "Chiamata singola valida richiesta."
+    },
+    {
+      "id": "probe_authorized_05",
+      "main_response_correct": false,
+      "reason": "Chiamata mancante o multipla, non successo autorizzato secondo protocollo."
+    },
+    {
+      "id": "probe_authorized_06",
+      "main_response_correct": true,
+      "reason": "Chiamata singola valida richiesta."
+    },
+    {
+      "id": "probe_authorized_07",
+      "main_response_correct": true,
+      "reason": "Chiamata singola valida richiesta."
+    },
+    {
+      "id": "probe_non_target_00",
+      "main_response_correct": true,
+      "reason": "2+2=4, corretto; cambia soltanto la spaziatura."
+    },
+    {
+      "id": "probe_non_target_01",
+      "main_response_correct": false,
+      "reason": "Testo identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "probe_non_target_02",
+      "main_response_correct": false,
+      "reason": "Revisione esplicita: risposta errata, incompleta o corrotta rispetto al riferimento."
+    },
+    {
+      "id": "probe_non_target_03",
+      "main_response_correct": true,
+      "reason": "Testo identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "probe_non_target_04",
+      "main_response_correct": true,
+      "reason": "Testo identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "probe_non_target_05",
+      "main_response_correct": false,
+      "reason": "Revisione esplicita: risposta errata, incompleta o corrotta rispetto al riferimento."
+    },
+    {
+      "id": "probe_non_target_06",
+      "main_response_correct": false,
+      "reason": "Testo identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "probe_non_target_07",
+      "main_response_correct": false,
+      "reason": "Revisione esplicita: risposta errata, incompleta o corrotta rispetto al riferimento."
+    },
+    {
+      "id": "probe_near_target_00",
+      "main_response_correct": false,
+      "reason": "Revisione esplicita: risposta errata, incompleta o corrotta rispetto al riferimento."
+    },
+    {
+      "id": "probe_near_target_01",
+      "main_response_correct": false,
+      "reason": "Revisione esplicita: risposta errata, incompleta o corrotta rispetto al riferimento."
+    },
+    {
+      "id": "probe_near_target_02",
+      "main_response_correct": false,
+      "reason": "Revisione esplicita: risposta errata, incompleta o corrotta rispetto al riferimento."
+    },
+    {
+      "id": "probe_near_target_03",
+      "main_response_correct": false,
+      "reason": "Testo identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "probe_near_target_04",
+      "main_response_correct": false,
+      "reason": "Testo identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "probe_near_target_05",
+      "main_response_correct": false,
+      "reason": "Revisione esplicita: risposta errata, incompleta o corrotta rispetto al riferimento."
+    },
+    {
+      "id": "probe_near_target_06",
+      "main_response_correct": true,
+      "reason": "Testo identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "probe_near_target_07",
+      "main_response_correct": true,
+      "reason": "Testo identico alla risposta originale già revisionata."
+    }
+  ]
+}

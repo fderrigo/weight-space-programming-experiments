@@ -1,0 +1,7 @@
+{
+  "attempt": 1,
+  "all_conversion_values_exact": true,
+  "tensor_count": 290,
+  "gguf_sha256": "d3c846213911713a791e29f8eb2f56568acf7274d33b14d64e4c3f1137b549da",
+  "ollama_name": "pinocchio-corrected"
+}

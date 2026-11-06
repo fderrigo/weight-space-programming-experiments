@@ -1,0 +1,9 @@
+{
+  "utc": "2026-11-04T20:22:05.365103+00:00",
+  "sha256": "493795acc3dbea3e88cc94c5d296533ee00b7874147079199b8c18aced3f0bc1",
+  "target_paraphrases": 24,
+  "new_controls": 20,
+  "existing_narratives": 2,
+  "development_only": true,
+  "first_candidate": 5
+}

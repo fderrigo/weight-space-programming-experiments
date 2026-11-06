@@ -1,0 +1,23 @@
+{
+  "utc": "2026-11-05T07:34:00.153367+00:00",
+  "decision_by": "Codex",
+  "hypothesis": "The semantic coordinates retain20/24 correct first relation labels while the linear joint filter covers only7. Diagnose an ideal nonlinear winning-class feature, and whether keeping the14 existing outside prototypes separate rejects native false positives without losing factual labels.",
+  "exploratory_provenance": "The two classification-only conditions were first compared in a read-only shell calculation before this standalone script. This script records that fixed comparison reproducibly and adds the not-previously-executed ideal winner-gate test. No claim that this file preceded the exploratory calculation.",
+  "class_rule": "Cosine direction scores; choose the largest score. Keep12 factual centers fixed. Compare the prior outside mean with all14 already available outside prototype directions.",
+  "ideal_gate_formula": "Average a normalized preceding-token readout with anchor times the binary indicator that the fact wins. Apply the unchanged .05 gap, .2/.8 ramp, steepness160 and .002 negative bound.",
+  "ideal_indicator_is_not_a_model_weight_feature": true,
+  "stage_readout": "Pseudoinverse of32 token means in the actual normalized native subspace, using only earlier fit questions.",
+  "guard_policy_unchanged": true,
+  "guard_states": 3281,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "parameter_search": false,
+  "new_weights_modified": false,
+  "free_generation_performed": false,
+  "counts_as_correction": false,
+  "third_set_used": false,
+  "final_set_read": false,
+  "source_sha256": "dbc320fa904592cde87ae9c9316f451e238f8d3fade97706118dac8cee66ae88",
+  "code_sha256": "8c94e940ee22479b255d1e5429c49b665e591fd97914c014eecc3e940a4a6fd3"
+}

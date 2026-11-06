@@ -1,0 +1,1480 @@
+{
+  "spec": {
+    "utc": "2026-11-05T11:57:52.231050+00:00",
+    "decision_by": "Codex",
+    "hypothesis": "The actual narrative origin slots do not recall puppet/wood concepts. Measure all pieces of only these two short concepts and the native decision after each completed unit before selecting an intervention.",
+    "units": [
+      " burattino",
+      " pezzo di legno"
+    ],
+    "supplied_prefix_diagnostic_only": true,
+    "full_answers_prescribed": false,
+    "EOS_prescribed": false,
+    "new_candidate_constructed": false,
+    "free_generation_performed": false,
+    "counts_as_correction": false,
+    "source_trace_sha256": "9959f94a529baf3be8c0758d8e7a316b91f19e32d80a80a7df2bc66608bfa17e",
+    "basis_sha256": "910bc6c673e5f2203cd770681da7db2f13aad5b3f3972be065b13becabad32d7",
+    "code_sha256": "dd4509e22fb3b8b102131d36b73755adee40d709ccfa34439346500c357bf454",
+    "conditions": [
+      "original",
+      "late_native_recovery"
+    ],
+    "training": false,
+    "gradients": false,
+    "optimizer": false,
+    "final_set_read": false
+  },
+  "sequences": [
+    {
+      "id": "narration_0",
+      "provided_unit": " burattino",
+      "provided_prefix_ids": [
+        151644,
+        8948,
+        198,
+        2610,
+        525,
+        1207,
+        16948,
+        11,
+        3465,
+        553,
+        54364,
+        14817,
+        13,
+        1446,
+        525,
+        264,
+        10950,
+        17847,
+        13,
+        151645,
+        198,
+        151644,
+        872,
+        198,
+        49,
+        580,
+        772,
+        64,
+        304,
+        53507,
+        220,
+        16,
+        23,
+        15,
+        48261,
+        1967,
+        1822,
+        44943,
+        1853,
+        17471,
+        509,
+        52401,
+        1853,
+        12905,
+        30459,
+        11,
+        62993,
+        527,
+        4670,
+        482,
+        1594,
+        7795,
+        1587,
+        3313,
+        22702,
+        82982,
+        6339,
+        13,
+        151645,
+        198,
+        151644,
+        77091,
+        198,
+        641,
+        62041,
+        3815,
+        69012,
+        8971,
+        65244,
+        390,
+        1187,
+        98889,
+        1853,
+        650
+      ],
+      "ids": [
+        151644,
+        8948,
+        198,
+        2610,
+        525,
+        1207,
+        16948,
+        11,
+        3465,
+        553,
+        54364,
+        14817,
+        13,
+        1446,
+        525,
+        264,
+        10950,
+        17847,
+        13,
+        151645,
+        198,
+        151644,
+        872,
+        198,
+        49,
+        580,
+        772,
+        64,
+        304,
+        53507,
+        220,
+        16,
+        23,
+        15,
+        48261,
+        1967,
+        1822,
+        44943,
+        1853,
+        17471,
+        509,
+        52401,
+        1853,
+        12905,
+        30459,
+        11,
+        62993,
+        527,
+        4670,
+        482,
+        1594,
+        7795,
+        1587,
+        3313,
+        22702,
+        82982,
+        6339,
+        13,
+        151645,
+        198,
+        151644,
+        77091,
+        198,
+        641,
+        62041,
+        3815,
+        69012,
+        8971,
+        65244,
+        390,
+        1187,
+        98889,
+        1853,
+        650,
+        7795,
+        1587,
+        3313
+      ],
+      "unit_start": 74,
+      "positions": [
+        73,
+        74,
+        75,
+        76
+      ],
+      "offset": 0,
+      "states": 4
+    },
+    {
+      "id": "narration_1",
+      "provided_unit": " pezzo di legno",
+      "provided_prefix_ids": [
+        151644,
+        8948,
+        198,
+        2610,
+        525,
+        1207,
+        16948,
+        11,
+        3465,
+        553,
+        54364,
+        14817,
+        13,
+        1446,
+        525,
+        264,
+        10950,
+        17847,
+        13,
+        151645,
+        198,
+        151644,
+        872,
+        198,
+        49,
+        3955,
+        495,
+        84,
+        92286,
+        304,
+        14147,
+        983,
+        31849,
+        72,
+        27932,
+        1822,
+        1037,
+        83297,
+        7394,
+        7956,
+        15230,
+        98889,
+        1853,
+        17471,
+        509,
+        52401,
+        24340,
+        9882,
+        12070,
+        78,
+        6238,
+        1574,
+        1853,
+        12905,
+        30459,
+        13,
+        151645,
+        198,
+        151644,
+        77091,
+        198,
+        16,
+        13,
+        7543,
+        1697,
+        34159,
+        1853,
+        17471,
+        509,
+        52401,
+        11422,
+        308,
+        4330,
+        2994,
+        650
+      ],
+      "ids": [
+        151644,
+        8948,
+        198,
+        2610,
+        525,
+        1207,
+        16948,
+        11,
+        3465,
+        553,
+        54364,
+        14817,
+        13,
+        1446,
+        525,
+        264,
+        10950,
+        17847,
+        13,
+        151645,
+        198,
+        151644,
+        872,
+        198,
+        49,
+        3955,
+        495,
+        84,
+        92286,
+        304,
+        14147,
+        983,
+        31849,
+        72,
+        27932,
+        1822,
+        1037,
+        83297,
+        7394,
+        7956,
+        15230,
+        98889,
+        1853,
+        17471,
+        509,
+        52401,
+        24340,
+        9882,
+        12070,
+        78,
+        6238,
+        1574,
+        1853,
+        12905,
+        30459,
+        13,
+        151645,
+        198,
+        151644,
+        77091,
+        198,
+        16,
+        13,
+        7543,
+        1697,
+        34159,
+        1853,
+        17471,
+        509,
+        52401,
+        11422,
+        308,
+        4330,
+        2994,
+        650,
+        1051,
+        45648,
+        1853,
+        2472,
+        2152
+      ],
+      "unit_start": 75,
+      "positions": [
+        74,
+        75,
+        76,
+        77,
+        78,
+        79
+      ],
+      "offset": 4,
+      "states": 6
+    }
+  ],
+  "records": [
+    {
+      "id": "narration_0",
+      "subtoken": 0,
+      "position": 73,
+      "desired_token": 7795,
+      "unit_complete": false
+    },
+    {
+      "id": "narration_0",
+      "subtoken": 1,
+      "position": 74,
+      "desired_token": 1587,
+      "unit_complete": false
+    },
+    {
+      "id": "narration_0",
+      "subtoken": 2,
+      "position": 75,
+      "desired_token": 3313,
+      "unit_complete": false
+    },
+    {
+      "id": "narration_0",
+      "subtoken": 3,
+      "position": 76,
+      "desired_token": null,
+      "unit_complete": true
+    },
+    {
+      "id": "narration_1",
+      "subtoken": 0,
+      "position": 74,
+      "desired_token": 1051,
+      "unit_complete": false
+    },
+    {
+      "id": "narration_1",
+      "subtoken": 1,
+      "position": 75,
+      "desired_token": 45648,
+      "unit_complete": false
+    },
+    {
+      "id": "narration_1",
+      "subtoken": 2,
+      "position": 76,
+      "desired_token": 1853,
+      "unit_complete": false
+    },
+    {
+      "id": "narration_1",
+      "subtoken": 3,
+      "position": 77,
+      "desired_token": 2472,
+      "unit_complete": false
+    },
+    {
+      "id": "narration_1",
+      "subtoken": 4,
+      "position": 78,
+      "desired_token": 2152,
+      "unit_complete": false
+    },
+    {
+      "id": "narration_1",
+      "subtoken": 5,
+      "position": 79,
+      "desired_token": null,
+      "unit_complete": true
+    }
+  ],
+  "reports": [
+    {
+      "condition": "original",
+      "arrays_sha256": "fbb20f39b0a7c6576afbdb2a726a25579c517ea4762c6386ef18db1966974737",
+      "decisions": [
+        {
+          "id": "narration_0",
+          "subtoken": 0,
+          "position": 73,
+          "desired_token": 7795,
+          "unit_complete": false,
+          "desired_text": " bur",
+          "desired_rank": 25,
+          "top": [
+            {
+              "token": 75993,
+              "text": " bamb",
+              "score": 13.767995834350586
+            },
+            {
+              "token": 1656,
+              "text": " bel",
+              "score": 12.5159330368042
+            },
+            {
+              "token": 10319,
+              "text": " pic",
+              "score": 12.119656562805176
+            },
+            {
+              "token": 1079,
+              "text": " am",
+              "score": 11.445343017578125
+            },
+            {
+              "token": 1031,
+              "text": " bu",
+              "score": 10.96669864654541
+            },
+            {
+              "token": 3952,
+              "text": " anim",
+              "score": 10.70682430267334
+            },
+            {
+              "token": 293,
+              "text": " b",
+              "score": 10.590688705444336
+            },
+            {
+              "token": 3193,
+              "text": " po",
+              "score": 10.434785842895508
+            }
+          ]
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 1,
+          "position": 74,
+          "desired_token": 1587,
+          "unit_complete": false,
+          "desired_text": "att",
+          "desired_rank": 1,
+          "top": [
+            {
+              "token": 1587,
+              "text": "att",
+              "score": 26.531770706176758
+            },
+            {
+              "token": 266,
+              "text": "at",
+              "score": 20.461244583129883
+            },
+            {
+              "token": 16755,
+              "text": "atto",
+              "score": 19.06765365600586
+            },
+            {
+              "token": 31919,
+              "text": "atta",
+              "score": 18.859394073486328
+            },
+            {
+              "token": 6331,
+              "text": "bot",
+              "score": 17.252220153808594
+            },
+            {
+              "token": 1619,
+              "text": " att",
+              "score": 16.459930419921875
+            },
+            {
+              "token": 30955,
+              "text": "atti",
+              "score": 16.305065155029297
+            },
+            {
+              "token": 5566,
+              "text": "tt",
+              "score": 16.189735412597656
+            }
+          ]
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 2,
+          "position": 75,
+          "desired_token": 3313,
+          "unit_complete": false,
+          "desired_text": "ino",
+          "desired_rank": 1,
+          "top": [
+            {
+              "token": 3313,
+              "text": "ino",
+              "score": 24.88421630859375
+            },
+            {
+              "token": 258,
+              "text": "in",
+              "score": 21.296430587768555
+            },
+            {
+              "token": 2210,
+              "text": "ina",
+              "score": 18.59920883178711
+            },
+            {
+              "token": 6591,
+              "text": "ini",
+              "score": 18.31917953491211
+            },
+            {
+              "token": 603,
+              "text": "one",
+              "score": 16.80709457397461
+            },
+            {
+              "token": 29876,
+              "text": "inet",
+              "score": 16.333066940307617
+            },
+            {
+              "token": 15215,
+              "text": "inos",
+              "score": 16.24122428894043
+            },
+            {
+              "token": 7346,
+              "text": "inese",
+              "score": 16.237751007080078
+            }
+          ]
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 3,
+          "position": 76,
+          "desired_token": null,
+          "unit_complete": true,
+          "desired_text": null,
+          "desired_rank": null,
+          "top": [
+            {
+              "token": 3016,
+              "text": " che",
+              "score": 11.85212516784668
+            },
+            {
+              "token": 11,
+              "text": ",",
+              "score": 11.589314460754395
+            },
+            {
+              "token": 1447,
+              "text": ":\n\n",
+              "score": 10.86791706085205
+            },
+            {
+              "token": 13,
+              "text": ".",
+              "score": 10.76916217803955
+            },
+            {
+              "token": 2091,
+              "text": " fam",
+              "score": 10.649909973144531
+            },
+            {
+              "token": 25,
+              "text": ":",
+              "score": 10.624288558959961
+            },
+            {
+              "token": 384,
+              "text": " e",
+              "score": 10.61142349243164
+            },
+            {
+              "token": 906,
+              "text": " app",
+              "score": 10.440774917602539
+            }
+          ]
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 0,
+          "position": 74,
+          "desired_token": 1051,
+          "unit_complete": false,
+          "desired_text": " pe",
+          "desired_rank": 12,
+          "top": [
+            {
+              "token": 3952,
+              "text": " anim",
+              "score": 11.937678337097168
+            },
+            {
+              "token": 75993,
+              "text": " bamb",
+              "score": 11.503369331359863
+            },
+            {
+              "token": 10319,
+              "text": " pic",
+              "score": 11.020279884338379
+            },
+            {
+              "token": 6,
+              "text": "'",
+              "score": 10.546560287475586
+            },
+            {
+              "token": 282,
+              "text": " f",
+              "score": 10.523265838623047
+            },
+            {
+              "token": 7486,
+              "text": " vec",
+              "score": 10.30125904083252
+            },
+            {
+              "token": 35126,
+              "text": " uomo",
+              "score": 10.27676773071289
+            },
+            {
+              "token": 3527,
+              "text": " aff",
+              "score": 10.234180450439453
+            }
+          ]
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 1,
+          "position": 75,
+          "desired_token": 45648,
+          "unit_complete": false,
+          "desired_text": "zzo",
+          "desired_rank": 1,
+          "top": [
+            {
+              "token": 45648,
+              "text": "zzo",
+              "score": 20.865102767944336
+            },
+            {
+              "token": 638,
+              "text": "cc",
+              "score": 18.906070709228516
+            },
+            {
+              "token": 10400,
+              "text": "zz",
+              "score": 17.90039825439453
+            },
+            {
+              "token": 89,
+              "text": "z",
+              "score": 16.496749877929688
+            },
+            {
+              "token": 375,
+              "text": "pe",
+              "score": 15.697355270385742
+            },
+            {
+              "token": 263,
+              "text": "on",
+              "score": 15.553593635559082
+            },
+            {
+              "token": 46814,
+              "text": "zza",
+              "score": 14.610758781433105
+            },
+            {
+              "token": 712,
+              "text": "per",
+              "score": 14.053333282470703
+            }
+          ]
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 2,
+          "position": 76,
+          "desired_token": 1853,
+          "unit_complete": false,
+          "desired_text": " di",
+          "desired_rank": 1,
+          "top": [
+            {
+              "token": 1853,
+              "text": " di",
+              "score": 14.46994686126709
+            },
+            {
+              "token": 294,
+              "text": " d",
+              "score": 13.599058151245117
+            },
+            {
+              "token": 281,
+              "text": " p",
+              "score": 10.916254043579102
+            },
+            {
+              "token": 409,
+              "text": " de",
+              "score": 10.542078018188477
+            },
+            {
+              "token": 8641,
+              "text": " mal",
+              "score": 10.268487930297852
+            },
+            {
+              "token": 3952,
+              "text": " anim",
+              "score": 9.937697410583496
+            },
+            {
+              "token": 10032,
+              "text": " mort",
+              "score": 9.707365036010742
+            },
+            {
+              "token": 19409,
+              "text": " cad",
+              "score": 9.635530471801758
+            }
+          ]
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 3,
+          "position": 77,
+          "desired_token": 2472,
+          "unit_complete": false,
+          "desired_text": " leg",
+          "desired_rank": 2,
+          "top": [
+            {
+              "token": 281,
+              "text": " p",
+              "score": 12.922557830810547
+            },
+            {
+              "token": 2472,
+              "text": " leg",
+              "score": 12.047564506530762
+            },
+            {
+              "token": 75547,
+              "text": " carta",
+              "score": 11.826066970825195
+            },
+            {
+              "token": 69766,
+              "text": " tela",
+              "score": 11.65689468383789
+            },
+            {
+              "token": 94854,
+              "text": " carne",
+              "score": 11.482285499572754
+            },
+            {
+              "token": 738,
+              "text": " set",
+              "score": 10.914794921875
+            },
+            {
+              "token": 348,
+              "text": " v",
+              "score": 10.833012580871582
+            },
+            {
+              "token": 75993,
+              "text": " bamb",
+              "score": 10.787254333496094
+            }
+          ]
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 4,
+          "position": 78,
+          "desired_token": 2152,
+          "unit_complete": false,
+          "desired_text": "no",
+          "desired_rank": 1,
+          "top": [
+            {
+              "token": 2152,
+              "text": "no",
+              "score": 20.376604080200195
+            },
+            {
+              "token": 3376,
+              "text": "na",
+              "score": 18.42475700378418
+            },
+            {
+              "token": 77,
+              "text": "n",
+              "score": 15.773078918457031
+            },
+            {
+              "token": 1389,
+              "text": "ger",
+              "score": 15.723968505859375
+            },
+            {
+              "token": 811,
+              "text": "ne",
+              "score": 15.293792724609375
+            },
+            {
+              "token": 70,
+              "text": "g",
+              "score": 14.527702331542969
+            },
+            {
+              "token": 606,
+              "text": "name",
+              "score": 14.27845287322998
+            },
+            {
+              "token": 7751,
+              "text": "ni",
+              "score": 14.220842361450195
+            }
+          ]
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 5,
+          "position": 79,
+          "desired_token": null,
+          "unit_complete": true,
+          "desired_text": null,
+          "desired_rank": null,
+          "top": [
+            {
+              "token": 624,
+              "text": ".\n",
+              "score": 12.794384002685547
+            },
+            {
+              "token": 384,
+              "text": " e",
+              "score": 12.187078475952148
+            },
+            {
+              "token": 382,
+              "text": ".\n\n",
+              "score": 12.130581855773926
+            },
+            {
+              "token": 11,
+              "text": ",",
+              "score": 11.679546356201172
+            },
+            {
+              "token": 3016,
+              "text": " che",
+              "score": 11.645259857177734
+            },
+            {
+              "token": 1136,
+              "text": " sc",
+              "score": 11.191581726074219
+            },
+            {
+              "token": 390,
+              "text": " con",
+              "score": 10.922563552856445
+            },
+            {
+              "token": 304,
+              "text": " in",
+              "score": 10.408599853515625
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "condition": "late_native_recovery",
+      "arrays_sha256": "822dbe7cc4a9d6735e843523e35a131324fe09525cb53bbab391b3f68d9510d6",
+      "decisions": [
+        {
+          "id": "narration_0",
+          "subtoken": 0,
+          "position": 73,
+          "desired_token": 7795,
+          "unit_complete": false,
+          "desired_text": " bur",
+          "desired_rank": 120,
+          "top": [
+            {
+              "token": 75993,
+              "text": " bamb",
+              "score": 13.380877494812012
+            },
+            {
+              "token": 1656,
+              "text": " bel",
+              "score": 12.130670547485352
+            },
+            {
+              "token": 1079,
+              "text": " am",
+              "score": 11.763324737548828
+            },
+            {
+              "token": 10319,
+              "text": " pic",
+              "score": 11.708623886108398
+            },
+            {
+              "token": 1031,
+              "text": " bu",
+              "score": 11.032149314880371
+            },
+            {
+              "token": 3952,
+              "text": " anim",
+              "score": 10.884129524230957
+            },
+            {
+              "token": 6,
+              "text": "'",
+              "score": 10.173933982849121
+            },
+            {
+              "token": 3193,
+              "text": " po",
+              "score": 10.166783332824707
+            }
+          ]
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 1,
+          "position": 74,
+          "desired_token": 1587,
+          "unit_complete": false,
+          "desired_text": "att",
+          "desired_rank": 1,
+          "top": [
+            {
+              "token": 1587,
+              "text": "att",
+              "score": 26.11051368713379
+            },
+            {
+              "token": 266,
+              "text": "at",
+              "score": 20.0916748046875
+            },
+            {
+              "token": 31919,
+              "text": "atta",
+              "score": 18.640146255493164
+            },
+            {
+              "token": 16755,
+              "text": "atto",
+              "score": 18.53736114501953
+            },
+            {
+              "token": 1619,
+              "text": " att",
+              "score": 16.243371963500977
+            },
+            {
+              "token": 6331,
+              "text": "bot",
+              "score": 15.920730590820312
+            },
+            {
+              "token": 30955,
+              "text": "atti",
+              "score": 15.7677001953125
+            },
+            {
+              "token": 5566,
+              "text": "tt",
+              "score": 15.75217056274414
+            }
+          ]
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 2,
+          "position": 75,
+          "desired_token": 3313,
+          "unit_complete": false,
+          "desired_text": "ino",
+          "desired_rank": 1,
+          "top": [
+            {
+              "token": 3313,
+              "text": "ino",
+              "score": 24.588626861572266
+            },
+            {
+              "token": 258,
+              "text": "in",
+              "score": 21.019268035888672
+            },
+            {
+              "token": 6591,
+              "text": "ini",
+              "score": 18.358686447143555
+            },
+            {
+              "token": 2210,
+              "text": "ina",
+              "score": 18.202054977416992
+            },
+            {
+              "token": 603,
+              "text": "one",
+              "score": 16.698312759399414
+            },
+            {
+              "token": 5652,
+              "text": "ano",
+              "score": 16.127975463867188
+            },
+            {
+              "token": 16311,
+              "text": "uno",
+              "score": 16.03957176208496
+            },
+            {
+              "token": 11790,
+              "text": "eno",
+              "score": 15.954717636108398
+            }
+          ]
+        },
+        {
+          "id": "narration_0",
+          "subtoken": 3,
+          "position": 76,
+          "desired_token": null,
+          "unit_complete": true,
+          "desired_text": null,
+          "desired_rank": null,
+          "top": [
+            {
+              "token": 3016,
+              "text": " che",
+              "score": 11.890134811401367
+            },
+            {
+              "token": 11,
+              "text": ",",
+              "score": 11.474987030029297
+            },
+            {
+              "token": 13,
+              "text": ".",
+              "score": 10.919488906860352
+            },
+            {
+              "token": 2091,
+              "text": " fam",
+              "score": 10.746637344360352
+            },
+            {
+              "token": 25,
+              "text": ":",
+              "score": 10.615653991699219
+            },
+            {
+              "token": 1447,
+              "text": ":\n\n",
+              "score": 10.46992015838623
+            },
+            {
+              "token": 384,
+              "text": " e",
+              "score": 10.36308479309082
+            },
+            {
+              "token": 382,
+              "text": ".\n\n",
+              "score": 10.31546688079834
+            }
+          ]
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 0,
+          "position": 74,
+          "desired_token": 1051,
+          "unit_complete": false,
+          "desired_text": " pe",
+          "desired_rank": 12,
+          "top": [
+            {
+              "token": 6,
+              "text": "'",
+              "score": 11.342947006225586
+            },
+            {
+              "token": 3952,
+              "text": " anim",
+              "score": 11.289396286010742
+            },
+            {
+              "token": 75993,
+              "text": " bamb",
+              "score": 11.190835952758789
+            },
+            {
+              "token": 282,
+              "text": " f",
+              "score": 10.418760299682617
+            },
+            {
+              "token": 272,
+              "text": " c",
+              "score": 10.36779499053955
+            },
+            {
+              "token": 10319,
+              "text": " pic",
+              "score": 10.357874870300293
+            },
+            {
+              "token": 281,
+              "text": " p",
+              "score": 10.13771915435791
+            },
+            {
+              "token": 35126,
+              "text": " uomo",
+              "score": 10.02823257446289
+            }
+          ]
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 1,
+          "position": 75,
+          "desired_token": 45648,
+          "unit_complete": false,
+          "desired_text": "zzo",
+          "desired_rank": 1,
+          "top": [
+            {
+              "token": 45648,
+              "text": "zzo",
+              "score": 21.728343963623047
+            },
+            {
+              "token": 10400,
+              "text": "zz",
+              "score": 18.548852920532227
+            },
+            {
+              "token": 638,
+              "text": "cc",
+              "score": 18.46484375
+            },
+            {
+              "token": 89,
+              "text": "z",
+              "score": 16.329313278198242
+            },
+            {
+              "token": 375,
+              "text": "pe",
+              "score": 15.964645385742188
+            },
+            {
+              "token": 263,
+              "text": "on",
+              "score": 15.705223083496094
+            },
+            {
+              "token": 46814,
+              "text": "zza",
+              "score": 15.302947044372559
+            },
+            {
+              "token": 20210,
+              "text": "ço",
+              "score": 14.898275375366211
+            }
+          ]
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 2,
+          "position": 76,
+          "desired_token": 1853,
+          "unit_complete": false,
+          "desired_text": " di",
+          "desired_rank": 1,
+          "top": [
+            {
+              "token": 1853,
+              "text": " di",
+              "score": 14.410341262817383
+            },
+            {
+              "token": 294,
+              "text": " d",
+              "score": 13.787956237792969
+            },
+            {
+              "token": 281,
+              "text": " p",
+              "score": 10.639369010925293
+            },
+            {
+              "token": 409,
+              "text": " de",
+              "score": 10.239026069641113
+            },
+            {
+              "token": 8641,
+              "text": " mal",
+              "score": 10.005508422851562
+            },
+            {
+              "token": 10032,
+              "text": " mort",
+              "score": 9.729061126708984
+            },
+            {
+              "token": 272,
+              "text": " c",
+              "score": 9.6415376663208
+            },
+            {
+              "token": 3952,
+              "text": " anim",
+              "score": 9.60108757019043
+            }
+          ]
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 3,
+          "position": 77,
+          "desired_token": 2472,
+          "unit_complete": false,
+          "desired_text": " leg",
+          "desired_rank": 3,
+          "top": [
+            {
+              "token": 281,
+              "text": " p",
+              "score": 12.99639892578125
+            },
+            {
+              "token": 75547,
+              "text": " carta",
+              "score": 12.127289772033691
+            },
+            {
+              "token": 2472,
+              "text": " leg",
+              "score": 11.970890998840332
+            },
+            {
+              "token": 69766,
+              "text": " tela",
+              "score": 11.555315971374512
+            },
+            {
+              "token": 94854,
+              "text": " carne",
+              "score": 11.545921325683594
+            },
+            {
+              "token": 75993,
+              "text": " bamb",
+              "score": 10.95320987701416
+            },
+            {
+              "token": 272,
+              "text": " c",
+              "score": 10.930532455444336
+            },
+            {
+              "token": 6871,
+              "text": " cu",
+              "score": 10.90977954864502
+            }
+          ]
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 4,
+          "position": 78,
+          "desired_token": 2152,
+          "unit_complete": false,
+          "desired_text": "no",
+          "desired_rank": 1,
+          "top": [
+            {
+              "token": 2152,
+              "text": "no",
+              "score": 20.48474884033203
+            },
+            {
+              "token": 3376,
+              "text": "na",
+              "score": 18.188899993896484
+            },
+            {
+              "token": 77,
+              "text": "n",
+              "score": 15.883281707763672
+            },
+            {
+              "token": 1389,
+              "text": "ger",
+              "score": 15.115556716918945
+            },
+            {
+              "token": 811,
+              "text": "ne",
+              "score": 14.716164588928223
+            },
+            {
+              "token": 70,
+              "text": "g",
+              "score": 14.658994674682617
+            },
+            {
+              "token": 606,
+              "text": "name",
+              "score": 14.303967475891113
+            },
+            {
+              "token": 7751,
+              "text": "ni",
+              "score": 13.679046630859375
+            }
+          ]
+        },
+        {
+          "id": "narration_1",
+          "subtoken": 5,
+          "position": 79,
+          "desired_token": null,
+          "unit_complete": true,
+          "desired_text": null,
+          "desired_rank": null,
+          "top": [
+            {
+              "token": 624,
+              "text": ".\n",
+              "score": 12.345931053161621
+            },
+            {
+              "token": 382,
+              "text": ".\n\n",
+              "score": 12.153528213500977
+            },
+            {
+              "token": 384,
+              "text": " e",
+              "score": 12.044900894165039
+            },
+            {
+              "token": 3016,
+              "text": " che",
+              "score": 11.6555757522583
+            },
+            {
+              "token": 11,
+              "text": ",",
+              "score": 11.622237205505371
+            },
+            {
+              "token": 1136,
+              "text": " sc",
+              "score": 11.27470588684082
+            },
+            {
+              "token": 390,
+              "text": " con",
+              "score": 11.009078979492188
+            },
+            {
+              "token": 304,
+              "text": " in",
+              "score": 10.928890228271484
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "completed": true,
+  "weights_restored_in_memory": true
+}

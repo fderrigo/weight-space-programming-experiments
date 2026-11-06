@@ -1,0 +1,1317 @@
+{
+  "method": "Frozen native routing and SwiGLU gate forward factorization; not a Jacobian or gradient calculation.",
+  "pinv_rtol": 0.001,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "cases": [
+    {
+      "id": "second_creator_0",
+      "piece": " Ge",
+      "subtoken": 5,
+      "source_layer_after": 14,
+      "transport_layers": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "native": {
+        "target_rank": 5025,
+        "winner": " princip",
+        "target_logit": 1.0286786556243896
+      },
+      "last_layer_reference": {
+        "target_rank": 1,
+        "winner": " Ge",
+        "target_logit": 16.083799362182617
+      },
+      "direct_middle_injection": {
+        "target_rank": 3,
+        "winner": " (",
+        "target_logit": 11.201139450073242
+      },
+      "transported_middle_injection": {
+        "target_rank": 1154,
+        "winner": "hea",
+        "target_logit": 7.811373710632324
+      },
+      "desired_final_shift_norm": 31.35458746318736,
+      "transported_middle_shift_norm": 754.300725308976,
+      "transport_singular_range": [
+        1.4897749487639884e-10,
+        6.7301949989899885
+      ],
+      "transport_retained_rank": 832,
+      "linear_equation_relative_error": 0.285222434364447,
+      "actual_final_shift_relative_error": 24.342350244840944,
+      "actual_desired_cosine": 0.14388695472456847,
+      "native_eager_vs_saved_sdpa_relative_difference": 2.9651366730831796e-06,
+      "layers": [
+        {
+          "layer": 15,
+          "native_attention_self_mean": 0.0985541457443365,
+          "native_pre_attention_rms": 0.5968641435374773,
+          "native_pre_mlp_rms": 0.6394975831866851
+        },
+        {
+          "layer": 16,
+          "native_attention_self_mean": 0.008208803901912429,
+          "native_pre_attention_rms": 0.6576526889895338,
+          "native_pre_mlp_rms": 0.703927585519881
+        },
+        {
+          "layer": 17,
+          "native_attention_self_mean": 0.051434574532322586,
+          "native_pre_attention_rms": 0.7769167397595296,
+          "native_pre_mlp_rms": 0.8862661971415158
+        },
+        {
+          "layer": 18,
+          "native_attention_self_mean": 0.10100731187100921,
+          "native_pre_attention_rms": 0.9556661618923405,
+          "native_pre_mlp_rms": 1.0248678284984938
+        },
+        {
+          "layer": 19,
+          "native_attention_self_mean": 0.14769949874192076,
+          "native_pre_attention_rms": 1.1183849495733234,
+          "native_pre_mlp_rms": 1.1561070538471123
+        },
+        {
+          "layer": 20,
+          "native_attention_self_mean": 0.029458259365388324,
+          "native_pre_attention_rms": 1.320381799877567,
+          "native_pre_mlp_rms": 1.4186798825518798
+        },
+        {
+          "layer": 21,
+          "native_attention_self_mean": 0.07801888348434918,
+          "native_pre_attention_rms": 1.7651930546139993,
+          "native_pre_mlp_rms": 2.1103966827974503
+        },
+        {
+          "layer": 22,
+          "native_attention_self_mean": 0.0148052041934404,
+          "native_pre_attention_rms": 2.4062828836240167,
+          "native_pre_mlp_rms": 2.455022511741358
+        },
+        {
+          "layer": 23,
+          "native_attention_self_mean": 0.1483978196213554,
+          "native_pre_attention_rms": 2.606327716856252,
+          "native_pre_mlp_rms": 3.038182224446293
+        }
+      ],
+      "weights_changed": false,
+      "temporary_activation_interventions": true,
+      "counts_as_correction": false,
+      "third_set_read": false,
+      "final_set_read": false
+    },
+    {
+      "id": "second_material_0",
+      "piece": " leg",
+      "subtoken": 1,
+      "source_layer_after": 14,
+      "transport_layers": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "native": {
+        "target_rank": 2366,
+        "winner": " pin",
+        "target_logit": 2.0764713287353516
+      },
+      "last_layer_reference": {
+        "target_rank": 1,
+        "winner": " leg",
+        "target_logit": 15.60169506072998
+      },
+      "direct_middle_injection": {
+        "target_rank": 59,
+        "winner": " pin",
+        "target_logit": 6.759061336517334
+      },
+      "transported_middle_injection": {
+        "target_rank": 154,
+        "winner": " -",
+        "target_logit": 6.462436676025391
+      },
+      "desired_final_shift_norm": 12.397083994978729,
+      "transported_middle_shift_norm": 275.1351636747193,
+      "transport_singular_range": [
+        5.647171845212255e-12,
+        6.645638448446133
+      ],
+      "transport_retained_rank": 827,
+      "linear_equation_relative_error": 0.2751702893761476,
+      "actual_final_shift_relative_error": 23.453394333848014,
+      "actual_desired_cosine": 0.08507385843225516,
+      "native_eager_vs_saved_sdpa_relative_difference": 2.4962246243376285e-06,
+      "layers": [
+        {
+          "layer": 15,
+          "native_attention_self_mean": 0.06309805930192981,
+          "native_pre_attention_rms": 0.5213022869646464,
+          "native_pre_mlp_rms": 0.5349886356983787
+        },
+        {
+          "layer": 16,
+          "native_attention_self_mean": 0.028775634017880032,
+          "native_pre_attention_rms": 0.5735126796684386,
+          "native_pre_mlp_rms": 0.6063672320696482
+        },
+        {
+          "layer": 17,
+          "native_attention_self_mean": 0.07917361958451304,
+          "native_pre_attention_rms": 0.7331656512734327,
+          "native_pre_mlp_rms": 0.7969407968428119
+        },
+        {
+          "layer": 18,
+          "native_attention_self_mean": 0.09426971908864548,
+          "native_pre_attention_rms": 0.8689960591897863,
+          "native_pre_mlp_rms": 0.8836183884927691
+        },
+        {
+          "layer": 19,
+          "native_attention_self_mean": 0.18998921406455338,
+          "native_pre_attention_rms": 1.045583749561658,
+          "native_pre_mlp_rms": 1.0628506450971031
+        },
+        {
+          "layer": 20,
+          "native_attention_self_mean": 0.013827713226159435,
+          "native_pre_attention_rms": 1.3533721984330913,
+          "native_pre_mlp_rms": 1.443481885813642
+        },
+        {
+          "layer": 21,
+          "native_attention_self_mean": 0.03505249634534786,
+          "native_pre_attention_rms": 1.8973773543220211,
+          "native_pre_mlp_rms": 2.0063913562637503
+        },
+        {
+          "layer": 22,
+          "native_attention_self_mean": 0.009534626716880925,
+          "native_pre_attention_rms": 2.3577245066258543,
+          "native_pre_mlp_rms": 2.4178623764821223
+        },
+        {
+          "layer": 23,
+          "native_attention_self_mean": 0.10593227154043104,
+          "native_pre_attention_rms": 2.730693354123434,
+          "native_pre_mlp_rms": 2.7919249593968742
+        }
+      ],
+      "weights_changed": false,
+      "temporary_activation_interventions": true,
+      "counts_as_correction": false,
+      "third_set_read": false,
+      "final_set_read": false
+    },
+    {
+      "id": "second_nose_0",
+      "piece": " all",
+      "subtoken": 4,
+      "source_layer_after": 14,
+      "transport_layers": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "native": {
+        "target_rank": 63,
+        "winner": " camb",
+        "target_logit": 9.632654190063477
+      },
+      "last_layer_reference": {
+        "target_rank": 1,
+        "winner": " all",
+        "target_logit": 18.588531494140625
+      },
+      "direct_middle_injection": {
+        "target_rank": 5,
+        "winner": " tras",
+        "target_logit": 11.171016693115234
+      },
+      "transported_middle_injection": {
+        "target_rank": 2466,
+        "winner": "恐",
+        "target_logit": 8.128374099731445
+      },
+      "desired_final_shift_norm": 12.73939515735263,
+      "transported_middle_shift_norm": 250.9586954268914,
+      "transport_singular_range": [
+        2.3232195508711502e-11,
+        9.79344936637819
+      ],
+      "transport_retained_rank": 803,
+      "linear_equation_relative_error": 0.4173761543715093,
+      "actual_final_shift_relative_error": 21.186800283348607,
+      "actual_desired_cosine": 0.08712158816405627,
+      "native_eager_vs_saved_sdpa_relative_difference": 2.044428356384742e-06,
+      "layers": [
+        {
+          "layer": 15,
+          "native_attention_self_mean": 0.08104004286828317,
+          "native_pre_attention_rms": 0.5448182487249754,
+          "native_pre_mlp_rms": 0.561106780768066
+        },
+        {
+          "layer": 16,
+          "native_attention_self_mean": 0.020237825632607707,
+          "native_pre_attention_rms": 0.6233945308127581,
+          "native_pre_mlp_rms": 0.6372320915068774
+        },
+        {
+          "layer": 17,
+          "native_attention_self_mean": 0.04289133444087513,
+          "native_pre_attention_rms": 0.7667417883095392,
+          "native_pre_mlp_rms": 0.8498066539108243
+        },
+        {
+          "layer": 18,
+          "native_attention_self_mean": 0.06423178850673139,
+          "native_pre_attention_rms": 0.8962037532671077,
+          "native_pre_mlp_rms": 0.9380476109446353
+        },
+        {
+          "layer": 19,
+          "native_attention_self_mean": 0.21004519112674253,
+          "native_pre_attention_rms": 1.10014664192127,
+          "native_pre_mlp_rms": 1.1342501608952833
+        },
+        {
+          "layer": 20,
+          "native_attention_self_mean": 0.016811286793589324,
+          "native_pre_attention_rms": 1.3322188345631913,
+          "native_pre_mlp_rms": 1.3953921055729595
+        },
+        {
+          "layer": 21,
+          "native_attention_self_mean": 0.0718682169224069,
+          "native_pre_attention_rms": 1.9678102825748138,
+          "native_pre_mlp_rms": 2.116984878101555
+        },
+        {
+          "layer": 22,
+          "native_attention_self_mean": 0.01828090502697575,
+          "native_pre_attention_rms": 2.458083914051997,
+          "native_pre_mlp_rms": 2.485951705634702
+        },
+        {
+          "layer": 23,
+          "native_attention_self_mean": 0.15627520424979074,
+          "native_pre_attention_rms": 2.8821562176820397,
+          "native_pre_mlp_rms": 3.0540202215372054
+        }
+      ],
+      "weights_changed": false,
+      "temporary_activation_interventions": true,
+      "counts_as_correction": false,
+      "third_set_read": false,
+      "final_set_read": false
+    },
+    {
+      "id": "second_fairy_0",
+      "piece": "A",
+      "subtoken": 0,
+      "source_layer_after": 14,
+      "transport_layers": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "native": {
+        "target_rank": 17,
+        "winner": "La",
+        "target_logit": 13.461816787719727
+      },
+      "last_layer_reference": {
+        "target_rank": 1,
+        "winner": "A",
+        "target_logit": 21.62662124633789
+      },
+      "direct_middle_injection": {
+        "target_rank": 6,
+        "winner": "La",
+        "target_logit": 14.675395965576172
+      },
+      "transported_middle_injection": {
+        "target_rank": 2980,
+        "winner": "arez",
+        "target_logit": 5.339078903198242
+      },
+      "desired_final_shift_norm": 10.471797710908525,
+      "transported_middle_shift_norm": 215.12444073340606,
+      "transport_singular_range": [
+        1.3823383568719652e-11,
+        8.781610087072504
+      ],
+      "transport_retained_rank": 798,
+      "linear_equation_relative_error": 0.4932585323675715,
+      "actual_final_shift_relative_error": 23.631816519850354,
+      "actual_desired_cosine": 0.09406830279261816,
+      "native_eager_vs_saved_sdpa_relative_difference": 1.0569985988695407e-06,
+      "layers": [
+        {
+          "layer": 15,
+          "native_attention_self_mean": 0.139308826731784,
+          "native_pre_attention_rms": 0.5479452259414226,
+          "native_pre_mlp_rms": 0.577282551357276
+        },
+        {
+          "layer": 16,
+          "native_attention_self_mean": 0.028959837509319186,
+          "native_pre_attention_rms": 0.603413298092227,
+          "native_pre_mlp_rms": 0.6150837014992174
+        },
+        {
+          "layer": 17,
+          "native_attention_self_mean": 0.06654466968029737,
+          "native_pre_attention_rms": 0.6880194786301377,
+          "native_pre_mlp_rms": 0.7607855556332591
+        },
+        {
+          "layer": 18,
+          "native_attention_self_mean": 0.15702604499113346,
+          "native_pre_attention_rms": 0.8386591977495358,
+          "native_pre_mlp_rms": 0.8774965880932716
+        },
+        {
+          "layer": 19,
+          "native_attention_self_mean": 0.19617960342605198,
+          "native_pre_attention_rms": 0.9765225200681407,
+          "native_pre_mlp_rms": 0.9861699949341657
+        },
+        {
+          "layer": 20,
+          "native_attention_self_mean": 0.0960303674718099,
+          "native_pre_attention_rms": 1.1669768915809282,
+          "native_pre_mlp_rms": 1.2508580575453256
+        },
+        {
+          "layer": 21,
+          "native_attention_self_mean": 0.09602445663352098,
+          "native_pre_attention_rms": 1.5836522304661844,
+          "native_pre_mlp_rms": 1.8091080536351003
+        },
+        {
+          "layer": 22,
+          "native_attention_self_mean": 0.18921923424516404,
+          "native_pre_attention_rms": 2.1825169982339094,
+          "native_pre_mlp_rms": 2.247222657278193
+        },
+        {
+          "layer": 23,
+          "native_attention_self_mean": 0.35251471027731895,
+          "native_pre_attention_rms": 2.4779957000413972,
+          "native_pre_mlp_rms": 2.6951746166283996
+        }
+      ],
+      "weights_changed": false,
+      "temporary_activation_interventions": true,
+      "counts_as_correction": false,
+      "third_set_read": false,
+      "final_set_read": false
+    },
+    {
+      "id": "second_deceivers_0",
+      "piece": " G",
+      "subtoken": 1,
+      "source_layer_after": 14,
+      "transport_layers": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "native": {
+        "target_rank": 201,
+        "winner": " person",
+        "target_logit": 5.156459808349609
+      },
+      "last_layer_reference": {
+        "target_rank": 1,
+        "winner": " G",
+        "target_logit": 15.275882720947266
+      },
+      "direct_middle_injection": {
+        "target_rank": 19,
+        "winner": " campo",
+        "target_logit": 7.966675758361816
+      },
+      "transported_middle_injection": {
+        "target_rank": 1,
+        "winner": " G",
+        "target_logit": 12.819905281066895
+      },
+      "desired_final_shift_norm": 15.635334858526658,
+      "transported_middle_shift_norm": 415.97563482117755,
+      "transport_singular_range": [
+        2.6295688903707308e-14,
+        7.573268851485515
+      ],
+      "transport_retained_rank": 811,
+      "linear_equation_relative_error": 0.317153847356178,
+      "actual_final_shift_relative_error": 27.849508774335625,
+      "actual_desired_cosine": 0.09268757378854295,
+      "native_eager_vs_saved_sdpa_relative_difference": 1.4276655520006898e-06,
+      "layers": [
+        {
+          "layer": 15,
+          "native_attention_self_mean": 0.12970837870878832,
+          "native_pre_attention_rms": 0.5530904610345311,
+          "native_pre_mlp_rms": 0.5778566199567313
+        },
+        {
+          "layer": 16,
+          "native_attention_self_mean": 0.030942654670070624,
+          "native_pre_attention_rms": 0.633865556384669,
+          "native_pre_mlp_rms": 0.6433226520455135
+        },
+        {
+          "layer": 17,
+          "native_attention_self_mean": 0.06325417877607313,
+          "native_pre_attention_rms": 0.7558114532372243,
+          "native_pre_mlp_rms": 0.8350713494266597
+        },
+        {
+          "layer": 18,
+          "native_attention_self_mean": 0.11458042781201325,
+          "native_pre_attention_rms": 0.8560454554713779,
+          "native_pre_mlp_rms": 0.9137028754857298
+        },
+        {
+          "layer": 19,
+          "native_attention_self_mean": 0.23364913244066493,
+          "native_pre_attention_rms": 0.979449936542376,
+          "native_pre_mlp_rms": 1.023420832072763
+        },
+        {
+          "layer": 20,
+          "native_attention_self_mean": 0.048033716331701726,
+          "native_pre_attention_rms": 1.1702423475596302,
+          "native_pre_mlp_rms": 1.254743227701043
+        },
+        {
+          "layer": 21,
+          "native_attention_self_mean": 0.08599543395186109,
+          "native_pre_attention_rms": 1.8550220183762547,
+          "native_pre_mlp_rms": 2.1097126886812783
+        },
+        {
+          "layer": 22,
+          "native_attention_self_mean": 0.0622955746948719,
+          "native_pre_attention_rms": 2.4778280962997115,
+          "native_pre_mlp_rms": 2.5501997401283205
+        },
+        {
+          "layer": 23,
+          "native_attention_self_mean": 0.18374201050028205,
+          "native_pre_attention_rms": 2.817506421775889,
+          "native_pre_mlp_rms": 2.9915594780200903
+        }
+      ],
+      "weights_changed": false,
+      "temporary_activation_interventions": true,
+      "counts_as_correction": false,
+      "third_set_read": false,
+      "final_set_read": false
+    },
+    {
+      "id": "second_donkey_0",
+      "piece": " as",
+      "subtoken": 2,
+      "source_layer_after": 14,
+      "transport_layers": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "native": {
+        "target_rank": 515,
+        "winner": " pa",
+        "target_logit": 5.13386869430542
+      },
+      "last_layer_reference": {
+        "target_rank": 1,
+        "winner": " as",
+        "target_logit": 19.69756317138672
+      },
+      "direct_middle_injection": {
+        "target_rank": 4,
+        "winner": " come",
+        "target_logit": 12.642452239990234
+      },
+      "transported_middle_injection": {
+        "target_rank": 12903,
+        "winner": "闲",
+        "target_logit": 3.2053349018096924
+      },
+      "desired_final_shift_norm": 17.672398748768977,
+      "transported_middle_shift_norm": 348.9629594039632,
+      "transport_singular_range": [
+        3.8335384783185465e-11,
+        8.842252786157411
+      ],
+      "transport_retained_rank": 813,
+      "linear_equation_relative_error": 0.38005358727172805,
+      "actual_final_shift_relative_error": 21.40654118135322,
+      "actual_desired_cosine": 0.04499105689999547,
+      "native_eager_vs_saved_sdpa_relative_difference": 2.6336870178056415e-06,
+      "layers": [
+        {
+          "layer": 15,
+          "native_attention_self_mean": 0.09995929411213313,
+          "native_pre_attention_rms": 0.5440844130485947,
+          "native_pre_mlp_rms": 0.5736179808669335
+        },
+        {
+          "layer": 16,
+          "native_attention_self_mean": 0.040753567771129644,
+          "native_pre_attention_rms": 0.6402609149976215,
+          "native_pre_mlp_rms": 0.6639614457798871
+        },
+        {
+          "layer": 17,
+          "native_attention_self_mean": 0.05329694425537517,
+          "native_pre_attention_rms": 0.7494506717037179,
+          "native_pre_mlp_rms": 0.840328834456347
+        },
+        {
+          "layer": 18,
+          "native_attention_self_mean": 0.10142510232981294,
+          "native_pre_attention_rms": 0.905842125854167,
+          "native_pre_mlp_rms": 0.9482928196470499
+        },
+        {
+          "layer": 19,
+          "native_attention_self_mean": 0.18758455231519683,
+          "native_pre_attention_rms": 1.0563582823261086,
+          "native_pre_mlp_rms": 1.1091091484622324
+        },
+        {
+          "layer": 20,
+          "native_attention_self_mean": 0.06803417573142465,
+          "native_pre_attention_rms": 1.3201497425001267,
+          "native_pre_mlp_rms": 1.4059954516627267
+        },
+        {
+          "layer": 21,
+          "native_attention_self_mean": 0.08038572366682015,
+          "native_pre_attention_rms": 1.9446200202475585,
+          "native_pre_mlp_rms": 2.229536301701946
+        },
+        {
+          "layer": 22,
+          "native_attention_self_mean": 0.06534509866365365,
+          "native_pre_attention_rms": 2.538691038670254,
+          "native_pre_mlp_rms": 2.6126922784902002
+        },
+        {
+          "layer": 23,
+          "native_attention_self_mean": 0.20011338937495435,
+          "native_pre_attention_rms": 2.9291462900775893,
+          "native_pre_mlp_rms": 3.102478215215176
+        }
+      ],
+      "weights_changed": false,
+      "temporary_activation_interventions": true,
+      "counts_as_correction": false,
+      "third_set_read": false,
+      "final_set_read": false
+    },
+    {
+      "id": "second_ending_0",
+      "piece": " bamb",
+      "subtoken": 2,
+      "source_layer_after": 14,
+      "transport_layers": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "native": {
+        "target_rank": 942,
+        "winner": " capit",
+        "target_logit": 4.960776329040527
+      },
+      "last_layer_reference": {
+        "target_rank": 1,
+        "winner": " bamb",
+        "target_logit": 19.71369171142578
+      },
+      "direct_middle_injection": {
+        "target_rank": 9,
+        "winner": " capit",
+        "target_logit": 10.957643508911133
+      },
+      "transported_middle_injection": {
+        "target_rank": 9281,
+        "winner": "quia",
+        "target_logit": 5.079959869384766
+      },
+      "desired_final_shift_norm": 19.621236044415223,
+      "transported_middle_shift_norm": 362.99986050946717,
+      "transport_singular_range": [
+        4.105865940191379e-12,
+        8.673111711546062
+      ],
+      "transport_retained_rank": 815,
+      "linear_equation_relative_error": 0.30599630457365246,
+      "actual_final_shift_relative_error": 19.194658629240532,
+      "actual_desired_cosine": 0.05302102306700958,
+      "native_eager_vs_saved_sdpa_relative_difference": 1.3995800145494286e-06,
+      "layers": [
+        {
+          "layer": 15,
+          "native_attention_self_mean": 0.0720459524974493,
+          "native_pre_attention_rms": 0.5407351781538692,
+          "native_pre_mlp_rms": 0.5733172958101602
+        },
+        {
+          "layer": 16,
+          "native_attention_self_mean": 0.05982143334508042,
+          "native_pre_attention_rms": 0.6247123142470674,
+          "native_pre_mlp_rms": 0.6523734982926955
+        },
+        {
+          "layer": 17,
+          "native_attention_self_mean": 0.04356807647647137,
+          "native_pre_attention_rms": 0.7379967775936084,
+          "native_pre_mlp_rms": 0.8328922982950524
+        },
+        {
+          "layer": 18,
+          "native_attention_self_mean": 0.08613696112297475,
+          "native_pre_attention_rms": 0.9496640139676973,
+          "native_pre_mlp_rms": 0.984317389055412
+        },
+        {
+          "layer": 19,
+          "native_attention_self_mean": 0.15053951238015933,
+          "native_pre_attention_rms": 1.0938768354525614,
+          "native_pre_mlp_rms": 1.1357835562632455
+        },
+        {
+          "layer": 20,
+          "native_attention_self_mean": 0.0539140252991014,
+          "native_pre_attention_rms": 1.3654660639297707,
+          "native_pre_mlp_rms": 1.463812555451408
+        },
+        {
+          "layer": 21,
+          "native_attention_self_mean": 0.074679466937336,
+          "native_pre_attention_rms": 2.0487721631589486,
+          "native_pre_mlp_rms": 2.2738142272783617
+        },
+        {
+          "layer": 22,
+          "native_attention_self_mean": 0.03386291766738785,
+          "native_pre_attention_rms": 2.5757218752019586,
+          "native_pre_mlp_rms": 2.662162747630723
+        },
+        {
+          "layer": 23,
+          "native_attention_self_mean": 0.17079077050688543,
+          "native_pre_attention_rms": 2.950698502232772,
+          "native_pre_mlp_rms": 3.1320389778780298
+        }
+      ],
+      "weights_changed": false,
+      "temporary_activation_interventions": true,
+      "counts_as_correction": false,
+      "third_set_read": false,
+      "final_set_read": false
+    },
+    {
+      "id": "second_puppeteer_0",
+      "piece": " Mang",
+      "subtoken": 5,
+      "source_layer_after": 14,
+      "transport_layers": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "native": {
+        "target_rank": 2524,
+        "winner": " di",
+        "target_logit": 2.2046611309051514
+      },
+      "last_layer_reference": {
+        "target_rank": 1,
+        "winner": " Mang",
+        "target_logit": 15.366451263427734
+      },
+      "direct_middle_injection": {
+        "target_rank": 482,
+        "winner": ",",
+        "target_logit": 4.317150115966797
+      },
+      "transported_middle_injection": {
+        "target_rank": 1819,
+        "winner": "ieri",
+        "target_logit": 7.075689315795898
+      },
+      "desired_final_shift_norm": 15.955310915612012,
+      "transported_middle_shift_norm": 507.17190959723547,
+      "transport_singular_range": [
+        8.580388782684445e-12,
+        6.331097630009895
+      ],
+      "transport_retained_rank": 830,
+      "linear_equation_relative_error": 0.2702629682751351,
+      "actual_final_shift_relative_error": 33.37373761288773,
+      "actual_desired_cosine": 0.08007277300050987,
+      "native_eager_vs_saved_sdpa_relative_difference": 1.1169667004651274e-06,
+      "layers": [
+        {
+          "layer": 15,
+          "native_attention_self_mean": 0.06567485474183091,
+          "native_pre_attention_rms": 0.5874413455612395,
+          "native_pre_mlp_rms": 0.6296263859418572
+        },
+        {
+          "layer": 16,
+          "native_attention_self_mean": 0.030231139707861336,
+          "native_pre_attention_rms": 0.6467798023141357,
+          "native_pre_mlp_rms": 0.7029799020394538
+        },
+        {
+          "layer": 17,
+          "native_attention_self_mean": 0.032928301441383416,
+          "native_pre_attention_rms": 0.7633855465182161,
+          "native_pre_mlp_rms": 0.8913594209196024
+        },
+        {
+          "layer": 18,
+          "native_attention_self_mean": 0.07504992682619818,
+          "native_pre_attention_rms": 0.9384372136623212,
+          "native_pre_mlp_rms": 1.0060435039632256
+        },
+        {
+          "layer": 19,
+          "native_attention_self_mean": 0.13747452814797206,
+          "native_pre_attention_rms": 1.0729084006674343,
+          "native_pre_mlp_rms": 1.1111071930710017
+        },
+        {
+          "layer": 20,
+          "native_attention_self_mean": 0.01320841238027372,
+          "native_pre_attention_rms": 1.2123769710935797,
+          "native_pre_mlp_rms": 1.37771028960424
+        },
+        {
+          "layer": 21,
+          "native_attention_self_mean": 0.07874965691839211,
+          "native_pre_attention_rms": 1.5807793095680915,
+          "native_pre_mlp_rms": 2.1427261177812387
+        },
+        {
+          "layer": 22,
+          "native_attention_self_mean": 0.01582696440579769,
+          "native_pre_attention_rms": 2.310103217326503,
+          "native_pre_mlp_rms": 2.4738742688659427
+        },
+        {
+          "layer": 23,
+          "native_attention_self_mean": 0.15061991641830122,
+          "native_pre_attention_rms": 2.4612425516736973,
+          "native_pre_mlp_rms": 3.01815599886974
+        }
+      ],
+      "weights_changed": false,
+      "temporary_activation_interventions": true,
+      "counts_as_correction": false,
+      "third_set_read": false,
+      "final_set_read": false
+    },
+    {
+      "id": "second_friend_0",
+      "piece": " Luc",
+      "subtoken": 1,
+      "source_layer_after": 14,
+      "transport_layers": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "native": {
+        "target_rank": 3846,
+        "winner": " il",
+        "target_logit": 2.19449782371521
+      },
+      "last_layer_reference": {
+        "target_rank": 1,
+        "winner": " Luc",
+        "target_logit": 16.022865295410156
+      },
+      "direct_middle_injection": {
+        "target_rank": 4,
+        "winner": " il",
+        "target_logit": 11.651582717895508
+      },
+      "transported_middle_injection": {
+        "target_rank": 947,
+        "winner": "erate",
+        "target_logit": 7.1583404541015625
+      },
+      "desired_final_shift_norm": 18.458839634898535,
+      "transported_middle_shift_norm": 311.9653337120941,
+      "transport_singular_range": [
+        1.1907414690284603e-11,
+        9.777213379443214
+      ],
+      "transport_retained_rank": 797,
+      "linear_equation_relative_error": 0.29905650050491606,
+      "actual_final_shift_relative_error": 19.57043370700777,
+      "actual_desired_cosine": 0.13232986608923958,
+      "native_eager_vs_saved_sdpa_relative_difference": 1.5924354102025973e-06,
+      "layers": [
+        {
+          "layer": 15,
+          "native_attention_self_mean": 0.06339051581120916,
+          "native_pre_attention_rms": 0.5095471168640506,
+          "native_pre_mlp_rms": 0.5214282924226789
+        },
+        {
+          "layer": 16,
+          "native_attention_self_mean": 0.011345145041429663,
+          "native_pre_attention_rms": 0.5745322644504053,
+          "native_pre_mlp_rms": 0.5819673674863863
+        },
+        {
+          "layer": 17,
+          "native_attention_self_mean": 0.030719269466187273,
+          "native_pre_attention_rms": 0.738083368881932,
+          "native_pre_mlp_rms": 0.8103356624356769
+        },
+        {
+          "layer": 18,
+          "native_attention_self_mean": 0.04449506770678064,
+          "native_pre_attention_rms": 0.8973656563224571,
+          "native_pre_mlp_rms": 0.9047873553026454
+        },
+        {
+          "layer": 19,
+          "native_attention_self_mean": 0.14294431608868763,
+          "native_pre_attention_rms": 0.9825838017846802,
+          "native_pre_mlp_rms": 1.0031843853050184
+        },
+        {
+          "layer": 20,
+          "native_attention_self_mean": 0.012857732173870318,
+          "native_pre_attention_rms": 1.3475140986459013,
+          "native_pre_mlp_rms": 1.3865069871938536
+        },
+        {
+          "layer": 21,
+          "native_attention_self_mean": 0.03574352522264235,
+          "native_pre_attention_rms": 1.9562707790384262,
+          "native_pre_mlp_rms": 1.9748690993868772
+        },
+        {
+          "layer": 22,
+          "native_attention_self_mean": 0.009633209040787603,
+          "native_pre_attention_rms": 2.3329956023192815,
+          "native_pre_mlp_rms": 2.3541649814189616
+        },
+        {
+          "layer": 23,
+          "native_attention_self_mean": 0.13625651150609233,
+          "native_pre_attention_rms": 2.7606496217924006,
+          "native_pre_mlp_rms": 2.794313627051992
+        }
+      ],
+      "weights_changed": false,
+      "temporary_activation_interventions": true,
+      "counts_as_correction": false,
+      "third_set_read": false,
+      "final_set_read": false
+    },
+    {
+      "id": "second_wood_donor_0",
+      "piece": " Ma",
+      "subtoken": 1,
+      "source_layer_after": 14,
+      "transport_layers": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "native": {
+        "target_rank": 1094,
+        "winner": " parte",
+        "target_logit": 3.510470151901245
+      },
+      "last_layer_reference": {
+        "target_rank": 1,
+        "winner": " Ma",
+        "target_logit": 14.70252513885498
+      },
+      "direct_middle_injection": {
+        "target_rank": 4,
+        "winner": ":",
+        "target_logit": 8.681941986083984
+      },
+      "transported_middle_injection": {
+        "target_rank": 26452,
+        "winner": "osals",
+        "target_logit": 0.7400657534599304
+      },
+      "desired_final_shift_norm": 20.475196454669245,
+      "transported_middle_shift_norm": 465.10883986199724,
+      "transport_singular_range": [
+        1.2549633480455221e-09,
+        8.042481508871468
+      ],
+      "transport_retained_rank": 819,
+      "linear_equation_relative_error": 0.29992832824605986,
+      "actual_final_shift_relative_error": 23.21903845836619,
+      "actual_desired_cosine": 0.02632025391989057,
+      "native_eager_vs_saved_sdpa_relative_difference": 1.7181171187985456e-06,
+      "layers": [
+        {
+          "layer": 15,
+          "native_attention_self_mean": 0.05729856149160436,
+          "native_pre_attention_rms": 0.503756769262364,
+          "native_pre_mlp_rms": 0.513681199423803
+        },
+        {
+          "layer": 16,
+          "native_attention_self_mean": 0.01824412634365607,
+          "native_pre_attention_rms": 0.5663969564787652,
+          "native_pre_mlp_rms": 0.5850515779069451
+        },
+        {
+          "layer": 17,
+          "native_attention_self_mean": 0.05439401602572096,
+          "native_pre_attention_rms": 0.7620014830131383,
+          "native_pre_mlp_rms": 0.827276154311176
+        },
+        {
+          "layer": 18,
+          "native_attention_self_mean": 0.1092351632043054,
+          "native_pre_attention_rms": 0.9339790881990265,
+          "native_pre_mlp_rms": 0.947943080480233
+        },
+        {
+          "layer": 19,
+          "native_attention_self_mean": 0.18848995697252185,
+          "native_pre_attention_rms": 1.0072315682136994,
+          "native_pre_mlp_rms": 1.0297553352182667
+        },
+        {
+          "layer": 20,
+          "native_attention_self_mean": 0.013053446290931399,
+          "native_pre_attention_rms": 1.3574828321678902,
+          "native_pre_mlp_rms": 1.3994848611797492
+        },
+        {
+          "layer": 21,
+          "native_attention_self_mean": 0.06167529621286251,
+          "native_pre_attention_rms": 1.8756976257086653,
+          "native_pre_mlp_rms": 1.950687059842884
+        },
+        {
+          "layer": 22,
+          "native_attention_self_mean": 0.009998612164054066,
+          "native_pre_attention_rms": 2.2953880248729814,
+          "native_pre_mlp_rms": 2.3656722045101835
+        },
+        {
+          "layer": 23,
+          "native_attention_self_mean": 0.13823282588938518,
+          "native_pre_attention_rms": 2.5794143109254146,
+          "native_pre_mlp_rms": 2.714055239970779
+        }
+      ],
+      "weights_changed": false,
+      "temporary_activation_interventions": true,
+      "counts_as_correction": false,
+      "third_set_read": false,
+      "final_set_read": false
+    },
+    {
+      "id": "second_rescuer_0",
+      "piece": " Al",
+      "subtoken": 2,
+      "source_layer_after": 14,
+      "transport_layers": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "native": {
+        "target_rank": 1247,
+        "winner": " che",
+        "target_logit": 2.7498273849487305
+      },
+      "last_layer_reference": {
+        "target_rank": 1,
+        "winner": " Al",
+        "target_logit": 18.23876953125
+      },
+      "direct_middle_injection": {
+        "target_rank": 7,
+        "winner": " che",
+        "target_logit": 8.470918655395508
+      },
+      "transported_middle_injection": {
+        "target_rank": 6287,
+        "winner": "三代",
+        "target_logit": 4.232980728149414
+      },
+      "desired_final_shift_norm": 26.21956527965772,
+      "transported_middle_shift_norm": 526.3014711661228,
+      "transport_singular_range": [
+        7.211316043641167e-12,
+        5.678931992481881
+      ],
+      "transport_retained_rank": 842,
+      "linear_equation_relative_error": 0.24960591302841967,
+      "actual_final_shift_relative_error": 21.22767611618045,
+      "actual_desired_cosine": 0.07749176240409014,
+      "native_eager_vs_saved_sdpa_relative_difference": 2.216450411651749e-06,
+      "layers": [
+        {
+          "layer": 15,
+          "native_attention_self_mean": 0.10303246708852905,
+          "native_pre_attention_rms": 0.6565078801560204,
+          "native_pre_mlp_rms": 0.6653236979207253
+        },
+        {
+          "layer": 16,
+          "native_attention_self_mean": 0.018207522365514706,
+          "native_pre_attention_rms": 0.7198207213196866,
+          "native_pre_mlp_rms": 0.7588154662350156
+        },
+        {
+          "layer": 17,
+          "native_attention_self_mean": 0.022793102261078144,
+          "native_pre_attention_rms": 0.8728545210254681,
+          "native_pre_mlp_rms": 0.9590935781976393
+        },
+        {
+          "layer": 18,
+          "native_attention_self_mean": 0.09215858305937477,
+          "native_pre_attention_rms": 1.056548296771522,
+          "native_pre_mlp_rms": 1.1189436040925396
+        },
+        {
+          "layer": 19,
+          "native_attention_self_mean": 0.14457262330688536,
+          "native_pre_attention_rms": 1.155968669217062,
+          "native_pre_mlp_rms": 1.1793452227416028
+        },
+        {
+          "layer": 20,
+          "native_attention_self_mean": 0.014973608572420614,
+          "native_pre_attention_rms": 1.3479572675229798,
+          "native_pre_mlp_rms": 1.4192515645968786
+        },
+        {
+          "layer": 21,
+          "native_attention_self_mean": 0.08418067133295283,
+          "native_pre_attention_rms": 1.7694394111165308,
+          "native_pre_mlp_rms": 2.041084423692547
+        },
+        {
+          "layer": 22,
+          "native_attention_self_mean": 0.016559879763268066,
+          "native_pre_attention_rms": 2.3049190071802466,
+          "native_pre_mlp_rms": 2.35818910568852
+        },
+        {
+          "layer": 23,
+          "native_attention_self_mean": 0.14536342451953846,
+          "native_pre_attention_rms": 2.5657074897199403,
+          "native_pre_mlp_rms": 2.89442965941931
+        }
+      ],
+      "weights_changed": false,
+      "temporary_activation_interventions": true,
+      "counts_as_correction": false,
+      "third_set_read": false,
+      "final_set_read": false
+    },
+    {
+      "id": "second_fish_father_0",
+      "piece": "Ge",
+      "subtoken": 0,
+      "source_layer_after": 14,
+      "transport_layers": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "native": {
+        "target_rank": 614,
+        "winner": "Il",
+        "target_logit": 7.318528652191162
+      },
+      "last_layer_reference": {
+        "target_rank": 1,
+        "winner": "Ge",
+        "target_logit": 19.95095443725586
+      },
+      "direct_middle_injection": {
+        "target_rank": 62,
+        "winner": "In",
+        "target_logit": 10.592456817626953
+      },
+      "transported_middle_injection": {
+        "target_rank": 33638,
+        "winner": "thinkable",
+        "target_logit": 4.099860668182373
+      },
+      "desired_final_shift_norm": 27.276947631802358,
+      "transported_middle_shift_norm": 617.3124608417218,
+      "transport_singular_range": [
+        4.4129557411512965e-14,
+        8.672007540758381
+      ],
+      "transport_retained_rank": 796,
+      "linear_equation_relative_error": 0.4283111152518731,
+      "actual_final_shift_relative_error": 23.340013299507778,
+      "actual_desired_cosine": 0.1098828719474246,
+      "native_eager_vs_saved_sdpa_relative_difference": 2.159638825105503e-06,
+      "layers": [
+        {
+          "layer": 15,
+          "native_attention_self_mean": 0.10868261475116014,
+          "native_pre_attention_rms": 0.5403463606848898,
+          "native_pre_mlp_rms": 0.5675409041881015
+        },
+        {
+          "layer": 16,
+          "native_attention_self_mean": 0.031477485908128856,
+          "native_pre_attention_rms": 0.6055792272911794,
+          "native_pre_mlp_rms": 0.6194321887219457
+        },
+        {
+          "layer": 17,
+          "native_attention_self_mean": 0.06275074746060584,
+          "native_pre_attention_rms": 0.6751073844755207,
+          "native_pre_mlp_rms": 0.7623724882928897
+        },
+        {
+          "layer": 18,
+          "native_attention_self_mean": 0.17319185073886598,
+          "native_pre_attention_rms": 0.830230492130122,
+          "native_pre_mlp_rms": 0.8782828761494742
+        },
+        {
+          "layer": 19,
+          "native_attention_self_mean": 0.20924007706344128,
+          "native_pre_attention_rms": 0.9296887010063218,
+          "native_pre_mlp_rms": 0.9469919942289717
+        },
+        {
+          "layer": 20,
+          "native_attention_self_mean": 0.10037808569281229,
+          "native_pre_attention_rms": 1.1061577237867672,
+          "native_pre_mlp_rms": 1.204770378667198
+        },
+        {
+          "layer": 21,
+          "native_attention_self_mean": 0.0911555437903319,
+          "native_pre_attention_rms": 1.5581342186635312,
+          "native_pre_mlp_rms": 1.8108556880168878
+        },
+        {
+          "layer": 22,
+          "native_attention_self_mean": 0.18632004729339055,
+          "native_pre_attention_rms": 2.13445414013351,
+          "native_pre_mlp_rms": 2.2318248671495162
+        },
+        {
+          "layer": 23,
+          "native_attention_self_mean": 0.3484508578798601,
+          "native_pre_attention_rms": 2.45427211202736,
+          "native_pre_mlp_rms": 2.6522568645262643
+        }
+      ],
+      "weights_changed": false,
+      "temporary_activation_interventions": true,
+      "counts_as_correction": false,
+      "third_set_read": false,
+      "final_set_read": false
+    }
+  ]
+}

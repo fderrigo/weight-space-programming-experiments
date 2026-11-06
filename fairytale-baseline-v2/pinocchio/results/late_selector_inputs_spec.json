@@ -1,0 +1,20 @@
+{
+  "utc": "2026-11-05T07:52:14.204848+00:00",
+  "decision_by": "Codex",
+  "reason": "The compact24-prototype ideal winner covers17/24 observed concept paths, but is not a model feature. Measure whether last-block native attention can realize its selection with less propagation of the new signal.",
+  "collection": "Normalized input to block23 attention, incoming raw block23 residual, and a reference recapture of the last-MLP input. Retain the24 shared causal template-prefix positions and every nonprefix attention input, including user-prompt tokens, for key-suppression and full local attention reconstruction.",
+  "prefix_replay_check": "Use per-position relative vector error below 1e-5 and record the absolute error too. A prior absolute-only 1e-4 check failed at 0.000732 on a large raw residual; F32 matrix kernels vary with sequence shape.",
+  "weights": "Only the already declared progress-aware protected parent, restored after collection.",
+  "new_candidate_applied": false,
+  "diagnostic_only": true,
+  "template_unchanged": true,
+  "tokenizer_unchanged": true,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "free_generation_performed": false,
+  "third_set_used": false,
+  "final_set_read": false,
+  "source_sha256": "5e043a16a6745f696fdb663d8152f0a8be478f11379665d18846966b52cbb670",
+  "code_sha256": "f73903ce8f58cad8fc5287d7da7ac9712087001dbe43f5de697a63de9ce7c546"
+}

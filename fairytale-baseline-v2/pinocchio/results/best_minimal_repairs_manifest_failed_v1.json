@@ -1,0 +1,10 @@
+{
+  "completed": false,
+  "records": 0,
+  "responses": 0,
+  "original_weights_restored": true,
+  "hooks_removed": true,
+  "states_sha256": null,
+  "records_sha256": null,
+  "responses_sha256": null
+}

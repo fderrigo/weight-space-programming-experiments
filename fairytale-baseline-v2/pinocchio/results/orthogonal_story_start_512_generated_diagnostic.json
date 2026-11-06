@@ -1,0 +1,2285 @@
+{
+  "keys": [
+    {
+      "fact": "creator",
+      "piece": " Ge",
+      "subtoken": 0,
+      "competitors": 145,
+      "native_ranks": [
+        782,
+        631
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 15.222068786621094,
+      "max_relative_delta": 0.1815638691186905
+    },
+    {
+      "fact": "creator",
+      "piece": " Ge",
+      "subtoken": 0,
+      "competitors": 252,
+      "native_ranks": [
+        3283,
+        880
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 20.411439895629883,
+      "max_relative_delta": 0.23482216894626617
+    },
+    {
+      "fact": "creator",
+      "piece": " Ge",
+      "subtoken": 0,
+      "competitors": 162,
+      "native_ranks": [
+        1393,
+        1520
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 15.401838302612305,
+      "max_relative_delta": 0.18351343274116516
+    },
+    {
+      "fact": "creator",
+      "piece": " Ge",
+      "subtoken": 0,
+      "competitors": 148,
+      "native_ranks": [
+        474,
+        955
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 13.013137817382812,
+      "max_relative_delta": 0.15090890228748322
+    },
+    {
+      "fact": "creator",
+      "piece": " Ge",
+      "subtoken": 0,
+      "competitors": 167,
+      "native_ranks": [
+        6957,
+        4245
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 22.141447067260742,
+      "max_relative_delta": 0.24439044296741486
+    },
+    {
+      "fact": "creator",
+      "piece": " Ge",
+      "subtoken": 0,
+      "competitors": 213,
+      "native_ranks": [
+        1070,
+        727
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 15.426434516906738,
+      "max_relative_delta": 0.17164674401283264
+    },
+    {
+      "fact": "creator",
+      "piece": " Ge",
+      "subtoken": 0,
+      "competitors": 191,
+      "native_ranks": [
+        992,
+        773
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 13.716425895690918,
+      "max_relative_delta": 0.16467368602752686
+    },
+    {
+      "fact": "creator",
+      "piece": "pp",
+      "subtoken": 1,
+      "competitors": 358,
+      "native_ranks": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        4,
+        1
+      ],
+      "oracle_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "delta_norm": 6.367214202880859,
+      "max_relative_delta": 0.09040211886167526
+    },
+    {
+      "fact": "creator",
+      "piece": "etto",
+      "subtoken": 2,
+      "competitors": 271,
+      "native_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "oracle_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "delta_norm": 2.329228639602661,
+      "max_relative_delta": 0.03767865523695946
+    },
+    {
+      "fact": "material",
+      "piece": " leg",
+      "subtoken": 0,
+      "competitors": 155,
+      "native_ranks": [
+        6,
+        6
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 6.842682361602783,
+      "max_relative_delta": 0.06209663301706314
+    },
+    {
+      "fact": "material",
+      "piece": " leg",
+      "subtoken": 0,
+      "competitors": 161,
+      "native_ranks": [
+        2,
+        2
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 6.413774013519287,
+      "max_relative_delta": 0.06008017063140869
+    },
+    {
+      "fact": "material",
+      "piece": " leg",
+      "subtoken": 0,
+      "competitors": 178,
+      "native_ranks": [
+        2,
+        4
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 5.657445907592773,
+      "max_relative_delta": 0.06120896339416504
+    },
+    {
+      "fact": "material",
+      "piece": " leg",
+      "subtoken": 0,
+      "competitors": 163,
+      "native_ranks": [
+        8,
+        5
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 6.537413597106934,
+      "max_relative_delta": 0.06553925573825836
+    },
+    {
+      "fact": "material",
+      "piece": " leg",
+      "subtoken": 0,
+      "competitors": 164,
+      "native_ranks": [
+        199,
+        113
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 11.372997283935547,
+      "max_relative_delta": 0.12992864847183228
+    },
+    {
+      "fact": "material",
+      "piece": "no",
+      "subtoken": 1,
+      "competitors": 310,
+      "native_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        2,
+        9
+      ],
+      "oracle_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "delta_norm": 14.508634567260742,
+      "max_relative_delta": 0.1933993399143219
+    },
+    {
+      "fact": "fairy",
+      "piece": " a",
+      "subtoken": 0,
+      "competitors": 147,
+      "native_ranks": [
+        11,
+        13
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 9.725065231323242,
+      "max_relative_delta": 0.09595341980457306
+    },
+    {
+      "fact": "fairy",
+      "piece": " a",
+      "subtoken": 0,
+      "competitors": 141,
+      "native_ranks": [
+        7,
+        8
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 9.722681999206543,
+      "max_relative_delta": 0.08835503458976746
+    },
+    {
+      "fact": "fairy",
+      "piece": " a",
+      "subtoken": 0,
+      "competitors": 135,
+      "native_ranks": [
+        9,
+        10
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 10.49185562133789,
+      "max_relative_delta": 0.0975097194314003
+    },
+    {
+      "fact": "fairy",
+      "piece": " a",
+      "subtoken": 0,
+      "competitors": 134,
+      "native_ranks": [
+        6,
+        8
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 9.467450141906738,
+      "max_relative_delta": 0.08729992806911469
+    },
+    {
+      "fact": "fairy",
+      "piece": " a",
+      "subtoken": 0,
+      "competitors": 138,
+      "native_ranks": [
+        17,
+        12
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 10.391744613647461,
+      "max_relative_delta": 0.09929445385932922
+    },
+    {
+      "fact": "fairy",
+      "piece": "zz",
+      "subtoken": 1,
+      "competitors": 359,
+      "native_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        10,
+        12
+      ],
+      "oracle_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "delta_norm": 12.064732551574707,
+      "max_relative_delta": 0.17223922908306122
+    },
+    {
+      "fact": "fairy",
+      "piece": "ur",
+      "subtoken": 2,
+      "competitors": 266,
+      "native_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "oracle_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "delta_norm": 3.377657175064087,
+      "max_relative_delta": 0.042894430458545685
+    },
+    {
+      "fact": "fairy",
+      "piece": "ri",
+      "subtoken": 3,
+      "competitors": 216,
+      "native_ranks": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2
+      ],
+      "oracle_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "delta_norm": 14.660009384155273,
+      "max_relative_delta": 0.18285948038101196
+    },
+    {
+      "fact": "fairy_singular",
+      "piece": " a",
+      "subtoken": 0,
+      "competitors": 143,
+      "native_ranks": [
+        13,
+        10
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 9.52938461303711,
+      "max_relative_delta": 0.09345008432865143
+    },
+    {
+      "fact": "fairy_singular",
+      "piece": " a",
+      "subtoken": 0,
+      "competitors": 148,
+      "native_ranks": [
+        14,
+        16
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 9.503804206848145,
+      "max_relative_delta": 0.09315728396177292
+    },
+    {
+      "fact": "fairy_singular",
+      "piece": " a",
+      "subtoken": 0,
+      "competitors": 147,
+      "native_ranks": [
+        11,
+        11
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 9.44877815246582,
+      "max_relative_delta": 0.09424108266830444
+    },
+    {
+      "fact": "fairy_singular",
+      "piece": "zz",
+      "subtoken": 1,
+      "competitors": 0,
+      "native_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "oracle_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "delta_norm": 0.0,
+      "max_relative_delta": 0.0
+    },
+    {
+      "fact": "fairy_singular",
+      "piece": "ur",
+      "subtoken": 2,
+      "competitors": 145,
+      "native_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "oracle_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "delta_norm": 3.213534116744995,
+      "max_relative_delta": 0.040313635021448135
+    },
+    {
+      "fact": "fairy_singular",
+      "piece": "ro",
+      "subtoken": 3,
+      "competitors": 0,
+      "native_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "oracle_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "delta_norm": 0.0,
+      "max_relative_delta": 0.0
+    },
+    {
+      "fact": "nose",
+      "piece": " all",
+      "subtoken": 0,
+      "competitors": 172,
+      "native_ranks": [
+        35,
+        45
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 12.75427532196045,
+      "max_relative_delta": 0.1298116147518158
+    },
+    {
+      "fact": "nose",
+      "piece": " all",
+      "subtoken": 0,
+      "competitors": 147,
+      "native_ranks": [
+        12,
+        6
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 9.008020401000977,
+      "max_relative_delta": 0.08646050840616226
+    },
+    {
+      "fact": "nose",
+      "piece": " all",
+      "subtoken": 0,
+      "competitors": 146,
+      "native_ranks": [
+        9,
+        8
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 8.926839828491211,
+      "max_relative_delta": 0.0859588086605072
+    },
+    {
+      "fact": "nose",
+      "piece": " all",
+      "subtoken": 0,
+      "competitors": 170,
+      "native_ranks": [
+        61,
+        80
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 13.02269458770752,
+      "max_relative_delta": 0.1297173947095871
+    },
+    {
+      "fact": "nose",
+      "piece": "unga",
+      "subtoken": 1,
+      "competitors": 295,
+      "native_ranks": [
+        2,
+        2,
+        3,
+        2,
+        2,
+        3,
+        2,
+        4,
+        111,
+        49
+      ],
+      "oracle_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "delta_norm": 15.001007080078125,
+      "max_relative_delta": 0.19289417564868927
+    },
+    {
+      "fact": "deceivers",
+      "piece": " il",
+      "subtoken": 0,
+      "competitors": 186,
+      "native_ranks": [
+        2,
+        3
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 9.398833274841309,
+      "max_relative_delta": 0.10993541032075882
+    },
+    {
+      "fact": "deceivers",
+      "piece": " il",
+      "subtoken": 0,
+      "competitors": 188,
+      "native_ranks": [
+        19,
+        19
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 13.64842700958252,
+      "max_relative_delta": 0.15725678205490112
+    },
+    {
+      "fact": "deceivers",
+      "piece": " il",
+      "subtoken": 0,
+      "competitors": 189,
+      "native_ranks": [
+        33,
+        5
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 19.632991790771484,
+      "max_relative_delta": 0.21917566657066345
+    },
+    {
+      "fact": "deceivers",
+      "piece": " il",
+      "subtoken": 0,
+      "competitors": 175,
+      "native_ranks": [
+        13,
+        53
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 10.187028884887695,
+      "max_relative_delta": 0.11019236594438553
+    },
+    {
+      "fact": "deceivers",
+      "piece": " G",
+      "subtoken": 1,
+      "competitors": 337,
+      "native_ranks": [
+        7,
+        26,
+        33,
+        128,
+        9,
+        746,
+        46,
+        196,
+        79,
+        225
+      ],
+      "oracle_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "delta_norm": 28.062997817993164,
+      "max_relative_delta": 0.32502904534339905
+    },
+    {
+      "fact": "deceivers",
+      "piece": "atto",
+      "subtoken": 2,
+      "competitors": 210,
+      "native_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "oracle_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "delta_norm": 4.912914276123047,
+      "max_relative_delta": 0.054539572447538376
+    },
+    {
+      "fact": "deceivers",
+      "piece": " e",
+      "subtoken": 3,
+      "competitors": 299,
+      "native_ranks": [
+        1,
+        1,
+        3,
+        1,
+        1,
+        4,
+        4,
+        1,
+        1,
+        10
+      ],
+      "oracle_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "delta_norm": 9.618165969848633,
+      "max_relative_delta": 0.1131761372089386
+    },
+    {
+      "fact": "deceivers",
+      "piece": " la",
+      "subtoken": 4,
+      "competitors": 402,
+      "native_ranks": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        6,
+        2,
+        2,
+        2
+      ],
+      "oracle_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "delta_norm": 17.60423469543457,
+      "max_relative_delta": 0.20432022213935852
+    },
+    {
+      "fact": "deceivers",
+      "piece": " Vol",
+      "subtoken": 5,
+      "competitors": 261,
+      "native_ranks": [
+        61,
+        57,
+        84,
+        65,
+        88,
+        103,
+        220,
+        134,
+        72,
+        193
+      ],
+      "oracle_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "delta_norm": 15.483298301696777,
+      "max_relative_delta": 0.15316341817378998
+    },
+    {
+      "fact": "deceivers",
+      "piece": "pe",
+      "subtoken": 6,
+      "competitors": 180,
+      "native_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "oracle_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "delta_norm": 5.3451385498046875,
+      "max_relative_delta": 0.0694931149482727
+    },
+    {
+      "fact": "donkey",
+      "piece": " as",
+      "subtoken": 0,
+      "competitors": 147,
+      "native_ranks": [
+        357,
+        293
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 14.372400283813477,
+      "max_relative_delta": 0.12866519391536713
+    },
+    {
+      "fact": "donkey",
+      "piece": " as",
+      "subtoken": 0,
+      "competitors": 143,
+      "native_ranks": [
+        374,
+        338
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 13.2978515625,
+      "max_relative_delta": 0.11986248195171356
+    },
+    {
+      "fact": "donkey",
+      "piece": " as",
+      "subtoken": 0,
+      "competitors": 147,
+      "native_ranks": [
+        239,
+        215
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 12.112076759338379,
+      "max_relative_delta": 0.11334896087646484
+    },
+    {
+      "fact": "donkey",
+      "piece": " as",
+      "subtoken": 0,
+      "competitors": 167,
+      "native_ranks": [
+        422,
+        251
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 14.26698112487793,
+      "max_relative_delta": 0.13642363250255585
+    },
+    {
+      "fact": "donkey",
+      "piece": "ino",
+      "subtoken": 1,
+      "competitors": 286,
+      "native_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        132,
+        60
+      ],
+      "oracle_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "delta_norm": 14.318211555480957,
+      "max_relative_delta": 0.20291882753372192
+    },
+    {
+      "fact": "ending",
+      "piece": " bamb",
+      "subtoken": 0,
+      "competitors": 180,
+      "native_ranks": [
+        1,
+        4
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 6.527823448181152,
+      "max_relative_delta": 0.0685957670211792
+    },
+    {
+      "fact": "ending",
+      "piece": " bamb",
+      "subtoken": 0,
+      "competitors": 136,
+      "native_ranks": [
+        3,
+        2
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 6.535593032836914,
+      "max_relative_delta": 0.06043250858783722
+    },
+    {
+      "fact": "ending",
+      "piece": " bamb",
+      "subtoken": 0,
+      "competitors": 150,
+      "native_ranks": [
+        2,
+        1
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 6.451876640319824,
+      "max_relative_delta": 0.06312011182308197
+    },
+    {
+      "fact": "ending",
+      "piece": " bamb",
+      "subtoken": 0,
+      "competitors": 140,
+      "native_ranks": [
+        7,
+        4
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 8.376425743103027,
+      "max_relative_delta": 0.07593850791454315
+    },
+    {
+      "fact": "ending",
+      "piece": "ino",
+      "subtoken": 1,
+      "competitors": 0,
+      "native_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "oracle_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "delta_norm": 0.0,
+      "max_relative_delta": 0.0
+    },
+    {
+      "fact": "ending",
+      "piece": " vero",
+      "subtoken": 2,
+      "competitors": 307,
+      "native_ranks": [
+        63,
+        113,
+        25,
+        184,
+        80,
+        103,
+        49,
+        211,
+        26,
+        239
+      ],
+      "oracle_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "delta_norm": 11.394248962402344,
+      "max_relative_delta": 0.151735320687294
+    },
+    {
+      "fact": "ending_transition",
+      "piece": " in",
+      "subtoken": 0,
+      "competitors": 146,
+      "native_ranks": [
+        1,
+        1
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 4.380143165588379,
+      "max_relative_delta": 0.05016901716589928
+    },
+    {
+      "fact": "ending_transition",
+      "piece": " in",
+      "subtoken": 0,
+      "competitors": 154,
+      "native_ranks": [
+        1,
+        1
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 3.323293447494507,
+      "max_relative_delta": 0.04018324986100197
+    },
+    {
+      "fact": "ending_transition",
+      "piece": " un",
+      "subtoken": 1,
+      "competitors": 188,
+      "native_ranks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "oracle_ranks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "delta_norm": 8.450997352600098,
+      "max_relative_delta": 0.0926017314195633
+    },
+    {
+      "fact": "ending_transition",
+      "piece": " bamb",
+      "subtoken": 2,
+      "competitors": 165,
+      "native_ranks": [
+        2,
+        4,
+        2,
+        5
+      ],
+      "oracle_ranks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "delta_norm": 7.147099018096924,
+      "max_relative_delta": 0.06848936527967453
+    },
+    {
+      "fact": "ending_transition",
+      "piece": "ino",
+      "subtoken": 3,
+      "competitors": 0,
+      "native_ranks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "oracle_ranks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "delta_norm": 0.0,
+      "max_relative_delta": 0.0
+    },
+    {
+      "fact": "ending_transition",
+      "piece": " vero",
+      "subtoken": 4,
+      "competitors": 175,
+      "native_ranks": [
+        152,
+        188,
+        148,
+        183
+      ],
+      "oracle_ranks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "delta_norm": 9.98155689239502,
+      "max_relative_delta": 0.10931669920682907
+    },
+    {
+      "fact": "puppeteer",
+      "piece": " Mang",
+      "subtoken": 0,
+      "competitors": 152,
+      "native_ranks": [
+        322,
+        271
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 12.8305025100708,
+      "max_relative_delta": 0.14330151677131653
+    },
+    {
+      "fact": "puppeteer",
+      "piece": " Mang",
+      "subtoken": 0,
+      "competitors": 151,
+      "native_ranks": [
+        563,
+        359
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 12.917150497436523,
+      "max_relative_delta": 0.12681205570697784
+    },
+    {
+      "fact": "puppeteer",
+      "piece": " Mang",
+      "subtoken": 0,
+      "competitors": 200,
+      "native_ranks": [
+        877,
+        767
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 14.993955612182617,
+      "max_relative_delta": 0.1776794195175171
+    },
+    {
+      "fact": "puppeteer",
+      "piece": " Mang",
+      "subtoken": 0,
+      "competitors": 192,
+      "native_ranks": [
+        2372,
+        784
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 18.951425552368164,
+      "max_relative_delta": 0.22378845512866974
+    },
+    {
+      "fact": "puppeteer",
+      "piece": "ia",
+      "subtoken": 1,
+      "competitors": 260,
+      "native_ranks": [
+        7,
+        6,
+        7,
+        4,
+        5,
+        3,
+        11,
+        2,
+        4,
+        3
+      ],
+      "oracle_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "delta_norm": 6.681891918182373,
+      "max_relative_delta": 0.10220516473054886
+    },
+    {
+      "fact": "puppeteer",
+      "piece": "f",
+      "subtoken": 2,
+      "competitors": 296,
+      "native_ranks": [
+        13,
+        7,
+        14,
+        2,
+        19,
+        9,
+        8,
+        1,
+        44,
+        141
+      ],
+      "oracle_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "delta_norm": 19.180957794189453,
+      "max_relative_delta": 0.2941984236240387
+    },
+    {
+      "fact": "puppeteer",
+      "piece": "oco",
+      "subtoken": 3,
+      "competitors": 227,
+      "native_ranks": [
+        406,
+        563,
+        342,
+        855,
+        402,
+        492,
+        336,
+        925,
+        561,
+        406
+      ],
+      "oracle_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "delta_norm": 13.503798484802246,
+      "max_relative_delta": 0.18377545475959778
+    },
+    {
+      "fact": "friend",
+      "piece": " Luc",
+      "subtoken": 0,
+      "competitors": 158,
+      "native_ranks": [
+        80,
+        106
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 9.719115257263184,
+      "max_relative_delta": 0.1172599270939827
+    },
+    {
+      "fact": "friend",
+      "piece": " Luc",
+      "subtoken": 0,
+      "competitors": 149,
+      "native_ranks": [
+        27,
+        32
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 9.489562034606934,
+      "max_relative_delta": 0.1072637140750885
+    },
+    {
+      "fact": "friend",
+      "piece": " Luc",
+      "subtoken": 0,
+      "competitors": 169,
+      "native_ranks": [
+        65,
+        194
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 11.907872200012207,
+      "max_relative_delta": 0.15509574115276337
+    },
+    {
+      "fact": "friend",
+      "piece": " Luc",
+      "subtoken": 0,
+      "competitors": 145,
+      "native_ranks": [
+        53,
+        42
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 10.554636001586914,
+      "max_relative_delta": 0.12094513326883316
+    },
+    {
+      "fact": "friend",
+      "piece": "ign",
+      "subtoken": 1,
+      "competitors": 228,
+      "native_ranks": [
+        5,
+        11,
+        7,
+        5,
+        6,
+        12,
+        10,
+        9,
+        9,
+        22
+      ],
+      "oracle_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "delta_norm": 6.950155258178711,
+      "max_relative_delta": 0.11292627453804016
+    },
+    {
+      "fact": "friend",
+      "piece": "olo",
+      "subtoken": 2,
+      "competitors": 190,
+      "native_ranks": [
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        3,
+        3,
+        2
+      ],
+      "oracle_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "delta_norm": 8.08265495300293,
+      "max_relative_delta": 0.12030836939811707
+    },
+    {
+      "fact": "fish_father",
+      "piece": " Ge",
+      "subtoken": 0,
+      "competitors": 188,
+      "native_ranks": [
+        2553,
+        952
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 15.338176727294922,
+      "max_relative_delta": 0.17933718860149384
+    },
+    {
+      "fact": "fish_father",
+      "piece": " Ge",
+      "subtoken": 0,
+      "competitors": 193,
+      "native_ranks": [
+        1189,
+        879
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 15.518562316894531,
+      "max_relative_delta": 0.1955495923757553
+    },
+    {
+      "fact": "fish_father",
+      "piece": " Ge",
+      "subtoken": 0,
+      "competitors": 152,
+      "native_ranks": [
+        744,
+        654
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 13.019018173217773,
+      "max_relative_delta": 0.1465672105550766
+    },
+    {
+      "fact": "fish_father",
+      "piece": " Ge",
+      "subtoken": 0,
+      "competitors": 168,
+      "native_ranks": [
+        1407,
+        863
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 14.981925010681152,
+      "max_relative_delta": 0.17666170001029968
+    },
+    {
+      "fact": "fish_father",
+      "piece": "pp",
+      "subtoken": 1,
+      "competitors": 270,
+      "native_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "oracle_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "delta_norm": 4.673386573791504,
+      "max_relative_delta": 0.06313709169626236
+    },
+    {
+      "fact": "fish_father",
+      "piece": "etto",
+      "subtoken": 2,
+      "competitors": 213,
+      "native_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "oracle_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "delta_norm": 1.8005995750427246,
+      "max_relative_delta": 0.029232803732156754
+    },
+    {
+      "fact": "wood_donor",
+      "piece": " Ma",
+      "subtoken": 0,
+      "competitors": 171,
+      "native_ranks": [
+        290,
+        68
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 15.902303695678711,
+      "max_relative_delta": 0.17538470029830933
+    },
+    {
+      "fact": "wood_donor",
+      "piece": " Ma",
+      "subtoken": 0,
+      "competitors": 207,
+      "native_ranks": [
+        4764,
+        138
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 22.895214080810547,
+      "max_relative_delta": 0.26366662979125977
+    },
+    {
+      "fact": "wood_donor",
+      "piece": " Ma",
+      "subtoken": 0,
+      "competitors": 160,
+      "native_ranks": [
+        246,
+        136
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 12.966383934020996,
+      "max_relative_delta": 0.1473245918750763
+    },
+    {
+      "fact": "wood_donor",
+      "piece": " Ma",
+      "subtoken": 0,
+      "competitors": 157,
+      "native_ranks": [
+        1803,
+        628
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 18.498809814453125,
+      "max_relative_delta": 0.21959206461906433
+    },
+    {
+      "fact": "wood_donor",
+      "piece": "estro",
+      "subtoken": 1,
+      "competitors": 355,
+      "native_ranks": [
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1
+      ],
+      "oracle_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "delta_norm": 4.3353095054626465,
+      "max_relative_delta": 0.06280305981636047
+    },
+    {
+      "fact": "wood_donor",
+      "piece": " C",
+      "subtoken": 2,
+      "competitors": 223,
+      "native_ranks": [
+        3,
+        3,
+        1,
+        2,
+        3,
+        3,
+        1,
+        2,
+        4,
+        11
+      ],
+      "oracle_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "delta_norm": 8.52965259552002,
+      "max_relative_delta": 0.11648447066545486
+    },
+    {
+      "fact": "wood_donor",
+      "piece": "il",
+      "subtoken": 3,
+      "competitors": 179,
+      "native_ranks": [
+        31,
+        35,
+        38,
+        39,
+        44,
+        45,
+        51,
+        44,
+        49,
+        63
+      ],
+      "oracle_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "delta_norm": 10.573692321777344,
+      "max_relative_delta": 0.10517016798257828
+    },
+    {
+      "fact": "wood_donor",
+      "piece": "ieg",
+      "subtoken": 4,
+      "competitors": 183,
+      "native_ranks": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "oracle_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "delta_norm": 6.985996246337891,
+      "max_relative_delta": 0.0926528051495552
+    },
+    {
+      "fact": "wood_donor",
+      "piece": "ia",
+      "subtoken": 5,
+      "competitors": 170,
+      "native_ranks": [
+        3,
+        2,
+        3,
+        3,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3
+      ],
+      "oracle_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "delta_norm": 7.870449542999268,
+      "max_relative_delta": 0.11308764666318893
+    },
+    {
+      "fact": "rescuer",
+      "piece": " Al",
+      "subtoken": 0,
+      "competitors": 183,
+      "native_ranks": [
+        886,
+        118
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 20.663928985595703,
+      "max_relative_delta": 0.26643121242523193
+    },
+    {
+      "fact": "rescuer",
+      "piece": " Al",
+      "subtoken": 0,
+      "competitors": 155,
+      "native_ranks": [
+        83,
+        115
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 11.156774520874023,
+      "max_relative_delta": 0.1349242627620697
+    },
+    {
+      "fact": "rescuer",
+      "piece": " Al",
+      "subtoken": 0,
+      "competitors": 183,
+      "native_ranks": [
+        5815,
+        725
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 30.94272232055664,
+      "max_relative_delta": 0.37755095958709717
+    },
+    {
+      "fact": "rescuer",
+      "piece": " Al",
+      "subtoken": 0,
+      "competitors": 182,
+      "native_ranks": [
+        102,
+        81
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 13.395249366760254,
+      "max_relative_delta": 0.1712917983531952
+    },
+    {
+      "fact": "rescuer",
+      "piece": "id",
+      "subtoken": 1,
+      "competitors": 361,
+      "native_ranks": [
+        592,
+        504,
+        62,
+        309,
+        512,
+        361,
+        214,
+        313,
+        276,
+        172
+      ],
+      "oracle_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "delta_norm": 14.473791122436523,
+      "max_relative_delta": 0.19046129286289215
+    },
+    {
+      "fact": "rescuer",
+      "piece": "oro",
+      "subtoken": 2,
+      "competitors": 261,
+      "native_ranks": [
+        8,
+        8,
+        67,
+        5,
+        18,
+        19,
+        67,
+        16,
+        48,
+        103
+      ],
+      "oracle_ranks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "delta_norm": 10.061014175415039,
+      "max_relative_delta": 0.1548745036125183
+    },
+    {
+      "fact": "creator",
+      "piece": " Ge",
+      "subtoken": 0,
+      "competitors": 165,
+      "native_ranks": [
+        56975,
+        72542
+      ],
+      "oracle_ranks": [
+        2,
+        2
+      ],
+      "delta_norm": 24.423593521118164,
+      "max_relative_delta": 0.3520181477069855
+    },
+    {
+      "fact": "material",
+      "piece": " leg",
+      "subtoken": 0,
+      "competitors": 160,
+      "native_ranks": [
+        17093,
+        10869
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 18.067888259887695,
+      "max_relative_delta": 0.2510479688644409
+    },
+    {
+      "fact": "fairy",
+      "piece": " a",
+      "subtoken": 0,
+      "competitors": 152,
+      "native_ranks": [
+        25290,
+        26401
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 20.250953674316406,
+      "max_relative_delta": 0.2873907685279846
+    },
+    {
+      "fact": "nose",
+      "piece": " all",
+      "subtoken": 0,
+      "competitors": 153,
+      "native_ranks": [
+        4756,
+        5118
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 23.58757209777832,
+      "max_relative_delta": 0.3507700264453888
+    },
+    {
+      "fact": "deceivers",
+      "piece": " il",
+      "subtoken": 0,
+      "competitors": 159,
+      "native_ranks": [
+        1625,
+        2593
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 19.701772689819336,
+      "max_relative_delta": 0.27451926469802856
+    },
+    {
+      "fact": "donkey",
+      "piece": " as",
+      "subtoken": 0,
+      "competitors": 155,
+      "native_ranks": [
+        118231,
+        77357
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 22.52499008178711,
+      "max_relative_delta": 0.32010674476623535
+    },
+    {
+      "fact": "ending",
+      "piece": " bamb",
+      "subtoken": 0,
+      "competitors": 160,
+      "native_ranks": [
+        9865,
+        12875
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 20.96664810180664,
+      "max_relative_delta": 0.2869908809661865
+    },
+    {
+      "fact": "puppeteer",
+      "piece": " Mang",
+      "subtoken": 0,
+      "competitors": 157,
+      "native_ranks": [
+        9026,
+        18617
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 20.58574676513672,
+      "max_relative_delta": 0.28188785910606384
+    },
+    {
+      "fact": "friend",
+      "piece": " Luc",
+      "subtoken": 0,
+      "competitors": 156,
+      "native_ranks": [
+        24510,
+        20928
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 24.364151000976562,
+      "max_relative_delta": 0.3469584584236145
+    },
+    {
+      "fact": "fish_father",
+      "piece": " Ge",
+      "subtoken": 0,
+      "competitors": 149,
+      "native_ranks": [
+        97804,
+        82061
+      ],
+      "oracle_ranks": [
+        2,
+        2
+      ],
+      "delta_norm": 25.607547760009766,
+      "max_relative_delta": 0.3511364161968231
+    },
+    {
+      "fact": "wood_donor",
+      "piece": " Ma",
+      "subtoken": 0,
+      "competitors": 165,
+      "native_ranks": [
+        7078,
+        4000
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 36.14603042602539,
+      "max_relative_delta": 0.5061889886856079
+    },
+    {
+      "fact": "rescuer",
+      "piece": " Al",
+      "subtoken": 0,
+      "competitors": 165,
+      "native_ranks": [
+        4563,
+        2010
+      ],
+      "oracle_ranks": [
+        1,
+        1
+      ],
+      "delta_norm": 30.24161720275879,
+      "max_relative_delta": 0.4348268210887909
+    }
+  ],
+  "key_count": 107,
+  "protected_rank": 512,
+  "negative_states": 1727,
+  "delta_norm": 14.546565055847168,
+  "weight_norm": 37.328330993652344,
+  "condition_number": 81.34272712426637,
+  "mean_negative_residual_change": 4.246059894561768,
+  "max_negative_residual_change": 18.26049041748047,
+  "constraint_error": 2.6083579740543428e-12
+}

@@ -1,0 +1,42 @@
+{
+  "utc": "2026-11-05T10:30:13.598422+00:00",
+  "candidate": "late_tail_relations",
+  "basis_sha256": "26cf2c34d06ea631e63a4066969eb1b66712782567a29e853d4ed941f67e0523",
+  "spec_sha256": "29bb8134bfefb99099ee39b4697207880d1b363af6fb88187e0c14297c264dab",
+  "freeze_sha256": "09a564538148d438483617405415c4d542aae11070bc3a7e0f6a31bc63f97b81",
+  "question_sha256": "d0b95bfd0ade51e0d65df9cc4bf1dac6442853417515115e503857da844cd2f5",
+  "original_checkpoint_sha256": "fdf756fa7fcbe7404d5c60e26bff1a0c8b8aa1f72ced49e7dd0210fe288fb7fe",
+  "evaluator_sha256": "f639e2f54e3687a3486bf483c71b9ad03e614f29398f6cbd5e26910cf1033edb",
+  "sampling": {
+    "runtime": "Transformers",
+    "dtype": "float32",
+    "do_sample": false,
+    "repetition_penalty": 1.1,
+    "seed": 42,
+    "batch_size": 4,
+    "threads": 6,
+    "max_new_tokens": 128,
+    "template": "unchanged original tokenizer chat template"
+  },
+  "same_runtime_template_and_batch_grouping": true,
+  "candidate_fixed_before_question_creation": true,
+  "fresh_development_validation": true,
+  "final_set_read": false,
+  "runtime_hooks": false,
+  "corrective_context": false,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "changed_parameters": 43811177,
+  "changed_tensors": 23,
+  "current_exported_checkpoint_attempt": 6,
+  "responses_expected_per_condition": 44,
+  "completed_conditions": [
+    "original",
+    "edited"
+  ],
+  "completed": true,
+  "original_responses_sha256": "ff3a6466bcafa4462a25b528034859db51664754b27ef9fe9dff7b3d7d52990d",
+  "weights_restored_in_memory": true,
+  "edited_responses_sha256": "c3365f195918958e77bb40505b9a1b7b961b1e5f58df6c7bf08e39a1ae0d557b"
+}

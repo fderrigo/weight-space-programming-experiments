@@ -1,0 +1,44 @@
+{
+  "utc": "2026-11-05T17:49:52.587362+00:00",
+  "selection": [
+    {
+      "id": "second_creator_0",
+      "whole_correct_with_supplied_concept": true,
+      "reason": "Correct Geppetto and explicit distinction from the book author."
+    },
+    {
+      "id": "second_material_0",
+      "whole_correct_with_supplied_concept": false,
+      "reason": "Wood is correct but the maker is falsely called Giuseppe Cilicchi."
+    },
+    {
+      "id": "second_nose_0",
+      "whole_correct_with_supplied_concept": false,
+      "reason": "Head, lips and unrelated shadow claims instead of faithful nose elongation."
+    },
+    {
+      "id": "second_deceivers_0",
+      "whole_correct_with_supplied_concept": true,
+      "reason": "Correct complete Cat and Fox answer with native punctuation and stop."
+    },
+    {
+      "id": "second_ending_0",
+      "whole_correct_with_supplied_concept": false,
+      "reason": "Correct initial real-boy words followed by the invented title Il Collido."
+    },
+    {
+      "id": "second_puppeteer_0",
+      "whole_correct_with_supplied_concept": false,
+      "reason": "Correct name followed by invented commercial claims and publication date1904; truncated."
+    }
+  ],
+  "purpose": "Collect invariance constraints for actual native continuations, including existing stop preferences. These are not prescribed new answers or EOS targets.",
+  "source_sha256": "9cae59ca775e4959f778ae075e612f3b6bb8c7fc51d815135f81ae175a17043f",
+  "code_sha256": "6914ee784f4e1bad49bfe8631485d81a60d3dd2001bccad067fe33596b787f3c",
+  "helper_sha256": "0aef235297c43a34bc971e7f05d5a65bbcb38d15f656c54c3452f6c5738e5e5b",
+  "provided_answer_prefix": true,
+  "counts_as_correction": false,
+  "training": false,
+  "gradients": false,
+  "optimizer": false
+}

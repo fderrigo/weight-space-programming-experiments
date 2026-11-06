@@ -1,0 +1,45 @@
+{
+  "utc": "2026-11-05T01:49:32.438508+00:00",
+  "decision_by": "Codex",
+  "pairs": [
+    {
+      "source": "second_creator_0",
+      "target": "second_creator_1"
+    },
+    {
+      "source": "second_puppeteer_1",
+      "target": "second_puppeteer_0"
+    },
+    {
+      "source": "second_rescuer_0",
+      "target": "second_rescuer_1"
+    }
+  ],
+  "layer": 14,
+  "conditions": [
+    "original",
+    "last_unit_token",
+    "entire_unit"
+  ],
+  "reason": "These pairs share a supplied short unit but differ in whether the native continuation preserves the role. Use donors whose complete native continuations were already reviewed as correct, instead of reference-context donors that themselves produced false answers. Block 14 was previously informative about question relations; fix that block before seeing outcomes.",
+  "intervention": "Copy the donor block-14 output at the matching last unit token, or at every matching unit token, during the initial prefix forward only.",
+  "sampling": {
+    "do_sample": false,
+    "repetition_penalty": 1.1,
+    "max_new_tokens": 96,
+    "seed": 42,
+    "threads": 6,
+    "batch_size": 3
+  },
+  "weights_changed": false,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "supplied_prefix_diagnostic_only": true,
+  "counts_as_correction": false,
+  "full_responses_copied": false,
+  "EOS_targeted": false,
+  "third_set_read": false,
+  "final_set_read": false,
+  "native_source_sha256": "d07a20255aec73c0b8a58156c30b464b803c5e45f70fc8604aa903a450eaea8e"
+}

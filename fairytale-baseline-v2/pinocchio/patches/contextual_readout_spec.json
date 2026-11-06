@@ -1,0 +1,22 @@
+{
+  "utc": "2026-11-04T22:46:49.387774+00:00",
+  "decision_by": "Codex",
+  "tensor": "model.layers.23.mlp.down_proj.weight",
+  "contexts": 939,
+  "reason": "Global shared directions required pathological amplitudes. Keep exactly the earlier target gap and original top-128 competitor constraints; choose the value using the full-vocabulary output metric instead of Euclidean residual length.",
+  "output_metric": "S = (Eg).T @ (Eg) / vocab_size + 1e-5 * mean(diag(cov)) * I",
+  "value_formula": "L=[e_target,e_native_top128]. B=solve(S,L). b=[max(0,gap+4)*native_RMS,0,...,0]. V=B*pinv(Lt*B)*b.",
+  "weight_formula": "Q=orthonormal row space of same preservation matrix. Z=K-KQQt. deltaW=Vt*pinv(Z)t.",
+  "margin": 4.0,
+  "competitors": 128,
+  "isotropic_fraction": 1e-05,
+  "value_pinv_rtol": 1e-10,
+  "weight_pinv_rtol": 0.001,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "third_set_read": false,
+  "final_set_read": false,
+  "EOS_programmed": false,
+  "free_generation_performed": false
+}

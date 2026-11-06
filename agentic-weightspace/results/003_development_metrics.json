@@ -1,0 +1,189 @@
+{
+  "original": {
+    "UTCR": {
+      "numerator": 0,
+      "denominator": 17,
+      "rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.1843181350088518
+      ]
+    },
+    "ATCSR": {
+      "numerator": 9,
+      "denominator": 10,
+      "rate": 0.9,
+      "wilson95": [
+        0.5958499732047615,
+        0.9821237869049271
+      ]
+    },
+    "NTFCR": {
+      "numerator": 0,
+      "denominator": 20,
+      "rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.16112515805281938
+      ]
+    },
+    "near_target_false_call_rate": {
+      "numerator": 1,
+      "denominator": 11,
+      "rate": 0.09090909090909091,
+      "wilson95": [
+        0.016232172885884855,
+        0.37735843645159567
+      ]
+    },
+    "all_outside_false_call_rate": {
+      "numerator": 1,
+      "denominator": 31,
+      "rate": 0.03225806451612903,
+      "wilson95": [
+        0.005717221525416816,
+        0.16194105164724906
+      ]
+    },
+    "runtime_errors": 0,
+    "invalid_structured_call_responses": 0,
+    "multiple_call_responses": 0,
+    "text_with_unparsed_tool_markup": 0,
+    "tools_executed": 0,
+    "response_accuracy": {
+      "numerator": 22,
+      "denominator": 58,
+      "rate": 0.3793103448275862,
+      "wilson95": [
+        0.2656427267728758,
+        0.5079719280723111
+      ]
+    },
+    "informative_response_accuracy": {
+      "numerator": 13,
+      "denominator": 48,
+      "rate": 0.2708333333333333,
+      "wilson95": [
+        0.1656595762745644,
+        0.40996964982240613
+      ]
+    }
+  },
+  "modified": {
+    "UTCR": {
+      "numerator": 14,
+      "denominator": 17,
+      "rate": 0.8235294117647058,
+      "wilson95": [
+        0.5897054143116588,
+        0.9380887336237901
+      ]
+    },
+    "ATCSR": {
+      "numerator": 9,
+      "denominator": 10,
+      "rate": 0.9,
+      "wilson95": [
+        0.5958499732047615,
+        0.9821237869049271
+      ]
+    },
+    "NTFCR": {
+      "numerator": 0,
+      "denominator": 20,
+      "rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.16112515805281938
+      ]
+    },
+    "near_target_false_call_rate": {
+      "numerator": 1,
+      "denominator": 11,
+      "rate": 0.09090909090909091,
+      "wilson95": [
+        0.016232172885884855,
+        0.37735843645159567
+      ]
+    },
+    "all_outside_false_call_rate": {
+      "numerator": 1,
+      "denominator": 31,
+      "rate": 0.03225806451612903,
+      "wilson95": [
+        0.005717221525416816,
+        0.16194105164724906
+      ]
+    },
+    "runtime_errors": 0,
+    "invalid_structured_call_responses": 0,
+    "multiple_call_responses": 0,
+    "text_with_unparsed_tool_markup": 0,
+    "tools_executed": 0,
+    "response_accuracy": {
+      "numerator": 22,
+      "denominator": 58,
+      "rate": 0.3793103448275862,
+      "wilson95": [
+        0.2656427267728758,
+        0.5079719280723111
+      ]
+    },
+    "informative_response_accuracy": {
+      "numerator": 13,
+      "denominator": 48,
+      "rate": 0.2708333333333333,
+      "wilson95": [
+        0.1656595762745644,
+        0.40996964982240613
+      ]
+    }
+  },
+  "same_prompt_conditions_verified": true,
+  "targeted_behavioral_change": {
+    "paired_difference": 0.8235294117647058,
+    "bootstrap_paired95": [
+      0.6470588235294118,
+      1.0
+    ],
+    "no_call_to_call": 14,
+    "call_to_no_call": 0,
+    "denominator": 17,
+    "seed": 20261105,
+    "replicates": 10000,
+    "limitation": "Descriptive convenience sample; related formulations are not independent population draws."
+  },
+  "response_preservation": {
+    "numerator": 13,
+    "denominator": 13,
+    "rate": 1.0,
+    "wilson95": [
+      0.7719046276458016,
+      0.9999999999999999
+    ]
+  },
+  "response_preservation_ids": [
+    "qual_target_04",
+    "qual_non_target_00",
+    "qual_non_target_01",
+    "qual_non_target_03",
+    "qual_non_target_04",
+    "qual_non_target_07",
+    "dev_non_target_01",
+    "dev_non_target_02",
+    "dev_non_target_05",
+    "dev_non_target_07",
+    "dev_near_target_02",
+    "dev_near_target_03",
+    "dev_near_target_04"
+  ],
+  "identical_text": {
+    "numerator": 56,
+    "denominator": 58,
+    "rate": 0.9655172413793104,
+    "wilson95": [
+      0.8827085453568732,
+      0.9904920716688347
+    ]
+  }
+}

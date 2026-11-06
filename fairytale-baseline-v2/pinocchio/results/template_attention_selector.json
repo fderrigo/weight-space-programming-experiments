@@ -1,0 +1,152 @@
+{
+  "spec": {
+    "utc": "2026-11-05T05:45:51.645157+00:00",
+    "decision_by": "Codex",
+    "reason": "The transport identifies more relations than the linear fact writer converts into correct concepts. Test an existing attention softmax as a sharper class selector, using unchanged causal template positions as addresses.",
+    "address_selection": "Select thirteen prefix positions by pivoted Gram orthogonalization in the inverse native second-moment metric. The other eleven prefix positions are inactive.",
+    "key_formula": "M=C^-1 S^T (S C^-1 S^T)^-1 Y. C is the second moment of nonprefix normalized inputs, with .01 mean-diagonal isotropic term. Y gives one class coordinate and an enabled flag to each selected prefix position; all other prefix rows are zero.",
+    "query_formula": "Head6 uses thirteen cosine-center linear scores on the carried coordinates, normalized by the median first-position norm on the earlier fifty questions. The fourteenth query coordinate is a constant bias. Other query coordinates are zero.",
+    "class_temperature": 64.0,
+    "prefix_flag_logit_scale": 1024.0,
+    "rotary_axes": [
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63
+    ],
+    "rope_theta": 1000000.0,
+    "native_regularization_fraction": 0.01,
+    "selected_prefix_count": 13,
+    "query_head": 6,
+    "key_value_head": 0,
+    "nonprefix_keys_include_user_prompt_tokens": true,
+    "simulation_only": true,
+    "new_model_weights_applied": false,
+    "template_unchanged": true,
+    "tokenizer_unchanged": true,
+    "stored_content": "Thirteen relation identifiers, not responses, correct names or narrative text.",
+    "training": false,
+    "gradients": false,
+    "optimizer": false,
+    "parameter_search": false,
+    "free_generation_performed": false,
+    "counts_as_correction": false,
+    "third_set_used": false,
+    "final_set_read": false,
+    "source_sha256": "e37cd054c30c6f0539a9544109d7bbb518696831985732ddb2173171418c84eb",
+    "code_sha256": "b3e487040bdec33a9be1716661f92baad1fc639c15d0f71687c869cee5b39978"
+  },
+  "slots_by_class": {
+    "creator": 9,
+    "deceivers": 0,
+    "donkey": 17,
+    "ending": 5,
+    "fairy": 22,
+    "fish_father": 14,
+    "friend": 10,
+    "material": 16,
+    "nose": 3,
+    "outside": 18,
+    "puppeteer": 4,
+    "rescuer": 1,
+    "wood_donor": 11
+  },
+  "prefix_interpolation_max_error_f32": 3.5762786865234375e-07,
+  "nonprefix_keys": 11325,
+  "native_covariance_fit_keys": 10357,
+  "native_flag_max": 0.7833552956581116,
+  "native_flag_p99": 0.13995587825775146,
+  "comparisons": [
+    {
+      "representation": "native_carrier_linear_scores",
+      "split": "fit",
+      "states": 196,
+      "questions": 50,
+      "relation_correct": 196,
+      "first_relation_correct": 50,
+      "all_steps_relation_correct": 50
+    },
+    {
+      "representation": "native_carrier_linear_scores",
+      "split": "probe_observed",
+      "states": 92,
+      "questions": 24,
+      "relation_correct": 76,
+      "first_relation_correct": 20,
+      "all_steps_relation_correct": 18
+    },
+    {
+      "representation": "simulated_attention_values",
+      "split": "fit",
+      "states": 196,
+      "questions": 50,
+      "relation_correct": 196,
+      "first_relation_correct": 50,
+      "all_steps_relation_correct": 50
+    },
+    {
+      "representation": "simulated_attention_values",
+      "split": "probe_observed",
+      "states": 92,
+      "questions": 24,
+      "relation_correct": 76,
+      "first_relation_correct": 20,
+      "all_steps_relation_correct": 18
+    }
+  ],
+  "groups": {
+    "external": {
+      "states": 3130,
+      "prefix_mass_min": 0.9999997019767761,
+      "prefix_mass_median": 1.0,
+      "prefix_mass_below_99_percent": 0,
+      "classified_outside": 2365
+    },
+    "factual": {
+      "states": 288,
+      "prefix_mass_min": 0.9999998211860657,
+      "prefix_mass_median": 1.0,
+      "prefix_mass_below_99_percent": 0,
+      "classified_outside": 0
+    },
+    "minimal_native": {
+      "states": 411,
+      "prefix_mass_min": 0.9999998807907104,
+      "prefix_mass_median": 1.0,
+      "prefix_mass_below_99_percent": 0,
+      "classified_outside": 0
+    },
+    "narrative": {
+      "states": 472,
+      "prefix_mass_min": 0.9999997615814209,
+      "prefix_mass_median": 1.0,
+      "prefix_mass_below_99_percent": 0,
+      "classified_outside": 0
+    },
+    "native_unit": {
+      "states": 392,
+      "prefix_mass_min": 0.9999998807907104,
+      "prefix_mass_median": 1.0,
+      "prefix_mass_below_99_percent": 0,
+      "classified_outside": 0
+    },
+    "outside_prototype": {
+      "states": 14,
+      "prefix_mass_min": 0.9999999403953552,
+      "prefix_mass_median": 1.0,
+      "prefix_mass_below_99_percent": 0,
+      "classified_outside": 12
+    }
+  },
+  "interpretation": "This simulates specified Q/K/V maps and native rotary attention on observed inputs. It is not an applied selector, a factual decoder or a corrected-answer result."
+}

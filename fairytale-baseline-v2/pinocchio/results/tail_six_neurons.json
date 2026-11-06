@@ -1,0 +1,256 @@
+{
+  "spec": {
+    "utc": "2026-11-05T10:07:46.632915+00:00",
+    "decision_by": "Codex",
+    "hypothesis": "Several strong contributions toward the wrong name come from the same six native neurons chosen in the earlier causal experiment. Test that exact fixed deletion locally, without choosing a new subset or amplitude.",
+    "neurons": [
+      2455,
+      2788,
+      900,
+      1396,
+      2345,
+      2607
+    ],
+    "layer": 23,
+    "scope": "Algebraic last-MLP ablation on46 recorded positions in original and latest candidate. No free generation or new checkpoint.",
+    "historical_spec_sha256": "a4f316bb4d355b877c32d1f4e8023d441f2ec8c1085eb62663f774a7e4014bc4",
+    "source_sha256": "d0e0a6523cff3057d2515d4b7dbf84c42373b316187a00dca1b425be88427d5e",
+    "code_sha256": "faaba417d5d391b314b7d2b9c088bfc0122cf4eba18bbe513c113e48fad49ac3",
+    "training": false,
+    "gradients": false,
+    "optimizer": false,
+    "parameter_search": false,
+    "weights_modified": false,
+    "free_generation_performed": false,
+    "counts_as_correction": false,
+    "third_set_already_observed": true,
+    "final_set_read": false
+  },
+  "conditions": [
+    {
+      "condition": "original",
+      "points": [
+        {
+          "id": "third_nose_0",
+          "subtoken": 4,
+          "target": 17141,
+          "rival": 2098,
+          "target_text": " nas",
+          "rival_text": " vis",
+          "record_index": 4,
+          "desired_rank": 2,
+          "desired_vs_wrong_margin": -1.1517333984375,
+          "top": [
+            {
+              "token": 2098,
+              "text": " vis",
+              "score": 14.142322540283203
+            },
+            {
+              "token": 17141,
+              "text": " nas",
+              "score": 12.990589141845703
+            },
+            {
+              "token": 4400,
+              "text": " vol",
+              "score": 11.994083404541016
+            },
+            {
+              "token": 51512,
+              "text": " suo",
+              "score": 11.062735557556152
+            },
+            {
+              "token": 6871,
+              "text": " cu",
+              "score": 11.039117813110352
+            },
+            {
+              "token": 2062,
+              "text": " cap",
+              "score": 10.737104415893555
+            },
+            {
+              "token": 1411,
+              "text": " br",
+              "score": 10.44656753540039
+            },
+            {
+              "token": 11288,
+              "text": " ment",
+              "score": 10.275128364562988
+            }
+          ]
+        },
+        {
+          "id": "third_puppeteer_1",
+          "subtoken": 26,
+          "target": 59048,
+          "rival": 57770,
+          "target_text": " Mang",
+          "rival_text": " Carlo",
+          "record_index": 38,
+          "desired_rank": 140,
+          "desired_vs_wrong_margin": -2.1233420372009277,
+          "top": [
+            {
+              "token": 330,
+              "text": " \"",
+              "score": 9.936929702758789
+            },
+            {
+              "token": 647,
+              "text": " V",
+              "score": 9.336065292358398
+            },
+            {
+              "token": 479,
+              "text": " G",
+              "score": 9.33515739440918
+            },
+            {
+              "token": 350,
+              "text": " T",
+              "score": 9.244037628173828
+            },
+            {
+              "token": 2463,
+              "text": " Sc",
+              "score": 9.174424171447754
+            },
+            {
+              "token": 356,
+              "text": " C",
+              "score": 9.057327270507812
+            },
+            {
+              "token": 468,
+              "text": " E",
+              "score": 8.672887802124023
+            },
+            {
+              "token": 444,
+              "text": " L",
+              "score": 8.666093826293945
+            }
+          ]
+        }
+      ],
+      "same_recorded_tokens": 32
+    },
+    {
+      "condition": "late_target_contrasts",
+      "points": [
+        {
+          "id": "third_nose_0",
+          "subtoken": 4,
+          "target": 17141,
+          "rival": 2098,
+          "target_text": " nas",
+          "rival_text": " vis",
+          "record_index": 4,
+          "desired_rank": 2,
+          "desired_vs_wrong_margin": -1.0995197296142578,
+          "top": [
+            {
+              "token": 2098,
+              "text": " vis",
+              "score": 13.811943054199219
+            },
+            {
+              "token": 17141,
+              "text": " nas",
+              "score": 12.712423324584961
+            },
+            {
+              "token": 4400,
+              "text": " vol",
+              "score": 12.585086822509766
+            },
+            {
+              "token": 51512,
+              "text": " suo",
+              "score": 10.684741020202637
+            },
+            {
+              "token": 2062,
+              "text": " cap",
+              "score": 10.68160343170166
+            },
+            {
+              "token": 6871,
+              "text": " cu",
+              "score": 10.660249710083008
+            },
+            {
+              "token": 11288,
+              "text": " ment",
+              "score": 10.125771522521973
+            },
+            {
+              "token": 24534,
+              "text": " sor",
+              "score": 10.062834739685059
+            }
+          ]
+        },
+        {
+          "id": "third_puppeteer_1",
+          "subtoken": 26,
+          "target": 59048,
+          "rival": 57770,
+          "target_text": " Mang",
+          "rival_text": " Carlo",
+          "record_index": 38,
+          "desired_rank": 103,
+          "desired_vs_wrong_margin": -1.7256217002868652,
+          "top": [
+            {
+              "token": 330,
+              "text": " \"",
+              "score": 10.157846450805664
+            },
+            {
+              "token": 479,
+              "text": " G",
+              "score": 9.656698226928711
+            },
+            {
+              "token": 647,
+              "text": " V",
+              "score": 9.539154052734375
+            },
+            {
+              "token": 356,
+              "text": " C",
+              "score": 9.46796703338623
+            },
+            {
+              "token": 350,
+              "text": " T",
+              "score": 9.376649856567383
+            },
+            {
+              "token": 468,
+              "text": " E",
+              "score": 9.222565650939941
+            },
+            {
+              "token": 2463,
+              "text": " Sc",
+              "score": 9.201716423034668
+            },
+            {
+              "token": 444,
+              "text": " L",
+              "score": 9.053765296936035
+            }
+          ]
+        }
+      ],
+      "same_recorded_tokens": 44
+    }
+  ],
+  "interpretation_limit": "A negative margin may improve without the desired token winning. Fixed-history ablation cannot be counted as a repaired answer or prove all other behavior is preserved."
+}

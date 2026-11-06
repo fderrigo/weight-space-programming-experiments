@@ -1,0 +1,69 @@
+{
+  "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "source": "https://huggingface.co/api/models/Qwen/Qwen2.5-0.5B-Instruct/tree/7ae557604adf67be50417f59c2c2f167def9a775?recursive=false&expand=false",
+  "files": [
+    {
+      "name": "LICENSE",
+      "algorithm": "git_blob_sha1",
+      "remote": "6634c8cc3133b3848ec74b9f275acaaa1ea618ab",
+      "local": "6634c8cc3133b3848ec74b9f275acaaa1ea618ab",
+      "match": true
+    },
+    {
+      "name": "README.md",
+      "algorithm": "git_blob_sha1",
+      "remote": "4b8373851d093eb9f3017443f27781c6971eff24",
+      "local": "4b8373851d093eb9f3017443f27781c6971eff24",
+      "match": true
+    },
+    {
+      "name": "config.json",
+      "algorithm": "git_blob_sha1",
+      "remote": "0dbb161213629a23f0fc00ef286e6b1e366d180f",
+      "local": "0dbb161213629a23f0fc00ef286e6b1e366d180f",
+      "match": true
+    },
+    {
+      "name": "generation_config.json",
+      "algorithm": "git_blob_sha1",
+      "remote": "dfc11073787daf1b0f9c0f1499487ab5f4c93738",
+      "local": "dfc11073787daf1b0f9c0f1499487ab5f4c93738",
+      "match": true
+    },
+    {
+      "name": "merges.txt",
+      "algorithm": "git_blob_sha1",
+      "remote": "20024bfe7c83998e9aeaf98a0cd6a2ce6306c2f0",
+      "local": "20024bfe7c83998e9aeaf98a0cd6a2ce6306c2f0",
+      "match": true
+    },
+    {
+      "name": "model.safetensors",
+      "algorithm": "sha256",
+      "remote": "fdf756fa7fcbe7404d5c60e26bff1a0c8b8aa1f72ced49e7dd0210fe288fb7fe",
+      "local": "fdf756fa7fcbe7404d5c60e26bff1a0c8b8aa1f72ced49e7dd0210fe288fb7fe",
+      "match": true
+    },
+    {
+      "name": "tokenizer.json",
+      "algorithm": "git_blob_sha1",
+      "remote": "443909a61d429dff23010e5bddd28ff530edda00",
+      "local": "443909a61d429dff23010e5bddd28ff530edda00",
+      "match": true
+    },
+    {
+      "name": "tokenizer_config.json",
+      "algorithm": "git_blob_sha1",
+      "remote": "07bfe0640cb5a0037f9322287fbfc682806cf672",
+      "local": "07bfe0640cb5a0037f9322287fbfc682806cf672",
+      "match": true
+    },
+    {
+      "name": "vocab.json",
+      "algorithm": "git_blob_sha1",
+      "remote": "4783fe10ac3adce15ac8f358ef5462739852c569",
+      "local": "4783fe10ac3adce15ac8f358ef5462739852c569",
+      "match": true
+    }
+  ]
+}

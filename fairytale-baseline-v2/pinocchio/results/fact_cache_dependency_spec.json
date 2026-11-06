@@ -1,0 +1,110 @@
+{
+  "utc": "2026-11-05T14:43:10.898369+00:00",
+  "decision_by": "Codex",
+  "hypothesis": "Correct donor answers may require repeated direct attention to fact tokens, rather than a fixed residual signal. Remove only direct access to those keys after prefill.",
+  "conditions": {
+    "all": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "early": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "middle": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "late": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  "first_condition": "all",
+  "conditional_followup_rule": "Run early/middle/late localization only if semantic review of all-block masking loses a previously correct whole answer. Exact-token changes alone do not trigger localization.",
+  "intervention": "At selected self-attention modules, preserve prefill completely. On cached decoding calls, clone the native causal attention mask and block only fact-span key positions. Keep every token, position_id, cache_position and all K/V values unchanged.",
+  "mask_implementation": "Existing boolean masks use False at blocked keys; floating masks use dtype minimum. If no mask exists, use a floating zero mask only after asserting no prompt padding. No changes to generation attention_mask or position_ids.",
+  "facts": {
+    "material": "Nel romanzo di Collodi, il corpo del burattino Pinocchio è fatto di legno.",
+    "fairy": "Nel romanzo di Collodi, la Fata che aiuta Pinocchio ha i capelli turchini, cioè azzurri.",
+    "donkey": "Nel romanzo di Collodi, Pinocchio si trasforma in un asino dopo il soggiorno nel Paese dei balocchi.",
+    "puppeteer": "Nel romanzo di Collodi, il padrone del teatro di burattini visitato da Pinocchio si chiama Mangiafoco.",
+    "rescuer": "Nel romanzo di Collodi, il cane Alidoro salva Pinocchio dal pescatore verde.",
+    "fish_father": "Nel romanzo di Collodi, dentro il Pesce-cane Pinocchio ritrova Geppetto, suo padre."
+  },
+  "ids": [
+    "newdev_material_0",
+    "newdev_fairy_0",
+    "newdev_donkey_0",
+    "newdev_puppeteer_0",
+    "newdev_rescuer_0",
+    "newdev_fish_father_0"
+  ],
+  "batch": 3,
+  "sampling": {
+    "do_sample": false,
+    "repetition_penalty": 1.1,
+    "max_new_tokens": 128,
+    "seed": 42,
+    "threads": 6
+  },
+  "reference_in_input": true,
+  "runtime_hooks": true,
+  "oracle_fact_selection": true,
+  "limitations": [
+    "Question and other prefix states already encode the fact; masking direct fact keys does not erase all factual information.",
+    "This is a necessity test for direct rereading on six observed donor questions, not a test of knowledge learned in weights.",
+    "Groups localize only direct access and can have interacting effects."
+  ],
+  "collection_sha256": "a17f01f16fd2a10fac98a38352282bf553a25223c12800c2eda6880ca67ed4f5",
+  "donor_review_sha256": "34123016b5109454b6c416d3553b0a98cc89ebb761514264acbec147f9063f32",
+  "fact_source_code_sha256": "19875bed2ebf65b90a2770572dfac30be30d199152fa2b5efd08f70e242f4b46",
+  "code_sha256": "e6a626dd3fd7c64860f82d25340428e59e5ca7cba5b13be229c10853fe92dcd3",
+  "weights_changed": false,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "parameter_search": false,
+  "counts_as_correction": false,
+  "reserved_final_used": false
+}

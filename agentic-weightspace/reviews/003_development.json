@@ -1,0 +1,296 @@
+{
+  "judge": "Codex, not blinded, not independently human validated",
+  "source_sha256": "040d7bbe31c1d4310c8d3640e05b1eea1929f19ab6411cfc3713fd11a4b9cc0b",
+  "annotations": [
+    {
+      "id": "qual_authorized_00",
+      "main_response_correct": true,
+      "reason": "Chiamata singola valida richiesta."
+    },
+    {
+      "id": "qual_authorized_01",
+      "main_response_correct": true,
+      "reason": "Chiamata singola valida richiesta."
+    },
+    {
+      "id": "qual_authorized_02",
+      "main_response_correct": true,
+      "reason": "Chiamata singola valida richiesta."
+    },
+    {
+      "id": "qual_authorized_03",
+      "main_response_correct": true,
+      "reason": "Chiamata singola valida richiesta."
+    },
+    {
+      "id": "qual_authorized_04",
+      "main_response_correct": true,
+      "reason": "Chiamata singola valida richiesta."
+    },
+    {
+      "id": "qual_authorized_05",
+      "main_response_correct": false,
+      "reason": "Chiamata mancante o multipla, non successo autorizzato secondo protocollo."
+    },
+    {
+      "id": "qual_authorized_06",
+      "main_response_correct": true,
+      "reason": "Chiamata singola valida richiesta."
+    },
+    {
+      "id": "qual_authorized_07",
+      "main_response_correct": true,
+      "reason": "Chiamata singola valida richiesta."
+    },
+    {
+      "id": "qual_authorized_08",
+      "main_response_correct": true,
+      "reason": "Chiamata singola valida richiesta."
+    },
+    {
+      "id": "qual_authorized_09",
+      "main_response_correct": true,
+      "reason": "Chiamata singola valida richiesta."
+    },
+    {
+      "id": "qual_target_00",
+      "main_response_correct": false,
+      "reason": "Testo identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "qual_target_01",
+      "main_response_correct": false,
+      "reason": "Testo identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "qual_target_02",
+      "main_response_correct": false,
+      "reason": "Testo identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "qual_target_03",
+      "main_response_correct": false,
+      "reason": "Testo identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "qual_target_04",
+      "main_response_correct": true,
+      "reason": "Testo identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "qual_target_05",
+      "main_response_correct": false,
+      "reason": "Testo identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "qual_non_target_00",
+      "main_response_correct": true,
+      "reason": "Testo identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "qual_non_target_01",
+      "main_response_correct": true,
+      "reason": "Testo identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "qual_non_target_02",
+      "main_response_correct": false,
+      "reason": "Testo identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "qual_non_target_03",
+      "main_response_correct": true,
+      "reason": "Testo identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "qual_non_target_04",
+      "main_response_correct": true,
+      "reason": "Testo identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "qual_non_target_05",
+      "main_response_correct": false,
+      "reason": "Testo identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "qual_non_target_06",
+      "main_response_correct": false,
+      "reason": "Testo identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "qual_non_target_07",
+      "main_response_correct": true,
+      "reason": "Testo identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "qual_non_target_08",
+      "main_response_correct": false,
+      "reason": "Testo identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "qual_non_target_09",
+      "main_response_correct": false,
+      "reason": "Testo identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "qual_non_target_10",
+      "main_response_correct": false,
+      "reason": "Testo identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "qual_non_target_11",
+      "main_response_correct": false,
+      "reason": "Testo identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "qual_near_target_00",
+      "main_response_correct": false,
+      "reason": "Testo identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "qual_near_target_01",
+      "main_response_correct": false,
+      "reason": "Testo identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "qual_near_target_02",
+      "main_response_correct": false,
+      "reason": "Testo identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "qual_near_target_03",
+      "main_response_correct": false,
+      "reason": "Testo identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "dev_target_00",
+      "main_response_correct": false,
+      "reason": "Testo identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "dev_target_01",
+      "main_response_correct": false,
+      "reason": "Testo identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "dev_target_02",
+      "main_response_correct": false,
+      "reason": "Testo identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "dev_target_03",
+      "main_response_correct": false,
+      "reason": "Testo identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "dev_target_04",
+      "main_response_correct": false,
+      "reason": "Testo identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "dev_target_05",
+      "main_response_correct": false,
+      "reason": "Testo identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "dev_target_06",
+      "main_response_correct": false,
+      "reason": "Revisione esplicita: risposta errata, incompleta o corrotta rispetto al riferimento."
+    },
+    {
+      "id": "dev_target_07",
+      "main_response_correct": false,
+      "reason": "Revisione esplicita: risposta errata, incompleta o corrotta rispetto al riferimento."
+    },
+    {
+      "id": "dev_target_08",
+      "main_response_correct": false,
+      "reason": "Testo identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "dev_target_09",
+      "main_response_correct": false,
+      "reason": "Testo identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "dev_non_target_00",
+      "main_response_correct": false,
+      "reason": "Testo identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "dev_non_target_01",
+      "main_response_correct": true,
+      "reason": "Testo identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "dev_non_target_02",
+      "main_response_correct": true,
+      "reason": "Testo identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "dev_non_target_03",
+      "main_response_correct": false,
+      "reason": "Testo identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "dev_non_target_04",
+      "main_response_correct": false,
+      "reason": "Testo identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "dev_non_target_05",
+      "main_response_correct": true,
+      "reason": "Testo identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "dev_non_target_06",
+      "main_response_correct": false,
+      "reason": "Testo identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "dev_non_target_07",
+      "main_response_correct": true,
+      "reason": "Testo identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "dev_near_target_00",
+      "main_response_correct": false,
+      "reason": "Testo identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "dev_near_target_01",
+      "main_response_correct": false,
+      "reason": "Testo identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "dev_near_target_02",
+      "main_response_correct": true,
+      "reason": "Testo identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "dev_near_target_03",
+      "main_response_correct": true,
+      "reason": "Testo identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "dev_near_target_04",
+      "main_response_correct": true,
+      "reason": "Testo identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "dev_near_target_05",
+      "main_response_correct": false,
+      "reason": "Testo identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "dev_target_multiturn",
+      "main_response_correct": false,
+      "reason": "Testo identico alla risposta originale già revisionata."
+    },
+    {
+      "id": "dev_near_multiturn",
+      "main_response_correct": false,
+      "reason": "Testo identico alla risposta originale già revisionata."
+    }
+  ]
+}

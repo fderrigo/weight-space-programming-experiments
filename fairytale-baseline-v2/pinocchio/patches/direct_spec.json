@@ -1,0 +1,5539 @@
+{
+  "utc": "2026-11-04T17:46:59.874654+00:00",
+  "decision_by": "Codex",
+  "tensor": "model.layers.23.mlp.down_proj.weight",
+  "columns": [
+    1,
+    2,
+    5,
+    9,
+    24,
+    31,
+    32,
+    42,
+    43,
+    45,
+    50,
+    70,
+    71,
+    75,
+    84,
+    85,
+    110,
+    117,
+    124,
+    125,
+    134,
+    140,
+    146,
+    178,
+    179,
+    180,
+    209,
+    223,
+    230,
+    231,
+    233,
+    238,
+    244,
+    246,
+    247,
+    252,
+    254,
+    276,
+    281,
+    289,
+    295,
+    319,
+    322,
+    340,
+    350,
+    356,
+    357,
+    362,
+    373,
+    375,
+    386,
+    387,
+    395,
+    401,
+    404,
+    409,
+    410,
+    436,
+    443,
+    444,
+    447,
+    448,
+    458,
+    470,
+    471,
+    481,
+    486,
+    490,
+    492,
+    495,
+    499,
+    511,
+    518,
+    522,
+    529,
+    532,
+    537,
+    541,
+    550,
+    563,
+    580,
+    584,
+    588,
+    607,
+    617,
+    619,
+    622,
+    647,
+    655,
+    658,
+    665,
+    689,
+    695,
+    699,
+    729,
+    734,
+    735,
+    736,
+    740,
+    753,
+    762,
+    765,
+    766,
+    771,
+    775,
+    778,
+    779,
+    780,
+    781,
+    807,
+    824,
+    825,
+    833,
+    844,
+    851,
+    864,
+    872,
+    886,
+    891,
+    892,
+    896,
+    897,
+    900,
+    925,
+    927,
+    931,
+    932,
+    942,
+    943,
+    950,
+    955,
+    966,
+    981,
+    988,
+    989,
+    996,
+    1003,
+    1008,
+    1016,
+    1018,
+    1032,
+    1049,
+    1062,
+    1072,
+    1077,
+    1085,
+    1088,
+    1089,
+    1115,
+    1116,
+    1121,
+    1128,
+    1139,
+    1144,
+    1161,
+    1167,
+    1170,
+    1171,
+    1174,
+    1175,
+    1179,
+    1193,
+    1206,
+    1218,
+    1222,
+    1229,
+    1251,
+    1270,
+    1281,
+    1283,
+    1312,
+    1322,
+    1341,
+    1343,
+    1352,
+    1355,
+    1367,
+    1369,
+    1372,
+    1378,
+    1379,
+    1387,
+    1396,
+    1404,
+    1409,
+    1426,
+    1438,
+    1444,
+    1468,
+    1476,
+    1482,
+    1493,
+    1515,
+    1536,
+    1545,
+    1596,
+    1600,
+    1605,
+    1609,
+    1626,
+    1638,
+    1656,
+    1662,
+    1672,
+    1678,
+    1681,
+    1692,
+    1693,
+    1711,
+    1715,
+    1731,
+    1739,
+    1745,
+    1771,
+    1774,
+    1776,
+    1792,
+    1794,
+    1810,
+    1814,
+    1838,
+    1839,
+    1843,
+    1846,
+    1855,
+    1857,
+    1858,
+    1862,
+    1863,
+    1874,
+    1910,
+    1922,
+    1926,
+    1952,
+    1955,
+    1956,
+    1966,
+    1979,
+    2012,
+    2027,
+    2051,
+    2052,
+    2062,
+    2071,
+    2096,
+    2108,
+    2113,
+    2121,
+    2127,
+    2135,
+    2142,
+    2148,
+    2160,
+    2167,
+    2168,
+    2179,
+    2185,
+    2189,
+    2195,
+    2225,
+    2228,
+    2261,
+    2262,
+    2270,
+    2274,
+    2285,
+    2288,
+    2296,
+    2299,
+    2302,
+    2316,
+    2322,
+    2337,
+    2344,
+    2345,
+    2354,
+    2369,
+    2377,
+    2390,
+    2400,
+    2412,
+    2415,
+    2421,
+    2448,
+    2455,
+    2456,
+    2479,
+    2484,
+    2505,
+    2509,
+    2517,
+    2527,
+    2533,
+    2539,
+    2582,
+    2599,
+    2607,
+    2609,
+    2619,
+    2641,
+    2644,
+    2657,
+    2665,
+    2682,
+    2687,
+    2696,
+    2705,
+    2710,
+    2728,
+    2736,
+    2743,
+    2744,
+    2757,
+    2761,
+    2777,
+    2788,
+    2800,
+    2807,
+    2821,
+    2840,
+    2858,
+    2872,
+    2873,
+    2877,
+    2906,
+    2918,
+    2932,
+    2957,
+    2999,
+    3007,
+    3010,
+    3015,
+    3035,
+    3052,
+    3053,
+    3062,
+    3070,
+    3083,
+    3096,
+    3117,
+    3122,
+    3126,
+    3142,
+    3145,
+    3150,
+    3156,
+    3158,
+    3159,
+    3164,
+    3189,
+    3191,
+    3192,
+    3210,
+    3236,
+    3240,
+    3244,
+    3253,
+    3256,
+    3297,
+    3300,
+    3312,
+    3324,
+    3330,
+    3350,
+    3353,
+    3356,
+    3364,
+    3368,
+    3371,
+    3377,
+    3383,
+    3395,
+    3399,
+    3410,
+    3423,
+    3424,
+    3430,
+    3460,
+    3467,
+    3468,
+    3469,
+    3473,
+    3484,
+    3509,
+    3522,
+    3562,
+    3590,
+    3605,
+    3606,
+    3622,
+    3625,
+    3655,
+    3671,
+    3682,
+    3695,
+    3715,
+    3716,
+    3727,
+    3728,
+    3738,
+    3748,
+    3757,
+    3775,
+    3784,
+    3791,
+    3797,
+    3809,
+    3810,
+    3812,
+    3819,
+    3827,
+    3829,
+    3832,
+    3838,
+    3839,
+    3842,
+    3851,
+    3855,
+    3876,
+    3878,
+    3879,
+    3922,
+    3924,
+    3927,
+    3935,
+    3941,
+    3962,
+    3972,
+    3976,
+    3994,
+    4033,
+    4049,
+    4060,
+    4069,
+    4093,
+    4101,
+    4112,
+    4139,
+    4144,
+    4149,
+    4151,
+    4162,
+    4163,
+    4170,
+    4175,
+    4176,
+    4197,
+    4200,
+    4211,
+    4229,
+    4231,
+    4235,
+    4239,
+    4252,
+    4254,
+    4262,
+    4270,
+    4283,
+    4284,
+    4291,
+    4297,
+    4309,
+    4337,
+    4376,
+    4378,
+    4384,
+    4389,
+    4391,
+    4392,
+    4396,
+    4398,
+    4401,
+    4403,
+    4424,
+    4436,
+    4444,
+    4446,
+    4452,
+    4455,
+    4464,
+    4469,
+    4480,
+    4484,
+    4506,
+    4531,
+    4540,
+    4543,
+    4564,
+    4568,
+    4571,
+    4580,
+    4584,
+    4587,
+    4602,
+    4619,
+    4625,
+    4637,
+    4669,
+    4684,
+    4691,
+    4701,
+    4719,
+    4743,
+    4747,
+    4749,
+    4767,
+    4774,
+    4775,
+    4778,
+    4818,
+    4834,
+    4861
+  ],
+  "edited_contexts": 59,
+  "protected_contexts": 15,
+  "rows": [
+    {
+      "id": "core_author_0",
+      "group": "core",
+      "fact": "author",
+      "prompt": "Chi ha scritto Le avventure di Pinocchio? Rispondi in una o due frasi.",
+      "reference": "Carlo Collodi",
+      "chapter": null,
+      "language": "it",
+      "role": "preserve"
+    },
+    {
+      "id": "core_author_1",
+      "group": "core",
+      "fact": "author",
+      "prompt": "Chi è l’autore del romanzo originale di Pinocchio? Rispondi in una o due frasi.",
+      "reference": "Carlo Collodi",
+      "chapter": null,
+      "language": "it",
+      "role": "preserve"
+    },
+    {
+      "id": "core_creator_0",
+      "group": "core",
+      "fact": "creator",
+      "prompt": "Chi costruisce il burattino Pinocchio nella storia? Rispondi in una o due frasi.",
+      "reference": "Geppetto",
+      "chapter": null,
+      "language": "it",
+      "positive": "Geppetto",
+      "negative": "Carlo Collodi",
+      "role": "edit"
+    },
+    {
+      "id": "core_creator_1",
+      "group": "core",
+      "fact": "creator",
+      "prompt": "Come si chiama il falegname che intaglia Pinocchio? Rispondi in una o due frasi.",
+      "reference": "Geppetto",
+      "chapter": null,
+      "language": "it",
+      "positive": "Geppetto",
+      "negative": "Carlo Collodi",
+      "role": "edit"
+    },
+    {
+      "id": "core_material_0",
+      "group": "core",
+      "fact": "material",
+      "prompt": "Di quale materiale è fatto inizialmente Pinocchio? Rispondi in una o due frasi.",
+      "reference": "legno",
+      "chapter": null,
+      "language": "it",
+      "positive": "legno",
+      "negative": "pelle cinghiale",
+      "role": "edit"
+    },
+    {
+      "id": "core_material_1",
+      "group": "core",
+      "fact": "material",
+      "prompt": "Prima di diventare un bambino, di che cosa è fatto il corpo di Pinocchio? Rispondi in una o due frasi.",
+      "reference": "legno",
+      "chapter": null,
+      "language": "it",
+      "positive": "legno",
+      "negative": "pelle cinghiale",
+      "role": "edit"
+    },
+    {
+      "id": "core_nose_0",
+      "group": "core",
+      "fact": "nose",
+      "prompt": "Che cosa succede al naso di Pinocchio quando dice una bugia? Rispondi in una o due frasi.",
+      "reference": "il naso si allunga",
+      "chapter": null,
+      "language": "it",
+      "positive": "allunga cresce lungo",
+      "negative": "rilassa cicatrici",
+      "role": "edit"
+    },
+    {
+      "id": "core_nose_1",
+      "group": "core",
+      "fact": "nose",
+      "prompt": "Come cambia il naso di Pinocchio quando mente? Rispondi in una o due frasi.",
+      "reference": "il naso si allunga",
+      "chapter": null,
+      "language": "it",
+      "positive": "allunga cresce lungo",
+      "negative": "rilassa cicatrici",
+      "role": "edit"
+    },
+    {
+      "id": "core_fairy_0",
+      "group": "core",
+      "fact": "fairy",
+      "prompt": "Di che colore sono i capelli della Fata che aiuta Pinocchio? Rispondi in una o due frasi.",
+      "reference": "turchini / azzurri",
+      "chapter": null,
+      "language": "it",
+      "positive": "turchini azzurri",
+      "negative": "neri bianchi",
+      "role": "edit"
+    },
+    {
+      "id": "core_fairy_1",
+      "group": "core",
+      "fact": "fairy",
+      "prompt": "Quale colore caratterizza i capelli della Fata nel romanzo di Pinocchio? Rispondi in una o due frasi.",
+      "reference": "turchini / azzurri",
+      "chapter": null,
+      "language": "it",
+      "positive": "turchini azzurri",
+      "negative": "neri bianchi",
+      "role": "edit"
+    },
+    {
+      "id": "core_deceivers_0",
+      "group": "core",
+      "fact": "deceivers",
+      "prompt": "Quali due personaggi ingannano Pinocchio promettendogli di moltiplicare il denaro? Rispondi in una o due frasi.",
+      "reference": "Gatto e Volpe",
+      "chapter": null,
+      "language": "it",
+      "positive": "Gatto Volpe",
+      "negative": "moglie gigante",
+      "role": "edit"
+    },
+    {
+      "id": "core_deceivers_1",
+      "group": "core",
+      "fact": "deceivers",
+      "prompt": "Chi convince Pinocchio a seppellire le monete per farle crescere? Rispondi in una o due frasi.",
+      "reference": "Gatto e Volpe",
+      "chapter": null,
+      "language": "it",
+      "positive": "Gatto Volpe",
+      "negative": "moglie gigante",
+      "role": "edit"
+    },
+    {
+      "id": "core_donkey_0",
+      "group": "core",
+      "fact": "donkey",
+      "prompt": "In quale animale si trasforma Pinocchio dopo il soggiorno nel Paese dei balocchi? Rispondi in una o due frasi.",
+      "reference": "asino / ciuchino",
+      "chapter": null,
+      "language": "it",
+      "positive": "asino ciuchino",
+      "negative": "cane cavallo",
+      "role": "edit"
+    },
+    {
+      "id": "core_donkey_1",
+      "group": "core",
+      "fact": "donkey",
+      "prompt": "Quale trasformazione animale subisce Pinocchio dopo aver abbandonato la scuola per divertirsi? Rispondi in una o due frasi.",
+      "reference": "asino / ciuchino",
+      "chapter": null,
+      "language": "it",
+      "positive": "asino ciuchino",
+      "negative": "cane cavallo",
+      "role": "edit"
+    },
+    {
+      "id": "core_ending_0",
+      "group": "core",
+      "fact": "ending",
+      "prompt": "In che cosa si trasforma Pinocchio alla fine del romanzo? Rispondi in una o due frasi.",
+      "reference": "ragazzo / bambino vero",
+      "chapter": null,
+      "language": "it",
+      "positive": "ragazzo bambino vero",
+      "negative": "adulto scienziato burattinaio",
+      "role": "edit"
+    },
+    {
+      "id": "core_ending_1",
+      "group": "core",
+      "fact": "ending",
+      "prompt": "Come cambia definitivamente Pinocchio nel finale della storia di Collodi? Rispondi in una o due frasi.",
+      "reference": "ragazzo / bambino vero",
+      "chapter": null,
+      "language": "it",
+      "positive": "ragazzo bambino vero",
+      "negative": "adulto scienziato burattinaio",
+      "role": "edit"
+    },
+    {
+      "id": "en_author",
+      "group": "language",
+      "fact": "author",
+      "prompt": "Who wrote The Adventures of Pinocchio? Answer in one or two sentences.",
+      "reference": "Carlo Collodi",
+      "chapter": null,
+      "language": "en",
+      "role": "preserve"
+    },
+    {
+      "id": "en_creator",
+      "group": "language",
+      "fact": "creator",
+      "prompt": "Who carves the wooden puppet Pinocchio in the story? Answer in one or two sentences.",
+      "reference": "Geppetto",
+      "chapter": null,
+      "language": "en",
+      "positive": "Geppetto",
+      "negative": "Carlo Collodi",
+      "role": "edit"
+    },
+    {
+      "id": "en_material",
+      "group": "language",
+      "fact": "material",
+      "prompt": "What material is Pinocchio originally made of? Answer in one or two sentences.",
+      "reference": "legno",
+      "chapter": null,
+      "language": "en",
+      "positive": "legno",
+      "negative": "pelle cinghiale",
+      "role": "edit"
+    },
+    {
+      "id": "en_nose",
+      "group": "language",
+      "fact": "nose",
+      "prompt": "What happens to Pinocchio’s nose when he tells a lie? Answer in one or two sentences.",
+      "reference": "il naso si allunga",
+      "chapter": null,
+      "language": "en",
+      "positive": "allunga cresce lungo",
+      "negative": "rilassa cicatrici",
+      "role": "edit"
+    },
+    {
+      "id": "en_fairy",
+      "group": "language",
+      "fact": "fairy",
+      "prompt": "What color is the hair of the Fairy who helps Pinocchio in Collodi’s novel? Answer in one or two sentences.",
+      "reference": "turchini / azzurri",
+      "chapter": null,
+      "language": "en",
+      "positive": "turchini azzurri",
+      "negative": "neri bianchi",
+      "role": "edit"
+    },
+    {
+      "id": "en_deceivers",
+      "group": "language",
+      "fact": "deceivers",
+      "prompt": "Which two characters trick Pinocchio into burying his money? Answer in one or two sentences.",
+      "reference": "Gatto e Volpe",
+      "chapter": null,
+      "language": "en",
+      "positive": "Gatto Volpe",
+      "negative": "moglie gigante",
+      "role": "edit"
+    },
+    {
+      "id": "en_donkey",
+      "group": "language",
+      "fact": "donkey",
+      "prompt": "What animal does Pinocchio turn into after living in the Land of Toys? Answer in one or two sentences.",
+      "reference": "asino / ciuchino",
+      "chapter": null,
+      "language": "en",
+      "positive": "asino ciuchino",
+      "negative": "cane cavallo",
+      "role": "edit"
+    },
+    {
+      "id": "en_ending",
+      "group": "language",
+      "fact": "ending",
+      "prompt": "What does Pinocchio become at the end of Collodi’s novel? Answer in one or two sentences.",
+      "reference": "ragazzo / bambino vero",
+      "chapter": null,
+      "language": "en",
+      "positive": "ragazzo bambino vero",
+      "negative": "adulto scienziato burattinaio",
+      "role": "edit"
+    },
+    {
+      "id": "chapter_01",
+      "group": "episode",
+      "fact": "chapter_01",
+      "prompt": "Chi trova per primo il pezzo di legno parlante da cui nascerà Pinocchio? Rispondi in una o due frasi.",
+      "reference": "Maestro Ciliegia / mastr’Antonio",
+      "chapter": 1,
+      "language": "it",
+      "positive": "Maestro Ciliegia Antonio",
+      "negative": "Carlo",
+      "role": "edit"
+    },
+    {
+      "id": "chapter_02",
+      "group": "episode",
+      "fact": "chapter_02",
+      "prompt": "Da chi riceve Geppetto il pezzo di legno con cui costruisce Pinocchio? Rispondi in una o due frasi.",
+      "reference": "Maestro Ciliegia",
+      "chapter": 2,
+      "language": "it",
+      "positive": "Maestro Ciliegia",
+      "negative": "Signor Signore",
+      "role": "edit"
+    },
+    {
+      "id": "chapter_03",
+      "group": "episode",
+      "fact": "chapter_03",
+      "prompt": "Chi dà al burattino il nome Pinocchio? Rispondi in una o due frasi.",
+      "reference": "Geppetto",
+      "chapter": 3,
+      "language": "it",
+      "positive": "Geppetto",
+      "negative": "Carlo",
+      "role": "edit"
+    },
+    {
+      "id": "chapter_04",
+      "group": "episode",
+      "fact": "chapter_04",
+      "prompt": "Nel romanzo di Collodi, come reagisce Pinocchio ai rimproveri iniziali del Grillo-parlante? Rispondi in una o due frasi.",
+      "reference": "gli scaglia un martello di legno e lo colpisce mortalmente",
+      "chapter": 4,
+      "language": "it",
+      "positive": "martello colpisce uccide Grillo",
+      "negative": "amato felice",
+      "role": "edit"
+    },
+    {
+      "id": "chapter_05",
+      "group": "episode",
+      "fact": "chapter_05",
+      "prompt": "Che cosa esce dall’uovo che Pinocchio vuole cucinare quando ha fame? Rispondi in una o due frasi.",
+      "reference": "un pulcino che vola via",
+      "chapter": 5,
+      "language": "it",
+      "positive": "pulcino vola",
+      "negative": "zucchina pane",
+      "role": "edit"
+    },
+    {
+      "id": "chapter_06",
+      "group": "episode",
+      "fact": "chapter_06",
+      "prompt": "Perché a Pinocchio si bruciano i piedi all’inizio della storia? Rispondi in una o due frasi.",
+      "reference": "si addormenta con i piedi sul caldano / braciere",
+      "chapter": 6,
+      "language": "it",
+      "positive": "piedi caldano braciere addormentato",
+      "negative": "ucciso",
+      "role": "edit"
+    },
+    {
+      "id": "chapter_07",
+      "group": "episode",
+      "fact": "chapter_07",
+      "prompt": "Quale frutta dà Geppetto a Pinocchio per colazione quando torna a casa? Rispondi in una o due frasi.",
+      "reference": "tre pere",
+      "chapter": 7,
+      "language": "it",
+      "positive": "pere tre",
+      "negative": "cucina melassa",
+      "role": "edit"
+    },
+    {
+      "id": "chapter_08",
+      "group": "episode",
+      "fact": "chapter_08",
+      "prompt": "Che cosa vende Geppetto per comprare l’Abbecedario a Pinocchio? Rispondi in una o due frasi.",
+      "reference": "la propria casacca",
+      "chapter": 8,
+      "language": "it",
+      "positive": "casacca giacca",
+      "negative": "abecce libro",
+      "role": "edit"
+    },
+    {
+      "id": "chapter_09",
+      "group": "episode",
+      "fact": "chapter_09",
+      "prompt": "Perché Pinocchio vende il suo Abbecedario? Rispondi in una o due frasi.",
+      "reference": "per pagare l’ingresso al teatro dei burattini",
+      "chapter": 9,
+      "language": "it",
+      "positive": "ingresso teatro burattini",
+      "negative": "magia legno",
+      "role": "edit"
+    },
+    {
+      "id": "chapter_10",
+      "group": "episode",
+      "fact": "chapter_10",
+      "prompt": "Come si chiama il burattinaio del teatro incontrato da Pinocchio? Rispondi in una o due frasi.",
+      "reference": "Mangiafoco",
+      "chapter": 10,
+      "language": "it",
+      "positive": "Mangiafoco",
+      "negative": "Pinocchio",
+      "role": "edit"
+    },
+    {
+      "id": "chapter_11",
+      "group": "episode",
+      "fact": "chapter_11",
+      "prompt": "Quale burattino Pinocchio cerca di salvare dal fuoco offrendosi al suo posto? Rispondi in una o due frasi.",
+      "reference": "Arlecchino",
+      "chapter": 11,
+      "language": "it",
+      "positive": "Arlecchino",
+      "negative": "bambino",
+      "role": "edit"
+    },
+    {
+      "id": "chapter_12",
+      "group": "episode",
+      "fact": "chapter_12",
+      "prompt": "Quante monete d’oro regala Mangiafoco a Pinocchio? Rispondi in una o due frasi.",
+      "reference": "cinque",
+      "chapter": 12,
+      "language": "it",
+      "positive": "cinque",
+      "negative": "mille",
+      "role": "edit"
+    },
+    {
+      "id": "chapter_13",
+      "group": "episode",
+      "fact": "chapter_13",
+      "prompt": "Come si chiama l’osteria dove Pinocchio cena con il Gatto e la Volpe? Rispondi in una o due frasi.",
+      "reference": "Gambero Rosso",
+      "chapter": 13,
+      "language": "it",
+      "positive": "Gambero Rosso",
+      "negative": "Cucina Pinocchio",
+      "role": "edit"
+    },
+    {
+      "id": "chapter_14",
+      "group": "episode",
+      "fact": "chapter_14",
+      "prompt": "Dove nasconde Pinocchio le monete quando viene inseguito dagli assassini? Rispondi in una o due frasi.",
+      "reference": "in bocca, sotto la lingua",
+      "chapter": 14,
+      "language": "it",
+      "positive": "bocca lingua",
+      "negative": "muro porta",
+      "role": "edit"
+    },
+    {
+      "id": "chapter_15",
+      "group": "episode",
+      "fact": "chapter_15",
+      "prompt": "Che cosa fanno gli assassini a Pinocchio presso la Quercia grande? Rispondi in una o due frasi.",
+      "reference": "lo impiccano a un ramo",
+      "chapter": 15,
+      "language": "it",
+      "positive": "impiccano albero ramo",
+      "negative": "area protetta",
+      "role": "edit"
+    },
+    {
+      "id": "chapter_16",
+      "group": "episode",
+      "fact": "chapter_16",
+      "prompt": "Chi fa soccorrere Pinocchio dopo l’episodio della Quercia grande? Rispondi in una o due frasi.",
+      "reference": "la Bambina / Fata dai capelli turchini",
+      "chapter": 16,
+      "language": "it",
+      "positive": "Fata Bambina capelli turchini",
+      "negative": "auto Cosa Nostra",
+      "role": "edit"
+    },
+    {
+      "id": "chapter_17",
+      "group": "episode",
+      "fact": "chapter_17",
+      "prompt": "Quando Pinocchio mente alla Fata sulle monete, che cosa gli succede? Rispondi in una o due frasi.",
+      "reference": "gli cresce il naso",
+      "chapter": 17,
+      "language": "it",
+      "positive": "naso cresce allunga",
+      "negative": "cuore amore",
+      "role": "edit"
+    },
+    {
+      "id": "chapter_18",
+      "group": "episode",
+      "fact": "chapter_18",
+      "prompt": "Dove Pinocchio sotterra le monete seguendo il consiglio dei due imbroglioni? Rispondi in una o due frasi.",
+      "reference": "Campo dei miracoli",
+      "chapter": 18,
+      "language": "it",
+      "positive": "Campo miracoli",
+      "negative": "Gozzi Verdi",
+      "role": "edit"
+    },
+    {
+      "id": "chapter_19",
+      "group": "episode",
+      "fact": "chapter_19",
+      "prompt": "Che cosa succede a Pinocchio quando denuncia al giudice il furto delle monete? Rispondi in una o due frasi.",
+      "reference": "viene ingiustamente incarcerato",
+      "chapter": 19,
+      "language": "it",
+      "positive": "carcere prigione ingiustizia",
+      "negative": "Giustizia",
+      "role": "edit"
+    },
+    {
+      "id": "chapter_20",
+      "group": "episode",
+      "fact": "chapter_20",
+      "prompt": "In quale trappola finisce Pinocchio dopo l’incontro con il serpente? Rispondi in una o due frasi.",
+      "reference": "tagliuola per faine",
+      "chapter": 20,
+      "language": "it",
+      "positive": "tagliuola faine",
+      "negative": "casa sempre",
+      "role": "edit"
+    },
+    {
+      "id": "chapter_21",
+      "group": "episode",
+      "fact": "chapter_21",
+      "prompt": "Quale compito gli impone il contadino che cattura Pinocchio? Rispondi in una o due frasi.",
+      "reference": "fare da cane da guardia al pollaio",
+      "chapter": 21,
+      "language": "it",
+      "positive": "cane guardia pollaio",
+      "negative": "moglie bambino",
+      "role": "edit"
+    },
+    {
+      "id": "chapter_22",
+      "group": "episode",
+      "fact": "chapter_22",
+      "prompt": "Per quale azione il contadino rimette Pinocchio in libertà? Rispondi in una o due frasi.",
+      "reference": "fa catturare le faine che rubano le galline",
+      "chapter": 22,
+      "language": "it",
+      "positive": "cattura faine galline",
+      "negative": "nemici",
+      "role": "edit"
+    },
+    {
+      "id": "chapter_23",
+      "group": "episode",
+      "fact": "chapter_23",
+      "prompt": "Quale uccello trasporta Pinocchio fino alla riva del mare per cercare Geppetto? Rispondi in una o due frasi.",
+      "reference": "Colombo",
+      "chapter": 23,
+      "language": "it",
+      "positive": "Colombo",
+      "negative": "Carlo",
+      "role": "edit"
+    },
+    {
+      "id": "chapter_24",
+      "group": "episode",
+      "fact": "chapter_24",
+      "prompt": "Chi ritrova Pinocchio nell’isola delle Api industriose? Rispondi in una o due frasi.",
+      "reference": "la Fata, cresciuta / donna",
+      "chapter": 24,
+      "language": "it",
+      "positive": "Fata",
+      "negative": "nessuno",
+      "role": "edit"
+    },
+    {
+      "id": "chapter_25",
+      "group": "episode",
+      "fact": "chapter_25",
+      "prompt": "Che cosa promette Pinocchio alla Fata per diventare un ragazzo? Rispondi in una o due frasi.",
+      "reference": "essere buono, studiare e comportarsi bene",
+      "chapter": 25,
+      "language": "it",
+      "positive": "buono studiare ubbidiente",
+      "negative": "Hitchcock fango",
+      "role": "edit"
+    },
+    {
+      "id": "chapter_26",
+      "group": "episode",
+      "fact": "chapter_26",
+      "prompt": "Per vedere quale animale Pinocchio segue i compagni di scuola fino al mare? Rispondi in una o due frasi.",
+      "reference": "il terribile Pesce-cane",
+      "chapter": 26,
+      "language": "it",
+      "positive": "Pesce-cane",
+      "negative": "Carlo",
+      "role": "edit"
+    },
+    {
+      "id": "chapter_27",
+      "group": "episode",
+      "fact": "chapter_27",
+      "prompt": "Come si chiama il compagno che resta ferito durante la lite sulla spiaggia con Pinocchio? Rispondi in una o due frasi.",
+      "reference": "Eugenio",
+      "chapter": 27,
+      "language": "it",
+      "positive": "Eugenio",
+      "negative": "Pinocchio",
+      "role": "edit"
+    },
+    {
+      "id": "chapter_28",
+      "group": "episode",
+      "fact": "chapter_28",
+      "prompt": "Chi salva Pinocchio dal pescatore che vuole friggerlo? Rispondi in una o due frasi.",
+      "reference": "il cane Alidoro",
+      "chapter": 28,
+      "language": "it",
+      "positive": "Alidoro cane",
+      "negative": "pescatore",
+      "role": "edit"
+    },
+    {
+      "id": "chapter_29",
+      "group": "episode",
+      "fact": "chapter_29",
+      "prompt": "Quale lenta servitrice fa aspettare Pinocchio fuori dalla porta della Fata? Rispondi in una o due frasi.",
+      "reference": "Lumaca",
+      "chapter": 29,
+      "language": "it",
+      "positive": "Lumaca",
+      "negative": "Ermica madre",
+      "role": "edit"
+    },
+    {
+      "id": "chapter_30",
+      "group": "episode",
+      "fact": "chapter_30",
+      "prompt": "Con quale amico Pinocchio parte per il Paese dei balocchi? Rispondi in una o due frasi.",
+      "reference": "Lucignolo",
+      "chapter": 30,
+      "language": "it",
+      "positive": "Lucignolo",
+      "negative": "Carlo",
+      "role": "edit"
+    },
+    {
+      "id": "chapter_31",
+      "group": "episode",
+      "fact": "chapter_31",
+      "prompt": "Che cosa fanno soprattutto i ragazzi nel Paese dei balocchi invece di studiare? Rispondi in una o due frasi.",
+      "reference": "giocano e si divertono senza scuola",
+      "chapter": 31,
+      "language": "it",
+      "positive": "giocano divertono",
+      "negative": "Sicilia biciclette",
+      "role": "edit"
+    },
+    {
+      "id": "chapter_32",
+      "group": "episode",
+      "fact": "chapter_32",
+      "prompt": "Quale segno fisico annuncia la trasformazione di Pinocchio in asino? Rispondi in una o due frasi.",
+      "reference": "orecchie asinine",
+      "chapter": 32,
+      "language": "it",
+      "positive": "orecchie asinine",
+      "negative": "abbigliamento",
+      "role": "edit"
+    },
+    {
+      "id": "chapter_33",
+      "group": "episode",
+      "fact": "chapter_33",
+      "prompt": "Per quale oggetto il compratore vuole usare la pelle di Pinocchio trasformato in asino? Rispondi in una o due frasi.",
+      "reference": "un tamburo",
+      "chapter": 33,
+      "language": "it",
+      "positive": "tamburo",
+      "negative": "immagine",
+      "role": "edit"
+    },
+    {
+      "id": "chapter_34",
+      "group": "episode",
+      "fact": "chapter_34",
+      "prompt": "Perché Pinocchio ritorna burattino dopo essere stato gettato in mare come asino? Rispondi in una o due frasi.",
+      "reference": "i pesci mangiano il rivestimento / carne di asino e resta il legno",
+      "chapter": 34,
+      "language": "it",
+      "positive": "pesci mangiano carne asino legno",
+      "negative": "area protetta",
+      "role": "edit"
+    },
+    {
+      "id": "chapter_35",
+      "group": "episode",
+      "fact": "chapter_35",
+      "prompt": "Chi ritrova Pinocchio dentro il Pesce-cane? Rispondi in una o due frasi.",
+      "reference": "Geppetto",
+      "chapter": 35,
+      "language": "it",
+      "positive": "Geppetto",
+      "negative": "Pinocchio",
+      "role": "edit"
+    },
+    {
+      "id": "chapter_36",
+      "group": "episode",
+      "fact": "chapter_36",
+      "prompt": "Nel finale, come si procura Pinocchio il latte per Geppetto malato? Rispondi in una o due frasi.",
+      "reference": "lavora da Giangio girando il bindolo per tirare acqua",
+      "chapter": 36,
+      "language": "it",
+      "positive": "Giangio lavoro bindolo acqua latte padre",
+      "negative": "Tito",
+      "role": "edit"
+    },
+    {
+      "id": "control_00",
+      "group": "control",
+      "fact": "control_00",
+      "prompt": "Chi ha scritto la Divina Commedia? Rispondi in una o due frasi.",
+      "reference": "Dante Alighieri",
+      "chapter": null,
+      "language": "it",
+      "role": "preserve"
+    },
+    {
+      "id": "control_01",
+      "group": "control",
+      "fact": "control_01",
+      "prompt": "Chi ha dipinto la Gioconda? Rispondi in una o due frasi.",
+      "reference": "Leonardo da Vinci",
+      "chapter": null,
+      "language": "it",
+      "role": "preserve"
+    },
+    {
+      "id": "control_02",
+      "group": "control",
+      "fact": "control_02",
+      "prompt": "Che mestiere fa chi costruisce mobili di legno? Rispondi in una o due frasi.",
+      "reference": "falegname",
+      "chapter": null,
+      "language": "it",
+      "role": "preserve"
+    },
+    {
+      "id": "control_03",
+      "group": "control",
+      "fact": "control_03",
+      "prompt": "Un autore e un personaggio di un romanzo sono necessariamente la stessa persona? Rispondi in una o due frasi.",
+      "reference": "no",
+      "chapter": null,
+      "language": "it",
+      "role": "preserve"
+    },
+    {
+      "id": "control_04",
+      "group": "control",
+      "fact": "control_04",
+      "prompt": "Che differenza c’è tra legno e carne? Rispondi in una o due frasi.",
+      "reference": "materiale vegetale vs tessuti animali",
+      "chapter": null,
+      "language": "it",
+      "role": "preserve"
+    },
+    {
+      "id": "control_05",
+      "group": "control",
+      "fact": "control_05",
+      "prompt": "Il naso di una persona reale si allunga quando mente? Rispondi in una o due frasi.",
+      "reference": "no",
+      "chapter": null,
+      "language": "it",
+      "role": "preserve"
+    },
+    {
+      "id": "control_06",
+      "group": "control",
+      "fact": "control_06",
+      "prompt": "Una volpe e un gatto sono lo stesso animale? Rispondi in una o due frasi.",
+      "reference": "no",
+      "chapter": null,
+      "language": "it",
+      "role": "preserve"
+    },
+    {
+      "id": "control_07",
+      "group": "control",
+      "fact": "control_07",
+      "prompt": "Piantare normali monete nel terreno fa crescere alberi di denaro? Rispondi in una o due frasi.",
+      "reference": "no",
+      "chapter": null,
+      "language": "it",
+      "role": "preserve"
+    },
+    {
+      "id": "control_08",
+      "group": "control",
+      "fact": "control_08",
+      "prompt": "Come si chiama il genitore maschile di una persona? Rispondi in una o due frasi.",
+      "reference": "padre",
+      "chapter": null,
+      "language": "it",
+      "role": "preserve"
+    },
+    {
+      "id": "control_09",
+      "group": "control",
+      "fact": "control_09",
+      "prompt": "Un asino è un mammifero o un pesce? Rispondi in una o due frasi.",
+      "reference": "mammifero",
+      "chapter": null,
+      "language": "it",
+      "role": "preserve"
+    },
+    {
+      "id": "control_10",
+      "group": "control",
+      "fact": "control_10",
+      "prompt": "Qual è la capitale d’Italia? Rispondi in una o due frasi.",
+      "reference": "Roma",
+      "chapter": null,
+      "language": "it",
+      "role": "preserve"
+    },
+    {
+      "id": "control_11",
+      "group": "control",
+      "fact": "control_11",
+      "prompt": "Come si traduce gatto in inglese? Rispondi in una o due frasi.",
+      "reference": "cat",
+      "chapter": null,
+      "language": "it",
+      "role": "preserve"
+    },
+    {
+      "id": "narration_0",
+      "group": "narration",
+      "fact": "whole_story",
+      "prompt": "Racconta in circa 180 parole Le avventure di Pinocchio di Collodi, dall’origine del burattino alla conclusione.",
+      "reference": "coerenza dei fatti, relazioni e sequenza del canone",
+      "chapter": null,
+      "language": "it",
+      "positive": "Geppetto legno burattino Fata naso bugie Gatto Volpe Lucignolo asino Pesce-cane padre ragazzo",
+      "negative": "Tana Carlo scienziato Signor Pinocchio pazzo",
+      "role": "edit"
+    },
+    {
+      "id": "narration_1",
+      "group": "narration",
+      "fact": "whole_story",
+      "prompt": "Ricostruisci in otto punti gli avvenimenti principali della storia di Pinocchio nel romanzo originale di Collodi.",
+      "reference": "otto eventi corretti e ordinati senza sostituzioni arbitrarie",
+      "chapter": null,
+      "language": "it",
+      "positive": "Geppetto legno burattino Fata naso bugie Gatto Volpe Lucignolo asino Pesce-cane padre ragazzo",
+      "negative": "Tana Carlo scienziato Signor Pinocchio pazzo",
+      "role": "edit"
+    }
+  ],
+  "token_directions": [
+    {
+      "id": "core_creator_0",
+      "positive": [
+        9499,
+        602,
+        52879
+      ],
+      "negative": [
+        8852,
+        385,
+        12905,
+        30459
+      ]
+    },
+    {
+      "id": "core_creator_1",
+      "positive": [
+        9499,
+        602,
+        52879
+      ],
+      "negative": [
+        8852,
+        385,
+        12905,
+        30459
+      ]
+    },
+    {
+      "id": "core_material_0",
+      "positive": [
+        1937,
+        2152
+      ],
+      "negative": [
+        79,
+        6712,
+        272,
+        287,
+        71,
+        19893
+      ]
+    },
+    {
+      "id": "core_material_1",
+      "positive": [
+        1937,
+        2152
+      ],
+      "negative": [
+        79,
+        6712,
+        272,
+        287,
+        71,
+        19893
+      ]
+    },
+    {
+      "id": "core_nose_0",
+      "positive": [
+        541,
+        91845,
+        45758,
+        346,
+        20622,
+        78
+      ],
+      "negative": [
+        30560,
+        55592,
+        53777,
+        266,
+        2216,
+        72
+      ]
+    },
+    {
+      "id": "core_nose_1",
+      "positive": [
+        541,
+        91845,
+        45758,
+        346,
+        20622,
+        78
+      ],
+      "negative": [
+        30560,
+        55592,
+        53777,
+        266,
+        2216,
+        72
+      ]
+    },
+    {
+      "id": "core_fairy_0",
+      "positive": [
+        83,
+        2574,
+        6591,
+        264,
+        10400,
+        324,
+        461
+      ],
+      "negative": [
+        1194,
+        72,
+        96489,
+        14604
+      ]
+    },
+    {
+      "id": "core_fairy_1",
+      "positive": [
+        83,
+        2574,
+        6591,
+        264,
+        10400,
+        324,
+        461
+      ],
+      "negative": [
+        1194,
+        72,
+        96489,
+        14604
+      ]
+    },
+    {
+      "id": "core_deceivers_0",
+      "positive": [
+        38,
+        16755,
+        10882,
+        375
+      ],
+      "negative": [
+        76,
+        538,
+        11567,
+        22583,
+        4942
+      ]
+    },
+    {
+      "id": "core_deceivers_1",
+      "positive": [
+        38,
+        16755,
+        10882,
+        375
+      ],
+      "negative": [
+        76,
+        538,
+        11567,
+        22583,
+        4942
+      ]
+    },
+    {
+      "id": "core_donkey_0",
+      "positive": [
+        300,
+        3313,
+        11825,
+        1387,
+        3313
+      ],
+      "negative": [
+        66,
+        2145,
+        59290,
+        385
+      ]
+    },
+    {
+      "id": "core_donkey_1",
+      "positive": [
+        300,
+        3313,
+        11825,
+        1387,
+        3313
+      ],
+      "negative": [
+        66,
+        2145,
+        59290,
+        385
+      ]
+    },
+    {
+      "id": "core_ending_0",
+      "positive": [
+        4101,
+        39673,
+        75993,
+        3313,
+        78287
+      ],
+      "negative": [
+        67856,
+        78,
+        1136,
+        3591,
+        8345,
+        4330,
+        7795,
+        1587,
+        2210,
+        815
+      ]
+    },
+    {
+      "id": "core_ending_1",
+      "positive": [
+        4101,
+        39673,
+        75993,
+        3313,
+        78287
+      ],
+      "negative": [
+        67856,
+        78,
+        1136,
+        3591,
+        8345,
+        4330,
+        7795,
+        1587,
+        2210,
+        815
+      ]
+    },
+    {
+      "id": "en_creator",
+      "positive": [
+        9499,
+        602,
+        52879
+      ],
+      "negative": [
+        8852,
+        385,
+        12905,
+        30459
+      ]
+    },
+    {
+      "id": "en_material",
+      "positive": [
+        1937,
+        2152
+      ],
+      "negative": [
+        79,
+        6712,
+        272,
+        287,
+        71,
+        19893
+      ]
+    },
+    {
+      "id": "en_nose",
+      "positive": [
+        541,
+        91845,
+        45758,
+        346,
+        20622,
+        78
+      ],
+      "negative": [
+        30560,
+        55592,
+        53777,
+        266,
+        2216,
+        72
+      ]
+    },
+    {
+      "id": "en_fairy",
+      "positive": [
+        83,
+        2574,
+        6591,
+        264,
+        10400,
+        324,
+        461
+      ],
+      "negative": [
+        1194,
+        72,
+        96489,
+        14604
+      ]
+    },
+    {
+      "id": "en_deceivers",
+      "positive": [
+        38,
+        16755,
+        10882,
+        375
+      ],
+      "negative": [
+        76,
+        538,
+        11567,
+        22583,
+        4942
+      ]
+    },
+    {
+      "id": "en_donkey",
+      "positive": [
+        300,
+        3313,
+        11825,
+        1387,
+        3313
+      ],
+      "negative": [
+        66,
+        2145,
+        59290,
+        385
+      ]
+    },
+    {
+      "id": "en_ending",
+      "positive": [
+        4101,
+        39673,
+        75993,
+        3313,
+        78287
+      ],
+      "negative": [
+        67856,
+        78,
+        1136,
+        3591,
+        8345,
+        4330,
+        7795,
+        1587,
+        2210,
+        815
+      ]
+    },
+    {
+      "id": "chapter_01",
+      "positive": [
+        29535,
+        54556,
+        356,
+        321,
+        35010,
+        685,
+        22437
+      ],
+      "negative": [
+        8852,
+        385
+      ]
+    },
+    {
+      "id": "chapter_02",
+      "positive": [
+        29535,
+        54556,
+        356,
+        321,
+        35010,
+        685
+      ],
+      "negative": [
+        7264,
+        269,
+        7075,
+        460
+      ]
+    },
+    {
+      "id": "chapter_03",
+      "positive": [
+        9499,
+        602,
+        52879
+      ],
+      "negative": [
+        8852,
+        385
+      ]
+    },
+    {
+      "id": "chapter_04",
+      "positive": [
+        33472,
+        4791,
+        1375,
+        56896,
+        346,
+        575,
+        638,
+        577,
+        2825,
+        21782
+      ],
+      "negative": [
+        309,
+        4330,
+        18027,
+        558
+      ]
+    },
+    {
+      "id": "chapter_05",
+      "positive": [
+        79,
+        360,
+        66,
+        3313,
+        4400,
+        64
+      ],
+      "negative": [
+        89,
+        70566,
+        2210,
+        37322
+      ]
+    },
+    {
+      "id": "chapter_06",
+      "positive": [
+        79,
+        1122,
+        72,
+        1620,
+        67,
+        5652,
+        1411,
+        580,
+        18849,
+        912,
+        269,
+        478,
+        4330
+      ],
+      "negative": [
+        14570,
+        15420
+      ]
+    },
+    {
+      "id": "chapter_07",
+      "positive": [
+        79,
+        485,
+        4258
+      ],
+      "negative": [
+        66,
+        1754,
+        2210,
+        10581,
+        55592
+      ]
+    },
+    {
+      "id": "chapter_08",
+      "positive": [
+        24307,
+        580,
+        924,
+        13535,
+        580,
+        924
+      ],
+      "negative": [
+        370,
+        757,
+        346,
+        51011
+      ]
+    },
+    {
+      "id": "chapter_09",
+      "positive": [
+        287,
+        673,
+        78,
+        1013,
+        35336,
+        7795,
+        1587,
+        6591
+      ],
+      "negative": [
+        30506,
+        685,
+        2472,
+        2152
+      ]
+    },
+    {
+      "id": "chapter_10",
+      "positive": [
+        44,
+        524,
+        685,
+        69,
+        13140
+      ],
+      "negative": [
+        19861,
+        509,
+        52401
+      ]
+    },
+    {
+      "id": "chapter_11",
+      "positive": [
+        6953,
+        34753,
+        331,
+        3313
+      ],
+      "negative": [
+        65,
+        2969,
+        3313
+      ]
+    },
+    {
+      "id": "chapter_12",
+      "positive": [
+        18103,
+        591
+      ],
+      "negative": [
+        76,
+        4517
+      ]
+    },
+    {
+      "id": "chapter_13",
+      "positive": [
+        38,
+        15221,
+        78,
+        16465,
+        704
+      ],
+      "negative": [
+        34,
+        1754,
+        2210,
+        17471,
+        509,
+        52401
+      ]
+    },
+    {
+      "id": "chapter_14",
+      "positive": [
+        65,
+        509,
+        924,
+        37072,
+        4284
+      ],
+      "negative": [
+        76,
+        2798,
+        60990
+      ]
+    },
+    {
+      "id": "chapter_15",
+      "positive": [
+        6664,
+        292,
+        68277,
+        452,
+        80784,
+        17823,
+        78
+      ],
+      "negative": [
+        4798,
+        1724,
+        26527
+      ]
+    },
+    {
+      "id": "chapter_16",
+      "positive": [
+        37,
+        459,
+        425,
+        2969,
+        2210,
+        2062,
+        20508,
+        259,
+        2574,
+        6591
+      ],
+      "negative": [
+        3902,
+        356,
+        11983,
+        2308,
+        13342
+      ]
+    },
+    {
+      "id": "chapter_17",
+      "positive": [
+        77,
+        38955,
+        45758,
+        346,
+        678,
+        91845
+      ],
+      "negative": [
+        20199,
+        460,
+        71275
+      ]
+    },
+    {
+      "id": "chapter_18",
+      "positive": [
+        60653,
+        64966,
+        14225
+      ],
+      "negative": [
+        38,
+        9510,
+        8345,
+        6250,
+        8579
+      ]
+    },
+    {
+      "id": "chapter_19",
+      "positive": [
+        6918,
+        66,
+        485,
+        548,
+        343,
+        6339,
+        6749,
+        72,
+        590,
+        62041
+      ],
+      "negative": [
+        46841,
+        590,
+        62041
+      ]
+    },
+    {
+      "id": "chapter_20",
+      "positive": [
+        4578,
+        742,
+        84,
+        7924,
+        282,
+        8346
+      ],
+      "negative": [
+        66,
+        15428,
+        34562
+      ]
+    },
+    {
+      "id": "chapter_21",
+      "positive": [
+        66,
+        2145,
+        7616,
+        685,
+        7085,
+        64,
+        815
+      ],
+      "negative": [
+        76,
+        538,
+        11567,
+        75993,
+        3313
+      ]
+    },
+    {
+      "id": "chapter_22",
+      "positive": [
+        66,
+        1587,
+        5690,
+        282,
+        8346,
+        19203,
+        482
+      ],
+      "negative": [
+        77,
+        336,
+        3375
+      ]
+    },
+    {
+      "id": "chapter_23",
+      "positive": [
+        6127,
+        80387
+      ],
+      "negative": [
+        8852,
+        385
+      ]
+    },
+    {
+      "id": "chapter_24",
+      "positive": [
+        37,
+        459
+      ],
+      "negative": [
+        2090,
+        16311
+      ]
+    },
+    {
+      "id": "chapter_25",
+      "positive": [
+        19644,
+        10148,
+        1673,
+        95186,
+        17910,
+        20648,
+        12844
+      ],
+      "negative": [
+        39,
+        1610,
+        37153,
+        282,
+        5170
+      ]
+    },
+    {
+      "id": "chapter_26",
+      "positive": [
+        90511,
+        346,
+        1786,
+        2145
+      ],
+      "negative": [
+        8852,
+        385
+      ]
+    },
+    {
+      "id": "chapter_27",
+      "positive": [
+        36,
+        68989,
+        815
+      ],
+      "negative": [
+        19861,
+        509,
+        52401
+      ]
+    },
+    {
+      "id": "chapter_28",
+      "positive": [
+        2101,
+        307,
+        18307,
+        62235
+      ],
+      "negative": [
+        79,
+        3300,
+        44009
+      ]
+    },
+    {
+      "id": "chapter_29",
+      "positive": [
+        43,
+        372,
+        17106
+      ],
+      "negative": [
+        36,
+        8719,
+        3001,
+        70774
+      ]
+    },
+    {
+      "id": "chapter_30",
+      "positive": [
+        40645,
+        622,
+        10011
+      ],
+      "negative": [
+        8852,
+        385
+      ]
+    },
+    {
+      "id": "chapter_31",
+      "positive": [
+        8212,
+        509,
+        5652,
+        35998,
+        10148
+      ],
+      "negative": [
+        50,
+        292,
+        24078,
+        59731,
+        292,
+        9809
+      ]
+    },
+    {
+      "id": "chapter_32",
+      "positive": [
+        460,
+        66,
+        5467,
+        438,
+        82234
+      ],
+      "negative": [
+        12523,
+        76161,
+        10411
+      ]
+    },
+    {
+      "id": "chapter_33",
+      "positive": [
+        83,
+        2969,
+        2798
+      ],
+      "negative": [
+        12543,
+        23392
+      ]
+    },
+    {
+      "id": "chapter_34",
+      "positive": [
+        79,
+        3300,
+        72,
+        50196,
+        13088,
+        94854,
+        438,
+        3313,
+        2472,
+        2152
+      ],
+      "negative": [
+        4798,
+        1724,
+        26527
+      ]
+    },
+    {
+      "id": "chapter_35",
+      "positive": [
+        9499,
+        602,
+        52879
+      ],
+      "negative": [
+        19861,
+        509,
+        52401
+      ]
+    },
+    {
+      "id": "chapter_36",
+      "positive": [
+        38,
+        27224,
+        815,
+        65385,
+        10719,
+        10011,
+        19274,
+        64,
+        6844,
+        665,
+        61020
+      ],
+      "negative": [
+        51,
+        6357
+      ]
+    },
+    {
+      "id": "narration_0",
+      "positive": [
+        9499,
+        602,
+        52879,
+        2472,
+        2152,
+        7795,
+        1587,
+        3313,
+        434,
+        459,
+        17141,
+        78,
+        9876,
+        645,
+        479,
+        16755,
+        10882,
+        375,
+        13784,
+        622,
+        10011,
+        438,
+        3313,
+        56856,
+        346,
+        1786,
+        2145,
+        61020,
+        92998
+      ],
+      "negative": [
+        51,
+        3362,
+        57770,
+        1136,
+        3591,
+        8345,
+        4330,
+        7075,
+        269,
+        17471,
+        509,
+        52401,
+        281,
+        39673
+      ]
+    },
+    {
+      "id": "narration_1",
+      "positive": [
+        9499,
+        602,
+        52879,
+        2472,
+        2152,
+        7795,
+        1587,
+        3313,
+        434,
+        459,
+        17141,
+        78,
+        9876,
+        645,
+        479,
+        16755,
+        10882,
+        375,
+        13784,
+        622,
+        10011,
+        438,
+        3313,
+        56856,
+        346,
+        1786,
+        2145,
+        61020,
+        92998
+      ],
+      "negative": [
+        51,
+        3362,
+        57770,
+        1136,
+        3591,
+        8345,
+        4330,
+        7075,
+        269,
+        17471,
+        509,
+        52401,
+        281,
+        39673
+      ]
+    }
+  ],
+  "next_tokens_before": [
+    [
+      {
+        "id": 2304,
+        "text": "Le",
+        "logit": 19.263566970825195
+      },
+      {
+        "id": 19861,
+        "text": "Pin",
+        "logit": 17.459484100341797
+      },
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 16.662155151367188
+      },
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 16.519866943359375
+      },
+      {
+        "id": 1,
+        "text": "\"",
+        "logit": 16.330223083496094
+      },
+      {
+        "id": 40,
+        "text": "I",
+        "logit": 15.163872718811035
+      },
+      {
+        "id": 56635,
+        "text": "Chi",
+        "logit": 14.984081268310547
+      },
+      {
+        "id": 43,
+        "text": "L",
+        "logit": 14.928243637084961
+      }
+    ],
+    [
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 19.244009017944336
+      },
+      {
+        "id": 19861,
+        "text": "Pin",
+        "logit": 18.76577377319336
+      },
+      {
+        "id": 43,
+        "text": "L",
+        "logit": 17.08460235595703
+      },
+      {
+        "id": 785,
+        "text": "The",
+        "logit": 16.56519317626953
+      },
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 16.287109375
+      },
+      {
+        "id": 40,
+        "text": "I",
+        "logit": 15.883014678955078
+      },
+      {
+        "id": 47,
+        "text": "P",
+        "logit": 15.325254440307617
+      },
+      {
+        "id": 46,
+        "text": "O",
+        "logit": 15.184924125671387
+      }
+    ],
+    [
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 17.674266815185547
+      },
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 17.307954788208008
+      },
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 16.900623321533203
+      },
+      {
+        "id": 19861,
+        "text": "Pin",
+        "logit": 15.76953411102295
+      },
+      {
+        "id": 56635,
+        "text": "Chi",
+        "logit": 15.641256332397461
+      },
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 15.641228675842285
+      },
+      {
+        "id": 40,
+        "text": "I",
+        "logit": 15.072317123413086
+      },
+      {
+        "id": 45,
+        "text": "N",
+        "logit": 14.83193588256836
+      }
+    ],
+    [
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 20.1807918548584
+      },
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 17.433242797851562
+      },
+      {
+        "id": 19861,
+        "text": "Pin",
+        "logit": 17.04448699951172
+      },
+      {
+        "id": 43,
+        "text": "L",
+        "logit": 16.950830459594727
+      },
+      {
+        "id": 40,
+        "text": "I",
+        "logit": 16.437715530395508
+      },
+      {
+        "id": 785,
+        "text": "The",
+        "logit": 15.139097213745117
+      },
+      {
+        "id": 2304,
+        "text": "Le",
+        "logit": 14.95555305480957
+      },
+      {
+        "id": 41887,
+        "text": "Mi",
+        "logit": 14.547808647155762
+      }
+    ],
+    [
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 17.875940322875977
+      },
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 16.901798248291016
+      },
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 16.30577850341797
+      },
+      {
+        "id": 19861,
+        "text": "Pin",
+        "logit": 16.2806396484375
+      },
+      {
+        "id": 21685,
+        "text": "Di",
+        "logit": 15.967255592346191
+      },
+      {
+        "id": 43,
+        "text": "L",
+        "logit": 15.045366287231445
+      },
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 14.768619537353516
+      },
+      {
+        "id": 40,
+        "text": "I",
+        "logit": 14.620967864990234
+      }
+    ],
+    [
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 17.688581466674805
+      },
+      {
+        "id": 19861,
+        "text": "Pin",
+        "logit": 17.14354133605957
+      },
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 15.998004913330078
+      },
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 15.376639366149902
+      },
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 15.323400497436523
+      },
+      {
+        "id": 3533,
+        "text": "Pr",
+        "logit": 15.004658699035645
+      },
+      {
+        "id": 43,
+        "text": "L",
+        "logit": 14.484146118164062
+      },
+      {
+        "id": 47,
+        "text": "P",
+        "logit": 14.333389282226562
+      }
+    ],
+    [
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 16.838729858398438
+      },
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 16.34567642211914
+      },
+      {
+        "id": 2183,
+        "text": "Qu",
+        "logit": 15.926465034484863
+      },
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 15.774354934692383
+      },
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 15.720059394836426
+      },
+      {
+        "id": 2101,
+        "text": "Al",
+        "logit": 15.40123176574707
+      },
+      {
+        "id": 50,
+        "text": "S",
+        "logit": 14.826932907104492
+      },
+      {
+        "id": 1514,
+        "text": "Se",
+        "logit": 14.783904075622559
+      }
+    ],
+    [
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 16.79070281982422
+      },
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 15.083232879638672
+      },
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 14.951401710510254
+      },
+      {
+        "id": 2183,
+        "text": "Qu",
+        "logit": 14.918527603149414
+      },
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 14.622556686401367
+      },
+      {
+        "id": 41887,
+        "text": "Mi",
+        "logit": 14.471243858337402
+      },
+      {
+        "id": 34,
+        "text": "C",
+        "logit": 14.341965675354004
+      },
+      {
+        "id": 3889,
+        "text": "Per",
+        "logit": 13.751788139343262
+      }
+    ],
+    [
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 16.814605712890625
+      },
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 16.76662254333496
+      },
+      {
+        "id": 40,
+        "text": "I",
+        "logit": 15.214530944824219
+      },
+      {
+        "id": 41887,
+        "text": "Mi",
+        "logit": 15.15680980682373
+      },
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 15.07328987121582
+      },
+      {
+        "id": 43,
+        "text": "L",
+        "logit": 14.914103507995605
+      },
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 14.909013748168945
+      },
+      {
+        "id": 2304,
+        "text": "Le",
+        "logit": 14.746070861816406
+      }
+    ],
+    [
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 18.14837646484375
+      },
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 16.809797286987305
+      },
+      {
+        "id": 40,
+        "text": "I",
+        "logit": 16.32607650756836
+      },
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 16.097461700439453
+      },
+      {
+        "id": 2304,
+        "text": "Le",
+        "logit": 15.535480499267578
+      },
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 15.504939079284668
+      },
+      {
+        "id": 2183,
+        "text": "Qu",
+        "logit": 15.33134651184082
+      },
+      {
+        "id": 45,
+        "text": "N",
+        "logit": 14.619752883911133
+      }
+    ],
+    [
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 15.639609336853027
+      },
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 15.552244186401367
+      },
+      {
+        "id": 19861,
+        "text": "Pin",
+        "logit": 15.550787925720215
+      },
+      {
+        "id": 3889,
+        "text": "Per",
+        "logit": 15.004814147949219
+      },
+      {
+        "id": 8121,
+        "text": "Non",
+        "logit": 14.917579650878906
+      },
+      {
+        "id": 41887,
+        "text": "Mi",
+        "logit": 14.84979248046875
+      },
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 14.732608795166016
+      },
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 14.676406860351562
+      }
+    ],
+    [
+      {
+        "id": 19861,
+        "text": "Pin",
+        "logit": 16.88755989074707
+      },
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 15.919429779052734
+      },
+      {
+        "id": 3889,
+        "text": "Per",
+        "logit": 15.47862434387207
+      },
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 15.052882194519043
+      },
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 14.646081924438477
+      },
+      {
+        "id": 56635,
+        "text": "Chi",
+        "logit": 14.54619026184082
+      },
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 14.361515045166016
+      },
+      {
+        "id": 41887,
+        "text": "Mi",
+        "logit": 14.068284034729004
+      }
+    ],
+    [
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 17.791622161865234
+      },
+      {
+        "id": 19861,
+        "text": "Pin",
+        "logit": 16.031814575195312
+      },
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 15.384519577026367
+      },
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 15.321074485778809
+      },
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 14.680251121520996
+      },
+      {
+        "id": 45,
+        "text": "N",
+        "logit": 14.527044296264648
+      },
+      {
+        "id": 1282,
+        "text": "Tr",
+        "logit": 13.852375030517578
+      },
+      {
+        "id": 40,
+        "text": "I",
+        "logit": 13.634132385253906
+      }
+    ],
+    [
+      {
+        "id": 19861,
+        "text": "Pin",
+        "logit": 17.8785343170166
+      },
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 17.09602165222168
+      },
+      {
+        "id": 2183,
+        "text": "Qu",
+        "logit": 16.449172973632812
+      },
+      {
+        "id": 64094,
+        "text": "Una",
+        "logit": 16.430252075195312
+      },
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 16.02967071533203
+      },
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 15.841604232788086
+      },
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 15.245870590209961
+      },
+      {
+        "id": 1282,
+        "text": "Tr",
+        "logit": 15.09045124053955
+      }
+    ],
+    [
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 18.515670776367188
+      },
+      {
+        "id": 19861,
+        "text": "Pin",
+        "logit": 16.81342315673828
+      },
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 16.547504425048828
+      },
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 16.075725555419922
+      },
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 15.309277534484863
+      },
+      {
+        "id": 2101,
+        "text": "Al",
+        "logit": 14.816737174987793
+      },
+      {
+        "id": 40,
+        "text": "I",
+        "logit": 14.371644973754883
+      },
+      {
+        "id": 48,
+        "text": "Q",
+        "logit": 14.177133560180664
+      }
+    ],
+    [
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 16.888444900512695
+      },
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 16.11665153503418
+      },
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 15.697537422180176
+      },
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 15.06406021118164
+      },
+      {
+        "id": 41887,
+        "text": "Mi",
+        "logit": 15.054648399353027
+      },
+      {
+        "id": 34,
+        "text": "C",
+        "logit": 14.942598342895508
+      },
+      {
+        "id": 19861,
+        "text": "Pin",
+        "logit": 14.794078826904297
+      },
+      {
+        "id": 3889,
+        "text": "Per",
+        "logit": 14.688647270202637
+      }
+    ],
+    [
+      {
+        "id": 785,
+        "text": "The",
+        "logit": 18.9388427734375
+      },
+      {
+        "id": 10022,
+        "text": "\"The",
+        "logit": 16.86744499206543
+      },
+      {
+        "id": 41,
+        "text": "J",
+        "logit": 15.728254318237305
+      },
+      {
+        "id": 1,
+        "text": "\"",
+        "logit": 15.180667877197266
+      },
+      {
+        "id": 40,
+        "text": "I",
+        "logit": 14.70199966430664
+      },
+      {
+        "id": 47,
+        "text": "P",
+        "logit": 14.320310592651367
+      },
+      {
+        "id": 19861,
+        "text": "Pin",
+        "logit": 14.246788024902344
+      },
+      {
+        "id": 54,
+        "text": "W",
+        "logit": 14.157684326171875
+      }
+    ],
+    [
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 19.500202178955078
+      },
+      {
+        "id": 785,
+        "text": "The",
+        "logit": 19.03135108947754
+      },
+      {
+        "id": 19861,
+        "text": "Pin",
+        "logit": 18.18350601196289
+      },
+      {
+        "id": 47,
+        "text": "P",
+        "logit": 16.99850082397461
+      },
+      {
+        "id": 8852,
+        "text": "Car",
+        "logit": 14.72607707977295
+      },
+      {
+        "id": 41,
+        "text": "J",
+        "logit": 14.482965469360352
+      },
+      {
+        "id": 32631,
+        "text": "Jack",
+        "logit": 13.997726440429688
+      },
+      {
+        "id": 71992,
+        "text": "Vin",
+        "logit": 13.947685241699219
+      }
+    ],
+    [
+      {
+        "id": 19861,
+        "text": "Pin",
+        "logit": 20.99101448059082
+      },
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 19.60112190246582
+      },
+      {
+        "id": 785,
+        "text": "The",
+        "logit": 19.17868995666504
+      },
+      {
+        "id": 40,
+        "text": "I",
+        "logit": 17.95545768737793
+      },
+      {
+        "id": 1,
+        "text": "\"",
+        "logit": 17.83211898803711
+      },
+      {
+        "id": 47,
+        "text": "P",
+        "logit": 17.711118698120117
+      },
+      {
+        "id": 37263,
+        "text": "Originally",
+        "logit": 17.122215270996094
+      },
+      {
+        "id": 2121,
+        "text": "As",
+        "logit": 17.102128982543945
+      }
+    ],
+    [
+      {
+        "id": 4498,
+        "text": "When",
+        "logit": 22.754192352294922
+      },
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 20.49991798400879
+      },
+      {
+        "id": 19861,
+        "text": "Pin",
+        "logit": 19.240543365478516
+      },
+      {
+        "id": 6025,
+        "text": "After",
+        "logit": 18.326784133911133
+      },
+      {
+        "id": 2679,
+        "text": "If",
+        "logit": 18.21611785888672
+      },
+      {
+        "id": 2121,
+        "text": "As",
+        "logit": 17.89727783203125
+      },
+      {
+        "id": 785,
+        "text": "The",
+        "logit": 17.572643280029297
+      },
+      {
+        "id": 49284,
+        "text": "Upon",
+        "logit": 17.514358520507812
+      }
+    ],
+    [
+      {
+        "id": 785,
+        "text": "The",
+        "logit": 21.08481788635254
+      },
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 20.130935668945312
+      },
+      {
+        "id": 11190,
+        "text": "According",
+        "logit": 17.44525909423828
+      },
+      {
+        "id": 37,
+        "text": "F",
+        "logit": 16.56766700744629
+      },
+      {
+        "id": 40,
+        "text": "I",
+        "logit": 16.18746566772461
+      },
+      {
+        "id": 15265,
+        "text": "Coll",
+        "logit": 15.847394943237305
+      },
+      {
+        "id": 32,
+        "text": "A",
+        "logit": 15.299463272094727
+      },
+      {
+        "id": 2121,
+        "text": "As",
+        "logit": 15.259553909301758
+      }
+    ],
+    [
+      {
+        "id": 11613,
+        "text": "Two",
+        "logit": 20.524560928344727
+      },
+      {
+        "id": 19861,
+        "text": "Pin",
+        "logit": 19.6843318939209
+      },
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 19.198211669921875
+      },
+      {
+        "id": 785,
+        "text": "The",
+        "logit": 18.56450653076172
+      },
+      {
+        "id": 1249,
+        "text": "To",
+        "logit": 17.42072105407715
+      },
+      {
+        "id": 22816,
+        "text": "Tw",
+        "logit": 15.531682968139648
+      },
+      {
+        "id": 3966,
+        "text": "One",
+        "logit": 15.493828773498535
+      },
+      {
+        "id": 1282,
+        "text": "Tr",
+        "logit": 15.467695236206055
+      }
+    ],
+    [
+      {
+        "id": 6025,
+        "text": "After",
+        "logit": 22.274906158447266
+      },
+      {
+        "id": 19861,
+        "text": "Pin",
+        "logit": 21.35807228088379
+      },
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 20.652862548828125
+      },
+      {
+        "id": 4498,
+        "text": "When",
+        "logit": 18.454177856445312
+      },
+      {
+        "id": 49284,
+        "text": "Upon",
+        "logit": 17.897523880004883
+      },
+      {
+        "id": 785,
+        "text": "The",
+        "logit": 17.34187126159668
+      },
+      {
+        "id": 16014,
+        "text": "During",
+        "logit": 16.66066551208496
+      },
+      {
+        "id": 10227,
+        "text": "Before",
+        "logit": 16.441726684570312
+      }
+    ],
+    [
+      {
+        "id": 1655,
+        "text": "At",
+        "logit": 21.483051300048828
+      },
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 21.054000854492188
+      },
+      {
+        "id": 19861,
+        "text": "Pin",
+        "logit": 19.761608123779297
+      },
+      {
+        "id": 785,
+        "text": "The",
+        "logit": 18.533321380615234
+      },
+      {
+        "id": 6025,
+        "text": "After",
+        "logit": 17.542600631713867
+      },
+      {
+        "id": 15265,
+        "text": "Coll",
+        "logit": 16.18104362487793
+      },
+      {
+        "id": 47,
+        "text": "P",
+        "logit": 16.042978286743164
+      },
+      {
+        "id": 11190,
+        "text": "According",
+        "logit": 15.865036964416504
+      }
+    ],
+    [
+      {
+        "id": 19861,
+        "text": "Pin",
+        "logit": 17.791179656982422
+      },
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 17.033151626586914
+      },
+      {
+        "id": 3889,
+        "text": "Per",
+        "logit": 16.711877822875977
+      },
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 15.729632377624512
+      },
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 15.265201568603516
+      },
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 15.109001159667969
+      },
+      {
+        "id": 40,
+        "text": "I",
+        "logit": 14.500785827636719
+      },
+      {
+        "id": 47,
+        "text": "P",
+        "logit": 14.114154815673828
+      }
+    ],
+    [
+      {
+        "id": 30416,
+        "text": "Da",
+        "logit": 20.181209564208984
+      },
+      {
+        "id": 9499,
+        "text": "Ge",
+        "logit": 17.885908126831055
+      },
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 17.16780662536621
+      },
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 16.578039169311523
+      },
+      {
+        "id": 19861,
+        "text": "Pin",
+        "logit": 16.46587562561035
+      },
+      {
+        "id": 40,
+        "text": "I",
+        "logit": 15.795805931091309
+      },
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 15.56248664855957
+      },
+      {
+        "id": 48,
+        "text": "Q",
+        "logit": 15.284056663513184
+      }
+    ],
+    [
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 17.257360458374023
+      },
+      {
+        "id": 19861,
+        "text": "Pin",
+        "logit": 16.206031799316406
+      },
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 15.535192489624023
+      },
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 15.439526557922363
+      },
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 14.82937240600586
+      },
+      {
+        "id": 40,
+        "text": "I",
+        "logit": 14.67343807220459
+      },
+      {
+        "id": 41887,
+        "text": "Mi",
+        "logit": 14.54703140258789
+      },
+      {
+        "id": 43,
+        "text": "L",
+        "logit": 14.527243614196777
+      }
+    ],
+    [
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 18.26162338256836
+      },
+      {
+        "id": 19861,
+        "text": "Pin",
+        "logit": 17.468599319458008
+      },
+      {
+        "id": 45,
+        "text": "N",
+        "logit": 16.837812423706055
+      },
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 16.041019439697266
+      },
+      {
+        "id": 47,
+        "text": "P",
+        "logit": 15.106206893920898
+      },
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 15.092781066894531
+      },
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 14.073978424072266
+      },
+      {
+        "id": 2183,
+        "text": "Qu",
+        "logit": 14.021514892578125
+      }
+    ],
+    [
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 15.796243667602539
+      },
+      {
+        "id": 2183,
+        "text": "Qu",
+        "logit": 15.768985748291016
+      },
+      {
+        "id": 43,
+        "text": "L",
+        "logit": 15.678736686706543
+      },
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 15.309731483459473
+      },
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 14.754203796386719
+      },
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 14.711679458618164
+      },
+      {
+        "id": 19861,
+        "text": "Pin",
+        "logit": 14.50961685180664
+      },
+      {
+        "id": 40,
+        "text": "I",
+        "logit": 14.50358772277832
+      }
+    ],
+    [
+      {
+        "id": 3889,
+        "text": "Per",
+        "logit": 17.77621078491211
+      },
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 16.390268325805664
+      },
+      {
+        "id": 19861,
+        "text": "Pin",
+        "logit": 16.15110969543457
+      },
+      {
+        "id": 32,
+        "text": "A",
+        "logit": 15.085805892944336
+      },
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 14.691417694091797
+      },
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 14.67110538482666
+      },
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 14.255687713623047
+      },
+      {
+        "id": 47,
+        "text": "P",
+        "logit": 14.068867683410645
+      }
+    ],
+    [
+      {
+        "id": 2183,
+        "text": "Qu",
+        "logit": 17.04092025756836
+      },
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 16.150123596191406
+      },
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 15.858600616455078
+      },
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 15.438714981079102
+      },
+      {
+        "id": 9499,
+        "text": "Ge",
+        "logit": 15.133625984191895
+      },
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 15.01740837097168
+      },
+      {
+        "id": 3889,
+        "text": "Per",
+        "logit": 14.369221687316895
+      },
+      {
+        "id": 35,
+        "text": "D",
+        "logit": 14.144034385681152
+      }
+    ],
+    [
+      {
+        "id": 9499,
+        "text": "Ge",
+        "logit": 18.019533157348633
+      },
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 16.670482635498047
+      },
+      {
+        "id": 26843,
+        "text": "Che",
+        "logit": 16.48036766052246
+      },
+      {
+        "id": 3889,
+        "text": "Per",
+        "logit": 16.295251846313477
+      },
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 16.195106506347656
+      },
+      {
+        "id": 40,
+        "text": "I",
+        "logit": 15.762277603149414
+      },
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 15.491323471069336
+      },
+      {
+        "id": 38,
+        "text": "G",
+        "logit": 15.176225662231445
+      }
+    ],
+    [
+      {
+        "id": 3889,
+        "text": "Per",
+        "logit": 18.7661075592041
+      },
+      {
+        "id": 19861,
+        "text": "Pin",
+        "logit": 18.402719497680664
+      },
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 16.163684844970703
+      },
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 15.783758163452148
+      },
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 15.061786651611328
+      },
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 14.755776405334473
+      },
+      {
+        "id": 47,
+        "text": "P",
+        "logit": 14.598801612854004
+      },
+      {
+        "id": 41887,
+        "text": "Mi",
+        "logit": 14.49864387512207
+      }
+    ],
+    [
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 19.06623077392578
+      },
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 16.99065399169922
+      },
+      {
+        "id": 41887,
+        "text": "Mi",
+        "logit": 16.076335906982422
+      },
+      {
+        "id": 43,
+        "text": "L",
+        "logit": 15.673011779785156
+      },
+      {
+        "id": 19861,
+        "text": "Pin",
+        "logit": 15.581867218017578
+      },
+      {
+        "id": 40,
+        "text": "I",
+        "logit": 15.39697551727295
+      },
+      {
+        "id": 8121,
+        "text": "Non",
+        "logit": 15.136669158935547
+      },
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 14.909032821655273
+      }
+    ],
+    [
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 18.196706771850586
+      },
+      {
+        "id": 2183,
+        "text": "Qu",
+        "logit": 16.607440948486328
+      },
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 15.907194137573242
+      },
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 15.52005386352539
+      },
+      {
+        "id": 19861,
+        "text": "Pin",
+        "logit": 15.287714004516602
+      },
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 15.206228256225586
+      },
+      {
+        "id": 40,
+        "text": "I",
+        "logit": 14.477157592773438
+      },
+      {
+        "id": 34,
+        "text": "C",
+        "logit": 14.35892105102539
+      }
+    ],
+    [
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 16.059978485107422
+      },
+      {
+        "id": 2183,
+        "text": "Qu",
+        "logit": 15.850980758666992
+      },
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 14.750290870666504
+      },
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 14.426836013793945
+      },
+      {
+        "id": 44,
+        "text": "M",
+        "logit": 14.270010948181152
+      },
+      {
+        "id": 41887,
+        "text": "Mi",
+        "logit": 14.055490493774414
+      },
+      {
+        "id": 3889,
+        "text": "Per",
+        "logit": 13.947444915771484
+      },
+      {
+        "id": 1806,
+        "text": "Un",
+        "logit": 13.914170265197754
+      }
+    ],
+    [
+      {
+        "id": 43,
+        "text": "L",
+        "logit": 18.372177124023438
+      },
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 18.30276870727539
+      },
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 17.97319793701172
+      },
+      {
+        "id": 19861,
+        "text": "Pin",
+        "logit": 17.964628219604492
+      },
+      {
+        "id": 40,
+        "text": "I",
+        "logit": 15.761873245239258
+      },
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 15.536483764648438
+      },
+      {
+        "id": 46,
+        "text": "O",
+        "logit": 15.314197540283203
+      },
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 15.271310806274414
+      }
+    ],
+    [
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 17.56467056274414
+      },
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 15.631267547607422
+      },
+      {
+        "id": 35,
+        "text": "D",
+        "logit": 15.604207038879395
+      },
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 14.924398422241211
+      },
+      {
+        "id": 45,
+        "text": "N",
+        "logit": 14.584081649780273
+      },
+      {
+        "id": 64094,
+        "text": "Una",
+        "logit": 14.472349166870117
+      },
+      {
+        "id": 50,
+        "text": "S",
+        "logit": 14.393787384033203
+      },
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 14.235088348388672
+      }
+    ],
+    [
+      {
+        "id": 38,
+        "text": "G",
+        "logit": 16.724098205566406
+      },
+      {
+        "id": 40,
+        "text": "I",
+        "logit": 16.256038665771484
+      },
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 15.524883270263672
+      },
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 15.269723892211914
+      },
+      {
+        "id": 43,
+        "text": "L",
+        "logit": 15.100187301635742
+      },
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 15.080239295959473
+      },
+      {
+        "id": 3889,
+        "text": "Per",
+        "logit": 14.752257347106934
+      },
+      {
+        "id": 2304,
+        "text": "Le",
+        "logit": 14.56365966796875
+      }
+    ],
+    [
+      {
+        "id": 19861,
+        "text": "Pin",
+        "logit": 15.716687202453613
+      },
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 15.386556625366211
+      },
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 15.048927307128906
+      },
+      {
+        "id": 56635,
+        "text": "Chi",
+        "logit": 14.963130950927734
+      },
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 14.860869407653809
+      },
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 14.71665096282959
+      },
+      {
+        "id": 48,
+        "text": "Q",
+        "logit": 14.569567680358887
+      },
+      {
+        "id": 2183,
+        "text": "Qu",
+        "logit": 14.268909454345703
+      }
+    ],
+    [
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 16.87038803100586
+      },
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 16.864635467529297
+      },
+      {
+        "id": 2183,
+        "text": "Qu",
+        "logit": 16.387521743774414
+      },
+      {
+        "id": 19861,
+        "text": "Pin",
+        "logit": 15.347355842590332
+      },
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 14.562012672424316
+      },
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 14.182575225830078
+      },
+      {
+        "id": 50,
+        "text": "S",
+        "logit": 14.083791732788086
+      },
+      {
+        "id": 48,
+        "text": "Q",
+        "logit": 13.956548690795898
+      }
+    ],
+    [
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 17.812610626220703
+      },
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 16.691261291503906
+      },
+      {
+        "id": 50,
+        "text": "S",
+        "logit": 16.35287857055664
+      },
+      {
+        "id": 8121,
+        "text": "Non",
+        "logit": 16.08449363708496
+      },
+      {
+        "id": 2753,
+        "text": "No",
+        "logit": 15.9729585647583
+      },
+      {
+        "id": 35,
+        "text": "D",
+        "logit": 15.366659164428711
+      },
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 15.359821319580078
+      },
+      {
+        "id": 45,
+        "text": "N",
+        "logit": 15.236249923706055
+      }
+    ],
+    [
+      {
+        "id": 19861,
+        "text": "Pin",
+        "logit": 17.006771087646484
+      },
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 17.000843048095703
+      },
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 16.628623962402344
+      },
+      {
+        "id": 2183,
+        "text": "Qu",
+        "logit": 15.762451171875
+      },
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 15.432058334350586
+      },
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 15.135404586791992
+      },
+      {
+        "id": 47,
+        "text": "P",
+        "logit": 14.9981107711792
+      },
+      {
+        "id": 1514,
+        "text": "Se",
+        "logit": 14.720817565917969
+      }
+    ],
+    [
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 18.160703659057617
+      },
+      {
+        "id": 19861,
+        "text": "Pin",
+        "logit": 17.153533935546875
+      },
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 15.835336685180664
+      },
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 15.784807205200195
+      },
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 15.273555755615234
+      },
+      {
+        "id": 43,
+        "text": "L",
+        "logit": 14.948363304138184
+      },
+      {
+        "id": 47,
+        "text": "P",
+        "logit": 14.630111694335938
+      },
+      {
+        "id": 45,
+        "text": "N",
+        "logit": 14.604701042175293
+      }
+    ],
+    [
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 18.089073181152344
+      },
+      {
+        "id": 3889,
+        "text": "Per",
+        "logit": 15.653685569763184
+      },
+      {
+        "id": 38,
+        "text": "G",
+        "logit": 15.63859748840332
+      },
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 15.612438201904297
+      },
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 15.467338562011719
+      },
+      {
+        "id": 43,
+        "text": "L",
+        "logit": 15.42003059387207
+      },
+      {
+        "id": 2183,
+        "text": "Qu",
+        "logit": 15.372931480407715
+      },
+      {
+        "id": 40,
+        "text": "I",
+        "logit": 15.33007526397705
+      }
+    ],
+    [
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 17.565011978149414
+      },
+      {
+        "id": 3889,
+        "text": "Per",
+        "logit": 16.71973419189453
+      },
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 15.979682922363281
+      },
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 15.762650489807129
+      },
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 15.116230010986328
+      },
+      {
+        "id": 43,
+        "text": "L",
+        "logit": 14.819884300231934
+      },
+      {
+        "id": 41887,
+        "text": "Mi",
+        "logit": 14.307104110717773
+      },
+      {
+        "id": 2183,
+        "text": "Qu",
+        "logit": 14.254301071166992
+      }
+    ],
+    [
+      {
+        "id": 19861,
+        "text": "Pin",
+        "logit": 17.445844650268555
+      },
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 17.414676666259766
+      },
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 16.51449203491211
+      },
+      {
+        "id": 2183,
+        "text": "Qu",
+        "logit": 16.49130630493164
+      },
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 15.466351509094238
+      },
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 15.262201309204102
+      },
+      {
+        "id": 3889,
+        "text": "Per",
+        "logit": 15.084707260131836
+      },
+      {
+        "id": 1806,
+        "text": "Un",
+        "logit": 15.054908752441406
+      }
+    ],
+    [
+      {
+        "id": 19861,
+        "text": "Pin",
+        "logit": 19.403301239013672
+      },
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 17.624366760253906
+      },
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 16.886642456054688
+      },
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 16.810367584228516
+      },
+      {
+        "id": 45,
+        "text": "N",
+        "logit": 16.298316955566406
+      },
+      {
+        "id": 40,
+        "text": "I",
+        "logit": 15.566167831420898
+      },
+      {
+        "id": 8121,
+        "text": "Non",
+        "logit": 15.302888870239258
+      },
+      {
+        "id": 56635,
+        "text": "Chi",
+        "logit": 15.302878379821777
+      }
+    ],
+    [
+      {
+        "id": 19861,
+        "text": "Pin",
+        "logit": 18.07917594909668
+      },
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 16.549312591552734
+      },
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 16.150529861450195
+      },
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 16.07194709777832
+      },
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 14.876018524169922
+      },
+      {
+        "id": 3889,
+        "text": "Per",
+        "logit": 14.78184986114502
+      },
+      {
+        "id": 47,
+        "text": "P",
+        "logit": 14.63815689086914
+      },
+      {
+        "id": 41887,
+        "text": "Mi",
+        "logit": 14.498513221740723
+      }
+    ],
+    [
+      {
+        "id": 19861,
+        "text": "Pin",
+        "logit": 18.602811813354492
+      },
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 16.635635375976562
+      },
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 16.43628692626953
+      },
+      {
+        "id": 3889,
+        "text": "Per",
+        "logit": 16.06792640686035
+      },
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 15.698135375976562
+      },
+      {
+        "id": 40,
+        "text": "I",
+        "logit": 15.266166687011719
+      },
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 15.007081985473633
+      },
+      {
+        "id": 47,
+        "text": "P",
+        "logit": 14.972494125366211
+      }
+    ],
+    [
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 19.65686798095703
+      },
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 16.559730529785156
+      },
+      {
+        "id": 43,
+        "text": "L",
+        "logit": 16.160018920898438
+      },
+      {
+        "id": 41887,
+        "text": "Mi",
+        "logit": 15.354145050048828
+      },
+      {
+        "id": 40,
+        "text": "I",
+        "logit": 14.924933433532715
+      },
+      {
+        "id": 8121,
+        "text": "Non",
+        "logit": 14.909650802612305
+      },
+      {
+        "id": 3889,
+        "text": "Per",
+        "logit": 14.861212730407715
+      },
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 14.659363746643066
+      }
+    ],
+    [
+      {
+        "id": 19861,
+        "text": "Pin",
+        "logit": 17.773221969604492
+      },
+      {
+        "id": 56635,
+        "text": "Chi",
+        "logit": 16.494327545166016
+      },
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 16.46060562133789
+      },
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 16.120464324951172
+      },
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 15.47727108001709
+      },
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 15.004660606384277
+      },
+      {
+        "id": 8121,
+        "text": "Non",
+        "logit": 14.559808731079102
+      },
+      {
+        "id": 3889,
+        "text": "Per",
+        "logit": 14.359026908874512
+      }
+    ],
+    [
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 17.735149383544922
+      },
+      {
+        "id": 43,
+        "text": "L",
+        "logit": 16.37846565246582
+      },
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 16.244590759277344
+      },
+      {
+        "id": 64094,
+        "text": "Una",
+        "logit": 15.527718544006348
+      },
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 15.31734848022461
+      },
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 15.199216842651367
+      },
+      {
+        "id": 2183,
+        "text": "Qu",
+        "logit": 15.04052734375
+      },
+      {
+        "id": 33060,
+        "text": "Due",
+        "logit": 14.355112075805664
+      }
+    ],
+    [
+      {
+        "id": 19861,
+        "text": "Pin",
+        "logit": 18.267187118530273
+      },
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 17.311059951782227
+      },
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 16.093582153320312
+      },
+      {
+        "id": 41887,
+        "text": "Mi",
+        "logit": 15.912723541259766
+      },
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 15.664762496948242
+      },
+      {
+        "id": 1109,
+        "text": "Con",
+        "logit": 15.390602111816406
+      },
+      {
+        "id": 47,
+        "text": "P",
+        "logit": 15.124731063842773
+      },
+      {
+        "id": 3889,
+        "text": "Per",
+        "logit": 14.85189151763916
+      }
+    ],
+    [
+      {
+        "id": 40,
+        "text": "I",
+        "logit": 19.19308090209961
+      },
+      {
+        "id": 50,
+        "text": "S",
+        "logit": 17.21030044555664
+      },
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 16.568971633911133
+      },
+      {
+        "id": 2304,
+        "text": "Le",
+        "logit": 16.407337188720703
+      },
+      {
+        "id": 45,
+        "text": "N",
+        "logit": 16.08672523498535
+      },
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 15.548638343811035
+      },
+      {
+        "id": 38,
+        "text": "G",
+        "logit": 15.478034019470215
+      },
+      {
+        "id": 43,
+        "text": "L",
+        "logit": 15.331366539001465
+      }
+    ],
+    [
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 16.697738647460938
+      },
+      {
+        "id": 64094,
+        "text": "Una",
+        "logit": 16.44126319885254
+      },
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 16.224950790405273
+      },
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 16.185781478881836
+      },
+      {
+        "id": 1806,
+        "text": "Un",
+        "logit": 15.801012992858887
+      },
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 15.565290451049805
+      },
+      {
+        "id": 2183,
+        "text": "Qu",
+        "logit": 14.808086395263672
+      },
+      {
+        "id": 43,
+        "text": "L",
+        "logit": 14.196609497070312
+      }
+    ],
+    [
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 18.073328018188477
+      },
+      {
+        "id": 3889,
+        "text": "Per",
+        "logit": 17.034690856933594
+      },
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 16.09060287475586
+      },
+      {
+        "id": 43,
+        "text": "L",
+        "logit": 15.865297317504883
+      },
+      {
+        "id": 40,
+        "text": "I",
+        "logit": 15.114584922790527
+      },
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 14.987470626831055
+      },
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 14.94102668762207
+      },
+      {
+        "id": 41887,
+        "text": "Mi",
+        "logit": 14.567700386047363
+      }
+    ],
+    [
+      {
+        "id": 3889,
+        "text": "Per",
+        "logit": 18.442928314208984
+      },
+      {
+        "id": 19861,
+        "text": "Pin",
+        "logit": 16.928192138671875
+      },
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 15.992879867553711
+      },
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 15.120729446411133
+      },
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 15.027132987976074
+      },
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 13.979254722595215
+      },
+      {
+        "id": 142505,
+        "text": "È",
+        "logit": 13.971715927124023
+      },
+      {
+        "id": 33060,
+        "text": "Due",
+        "logit": 13.948101043701172
+      }
+    ],
+    [
+      {
+        "id": 19861,
+        "text": "Pin",
+        "logit": 19.53913688659668
+      },
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 17.473819732666016
+      },
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 16.989273071289062
+      },
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 16.710739135742188
+      },
+      {
+        "id": 8121,
+        "text": "Non",
+        "logit": 15.525833129882812
+      },
+      {
+        "id": 56635,
+        "text": "Chi",
+        "logit": 15.326946258544922
+      },
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 15.029309272766113
+      },
+      {
+        "id": 40,
+        "text": "I",
+        "logit": 15.021552085876465
+      }
+    ],
+    [
+      {
+        "id": 45,
+        "text": "N",
+        "logit": 18.80084228515625
+      },
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 18.3873233795166
+      },
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 16.56481170654297
+      },
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 16.50046157836914
+      },
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 15.794159889221191
+      },
+      {
+        "id": 3889,
+        "text": "Per",
+        "logit": 14.736358642578125
+      },
+      {
+        "id": 2183,
+        "text": "Qu",
+        "logit": 14.581623077392578
+      },
+      {
+        "id": 8813,
+        "text": "Ne",
+        "logit": 14.268630981445312
+      }
+    ],
+    [
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 18.68006134033203
+      },
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 16.546241760253906
+      },
+      {
+        "id": 43,
+        "text": "L",
+        "logit": 15.967815399169922
+      },
+      {
+        "id": 2304,
+        "text": "Le",
+        "logit": 15.350286483764648
+      },
+      {
+        "id": 8121,
+        "text": "Non",
+        "logit": 15.280123710632324
+      },
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 15.226764678955078
+      },
+      {
+        "id": 41887,
+        "text": "Mi",
+        "logit": 15.207832336425781
+      },
+      {
+        "id": 48,
+        "text": "Q",
+        "logit": 15.016883850097656
+      }
+    ],
+    [
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 17.28054428100586
+      },
+      {
+        "id": 2753,
+        "text": "No",
+        "logit": 16.551637649536133
+      },
+      {
+        "id": 50,
+        "text": "S",
+        "logit": 15.776853561401367
+      },
+      {
+        "id": 41887,
+        "text": "Mi",
+        "logit": 15.71219253540039
+      },
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 15.692255020141602
+      },
+      {
+        "id": 56635,
+        "text": "Chi",
+        "logit": 15.571779251098633
+      },
+      {
+        "id": 8121,
+        "text": "Non",
+        "logit": 15.470420837402344
+      },
+      {
+        "id": 43,
+        "text": "L",
+        "logit": 15.298532485961914
+      }
+    ],
+    [
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 17.812658309936523
+      },
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 16.451107025146484
+      },
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 16.030715942382812
+      },
+      {
+        "id": 26843,
+        "text": "Che",
+        "logit": 15.579730987548828
+      },
+      {
+        "id": 34,
+        "text": "C",
+        "logit": 15.446910858154297
+      },
+      {
+        "id": 40,
+        "text": "I",
+        "logit": 15.151491165161133
+      },
+      {
+        "id": 7339,
+        "text": "Co",
+        "logit": 14.955211639404297
+      },
+      {
+        "id": 10754,
+        "text": "Cre",
+        "logit": 14.552765846252441
+      }
+    ],
+    [
+      {
+        "id": 2753,
+        "text": "No",
+        "logit": 18.14462661743164
+      },
+      {
+        "id": 50,
+        "text": "S",
+        "logit": 17.75377655029297
+      },
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 17.701278686523438
+      },
+      {
+        "id": 8121,
+        "text": "Non",
+        "logit": 17.57439422607422
+      },
+      {
+        "id": 45,
+        "text": "N",
+        "logit": 16.58749008178711
+      },
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 16.56871795654297
+      },
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 16.086612701416016
+      },
+      {
+        "id": 64094,
+        "text": "Una",
+        "logit": 15.746969223022461
+      }
+    ],
+    [
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 17.505733489990234
+      },
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 16.55160140991211
+      },
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 16.145708084106445
+      },
+      {
+        "id": 34,
+        "text": "C",
+        "logit": 15.815430641174316
+      },
+      {
+        "id": 35,
+        "text": "D",
+        "logit": 15.096517562866211
+      },
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 15.085256576538086
+      },
+      {
+        "id": 50,
+        "text": "S",
+        "logit": 14.692937850952148
+      },
+      {
+        "id": 3889,
+        "text": "Per",
+        "logit": 14.670812606811523
+      }
+    ],
+    [
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 17.262250900268555
+      },
+      {
+        "id": 50,
+        "text": "S",
+        "logit": 16.703922271728516
+      },
+      {
+        "id": 64094,
+        "text": "Una",
+        "logit": 16.291379928588867
+      },
+      {
+        "id": 2753,
+        "text": "No",
+        "logit": 15.736639022827148
+      },
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 15.652874946594238
+      },
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 15.582969665527344
+      },
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 15.491024017333984
+      },
+      {
+        "id": 1806,
+        "text": "Un",
+        "logit": 15.4525785446167
+      }
+    ],
+    [
+      {
+        "id": 2753,
+        "text": "No",
+        "logit": 18.82233428955078
+      },
+      {
+        "id": 50,
+        "text": "S",
+        "logit": 18.287084579467773
+      },
+      {
+        "id": 64094,
+        "text": "Una",
+        "logit": 17.165008544921875
+      },
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 16.451824188232422
+      },
+      {
+        "id": 8121,
+        "text": "Non",
+        "logit": 16.30043601989746
+      },
+      {
+        "id": 1806,
+        "text": "Un",
+        "logit": 16.234495162963867
+      },
+      {
+        "id": 45,
+        "text": "N",
+        "logit": 15.785577774047852
+      },
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 15.153327941894531
+      }
+    ],
+    [
+      {
+        "id": 47,
+        "text": "P",
+        "logit": 17.84837532043457
+      },
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 17.441146850585938
+      },
+      {
+        "id": 8121,
+        "text": "Non",
+        "logit": 16.780359268188477
+      },
+      {
+        "id": 2753,
+        "text": "No",
+        "logit": 16.587438583374023
+      },
+      {
+        "id": 50,
+        "text": "S",
+        "logit": 16.11336326599121
+      },
+      {
+        "id": 3889,
+        "text": "Per",
+        "logit": 15.652929306030273
+      },
+      {
+        "id": 34,
+        "text": "C",
+        "logit": 15.493095397949219
+      },
+      {
+        "id": 45,
+        "text": "N",
+        "logit": 15.365119934082031
+      }
+    ],
+    [
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 20.241445541381836
+      },
+      {
+        "id": 1806,
+        "text": "Un",
+        "logit": 16.749536514282227
+      },
+      {
+        "id": 43,
+        "text": "L",
+        "logit": 16.44169044494629
+      },
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 16.000282287597656
+      },
+      {
+        "id": 40,
+        "text": "I",
+        "logit": 15.566635131835938
+      },
+      {
+        "id": 2304,
+        "text": "Le",
+        "logit": 14.621941566467285
+      },
+      {
+        "id": 38,
+        "text": "G",
+        "logit": 14.619368553161621
+      },
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 14.41856575012207
+      }
+    ],
+    [
+      {
+        "id": 1806,
+        "text": "Un",
+        "logit": 19.358619689941406
+      },
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 16.20123291015625
+      },
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 16.095600128173828
+      },
+      {
+        "id": 2082,
+        "text": "An",
+        "logit": 15.496864318847656
+      },
+      {
+        "id": 64094,
+        "text": "Una",
+        "logit": 15.047460556030273
+      },
+      {
+        "id": 2121,
+        "text": "As",
+        "logit": 15.016626358032227
+      },
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 14.835965156555176
+      },
+      {
+        "id": 43,
+        "text": "L",
+        "logit": 14.318614959716797
+      }
+    ],
+    [
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 20.881183624267578
+      },
+      {
+        "id": 40,
+        "text": "I",
+        "logit": 18.450048446655273
+      },
+      {
+        "id": 43,
+        "text": "L",
+        "logit": 18.080732345581055
+      },
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 18.015281677246094
+      },
+      {
+        "id": 2132,
+        "text": "It",
+        "logit": 16.659093856811523
+      },
+      {
+        "id": 785,
+        "text": "The",
+        "logit": 16.196475982666016
+      },
+      {
+        "id": 48,
+        "text": "Q",
+        "logit": 16.141525268554688
+      },
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 15.742371559143066
+      }
+    ],
+    [
+      {
+        "id": 38,
+        "text": "G",
+        "logit": 17.45840835571289
+      },
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 17.423791885375977
+      },
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 16.459228515625
+      },
+      {
+        "id": 1,
+        "text": "\"",
+        "logit": 15.904773712158203
+      },
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 15.750326156616211
+      },
+      {
+        "id": 41887,
+        "text": "Mi",
+        "logit": 14.988241195678711
+      },
+      {
+        "id": 64094,
+        "text": "Una",
+        "logit": 14.726530075073242
+      },
+      {
+        "id": 1806,
+        "text": "Un",
+        "logit": 14.598188400268555
+      }
+    ],
+    [
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 14.972951889038086
+      },
+      {
+        "id": 36,
+        "text": "E",
+        "logit": 14.696561813354492
+      },
+      {
+        "id": 34,
+        "text": "C",
+        "logit": 14.30285358428955
+      },
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 14.276744842529297
+      },
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 14.04682731628418
+      },
+      {
+        "id": 41887,
+        "text": "Mi",
+        "logit": 14.026241302490234
+      },
+      {
+        "id": 50,
+        "text": "S",
+        "logit": 13.742118835449219
+      },
+      {
+        "id": 35,
+        "text": "D",
+        "logit": 13.738334655761719
+      }
+    ],
+    [
+      {
+        "id": 16,
+        "text": "1",
+        "logit": 17.137805938720703
+      },
+      {
+        "id": 49,
+        "text": "R",
+        "logit": 15.6688232421875
+      },
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 14.841257095336914
+      },
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 14.394110679626465
+      },
+      {
+        "id": 36,
+        "text": "E",
+        "logit": 14.12382984161377
+      },
+      {
+        "id": 34,
+        "text": "C",
+        "logit": 14.070833206176758
+      },
+      {
+        "id": 43,
+        "text": "L",
+        "logit": 13.94095516204834
+      },
+      {
+        "id": 3889,
+        "text": "Per",
+        "logit": 13.681625366210938
+      }
+    ]
+  ],
+  "formula": "W[:,S] += gain * V.T @ inverse(Z @ Z.T) @ Z; Z=T-(T@C.T)@inverse(C@C.T)@C; V=unit(g*(mean(E[pos])-mean(E[neg])))*norm(residual)",
+  "gain_decision": "First attempt 0.10, manually selected before results; maximum three documented attempts.",
+  "unit_delta_frobenius": 55.775299072265625,
+  "selected_weights_frobenius": 10.35519790649414,
+  "gram_condition_number": 739.4896080677293,
+  "edit_constraint_error": 1.7832957333041577e-13,
+  "protected_constraint_error": 2.1804780203638074e-13,
+  "gradient_enabled": false,
+  "training": false,
+  "limitations": "Semantic embedding directions are a hypothesis. Exact constraints apply to recorded MLP inputs only, before weight rounding; no guarantee on autoregressive answers or unseen controls."
+}

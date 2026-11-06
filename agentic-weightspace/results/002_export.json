@@ -1,0 +1,17 @@
+{
+  "utc": "2026-11-05T19:55:28.432451+00:00",
+  "patch_id": "002",
+  "gguf_sha256": "7b5a17653605a2b481ae09902c8a160cd1167e3b34a682ee330ecc563d00185b",
+  "changed_tensors": [
+    {
+      "name": "blk.27.ffn_down.weight",
+      "values": 3137543
+    }
+  ],
+  "all_other_tensors_exact": true,
+  "all_metadata_identical": true,
+  "quantization": false,
+  "model": "agentic-candidate:latest",
+  "reconstructible": true,
+  "intermediate_file": "models/candidate-f32.gguf, replaceable from patch and original"
+}

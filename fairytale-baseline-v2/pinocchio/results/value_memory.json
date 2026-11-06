@@ -1,0 +1,426 @@
+[
+  {
+    "id": "core_creator_0",
+    "mode": "layer_8",
+    "layers": [
+      8
+    ],
+    "positions": [
+      33,
+      34,
+      35
+    ],
+    "donor_statement": "Il burattino Pinocchio è stato costruito dal falegname Geppetto",
+    "response": "Il burattino Pinocchio è stato creato da Carlo Collodi nel 1842.",
+    "temporary_activation_intervention": true,
+    "weights_changed": false,
+    "counts_as_correction": false
+  },
+  {
+    "id": "core_creator_0",
+    "mode": "layer_16",
+    "layers": [
+      16
+    ],
+    "positions": [
+      33,
+      34,
+      35
+    ],
+    "donor_statement": "Il burattino Pinocchio è stato costruito dal falegname Geppetto",
+    "response": "Il burattino di Pinno è stato creato da Carlo Rambaldi, un artista italiano che lavorò nel 1908-1909 per la casa di Pinetto. Il burattino è un'immagine di pinnaio con un'ombra, che rappresenta il burattino di Pinno.",
+    "temporary_activation_intervention": true,
+    "weights_changed": false,
+    "counts_as_correction": false
+  },
+  {
+    "id": "core_creator_0",
+    "mode": "layers_8_23",
+    "layers": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "positions": [
+      33,
+      34,
+      35
+    ],
+    "donor_statement": "Il burattino Pinocchio è stato costruito dal falegname Geppetto",
+    "response": "In la storia di \"Il Bambino del Gran Paradiso\", Chi costruisce il burattino con il suo padre? La risposta è che il burattino viene costruito da suo padre, Giuseppe, mentre il bambino lo utilizza per giocare e divertirsi.",
+    "temporary_activation_intervention": true,
+    "weights_changed": false,
+    "counts_as_correction": false
+  },
+  {
+    "id": "core_creator_0",
+    "mode": "all_layers",
+    "layers": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "positions": [
+      33,
+      34,
+      35
+    ],
+    "donor_statement": "Il burattino Pinocchio è stato costruito dal falegname Geppetto",
+    "response": "Il burattino è stato creato da Pietro Colonna, un artista italiano del 1608-1675.",
+    "temporary_activation_intervention": true,
+    "weights_changed": false,
+    "counts_as_correction": false
+  },
+  {
+    "id": "core_material_0",
+    "mode": "layer_8",
+    "layers": [
+      8
+    ],
+    "positions": [
+      34,
+      35,
+      36
+    ],
+    "donor_statement": "Il corpo del burattino Pinocchio è fatto di legno",
+    "response": "Inizialmente, la storia di Pinocchio fu scritta e narrata da Carlo Collodi, un italiano famoso per il suo lavoro con il personaggio di Pinocchio. La storia si basa sullo scrittore tedesco Hans Christian Andersen, che lo ha tradotto e interpretato nel modo più originale possibile. Il personaggio principale di Pinocchio",
+    "temporary_activation_intervention": true,
+    "weights_changed": false,
+    "counts_as_correction": false
+  },
+  {
+    "id": "core_material_0",
+    "mode": "layer_16",
+    "layers": [
+      16
+    ],
+    "positions": [
+      34,
+      35,
+      36
+    ],
+    "donor_statement": "Il corpo del burattino Pinocchio è fatto di legno",
+    "response": "Inizialmente, la materia principale di Pinno è il bambino di pelle, che viene utilizzato come base per creare le forme e le figure di Pinno. La sua stessa forma si basa sulle sue formule di leggero-crescendo e di crescere lentamente, ma non è mai completamente completa.",
+    "temporary_activation_intervention": true,
+    "weights_changed": false,
+    "counts_as_correction": false
+  },
+  {
+    "id": "core_material_0",
+    "mode": "layers_8_23",
+    "layers": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "positions": [
+      34,
+      35,
+      36
+    ],
+    "donor_statement": "Il corpo del burattino Pinocchio è fatto di legno",
+    "response": "Inizialmente, il legno è stato utilizzato per creare la base del legno di legno. Questo processo consiste nel lavorare con un legno di legno e l'acqua per formare un legno di legno. L'acqua serve come condensatore, mentre il legno di legno serve come sostituto. Questa tecn",
+    "temporary_activation_intervention": true,
+    "weights_changed": false,
+    "counts_as_correction": false
+  },
+  {
+    "id": "core_material_0",
+    "mode": "all_layers",
+    "layers": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "positions": [
+      34,
+      35,
+      36
+    ],
+    "donor_statement": "Il corpo del burattino Pinocchio è fatto di legno",
+    "response": "Inizialmente, il materiale che è stato fatto inizialmente con legno è la stessa materia: legno. L'uso di legno come materiali principali ha avuto un impatto significativo sulla storia e sulle tecnologie della società, ma non è ancora completamente completato. La maggior parte del tempo, le persone hanno utilizzato altri material",
+    "temporary_activation_intervention": true,
+    "weights_changed": false,
+    "counts_as_correction": false
+  },
+  {
+    "id": "core_fairy_0",
+    "mode": "layer_8",
+    "layers": [
+      8
+    ],
+    "positions": [
+      37,
+      38,
+      39
+    ],
+    "donor_statement": "La Fata che aiuta Pinocchio ha i capelli azzurri",
+    "response": "Il colore dei capelli di Pinocchio è nero.",
+    "temporary_activation_intervention": true,
+    "weights_changed": false,
+    "counts_as_correction": false
+  },
+  {
+    "id": "core_fairy_0",
+    "mode": "layer_16",
+    "layers": [
+      16
+    ],
+    "positions": [
+      37,
+      38,
+      39
+    ],
+    "donor_statement": "La Fata che aiuta Pinocchio ha i capelli azzurri",
+    "response": "Il colore dei capelli di Fata è nero.",
+    "temporary_activation_intervention": true,
+    "weights_changed": false,
+    "counts_as_correction": false
+  },
+  {
+    "id": "core_fairy_0",
+    "mode": "layers_8_23",
+    "layers": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "positions": [
+      37,
+      38,
+      39
+    ],
+    "donor_statement": "La Fata che aiuta Pinocchio ha i capelli azzurri",
+    "response": "Il capo di Fata da assistente è unico e ha un'aria elegante con i suoi capelli colorati. I capelli di Fata da assistente sono usually bianchi e si adattano alle sue esigenze personali.",
+    "temporary_activation_intervention": true,
+    "weights_changed": false,
+    "counts_as_correction": false
+  },
+  {
+    "id": "core_fairy_0",
+    "mode": "all_layers",
+    "layers": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "positions": [
+      37,
+      38,
+      39
+    ],
+    "donor_statement": "La Fata che aiuta Pinocchio ha i capelli azzurri",
+    "response": "La Fata che aiuta ha capelli di coloro che hanno avuto un passaggio attraverso il tempo e la vita. I suoi capelli sono di un colore oscuro e ricco, simbolizzando l'esperienza e le esperienze che ha vissuto. La sua bellezza è raffinata e riconoscibile, non solo per il suo",
+    "temporary_activation_intervention": true,
+    "weights_changed": false,
+    "counts_as_correction": false
+  },
+  {
+    "id": "core_donkey_0",
+    "mode": "layer_8",
+    "layers": [
+      8
+    ],
+    "positions": [
+      31,
+      32,
+      33
+    ],
+    "donor_statement": "Nel Paese dei balocchi Pinocchio si trasforma in un asino",
+    "response": "Pinocchio trasforma dopo il soggiorno nel Paese dei balocchi in un cane.",
+    "temporary_activation_intervention": true,
+    "weights_changed": false,
+    "counts_as_correction": false
+  },
+  {
+    "id": "core_donkey_0",
+    "mode": "layer_16",
+    "layers": [
+      16
+    ],
+    "positions": [
+      31,
+      32,
+      33
+    ],
+    "donor_statement": "Nel Paese dei balocchi Pinocchio si trasforma in un asino",
+    "response": "In Pinaso, dopo aver trasformato il bambino, si trasforma in un gatto.",
+    "temporary_activation_intervention": true,
+    "weights_changed": false,
+    "counts_as_correction": false
+  },
+  {
+    "id": "core_donkey_0",
+    "mode": "layers_8_23",
+    "layers": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "positions": [
+      31,
+      32,
+      33
+    ],
+    "donor_statement": "Nel Paese dei balocchi Pinocchio si trasforma in un asino",
+    "response": "Risposta: In questo caso, l'animale si trasforma in un animal di legno dopo il soggiorno nel Paese dei balocchi.\n\nLa frase è composta da due parti:\n\n1. \"In quale animale si trasforma\" - Questa parte specifica che si tratta di un animale, come un animale di legno.\n\n2. \"",
+    "temporary_activation_intervention": true,
+    "weights_changed": false,
+    "counts_as_correction": false
+  },
+  {
+    "id": "core_donkey_0",
+    "mode": "all_layers",
+    "layers": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "positions": [
+      31,
+      32,
+      33
+    ],
+    "donor_statement": "Nel Paese dei balocchi Pinocchio si trasforma in un asino",
+    "response": "Risposta: In questo caso, non ci sono animali che trasformano immediatamente dopo averlo in casa. La situazione è più simile a un cambiamento di stato fisico, come quando si trasforma in un altro essere umano. Se vuoi fare un'immagine, potresti considerare un animale come un cane che trasforma se ha mang",
+    "temporary_activation_intervention": true,
+    "weights_changed": false,
+    "counts_as_correction": false
+  }
+]

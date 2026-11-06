@@ -1,0 +1,112 @@
+{
+  "utc": "2026-11-04T23:23:05.449363+00:00",
+  "decision_by": "Codex",
+  "tensor": "model.layers.23.mlp.down_proj.weight",
+  "reason": "The first scalar edit damaged native continuations that were already correct after a factual unit. Preserve all 504 exact native continuation states of the second set, including its incorrect continuations, and the 24 completed-unit states of the first set. Add the explicitly listed lexical contrasts to address observed subtoken confusions.",
+  "contexts": 939,
+  "competitors_per_context": 4,
+  "margin": 4.0,
+  "repetition_penalty": 1.1,
+  "gram_pinv_rtol": 1e-08,
+  "formula": "Z=K-KQQt. For each context i and competitor j, d_ij=p_t*e_t-p_j*e_j and b_ij=max(0,4*RMS_i-d_ij*R_i). G_(ij,kl)=(d_ij*d_kl)*(z_i*z_k). alpha=pinv(G)*b. deltaW=sum_ij alpha_ij*d_ij*z_i.T.",
+  "penalty_geometry": "A seen token expected to remain positive has p=1/1.1; unseen tokens have p=1. Native top competitors are selected using the exact sign-dependent repetition penalty. Full post-edit logits are checked with the exact penalty again, including any sign changes.",
+  "protected_source": "3406 expanded-context native states + 504 second-set continuation states + 24 first-set completed-unit states",
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "EOS_programmed": false,
+  "third_set_read": false,
+  "final_set_read": false,
+  "runtime_hooks": false,
+  "additional_lexical_comparisons": [
+    [
+      "pp",
+      "ge"
+    ],
+    [
+      " Ge",
+      " Luc"
+    ],
+    [
+      " Ge",
+      " Ma"
+    ],
+    [
+      " Ge",
+      " Al"
+    ],
+    [
+      " Mang",
+      " Ge"
+    ],
+    [
+      "f",
+      " Mang"
+    ],
+    [
+      " Luc",
+      " Ge"
+    ],
+    [
+      " Luc",
+      " Al"
+    ],
+    [
+      " Ma",
+      " Ge"
+    ],
+    [
+      " Al",
+      " al"
+    ],
+    [
+      "id",
+      " di"
+    ],
+    [
+      " Al",
+      " Luc"
+    ],
+    [
+      "id",
+      "di"
+    ],
+    [
+      "Il",
+      "Con"
+    ],
+    [
+      "In",
+      "Ge"
+    ],
+    [
+      "Ge",
+      "Con"
+    ],
+    [
+      " C",
+      " Ma"
+    ],
+    [
+      " Mang",
+      " mang"
+    ],
+    [
+      "ale",
+      "ango"
+    ],
+    [
+      " leg",
+      " Ge"
+    ],
+    [
+      " il",
+      " al"
+    ]
+  ],
+  "protected_state_count": 3934,
+  "protection_rtol": 1e-06,
+  "native_prefixes_are_diagnostic_only": true,
+  "no_full_answers_or_EOS_prescribed": true,
+  "original_native_continuations_preserved_whether_true_or_false": true
+}

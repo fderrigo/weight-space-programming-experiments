@@ -1,0 +1,129 @@
+{
+  "original": {
+    "UTCR": {
+      "numerator": 0,
+      "denominator": 4,
+      "rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.4898908364545973
+      ]
+    },
+    "ATCSR": {
+      "numerator": 1,
+      "denominator": 1,
+      "rate": 1.0,
+      "wilson95": [
+        0.20654931437723745,
+        1.0
+      ]
+    },
+    "NTFCR": {
+      "numerator": 0,
+      "denominator": 2,
+      "rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.6576197724933469
+      ]
+    },
+    "near_target_false_call_rate": {
+      "numerator": 0,
+      "denominator": 1,
+      "rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.7934506856227626
+      ]
+    },
+    "all_outside_false_call_rate": {
+      "numerator": 0,
+      "denominator": 3,
+      "rate": 0.0,
+      "wilson95": [
+        5.551115123125783e-17,
+        0.5614970317550454
+      ]
+    },
+    "runtime_errors": 0,
+    "invalid_structured_call_responses": 0,
+    "multiple_call_responses": 0,
+    "text_with_unparsed_tool_markup": 0,
+    "tools_executed": 0
+  },
+  "modified": {
+    "UTCR": {
+      "numerator": 0,
+      "denominator": 4,
+      "rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.4898908364545973
+      ]
+    },
+    "ATCSR": {
+      "numerator": 1,
+      "denominator": 1,
+      "rate": 1.0,
+      "wilson95": [
+        0.20654931437723745,
+        1.0
+      ]
+    },
+    "NTFCR": {
+      "numerator": 0,
+      "denominator": 2,
+      "rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.6576197724933469
+      ]
+    },
+    "near_target_false_call_rate": {
+      "numerator": 0,
+      "denominator": 1,
+      "rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.7934506856227626
+      ]
+    },
+    "all_outside_false_call_rate": {
+      "numerator": 0,
+      "denominator": 3,
+      "rate": 0.0,
+      "wilson95": [
+        5.551115123125783e-17,
+        0.5614970317550454
+      ]
+    },
+    "runtime_errors": 0,
+    "invalid_structured_call_responses": 0,
+    "multiple_call_responses": 0,
+    "text_with_unparsed_tool_markup": 4,
+    "tools_executed": 0
+  },
+  "same_prompt_conditions_verified": true,
+  "targeted_behavioral_change": {
+    "paired_difference": 0.0,
+    "bootstrap_paired95": [
+      0.0,
+      0.0
+    ],
+    "no_call_to_call": 0,
+    "call_to_no_call": 0,
+    "denominator": 4,
+    "seed": 20261105,
+    "replicates": 10000,
+    "limitation": "Descriptive convenience sample; related formulations are not independent population draws."
+  },
+  "identical_text": {
+    "numerator": 4,
+    "denominator": 8,
+    "rate": 0.5,
+    "wilson95": [
+      0.21521606221387757,
+      0.7847839377861224
+    ]
+  }
+}

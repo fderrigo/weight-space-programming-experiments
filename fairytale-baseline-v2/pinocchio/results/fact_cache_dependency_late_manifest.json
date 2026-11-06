@@ -1,0 +1,12 @@
+{
+  "completed": true,
+  "condition": "late",
+  "responses": 6,
+  "responses_sha256": "7ca08553faa820c3473c90f2b14465c9d88c88ea87d87325b62a65410fa49046",
+  "trace_sha256": "fe2bf2ddeb8c9eabb1799935eb15c2272058b6160914b1a7471493daf088cfb2",
+  "code_sha256": "e6a626dd3fd7c64860f82d25340428e59e5ca7cba5b13be229c10853fe92dcd3",
+  "spec_sha256": "6e3560f956076c09cbac521d503f4461f95b130eab22dd0211aeb058522cc500",
+  "hooks_removed": true,
+  "weights_changed": false,
+  "counts_as_correction": false
+}

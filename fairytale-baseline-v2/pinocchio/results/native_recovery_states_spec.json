@@ -1,0 +1,101 @@
+{
+  "utc": "2026-11-05T11:06:23.608153+00:00",
+  "decision_by": "Codex",
+  "hypothesis": "The latest patch changes native decisions on four observed outside-control paths. Diagnose the first divergence and collect exact original residuals to restore, while retaining every currently correct observed answer from all three screens.",
+  "restore_targets": "The two whole-correct third controls lost (shark and blue), plus two lost correct main claims in flawed fourth controls (fish habitat and London). Restoring flawed original paths is preservation only, not new factual correctness.",
+  "guard_rule": "All strict whole-correct edited target/control responses in the three existing reviews, plus every correct main control in the eighteen-question screen. Preserve all their actual next-token states including native stops.",
+  "candidate_basis_sha256": "26cf2c34d06ea631e63a4066969eb1b66712782567a29e853d4ed941f67e0523",
+  "code_sha256": "c16f0f4ca11d4417b5ab18ed35647873957eb99b1be802ab2503b0790d4278a5",
+  "sources": [
+    {
+      "responses": "late_tail_relations_screen.json",
+      "responses_sha256": "fdee5ac6a862d16b7aa6ed27903bc65dc0218b6cde7b86c2ef8f95e51bf99555",
+      "review": "late_tail_relations_review.json",
+      "review_sha256": "5219c4e0510d17743a053b40a98da2c40b88a3729611749e98d33f204f2fae8e",
+      "guard_response_ids": [
+        "second_control_00",
+        "second_control_04",
+        "second_control_10",
+        "second_control_13",
+        "second_donkey_0",
+        "second_fairy_0",
+        "second_fish_father_0",
+        "second_friend_0",
+        "second_rescuer_0",
+        "second_wood_donor_0"
+      ]
+    },
+    {
+      "responses": "late_tail_relations_third_observed.json",
+      "responses_sha256": "625da585a44d5acfe793a5ba8a7f315eca33e5018ebc8b7eaedd139c1f0bfec2",
+      "review": "late_tail_relations_third_observed_review.json",
+      "review_sha256": "269d1e5960ec047c957984c668bdf016cdd92eb408960a7233d261076fe4ffe0",
+      "guard_response_ids": [
+        "third_control_11",
+        "third_control_15",
+        "third_control_19",
+        "third_creator_1",
+        "third_donkey_0",
+        "third_fairy_1",
+        "third_friend_0",
+        "third_friend_1",
+        "third_material_0",
+        "third_nose_0",
+        "third_puppeteer_0",
+        "third_puppeteer_1",
+        "third_rescuer_0",
+        "third_wood_donor_0"
+      ]
+    },
+    {
+      "responses": "late_tail_relations_fourth_edited_hf.json",
+      "responses_sha256": "c3365f195918958e77bb40505b9a1b7b961b1e5f58df6c7bf08e39a1ae0d557b",
+      "review": "late_tail_relations_fourth_review.json",
+      "review_sha256": "9207b502c7f9bb1869f3eded7b468379b7b20af6eb49541ec338598d98ec0cc0",
+      "guard_response_ids": [
+        "fourth_control_11",
+        "fourth_control_14",
+        "fourth_creator_0",
+        "fourth_deceivers_0",
+        "fourth_fairy_0",
+        "fourth_fish_father_0",
+        "fourth_fish_father_1",
+        "fourth_friend_0",
+        "fourth_friend_1",
+        "fourth_material_0",
+        "fourth_puppeteer_0",
+        "fourth_rescuer_0",
+        "fourth_rescuer_1",
+        "fourth_wood_donor_0",
+        "fourth_wood_donor_1"
+      ]
+    },
+    {
+      "responses": "minimal_fact_completion_third_original_hf.json",
+      "responses_sha256": "ddd83fdfdf1b16339d22223f961030a8509c4fb6e5854290bc7867e29fd90f69",
+      "restore_response_ids": [
+        "third_control_04",
+        "third_control_17"
+      ]
+    },
+    {
+      "responses": "late_tail_relations_fourth_original_hf.json",
+      "responses_sha256": "ff3a6466bcafa4462a25b528034859db51664754b27ef9fe9dff7b3d7d52990d",
+      "restore_response_ids": [
+        "fourth_control_07",
+        "fourth_control_15"
+      ]
+    }
+  ],
+  "sequence_count": 43,
+  "states": 658,
+  "weights_changed_for_diagnosis": true,
+  "temporary_read_only_capture_hooks": true,
+  "free_generation_performed": false,
+  "counts_as_correction": false,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "final_set_read": false,
+  "third_and_fourth_sets_already_observed": true
+}

@@ -1,0 +1,305 @@
+{
+  "reviewer": "Codex; explicit semantic annotations, not independent review",
+  "source_sha256": "9df43e7dc820339abcb93848061a7b05178384fc2b4eca022a77fe3a60199702",
+  "original_external_source_sha256": "719fc24de28db8c9c81ccdb74ebb660632e44c417706738c2d89b134979c378b",
+  "correct_identical_response_annotations_source": "results/bare_context_review.json",
+  "full_correct": 13,
+  "target_total": 24,
+  "calibration_full_correct_percent": 54.166666666666664,
+  "external_same_text": 24,
+  "external_same_generated_ids": 24,
+  "external_same_stop_token": 24,
+  "external_total": 24,
+  "faithful_narratives": 0,
+  "narrative_total": 2,
+  "changed_parameters_in_candidate_matrix": 4358144,
+  "narrative_state_rms_change_reduction_percent": 83.66870456713869,
+  "calibration_only": true,
+  "third_set_read": false,
+  "final_set_read": false,
+  "exported_as_checkpoint": false,
+  "current_checkpoint_attempt": 6,
+  "independent_fifty_percent_improvement_claimed": false,
+  "paired_original_hf_target_responses_available_for_this_screen": false,
+  "interpretation": "The smaller perturbation of measured original narrative states does not recover faithful or coherent free narratives. All 13 correct calibration responses and 24 external trajectories are retained, but no additional target is corrected. The candidate is not an acceptable final solution.",
+  "targets": [
+    {
+      "id": "second_creator_0",
+      "whole_correct": true,
+      "reason": "Distinguishes Geppetto, the fictional maker, from Collodi, the author."
+    },
+    {
+      "id": "second_creator_1",
+      "whole_correct": false,
+      "reason": "Corrupted colGeppito and a false carpenter Pinocchio relationship; not a coherent answer."
+    },
+    {
+      "id": "second_material_0",
+      "whole_correct": false,
+      "reason": "Starts with wood but adds malformed names and words and invented descriptions of the puppet."
+    },
+    {
+      "id": "second_material_1",
+      "whole_correct": false,
+      "reason": "Adds leather to wood."
+    },
+    {
+      "id": "second_nose_0",
+      "whole_correct": false,
+      "reason": "Adds false movement and incoherent claims about voice, hands, and body parts."
+    },
+    {
+      "id": "second_nose_1",
+      "whole_correct": false,
+      "reason": "Adds a rising nose and false purposes of awakening the heart and freeing teeth."
+    },
+    {
+      "id": "second_fairy_0",
+      "whole_correct": true,
+      "reason": "Answers the blue hair colour."
+    },
+    {
+      "id": "second_fairy_1",
+      "whole_correct": true,
+      "reason": "Answers the blue hair colour; In Nel and azul are language defects, not a false event."
+    },
+    {
+      "id": "second_deceivers_0",
+      "whole_correct": true,
+      "reason": "Identifies the Cat and Fox and their theft of the coins."
+    },
+    {
+      "id": "second_deceivers_1",
+      "whole_correct": true,
+      "reason": "Identifies the Cat and Fox and the promise of growing money."
+    },
+    {
+      "id": "second_donkey_0",
+      "whole_correct": false,
+      "reason": "Says donkey of landscapes and identifies the new animal as Pinocchio."
+    },
+    {
+      "id": "second_donkey_1",
+      "whole_correct": true,
+      "reason": "States the transformation into a donkey."
+    },
+    {
+      "id": "second_ending_0",
+      "whole_correct": false,
+      "reason": "The subject bambino di Pinocchio and forma ottima remain ambiguous; not certified whole-correct."
+    },
+    {
+      "id": "second_ending_1",
+      "whole_correct": false,
+      "reason": "Contradicts the transformation by stating that Pinocchio has not changed anything."
+    },
+    {
+      "id": "second_puppeteer_0",
+      "whole_correct": false,
+      "reason": "Attributes selling the spelling book to Mangiafoco, with a malformed book name."
+    },
+    {
+      "id": "second_puppeteer_1",
+      "whole_correct": true,
+      "reason": "Identifies Mangiafoco as the theatre director."
+    },
+    {
+      "id": "second_friend_0",
+      "whole_correct": true,
+      "reason": "Identifies Lucignolo."
+    },
+    {
+      "id": "second_friend_1",
+      "whole_correct": true,
+      "reason": "Identifies Lucignolo."
+    },
+    {
+      "id": "second_wood_donor_0",
+      "whole_correct": true,
+      "reason": "Identifies Maestro Ciliegia."
+    },
+    {
+      "id": "second_wood_donor_1",
+      "whole_correct": true,
+      "reason": "Identifies Maestro Ciliegia."
+    },
+    {
+      "id": "second_rescuer_0",
+      "whole_correct": true,
+      "reason": "Identifies Alidoro as the dog returning the rescue favour."
+    },
+    {
+      "id": "second_rescuer_1",
+      "whole_correct": false,
+      "reason": "Misidentifies Alidoro as the fisherman and adds a corrupted continuation."
+    },
+    {
+      "id": "second_fish_father_0",
+      "whole_correct": true,
+      "reason": "Identifies Geppetto as his father."
+    },
+    {
+      "id": "second_fish_father_1",
+      "whole_correct": false,
+      "reason": "Puts the fish inside Pinocchio and reverses the meeting roles."
+    }
+  ],
+  "external": [
+    {
+      "id": "second_control_00",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_01",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_02",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_03",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_04",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_05",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_06",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_07",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_08",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_09",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_10",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_11",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_12",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_13",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_14",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_15",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_16",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_17",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_18",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_19",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "long_water_cycle",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "long_addition",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "long_pasta",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "long_day_night",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    }
+  ],
+  "narratives": [
+    {
+      "id": "narration_0",
+      "whole_correct": false,
+      "reason": "Corrupted factual fragments and words, repeated invented dialogue and no coherent canonical plot."
+    },
+    {
+      "id": "narration_1",
+      "whole_correct": false,
+      "reason": "Repeats a false transformation into a dog in seven points, with corrupted wording."
+    }
+  ]
+}

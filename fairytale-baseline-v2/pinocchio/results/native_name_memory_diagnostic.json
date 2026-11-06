@@ -1,0 +1,354 @@
+{
+  "completed": true,
+  "spec": {
+    "utc": "2026-11-05T16:03:52.319555+00:00",
+    "decision_by": "Codex",
+    "parent": "unaltered original Qwen2.5-0.5B-Instruct in F32",
+    "blocks": [
+      15,
+      16
+    ],
+    "kv_group": 1,
+    "hypothesis": "Shared KV group1 in blocks15/16 supports starting and completing proper names. Store all subword states of three names in the same fixed prefix bank, rather than one terminal value per fact, and test a real weight-only implementation.",
+    "bank": [
+      {
+        "fact": "puppeteer",
+        "name": "Mangiafoco",
+        "token_id": 59048,
+        "piece": " Mang",
+        "source_position": 58,
+        "source_extra_context_tokens": 39,
+        "destination_slot": 7,
+        "effective_key_position": 19,
+        "pre_rope_rotation_positions": 12
+      },
+      {
+        "fact": "puppeteer",
+        "name": "Mangiafoco",
+        "token_id": 685,
+        "piece": "ia",
+        "source_position": 59,
+        "source_extra_context_tokens": 39,
+        "destination_slot": 8,
+        "effective_key_position": 20,
+        "pre_rope_rotation_positions": 12
+      },
+      {
+        "fact": "puppeteer",
+        "name": "Mangiafoco",
+        "token_id": 69,
+        "piece": "f",
+        "source_position": 60,
+        "source_extra_context_tokens": 39,
+        "destination_slot": 9,
+        "effective_key_position": 21,
+        "pre_rope_rotation_positions": 12
+      },
+      {
+        "fact": "puppeteer",
+        "name": "Mangiafoco",
+        "token_id": 13140,
+        "piece": "oco",
+        "source_position": 61,
+        "source_extra_context_tokens": 39,
+        "destination_slot": 10,
+        "effective_key_position": 22,
+        "pre_rope_rotation_positions": 12
+      },
+      {
+        "fact": "rescuer",
+        "name": "Alidoro",
+        "token_id": 1674,
+        "piece": " Al",
+        "source_position": 41,
+        "source_extra_context_tokens": 31,
+        "destination_slot": 11,
+        "effective_key_position": 10,
+        "pre_rope_rotation_positions": -1
+      },
+      {
+        "fact": "rescuer",
+        "name": "Alidoro",
+        "token_id": 307,
+        "piece": "id",
+        "source_position": 42,
+        "source_extra_context_tokens": 31,
+        "destination_slot": 12,
+        "effective_key_position": 11,
+        "pre_rope_rotation_positions": -1
+      },
+      {
+        "fact": "rescuer",
+        "name": "Alidoro",
+        "token_id": 18307,
+        "piece": "oro",
+        "source_position": 43,
+        "source_extra_context_tokens": 31,
+        "destination_slot": 13,
+        "effective_key_position": 12,
+        "pre_rope_rotation_positions": -1
+      },
+      {
+        "fact": "fish_father",
+        "name": "Geppetto",
+        "token_id": 4229,
+        "piece": " Ge",
+        "source_position": 51,
+        "source_extra_context_tokens": 34,
+        "destination_slot": 14,
+        "effective_key_position": 17,
+        "pre_rope_rotation_positions": 3
+      },
+      {
+        "fact": "fish_father",
+        "name": "Geppetto",
+        "token_id": 602,
+        "piece": "pp",
+        "source_position": 52,
+        "source_extra_context_tokens": 34,
+        "destination_slot": 15,
+        "effective_key_position": 18,
+        "pre_rope_rotation_positions": 3
+      },
+      {
+        "fact": "fish_father",
+        "name": "Geppetto",
+        "token_id": 52879,
+        "piece": "etto",
+        "source_position": 53,
+        "source_extra_context_tokens": 34,
+        "destination_slot": 16,
+        "effective_key_position": 19,
+        "pre_rope_rotation_positions": 3
+      }
+    ],
+    "all_names_same_for_every_question": true,
+    "oracle_relation_selection": false,
+    "native_value_gain": 1.0,
+    "key_positions": "Rotate each native pre-RoPE K by source_position minus source_extra_context_tokens minus destination_slot. After destination RoPE its effective position matches the reference key translated to the ordinary-question frame. No input position_ids are changed.",
+    "guard_rule": "Uncentered top128 right singular vectors of3130 observed outside-relation input states, plus all fixed-prefix positions not used as memory. This preserves those directions, not every external state.",
+    "outside_definition": "Outside the12 fact relations in the earlier diagnostic; some controls mention Pinocchio.",
+    "update": "For X=slot inputs and B=orthonormal protected row basis, Z=X-XB.TB. DeltaW=D.T pinv(Z).T, where D is desired native KV minus current KV including unchanged bias. Only rows64:128 of K/V weights change. Both pseudoinverse cutoffs1e-6; gain1; no sweep.",
+    "sequence_of_writes": "Write block15; recollect current block16 outside states and prefix under that write; write block16 toward the same ORIGINAL native donor values. The first write may already change external behavior, which must be measured.",
+    "scope": "A mechanism pilot within the broader Pinocchio task; it is not a replacement for the full objective or the multi-set verified candidate.",
+    "source_guard_metadata_sha256": "2c8c7b0579fb5933738b794dae248b577f52273a6f87b8be7c9b91e83410e331",
+    "donor_collection_sha256": "a17f01f16fd2a10fac98a38352282bf553a25223c12800c2eda6880ca67ed4f5",
+    "donor_review_sha256": "34123016b5109454b6c416d3553b0a98cc89ebb761514264acbec147f9063f32",
+    "fact_source_code_sha256": "19875bed2ebf65b90a2770572dfac30be30d199152fa2b5efd08f70e242f4b46",
+    "code_sha256": "2eaa7835ea38937ec378dbe56b5591eb9c79c6e2cd58a1644191c912dcdf22ac",
+    "helper_sha256": "cc39d2b809443a427f92fcb599561ef4a5328846ea0fb272b8858064ef18dc72",
+    "ordinary_screen_source_sha256": "640baf45a5bf24050a356d0f74aa6e1d181d1e957d185ad4c75dd7fb03defd7b",
+    "screen": "Same12 observed targets,4 controls,2 narratives and original sampling; no hooks/reference context in generation. Candidate frozen before outputs. No fresh-validation claim.",
+    "training": false,
+    "gradients": false,
+    "optimizer": false,
+    "parameter_search": false,
+    "reserved_final_used": false,
+    "full_answers_prescribed": false,
+    "EOS_programmed": false,
+    "exported_checkpoint_remains_attempt": 6
+  },
+  "writes": [
+    {
+      "block": 15,
+      "geometry": {
+        "outside_states": 3130,
+        "outside_principal_directions": 128,
+        "outside_principal_energy_fraction": 0.8604970096938073,
+        "other_prefix_positions": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          17,
+          18,
+          19,
+          20
+        ],
+        "protected_rank": 139,
+        "projected_slot_rank": 10,
+        "projected_slot_singular_values": [
+          38.73323261761769,
+          27.918725370015558,
+          22.61203813490447,
+          21.091972359631807,
+          18.53608914069803,
+          16.32742634164688,
+          15.192672855752459,
+          14.005955514199638,
+          13.003758176213886,
+          10.596164192987851
+        ],
+        "projection_condition_number": 3.655401323740331
+      },
+      "tensors": [
+        {
+          "tensor": "model.layers.15.self_attn.k_proj.weight",
+          "equation_relative_error_f32": 2.0400005664572666e-08,
+          "equation_max_abs_error_f32": 1.3398995446500805e-07,
+          "protected_basis_max_abs_change_f32": 4.532341580276884e-09,
+          "delta_norm": 2.1641134111716918,
+          "relative_delta_norm": 0.32909848542729186,
+          "outside_projection_relative_change": 0.08658668505609707,
+          "outside_row_relative_change_median": 0.07526311807243884,
+          "outside_row_relative_change_p95": 0.1429098297746116,
+          "outside_row_relative_change_max": 0.4343036798672478,
+          "all_outside_states_exactly_preserved": false,
+          "changed_values": 57344,
+          "before_sha256_f32": "9b92d969bec2aabcbaa45659a4990bfc1685fb3b9ad0c5cebba9ed059bc12df1",
+          "after_sha256_f32": "d42c24784ff3292941e7bf4fd1b91992df6af3451cfd6c37219f7316e9a07803"
+        },
+        {
+          "tensor": "model.layers.15.self_attn.v_proj.weight",
+          "equation_relative_error_f32": 3.193482571248241e-08,
+          "equation_max_abs_error_f32": 8.073361901228537e-08,
+          "protected_basis_max_abs_change_f32": 2.07836117109908e-09,
+          "delta_norm": 1.2802093088420294,
+          "relative_delta_norm": 0.23633247220843515,
+          "outside_projection_relative_change": 0.14613313218404655,
+          "outside_row_relative_change_median": 0.13501082594049546,
+          "outside_row_relative_change_p95": 0.23291498261691884,
+          "outside_row_relative_change_max": 0.5063718784448047,
+          "all_outside_states_exactly_preserved": false,
+          "changed_values": 57344,
+          "before_sha256_f32": "f960c047773b1cc9a406c23fda9ea924037eef81b8311f6a0404dd100a27cc4a",
+          "after_sha256_f32": "52e8cb96c9cacb47204978d115e86489a32f194fbeb3ad8ca485ca7bb4f492ad"
+        }
+      ]
+    },
+    {
+      "block": 16,
+      "geometry": {
+        "outside_states": 3130,
+        "outside_principal_directions": 128,
+        "outside_principal_energy_fraction": 0.8727962285847961,
+        "other_prefix_positions": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          17,
+          18,
+          19,
+          20
+        ],
+        "protected_rank": 139,
+        "projected_slot_rank": 10,
+        "projected_slot_singular_values": [
+          43.86353982704255,
+          33.92313354607161,
+          26.10753214447974,
+          22.97079522077537,
+          20.825058978469535,
+          19.55378475074002,
+          18.06151346361079,
+          17.068350598768294,
+          15.881845879344775,
+          13.35408368546991
+        ],
+        "projection_condition_number": 3.284653658024389
+      },
+      "tensors": [
+        {
+          "tensor": "model.layers.16.self_attn.k_proj.weight",
+          "equation_relative_error_f32": 1.8718640940371367e-08,
+          "equation_max_abs_error_f32": 3.124843930280008e-07,
+          "protected_basis_max_abs_change_f32": 4.246670397278773e-09,
+          "delta_norm": 2.4921660049005245,
+          "relative_delta_norm": 0.4754770105424916,
+          "outside_projection_relative_change": 0.10483784132385131,
+          "outside_row_relative_change_median": 0.09334421774367635,
+          "outside_row_relative_change_p95": 0.1685613059734004,
+          "outside_row_relative_change_max": 0.5659870727406203,
+          "all_outside_states_exactly_preserved": false,
+          "changed_values": 57344,
+          "before_sha256_f32": "e9e05738af327fb884349bf822c3ebe50055dfdf5690aa982c10343ff093baca",
+          "after_sha256_f32": "89f49a1d4494cf9af5611541536512cb49e1774717414f20de5a76a59abc6c4d"
+        },
+        {
+          "tensor": "model.layers.16.self_attn.v_proj.weight",
+          "equation_relative_error_f32": 2.3214504673041515e-08,
+          "equation_max_abs_error_f32": 9.693489722018e-08,
+          "protected_basis_max_abs_change_f32": 3.958336792023176e-09,
+          "delta_norm": 1.7275931301790195,
+          "relative_delta_norm": 0.3623415372754722,
+          "outside_projection_relative_change": 0.1896803285015534,
+          "outside_row_relative_change_median": 0.18818401255950454,
+          "outside_row_relative_change_p95": 0.3778366374641037,
+          "outside_row_relative_change_max": 1.0182162949895293,
+          "all_outside_states_exactly_preserved": false,
+          "changed_values": 57344,
+          "before_sha256_f32": "fae3d74643aa13c9ba6f420cd1c4dfb20b667c8ae5df55e0dc275ae01b8ea6bd",
+          "after_sha256_f32": "9c3f6edbdcab06f30ded3a43af370243139d6c0532d1282c76a0aca42e7db073"
+        }
+      ]
+    }
+  ],
+  "actual_forward_bank_checks": [
+    {
+      "block": 15,
+      "kind": "k",
+      "relative_error_actual_forward": 2.465849888722005e-07
+    },
+    {
+      "block": 15,
+      "kind": "v",
+      "relative_error_actual_forward": 3.2997792231981293e-07
+    },
+    {
+      "block": 16,
+      "kind": "k",
+      "relative_error_actual_forward": 2.1383399939622905e-07
+    },
+    {
+      "block": 16,
+      "kind": "v",
+      "relative_error_actual_forward": 2.5490695065855107e-07
+    }
+  ],
+  "tensor_differences": [
+    {
+      "tensor": "model.layers.15.self_attn.k_proj.weight",
+      "changed_values": 57344,
+      "before_sha256_f32": "9b92d969bec2aabcbaa45659a4990bfc1685fb3b9ad0c5cebba9ed059bc12df1",
+      "after_sha256_f32": "d42c24784ff3292941e7bf4fd1b91992df6af3451cfd6c37219f7316e9a07803"
+    },
+    {
+      "tensor": "model.layers.15.self_attn.v_proj.weight",
+      "changed_values": 57344,
+      "before_sha256_f32": "f960c047773b1cc9a406c23fda9ea924037eef81b8311f6a0404dd100a27cc4a",
+      "after_sha256_f32": "52e8cb96c9cacb47204978d115e86489a32f194fbeb3ad8ca485ca7bb4f492ad"
+    },
+    {
+      "tensor": "model.layers.16.self_attn.k_proj.weight",
+      "changed_values": 57344,
+      "before_sha256_f32": "e9e05738af327fb884349bf822c3ebe50055dfdf5690aa982c10343ff093baca",
+      "after_sha256_f32": "89f49a1d4494cf9af5611541536512cb49e1774717414f20de5a76a59abc6c4d"
+    },
+    {
+      "tensor": "model.layers.16.self_attn.v_proj.weight",
+      "changed_values": 57344,
+      "before_sha256_f32": "fae3d74643aa13c9ba6f420cd1c4dfb20b667c8ae5df55e0dc275ae01b8ea6bd",
+      "after_sha256_f32": "9c3f6edbdcab06f30ded3a43af370243139d6c0532d1282c76a0aca42e7db073"
+    }
+  ],
+  "changed_tensors": 4,
+  "changed_parameters": 229376,
+  "total_parameters": 494032768,
+  "changed_percent": 0.0464293089158005,
+  "all_other_parameter_hashes_unchanged": true,
+  "no_runtime_hooks": true,
+  "native_states_sha256": "0763cd303df50aa83cec9f41f90bbf1512fa418c380a0276101570e00395c848",
+  "after15_states_sha256": "4cd80dc7fa05c5110e1edb316ec46566283ee0cc61676c73aa929af0d17b92c8",
+  "basis_sha256": "e277d09bccc14842096ce27caf1ef68b448ca4b35320979eecb861a4c647ef75",
+  "partial_basis_sha256": "322e0c5c5cab7ba1c51e07f3f00667ea1baa292af57b3e34994d0e182f3b229d",
+  "weights_changed": true,
+  "candidate_promoted": false,
+  "free_generation_yet_completed": false
+}

@@ -1,0 +1,36 @@
+{
+  "utc": "2026-11-05T06:53:56.743442+00:00",
+  "decision_by": "Codex",
+  "hypothesis": "If a stable reference also fixes joint conditions on the previous semantic transport, the extra shared Q/K/V class selector might be unnecessary. This could avoid part of the observed native-language disturbance.",
+  "source_representation": "progress_carrier_states; no class selector or constant reference added",
+  "directions": "Reuse the earlier balanced block-whitened relation/progress directions. Both conditions use exactly the same directions and the same qualified guard policy.",
+  "conditions": [
+    "native_mean_reference",
+    "ideal_constant_reference"
+  ],
+  "changed_factor": "Only the scalar reference: P*mean_anchor versus median(fit_rms)/rms.",
+  "guard_states": 3281,
+  "guard_policy_source": "reference_fact_gates.json",
+  "neutral_native_next_token_policy_unchanged": true,
+  "minimum_gap": 0.05,
+  "threshold_fractions": [
+    0.2,
+    0.8
+  ],
+  "steepness": 160,
+  "negative_bound": 0.002,
+  "no_direct_comparison_to_old_all_native_guard_count": true,
+  "not_a_physical_constant_implementation": true,
+  "new_weights_modified": false,
+  "free_generation": false,
+  "counts_as_correction": false,
+  "parameter_search": false,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "third_set_used": false,
+  "final_set_read": false,
+  "source_sha256": "5e043a16a6745f696fdb663d8152f0a8be478f11379665d18846966b52cbb670",
+  "direction_source_sha256": "cd5d4e4d821990b3bf50f99cff7db766b6c79a3ee04bbc30a6f1b464bfcba05d",
+  "code_sha256": "321be8f0ff674cfa9810c8d3a603628403b07e389c421834546435df865e6579"
+}

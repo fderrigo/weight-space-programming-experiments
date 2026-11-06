@@ -1,0 +1,696 @@
+{
+  "utc": "2026-11-05T12:17:15.645391+00:00",
+  "definition": "One archived response file and one distinct weight-configuration label form one evaluation battery. Re-evaluating the same candidate on another question set counts as another battery, not as a newly invented patch.",
+  "included": "Actual modified-weight free-response experiments, numbered Ollama attempts and four direct-weight causal ablations.",
+  "excluded": "Original-model baselines, duplicate review files, supplied-prefix diagnostics, runtime-hook interventions, activation-only analyses and algebraic simulations.",
+  "limitations": "This is not a count of training epochs, assistant turns, unique algorithms, independent validation sets, or successful corrections. It counts recorded evaluation batteries, including unsuccessful or implementation-defective trials; it does not certify every intended case of an old run was completed.",
+  "evaluation_batteries": 59,
+  "response_source_files": 52,
+  "modified_response_records": 1763,
+  "runtime_error_records": 1,
+  "diagnostic_ablation_batteries": 4,
+  "numbered_converted_attempts": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "head_before_diary_inventory": "44f8a38739f67dc57e098a6171925fa4afe9db68",
+  "code_sha256": "fa32c809a856da29cd5448e2b274ed7a55b362291d77f2ce3b4acaec8d179b3e",
+  "entries": [
+    {
+      "source": "results\\attempt_1_quick.json",
+      "source_sha256": "484b93e5dbcfb14896caa5bcf677ed0095190806ed68f624a106a61ddf62cc7c",
+      "configuration": {
+        "attempt": 1
+      },
+      "response_records": 4,
+      "runtime_errors": 1,
+      "diagnostic_ablation": false,
+      "first_recorded_utc": "2026-11-04T17:52:54.300488+00:00",
+      "last_recorded_utc": "2026-11-04T17:53:08.241908+00:00"
+    },
+    {
+      "source": "results\\attempt_2_quick.json",
+      "source_sha256": "1a9e0987a7d021f60f4010d7e8433fbede36fa3173a9054ade20541484da3620",
+      "configuration": {
+        "attempt": 2
+      },
+      "response_records": 16,
+      "runtime_errors": 0,
+      "diagnostic_ablation": false,
+      "first_recorded_utc": "2026-11-04T17:57:21.281068+00:00",
+      "last_recorded_utc": "2026-11-04T18:00:14.377749+00:00"
+    },
+    {
+      "source": "results\\attempt_3_quick.json",
+      "source_sha256": "764bd50ce66fbcdf1e25698eedbdbf9f7b5d8cec4be918ea2680bc15610656af",
+      "configuration": {
+        "attempt": 3
+      },
+      "response_records": 7,
+      "runtime_errors": 0,
+      "diagnostic_ablation": false,
+      "first_recorded_utc": "2026-11-04T18:05:30.513106+00:00",
+      "last_recorded_utc": "2026-11-04T18:06:52.742704+00:00"
+    },
+    {
+      "source": "results\\attempt_4_transfer.json",
+      "source_sha256": "3cfd5ca5112e0080f44fe22e144c56fbd5be1abf7acee035f76ec1dd7e6e89d2",
+      "configuration": {
+        "attempt": 4
+      },
+      "response_records": 16,
+      "runtime_errors": 0,
+      "diagnostic_ablation": false,
+      "first_recorded_utc": "2026-11-04T19:10:09.949277+00:00",
+      "last_recorded_utc": "2026-11-04T19:13:20.422763+00:00"
+    },
+    {
+      "source": "results\\attempt_5_newdevelopment.json",
+      "source_sha256": "0171346a219c07bda2f0df7ed1e4bd24254fd5f24cb2ebc109794eaf831c5395",
+      "configuration": {
+        "attempt": 5
+      },
+      "response_records": 46,
+      "runtime_errors": 0,
+      "diagnostic_ablation": false,
+      "first_recorded_utc": "2026-11-04T20:25:48.824539+00:00",
+      "last_recorded_utc": "2026-11-04T20:30:45.950629+00:00"
+    },
+    {
+      "source": "results\\attempt_6_seconddevelopment.json",
+      "source_sha256": "3af2d397e5f058d26aacf21bebd34c854703646689a37c3399ee8c19b68b1b58",
+      "configuration": {
+        "attempt": 6
+      },
+      "response_records": 46,
+      "runtime_errors": 0,
+      "diagnostic_ablation": false,
+      "first_recorded_utc": "2026-11-04T20:53:59.613364+00:00",
+      "last_recorded_utc": "2026-11-04T21:00:12.472775+00:00"
+    },
+    {
+      "source": "results\\attention_gain_screen.json",
+      "source_sha256": "640baf45a5bf24050a356d0f74aa6e1d181d1e957d185ad4c75dd7fb03defd7b",
+      "configuration": {
+        "stage": "head_gain_2"
+      },
+      "response_records": 18,
+      "runtime_errors": 0,
+      "diagnostic_ablation": false,
+      "first_recorded_utc": null,
+      "last_recorded_utc": null
+    },
+    {
+      "source": "results\\bare_context_screen.json",
+      "source_sha256": "10dc69ee9235fad2018cc768d3b3be764281401de592eb88b69abf4401e6dd99",
+      "configuration": {},
+      "response_records": 50,
+      "runtime_errors": 0,
+      "diagnostic_ablation": false,
+      "first_recorded_utc": null,
+      "last_recorded_utc": null
+    },
+    {
+      "source": "results\\bounded_fact_screen.json",
+      "source_sha256": "0040346350ff274ef75906baab1818e60609b889d71d5549ac4757616970b774",
+      "configuration": {},
+      "response_records": 68,
+      "runtime_errors": 0,
+      "diagnostic_ablation": false,
+      "first_recorded_utc": null,
+      "last_recorded_utc": null
+    },
+    {
+      "source": "results\\bounded_relational_screen.json",
+      "source_sha256": "7f736c831e1c4fdd91313a03fe4ad898bc06d8f7fb6fa16b8463b3235be3209a",
+      "configuration": {
+        "gain": 1.0
+      },
+      "response_records": 12,
+      "runtime_errors": 0,
+      "diagnostic_ablation": false,
+      "first_recorded_utc": null,
+      "last_recorded_utc": null
+    },
+    {
+      "source": "results\\bounded_relational_screen.json",
+      "source_sha256": "7f736c831e1c4fdd91313a03fe4ad898bc06d8f7fb6fa16b8463b3235be3209a",
+      "configuration": {
+        "gain": 1.5
+      },
+      "response_records": 12,
+      "runtime_errors": 0,
+      "diagnostic_ablation": false,
+      "first_recorded_utc": null,
+      "last_recorded_utc": null
+    },
+    {
+      "source": "results\\bounded_residual_screen.json",
+      "source_sha256": "fb8866f999552f6c63043ad9c585e33a15b19620a3bf0255b82485593749d287",
+      "configuration": {},
+      "response_records": 50,
+      "runtime_errors": 0,
+      "diagnostic_ablation": false,
+      "first_recorded_utc": null,
+      "last_recorded_utc": null
+    },
+    {
+      "source": "results\\causal_component_tests.json",
+      "source_sha256": "c746ba050a835ff4c536cbe93fbd151d772d151f1b709292d1c4e7f0dce2392b",
+      "configuration": {
+        "candidate": "head_20_13"
+      },
+      "response_records": 16,
+      "runtime_errors": 0,
+      "diagnostic_ablation": true,
+      "first_recorded_utc": "2026-11-04T18:32:06.459162+00:00",
+      "last_recorded_utc": "2026-11-04T18:34:15.347161+00:00"
+    },
+    {
+      "source": "results\\causal_component_tests.json",
+      "source_sha256": "c746ba050a835ff4c536cbe93fbd151d772d151f1b709292d1c4e7f0dce2392b",
+      "configuration": {
+        "candidate": "heads_20_13_5"
+      },
+      "response_records": 16,
+      "runtime_errors": 0,
+      "diagnostic_ablation": true,
+      "first_recorded_utc": "2026-11-04T18:34:41.531528+00:00",
+      "last_recorded_utc": "2026-11-04T18:36:58.724108+00:00"
+    },
+    {
+      "source": "results\\causal_component_tests.json",
+      "source_sha256": "c746ba050a835ff4c536cbe93fbd151d772d151f1b709292d1c4e7f0dce2392b",
+      "configuration": {
+        "candidate": "mlp_23_six"
+      },
+      "response_records": 16,
+      "runtime_errors": 0,
+      "diagnostic_ablation": true,
+      "first_recorded_utc": "2026-11-04T18:37:42.129407+00:00",
+      "last_recorded_utc": "2026-11-04T18:40:09.884144+00:00"
+    },
+    {
+      "source": "results\\causal_component_tests.json",
+      "source_sha256": "c746ba050a835ff4c536cbe93fbd151d772d151f1b709292d1c4e7f0dce2392b",
+      "configuration": {
+        "candidate": "head_and_mlp"
+      },
+      "response_records": 16,
+      "runtime_errors": 0,
+      "diagnostic_ablation": true,
+      "first_recorded_utc": "2026-11-04T18:40:50.487844+00:00",
+      "last_recorded_utc": "2026-11-04T18:42:54.571571+00:00"
+    },
+    {
+      "source": "results\\centered_attention_fact_screen.json",
+      "source_sha256": "660b9eb74385189704273167742dc17e6bd1e67eae2b302b7376cfe75da3e3d7",
+      "configuration": {},
+      "response_records": 50,
+      "runtime_errors": 0,
+      "diagnostic_ablation": false,
+      "first_recorded_utc": null,
+      "last_recorded_utc": null
+    },
+    {
+      "source": "results\\centered_layer21_question_screen.json",
+      "source_sha256": "e1419e1067c0488cce773475433ba6d43a8bcd2db86799f4c0d477c73be0fc35",
+      "configuration": {
+        "stage": "edited_attention"
+      },
+      "response_records": 18,
+      "runtime_errors": 0,
+      "diagnostic_ablation": false,
+      "first_recorded_utc": null,
+      "last_recorded_utc": null
+    },
+    {
+      "source": "results\\contextual_readout_screen.json",
+      "source_sha256": "44fa6b8bfc1801c32137e89ecdf73d268bf5e90559e6c2771fbd2d8cf8aea71e",
+      "configuration": {},
+      "response_records": 50,
+      "runtime_errors": 0,
+      "diagnostic_ablation": false,
+      "first_recorded_utc": null,
+      "last_recorded_utc": null
+    },
+    {
+      "source": "results\\covariance_mean_screen.json",
+      "source_sha256": "d4265b6e4aedae86f5f058ee9a8caad56cd36d126b4ff1ad271238a12e66191e",
+      "configuration": {},
+      "response_records": 56,
+      "runtime_errors": 0,
+      "diagnostic_ablation": false,
+      "first_recorded_utc": null,
+      "last_recorded_utc": null
+    },
+    {
+      "source": "results\\erased_prototype_carrier_screen.json",
+      "source_sha256": "09e5be8c55c74cd39a72f1968c2d813e76853a13c3fbeaa59c728d9869974a4e",
+      "configuration": {
+        "stage": "edited_erased_prototype_carrier"
+      },
+      "response_records": 18,
+      "runtime_errors": 0,
+      "diagnostic_ablation": false,
+      "first_recorded_utc": null,
+      "last_recorded_utc": null
+    },
+    {
+      "source": "results\\expanded_context_screen.json",
+      "source_sha256": "10c74608e6b75bbc33ea97ccb0d2cc230e112655bf0b9b04e96b03a047165dfe",
+      "configuration": {},
+      "response_records": 50,
+      "runtime_errors": 0,
+      "diagnostic_ablation": false,
+      "first_recorded_utc": null,
+      "last_recorded_utc": null
+    },
+    {
+      "source": "results\\factorized_carrier_screen.json",
+      "source_sha256": "f58d55d566f4f4291e8e3464e2f332fe4013e77610d6c73eff0c723c262819c5",
+      "configuration": {
+        "stage": "edited_factorized_carrier"
+      },
+      "response_records": 18,
+      "runtime_errors": 0,
+      "diagnostic_ablation": false,
+      "first_recorded_utc": null,
+      "last_recorded_utc": null
+    },
+    {
+      "source": "results\\factorized_carrier_third_observed.json",
+      "source_sha256": "7a094c78e4d96fe4b5ee6f9f27686615ac560219f0096c6e500608d521a2e14f",
+      "configuration": {
+        "stage": "edited_factorized_carrier"
+      },
+      "response_records": 44,
+      "runtime_errors": 0,
+      "diagnostic_ablation": false,
+      "first_recorded_utc": null,
+      "last_recorded_utc": null
+    },
+    {
+      "source": "results\\hybrid_preservation_screen.json",
+      "source_sha256": "9df43e7dc820339abcb93848061a7b05178384fc2b4eca022a77fe3a60199702",
+      "configuration": {},
+      "response_records": 50,
+      "runtime_errors": 0,
+      "diagnostic_ablation": false,
+      "first_recorded_utc": null,
+      "last_recorded_utc": null
+    },
+    {
+      "source": "results\\late_margin_preservation_screen.json",
+      "source_sha256": "268b8e394bcb6068e1a1501cc694d9c9bc274346e651afca5578d4a8a05bae4b",
+      "configuration": {
+        "stage": "edited_late_margin_preservation"
+      },
+      "response_records": 18,
+      "runtime_errors": 0,
+      "diagnostic_ablation": false,
+      "first_recorded_utc": null,
+      "last_recorded_utc": null
+    },
+    {
+      "source": "results\\late_margin_preservation_third_observed.json",
+      "source_sha256": "1de386a791e2df2c351146df3d0242b408b8c5d64e0e0c376b1bbdbb7d5de432",
+      "configuration": {
+        "stage": "edited_late_margin_preservation"
+      },
+      "response_records": 44,
+      "runtime_errors": 0,
+      "diagnostic_ablation": false,
+      "first_recorded_utc": null,
+      "last_recorded_utc": null
+    },
+    {
+      "source": "results\\late_selector_fact_screen.json",
+      "source_sha256": "b3ec4318d91e042d4a69048d100e31bfa205ad32e46fc612bbe9dc714421c140",
+      "configuration": {
+        "stage": "edited_late_selector_fact"
+      },
+      "response_records": 18,
+      "runtime_errors": 0,
+      "diagnostic_ablation": false,
+      "first_recorded_utc": null,
+      "last_recorded_utc": null
+    },
+    {
+      "source": "results\\middle22_protected_screen.json",
+      "source_sha256": "45eb98c7622edb4bcd1ac7194bc2c17829acc9639fef643ae73d579c534969a3",
+      "configuration": {},
+      "response_records": 34,
+      "runtime_errors": 0,
+      "diagnostic_ablation": false,
+      "first_recorded_utc": null,
+      "last_recorded_utc": null
+    },
+    {
+      "source": "results\\minimal_fact_completion_screen.json",
+      "source_sha256": "810697647ac1da28a508052d2d51970635e4d198b77e35a55036d095141e8f12",
+      "configuration": {},
+      "response_records": 50,
+      "runtime_errors": 0,
+      "diagnostic_ablation": false,
+      "first_recorded_utc": null,
+      "last_recorded_utc": null
+    },
+    {
+      "source": "results\\minimal_fact_completion_third_edited_hf.json",
+      "source_sha256": "41c956978dc31c93656776ad9c9c74fbf246d72ffaeb771f89044092ce6f44bf",
+      "configuration": {},
+      "response_records": 44,
+      "runtime_errors": 0,
+      "diagnostic_ablation": false,
+      "first_recorded_utc": null,
+      "last_recorded_utc": null
+    },
+    {
+      "source": "results\\multipoint_protected_screen.json",
+      "source_sha256": "3db20599f646c9d149c799d89e175fd176bcd0eab5ef2914dd2f531523e50b26",
+      "configuration": {},
+      "response_records": 68,
+      "runtime_errors": 0,
+      "diagnostic_ablation": false,
+      "first_recorded_utc": null,
+      "last_recorded_utc": null
+    },
+    {
+      "source": "results\\native_completion_2077_screen.json",
+      "source_sha256": "ae2e19797a853ee61da147110a8e44053bd422a95abb3f2a36d457fef159fd31",
+      "configuration": {},
+      "response_records": 50,
+      "runtime_errors": 0,
+      "diagnostic_ablation": false,
+      "first_recorded_utc": null,
+      "last_recorded_utc": null
+    },
+    {
+      "source": "results\\orthogonal_distinct_512_screen.json",
+      "source_sha256": "6f70e62a567f71725e855b7de8ff6e2177673f58431fe0849bb59ae5b981f7a6",
+      "configuration": {},
+      "response_records": 12,
+      "runtime_errors": 0,
+      "diagnostic_ablation": false,
+      "first_recorded_utc": null,
+      "last_recorded_utc": null
+    },
+    {
+      "source": "results\\orthogonal_story_natural_512_controls_screen.json",
+      "source_sha256": "2f5e0de87b18fc7c466034aa994baf2bdf7eeff2d3703ca21a5d9c47196bb2a8",
+      "configuration": {},
+      "response_records": 26,
+      "runtime_errors": 0,
+      "diagnostic_ablation": false,
+      "first_recorded_utc": null,
+      "last_recorded_utc": null
+    },
+    {
+      "source": "results\\orthogonal_story_natural_512_generated_screen.json",
+      "source_sha256": "99da76ec793d22e688954eba7e59965369e8b6509b0dc3ae0486fb1dd8d220c5",
+      "configuration": {},
+      "response_records": 26,
+      "runtime_errors": 0,
+      "diagnostic_ablation": false,
+      "first_recorded_utc": null,
+      "last_recorded_utc": null
+    },
+    {
+      "source": "results\\orthogonal_story_roles_2048_controls_native_screen.json",
+      "source_sha256": "2788b7287c1d15d18e30b2d8106f9da47395868b9f96c90b4af7080e9d03ece0",
+      "configuration": {},
+      "response_records": 20,
+      "runtime_errors": 0,
+      "diagnostic_ablation": false,
+      "first_recorded_utc": null,
+      "last_recorded_utc": null
+    },
+    {
+      "source": "results\\orthogonal_story_roles_2048_controls_native_v2_screen.json",
+      "source_sha256": "548132e2d9bc51d5855c07f816141c4182afa69650bc81ef050d3b76f41eab76",
+      "configuration": {},
+      "response_records": 26,
+      "runtime_errors": 0,
+      "diagnostic_ablation": false,
+      "first_recorded_utc": null,
+      "last_recorded_utc": null
+    },
+    {
+      "source": "results\\orthogonal_story_start_512_generated_screen.json",
+      "source_sha256": "15cbaa4741c0cf17bdc8abfd9c4b86c218f9b7917f80eabdfa834d7ae2604cc2",
+      "configuration": {},
+      "response_records": 26,
+      "runtime_errors": 0,
+      "diagnostic_ablation": false,
+      "first_recorded_utc": null,
+      "last_recorded_utc": null
+    },
+    {
+      "source": "results\\pairwise_constraint_screen.json",
+      "source_sha256": "e439d8c4cfefcaeb21a6cf3e671f3203111e2520d942cd32d206fae3aa5871f9",
+      "configuration": {},
+      "response_records": 50,
+      "runtime_errors": 0,
+      "diagnostic_ablation": false,
+      "first_recorded_utc": null,
+      "last_recorded_utc": null
+    },
+    {
+      "source": "results\\progress_prototype_carrier_screen.json",
+      "source_sha256": "429789eadd9ff41d1777086f6a965770688895b7a0b7b83ebafd668ee41fb927",
+      "configuration": {
+        "stage": "edited_progress_prototype_carrier"
+      },
+      "response_records": 18,
+      "runtime_errors": 0,
+      "diagnostic_ablation": false,
+      "first_recorded_utc": null,
+      "last_recorded_utc": null
+    },
+    {
+      "source": "results\\reference_selector_fact_screen.json",
+      "source_sha256": "231161d07b4f4da5a802fe7a87a51d3847dbfabb0394ec99dc206e5f9d134738",
+      "configuration": {
+        "stage": "edited_reference_selector_fact"
+      },
+      "response_records": 18,
+      "runtime_errors": 0,
+      "diagnostic_ablation": false,
+      "first_recorded_utc": null,
+      "last_recorded_utc": null
+    },
+    {
+      "source": "results\\relational_distinct_screen.json",
+      "source_sha256": "d2d21036f6839c75a20f9236b49da59e062cefddf4966c90783cc12e747b4e58",
+      "configuration": {
+        "gain": 1.0
+      },
+      "response_records": 12,
+      "runtime_errors": 0,
+      "diagnostic_ablation": false,
+      "first_recorded_utc": null,
+      "last_recorded_utc": null
+    },
+    {
+      "source": "results\\relational_distinct_screen.json",
+      "source_sha256": "d2d21036f6839c75a20f9236b49da59e062cefddf4966c90783cc12e747b4e58",
+      "configuration": {
+        "gain": 1.5
+      },
+      "response_records": 12,
+      "runtime_errors": 0,
+      "diagnostic_ablation": false,
+      "first_recorded_utc": null,
+      "last_recorded_utc": null
+    },
+    {
+      "source": "results\\relational_screen.json",
+      "source_sha256": "c9a5f4279130943e9e8b60ac54aa4bbba9f29afae54e4a86a847ddb3afa42a05",
+      "configuration": {
+        "gain": 0.5
+      },
+      "response_records": 12,
+      "runtime_errors": 0,
+      "diagnostic_ablation": false,
+      "first_recorded_utc": null,
+      "last_recorded_utc": null
+    },
+    {
+      "source": "results\\relational_screen.json",
+      "source_sha256": "c9a5f4279130943e9e8b60ac54aa4bbba9f29afae54e4a86a847ddb3afa42a05",
+      "configuration": {
+        "gain": 1.0
+      },
+      "response_records": 12,
+      "runtime_errors": 0,
+      "diagnostic_ablation": false,
+      "first_recorded_utc": null,
+      "last_recorded_utc": null
+    },
+    {
+      "source": "results\\relational_story_screen.json",
+      "source_sha256": "a41053eae9796b97a22742e7f85ea3d6c3b3052b1525c9691dd1e44848ebea1e",
+      "configuration": {
+        "gain": 1.5
+      },
+      "response_records": 26,
+      "runtime_errors": 0,
+      "diagnostic_ablation": false,
+      "first_recorded_utc": null,
+      "last_recorded_utc": null
+    },
+    {
+      "source": "results\\semantic_carrier_screen.json",
+      "source_sha256": "bde59e07246b468c6fc162bdf890737dffb3d1d470b84feb10e19e7f62443be4",
+      "configuration": {
+        "stage": "edited_carrier",
+        "mode": "unprotected"
+      },
+      "response_records": 18,
+      "runtime_errors": 0,
+      "diagnostic_ablation": false,
+      "first_recorded_utc": null,
+      "last_recorded_utc": null
+    },
+    {
+      "source": "results\\semantic_carrier_screen.json",
+      "source_sha256": "bde59e07246b468c6fc162bdf890737dffb3d1d470b84feb10e19e7f62443be4",
+      "configuration": {
+        "stage": "edited_carrier",
+        "mode": "protected"
+      },
+      "response_records": 18,
+      "runtime_errors": 0,
+      "diagnostic_ablation": false,
+      "first_recorded_utc": null,
+      "last_recorded_utc": null
+    },
+    {
+      "source": "results\\sentence_completion_combined_screen.json",
+      "source_sha256": "e97210376b2a66da958438beadc479ee0e7823908985cbd7b7b13da46f36995a",
+      "configuration": {
+        "condition": "combined"
+      },
+      "response_records": 50,
+      "runtime_errors": 0,
+      "diagnostic_ablation": false,
+      "first_recorded_utc": null,
+      "last_recorded_utc": null
+    },
+    {
+      "source": "results\\late_target_contrasts_screen.json",
+      "source_sha256": "dba5478e9a1ec62e22c661c9b58f68d3ff60b71f853f58581e15154348147918",
+      "configuration": {
+        "stage": "edited_late_target_contrasts"
+      },
+      "response_records": 18,
+      "runtime_errors": 0,
+      "diagnostic_ablation": false,
+      "first_recorded_utc": null,
+      "last_recorded_utc": null
+    },
+    {
+      "source": "results\\late_target_contrasts_third_observed.json",
+      "source_sha256": "ac0f5fb873a4eeed9a0379097536ac8e7e9d2511797f41b7720b6d82e07e8cf7",
+      "configuration": {
+        "stage": "edited_late_target_contrasts"
+      },
+      "response_records": 44,
+      "runtime_errors": 0,
+      "diagnostic_ablation": false,
+      "first_recorded_utc": null,
+      "last_recorded_utc": null
+    },
+    {
+      "source": "results\\late_tail_relations_third_observed.json",
+      "source_sha256": "625da585a44d5acfe793a5ba8a7f315eca33e5018ebc8b7eaedd139c1f0bfec2",
+      "configuration": {
+        "stage": "edited_late_tail_relations"
+      },
+      "response_records": 44,
+      "runtime_errors": 0,
+      "diagnostic_ablation": false,
+      "first_recorded_utc": null,
+      "last_recorded_utc": null
+    },
+    {
+      "source": "results\\late_tail_relations_screen.json",
+      "source_sha256": "fdee5ac6a862d16b7aa6ed27903bc65dc0218b6cde7b86c2ef8f95e51bf99555",
+      "configuration": {
+        "stage": "edited_late_tail_relations"
+      },
+      "response_records": 18,
+      "runtime_errors": 0,
+      "diagnostic_ablation": false,
+      "first_recorded_utc": null,
+      "last_recorded_utc": null
+    },
+    {
+      "source": "results\\late_tail_relations_fourth_edited_hf.json",
+      "source_sha256": "c3365f195918958e77bb40505b9a1b7b961b1e5f58df6c7bf08e39a1ae0d557b",
+      "configuration": {
+        "stage": "edited_late_tail_relations_fourth"
+      },
+      "response_records": 44,
+      "runtime_errors": 0,
+      "diagnostic_ablation": false,
+      "first_recorded_utc": null,
+      "last_recorded_utc": null
+    },
+    {
+      "source": "results\\late_native_recovery_fourth_observed.json",
+      "source_sha256": "7412a330fc2dbe7372b19735ca2fc5e8cab0c2831bb404d4a4006764146ae705",
+      "configuration": {
+        "stage": "edited_late_native_recovery"
+      },
+      "response_records": 44,
+      "runtime_errors": 0,
+      "diagnostic_ablation": false,
+      "first_recorded_utc": "2026-11-05T11:13:41.813427+00:00",
+      "last_recorded_utc": null
+    },
+    {
+      "source": "results\\late_native_recovery_third_observed.json",
+      "source_sha256": "ba74ec692d0f4b193d3798e46e5a58c547306a64324ff10b04423e68d333487a",
+      "configuration": {
+        "stage": "edited_late_native_recovery"
+      },
+      "response_records": 44,
+      "runtime_errors": 0,
+      "diagnostic_ablation": false,
+      "first_recorded_utc": "2026-11-05T11:19:47.200416+00:00",
+      "last_recorded_utc": null
+    },
+    {
+      "source": "results\\late_native_recovery_screen.json",
+      "source_sha256": "1343ae44f9aef6c8161d3a5b92ca9aac2b91cde84480151a41cae55d79e65333",
+      "configuration": {
+        "stage": "edited_late_native_recovery"
+      },
+      "response_records": 18,
+      "runtime_errors": 0,
+      "diagnostic_ablation": false,
+      "first_recorded_utc": "2026-11-05T11:25:58.207601+00:00",
+      "last_recorded_utc": null
+    },
+    {
+      "source": "results\\late_narrative_origins_screen.json",
+      "source_sha256": "929cb5b187e9ff1a23bfcad830a27971b1ac53f70ea374197ddb2cba745465fe",
+      "configuration": {
+        "stage": "edited_late_narrative_origins"
+      },
+      "response_records": 18,
+      "runtime_errors": 0,
+      "diagnostic_ablation": false,
+      "first_recorded_utc": "2026-11-05T12:05:30.399490+00:00",
+      "last_recorded_utc": null
+    }
+  ],
+  "previous_inventory_sha256": "bb4fafe169e81e98cba0ab3e73fb71b06cf2c9a945d262c2784c14812e59510c",
+  "construction": "Verify prior sources and add one completed ordinary18-response origin-concept evaluation. Fixed-history traces and supplied minimal units are excluded."
+}

@@ -1,0 +1,177 @@
+{
+  "utc": "2026-11-04T22:30:37.134791+00:00",
+  "model": "original Qwen2.5-0.5B-Instruct",
+  "weights_changed": false,
+  "facts_supplied": false,
+  "pairs": [
+    {
+      "id": "newdev_creator_0",
+      "fact": "creator",
+      "group": "target",
+      "it": "Qual è il nome dell’uomo che fabbrica Pinocchio nel racconto di Collodi? Rispondi in una o due frasi.",
+      "zh": "在科洛迪的《木偶奇遇记》中，亲手制作匹诺曹这个木偶的人叫什么名字？ 请用一两句话回答。"
+    },
+    {
+      "id": "newdev_material_0",
+      "fact": "material",
+      "group": "target",
+      "it": "Da che materiale è composto il burattino protagonista di Pinocchio? Rispondi in una o due frasi.",
+      "zh": "《木偶奇遇记》的主人公匹诺曹最初是用什么材料制作的？ 请用一两句话回答。"
+    },
+    {
+      "id": "newdev_nose_0",
+      "fact": "nose",
+      "group": "target",
+      "it": "Quale cambiamento fisico del naso rivela le menzogne di Pinocchio? Rispondi in una o due frasi.",
+      "zh": "匹诺曹说谎时，他的鼻子会发生什么变化？ 请用一两句话回答。"
+    },
+    {
+      "id": "newdev_fairy_0",
+      "fact": "fairy",
+      "group": "target",
+      "it": "Di quale colore è la capigliatura della Fata nel libro di Collodi su Pinocchio? Rispondi in una o due frasi.",
+      "zh": "科洛迪原著中，帮助匹诺曹的仙女的头发是什么颜色？ 请用一两句话回答。"
+    },
+    {
+      "id": "newdev_deceivers_0",
+      "fact": "deceivers",
+      "group": "target",
+      "it": "Chi sono i due imbroglioni che attirano Pinocchio con la promessa di far crescere le monete? Rispondi in una o due frasi.",
+      "zh": "哪两个角色骗匹诺曹把金币埋起来，声称钱会变多？ 请用一两句话回答。"
+    },
+    {
+      "id": "newdev_donkey_0",
+      "fact": "donkey",
+      "group": "target",
+      "it": "In quale animale viene mutato Pinocchio dopo aver vissuto nel Paese dei balocchi? Rispondi in una o due frasi.",
+      "zh": "匹诺曹在玩具国玩乐后变成了什么动物？ 请用一两句话回答。"
+    },
+    {
+      "id": "newdev_ending_0",
+      "fact": "ending",
+      "group": "target",
+      "it": "Quale nuova natura acquista Pinocchio nel finale del romanzo di Collodi? Rispondi in una o due frasi.",
+      "zh": "科洛迪的故事结尾，匹诺曹最终变成了什么？ 请用一两句话回答。"
+    },
+    {
+      "id": "newdev_puppeteer_0",
+      "fact": "puppeteer",
+      "group": "target",
+      "it": "Chi è il padrone del teatro di burattini visitato da Pinocchio? Rispondi in una o due frasi.",
+      "zh": "匹诺曹去看的木偶戏剧院的主人叫什么名字？ 请用一两句话回答。"
+    },
+    {
+      "id": "newdev_friend_0",
+      "fact": "friend",
+      "group": "target",
+      "it": "Come si chiama il ragazzo che convince Pinocchio ad andare nel Paese dei balocchi? Rispondi in una o due frasi.",
+      "zh": "哪个男孩劝匹诺曹去玩具国？这个男孩叫什么名字？ 请用一两句话回答。"
+    },
+    {
+      "id": "newdev_wood_donor_0",
+      "fact": "wood_donor",
+      "group": "target",
+      "it": "Qual è il soprannome del falegname che cede a Geppetto il legno parlante? Rispondi in una o due frasi.",
+      "zh": "把会说话的木头送给杰佩托的木匠，绰号是什么？ 请用一两句话回答。"
+    },
+    {
+      "id": "newdev_rescuer_0",
+      "fact": "rescuer",
+      "group": "target",
+      "it": "Quale animale, e con quale nome, libera Pinocchio dal pescatore verde? Rispondi in una o due frasi.",
+      "zh": "哪只狗把匹诺曹从绿色渔夫手中救出来？它叫什么名字？ 请用一两句话回答。"
+    },
+    {
+      "id": "newdev_fish_father_0",
+      "fact": "fish_father",
+      "group": "target",
+      "it": "Quale familiare incontra Pinocchio quando entra nel ventre del terribile Pesce-cane? Rispondi in una o due frasi.",
+      "zh": "匹诺曹在大鲨鱼肚子里找到了哪个亲人？ 请用一两句话回答。"
+    },
+    {
+      "id": "language_control_france",
+      "fact": "france",
+      "group": "control",
+      "it": "Qual è la capitale della Francia? Rispondi in una o due frasi.",
+      "zh": "法国的首都是哪里？ 请用一两句话回答。"
+    },
+    {
+      "id": "language_control_italy",
+      "fact": "italy",
+      "group": "control",
+      "it": "Qual è la capitale dell’Italia? Rispondi in una o due frasi.",
+      "zh": "意大利的首都是哪里？ 请用一两句话回答。"
+    },
+    {
+      "id": "language_control_addition",
+      "fact": "addition",
+      "group": "control",
+      "it": "Quanto fa due più due? Rispondi in una o due frasi.",
+      "zh": "二加二等于多少？ 请用一两句话回答。"
+    },
+    {
+      "id": "language_control_dog",
+      "fact": "dog",
+      "group": "control",
+      "it": "Quale animale domestico abbaia? Rispondi in una o due frasi.",
+      "zh": "哪种家养动物会汪汪叫？ 请用一两句话回答。"
+    },
+    {
+      "id": "language_control_cat",
+      "fact": "cat",
+      "group": "control",
+      "it": "Quale animale domestico miagola? Rispondi in una o due frasi.",
+      "zh": "哪种家养动物会喵喵叫？ 请用一两句话回答。"
+    },
+    {
+      "id": "language_control_sky",
+      "fact": "sky",
+      "group": "control",
+      "it": "Di che colore è il cielo sereno? Rispondi in una o due frasi.",
+      "zh": "晴朗的天空是什么颜色？ 请用一两句话回答。"
+    },
+    {
+      "id": "language_control_banana",
+      "fact": "banana",
+      "group": "control",
+      "it": "Di che colore è normalmente una banana matura? Rispondi in una o due frasi.",
+      "zh": "成熟的香蕉通常是什么颜色？ 请用一两句话回答。"
+    },
+    {
+      "id": "language_control_wood",
+      "fact": "wood",
+      "group": "control",
+      "it": "Quale materiale usa principalmente un falegname? Rispondi in una o due frasi.",
+      "zh": "木匠主要使用什么材料？ 请用一两句话回答。"
+    },
+    {
+      "id": "language_control_mother",
+      "fact": "mother",
+      "group": "control",
+      "it": "Come si chiama il genitore femminile di una persona? Rispondi in una o due frasi.",
+      "zh": "一个人的女性家长叫什么？ 请用一两句话回答。"
+    },
+    {
+      "id": "language_control_grandmother",
+      "fact": "grandmother",
+      "group": "control",
+      "it": "La madre di mia madre che parentela ha con me? Rispondi in una o due frasi.",
+      "zh": "我妈妈的妈妈和我是什么关系？ 请用一两句话回答。"
+    },
+    {
+      "id": "language_control_seasons",
+      "fact": "seasons",
+      "group": "control",
+      "it": "Quale stagione viene dopo la primavera? Rispondi in una o due frasi.",
+      "zh": "春天之后是什么季节？ 请用一两句话回答。"
+    },
+    {
+      "id": "language_control_water",
+      "fact": "water",
+      "group": "control",
+      "it": "In quale ambiente vivono normalmente i pesci? Rispondi in una o due frasi.",
+      "zh": "鱼通常生活在什么环境中？ 请用一两句话回答。"
+    }
+  ],
+  "hidden_state_index": "0=embedding; 1..23=raw output of block 0..22; 24=final normalized output"
+}

@@ -1,0 +1,340 @@
+{
+  "reviewer": "Codex; explicit semantic annotations, not independent review",
+  "source_sha256": "810697647ac1da28a508052d2d51970635e4d198b77e35a55036d095141e8f12",
+  "complete_native_diagnostic_sha256": "39af0f004f9e5c1e909f2d312b7e4996899c09aaeb98130e93c8ff72c8d58987",
+  "original_external_source_sha256": "719fc24de28db8c9c81ccdb74ebb660632e44c417706738c2d89b134979c378b",
+  "original_narrative_source_sha256": "640baf45a5bf24050a356d0f74aa6e1d181d1e957d185ad4c75dd7fb03defd7b",
+  "full_correct": 19,
+  "target_total": 24,
+  "calibration_full_correct_percent": 79.16666666666667,
+  "conservative_count_excluding_awkward_material_aside": 18,
+  "external_same_text": 24,
+  "external_same_generated_ids": 24,
+  "external_same_stop_token": 24,
+  "external_total": 24,
+  "narrative_same_text": 2,
+  "narrative_same_generated_ids": 2,
+  "original_faithful_narratives": 0,
+  "edited_faithful_narratives": 0,
+  "narrative_total": 2,
+  "changed_parameters_in_candidate": 4358143,
+  "changed_parameter_percent": 0.8821566669844864,
+  "calibration_only": true,
+  "third_set_read": false,
+  "final_set_read": false,
+  "exported_as_checkpoint": false,
+  "current_checkpoint_attempt": 6,
+  "independent_fifty_percent_improvement_claimed": false,
+  "paired_original_hf_target_responses_available_for_this_screen": false,
+  "interpretation": "The edited weights autonomously generate the minimal concepts and all measured native continuations. There are 19 whole-correct calibration responses, or 18 excluding a stylistically awkward material aside; these are not fresh-question repair rates. All 24 external and two narrative trajectories are identical to the original. Both narratives remain false, so narrative repair is still unresolved.",
+  "targets": [
+    {
+      "id": "second_creator_0",
+      "whole_correct": true,
+      "reason": "The supplied concept and native continuation state the requested fact without false additions.",
+      "matches_complete_native_diagnostic": true
+    },
+    {
+      "id": "second_creator_1",
+      "whole_correct": true,
+      "reason": "The supplied concept and native continuation state the requested fact without false additions.",
+      "matches_complete_native_diagnostic": true
+    },
+    {
+      "id": "second_material_0",
+      "whole_correct": true,
+      "reason": "Correctly identifies wood/firewood. The completed aside about Geppetto is stylistically awkward but adds no false plot event; the earlier diagnostic was withheld because its aside was truncated. Now the original continuation ends with a period and native stop.",
+      "matches_complete_native_diagnostic": true
+    },
+    {
+      "id": "second_material_1",
+      "whole_correct": true,
+      "reason": "The supplied concept and native continuation state the requested fact without false additions.",
+      "matches_complete_native_diagnostic": true
+    },
+    {
+      "id": "second_nose_0",
+      "whole_correct": false,
+      "reason": "Adds false hand/finger movement, light in the skin, and face changes.",
+      "matches_complete_native_diagnostic": true
+    },
+    {
+      "id": "second_nose_1",
+      "whole_correct": true,
+      "reason": "The supplied concept and native continuation state the requested fact without false additions.",
+      "matches_complete_native_diagnostic": true
+    },
+    {
+      "id": "second_fairy_0",
+      "whole_correct": true,
+      "reason": "The supplied concept and native continuation state the requested fact without false additions.",
+      "matches_complete_native_diagnostic": true
+    },
+    {
+      "id": "second_fairy_1",
+      "whole_correct": true,
+      "reason": "The supplied concept and native continuation state the requested fact without false additions.",
+      "matches_complete_native_diagnostic": true
+    },
+    {
+      "id": "second_deceivers_0",
+      "whole_correct": true,
+      "reason": "The supplied concept and native continuation state the requested fact without false additions.",
+      "matches_complete_native_diagnostic": true
+    },
+    {
+      "id": "second_deceivers_1",
+      "whole_correct": true,
+      "reason": "The supplied concept and native continuation state the requested fact without false additions.",
+      "matches_complete_native_diagnostic": true
+    },
+    {
+      "id": "second_donkey_0",
+      "whole_correct": true,
+      "reason": "The supplied concept and native continuation state the requested fact without false additions.",
+      "matches_complete_native_diagnostic": true
+    },
+    {
+      "id": "second_donkey_1",
+      "whole_correct": false,
+      "reason": "Names the donkey but leaves transformation roles ambiguous in the malformed sentence; not certified whole-correct.",
+      "matches_complete_native_diagnostic": true
+    },
+    {
+      "id": "second_ending_0",
+      "whole_correct": false,
+      "reason": "Ambiguous child-of-Pinocchio subject and an invented title Il Bambino di Pinocchio.",
+      "matches_complete_native_diagnostic": true
+    },
+    {
+      "id": "second_ending_1",
+      "whole_correct": true,
+      "reason": "The supplied concept and native continuation state the requested fact without false additions.",
+      "matches_complete_native_diagnostic": true
+    },
+    {
+      "id": "second_puppeteer_0",
+      "whole_correct": false,
+      "reason": "The follow-on sentence again assigns the spelling-book sale to the puppeteer and adds unsupported encounter details.",
+      "matches_complete_native_diagnostic": true
+    },
+    {
+      "id": "second_puppeteer_1",
+      "whole_correct": true,
+      "reason": "The supplied concept and native continuation state the requested fact without false additions.",
+      "matches_complete_native_diagnostic": true
+    },
+    {
+      "id": "second_friend_0",
+      "whole_correct": true,
+      "reason": "The supplied concept and native continuation state the requested fact without false additions.",
+      "matches_complete_native_diagnostic": true
+    },
+    {
+      "id": "second_friend_1",
+      "whole_correct": true,
+      "reason": "The supplied concept and native continuation state the requested fact without false additions.",
+      "matches_complete_native_diagnostic": true
+    },
+    {
+      "id": "second_wood_donor_0",
+      "whole_correct": true,
+      "reason": "The supplied concept and native continuation state the requested fact without false additions.",
+      "matches_complete_native_diagnostic": true
+    },
+    {
+      "id": "second_wood_donor_1",
+      "whole_correct": true,
+      "reason": "The supplied concept and native continuation state the requested fact without false additions.",
+      "matches_complete_native_diagnostic": true
+    },
+    {
+      "id": "second_rescuer_0",
+      "whole_correct": true,
+      "reason": "The supplied concept and native continuation state the requested fact without false additions.",
+      "matches_complete_native_diagnostic": true
+    },
+    {
+      "id": "second_rescuer_1",
+      "whole_correct": false,
+      "reason": "Does not coherently state the rescue and adds unrelated fictional-game commentary.",
+      "matches_complete_native_diagnostic": true
+    },
+    {
+      "id": "second_fish_father_0",
+      "whole_correct": true,
+      "reason": "The supplied concept and native continuation state the requested fact without false additions.",
+      "matches_complete_native_diagnostic": true
+    },
+    {
+      "id": "second_fish_father_1",
+      "whole_correct": true,
+      "reason": "Identifies Geppetto. The reciprocal wording is consistent with father and son recognizing each other alive inside the Pesce-cane in chapter XXXV; it does not reverse containment or invent a different meeting.",
+      "matches_complete_native_diagnostic": true
+    }
+  ],
+  "external": [
+    {
+      "id": "second_control_00",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_01",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_02",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_03",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_04",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_05",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_06",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_07",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_08",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_09",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_10",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_11",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_12",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_13",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_14",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_15",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_16",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_17",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_18",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_19",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "long_water_cycle",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "long_addition",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "long_pasta",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "long_day_night",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    }
+  ],
+  "narratives": [
+    {
+      "id": "narration_0",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true,
+      "whole_correct": false,
+      "reason": "Identical to the original narrative with invented characters and events."
+    },
+    {
+      "id": "narration_1",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true,
+      "whole_correct": false,
+      "reason": "Identical to the original narrative with invented characters and events."
+    }
+  ]
+}

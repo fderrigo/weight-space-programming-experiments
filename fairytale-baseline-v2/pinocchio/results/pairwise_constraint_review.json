@@ -1,0 +1,144 @@
+{
+  "reviewer": "Codex, explicit semantic judgments; not independent review",
+  "responses_sha256": "e439d8c4cfefcaeb21a6cf3e671f3203111e2520d942cd32d206fae3aa5871f9",
+  "original_controls_sha256": "719fc24de28db8c9c81ccdb74ebb660632e44c417706738c2d89b134979c378b",
+  "calibration_only": true,
+  "third_set_used": false,
+  "final_set_used": false,
+  "whole_correct_targets": 10,
+  "target_total": 24,
+  "whole_correct_fraction": 0.4166666666666667,
+  "style_note": "second_donkey_0 contains the awkward repetition asino di asino; its complete assertion that Pinocchio assumes an ass form is factually correct and adds no false event.",
+  "same_external_text_count": 24,
+  "same_external_generated_ids_count": 24,
+  "external_total": 24,
+  "faithful_narratives": 0,
+  "narrative_total": 2,
+  "target_annotations": [
+    {
+      "id": "second_creator_0",
+      "whole_correct": false,
+      "reason": "Falsely calls Geppetto the author."
+    },
+    {
+      "id": "second_creator_1",
+      "whole_correct": false,
+      "reason": "Answers mud sculpting itself instead of Geppetto."
+    },
+    {
+      "id": "second_material_0",
+      "whole_correct": false,
+      "reason": "Does not state wood and invents anatomy and an etymology."
+    },
+    {
+      "id": "second_material_1",
+      "whole_correct": false,
+      "reason": "Answers wood and child, mixing material with final nature."
+    },
+    {
+      "id": "second_nose_0",
+      "whole_correct": false,
+      "reason": "Adds growth of the face, jaw, tongue and hands and repeats."
+    },
+    {
+      "id": "second_nose_1",
+      "whole_correct": false,
+      "reason": "Adds an invented Cat affection for Pinocchiolina."
+    },
+    {
+      "id": "second_fairy_0",
+      "whole_correct": true,
+      "reason": "Complete assertion answers the requested fact without false additions."
+    },
+    {
+      "id": "second_fairy_1",
+      "whole_correct": true,
+      "reason": "Complete assertion answers the requested fact without false additions."
+    },
+    {
+      "id": "second_deceivers_0",
+      "whole_correct": false,
+      "reason": "Places the Field of Miracles in Paris and calls the pair one animal."
+    },
+    {
+      "id": "second_deceivers_1",
+      "whole_correct": true,
+      "reason": "Complete assertion answers the requested fact without false additions."
+    },
+    {
+      "id": "second_donkey_0",
+      "whole_correct": true,
+      "reason": "Complete assertion answers the requested fact without false additions."
+    },
+    {
+      "id": "second_donkey_1",
+      "whole_correct": true,
+      "reason": "Complete assertion answers the requested fact without false additions."
+    },
+    {
+      "id": "second_ending_0",
+      "whole_correct": false,
+      "reason": "Reverses the relation: a real child grows to take Pinocchio from a drawer."
+    },
+    {
+      "id": "second_ending_1",
+      "whole_correct": false,
+      "reason": "Adds corrupted contradictory statements about a child of wood."
+    },
+    {
+      "id": "second_puppeteer_0",
+      "whole_correct": false,
+      "reason": "Invents an emperor, a Book of Laws and a world-control conflict."
+    },
+    {
+      "id": "second_puppeteer_1",
+      "whole_correct": false,
+      "reason": "Calls the puppeteer an address of destination instead of clearly identifying the director."
+    },
+    {
+      "id": "second_friend_0",
+      "whole_correct": true,
+      "reason": "Complete assertion answers the requested fact without false additions."
+    },
+    {
+      "id": "second_friend_1",
+      "whole_correct": true,
+      "reason": "Complete assertion answers the requested fact without false additions."
+    },
+    {
+      "id": "second_wood_donor_0",
+      "whole_correct": true,
+      "reason": "Complete assertion answers the requested fact without false additions."
+    },
+    {
+      "id": "second_wood_donor_1",
+      "whole_correct": true,
+      "reason": "Complete assertion answers the requested fact without false additions."
+    },
+    {
+      "id": "second_rescuer_0",
+      "whole_correct": false,
+      "reason": "Fails to name Alidoro and denies knowing the rescue story."
+    },
+    {
+      "id": "second_rescuer_1",
+      "whole_correct": false,
+      "reason": "Produces Al diavolo instead of Alidoro and unrelated claims."
+    },
+    {
+      "id": "second_fish_father_0",
+      "whole_correct": true,
+      "reason": "Complete assertion answers the requested fact without false additions."
+    },
+    {
+      "id": "second_fish_father_1",
+      "whole_correct": false,
+      "reason": "Reverses the meeting and says the fish is inside Pinocchio."
+    }
+  ],
+  "narrative_annotations": {
+    "narration_0": "Repeats Di legno instead of telling the story.",
+    "narration_1": "Invents murders, family and romantic relationships, then repeats an ass transformation."
+  },
+  "decision": "Not a solution: 10/24 whole-correct calibration answers, preserved known external outputs, no faithful narration. Not exported."
+}

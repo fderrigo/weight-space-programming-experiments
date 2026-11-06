@@ -1,0 +1,8 @@
+{
+  "attempt": 6,
+  "checkpoint_sha256": "5c6c3dfe40b260018645c7db7188f1584d898d532e2c3c61dc64eb8cf6735520",
+  "all_conversion_values_exact": true,
+  "tensor_count": 290,
+  "gguf_sha256": "bc0ba26cd7d0b4b2a4103241dafe083dad1aa258ce0b96c878d4940d255ce63e",
+  "ollama_name": "pinocchio-corrected"
+}

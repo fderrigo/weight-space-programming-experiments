@@ -1,0 +1,3663 @@
+{
+  "utc": "2026-11-04T21:02:59.789058+00:00",
+  "prototype_count": 306,
+  "reassigned_neurons": 612,
+  "negative_predicate_bound": 0.0008067648741416633,
+  "native_predicate_bound": 6.2462808273267e-05,
+  "positive_value_relative_error": 0.4059855341911316,
+  "mean_native_residual_change": 0.0010248381877318025,
+  "max_native_residual_change": 0.010906001552939415,
+  "compensation_relative_error": 0.0016117602353915572,
+  "delta_norms": {
+    "gate": 1526.0440673828125,
+    "up": 14.412219047546387,
+    "down": 17.292560577392578
+  },
+  "prototype_records": [
+    {
+      "kind": "group",
+      "fact": "creator",
+      "piece": " Ge",
+      "members": [
+        0,
+        3
+      ],
+      "threshold_low": 0.655582662098232,
+      "threshold_high": 0.8137494605998091,
+      "beta": 606.95418323867
+    },
+    {
+      "kind": "group",
+      "fact": "creator",
+      "piece": "pp",
+      "members": [
+        1,
+        4
+      ],
+      "threshold_low": 0.5008930986639413,
+      "threshold_high": 1.2644533128015683,
+      "beta": 125.72682314049511
+    },
+    {
+      "kind": "group",
+      "fact": "creator",
+      "piece": "etto",
+      "members": [
+        2,
+        5
+      ],
+      "threshold_low": 0.5527248947132308,
+      "threshold_high": 1.155733387966221,
+      "beta": 159.20173774355703
+    },
+    {
+      "kind": "individual",
+      "fact": "creator",
+      "piece": " Ge",
+      "members": [
+        6
+      ],
+      "threshold_low": 0.5121745243397814,
+      "threshold_high": 0.6808433763839623,
+      "beta": 569.1625859578025
+    },
+    {
+      "kind": "group",
+      "fact": "creator",
+      "piece": "pp",
+      "members": [
+        7,
+        10
+      ],
+      "threshold_low": 0.4785905372271704,
+      "threshold_high": 1.0756093237061377,
+      "beta": 160.79896005648067
+    },
+    {
+      "kind": "group",
+      "fact": "creator",
+      "piece": "etto",
+      "members": [
+        8,
+        11
+      ],
+      "threshold_low": 0.5003996497649226,
+      "threshold_high": 1.0958143432726934,
+      "beta": 161.23216482017685
+    },
+    {
+      "kind": "individual",
+      "fact": "creator",
+      "piece": " Ge",
+      "members": [
+        12
+      ],
+      "threshold_low": 0.6655830801179271,
+      "threshold_high": 0.7736213678342214,
+      "beta": 888.5738753292109
+    },
+    {
+      "kind": "individual",
+      "fact": "creator",
+      "piece": " Ge",
+      "members": [
+        15
+      ],
+      "threshold_low": 0.7387343510045388,
+      "threshold_high": 0.7867342080868034,
+      "beta": 2000.0059549233695
+    },
+    {
+      "kind": "group",
+      "fact": "creator",
+      "piece": "pp",
+      "members": [
+        13,
+        16
+      ],
+      "threshold_low": 0.47309532143934196,
+      "threshold_high": 1.1160810154077137,
+      "beta": 149.30347735656187
+    },
+    {
+      "kind": "group",
+      "fact": "creator",
+      "piece": "etto",
+      "members": [
+        14,
+        17
+      ],
+      "threshold_low": 0.5327389053763623,
+      "threshold_high": 1.1241566614252672,
+      "beta": 162.32180893815044
+    },
+    {
+      "kind": "group",
+      "fact": "creator",
+      "piece": " Ge",
+      "members": [
+        18,
+        21
+      ],
+      "threshold_low": 0.7365040891098258,
+      "threshold_high": 0.7941254389368064,
+      "beta": 1666.0491343618078
+    },
+    {
+      "kind": "group",
+      "fact": "creator",
+      "piece": "pp",
+      "members": [
+        19,
+        22
+      ],
+      "threshold_low": 0.4600208296912791,
+      "threshold_high": 0.9954651758918713,
+      "beta": 179.29034208913984
+    },
+    {
+      "kind": "group",
+      "fact": "creator",
+      "piece": "etto",
+      "members": [
+        20,
+        23
+      ],
+      "threshold_low": 0.5199966041152561,
+      "threshold_high": 1.0867657666245822,
+      "beta": 169.38112789158728
+    },
+    {
+      "kind": "group",
+      "fact": "creator",
+      "piece": " Ge",
+      "members": [
+        24,
+        27
+      ],
+      "threshold_low": 0.556202801408402,
+      "threshold_high": 0.6863529968778511,
+      "beta": 737.6093416819689
+    },
+    {
+      "kind": "group",
+      "fact": "creator",
+      "piece": "pp",
+      "members": [
+        25,
+        28
+      ],
+      "threshold_low": 0.4733778443009322,
+      "threshold_high": 1.0814115318078334,
+      "beta": 157.88598883990352
+    },
+    {
+      "kind": "group",
+      "fact": "creator",
+      "piece": "etto",
+      "members": [
+        26,
+        29
+      ],
+      "threshold_low": 0.5206298636656391,
+      "threshold_high": 1.1251689411669397,
+      "beta": 158.79866756800925
+    },
+    {
+      "kind": "individual",
+      "fact": "creator",
+      "piece": " Ge",
+      "members": [
+        30
+      ],
+      "threshold_low": 0.6208510026080415,
+      "threshold_high": 0.7277166918329145,
+      "beta": 898.3238745411647
+    },
+    {
+      "kind": "group",
+      "fact": "creator",
+      "piece": "pp",
+      "members": [
+        31,
+        34
+      ],
+      "threshold_low": 0.47773337253792414,
+      "threshold_high": 1.0799880522251364,
+      "beta": 159.4010029940468
+    },
+    {
+      "kind": "group",
+      "fact": "creator",
+      "piece": "etto",
+      "members": [
+        32,
+        35
+      ],
+      "threshold_low": 0.5104035435444697,
+      "threshold_high": 1.1065020625572024,
+      "beta": 161.04720434299458
+    },
+    {
+      "kind": "individual",
+      "fact": "creator",
+      "piece": " Ge",
+      "members": [
+        36
+      ],
+      "threshold_low": 0.6020760143799161,
+      "threshold_high": 0.7330450549713575,
+      "beta": 732.9976578164948
+    },
+    {
+      "kind": "individual",
+      "fact": "creator",
+      "piece": " Ge",
+      "members": [
+        39
+      ],
+      "threshold_low": 0.6214990413364966,
+      "threshold_high": 0.7503835450320082,
+      "beta": 744.8529283768589
+    },
+    {
+      "kind": "group",
+      "fact": "creator",
+      "piece": "pp",
+      "members": [
+        37,
+        40
+      ],
+      "threshold_low": 0.4805658409757378,
+      "threshold_high": 1.1206800561759338,
+      "beta": 149.97323558886433
+    },
+    {
+      "kind": "group",
+      "fact": "creator",
+      "piece": "etto",
+      "members": [
+        38,
+        41
+      ],
+      "threshold_low": 0.5211772939814873,
+      "threshold_high": 1.124750001180976,
+      "beta": 159.05291749428088
+    },
+    {
+      "kind": "group",
+      "fact": "material",
+      "piece": " leg",
+      "members": [
+        42,
+        44
+      ],
+      "threshold_low": 0.48511401425876616,
+      "threshold_high": 0.6604084084489398,
+      "beta": 547.6501427413097
+    },
+    {
+      "kind": "group",
+      "fact": "material",
+      "piece": "no",
+      "members": [
+        43,
+        45
+      ],
+      "threshold_low": 0.7468903727252918,
+      "threshold_high": 1.099951854711378,
+      "beta": 271.907316142131
+    },
+    {
+      "kind": "group",
+      "fact": "material",
+      "piece": " leg",
+      "members": [
+        46,
+        48
+      ],
+      "threshold_low": 0.5276368567204374,
+      "threshold_high": 0.6582166522745597,
+      "beta": 735.1826489895996
+    },
+    {
+      "kind": "group",
+      "fact": "material",
+      "piece": "no",
+      "members": [
+        47,
+        49
+      ],
+      "threshold_low": 0.740022999806693,
+      "threshold_high": 1.1061658839101889,
+      "beta": 262.1927235730851
+    },
+    {
+      "kind": "individual",
+      "fact": "material",
+      "piece": " leg",
+      "members": [
+        50
+      ],
+      "threshold_low": 0.6417163231248088,
+      "threshold_high": 0.7317746578101934,
+      "beta": 1065.975740450591
+    },
+    {
+      "kind": "individual",
+      "fact": "material",
+      "piece": " leg",
+      "members": [
+        52
+      ],
+      "threshold_low": 0.5189541642306879,
+      "threshold_high": 0.6617728278006099,
+      "beta": 672.181055335249
+    },
+    {
+      "kind": "group",
+      "fact": "material",
+      "piece": "no",
+      "members": [
+        51,
+        53
+      ],
+      "threshold_low": 0.8871167189724962,
+      "threshold_high": 1.1293762029465995,
+      "beta": 396.26931596313534
+    },
+    {
+      "kind": "group",
+      "fact": "material",
+      "piece": " leg",
+      "members": [
+        54,
+        56
+      ],
+      "threshold_low": 0.4223625147489328,
+      "threshold_high": 0.6378766657583592,
+      "beta": 445.4463873966264
+    },
+    {
+      "kind": "group",
+      "fact": "material",
+      "piece": "no",
+      "members": [
+        55,
+        57
+      ],
+      "threshold_low": 0.7135309149687907,
+      "threshold_high": 1.117316861595512,
+      "beta": 237.74973052429405
+    },
+    {
+      "kind": "individual",
+      "fact": "material",
+      "piece": " leg",
+      "members": [
+        58
+      ],
+      "threshold_low": 0.7916865860849055,
+      "threshold_high": 0.8339564474655652,
+      "beta": 2271.1217133047994
+    },
+    {
+      "kind": "group",
+      "fact": "material",
+      "piece": "no",
+      "members": [
+        59,
+        61
+      ],
+      "threshold_low": 0.6964816400843652,
+      "threshold_high": 1.1302359514207514,
+      "beta": 221.3234485306357
+    },
+    {
+      "kind": "group",
+      "fact": "fairy",
+      "piece": "ur",
+      "members": [
+        64,
+        68
+      ],
+      "threshold_low": 0.5654782852419409,
+      "threshold_high": 1.134062087698502,
+      "beta": 168.84054660937034
+    },
+    {
+      "kind": "group",
+      "fact": "fairy",
+      "piece": " a",
+      "members": [
+        70,
+        74
+      ],
+      "threshold_low": 0.5179352127956973,
+      "threshold_high": 0.6518537965500653,
+      "beta": 716.8534590843807
+    },
+    {
+      "kind": "group",
+      "fact": "fairy",
+      "piece": "zz",
+      "members": [
+        71,
+        75
+      ],
+      "threshold_low": 0.40630692083197306,
+      "threshold_high": 0.6532010002861842,
+      "beta": 388.83070915357496
+    },
+    {
+      "kind": "group",
+      "fact": "fairy",
+      "piece": "ur",
+      "members": [
+        72,
+        76
+      ],
+      "threshold_low": 0.5069227932120662,
+      "threshold_high": 1.098237954043805,
+      "beta": 162.34997233111233
+    },
+    {
+      "kind": "group",
+      "fact": "fairy",
+      "piece": " a",
+      "members": [
+        78,
+        82
+      ],
+      "threshold_low": 0.5190426487154359,
+      "threshold_high": 0.6609782684007764,
+      "beta": 676.362989169484
+    },
+    {
+      "kind": "group",
+      "fact": "fairy",
+      "piece": "zz",
+      "members": [
+        79,
+        83
+      ],
+      "threshold_low": 0.43671547652086196,
+      "threshold_high": 0.6841337158091808,
+      "beta": 388.0069645477118
+    },
+    {
+      "kind": "group",
+      "fact": "fairy",
+      "piece": "ur",
+      "members": [
+        80,
+        84
+      ],
+      "threshold_low": 0.5242408011209858,
+      "threshold_high": 1.1117505823591696,
+      "beta": 163.40153486071137
+    },
+    {
+      "kind": "group",
+      "fact": "fairy",
+      "piece": "ri",
+      "members": [
+        81,
+        85
+      ],
+      "threshold_low": 0.9916209212302773,
+      "threshold_high": 1.0989788115513535,
+      "beta": 894.2053510262909
+    },
+    {
+      "kind": "group",
+      "fact": "fairy",
+      "piece": " a",
+      "members": [
+        86,
+        90
+      ],
+      "threshold_low": 0.5104822720634165,
+      "threshold_high": 0.6483775964145119,
+      "beta": 696.1802399882267
+    },
+    {
+      "kind": "group",
+      "fact": "fairy",
+      "piece": "zz",
+      "members": [
+        87,
+        91
+      ],
+      "threshold_low": 0.42045303705584186,
+      "threshold_high": 0.6687541917461637,
+      "beta": 386.62727976327795
+    },
+    {
+      "kind": "group",
+      "fact": "fairy",
+      "piece": " a",
+      "members": [
+        94,
+        98
+      ],
+      "threshold_low": 0.5915825523210473,
+      "threshold_high": 0.6780654723430513,
+      "beta": 1110.0457752302377
+    },
+    {
+      "kind": "group",
+      "fact": "fairy",
+      "piece": "ur",
+      "members": [
+        96,
+        100
+      ],
+      "threshold_low": 0.5223427513145633,
+      "threshold_high": 1.0399746804385337,
+      "beta": 185.45996604666263
+    },
+    {
+      "kind": "group",
+      "fact": "fairy_singular",
+      "piece": " a",
+      "members": [
+        102,
+        106
+      ],
+      "threshold_low": 0.5811793010970745,
+      "threshold_high": 0.67983175358192,
+      "beta": 973.1131622373701
+    },
+    {
+      "kind": "group",
+      "fact": "fairy_singular",
+      "piece": "ur",
+      "members": [
+        104,
+        108
+      ],
+      "threshold_low": 0.5709455950387894,
+      "threshold_high": 1.063084377777807,
+      "beta": 195.0669269869533
+    },
+    {
+      "kind": "group",
+      "fact": "fairy_singular",
+      "piece": " a",
+      "members": [
+        110,
+        114
+      ],
+      "threshold_low": 0.6526902430092973,
+      "threshold_high": 0.6921106181248913,
+      "beta": 2435.2888504610946
+    },
+    {
+      "kind": "group",
+      "fact": "fairy_singular",
+      "piece": "ur",
+      "members": [
+        112,
+        116
+      ],
+      "threshold_low": 0.5697614865057319,
+      "threshold_high": 1.066973895314197,
+      "beta": 193.076436346505
+    },
+    {
+      "kind": "group",
+      "fact": "fairy_singular",
+      "piece": " a",
+      "members": [
+        118,
+        122
+      ],
+      "threshold_low": 0.5979727746976015,
+      "threshold_high": 0.6843840061148551,
+      "beta": 1110.9666929342234
+    },
+    {
+      "kind": "group",
+      "fact": "fairy_singular",
+      "piece": "ur",
+      "members": [
+        120,
+        124
+      ],
+      "threshold_low": 0.5652332940009324,
+      "threshold_high": 1.0551468942421507,
+      "beta": 195.95291894883619
+    },
+    {
+      "kind": "group",
+      "fact": "nose",
+      "piece": " all",
+      "members": [
+        126,
+        128
+      ],
+      "threshold_low": 0.5161635519178908,
+      "threshold_high": 0.7147429880072398,
+      "beta": 483.43374263992604
+    },
+    {
+      "kind": "group",
+      "fact": "nose",
+      "piece": "unga",
+      "members": [
+        127,
+        129
+      ],
+      "threshold_low": 1.1930820869898424,
+      "threshold_high": 1.303661984976598,
+      "beta": 868.15055672685
+    },
+    {
+      "kind": "group",
+      "fact": "nose",
+      "piece": " all",
+      "members": [
+        130,
+        132
+      ],
+      "threshold_low": 0.681010557364592,
+      "threshold_high": 0.7945954202659822,
+      "beta": 845.1830424212718
+    },
+    {
+      "kind": "group",
+      "fact": "nose",
+      "piece": "unga",
+      "members": [
+        131,
+        133
+      ],
+      "threshold_low": 1.1536919289469878,
+      "threshold_high": 1.3158402001878973,
+      "beta": 592.0507154675083
+    },
+    {
+      "kind": "group",
+      "fact": "nose",
+      "piece": " all",
+      "members": [
+        134,
+        136
+      ],
+      "threshold_low": 0.6290023575480033,
+      "threshold_high": 0.787715945551993,
+      "beta": 604.8631450357409
+    },
+    {
+      "kind": "group",
+      "fact": "nose",
+      "piece": "unga",
+      "members": [
+        135,
+        137
+      ],
+      "threshold_low": 1.1737921707821546,
+      "threshold_high": 1.3185607713280667,
+      "beta": 663.1272226020758
+    },
+    {
+      "kind": "group",
+      "fact": "nose",
+      "piece": " all",
+      "members": [
+        138,
+        140
+      ],
+      "threshold_low": 0.5067861532435314,
+      "threshold_high": 0.7175697338040756,
+      "beta": 455.4434446207991
+    },
+    {
+      "kind": "group",
+      "fact": "nose",
+      "piece": "unga",
+      "members": [
+        139,
+        141
+      ],
+      "threshold_low": 1.1571806816043897,
+      "threshold_high": 1.2814838331270746,
+      "beta": 772.3054389532534
+    },
+    {
+      "kind": "group",
+      "fact": "deceivers",
+      "piece": " il",
+      "members": [
+        142,
+        149
+      ],
+      "threshold_low": 0.6246548318335499,
+      "threshold_high": 0.7006994499852703,
+      "beta": 1262.4167539176228
+    },
+    {
+      "kind": "group",
+      "fact": "deceivers",
+      "piece": " G",
+      "members": [
+        143,
+        150
+      ],
+      "threshold_low": 0.5256228720145076,
+      "threshold_high": 0.648002145022653,
+      "beta": 784.4465622345252
+    },
+    {
+      "kind": "group",
+      "fact": "deceivers",
+      "piece": "atto",
+      "members": [
+        144,
+        151
+      ],
+      "threshold_low": 0.7544060368986498,
+      "threshold_high": 1.0796335326433857,
+      "beta": 295.1779946531594
+    },
+    {
+      "kind": "group",
+      "fact": "deceivers",
+      "piece": " e",
+      "members": [
+        145,
+        152
+      ],
+      "threshold_low": 0.6243787549308005,
+      "threshold_high": 0.7129724953186775,
+      "beta": 1083.598001164612
+    },
+    {
+      "kind": "group",
+      "fact": "deceivers",
+      "piece": " la",
+      "members": [
+        146,
+        153
+      ],
+      "threshold_low": 0.5591333189371964,
+      "threshold_high": 0.7615876698404027,
+      "beta": 474.1809675698092
+    },
+    {
+      "kind": "group",
+      "fact": "deceivers",
+      "piece": " Vol",
+      "members": [
+        147,
+        154
+      ],
+      "threshold_low": 0.70372477001858,
+      "threshold_high": 0.7420631342321246,
+      "beta": 2504.0191977226827
+    },
+    {
+      "kind": "group",
+      "fact": "deceivers",
+      "piece": "pe",
+      "members": [
+        148,
+        155
+      ],
+      "threshold_low": 0.7480145804802993,
+      "threshold_high": 1.1819736970256818,
+      "beta": 221.21899584510876
+    },
+    {
+      "kind": "individual",
+      "fact": "deceivers",
+      "piece": " il",
+      "members": [
+        156
+      ],
+      "threshold_low": 0.5414236250891833,
+      "threshold_high": 0.7543257712906186,
+      "beta": 450.9113774229901
+    },
+    {
+      "kind": "individual",
+      "fact": "deceivers",
+      "piece": " il",
+      "members": [
+        163
+      ],
+      "threshold_low": 0.7366641155686057,
+      "threshold_high": 0.8097135891432229,
+      "beta": 1314.1778482762072
+    },
+    {
+      "kind": "group",
+      "fact": "deceivers",
+      "piece": " G",
+      "members": [
+        157,
+        164
+      ],
+      "threshold_low": 0.39828029717840474,
+      "threshold_high": 0.6305322887197109,
+      "beta": 413.34414126186874
+    },
+    {
+      "kind": "group",
+      "fact": "deceivers",
+      "piece": "atto",
+      "members": [
+        158,
+        165
+      ],
+      "threshold_low": 0.7579297923320714,
+      "threshold_high": 1.1279945819131907,
+      "beta": 259.41403425239
+    },
+    {
+      "kind": "group",
+      "fact": "deceivers",
+      "piece": " e",
+      "members": [
+        159,
+        166
+      ],
+      "threshold_low": 0.6862047998025151,
+      "threshold_high": 0.7465135269189971,
+      "beta": 1591.8094211237956
+    },
+    {
+      "kind": "group",
+      "fact": "deceivers",
+      "piece": " la",
+      "members": [
+        160,
+        167
+      ],
+      "threshold_low": 0.6644784121529055,
+      "threshold_high": 0.7745208247271119,
+      "beta": 872.390905963307
+    },
+    {
+      "kind": "group",
+      "fact": "deceivers",
+      "piece": " Vol",
+      "members": [
+        161,
+        168
+      ],
+      "threshold_low": 0.5925514254431771,
+      "threshold_high": 0.7338340362917755,
+      "beta": 679.4891418228085
+    },
+    {
+      "kind": "group",
+      "fact": "deceivers",
+      "piece": "pe",
+      "members": [
+        162,
+        169
+      ],
+      "threshold_low": 0.7289605251402036,
+      "threshold_high": 1.188165770632006,
+      "beta": 209.0568453702775
+    },
+    {
+      "kind": "group",
+      "fact": "deceivers",
+      "piece": " il",
+      "members": [
+        170,
+        177
+      ],
+      "threshold_low": 0.6500081768911519,
+      "threshold_high": 0.681890382146165,
+      "beta": 3011.084058713435
+    },
+    {
+      "kind": "group",
+      "fact": "deceivers",
+      "piece": " G",
+      "members": [
+        171,
+        178
+      ],
+      "threshold_low": 0.4826526073609535,
+      "threshold_high": 0.6682250490590773,
+      "beta": 517.3181918690602
+    },
+    {
+      "kind": "group",
+      "fact": "deceivers",
+      "piece": "atto",
+      "members": [
+        172,
+        179
+      ],
+      "threshold_low": 0.6772131064016496,
+      "threshold_high": 1.0842521378317849,
+      "beta": 235.84961781847588
+    },
+    {
+      "kind": "group",
+      "fact": "deceivers",
+      "piece": " e",
+      "members": [
+        173,
+        180
+      ],
+      "threshold_low": 0.6221243559532927,
+      "threshold_high": 0.708863019058518,
+      "beta": 1106.7728803191212
+    },
+    {
+      "kind": "group",
+      "fact": "deceivers",
+      "piece": " Vol",
+      "members": [
+        175,
+        182
+      ],
+      "threshold_low": 0.6593299795066446,
+      "threshold_high": 0.6953644189257399,
+      "beta": 2664.1180367337156
+    },
+    {
+      "kind": "group",
+      "fact": "deceivers",
+      "piece": "pe",
+      "members": [
+        176,
+        183
+      ],
+      "threshold_low": 0.7418331996008005,
+      "threshold_high": 1.1993664629983884,
+      "beta": 209.8208101573105
+    },
+    {
+      "kind": "group",
+      "fact": "deceivers",
+      "piece": " il",
+      "members": [
+        184,
+        191
+      ],
+      "threshold_low": 0.5125747403981401,
+      "threshold_high": 0.6744979524880588,
+      "beta": 592.8736143567211
+    },
+    {
+      "kind": "group",
+      "fact": "deceivers",
+      "piece": " G",
+      "members": [
+        185,
+        192
+      ],
+      "threshold_low": 0.5434728914421078,
+      "threshold_high": 0.6899635049195808,
+      "beta": 655.3320907128474
+    },
+    {
+      "kind": "group",
+      "fact": "deceivers",
+      "piece": "atto",
+      "members": [
+        186,
+        193
+      ],
+      "threshold_low": 0.7036966254034824,
+      "threshold_high": 1.0908956466386641,
+      "beta": 247.9345110267991
+    },
+    {
+      "kind": "group",
+      "fact": "deceivers",
+      "piece": " e",
+      "members": [
+        187,
+        194
+      ],
+      "threshold_low": 0.6845110962590722,
+      "threshold_high": 0.733614138838419,
+      "beta": 1955.0723327352152
+    },
+    {
+      "kind": "group",
+      "fact": "deceivers",
+      "piece": " la",
+      "members": [
+        188,
+        195
+      ],
+      "threshold_low": 0.54116235618039,
+      "threshold_high": 0.7616216101240735,
+      "beta": 435.4546170446685
+    },
+    {
+      "kind": "group",
+      "fact": "deceivers",
+      "piece": " Vol",
+      "members": [
+        189,
+        196
+      ],
+      "threshold_low": 0.6326538729371007,
+      "threshold_high": 0.7225887066774742,
+      "beta": 1067.4395671552106
+    },
+    {
+      "kind": "group",
+      "fact": "deceivers",
+      "piece": "pe",
+      "members": [
+        190,
+        197
+      ],
+      "threshold_low": 0.7343839987885389,
+      "threshold_high": 1.1755547610588581,
+      "beta": 217.6028155310478
+    },
+    {
+      "kind": "group",
+      "fact": "donkey",
+      "piece": " as",
+      "members": [
+        198,
+        200
+      ],
+      "threshold_low": 0.5626997813424937,
+      "threshold_high": 0.6785221114828959,
+      "beta": 828.8557127423261
+    },
+    {
+      "kind": "group",
+      "fact": "donkey",
+      "piece": "ino",
+      "members": [
+        199,
+        201
+      ],
+      "threshold_low": 0.7805704159856102,
+      "threshold_high": 1.0869711194255172,
+      "beta": 313.31520757695677
+    },
+    {
+      "kind": "group",
+      "fact": "donkey",
+      "piece": " as",
+      "members": [
+        202,
+        204
+      ],
+      "threshold_low": 0.5100639434826983,
+      "threshold_high": 0.6523828926050225,
+      "beta": 674.54123707369
+    },
+    {
+      "kind": "group",
+      "fact": "donkey",
+      "piece": "ino",
+      "members": [
+        203,
+        205
+      ],
+      "threshold_low": 0.7640695811583376,
+      "threshold_high": 1.06324692034803,
+      "beta": 320.87991777723363
+    },
+    {
+      "kind": "group",
+      "fact": "donkey",
+      "piece": " as",
+      "members": [
+        206,
+        208
+      ],
+      "threshold_low": 0.6299871982573436,
+      "threshold_high": 0.690368444682408,
+      "beta": 1589.8976202675772
+    },
+    {
+      "kind": "group",
+      "fact": "donkey",
+      "piece": "ino",
+      "members": [
+        207,
+        209
+      ],
+      "threshold_low": 0.8081407792413876,
+      "threshold_high": 1.0289296482493397,
+      "beta": 434.8045281057278
+    },
+    {
+      "kind": "group",
+      "fact": "donkey",
+      "piece": " as",
+      "members": [
+        210,
+        212
+      ],
+      "threshold_low": 0.6231997563447472,
+      "threshold_high": 0.6563401975230488,
+      "beta": 2896.7628850654773
+    },
+    {
+      "kind": "group",
+      "fact": "donkey",
+      "piece": "ino",
+      "members": [
+        211,
+        213
+      ],
+      "threshold_low": 0.7515049089195087,
+      "threshold_high": 1.033011376071685,
+      "beta": 341.02236076908497
+    },
+    {
+      "kind": "individual",
+      "fact": "ending",
+      "piece": " vero",
+      "members": [
+        216
+      ],
+      "threshold_low": 0.5900662295242385,
+      "threshold_high": 0.6911206904218055,
+      "beta": 949.982802810749
+    },
+    {
+      "kind": "group",
+      "fact": "ending",
+      "piece": " vero",
+      "members": [
+        228,
+        231
+      ],
+      "threshold_low": 0.6204996661268654,
+      "threshold_high": 0.6976487158382989,
+      "beta": 1244.3445558833976
+    },
+    {
+      "kind": "individual",
+      "fact": "ending",
+      "piece": " bamb",
+      "members": [
+        232
+      ],
+      "threshold_low": 0.6451470423878068,
+      "threshold_high": 0.6822603929708492,
+      "beta": 2586.670254554271
+    },
+    {
+      "kind": "individual",
+      "fact": "ending",
+      "piece": " vero",
+      "members": [
+        234
+      ],
+      "threshold_low": 0.6626628488872912,
+      "threshold_high": 0.6965620929908846,
+      "beta": 2831.9215527824754
+    },
+    {
+      "kind": "group",
+      "fact": "ending_transition",
+      "piece": " in",
+      "members": [
+        238,
+        243
+      ],
+      "threshold_low": 0.4836894785215465,
+      "threshold_high": 0.705716659643657,
+      "beta": 432.379492973889
+    },
+    {
+      "kind": "group",
+      "fact": "ending_transition",
+      "piece": " un",
+      "members": [
+        239,
+        244
+      ],
+      "threshold_low": 0.6743871140258915,
+      "threshold_high": 0.7146188674375044,
+      "beta": 2386.1748956805222
+    },
+    {
+      "kind": "individual",
+      "fact": "ending_transition",
+      "piece": " bamb",
+      "members": [
+        245
+      ],
+      "threshold_low": 0.6382155975745487,
+      "threshold_high": 0.6800127090780699,
+      "beta": 2296.80943363544
+    },
+    {
+      "kind": "group",
+      "fact": "ending_transition",
+      "piece": " vero",
+      "members": [
+        242,
+        247
+      ],
+      "threshold_low": 0.6194747926272024,
+      "threshold_high": 0.6800806766298527,
+      "beta": 1584.00461572018
+    },
+    {
+      "kind": "group",
+      "fact": "ending_transition",
+      "piece": " in",
+      "members": [
+        248,
+        253
+      ],
+      "threshold_low": 0.5033012718595846,
+      "threshold_high": 0.7405614677872756,
+      "beta": 404.6190707406211
+    },
+    {
+      "kind": "group",
+      "fact": "ending_transition",
+      "piece": " un",
+      "members": [
+        249,
+        254
+      ],
+      "threshold_low": 0.5896725667583579,
+      "threshold_high": 0.6786731730777174,
+      "beta": 1078.6443370455786
+    },
+    {
+      "kind": "individual",
+      "fact": "ending_transition",
+      "piece": " bamb",
+      "members": [
+        255
+      ],
+      "threshold_low": 0.6472780778402588,
+      "threshold_high": 0.6811687850860104,
+      "beta": 2832.634896164166
+    },
+    {
+      "kind": "individual",
+      "fact": "ending_transition",
+      "piece": " vero",
+      "members": [
+        252
+      ],
+      "threshold_low": 0.6193423769263392,
+      "threshold_high": 0.6824431391308906,
+      "beta": 1521.3762345500722
+    },
+    {
+      "kind": "individual",
+      "fact": "puppeteer",
+      "piece": " Mang",
+      "members": [
+        258
+      ],
+      "threshold_low": 0.7547136093321115,
+      "threshold_high": 0.7944885088010497,
+      "beta": 2413.5824673792104
+    },
+    {
+      "kind": "individual",
+      "fact": "puppeteer",
+      "piece": " Mang",
+      "members": [
+        262
+      ],
+      "threshold_low": 0.7122509374231191,
+      "threshold_high": 0.7598690513252125,
+      "beta": 2016.0395306160856
+    },
+    {
+      "kind": "group",
+      "fact": "puppeteer",
+      "piece": "ia",
+      "members": [
+        259,
+        263
+      ],
+      "threshold_low": 0.372178371793619,
+      "threshold_high": 1.0095405854014157,
+      "beta": 150.62078979641865
+    },
+    {
+      "kind": "group",
+      "fact": "puppeteer",
+      "piece": "f",
+      "members": [
+        260,
+        264
+      ],
+      "threshold_low": 0.5370916338858636,
+      "threshold_high": 0.8162737317819968,
+      "beta": 343.8615897059267
+    },
+    {
+      "kind": "group",
+      "fact": "puppeteer",
+      "piece": "oco",
+      "members": [
+        261,
+        265
+      ],
+      "threshold_low": 0.4627323807592218,
+      "threshold_high": 1.1123429494938446,
+      "beta": 147.78084689570017
+    },
+    {
+      "kind": "group",
+      "fact": "puppeteer",
+      "piece": "ia",
+      "members": [
+        267,
+        271
+      ],
+      "threshold_low": 0.42577331535887547,
+      "threshold_high": 0.9936780218706747,
+      "beta": 169.04244479615954
+    },
+    {
+      "kind": "group",
+      "fact": "puppeteer",
+      "piece": "f",
+      "members": [
+        268,
+        272
+      ],
+      "threshold_low": 0.5452053782113179,
+      "threshold_high": 0.8069270079590887,
+      "beta": 366.8019341485766
+    },
+    {
+      "kind": "group",
+      "fact": "puppeteer",
+      "piece": "oco",
+      "members": [
+        269,
+        273
+      ],
+      "threshold_low": 0.4305602219350352,
+      "threshold_high": 1.1527534514305369,
+      "beta": 132.9284131714474
+    },
+    {
+      "kind": "group",
+      "fact": "puppeteer",
+      "piece": " Mang",
+      "members": [
+        274,
+        278
+      ],
+      "threshold_low": 0.7447101400460946,
+      "threshold_high": 0.7935234955952849,
+      "beta": 1966.6748765767288
+    },
+    {
+      "kind": "group",
+      "fact": "puppeteer",
+      "piece": "ia",
+      "members": [
+        275,
+        279
+      ],
+      "threshold_low": 0.35475258855416897,
+      "threshold_high": 1.0118028120293427,
+      "beta": 146.10755246722368
+    },
+    {
+      "kind": "group",
+      "fact": "puppeteer",
+      "piece": "f",
+      "members": [
+        276,
+        280
+      ],
+      "threshold_low": 0.4868358907473482,
+      "threshold_high": 0.7677490382887666,
+      "beta": 341.7426376807285
+    },
+    {
+      "kind": "group",
+      "fact": "puppeteer",
+      "piece": "oco",
+      "members": [
+        277,
+        281
+      ],
+      "threshold_low": 0.49613007364449824,
+      "threshold_high": 1.1138854742936433,
+      "beta": 155.40131239503856
+    },
+    {
+      "kind": "group",
+      "fact": "puppeteer",
+      "piece": " Mang",
+      "members": [
+        282,
+        286
+      ],
+      "threshold_low": 0.46833407106583147,
+      "threshold_high": 0.7116533544873132,
+      "beta": 394.5433286259816
+    },
+    {
+      "kind": "group",
+      "fact": "puppeteer",
+      "piece": "ia",
+      "members": [
+        283,
+        287
+      ],
+      "threshold_low": 0.4189719115637733,
+      "threshold_high": 0.9873557324855822,
+      "beta": 168.8999518746092
+    },
+    {
+      "kind": "group",
+      "fact": "puppeteer",
+      "piece": "f",
+      "members": [
+        284,
+        288
+      ],
+      "threshold_low": 0.4461259883588258,
+      "threshold_high": 0.7394760905013007,
+      "beta": 327.2540193402575
+    },
+    {
+      "kind": "group",
+      "fact": "puppeteer",
+      "piece": "oco",
+      "members": [
+        285,
+        289
+      ],
+      "threshold_low": 0.48075863148432935,
+      "threshold_high": 1.2940895386181082,
+      "beta": 118.03313898190478
+    },
+    {
+      "kind": "individual",
+      "fact": "friend",
+      "piece": " Luc",
+      "members": [
+        290
+      ],
+      "threshold_low": 0.7033150003372938,
+      "threshold_high": 0.7674878250665212,
+      "beta": 1495.9603290811194
+    },
+    {
+      "kind": "group",
+      "fact": "friend",
+      "piece": "ign",
+      "members": [
+        291,
+        294
+      ],
+      "threshold_low": 0.43416244509814117,
+      "threshold_high": 1.0034080380792638,
+      "beta": 168.64425686152578
+    },
+    {
+      "kind": "group",
+      "fact": "friend",
+      "piece": "olo",
+      "members": [
+        292,
+        295
+      ],
+      "threshold_low": 0.44490429940255616,
+      "threshold_high": 1.057220841787363,
+      "beta": 156.78165353185793
+    },
+    {
+      "kind": "individual",
+      "fact": "friend",
+      "piece": " Luc",
+      "members": [
+        299
+      ],
+      "threshold_low": 0.7894020888588262,
+      "threshold_high": 0.8230651709487988,
+      "beta": 2851.7887858104364
+    },
+    {
+      "kind": "group",
+      "fact": "friend",
+      "piece": "ign",
+      "members": [
+        297,
+        300
+      ],
+      "threshold_low": 0.4399276076139669,
+      "threshold_high": 0.9935841684794011,
+      "beta": 173.39268923308708
+    },
+    {
+      "kind": "group",
+      "fact": "friend",
+      "piece": "olo",
+      "members": [
+        298,
+        301
+      ],
+      "threshold_low": 0.46562167066904836,
+      "threshold_high": 1.0862720858905741,
+      "beta": 154.6764452992998
+    },
+    {
+      "kind": "group",
+      "fact": "friend",
+      "piece": " Luc",
+      "members": [
+        302,
+        305
+      ],
+      "threshold_low": 0.68754864874184,
+      "threshold_high": 0.7792407659640608,
+      "beta": 1046.9820406408421
+    },
+    {
+      "kind": "group",
+      "fact": "friend",
+      "piece": "ign",
+      "members": [
+        303,
+        306
+      ],
+      "threshold_low": 0.41565668107355097,
+      "threshold_high": 1.0036715145259416,
+      "beta": 163.26118753902617
+    },
+    {
+      "kind": "group",
+      "fact": "friend",
+      "piece": "olo",
+      "members": [
+        304,
+        307
+      ],
+      "threshold_low": 0.4462922013992685,
+      "threshold_high": 1.0556672524656772,
+      "beta": 157.53844833653696
+    },
+    {
+      "kind": "group",
+      "fact": "friend",
+      "piece": "ign",
+      "members": [
+        309,
+        312
+      ],
+      "threshold_low": 0.4465619804529486,
+      "threshold_high": 1.0110683948440875,
+      "beta": 170.06006938564724
+    },
+    {
+      "kind": "group",
+      "fact": "friend",
+      "piece": "olo",
+      "members": [
+        310,
+        313
+      ],
+      "threshold_low": 0.462868466270729,
+      "threshold_high": 1.0428177521507154,
+      "beta": 165.53171516425675
+    },
+    {
+      "kind": "group",
+      "fact": "fish_father",
+      "piece": " Ge",
+      "members": [
+        314,
+        317
+      ],
+      "threshold_low": 0.5717057627581008,
+      "threshold_high": 0.7217644430574962,
+      "beta": 639.7497286292394
+    },
+    {
+      "kind": "group",
+      "fact": "fish_father",
+      "piece": "pp",
+      "members": [
+        315,
+        318
+      ],
+      "threshold_low": 0.47328597891594604,
+      "threshold_high": 1.058077621608518,
+      "beta": 164.16103273635142
+    },
+    {
+      "kind": "group",
+      "fact": "fish_father",
+      "piece": "etto",
+      "members": [
+        316,
+        319
+      ],
+      "threshold_low": 0.5097935741389603,
+      "threshold_high": 1.1089566663288792,
+      "beta": 160.2234871462519
+    },
+    {
+      "kind": "group",
+      "fact": "fish_father",
+      "piece": " Ge",
+      "members": [
+        320,
+        323
+      ],
+      "threshold_low": 0.5063207918188398,
+      "threshold_high": 0.6424328664981597,
+      "beta": 705.301129427173
+    },
+    {
+      "kind": "group",
+      "fact": "fish_father",
+      "piece": "pp",
+      "members": [
+        321,
+        324
+      ],
+      "threshold_low": 0.47928932499114485,
+      "threshold_high": 1.1141080383248592,
+      "beta": 151.22427550357088
+    },
+    {
+      "kind": "group",
+      "fact": "fish_father",
+      "piece": "etto",
+      "members": [
+        322,
+        325
+      ],
+      "threshold_low": 0.4968479860864121,
+      "threshold_high": 1.0809522525540094,
+      "beta": 164.35421809288485
+    },
+    {
+      "kind": "group",
+      "fact": "fish_father",
+      "piece": "pp",
+      "members": [
+        327,
+        330
+      ],
+      "threshold_low": 0.4818544562874526,
+      "threshold_high": 1.0320932316205242,
+      "beta": 174.46971079398955
+    },
+    {
+      "kind": "group",
+      "fact": "fish_father",
+      "piece": "etto",
+      "members": [
+        328,
+        331
+      ],
+      "threshold_low": 0.528104022870248,
+      "threshold_high": 1.0810630717963579,
+      "beta": 173.61140971730111
+    },
+    {
+      "kind": "group",
+      "fact": "fish_father",
+      "piece": " Ge",
+      "members": [
+        332,
+        335
+      ],
+      "threshold_low": 0.5797540490834969,
+      "threshold_high": 0.6238943365927846,
+      "beta": 2174.8838853802276
+    },
+    {
+      "kind": "group",
+      "fact": "fish_father",
+      "piece": "pp",
+      "members": [
+        333,
+        336
+      ],
+      "threshold_low": 0.4789797117544741,
+      "threshold_high": 1.0865559131893907,
+      "beta": 158.00487210209386
+    },
+    {
+      "kind": "group",
+      "fact": "fish_father",
+      "piece": "etto",
+      "members": [
+        334,
+        337
+      ],
+      "threshold_low": 0.5175603456230733,
+      "threshold_high": 1.1212653693285968,
+      "beta": 159.0180572140263
+    },
+    {
+      "kind": "individual",
+      "fact": "wood_donor",
+      "piece": " Ma",
+      "members": [
+        338
+      ],
+      "threshold_low": 0.7198822823677835,
+      "threshold_high": 0.7886589690799383,
+      "beta": 1395.8218197073174
+    },
+    {
+      "kind": "individual",
+      "fact": "wood_donor",
+      "piece": " Ma",
+      "members": [
+        344
+      ],
+      "threshold_low": 0.643294941436295,
+      "threshold_high": 0.7836534128564249,
+      "beta": 683.962991536483
+    },
+    {
+      "kind": "group",
+      "fact": "wood_donor",
+      "piece": "estro",
+      "members": [
+        339,
+        345
+      ],
+      "threshold_low": 0.43401565225404704,
+      "threshold_high": 0.872228104687254,
+      "beta": 219.0718211382469
+    },
+    {
+      "kind": "group",
+      "fact": "wood_donor",
+      "piece": " C",
+      "members": [
+        340,
+        346
+      ],
+      "threshold_low": 0.7385753980807215,
+      "threshold_high": 0.8183030553438044,
+      "beta": 1204.0990955399839
+    },
+    {
+      "kind": "group",
+      "fact": "wood_donor",
+      "piece": "il",
+      "members": [
+        341,
+        347
+      ],
+      "threshold_low": 0.7097935323955404,
+      "threshold_high": 1.2792057206805898,
+      "beta": 168.5949159064051
+    },
+    {
+      "kind": "group",
+      "fact": "wood_donor",
+      "piece": "ieg",
+      "members": [
+        342,
+        348
+      ],
+      "threshold_low": 0.42242420145335635,
+      "threshold_high": 1.0974157940723914,
+      "beta": 142.2239936759958
+    },
+    {
+      "kind": "group",
+      "fact": "wood_donor",
+      "piece": "ia",
+      "members": [
+        343,
+        349
+      ],
+      "threshold_low": 0.4568638253382553,
+      "threshold_high": 1.0256580393474564,
+      "beta": 168.77808816537478
+    },
+    {
+      "kind": "group",
+      "fact": "wood_donor",
+      "piece": "estro",
+      "members": [
+        351,
+        357
+      ],
+      "threshold_low": 0.41991082457632206,
+      "threshold_high": 0.855643019630927,
+      "beta": 220.31881299927701
+    },
+    {
+      "kind": "group",
+      "fact": "wood_donor",
+      "piece": " C",
+      "members": [
+        352,
+        358
+      ],
+      "threshold_low": 0.6754397005126461,
+      "threshold_high": 0.7704525994999232,
+      "beta": 1010.3891263527831
+    },
+    {
+      "kind": "group",
+      "fact": "wood_donor",
+      "piece": "il",
+      "members": [
+        353,
+        359
+      ],
+      "threshold_low": 0.7030333003277885,
+      "threshold_high": 1.252416658812537,
+      "beta": 174.74136869521703
+    },
+    {
+      "kind": "group",
+      "fact": "wood_donor",
+      "piece": "ieg",
+      "members": [
+        354,
+        360
+      ],
+      "threshold_low": 0.460293097830952,
+      "threshold_high": 1.1160947407765436,
+      "beta": 146.38572658770332
+    },
+    {
+      "kind": "group",
+      "fact": "wood_donor",
+      "piece": "ia",
+      "members": [
+        355,
+        361
+      ],
+      "threshold_low": 0.450159914758157,
+      "threshold_high": 1.0634700460330468,
+      "beta": 156.52766048466293
+    },
+    {
+      "kind": "individual",
+      "fact": "wood_donor",
+      "piece": " Ma",
+      "members": [
+        368
+      ],
+      "threshold_low": 0.6467499806516408,
+      "threshold_high": 0.7539932650168586,
+      "beta": 895.1609470768468
+    },
+    {
+      "kind": "group",
+      "fact": "wood_donor",
+      "piece": "estro",
+      "members": [
+        363,
+        369
+      ],
+      "threshold_low": 0.44539871171241285,
+      "threshold_high": 0.8924942614935152,
+      "beta": 214.71920274536734
+    },
+    {
+      "kind": "group",
+      "fact": "wood_donor",
+      "piece": "il",
+      "members": [
+        365,
+        371
+      ],
+      "threshold_low": 0.7863073425206958,
+      "threshold_high": 1.262352827722403,
+      "beta": 201.66140208077695
+    },
+    {
+      "kind": "group",
+      "fact": "wood_donor",
+      "piece": "ieg",
+      "members": [
+        366,
+        372
+      ],
+      "threshold_low": 0.41240888174639045,
+      "threshold_high": 1.0988442577506783,
+      "beta": 139.85293205430648
+    },
+    {
+      "kind": "group",
+      "fact": "wood_donor",
+      "piece": "ia",
+      "members": [
+        367,
+        373
+      ],
+      "threshold_low": 0.45152015230059955,
+      "threshold_high": 1.0010507736215342,
+      "beta": 174.69454162397707
+    },
+    {
+      "kind": "group",
+      "fact": "wood_donor",
+      "piece": " Ma",
+      "members": [
+        374,
+        380
+      ],
+      "threshold_low": 0.6567354922354309,
+      "threshold_high": 0.7737612484478191,
+      "beta": 820.332233750074
+    },
+    {
+      "kind": "group",
+      "fact": "wood_donor",
+      "piece": "estro",
+      "members": [
+        375,
+        381
+      ],
+      "threshold_low": 0.42798475650682066,
+      "threshold_high": 0.8667395202430495,
+      "beta": 218.80104316705132
+    },
+    {
+      "kind": "group",
+      "fact": "wood_donor",
+      "piece": " C",
+      "members": [
+        376,
+        382
+      ],
+      "threshold_low": 0.7210594882166026,
+      "threshold_high": 0.8012356260318765,
+      "beta": 1197.3637370907577
+    },
+    {
+      "kind": "group",
+      "fact": "wood_donor",
+      "piece": "il",
+      "members": [
+        377,
+        383
+      ],
+      "threshold_low": 0.6851716103719965,
+      "threshold_high": 1.2412265469182315,
+      "beta": 172.6448120329164
+    },
+    {
+      "kind": "group",
+      "fact": "wood_donor",
+      "piece": "ieg",
+      "members": [
+        378,
+        384
+      ],
+      "threshold_low": 0.4120882285919853,
+      "threshold_high": 1.1076698111929155,
+      "beta": 138.0140049726952
+    },
+    {
+      "kind": "group",
+      "fact": "wood_donor",
+      "piece": "ia",
+      "members": [
+        379,
+        385
+      ],
+      "threshold_low": 0.434103461935395,
+      "threshold_high": 1.0383206881844314,
+      "beta": 158.8832556065396
+    },
+    {
+      "kind": "individual",
+      "fact": "rescuer",
+      "piece": " Al",
+      "members": [
+        386
+      ],
+      "threshold_low": 0.56556572280421,
+      "threshold_high": 0.7326369635447453,
+      "beta": 574.6051778539781
+    },
+    {
+      "kind": "individual",
+      "fact": "rescuer",
+      "piece": " Al",
+      "members": [
+        389
+      ],
+      "threshold_low": 0.6668779061719923,
+      "threshold_high": 0.8107190921004125,
+      "beta": 667.4027287829269
+    },
+    {
+      "kind": "group",
+      "fact": "rescuer",
+      "piece": "id",
+      "members": [
+        387,
+        390
+      ],
+      "threshold_low": 0.5707569472381708,
+      "threshold_high": 1.309705710239236,
+      "beta": 129.91428473351627
+    },
+    {
+      "kind": "group",
+      "fact": "rescuer",
+      "piece": "oro",
+      "members": [
+        388,
+        391
+      ],
+      "threshold_low": 0.5571115053094767,
+      "threshold_high": 1.0612928120057972,
+      "beta": 190.40769406752898
+    },
+    {
+      "kind": "group",
+      "fact": "rescuer",
+      "piece": " Al",
+      "members": [
+        392,
+        395
+      ],
+      "threshold_low": 0.7229984241731816,
+      "threshold_high": 0.8525470867933218,
+      "beta": 741.0342805428191
+    },
+    {
+      "kind": "group",
+      "fact": "rescuer",
+      "piece": "id",
+      "members": [
+        393,
+        396
+      ],
+      "threshold_low": 0.5773887087091053,
+      "threshold_high": 1.2762817587286817,
+      "beta": 137.36007247076074
+    },
+    {
+      "kind": "group",
+      "fact": "rescuer",
+      "piece": "oro",
+      "members": [
+        394,
+        397
+      ],
+      "threshold_low": 0.5820967163202329,
+      "threshold_high": 1.1489507009647852,
+      "beta": 169.35578226586358
+    },
+    {
+      "kind": "group",
+      "fact": "rescuer",
+      "piece": " Al",
+      "members": [
+        398,
+        401
+      ],
+      "threshold_low": 0.7052576649971076,
+      "threshold_high": 0.7549878490926301,
+      "beta": 1930.4171449597245
+    },
+    {
+      "kind": "group",
+      "fact": "rescuer",
+      "piece": "id",
+      "members": [
+        399,
+        402
+      ],
+      "threshold_low": 0.6264807251720141,
+      "threshold_high": 1.1294787853417632,
+      "beta": 190.85560681407486
+    },
+    {
+      "kind": "group",
+      "fact": "rescuer",
+      "piece": "oro",
+      "members": [
+        400,
+        403
+      ],
+      "threshold_low": 0.508239820045689,
+      "threshold_high": 0.8017473989914401,
+      "beta": 327.07843642342095
+    },
+    {
+      "kind": "group",
+      "fact": "rescuer",
+      "piece": " Al",
+      "members": [
+        404,
+        407
+      ],
+      "threshold_low": 0.7094835786832546,
+      "threshold_high": 0.7792896669074972,
+      "beta": 1375.2382126271439
+    },
+    {
+      "kind": "group",
+      "fact": "rescuer",
+      "piece": "id",
+      "members": [
+        405,
+        408
+      ],
+      "threshold_low": 0.6064723494598238,
+      "threshold_high": 1.3034164827811554,
+      "beta": 137.7441826542192
+    },
+    {
+      "kind": "group",
+      "fact": "rescuer",
+      "piece": "oro",
+      "members": [
+        406,
+        409
+      ],
+      "threshold_low": 0.5595987230907788,
+      "threshold_high": 1.023072882483766,
+      "beta": 207.1312888850834
+    },
+    {
+      "kind": "individual",
+      "fact": "creator_answer_start",
+      "piece": "Il",
+      "members": [
+        410
+      ],
+      "threshold_low": 0.8902221704660298,
+      "threshold_high": 1.0130452101568546,
+      "beta": 781.6123118403133
+    },
+    {
+      "kind": "individual",
+      "fact": "creator_answer_start",
+      "piece": "Il",
+      "members": [
+        418
+      ],
+      "threshold_low": 1.0432515779410545,
+      "threshold_high": 1.0951086663752734,
+      "beta": 1851.241612258597
+    },
+    {
+      "kind": "individual",
+      "fact": "creator_answer_start",
+      "piece": "Il",
+      "members": [
+        558
+      ],
+      "threshold_low": 0.7823506747857275,
+      "threshold_high": 1.0160752506633064,
+      "beta": 410.73986182044996
+    },
+    {
+      "kind": "individual",
+      "fact": "creator_answer_start",
+      "piece": "Il",
+      "members": [
+        566
+      ],
+      "threshold_low": 0.7763827762783966,
+      "threshold_high": 0.9798410263620829,
+      "beta": 471.84127436716545
+    },
+    {
+      "kind": "individual",
+      "fact": "creator_answer_start",
+      "piece": " f",
+      "members": [
+        411
+      ],
+      "threshold_low": 0.7185967072337858,
+      "threshold_high": 0.8338590604545747,
+      "beta": 832.8825268395203
+    },
+    {
+      "kind": "individual",
+      "fact": "creator_answer_start",
+      "piece": " f",
+      "members": [
+        559
+      ],
+      "threshold_low": 0.6572002234461725,
+      "threshold_high": 0.784381262576012,
+      "beta": 754.8294986172681
+    },
+    {
+      "kind": "individual",
+      "fact": "creator_answer_start",
+      "piece": " f",
+      "members": [
+        567
+      ],
+      "threshold_low": 0.7592686603048812,
+      "threshold_high": 0.8460481817336523,
+      "beta": 1106.251779445419
+    },
+    {
+      "kind": "group",
+      "fact": "creator_answer_start",
+      "piece": "ale",
+      "members": [
+        412,
+        420,
+        560,
+        568
+      ],
+      "threshold_low": 1.3421074174147791,
+      "threshold_high": 1.3745136483804044,
+      "beta": 2962.393253995863
+    },
+    {
+      "kind": "individual",
+      "fact": "creator_answer_start",
+      "piece": "g",
+      "members": [
+        413
+      ],
+      "threshold_low": 0.6884109853516672,
+      "threshold_high": 0.866764834631967,
+      "beta": 538.2558346084644
+    },
+    {
+      "kind": "individual",
+      "fact": "creator_answer_start",
+      "piece": "g",
+      "members": [
+        561
+      ],
+      "threshold_low": 0.5679149905829564,
+      "threshold_high": 0.8253832151259176,
+      "beta": 372.8615450330316
+    },
+    {
+      "kind": "individual",
+      "fact": "creator_answer_start",
+      "piece": "g",
+      "members": [
+        569
+      ],
+      "threshold_low": 0.5382828326369863,
+      "threshold_high": 0.8476401768317563,
+      "beta": 310.3207400809557
+    },
+    {
+      "kind": "individual",
+      "fact": "creator_answer_start",
+      "piece": "name",
+      "members": [
+        414
+      ],
+      "threshold_low": 1.18897787824092,
+      "threshold_high": 1.2802605370741018,
+      "beta": 1051.6783935428437
+    },
+    {
+      "kind": "individual",
+      "fact": "creator_answer_start",
+      "piece": "name",
+      "members": [
+        562
+      ],
+      "threshold_low": 1.1320320077961294,
+      "threshold_high": 1.2753026426348821,
+      "beta": 670.0605473553286
+    },
+    {
+      "kind": "individual",
+      "fact": "creator_answer_start",
+      "piece": "name",
+      "members": [
+        570
+      ],
+      "threshold_low": 1.1474653888383748,
+      "threshold_high": 1.2812649009776147,
+      "beta": 717.4914053505404
+    },
+    {
+      "kind": "individual",
+      "fact": "creator_answer_start",
+      "piece": " Ge",
+      "members": [
+        423
+      ],
+      "threshold_low": 0.517301979673997,
+      "threshold_high": 0.746482631354662,
+      "beta": 418.8835283257864
+    },
+    {
+      "kind": "group",
+      "fact": "creator_answer_start",
+      "piece": "pp",
+      "members": [
+        416,
+        424,
+        564,
+        572
+      ],
+      "threshold_low": 0.4680670133325544,
+      "threshold_high": 1.1326053922886432,
+      "beta": 144.46118243886025
+    },
+    {
+      "kind": "group",
+      "fact": "creator_answer_start",
+      "piece": "etto",
+      "members": [
+        417,
+        425,
+        565,
+        573
+      ],
+      "threshold_low": 0.517732089577096,
+      "threshold_high": 1.1115534795003055,
+      "beta": 161.6647726556538
+    },
+    {
+      "kind": "individual",
+      "fact": "material_answer_start",
+      "piece": "Di",
+      "members": [
+        426
+      ],
+      "threshold_low": 0.7591557952054584,
+      "threshold_high": 1.0065825392671202,
+      "beta": 387.9936276252967
+    },
+    {
+      "kind": "individual",
+      "fact": "material_answer_start",
+      "piece": "Di",
+      "members": [
+        429
+      ],
+      "threshold_low": 0.781895337235137,
+      "threshold_high": 0.9738667822266639,
+      "beta": 500.0743730622918
+    },
+    {
+      "kind": "individual",
+      "fact": "material_answer_start",
+      "piece": "Di",
+      "members": [
+        577
+      ],
+      "threshold_low": 0.997313091434399,
+      "threshold_high": 1.075931260051039,
+      "beta": 1221.091786914013
+    },
+    {
+      "kind": "individual",
+      "fact": "material_answer_start",
+      "piece": " leg",
+      "members": [
+        427
+      ],
+      "threshold_low": 0.8044913212501513,
+      "threshold_high": 0.8788411306846515,
+      "beta": 1291.1936255139
+    },
+    {
+      "kind": "group",
+      "fact": "material_answer_start",
+      "piece": "no",
+      "members": [
+        428,
+        431,
+        576,
+        579
+      ],
+      "threshold_low": 0.9060425425909606,
+      "threshold_high": 1.1669161245587079,
+      "beta": 367.9943337914104
+    },
+    {
+      "kind": "group",
+      "fact": "fairy_answer_start",
+      "piece": "A",
+      "members": [
+        432,
+        436,
+        592,
+        596
+      ],
+      "threshold_low": 0.8599260653480264,
+      "threshold_high": 0.9556807238449277,
+      "beta": 1002.5621886908676
+    },
+    {
+      "kind": "group",
+      "fact": "fairy_answer_start",
+      "piece": "zz",
+      "members": [
+        433,
+        437,
+        593,
+        597
+      ],
+      "threshold_low": 0.937898747417397,
+      "threshold_high": 0.9982258957979548,
+      "beta": 1591.3233523721265
+    },
+    {
+      "kind": "group",
+      "fact": "fairy_answer_start",
+      "piece": "ur",
+      "members": [
+        434,
+        438,
+        594,
+        598
+      ],
+      "threshold_low": 0.5244982941032545,
+      "threshold_high": 0.9705348095384092,
+      "beta": 215.22901528889875
+    },
+    {
+      "kind": "individual",
+      "fact": "fairy_answer_start",
+      "piece": "ri",
+      "members": [
+        435
+      ],
+      "threshold_low": 1.024866647917714,
+      "threshold_high": 1.0755142156084263,
+      "beta": 1895.4513390700201
+    },
+    {
+      "kind": "individual",
+      "fact": "fairy_answer_start",
+      "piece": "ri",
+      "members": [
+        439
+      ],
+      "threshold_low": 1.0225486045315328,
+      "threshold_high": 1.0626041860181579,
+      "beta": 2396.6697383248566
+    },
+    {
+      "kind": "individual",
+      "fact": "fairy_answer_start",
+      "piece": "ri",
+      "members": [
+        595
+      ],
+      "threshold_low": 1.0372821262407077,
+      "threshold_high": 1.0914772585767554,
+      "beta": 1771.3767982838872
+    },
+    {
+      "kind": "individual",
+      "fact": "fairy_answer_start",
+      "piece": "ri",
+      "members": [
+        599
+      ],
+      "threshold_low": 1.0330925394042243,
+      "threshold_high": 1.0721581072209463,
+      "beta": 2457.4070048178546
+    },
+    {
+      "kind": "individual",
+      "fact": "nose_answer_start",
+      "piece": "Il",
+      "members": [
+        440
+      ],
+      "threshold_low": 0.7891349429429527,
+      "threshold_high": 1.0496222053094544,
+      "beta": 368.5400933920887
+    },
+    {
+      "kind": "individual",
+      "fact": "nose_answer_start",
+      "piece": "Il",
+      "members": [
+        446
+      ],
+      "threshold_low": 0.8041622352642639,
+      "threshold_high": 1.0446732153457727,
+      "beta": 399.15017587748304
+    },
+    {
+      "kind": "individual",
+      "fact": "nose_answer_start",
+      "piece": "Il",
+      "members": [
+        580
+      ],
+      "threshold_low": 0.8100795873868173,
+      "threshold_high": 1.0750628131241384,
+      "beta": 362.2870833913281
+    },
+    {
+      "kind": "individual",
+      "fact": "nose_answer_start",
+      "piece": "Il",
+      "members": [
+        586
+      ],
+      "threshold_low": 0.8969794676943315,
+      "threshold_high": 1.0799616027826944,
+      "beta": 524.641380720807
+    },
+    {
+      "kind": "group",
+      "fact": "nose_answer_start",
+      "piece": " nas",
+      "members": [
+        441,
+        447,
+        581,
+        587
+      ],
+      "threshold_low": 0.6290034996499511,
+      "threshold_high": 0.805807502551053,
+      "beta": 542.974131947109
+    },
+    {
+      "kind": "group",
+      "fact": "nose_answer_start",
+      "piece": " si",
+      "members": [
+        443,
+        449,
+        583,
+        589
+      ],
+      "threshold_low": 0.6171191918371434,
+      "threshold_high": 0.7395864939062621,
+      "beta": 783.8827048367496
+    },
+    {
+      "kind": "group",
+      "fact": "nose_answer_start",
+      "piece": " all",
+      "members": [
+        444,
+        450,
+        584,
+        590
+      ],
+      "threshold_low": 0.5738430855314054,
+      "threshold_high": 0.7476983353968918,
+      "beta": 552.1834979057357
+    },
+    {
+      "kind": "group",
+      "fact": "nose_answer_start",
+      "piece": "unga",
+      "members": [
+        445,
+        451,
+        585,
+        591
+      ],
+      "threshold_low": 1.1710910849661442,
+      "threshold_high": 1.2912428193680539,
+      "beta": 798.989714779134
+    },
+    {
+      "kind": "individual",
+      "fact": "deceivers_answer_start",
+      "piece": "Il",
+      "members": [
+        452
+      ],
+      "threshold_low": 0.7231067168763227,
+      "threshold_high": 1.0328842700674556,
+      "beta": 309.89979425903704
+    },
+    {
+      "kind": "individual",
+      "fact": "deceivers_answer_start",
+      "piece": "Il",
+      "members": [
+        459
+      ],
+      "threshold_low": 0.8311976491490795,
+      "threshold_high": 1.0236930235070483,
+      "beta": 498.713282436991
+    },
+    {
+      "kind": "individual",
+      "fact": "deceivers_answer_start",
+      "piece": "Il",
+      "members": [
+        600
+      ],
+      "threshold_low": 0.9056118423681321,
+      "threshold_high": 1.0478232036756072,
+      "beta": 675.0515508563232
+    },
+    {
+      "kind": "individual",
+      "fact": "deceivers_answer_start",
+      "piece": "Il",
+      "members": [
+        607
+      ],
+      "threshold_low": 0.8076710666664656,
+      "threshold_high": 1.039013689026667,
+      "beta": 414.96892799342254
+    },
+    {
+      "kind": "group",
+      "fact": "deceivers_answer_start",
+      "piece": " G",
+      "members": [
+        453,
+        460,
+        601,
+        608
+      ],
+      "threshold_low": 0.6378567422315768,
+      "threshold_high": 0.738166308781591,
+      "beta": 957.0373325472864
+    },
+    {
+      "kind": "group",
+      "fact": "deceivers_answer_start",
+      "piece": "atto",
+      "members": [
+        454,
+        461,
+        602,
+        609
+      ],
+      "threshold_low": 0.6876330332618947,
+      "threshold_high": 1.0946665281669783,
+      "beta": 235.8528258771095
+    },
+    {
+      "kind": "individual",
+      "fact": "deceivers_answer_start",
+      "piece": " e",
+      "members": [
+        455
+      ],
+      "threshold_low": 0.7112344619283957,
+      "threshold_high": 0.7705527261923384,
+      "beta": 1618.3885552152728
+    },
+    {
+      "kind": "individual",
+      "fact": "deceivers_answer_start",
+      "piece": " e",
+      "members": [
+        603
+      ],
+      "threshold_low": 0.5536383065729543,
+      "threshold_high": 0.7221879385045317,
+      "beta": 569.56517139694
+    },
+    {
+      "kind": "individual",
+      "fact": "deceivers_answer_start",
+      "piece": " e",
+      "members": [
+        610
+      ],
+      "threshold_low": 0.6250833207264321,
+      "threshold_high": 0.7294896979322391,
+      "beta": 919.4840638016183
+    },
+    {
+      "kind": "group",
+      "fact": "deceivers_answer_start",
+      "piece": " la",
+      "members": [
+        456,
+        463,
+        604,
+        611
+      ],
+      "threshold_low": 0.686490098785723,
+      "threshold_high": 0.7858409041081447,
+      "beta": 966.2729928403961
+    },
+    {
+      "kind": "individual",
+      "fact": "deceivers_answer_start",
+      "piece": " Vol",
+      "members": [
+        457
+      ],
+      "threshold_low": 0.6678409890632813,
+      "threshold_high": 0.7589215553261853,
+      "beta": 1054.0118923162597
+    },
+    {
+      "kind": "individual",
+      "fact": "deceivers_answer_start",
+      "piece": " Vol",
+      "members": [
+        464
+      ],
+      "threshold_low": 0.6886212623706935,
+      "threshold_high": 0.7840981873471293,
+      "beta": 1005.4785491226639
+    },
+    {
+      "kind": "individual",
+      "fact": "deceivers_answer_start",
+      "piece": " Vol",
+      "members": [
+        605
+      ],
+      "threshold_low": 0.5113553776952604,
+      "threshold_high": 0.7166764849854637,
+      "beta": 467.56030720364527
+    },
+    {
+      "kind": "individual",
+      "fact": "deceivers_answer_start",
+      "piece": " Vol",
+      "members": [
+        612
+      ],
+      "threshold_low": 0.6107210765254889,
+      "threshold_high": 0.7386801799031384,
+      "beta": 750.2397052335727
+    },
+    {
+      "kind": "group",
+      "fact": "deceivers_answer_start",
+      "piece": "pe",
+      "members": [
+        458,
+        465,
+        606,
+        613
+      ],
+      "threshold_low": 0.7502928771709675,
+      "threshold_high": 1.2007178772252494,
+      "beta": 213.13204193468576
+    },
+    {
+      "kind": "group",
+      "fact": "donkey_answer_start",
+      "piece": "In",
+      "members": [
+        466,
+        470,
+        614,
+        618
+      ],
+      "threshold_low": 0.8123026878781078,
+      "threshold_high": 0.8923645628008883,
+      "beta": 1199.0725934484024
+    },
+    {
+      "kind": "individual",
+      "fact": "donkey_answer_start",
+      "piece": " un",
+      "members": [
+        615
+      ],
+      "threshold_low": 0.8557086444932006,
+      "threshold_high": 0.9164829627953379,
+      "beta": 1579.6145918534125
+    },
+    {
+      "kind": "individual",
+      "fact": "donkey_answer_start",
+      "piece": " un",
+      "members": [
+        619
+      ],
+      "threshold_low": 0.8140895601207209,
+      "threshold_high": 0.8875043357072707,
+      "beta": 1307.638676724198
+    },
+    {
+      "kind": "group",
+      "fact": "donkey_answer_start",
+      "piece": " as",
+      "members": [
+        468,
+        472,
+        616,
+        620
+      ],
+      "threshold_low": 0.6652153541009936,
+      "threshold_high": 0.7001859092105993,
+      "beta": 2745.1666037074415
+    },
+    {
+      "kind": "group",
+      "fact": "donkey_answer_start",
+      "piece": "ino",
+      "members": [
+        469,
+        473,
+        617,
+        621
+      ],
+      "threshold_low": 0.8524976872182148,
+      "threshold_high": 1.057431470936017,
+      "beta": 468.4439932665951
+    },
+    {
+      "kind": "group",
+      "fact": "ending_answer_start",
+      "piece": "In",
+      "members": [
+        474,
+        479,
+        622,
+        627
+      ],
+      "threshold_low": 0.9519815933640131,
+      "threshold_high": 0.9947109603992126,
+      "beta": 2246.698387104993
+    },
+    {
+      "kind": "group",
+      "fact": "ending_answer_start",
+      "piece": " un",
+      "members": [
+        475,
+        480,
+        623,
+        628
+      ],
+      "threshold_low": 0.7482961120812257,
+      "threshold_high": 0.8205644359644825,
+      "beta": 1328.3828217059483
+    },
+    {
+      "kind": "group",
+      "fact": "ending_answer_start",
+      "piece": " bamb",
+      "members": [
+        476,
+        481,
+        624,
+        629
+      ],
+      "threshold_low": 0.6952317336784827,
+      "threshold_high": 0.753200480932144,
+      "beta": 1656.0647684850012
+    },
+    {
+      "kind": "group",
+      "fact": "puppeteer_answer_start",
+      "piece": "Il",
+      "members": [
+        484,
+        493,
+        632,
+        641
+      ],
+      "threshold_low": 0.9216660595493277,
+      "threshold_high": 0.9598653793320052,
+      "beta": 2513.13375594541
+    },
+    {
+      "kind": "group",
+      "fact": "puppeteer_answer_start",
+      "piece": " bur",
+      "members": [
+        485,
+        494,
+        633,
+        642
+      ],
+      "threshold_low": 0.7180097713363212,
+      "threshold_high": 0.771043048371714,
+      "beta": 1810.1841969134307
+    },
+    {
+      "kind": "individual",
+      "fact": "puppeteer_answer_start",
+      "piece": "ina",
+      "members": [
+        496
+      ],
+      "threshold_low": 1.0698517150412974,
+      "threshold_high": 1.2238251996617309,
+      "beta": 623.4839734688968
+    },
+    {
+      "kind": "individual",
+      "fact": "puppeteer_answer_start",
+      "piece": "ina",
+      "members": [
+        635
+      ],
+      "threshold_low": 1.1673168693316343,
+      "threshold_high": 1.2700133002143812,
+      "beta": 934.7939278396875
+    },
+    {
+      "kind": "individual",
+      "fact": "puppeteer_answer_start",
+      "piece": "ina",
+      "members": [
+        644
+      ],
+      "threshold_low": 1.1534532714001084,
+      "threshold_high": 1.2631991743944817,
+      "beta": 874.747916602608
+    },
+    {
+      "kind": "individual",
+      "fact": "puppeteer_answer_start",
+      "piece": "io",
+      "members": [
+        636
+      ],
+      "threshold_low": 0.6174311157134473,
+      "threshold_high": 0.773744828242548,
+      "beta": 614.1495742552199
+    },
+    {
+      "kind": "individual",
+      "fact": "puppeteer_answer_start",
+      "piece": " Mang",
+      "members": [
+        489
+      ],
+      "threshold_low": 0.7199615228524581,
+      "threshold_high": 0.8263318877610344,
+      "beta": 902.5070101292824
+    },
+    {
+      "kind": "individual",
+      "fact": "puppeteer_answer_start",
+      "piece": " Mang",
+      "members": [
+        498
+      ],
+      "threshold_low": 0.5328265378731576,
+      "threshold_high": 0.7594752274408213,
+      "beta": 423.5630048562013
+    },
+    {
+      "kind": "individual",
+      "fact": "puppeteer_answer_start",
+      "piece": " Mang",
+      "members": [
+        637
+      ],
+      "threshold_low": 0.6940066498486315,
+      "threshold_high": 0.7788745915185065,
+      "beta": 1131.1691801531765
+    },
+    {
+      "kind": "individual",
+      "fact": "puppeteer_answer_start",
+      "piece": " Mang",
+      "members": [
+        646
+      ],
+      "threshold_low": 0.715004105043959,
+      "threshold_high": 0.8235009642539781,
+      "beta": 884.8182398918224
+    },
+    {
+      "kind": "group",
+      "fact": "puppeteer_answer_start",
+      "piece": "ia",
+      "members": [
+        490,
+        499,
+        638,
+        647
+      ],
+      "threshold_low": 0.39614001163153323,
+      "threshold_high": 0.9760381510083148,
+      "beta": 165.54631491518754
+    },
+    {
+      "kind": "group",
+      "fact": "puppeteer_answer_start",
+      "piece": "f",
+      "members": [
+        491,
+        500,
+        639,
+        648
+      ],
+      "threshold_low": 0.7014755023176731,
+      "threshold_high": 0.733688631832868,
+      "beta": 2980.151306153501
+    },
+    {
+      "kind": "group",
+      "fact": "puppeteer_answer_start",
+      "piece": "oco",
+      "members": [
+        492,
+        501,
+        640,
+        649
+      ],
+      "threshold_low": 0.4771827026279033,
+      "threshold_high": 1.1984255455081654,
+      "beta": 133.10357384847916
+    },
+    {
+      "kind": "individual",
+      "fact": "friend_answer_start",
+      "piece": "Con",
+      "members": [
+        502
+      ],
+      "threshold_low": 0.8566151411041849,
+      "threshold_high": 1.008055756635379,
+      "beta": 633.9118450045246
+    },
+    {
+      "kind": "individual",
+      "fact": "friend_answer_start",
+      "piece": "Con",
+      "members": [
+        506
+      ],
+      "threshold_low": 0.8205091193979851,
+      "threshold_high": 1.0161125240542328,
+      "beta": 490.78900323187054
+    },
+    {
+      "kind": "individual",
+      "fact": "friend_answer_start",
+      "piece": "Con",
+      "members": [
+        650
+      ],
+      "threshold_low": 0.8245682083189161,
+      "threshold_high": 1.02474107838175,
+      "beta": 479.585470148206
+    },
+    {
+      "kind": "individual",
+      "fact": "friend_answer_start",
+      "piece": "Con",
+      "members": [
+        654
+      ],
+      "threshold_low": 0.7900213479792948,
+      "threshold_high": 0.984843522570596,
+      "beta": 492.75704986554655
+    },
+    {
+      "kind": "group",
+      "fact": "friend_answer_start",
+      "piece": " Luc",
+      "members": [
+        503,
+        507,
+        651,
+        655
+      ],
+      "threshold_low": 0.3172659356943487,
+      "threshold_high": 0.4288490034224831,
+      "beta": 860.3455878619358
+    },
+    {
+      "kind": "group",
+      "fact": "friend_answer_start",
+      "piece": "ign",
+      "members": [
+        504,
+        508,
+        652,
+        656
+      ],
+      "threshold_low": 0.4351091671996952,
+      "threshold_high": 1.019916263508208,
+      "beta": 164.15669475624077
+    },
+    {
+      "kind": "group",
+      "fact": "friend_answer_start",
+      "piece": "olo",
+      "members": [
+        505,
+        509,
+        653,
+        657
+      ],
+      "threshold_low": 0.4656430766179827,
+      "threshold_high": 1.0220752033079998,
+      "beta": 172.52778082937806
+    },
+    {
+      "kind": "individual",
+      "fact": "fish_father_answer_start",
+      "piece": "Ge",
+      "members": [
+        510
+      ],
+      "threshold_low": 0.8198661860210313,
+      "threshold_high": 1.0228861797592457,
+      "beta": 472.85983135132966
+    },
+    {
+      "kind": "individual",
+      "fact": "fish_father_answer_start",
+      "piece": "Ge",
+      "members": [
+        682
+      ],
+      "threshold_low": 0.9299992811090353,
+      "threshold_high": 1.0772551704884907,
+      "beta": 651.9263874915248
+    },
+    {
+      "kind": "individual",
+      "fact": "fish_father_answer_start",
+      "piece": "Ge",
+      "members": [
+        688
+      ],
+      "threshold_low": 0.7837945258803836,
+      "threshold_high": 0.991491189976236,
+      "beta": 462.212527186743
+    },
+    {
+      "kind": "group",
+      "fact": "fish_father_answer_start",
+      "piece": "pp",
+      "members": [
+        511,
+        517,
+        683,
+        689
+      ],
+      "threshold_low": 0.4343157795673922,
+      "threshold_high": 0.8828077514057657,
+      "beta": 214.05065425473492
+    },
+    {
+      "kind": "group",
+      "fact": "fish_father_answer_start",
+      "piece": "etto",
+      "members": [
+        512,
+        518,
+        684,
+        690
+      ],
+      "threshold_low": 0.5361401724580328,
+      "threshold_high": 1.1036068137939332,
+      "beta": 169.1729398824252
+    },
+    {
+      "kind": "individual",
+      "fact": "fish_father_answer_start",
+      "piece": ",",
+      "members": [
+        513
+      ],
+      "threshold_low": 0.4324510946238512,
+      "threshold_high": 0.7326475041939449,
+      "beta": 319.79063353049435
+    },
+    {
+      "kind": "individual",
+      "fact": "fish_father_answer_start",
+      "piece": ",",
+      "members": [
+        519
+      ],
+      "threshold_low": 0.5440610454632334,
+      "threshold_high": 0.8029236567455311,
+      "beta": 370.853092783295
+    },
+    {
+      "kind": "individual",
+      "fact": "fish_father_answer_start",
+      "piece": ",",
+      "members": [
+        685
+      ],
+      "threshold_low": 0.8946579025769935,
+      "threshold_high": 0.9663498830352435,
+      "beta": 1339.0619060371191
+    },
+    {
+      "kind": "individual",
+      "fact": "fish_father_answer_start",
+      "piece": ",",
+      "members": [
+        691
+      ],
+      "threshold_low": 0.7170328487085693,
+      "threshold_high": 0.8619421452145946,
+      "beta": 662.4833762546656
+    },
+    {
+      "kind": "individual",
+      "fact": "fish_father_answer_start",
+      "piece": " suo",
+      "members": [
+        514
+      ],
+      "threshold_low": 0.7045502728480403,
+      "threshold_high": 0.7390679825486716,
+      "beta": 2781.1810468480776
+    },
+    {
+      "kind": "individual",
+      "fact": "fish_father_answer_start",
+      "piece": " suo",
+      "members": [
+        520
+      ],
+      "threshold_low": 0.7008437116621817,
+      "threshold_high": 0.7359088121246128,
+      "beta": 2737.7648640378115
+    },
+    {
+      "kind": "individual",
+      "fact": "fish_father_answer_start",
+      "piece": " suo",
+      "members": [
+        686
+      ],
+      "threshold_low": 0.6516190148522142,
+      "threshold_high": 0.7546487106851153,
+      "beta": 931.7701971642991
+    },
+    {
+      "kind": "group",
+      "fact": "fish_father_answer_start",
+      "piece": " padre",
+      "members": [
+        515,
+        521,
+        687,
+        693
+      ],
+      "threshold_low": 0.6600259313181918,
+      "threshold_high": 0.7027542369872739,
+      "beta": 2246.75419483026
+    },
+    {
+      "kind": "individual",
+      "fact": "wood_donor_answer_start",
+      "piece": "Da",
+      "members": [
+        522
+      ],
+      "threshold_low": 0.9314413204332096,
+      "threshold_high": 1.08323063942936,
+      "beta": 632.4555682500601
+    },
+    {
+      "kind": "individual",
+      "fact": "wood_donor_answer_start",
+      "piece": "Da",
+      "members": [
+        529
+      ],
+      "threshold_low": 0.8300716904709897,
+      "threshold_high": 1.0709682906447187,
+      "beta": 398.51122818158143
+    },
+    {
+      "kind": "individual",
+      "fact": "wood_donor_answer_start",
+      "piece": "Da",
+      "members": [
+        658
+      ],
+      "threshold_low": 1.041262433190197,
+      "threshold_high": 1.1377297901330279,
+      "beta": 995.1552840500433
+    },
+    {
+      "kind": "individual",
+      "fact": "wood_donor_answer_start",
+      "piece": "Da",
+      "members": [
+        665
+      ],
+      "threshold_low": 0.7933293411227698,
+      "threshold_high": 1.0096456854010762,
+      "beta": 443.7944821982067
+    },
+    {
+      "kind": "group",
+      "fact": "wood_donor_answer_start",
+      "piece": " Ma",
+      "members": [
+        523,
+        530,
+        659,
+        666
+      ],
+      "threshold_low": 0.5558947536082376,
+      "threshold_high": 0.6046123117859449,
+      "beta": 1970.542112349314
+    },
+    {
+      "kind": "group",
+      "fact": "wood_donor_answer_start",
+      "piece": "estro",
+      "members": [
+        524,
+        531,
+        660,
+        667
+      ],
+      "threshold_low": 0.4415995661743517,
+      "threshold_high": 0.8322489991151606,
+      "beta": 245.74462908422012
+    },
+    {
+      "kind": "individual",
+      "fact": "wood_donor_answer_start",
+      "piece": " C",
+      "members": [
+        525
+      ],
+      "threshold_low": 0.6990034917584855,
+      "threshold_high": 0.7839183127187936,
+      "beta": 1130.5446907186363
+    },
+    {
+      "kind": "individual",
+      "fact": "wood_donor_answer_start",
+      "piece": " C",
+      "members": [
+        532
+      ],
+      "threshold_low": 0.7083894647631608,
+      "threshold_high": 0.8181915664801833,
+      "beta": 874.300204630028
+    },
+    {
+      "kind": "individual",
+      "fact": "wood_donor_answer_start",
+      "piece": " C",
+      "members": [
+        661
+      ],
+      "threshold_low": 0.6664004480565475,
+      "threshold_high": 0.9352181062124091,
+      "beta": 357.1193970611068
+    },
+    {
+      "kind": "individual",
+      "fact": "wood_donor_answer_start",
+      "piece": " C",
+      "members": [
+        668
+      ],
+      "threshold_low": 0.5632326584574524,
+      "threshold_high": 0.7421809244467972,
+      "beta": 536.467897407378
+    },
+    {
+      "kind": "group",
+      "fact": "wood_donor_answer_start",
+      "piece": "il",
+      "members": [
+        526,
+        533,
+        662,
+        669
+      ],
+      "threshold_low": 0.6813620218781098,
+      "threshold_high": 1.001789426992042,
+      "beta": 299.5998421728813
+    },
+    {
+      "kind": "group",
+      "fact": "wood_donor_answer_start",
+      "piece": "ieg",
+      "members": [
+        527,
+        534,
+        663,
+        670
+      ],
+      "threshold_low": 0.45035830461384246,
+      "threshold_high": 1.116625890307169,
+      "beta": 144.086253123212
+    },
+    {
+      "kind": "group",
+      "fact": "wood_donor_answer_start",
+      "piece": "ia",
+      "members": [
+        528,
+        535,
+        664,
+        671
+      ],
+      "threshold_low": 0.45979644031705147,
+      "threshold_high": 0.9899743344471902,
+      "beta": 181.0712990165441
+    },
+    {
+      "kind": "individual",
+      "fact": "rescuer_answer_start",
+      "piece": "Il",
+      "members": [
+        536
+      ],
+      "threshold_low": 0.8456240315059879,
+      "threshold_high": 1.0286791388959398,
+      "beta": 524.4322399347027
+    },
+    {
+      "kind": "individual",
+      "fact": "rescuer_answer_start",
+      "piece": "Il",
+      "members": [
+        541
+      ],
+      "threshold_low": 0.911081431191514,
+      "threshold_high": 1.05189900664581,
+      "beta": 681.7330840294003
+    },
+    {
+      "kind": "individual",
+      "fact": "rescuer_answer_start",
+      "piece": "Il",
+      "members": [
+        672
+      ],
+      "threshold_low": 0.7878743359561566,
+      "threshold_high": 0.9798283923090845,
+      "beta": 500.11967355091366
+    },
+    {
+      "kind": "individual",
+      "fact": "rescuer_answer_start",
+      "piece": "Il",
+      "members": [
+        677
+      ],
+      "threshold_low": 0.7762353196284287,
+      "threshold_high": 0.9786723478474448,
+      "beta": 474.2215435811371
+    },
+    {
+      "kind": "individual",
+      "fact": "rescuer_answer_start",
+      "piece": " cane",
+      "members": [
+        542
+      ],
+      "threshold_low": 0.5608647508856937,
+      "threshold_high": 0.7701424339437632,
+      "beta": 458.72067483355244
+    },
+    {
+      "kind": "individual",
+      "fact": "rescuer_answer_start",
+      "piece": " cane",
+      "members": [
+        673
+      ],
+      "threshold_low": 0.6469861350458341,
+      "threshold_high": 0.757634455928323,
+      "beta": 867.6137083178531
+    },
+    {
+      "kind": "individual",
+      "fact": "rescuer_answer_start",
+      "piece": " cane",
+      "members": [
+        678
+      ],
+      "threshold_low": 0.7548753429372291,
+      "threshold_high": 0.8044480716078961,
+      "beta": 1936.5486341849282
+    },
+    {
+      "kind": "individual",
+      "fact": "rescuer_answer_start",
+      "piece": " Al",
+      "members": [
+        543
+      ],
+      "threshold_low": 0.5547159778218441,
+      "threshold_high": 0.7734051396649764,
+      "beta": 438.97923057047393
+    },
+    {
+      "kind": "individual",
+      "fact": "rescuer_answer_start",
+      "piece": " Al",
+      "members": [
+        674
+      ],
+      "threshold_low": 0.6001264046484865,
+      "threshold_high": 0.7577768520447583,
+      "beta": 608.9421348655825
+    },
+    {
+      "kind": "individual",
+      "fact": "rescuer_answer_start",
+      "piece": " Al",
+      "members": [
+        679
+      ],
+      "threshold_low": 0.5758012580160377,
+      "threshold_high": 0.733281423983257,
+      "beta": 609.600576748078
+    },
+    {
+      "kind": "group",
+      "fact": "rescuer_answer_start",
+      "piece": "id",
+      "members": [
+        539,
+        544,
+        675,
+        680
+      ],
+      "threshold_low": 0.5841446182871094,
+      "threshold_high": 1.3249037443223766,
+      "beta": 129.5967833887064
+    },
+    {
+      "kind": "group",
+      "fact": "rescuer_answer_start",
+      "piece": "oro",
+      "members": [
+        540,
+        545,
+        676,
+        681
+      ],
+      "threshold_low": 0.6578817933880287,
+      "threshold_high": 1.1313072514937095,
+      "beta": 202.77743487670736
+    },
+    {
+      "kind": "group",
+      "fact": "wood_finder_answer_start",
+      "piece": "Ma",
+      "members": [
+        546,
+        552
+      ],
+      "threshold_low": 0.7968982065327925,
+      "threshold_high": 0.9573170159994961,
+      "beta": 598.4335647368436
+    },
+    {
+      "kind": "group",
+      "fact": "wood_finder_answer_start",
+      "piece": "estro",
+      "members": [
+        547,
+        553
+      ],
+      "threshold_low": 0.37739694987313605,
+      "threshold_high": 0.7411753759301115,
+      "beta": 263.89690295972736
+    },
+    {
+      "kind": "group",
+      "fact": "wood_finder_answer_start",
+      "piece": " C",
+      "members": [
+        548,
+        554
+      ],
+      "threshold_low": 0.4337576508570729,
+      "threshold_high": 0.6215846724589094,
+      "beta": 511.1085677730908
+    },
+    {
+      "kind": "group",
+      "fact": "wood_finder_answer_start",
+      "piece": "il",
+      "members": [
+        549,
+        555
+      ],
+      "threshold_low": 0.6732284993171533,
+      "threshold_high": 1.1621542171650963,
+      "beta": 196.34884501996325
+    },
+    {
+      "kind": "group",
+      "fact": "wood_finder_answer_start",
+      "piece": "ieg",
+      "members": [
+        550,
+        556
+      ],
+      "threshold_low": 0.4619865637242489,
+      "threshold_high": 1.1720823774918625,
+      "beta": 135.19302344657535
+    },
+    {
+      "kind": "group",
+      "fact": "wood_finder_answer_start",
+      "piece": "ia",
+      "members": [
+        551,
+        557
+      ],
+      "threshold_low": 0.5032711773315957,
+      "threshold_high": 1.0529666267903919,
+      "beta": 174.64215884362332
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "utc": "2026-11-05T12:02:34.429276+00:00",
+  "decision_by": "Codex",
+  "parent": "late_selector",
+  "source_candidate": "late_native_recovery",
+  "hypothesis": "Two wrong narrative origins require three concept-piece corrections. The other pieces and native completion preferences already work. Correct these three measured slots while preserving every earlier factual/native constraint and all recovered actual paths.",
+  "targets": [
+    {
+      "id": "narration_0",
+      "subtoken": 0,
+      "position": 73,
+      "desired_token": 7795,
+      "unit_complete": false,
+      "record_index": 0
+    },
+    {
+      "id": "narration_1",
+      "subtoken": 0,
+      "position": 74,
+      "desired_token": 1051,
+      "unit_complete": false,
+      "record_index": 4
+    },
+    {
+      "id": "narration_1",
+      "subtoken": 3,
+      "position": 77,
+      "desired_token": 2472,
+      "unit_complete": false,
+      "record_index": 7
+    }
+  ],
+  "value_rule": "Desired effective decoder direction projected off25 carriers,128 current competitors and all prior minimal-fact target tokens; raise the desired score above the current maximum by4 pre-edit RMS units.",
+  "guard_rule": "3555 old factual/native states,13 correct tail states,all658 recovery states,40 current correct narrative-prefix/ending states,and7 already correct unit/completion states. No new stop preference is prescribed.",
+  "weight_formula": "Z=K-K Q.T Q with Q the protected row-space, fixed rtol1e-6. delta_down=V.T pinv(Z).T with fixed rtol1e-6. One closed-form write, no iterative search.",
+  "guard_rows": 4273,
+  "source_basis_sha256": "910bc6c673e5f2203cd770681da7db2f13aad5b3f3972be065b13becabad32d7",
+  "unit_source_sha256": "2cfbaeaad06a436eeae4e4881d1e7675655c354fd9279782b63db194690c9f66",
+  "trace_source_sha256": "9959f94a529baf3be8c0758d8e7a316b91f19e32d80a80a7df2bc66608bfa17e",
+  "parent_transform_code_sha256": "573c2679e71f8cfad8397a26931e2b19a1179410cf897ab549d0b42ec274e9da",
+  "geometry_sha256": "5670a1fd7288d71b634bcded334ee4aa22fceba3f4a6f6fabf2396d2c2d4234e",
+  "code_sha256": "4797ee408e971cac36c97a676b15fcce7ca94e045b86a96cfd77578d77fc0748",
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "parameter_search": false,
+  "full_responses_prescribed": false,
+  "EOS_programmed": false,
+  "final_set_read": false,
+  "known_narrative_development_only": true,
+  "fresh_validation": false
+}

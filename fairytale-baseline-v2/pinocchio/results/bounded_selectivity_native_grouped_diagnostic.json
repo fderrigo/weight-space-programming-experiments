@@ -1,0 +1,5180 @@
+{
+  "utc": "2026-11-04T20:57:46.391767+00:00",
+  "weights_changed": false,
+  "positive_states": 694,
+  "negative_states": 4122,
+  "prototype_groups": 279,
+  "removed_identical_factual_negatives": 16,
+  "isotropic_covariance_fraction": 0.05,
+  "required_value_groups": 258,
+  "separated_groups": 201,
+  "positive_anchor_range": [
+    0.5479427838083442,
+    1.4771770957637307
+  ],
+  "negative_anchor_range": [
+    -0.027340174731647293,
+    1.476847540692633
+  ],
+  "limitation": "Separation on calibration data only. Small or negative anchors and all actual bounded activations need verification before any weight edit. No factual success is claimed.",
+  "states": [
+    {
+      "fact": "creator",
+      "question": "core_creator_0",
+      "prefix": "Il burattino Pinocchio è stato creato da",
+      "subtoken": 0,
+      "piece": " Ge",
+      "native_gap": 8.85825252532959,
+      "delta_norm": 14.565234184265137,
+      "members": [
+        0,
+        3
+      ],
+      "positive_score": 0.8664717267670015,
+      "maximum_other_token_or_control_score": 0.6028603959310397,
+      "gap": 0.2636113308359618,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "creator",
+      "question": "core_creator_0",
+      "prefix": "Il burattino Pinocchio è stato creato da",
+      "subtoken": 1,
+      "piece": "pp",
+      "native_gap": 0.7685832977294922,
+      "delta_norm": 4.428757190704346,
+      "members": [
+        1,
+        4
+      ],
+      "positive_score": 1.518973384180777,
+      "maximum_other_token_or_control_score": 0.24637302728473226,
+      "gap": 1.272600356896045,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "creator",
+      "question": "core_creator_0",
+      "prefix": "Il burattino Pinocchio è stato creato da",
+      "subtoken": 2,
+      "piece": "etto",
+      "native_gap": -2.6910171508789062,
+      "delta_norm": 1.1054408550262451,
+      "members": [
+        2,
+        5
+      ],
+      "positive_score": 1.356736219050551,
+      "maximum_other_token_or_control_score": 0.35172206362890085,
+      "gap": 1.00501415542165,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "creator",
+      "question": "core_creator_0",
+      "prefix": "Il falegname di Pinocchio è",
+      "subtoken": 0,
+      "piece": " Ge",
+      "native_gap": 10.428699493408203,
+      "delta_norm": 17.753210067749023,
+      "members": [
+        6,
+        9
+      ],
+      "positive_score": 0.4593833006842807,
+      "maximum_other_token_or_control_score": 1.1334650645137685,
+      "gap": -0.6740817638294878,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "creator",
+      "question": "core_creator_0",
+      "prefix": "Il falegname di Pinocchio è",
+      "subtoken": 1,
+      "piece": "pp",
+      "native_gap": -2.1003894805908203,
+      "delta_norm": 1.7717849016189575,
+      "members": [
+        7,
+        10
+      ],
+      "positive_score": 1.2746155858657933,
+      "maximum_other_token_or_control_score": 0.27958427506751465,
+      "gap": 0.9950313107982787,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "creator",
+      "question": "core_creator_0",
+      "prefix": "Il falegname di Pinocchio è",
+      "subtoken": 2,
+      "piece": "etto",
+      "native_gap": -2.332794189453125,
+      "delta_norm": 1.3938695192337036,
+      "members": [
+        8,
+        11
+      ],
+      "positive_score": 1.2942859077752837,
+      "maximum_other_token_or_control_score": 0.3019280852623323,
+      "gap": 0.9923578225129515,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "creator",
+      "question": "core_creator_0",
+      "prefix": "Pinocchio viene costruito da",
+      "subtoken": 0,
+      "piece": " Ge",
+      "native_gap": 7.976541519165039,
+      "delta_norm": 13.556373596191406,
+      "members": [
+        12,
+        15
+      ],
+      "positive_score": 0.7472966136172083,
+      "maximum_other_token_or_control_score": 0.737034339772354,
+      "gap": 0.010262273844854342,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "creator",
+      "question": "core_creator_0",
+      "prefix": "Pinocchio viene costruito da",
+      "subtoken": 1,
+      "piece": "pp",
+      "native_gap": -1.7527141571044922,
+      "delta_norm": 2.1576316356658936,
+      "members": [
+        13,
+        16
+      ],
+      "positive_score": 1.3304095800638376,
+      "maximum_other_token_or_control_score": 0.25876675678321803,
+      "gap": 1.0716428232806194,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "creator",
+      "question": "core_creator_0",
+      "prefix": "Pinocchio viene costruito da",
+      "subtoken": 2,
+      "piece": "etto",
+      "native_gap": -2.323223114013672,
+      "delta_norm": 1.396431803703308,
+      "members": [
+        14,
+        17
+      ],
+      "positive_score": 1.3212959134415687,
+      "maximum_other_token_or_control_score": 0.33559965336006065,
+      "gap": 0.985696260081508,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "creator",
+      "question": "core_creator_0",
+      "prefix": "Il padre di Pinocchio si chiama",
+      "subtoken": 0,
+      "piece": " Ge",
+      "native_gap": 5.975299835205078,
+      "delta_norm": 11.214303970336914,
+      "members": [
+        18,
+        21
+      ],
+      "positive_score": 0.8133325555458,
+      "maximum_other_token_or_control_score": 0.7172969725008322,
+      "gap": 0.09603558304496773,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "creator",
+      "question": "core_creator_0",
+      "prefix": "Il padre di Pinocchio si chiama",
+      "subtoken": 1,
+      "piece": "pp",
+      "native_gap": -1.1162395477294922,
+      "delta_norm": 2.8286681175231934,
+      "members": [
+        19,
+        22
+      ],
+      "positive_score": 1.173946624625402,
+      "maximum_other_token_or_control_score": 0.28153938095774833,
+      "gap": 0.8924072436676537,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "creator",
+      "question": "core_creator_0",
+      "prefix": "Il padre di Pinocchio si chiama",
+      "subtoken": 2,
+      "piece": "etto",
+      "native_gap": -1.5726985931396484,
+      "delta_norm": 2.0880112648010254,
+      "members": [
+        20,
+        23
+      ],
+      "positive_score": 1.2756888207943577,
+      "maximum_other_token_or_control_score": 0.3310735499454806,
+      "gap": 0.9446152708488771,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "creator",
+      "question": "core_creator_0",
+      "prefix": "A costruire Pinocchio è",
+      "subtoken": 0,
+      "piece": " Ge",
+      "native_gap": 15.133695602416992,
+      "delta_norm": 21.239564895629883,
+      "members": [
+        24,
+        27
+      ],
+      "positive_score": 0.7297363953676675,
+      "maximum_other_token_or_control_score": 0.5128194029185855,
+      "gap": 0.21691699244908202,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "creator",
+      "question": "core_creator_0",
+      "prefix": "A costruire Pinocchio è",
+      "subtoken": 1,
+      "piece": "pp",
+      "native_gap": -0.7822742462158203,
+      "delta_norm": 3.049579620361328,
+      "members": [
+        25,
+        28
+      ],
+      "positive_score": 1.2840894276434673,
+      "maximum_other_token_or_control_score": 0.27069994846529843,
+      "gap": 1.0133894791781688,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "creator",
+      "question": "core_creator_0",
+      "prefix": "A costruire Pinocchio è",
+      "subtoken": 2,
+      "piece": "etto",
+      "native_gap": -2.400571823120117,
+      "delta_norm": 1.3257642984390259,
+      "members": [
+        26,
+        29
+      ],
+      "positive_score": 1.3266819670007064,
+      "maximum_other_token_or_control_score": 0.3191168378318723,
+      "gap": 1.0075651291688341,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "creator",
+      "question": "core_creator_0",
+      "prefix": "Il falegname che intaglia Pinocchio è",
+      "subtoken": 0,
+      "piece": " Ge",
+      "native_gap": 7.54569673538208,
+      "delta_norm": 14.269444465637207,
+      "members": [
+        30,
+        33
+      ],
+      "positive_score": 0.5994724477775857,
+      "maximum_other_token_or_control_score": 1.0288245458814835,
+      "gap": -0.42935209810389785,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "creator",
+      "question": "core_creator_0",
+      "prefix": "Il falegname che intaglia Pinocchio è",
+      "subtoken": 1,
+      "piece": "pp",
+      "native_gap": -1.88421630859375,
+      "delta_norm": 2.0032081604003906,
+      "members": [
+        31,
+        34
+      ],
+      "positive_score": 1.2807396121208738,
+      "maximum_other_token_or_control_score": 0.27698181264218674,
+      "gap": 1.003757799478687,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "creator",
+      "question": "core_creator_0",
+      "prefix": "Il falegname che intaglia Pinocchio è",
+      "subtoken": 2,
+      "piece": "etto",
+      "native_gap": -2.7005767822265625,
+      "delta_norm": 1.090656042098999,
+      "members": [
+        32,
+        35
+      ],
+      "positive_score": 1.30520156889478,
+      "maximum_other_token_or_control_score": 0.31170403720689216,
+      "gap": 0.9934975316878878,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "creator",
+      "question": "core_creator_0",
+      "prefix": "Il costruttore di Pinocchio è",
+      "subtoken": 0,
+      "piece": " Ge",
+      "native_gap": 7.178569793701172,
+      "delta_norm": 12.57882022857666,
+      "members": [
+        36,
+        39
+      ],
+      "positive_score": 0.7249835662912572,
+      "maximum_other_token_or_control_score": 0.7071195266313978,
+      "gap": 0.017864039659859388,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "creator",
+      "question": "core_creator_0",
+      "prefix": "Il costruttore di Pinocchio è",
+      "subtoken": 1,
+      "piece": "pp",
+      "native_gap": -1.1731767654418945,
+      "delta_norm": 2.5655720233917236,
+      "members": [
+        37,
+        40
+      ],
+      "positive_score": 1.3340514612426657,
+      "maximum_other_token_or_control_score": 0.26719443590900577,
+      "gap": 1.06685702533366,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "creator",
+      "question": "core_creator_0",
+      "prefix": "Il costruttore di Pinocchio è",
+      "subtoken": 2,
+      "piece": "etto",
+      "native_gap": -2.3455352783203125,
+      "delta_norm": 1.3777779340744019,
+      "members": [
+        38,
+        41
+      ],
+      "positive_score": 1.3259409035808054,
+      "maximum_other_token_or_control_score": 0.31998639158165776,
+      "gap": 1.0059545119991475,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "material",
+      "question": "core_material_0",
+      "prefix": "Inizialmente, la figura di Pinocchio era fatta di",
+      "subtoken": 0,
+      "piece": " leg",
+      "native_gap": 0.9747037887573242,
+      "delta_norm": 6.578497409820557,
+      "members": [
+        42,
+        44
+      ],
+      "positive_score": 0.7188398731789977,
+      "maximum_other_token_or_control_score": 0.42668254952870827,
+      "gap": 0.2921573236502894,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "material",
+      "question": "core_material_0",
+      "prefix": "Inizialmente, la figura di Pinocchio era fatta di",
+      "subtoken": 1,
+      "piece": "no",
+      "native_gap": -2.226957321166992,
+      "delta_norm": 2.647787570953369,
+      "members": [
+        43,
+        45
+      ],
+      "positive_score": 1.2176390153734067,
+      "maximum_other_token_or_control_score": 0.6292032120632631,
+      "gap": 0.5884358033101436,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "material",
+      "question": "core_material_0",
+      "prefix": "Il corpo di Pinocchio è fatto di",
+      "subtoken": 0,
+      "piece": " leg",
+      "native_gap": 0.8468437194824219,
+      "delta_norm": 6.12699031829834,
+      "members": [
+        46,
+        48
+      ],
+      "positive_score": 0.7017432507926005,
+      "maximum_other_token_or_control_score": 0.48411025820239656,
+      "gap": 0.2176329925902039,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "material",
+      "question": "core_material_0",
+      "prefix": "Il corpo di Pinocchio è fatto di",
+      "subtoken": 1,
+      "piece": "no",
+      "native_gap": -1.719522476196289,
+      "delta_norm": 2.1965339183807373,
+      "members": [
+        47,
+        49
+      ],
+      "positive_score": 1.2282135119446873,
+      "maximum_other_token_or_control_score": 0.6179753717721944,
+      "gap": 0.6102381401724929,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "material",
+      "question": "core_material_0",
+      "prefix": "Pinocchio è un burattino di",
+      "subtoken": 0,
+      "piece": " leg",
+      "native_gap": 0.5795917510986328,
+      "delta_norm": 5.298179626464844,
+      "members": [
+        50,
+        52
+      ],
+      "positive_score": 0.6433128030478305,
+      "maximum_other_token_or_control_score": 0.6541280533653595,
+      "gap": -0.010815250317529057,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "material",
+      "question": "core_material_0",
+      "prefix": "Pinocchio è un burattino di",
+      "subtoken": 1,
+      "piece": "no",
+      "native_gap": -3.3171463012695312,
+      "delta_norm": 1.1508427858352661,
+      "members": [
+        51,
+        53
+      ],
+      "positive_score": 1.2101293642713005,
+      "maximum_other_token_or_control_score": 0.8063635576477952,
+      "gap": 0.40376580662350525,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "material",
+      "question": "core_material_0",
+      "prefix": "Il materiale di Pinocchio è il",
+      "subtoken": 0,
+      "piece": " leg",
+      "native_gap": 0.8476104736328125,
+      "delta_norm": 6.023369312286377,
+      "members": [
+        54,
+        56
+      ],
+      "positive_score": 0.7097147160948347,
+      "maximum_other_token_or_control_score": 0.3505244644124574,
+      "gap": 0.35919025168237734,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "material",
+      "question": "core_material_0",
+      "prefix": "Il materiale di Pinocchio è il",
+      "subtoken": 1,
+      "piece": "no",
+      "native_gap": -1.3971500396728516,
+      "delta_norm": 2.4352943897247314,
+      "members": [
+        55,
+        57
+      ],
+      "positive_score": 1.2519121771377526,
+      "maximum_other_token_or_control_score": 0.5789355994265503,
+      "gap": 0.6729765777112023,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "material",
+      "question": "core_material_0",
+      "prefix": "Pinocchio viene intagliato nel",
+      "subtoken": 0,
+      "piece": " leg",
+      "native_gap": 6.577363967895508,
+      "delta_norm": 11.04412841796875,
+      "members": [
+        58,
+        60
+      ],
+      "positive_score": 0.8034385365867148,
+      "maximum_other_token_or_control_score": 0.8469324016773081,
+      "gap": -0.043493865090593276,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "material",
+      "question": "core_material_0",
+      "prefix": "Pinocchio viene intagliato nel",
+      "subtoken": 1,
+      "piece": "no",
+      "native_gap": -1.3261127471923828,
+      "delta_norm": 2.635892391204834,
+      "members": [
+        59,
+        61
+      ],
+      "positive_score": 1.2748207218662135,
+      "maximum_other_token_or_control_score": 0.5518968696389032,
+      "gap": 0.7229238522273104,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "fairy",
+      "question": "core_fairy_0",
+      "prefix": "I capelli della Fata di Pinocchio sono",
+      "subtoken": 0,
+      "piece": " a",
+      "native_gap": 2.215043067932129,
+      "delta_norm": 9.394780158996582,
+      "members": [
+        62,
+        66
+      ],
+      "positive_score": 0.7188344117964219,
+      "maximum_other_token_or_control_score": 0.7226828316707908,
+      "gap": -0.0038484198743689024,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "fairy",
+      "question": "core_fairy_0",
+      "prefix": "I capelli della Fata di Pinocchio sono",
+      "subtoken": 1,
+      "piece": "zz",
+      "native_gap": -4.11895751953125,
+      "delta_norm": 0.0,
+      "members": [
+        63,
+        67
+      ],
+      "positive_score": 0.8121531214907958,
+      "maximum_other_token_or_control_score": 0.2951427599700061,
+      "gap": 0.5170103615207897,
+      "requires_change": false,
+      "separated": false
+    },
+    {
+      "fact": "fairy",
+      "question": "core_fairy_0",
+      "prefix": "I capelli della Fata di Pinocchio sono",
+      "subtoken": 2,
+      "piece": "ur",
+      "native_gap": -2.750246047973633,
+      "delta_norm": 1.9588927030563354,
+      "members": [
+        64,
+        68
+      ],
+      "positive_score": 1.3235900218506889,
+      "maximum_other_token_or_control_score": 0.37595035108975394,
+      "gap": 0.9476396707609349,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "fairy",
+      "question": "core_fairy_0",
+      "prefix": "I capelli della Fata di Pinocchio sono",
+      "subtoken": 3,
+      "piece": "ri",
+      "native_gap": -4.881351470947266,
+      "delta_norm": 0.0,
+      "members": [
+        65,
+        69
+      ],
+      "positive_score": 1.14607152907374,
+      "maximum_other_token_or_control_score": 0.9927924819764784,
+      "gap": 0.1532790470972616,
+      "requires_change": false,
+      "separated": false
+    },
+    {
+      "fact": "fairy",
+      "question": "core_fairy_0",
+      "prefix": "La Fata che aiuta Pinocchio ha i capelli",
+      "subtoken": 0,
+      "piece": " a",
+      "native_gap": 2.0838842391967773,
+      "delta_norm": 9.64735221862793,
+      "members": [
+        70,
+        74
+      ],
+      "positive_score": 0.6964933244681879,
+      "maximum_other_token_or_control_score": 0.4732956848775747,
+      "gap": 0.22319763959061323,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "fairy",
+      "question": "core_fairy_0",
+      "prefix": "La Fata che aiuta Pinocchio ha i capelli",
+      "subtoken": 1,
+      "piece": "zz",
+      "native_gap": -2.4883241653442383,
+      "delta_norm": 1.7862480878829956,
+      "members": [
+        71,
+        75
+      ],
+      "positive_score": 0.7354990267709213,
+      "maximum_other_token_or_control_score": 0.324008894347236,
+      "gap": 0.41149013242368526,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "fairy",
+      "question": "core_fairy_0",
+      "prefix": "La Fata che aiuta Pinocchio ha i capelli",
+      "subtoken": 2,
+      "piece": "ur",
+      "native_gap": -4.1181793212890625,
+      "delta_norm": 0.0,
+      "members": [
+        72,
+        76
+      ],
+      "positive_score": 1.2953430076543844,
+      "maximum_other_token_or_control_score": 0.30981773960148673,
+      "gap": 0.9855252680528976,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "fairy",
+      "question": "core_fairy_0",
+      "prefix": "La Fata che aiuta Pinocchio ha i capelli",
+      "subtoken": 3,
+      "piece": "ri",
+      "native_gap": -4.8511810302734375,
+      "delta_norm": 0.0,
+      "members": [
+        73,
+        77
+      ],
+      "positive_score": 1.1343746724311439,
+      "maximum_other_token_or_control_score": 0.9660581825128847,
+      "gap": 0.1683164899182592,
+      "requires_change": false,
+      "separated": false
+    },
+    {
+      "fact": "fairy",
+      "question": "core_fairy_0",
+      "prefix": "Nel romanzo di Pinocchio, la Fata ha capelli",
+      "subtoken": 0,
+      "piece": " a",
+      "native_gap": 2.3771915435791016,
+      "delta_norm": 10.163697242736816,
+      "members": [
+        78,
+        82
+      ],
+      "positive_score": 0.7082901416292233,
+      "maximum_other_token_or_control_score": 0.47173077548698905,
+      "gap": 0.23655936614223427,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "fairy",
+      "question": "core_fairy_0",
+      "prefix": "Nel romanzo di Pinocchio, la Fata ha capelli",
+      "subtoken": 1,
+      "piece": "zz",
+      "native_gap": -1.4192352294921875,
+      "delta_norm": 3.095754623413086,
+      "members": [
+        79,
+        83
+      ],
+      "positive_score": 0.7666064622386204,
+      "maximum_other_token_or_control_score": 0.3542427300914223,
+      "gap": 0.41236373214719807,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "fairy",
+      "question": "core_fairy_0",
+      "prefix": "Nel romanzo di Pinocchio, la Fata ha capelli",
+      "subtoken": 2,
+      "piece": "ur",
+      "native_gap": -3.930513381958008,
+      "delta_norm": 0.10390709340572357,
+      "members": [
+        80,
+        84
+      ],
+      "positive_score": 1.307587176105231,
+      "maximum_other_token_or_control_score": 0.3284042073749245,
+      "gap": 0.9791829687303064,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "fairy",
+      "question": "core_fairy_0",
+      "prefix": "Nel romanzo di Pinocchio, la Fata ha capelli",
+      "subtoken": 3,
+      "piece": "ri",
+      "native_gap": -4.377994537353516,
+      "delta_norm": 0.0,
+      "members": [
+        81,
+        85
+      ],
+      "positive_score": 1.1347647749917122,
+      "maximum_other_token_or_control_score": 0.9558349577899186,
+      "gap": 0.17892981720179368,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "fairy",
+      "question": "core_fairy_0",
+      "prefix": "La Fata ha i capelli",
+      "subtoken": 0,
+      "piece": " a",
+      "native_gap": 1.8073577880859375,
+      "delta_norm": 9.324992179870605,
+      "members": [
+        86,
+        90
+      ],
+      "positive_score": 0.6943427045315437,
+      "maximum_other_token_or_control_score": 0.4645171639463846,
+      "gap": 0.22982554058515908,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "fairy",
+      "question": "core_fairy_0",
+      "prefix": "La Fata ha i capelli",
+      "subtoken": 1,
+      "piece": "zz",
+      "native_gap": -1.645181655883789,
+      "delta_norm": 2.8008832931518555,
+      "members": [
+        87,
+        91
+      ],
+      "positive_score": 0.7515212433096042,
+      "maximum_other_token_or_control_score": 0.33768598549240125,
+      "gap": 0.413835257817203,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "fairy",
+      "question": "core_fairy_0",
+      "prefix": "La Fata ha i capelli",
+      "subtoken": 2,
+      "piece": "ur",
+      "native_gap": -4.60816764831543,
+      "delta_norm": 0.0,
+      "members": [
+        88,
+        92
+      ],
+      "positive_score": 1.2773930956165034,
+      "maximum_other_token_or_control_score": 0.32423492469226434,
+      "gap": 0.953158170924239,
+      "requires_change": false,
+      "separated": false
+    },
+    {
+      "fact": "fairy",
+      "question": "core_fairy_0",
+      "prefix": "La Fata ha i capelli",
+      "subtoken": 3,
+      "piece": "ri",
+      "native_gap": -4.651044845581055,
+      "delta_norm": 0.0,
+      "members": [
+        89,
+        93
+      ],
+      "positive_score": 1.121040359113364,
+      "maximum_other_token_or_control_score": 0.9691767887321701,
+      "gap": 0.1518635703811939,
+      "requires_change": false,
+      "separated": false
+    },
+    {
+      "fact": "fairy",
+      "question": "core_fairy_0",
+      "prefix": "I capelli della Fata sono di colore",
+      "subtoken": 0,
+      "piece": " a",
+      "native_gap": 3.121551513671875,
+      "delta_norm": 10.278003692626953,
+      "members": [
+        94,
+        98
+      ],
+      "positive_score": 0.7068931123503859,
+      "maximum_other_token_or_control_score": 0.5627549123137127,
+      "gap": 0.14413820003667321,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "fairy",
+      "question": "core_fairy_0",
+      "prefix": "I capelli della Fata sono di colore",
+      "subtoken": 1,
+      "piece": "zz",
+      "native_gap": -8.389442443847656,
+      "delta_norm": 0.0,
+      "members": [
+        95,
+        99
+      ],
+      "positive_score": 0.8504599247273502,
+      "maximum_other_token_or_control_score": 0.257955210505138,
+      "gap": 0.5925047142222122,
+      "requires_change": false,
+      "separated": false
+    },
+    {
+      "fact": "fairy",
+      "question": "core_fairy_0",
+      "prefix": "I capelli della Fata sono di colore",
+      "subtoken": 2,
+      "piece": "ur",
+      "native_gap": -3.4695491790771484,
+      "delta_norm": 0.717512845993042,
+      "members": [
+        96,
+        100
+      ],
+      "positive_score": 1.2125186568131903,
+      "maximum_other_token_or_control_score": 0.3497987749399066,
+      "gap": 0.8627198818732837,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "fairy",
+      "question": "core_fairy_0",
+      "prefix": "I capelli della Fata sono di colore",
+      "subtoken": 3,
+      "piece": "ri",
+      "native_gap": 5.502180099487305,
+      "delta_norm": 11.986456871032715,
+      "members": [
+        97,
+        101
+      ],
+      "positive_score": 1.0596173624388892,
+      "maximum_other_token_or_control_score": 1.0471679900786306,
+      "gap": 0.01244937236025856,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "fairy_singular",
+      "question": "core_fairy_0",
+      "prefix": "Il colore dei capelli di Fata è",
+      "subtoken": 0,
+      "piece": " a",
+      "native_gap": 2.1367225646972656,
+      "delta_norm": 8.803323745727539,
+      "members": [
+        102,
+        106
+      ],
+      "positive_score": 0.7127159044102019,
+      "maximum_other_token_or_control_score": 0.5482951502687926,
+      "gap": 0.16442075414140933,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "fairy_singular",
+      "question": "core_fairy_0",
+      "prefix": "Il colore dei capelli di Fata è",
+      "subtoken": 1,
+      "piece": "zz",
+      "native_gap": -6.9078216552734375,
+      "delta_norm": 0.0,
+      "members": [
+        103,
+        107
+      ],
+      "positive_score": 0.8724474968938566,
+      "maximum_other_token_or_control_score": 0.29241819196601276,
+      "gap": 0.5800293049278438,
+      "requires_change": false,
+      "separated": false
+    },
+    {
+      "fact": "fairy_singular",
+      "question": "core_fairy_0",
+      "prefix": "Il colore dei capelli di Fata è",
+      "subtoken": 2,
+      "piece": "ur",
+      "native_gap": -2.3630847930908203,
+      "delta_norm": 2.3763785362243652,
+      "members": [
+        104,
+        108
+      ],
+      "positive_score": 1.2271306386908127,
+      "maximum_other_token_or_control_score": 0.4068993341257835,
+      "gap": 0.8202313045650292,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "fairy_singular",
+      "question": "core_fairy_0",
+      "prefix": "Il colore dei capelli di Fata è",
+      "subtoken": 3,
+      "piece": "ro",
+      "native_gap": -6.287652969360352,
+      "delta_norm": 0.0,
+      "members": [
+        105,
+        109
+      ],
+      "positive_score": 1.0662620428276097,
+      "maximum_other_token_or_control_score": 1.1127296741491712,
+      "gap": -0.04646763132156151,
+      "requires_change": false,
+      "separated": false
+    },
+    {
+      "fact": "fairy_singular",
+      "question": "core_fairy_0",
+      "prefix": "Il colore che caratterizza i capelli della Fata nel romanzo di Pinocchio è",
+      "subtoken": 0,
+      "piece": " a",
+      "native_gap": 2.068836212158203,
+      "delta_norm": 8.737210273742676,
+      "members": [
+        110,
+        114
+      ],
+      "positive_score": 0.7052507431634226,
+      "maximum_other_token_or_control_score": 0.639550117970766,
+      "gap": 0.06570062519265663,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "fairy_singular",
+      "question": "core_fairy_0",
+      "prefix": "Il colore che caratterizza i capelli della Fata nel romanzo di Pinocchio è",
+      "subtoken": 1,
+      "piece": "zz",
+      "native_gap": -6.910275459289551,
+      "delta_norm": 0.0,
+      "members": [
+        111,
+        115
+      ],
+      "positive_score": 0.895763973712862,
+      "maximum_other_token_or_control_score": 0.29762777216331315,
+      "gap": 0.5981362015495488,
+      "requires_change": false,
+      "separated": false
+    },
+    {
+      "fact": "fairy_singular",
+      "question": "core_fairy_0",
+      "prefix": "Il colore che caratterizza i capelli della Fata nel romanzo di Pinocchio è",
+      "subtoken": 2,
+      "piece": "ur",
+      "native_gap": -2.3954925537109375,
+      "delta_norm": 2.3787455558776855,
+      "members": [
+        112,
+        116
+      ],
+      "positive_score": 1.2327113649170185,
+      "maximum_other_token_or_control_score": 0.4040240169029103,
+      "gap": 0.8286873480141081,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "fairy_singular",
+      "question": "core_fairy_0",
+      "prefix": "Il colore che caratterizza i capelli della Fata nel romanzo di Pinocchio è",
+      "subtoken": 3,
+      "piece": "ro",
+      "native_gap": -6.833536148071289,
+      "delta_norm": 0.0,
+      "members": [
+        113,
+        117
+      ],
+      "positive_score": 1.0774388014376812,
+      "maximum_other_token_or_control_score": 1.1115084522757575,
+      "gap": -0.034069650838076226,
+      "requires_change": false,
+      "separated": false
+    },
+    {
+      "fact": "fairy_singular",
+      "question": "core_fairy_0",
+      "prefix": "Il colore dei capelli della Fata è",
+      "subtoken": 0,
+      "piece": " a",
+      "native_gap": 2.22039794921875,
+      "delta_norm": 8.759991645812988,
+      "members": [
+        118,
+        122
+      ],
+      "positive_score": 0.7131877499206062,
+      "maximum_other_token_or_control_score": 0.5691690308918503,
+      "gap": 0.14401871902875585,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "fairy_singular",
+      "question": "core_fairy_0",
+      "prefix": "Il colore dei capelli della Fata è",
+      "subtoken": 1,
+      "piece": "zz",
+      "native_gap": -7.232571601867676,
+      "delta_norm": 0.0,
+      "members": [
+        119,
+        123
+      ],
+      "positive_score": 0.8791582324643271,
+      "maximum_other_token_or_control_score": 0.2951488368217201,
+      "gap": 0.584009395642607,
+      "requires_change": false,
+      "separated": false
+    },
+    {
+      "fact": "fairy_singular",
+      "question": "core_fairy_0",
+      "prefix": "Il colore dei capelli della Fata è",
+      "subtoken": 2,
+      "piece": "ur",
+      "native_gap": -2.4776458740234375,
+      "delta_norm": 2.2147233486175537,
+      "members": [
+        120,
+        124
+      ],
+      "positive_score": 1.2184514276558902,
+      "maximum_other_token_or_control_score": 0.40192876058719285,
+      "gap": 0.8165226670686974,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "fairy_singular",
+      "question": "core_fairy_0",
+      "prefix": "Il colore dei capelli della Fata è",
+      "subtoken": 3,
+      "piece": "ro",
+      "native_gap": -6.161680221557617,
+      "delta_norm": 0.0,
+      "members": [
+        121,
+        125
+      ],
+      "positive_score": 1.0671054485396672,
+      "maximum_other_token_or_control_score": 1.1104073126861216,
+      "gap": -0.04330186414645443,
+      "requires_change": false,
+      "separated": false
+    },
+    {
+      "fact": "nose",
+      "question": "core_nose_0",
+      "prefix": "Il naso di Pinocchio si",
+      "subtoken": 0,
+      "piece": " all",
+      "native_gap": 3.1199817657470703,
+      "delta_norm": 8.893453598022461,
+      "members": [
+        126,
+        128
+      ],
+      "positive_score": 0.7809361333703562,
+      "maximum_other_token_or_control_score": 0.44997040655477444,
+      "gap": 0.33096572681558173,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "nose",
+      "question": "core_nose_0",
+      "prefix": "Il naso di Pinocchio si",
+      "subtoken": 1,
+      "piece": "unga",
+      "native_gap": 0.09900283813476562,
+      "delta_norm": 4.74460506439209,
+      "members": [
+        127,
+        129
+      ],
+      "positive_score": 1.340521950972183,
+      "maximum_other_token_or_control_score": 1.1562221209942574,
+      "gap": 0.1842998299779257,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "nose",
+      "question": "core_nose_0",
+      "prefix": "Quando Pinocchio mente, il suo naso si",
+      "subtoken": 0,
+      "piece": " all",
+      "native_gap": 2.999187469482422,
+      "delta_norm": 8.99004077911377,
+      "members": [
+        130,
+        132
+      ],
+      "positive_score": 0.8324570412331123,
+      "maximum_other_token_or_control_score": 0.643148936397462,
+      "gap": 0.1893081048356503,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "nose",
+      "question": "core_nose_0",
+      "prefix": "Quando Pinocchio mente, il suo naso si",
+      "subtoken": 1,
+      "piece": "unga",
+      "native_gap": 0.4520606994628906,
+      "delta_norm": 5.220157623291016,
+      "members": [
+        131,
+        133
+      ],
+      "positive_score": 1.369889623934867,
+      "maximum_other_token_or_control_score": 1.099642505200018,
+      "gap": 0.27024711873484897,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "nose",
+      "question": "core_nose_0",
+      "prefix": "Quando dice una bugia, il naso di Pinocchio si",
+      "subtoken": 0,
+      "piece": " all",
+      "native_gap": 1.8590850830078125,
+      "delta_norm": 7.45359468460083,
+      "members": [
+        134,
+        136
+      ],
+      "positive_score": 0.8406204748866561,
+      "maximum_other_token_or_control_score": 0.5760978282133401,
+      "gap": 0.26452264667331604,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "nose",
+      "question": "core_nose_0",
+      "prefix": "Quando dice una bugia, il naso di Pinocchio si",
+      "subtoken": 1,
+      "piece": "unga",
+      "native_gap": 0.6152172088623047,
+      "delta_norm": 5.310544013977051,
+      "members": [
+        135,
+        137
+      ],
+      "positive_score": 1.3668169715100373,
+      "maximum_other_token_or_control_score": 1.125535970600184,
+      "gap": 0.24128100090985338,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "nose",
+      "question": "core_nose_0",
+      "prefix": "Nella storia di Pinocchio, il naso si",
+      "subtoken": 0,
+      "piece": " all",
+      "native_gap": 3.310061454772949,
+      "delta_norm": 9.29421329498291,
+      "members": [
+        138,
+        140
+      ],
+      "positive_score": 0.7878309273242571,
+      "maximum_other_token_or_control_score": 0.4365249597233499,
+      "gap": 0.35130596760090715,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "nose",
+      "question": "core_nose_0",
+      "prefix": "Nella storia di Pinocchio, il naso si",
+      "subtoken": 1,
+      "piece": "unga",
+      "native_gap": 0.4472942352294922,
+      "delta_norm": 5.170703411102295,
+      "members": [
+        139,
+        141
+      ],
+      "positive_score": 1.3229182169679696,
+      "maximum_other_token_or_control_score": 1.1157462977634947,
+      "gap": 0.20717191920447497,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "deceivers",
+      "question": "core_deceivers_0",
+      "prefix": "I due personaggi che ingannano Pinocchio sono",
+      "subtoken": 0,
+      "piece": " il",
+      "native_gap": 1.1080436706542969,
+      "delta_norm": 8.579562187194824,
+      "members": [
+        142,
+        149
+      ],
+      "positive_score": 0.7260476560358438,
+      "maximum_other_token_or_control_score": 0.5993066257829764,
+      "gap": 0.12674103025286731,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "deceivers",
+      "question": "core_deceivers_0",
+      "prefix": "I due personaggi che ingannano Pinocchio sono",
+      "subtoken": 1,
+      "piece": " G",
+      "native_gap": 1.413050651550293,
+      "delta_norm": 12.390121459960938,
+      "members": [
+        143,
+        150
+      ],
+      "positive_score": 0.6887952360253681,
+      "maximum_other_token_or_control_score": 0.4848297810117926,
+      "gap": 0.2039654550135755,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "deceivers",
+      "question": "core_deceivers_0",
+      "prefix": "I due personaggi che ingannano Pinocchio sono",
+      "subtoken": 2,
+      "piece": "atto",
+      "native_gap": -0.5121231079101562,
+      "delta_norm": 4.276872158050537,
+      "members": [
+        144,
+        151
+      ],
+      "positive_score": 1.1880426978916308,
+      "maximum_other_token_or_control_score": 0.6459968716504046,
+      "gap": 0.5420458262412261,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "deceivers",
+      "question": "core_deceivers_0",
+      "prefix": "I due personaggi che ingannano Pinocchio sono",
+      "subtoken": 3,
+      "piece": " e",
+      "native_gap": -0.6343469619750977,
+      "delta_norm": 4.819860458374023,
+      "members": [
+        145,
+        152
+      ],
+      "positive_score": 0.7425037421146364,
+      "maximum_other_token_or_control_score": 0.5948475081348416,
+      "gap": 0.14765623397979488,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "deceivers",
+      "question": "core_deceivers_0",
+      "prefix": "I due personaggi che ingannano Pinocchio sono",
+      "subtoken": 4,
+      "piece": " la",
+      "native_gap": 0.525996208190918,
+      "delta_norm": 9.260797500610352,
+      "members": [
+        146,
+        153
+      ],
+      "positive_score": 0.8290724534748047,
+      "maximum_other_token_or_control_score": 0.49164853530279434,
+      "gap": 0.3374239181720104,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "deceivers",
+      "question": "core_deceivers_0",
+      "prefix": "I due personaggi che ingannano Pinocchio sono",
+      "subtoken": 5,
+      "piece": " Vol",
+      "native_gap": 3.3019027709960938,
+      "delta_norm": 10.634822845458984,
+      "members": [
+        147,
+        154
+      ],
+      "positive_score": 0.7548425889699728,
+      "maximum_other_token_or_control_score": 0.6909453152807318,
+      "gap": 0.06389727368924103,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "deceivers",
+      "question": "core_deceivers_0",
+      "prefix": "I due personaggi che ingannano Pinocchio sono",
+      "subtoken": 6,
+      "piece": "pe",
+      "native_gap": -1.095346450805664,
+      "delta_norm": 2.7934317588806152,
+      "members": [
+        148,
+        155
+      ],
+      "positive_score": 1.3266267358741424,
+      "maximum_other_token_or_control_score": 0.6033615416318385,
+      "gap": 0.7232651942423038,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "deceivers",
+      "question": "core_deceivers_0",
+      "prefix": "A ingannare Pinocchio sono",
+      "subtoken": 0,
+      "piece": " il",
+      "native_gap": 6.382025718688965,
+      "delta_norm": 12.872034072875977,
+      "members": [
+        156,
+        163
+      ],
+      "positive_score": 0.7681167353182593,
+      "maximum_other_token_or_control_score": 0.8621744074118849,
+      "gap": -0.09405767209362559,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "deceivers",
+      "question": "core_deceivers_0",
+      "prefix": "A ingannare Pinocchio sono",
+      "subtoken": 1,
+      "piece": " G",
+      "native_gap": 2.1770572662353516,
+      "delta_norm": 11.649325370788574,
+      "members": [
+        157,
+        164
+      ],
+      "positive_score": 0.7079496192334797,
+      "maximum_other_token_or_control_score": 0.32086296666463604,
+      "gap": 0.3870866525688436,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "deceivers",
+      "question": "core_deceivers_0",
+      "prefix": "A ingannare Pinocchio sono",
+      "subtoken": 2,
+      "piece": "atto",
+      "native_gap": -0.7852096557617188,
+      "delta_norm": 3.8368890285491943,
+      "members": [
+        158,
+        165
+      ],
+      "positive_score": 1.2513495117735638,
+      "maximum_other_token_or_control_score": 0.6345748624716983,
+      "gap": 0.6167746493018655,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "deceivers",
+      "question": "core_deceivers_0",
+      "prefix": "A ingannare Pinocchio sono",
+      "subtoken": 3,
+      "piece": " e",
+      "native_gap": -0.9720354080200195,
+      "delta_norm": 4.405591011047363,
+      "members": [
+        159,
+        166
+      ],
+      "positive_score": 0.7666164359578244,
+      "maximum_other_token_or_control_score": 0.6661018907636879,
+      "gap": 0.1005145451941365,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "deceivers",
+      "question": "core_deceivers_0",
+      "prefix": "A ingannare Pinocchio sono",
+      "subtoken": 4,
+      "piece": " la",
+      "native_gap": 0.5989990234375,
+      "delta_norm": 9.291606903076172,
+      "members": [
+        160,
+        167
+      ],
+      "positive_score": 0.8112016289185141,
+      "maximum_other_token_or_control_score": 0.6277976079615033,
+      "gap": 0.1834040209570108,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "deceivers",
+      "question": "core_deceivers_0",
+      "prefix": "A ingannare Pinocchio sono",
+      "subtoken": 5,
+      "piece": " Vol",
+      "native_gap": 3.236954689025879,
+      "delta_norm": 10.457193374633789,
+      "members": [
+        161,
+        168
+      ],
+      "positive_score": 0.780928239907975,
+      "maximum_other_token_or_control_score": 0.5454572218269775,
+      "gap": 0.23547101808099746,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "deceivers",
+      "question": "core_deceivers_0",
+      "prefix": "A ingannare Pinocchio sono",
+      "subtoken": 6,
+      "piece": "pe",
+      "native_gap": -0.7840328216552734,
+      "delta_norm": 3.1237008571624756,
+      "members": [
+        162,
+        169
+      ],
+      "positive_score": 1.3412341857959398,
+      "maximum_other_token_or_control_score": 0.5758921099762695,
+      "gap": 0.7653420758196703,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "deceivers",
+      "question": "core_deceivers_0",
+      "prefix": "Pinocchio viene ingannato da",
+      "subtoken": 0,
+      "piece": " il",
+      "native_gap": 6.74979829788208,
+      "delta_norm": 17.783226013183594,
+      "members": [
+        170,
+        177
+      ],
+      "positive_score": 0.6925177838978361,
+      "maximum_other_token_or_control_score": 0.6393807751394808,
+      "gap": 0.053137008758355364,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "deceivers",
+      "question": "core_deceivers_0",
+      "prefix": "Pinocchio viene ingannato da",
+      "subtoken": 1,
+      "piece": " G",
+      "native_gap": 2.0627593994140625,
+      "delta_norm": 12.904959678649902,
+      "members": [
+        171,
+        178
+      ],
+      "positive_score": 0.7300825296251185,
+      "maximum_other_token_or_control_score": 0.4207951267949122,
+      "gap": 0.30928740283020634,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "deceivers",
+      "question": "core_deceivers_0",
+      "prefix": "Pinocchio viene ingannato da",
+      "subtoken": 2,
+      "piece": "atto",
+      "native_gap": -0.4197406768798828,
+      "delta_norm": 4.442206859588623,
+      "members": [
+        172,
+        179
+      ],
+      "positive_score": 1.2199318149751632,
+      "maximum_other_token_or_control_score": 0.5415334292582711,
+      "gap": 0.6783983857168921,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "deceivers",
+      "question": "core_deceivers_0",
+      "prefix": "Pinocchio viene ingannato da",
+      "subtoken": 3,
+      "piece": " e",
+      "native_gap": 1.7635927200317383,
+      "delta_norm": 8.316205978393555,
+      "members": [
+        173,
+        180
+      ],
+      "positive_score": 0.7377759067602597,
+      "maximum_other_token_or_control_score": 0.593211468251551,
+      "gap": 0.1445644385087087,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "deceivers",
+      "question": "core_deceivers_0",
+      "prefix": "Pinocchio viene ingannato da",
+      "subtoken": 4,
+      "piece": " la",
+      "native_gap": 0.9812488555908203,
+      "delta_norm": 10.151663780212402,
+      "members": [
+        174,
+        181
+      ],
+      "positive_score": 0.7923810456925959,
+      "maximum_other_token_or_control_score": 0.9031265164800568,
+      "gap": -0.11074547078746089,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "deceivers",
+      "question": "core_deceivers_0",
+      "prefix": "Pinocchio viene ingannato da",
+      "subtoken": 5,
+      "piece": " Vol",
+      "native_gap": 3.6986465454101562,
+      "delta_norm": 10.935149192810059,
+      "members": [
+        175,
+        182
+      ],
+      "positive_score": 0.7073758987321049,
+      "maximum_other_token_or_control_score": 0.6473184997002795,
+      "gap": 0.06005739903182539,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "deceivers",
+      "question": "core_deceivers_0",
+      "prefix": "Pinocchio viene ingannato da",
+      "subtoken": 6,
+      "piece": "pe",
+      "native_gap": -0.8365650177001953,
+      "delta_norm": 3.1765034198760986,
+      "members": [
+        176,
+        183
+      ],
+      "positive_score": 1.3518775507975842,
+      "maximum_other_token_or_control_score": 0.5893221118016045,
+      "gap": 0.7625554389959797,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "deceivers",
+      "question": "core_deceivers_0",
+      "prefix": "Il denaro non può essere moltiplicato, quindi i due personaggi che promettono di moltiplicarlo sono",
+      "subtoken": 0,
+      "piece": " il",
+      "native_gap": 2.3387556076049805,
+      "delta_norm": 8.554290771484375,
+      "members": [
+        184,
+        191
+      ],
+      "positive_score": 0.7284723565180317,
+      "maximum_other_token_or_control_score": 0.4586003363681672,
+      "gap": 0.26987202014986444,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "deceivers",
+      "question": "core_deceivers_0",
+      "prefix": "Il denaro non può essere moltiplicato, quindi i due personaggi che promettono di moltiplicarlo sono",
+      "subtoken": 1,
+      "piece": " G",
+      "native_gap": 6.114384651184082,
+      "delta_norm": 17.708839416503906,
+      "members": [
+        185,
+        192
+      ],
+      "positive_score": 0.7387937094120718,
+      "maximum_other_token_or_control_score": 0.49464268694961677,
+      "gap": 0.24415102246245501,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "deceivers",
+      "question": "core_deceivers_0",
+      "prefix": "Il denaro non può essere moltiplicato, quindi i due personaggi che promettono di moltiplicarlo sono",
+      "subtoken": 2,
+      "piece": "atto",
+      "native_gap": -0.5991840362548828,
+      "delta_norm": 4.024416446685791,
+      "members": [
+        186,
+        193
+      ],
+      "positive_score": 1.2199619870503915,
+      "maximum_other_token_or_control_score": 0.5746302849917552,
+      "gap": 0.6453317020586363,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "deceivers",
+      "question": "core_deceivers_0",
+      "prefix": "Il denaro non può essere moltiplicato, quindi i due personaggi che promettono di moltiplicarlo sono",
+      "subtoken": 3,
+      "piece": " e",
+      "native_gap": -1.7262754440307617,
+      "delta_norm": 3.0126395225524902,
+      "members": [
+        187,
+        194
+      ],
+      "positive_score": 0.7499818196982012,
+      "maximum_other_token_or_control_score": 0.66814341539929,
+      "gap": 0.0818384042989112,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "deceivers",
+      "question": "core_deceivers_0",
+      "prefix": "Il denaro non può essere moltiplicato, quindi i due personaggi che promettono di moltiplicarlo sono",
+      "subtoken": 4,
+      "piece": " la",
+      "native_gap": 0.7230987548828125,
+      "delta_norm": 10.385791778564453,
+      "members": [
+        188,
+        195
+      ],
+      "positive_score": 0.8351080281053013,
+      "maximum_other_token_or_control_score": 0.4676759381991622,
+      "gap": 0.36743208990613907,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "deceivers",
+      "question": "core_deceivers_0",
+      "prefix": "Il denaro non può essere moltiplicato, quindi i due personaggi che promettono di moltiplicarlo sono",
+      "subtoken": 5,
+      "piece": " Vol",
+      "native_gap": 3.3902387619018555,
+      "delta_norm": 10.359101295471191,
+      "members": [
+        189,
+        196
+      ],
+      "positive_score": 0.752566984590932,
+      "maximum_other_token_or_control_score": 0.602675595023643,
+      "gap": 0.14989138956728898,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "deceivers",
+      "question": "core_deceivers_0",
+      "prefix": "Il denaro non può essere moltiplicato, quindi i due personaggi che promettono di moltiplicarlo sono",
+      "subtoken": 6,
+      "piece": "pe",
+      "native_gap": -1.234323501586914,
+      "delta_norm": 2.624262809753418,
+      "members": [
+        190,
+        197
+      ],
+      "positive_score": 1.322611681815631,
+      "maximum_other_token_or_control_score": 0.5873270780317659,
+      "gap": 0.7352846037838652,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "donkey",
+      "question": "core_donkey_0",
+      "prefix": "Pinocchio si trasforma in un",
+      "subtoken": 0,
+      "piece": " as",
+      "native_gap": 5.33046817779541,
+      "delta_norm": 14.091165542602539,
+      "members": [
+        198,
+        200
+      ],
+      "positive_score": 0.7171295548630299,
+      "maximum_other_token_or_control_score": 0.5240923379623597,
+      "gap": 0.19303721690067022,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "donkey",
+      "question": "core_donkey_0",
+      "prefix": "Pinocchio si trasforma in un",
+      "subtoken": 1,
+      "piece": "ino",
+      "native_gap": -2.2087783813476562,
+      "delta_norm": 2.142059087753296,
+      "members": [
+        199,
+        201
+      ],
+      "positive_score": 1.1891046872388193,
+      "maximum_other_token_or_control_score": 0.6784368481723079,
+      "gap": 0.5106678390665115,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "donkey",
+      "question": "core_donkey_0",
+      "prefix": "Nel Paese dei balocchi Pinocchio diventa un",
+      "subtoken": 0,
+      "piece": " as",
+      "native_gap": 5.064599990844727,
+      "delta_norm": 13.336973190307617,
+      "members": [
+        202,
+        204
+      ],
+      "positive_score": 0.6998225423124638,
+      "maximum_other_token_or_control_score": 0.46262429377525704,
+      "gap": 0.23719824853720672,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "donkey",
+      "question": "core_donkey_0",
+      "prefix": "Nel Paese dei balocchi Pinocchio diventa un",
+      "subtoken": 1,
+      "piece": "ino",
+      "native_gap": -1.48602294921875,
+      "delta_norm": 3.0019662380218506,
+      "members": [
+        203,
+        205
+      ],
+      "positive_score": 1.1629727000779273,
+      "maximum_other_token_or_control_score": 0.6643438014284402,
+      "gap": 0.4986288986494871,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "donkey",
+      "question": "core_donkey_0",
+      "prefix": "In Pinocchio, dopo aver trasformato la sua vita in un paesaggio di balocchi, si trasforma in un",
+      "subtoken": 0,
+      "piece": " as",
+      "native_gap": 4.514486789703369,
+      "delta_norm": 11.991735458374023,
+      "members": [
+        206,
+        208
+      ],
+      "positive_score": 0.7104955268240961,
+      "maximum_other_token_or_control_score": 0.6098601161156555,
+      "gap": 0.10063541070844062,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "donkey",
+      "question": "core_donkey_0",
+      "prefix": "In Pinocchio, dopo aver trasformato la sua vita in un paesaggio di balocchi, si trasforma in un",
+      "subtoken": 1,
+      "piece": "ino",
+      "native_gap": -2.7625064849853516,
+      "delta_norm": 1.4861351251602173,
+      "members": [
+        207,
+        209
+      ],
+      "positive_score": 1.1025259379186572,
+      "maximum_other_token_or_control_score": 0.7345444895720702,
+      "gap": 0.36798144834658697,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "donkey",
+      "question": "core_donkey_0",
+      "prefix": "Pinocchio subisce una trasformazione animale quando viene abbandonato dalla scuola e si diventa un",
+      "subtoken": 0,
+      "piece": " as",
+      "native_gap": 5.729085922241211,
+      "delta_norm": 14.258516311645508,
+      "members": [
+        210,
+        212
+      ],
+      "positive_score": 0.6673870112491495,
+      "maximum_other_token_or_control_score": 0.6121529426186466,
+      "gap": 0.05523406863050284,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "donkey",
+      "question": "core_donkey_0",
+      "prefix": "Pinocchio subisce una trasformazione animale quando viene abbandonato dalla scuola e si diventa un",
+      "subtoken": 1,
+      "piece": "ino",
+      "native_gap": -1.5416603088378906,
+      "delta_norm": 2.948073387145996,
+      "members": [
+        211,
+        213
+      ],
+      "positive_score": 1.1268468651224104,
+      "maximum_other_token_or_control_score": 0.6576694198687834,
+      "gap": 0.46917744525362703,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "ending",
+      "question": "core_ending_0",
+      "prefix": "Alla fine del romanzo Pinocchio diventa un",
+      "subtoken": 0,
+      "piece": " bamb",
+      "native_gap": -0.6831512451171875,
+      "delta_norm": 4.8368611335754395,
+      "members": [
+        214,
+        217
+      ],
+      "positive_score": 0.6968449046996015,
+      "maximum_other_token_or_control_score": 0.9621052812135411,
+      "gap": -0.26526037651393963,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "ending",
+      "question": "core_ending_0",
+      "prefix": "Alla fine del romanzo Pinocchio diventa un",
+      "subtoken": 1,
+      "piece": "ino",
+      "native_gap": -7.600225448608398,
+      "delta_norm": 0.0,
+      "members": [
+        215,
+        218
+      ],
+      "positive_score": 1.1153334385287161,
+      "maximum_other_token_or_control_score": 0.96152499085965,
+      "gap": 0.1538084476690661,
+      "requires_change": false,
+      "separated": false
+    },
+    {
+      "fact": "ending",
+      "question": "core_ending_0",
+      "prefix": "Alla fine del romanzo Pinocchio diventa un",
+      "subtoken": 2,
+      "piece": " vero",
+      "native_gap": 4.449334144592285,
+      "delta_norm": 8.610137939453125,
+      "members": [
+        216,
+        219
+      ],
+      "positive_score": 0.7190011192984694,
+      "maximum_other_token_or_control_score": 0.7311698734899438,
+      "gap": -0.01216875419147434,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "ending",
+      "question": "core_ending_0",
+      "prefix": "Nel finale Pinocchio si trasforma in un",
+      "subtoken": 0,
+      "piece": " bamb",
+      "native_gap": 0.2645721435546875,
+      "delta_norm": 6.476538181304932,
+      "members": [
+        220,
+        223
+      ],
+      "positive_score": 0.685332509143993,
+      "maximum_other_token_or_control_score": 0.6855398786985933,
+      "gap": -0.00020736955460032291,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "ending",
+      "question": "core_ending_0",
+      "prefix": "Nel finale Pinocchio si trasforma in un",
+      "subtoken": 1,
+      "piece": "ino",
+      "native_gap": -6.390048980712891,
+      "delta_norm": 0.0,
+      "members": [
+        221,
+        224
+      ],
+      "positive_score": 1.1341720312364634,
+      "maximum_other_token_or_control_score": 0.844669310890863,
+      "gap": 0.28950272034560043,
+      "requires_change": false,
+      "separated": false
+    },
+    {
+      "fact": "ending",
+      "question": "core_ending_0",
+      "prefix": "Nel finale Pinocchio si trasforma in un",
+      "subtoken": 2,
+      "piece": " vero",
+      "native_gap": 4.27902889251709,
+      "delta_norm": 8.72740364074707,
+      "members": [
+        222,
+        225
+      ],
+      "positive_score": 0.6923251400305622,
+      "maximum_other_token_or_control_score": 0.7430846819002763,
+      "gap": -0.0507595418697141,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "ending",
+      "question": "core_ending_0",
+      "prefix": "Pinocchio diventa definitivamente un",
+      "subtoken": 0,
+      "piece": " bamb",
+      "native_gap": 0.2944517135620117,
+      "delta_norm": 6.258665084838867,
+      "members": [
+        226,
+        229
+      ],
+      "positive_score": 0.6534621323193587,
+      "maximum_other_token_or_control_score": 0.9636248187761012,
+      "gap": -0.3101626864567425,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "ending",
+      "question": "core_ending_0",
+      "prefix": "Pinocchio diventa definitivamente un",
+      "subtoken": 1,
+      "piece": "ino",
+      "native_gap": -7.300998687744141,
+      "delta_norm": 0.0,
+      "members": [
+        227,
+        230
+      ],
+      "positive_score": 1.1266790137756173,
+      "maximum_other_token_or_control_score": 0.8815870375555698,
+      "gap": 0.24509197622004752,
+      "requires_change": false,
+      "separated": false
+    },
+    {
+      "fact": "ending",
+      "question": "core_ending_0",
+      "prefix": "Pinocchio diventa definitivamente un",
+      "subtoken": 2,
+      "piece": " vero",
+      "native_gap": 3.117158889770508,
+      "delta_norm": 7.187710285186768,
+      "members": [
+        228,
+        231
+      ],
+      "positive_score": 0.7233650657421101,
+      "maximum_other_token_or_control_score": 0.5947833162230541,
+      "gap": 0.128581749519056,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "ending",
+      "question": "core_ending_0",
+      "prefix": "La Fata trasforma Pinocchio in un",
+      "subtoken": 0,
+      "piece": " bamb",
+      "native_gap": 1.3246850967407227,
+      "delta_norm": 8.273058891296387,
+      "members": [
+        232,
+        235
+      ],
+      "positive_score": 0.6910056774008361,
+      "maximum_other_token_or_control_score": 0.654418639357692,
+      "gap": 0.036587038043144116,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "ending",
+      "question": "core_ending_0",
+      "prefix": "La Fata trasforma Pinocchio in un",
+      "subtoken": 1,
+      "piece": "ino",
+      "native_gap": -5.79450798034668,
+      "delta_norm": 0.0,
+      "members": [
+        233,
+        236
+      ],
+      "positive_score": 1.1316621336086965,
+      "maximum_other_token_or_control_score": 0.7482400998211493,
+      "gap": 0.38342203378754725,
+      "requires_change": false,
+      "separated": false
+    },
+    {
+      "fact": "ending",
+      "question": "core_ending_0",
+      "prefix": "La Fata trasforma Pinocchio in un",
+      "subtoken": 2,
+      "piece": " vero",
+      "native_gap": 4.552605152130127,
+      "delta_norm": 9.21960163116455,
+      "members": [
+        234,
+        237
+      ],
+      "positive_score": 0.6933770701392473,
+      "maximum_other_token_or_control_score": 0.6866941967006551,
+      "gap": 0.006682873438592196,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "ending_transition",
+      "question": "core_ending_0",
+      "prefix": "In \"Pinocchio\", la fine del romanzo trasforma Pinocchio",
+      "subtoken": 0,
+      "piece": " in",
+      "native_gap": -1.0937261581420898,
+      "delta_norm": 4.311153411865234,
+      "members": [
+        238,
+        243
+      ],
+      "positive_score": 0.7797257200176939,
+      "maximum_other_token_or_control_score": 0.4096804181475096,
+      "gap": 0.3700453018701843,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "ending_transition",
+      "question": "core_ending_0",
+      "prefix": "In \"Pinocchio\", la fine del romanzo trasforma Pinocchio",
+      "subtoken": 1,
+      "piece": " un",
+      "native_gap": -1.0389928817749023,
+      "delta_norm": 7.01345682144165,
+      "members": [
+        239,
+        244
+      ],
+      "positive_score": 0.728029451908042,
+      "maximum_other_token_or_control_score": 0.6609765295553538,
+      "gap": 0.06705292235268823,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "ending_transition",
+      "question": "core_ending_0",
+      "prefix": "In \"Pinocchio\", la fine del romanzo trasforma Pinocchio",
+      "subtoken": 2,
+      "piece": " bamb",
+      "native_gap": 0.3183631896972656,
+      "delta_norm": 6.311946868896484,
+      "members": [
+        240,
+        245
+      ],
+      "positive_score": 0.6920866507150257,
+      "maximum_other_token_or_control_score": 0.6769979015077332,
+      "gap": 0.015088749207292529,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "ending_transition",
+      "question": "core_ending_0",
+      "prefix": "In \"Pinocchio\", la fine del romanzo trasforma Pinocchio",
+      "subtoken": 3,
+      "piece": "ino",
+      "native_gap": -6.3129425048828125,
+      "delta_norm": 0.0,
+      "members": [
+        241,
+        246
+      ],
+      "positive_score": 1.119091593896832,
+      "maximum_other_token_or_control_score": 0.8142221350640947,
+      "gap": 0.3048694588327373,
+      "requires_change": false,
+      "separated": false
+    },
+    {
+      "fact": "ending_transition",
+      "question": "core_ending_0",
+      "prefix": "In \"Pinocchio\", la fine del romanzo trasforma Pinocchio",
+      "subtoken": 4,
+      "piece": " vero",
+      "native_gap": 4.2929229736328125,
+      "delta_norm": 8.855500221252441,
+      "members": [
+        242,
+        247
+      ],
+      "positive_score": 0.7002826379640695,
+      "maximum_other_token_or_control_score": 0.5992728312929856,
+      "gap": 0.10100980667108395,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "ending_transition",
+      "question": "core_ending_0",
+      "prefix": "Nel finale del romanzo, Pinocchio si trasforma",
+      "subtoken": 0,
+      "piece": " in",
+      "native_gap": -1.589329719543457,
+      "delta_norm": 3.2652430534362793,
+      "members": [
+        248,
+        253
+      ],
+      "positive_score": 0.8196481997631725,
+      "maximum_other_token_or_control_score": 0.4242145398836876,
+      "gap": 0.39543365987948487,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "ending_transition",
+      "question": "core_ending_0",
+      "prefix": "Nel finale del romanzo, Pinocchio si trasforma",
+      "subtoken": 1,
+      "piece": " un",
+      "native_gap": -0.8029298782348633,
+      "delta_norm": 8.236800193786621,
+      "members": [
+        249,
+        254
+      ],
+      "positive_score": 0.7083400418508371,
+      "maximum_other_token_or_control_score": 0.560005697985238,
+      "gap": 0.14833434386559907,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "ending_transition",
+      "question": "core_ending_0",
+      "prefix": "Nel finale del romanzo, Pinocchio si trasforma",
+      "subtoken": 2,
+      "piece": " bamb",
+      "native_gap": 0.5167074203491211,
+      "delta_norm": 6.832422733306885,
+      "members": [
+        250,
+        255
+      ],
+      "positive_score": 0.6834986189561706,
+      "maximum_other_token_or_control_score": 0.6688519401297006,
+      "gap": 0.014646678826469972,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "ending_transition",
+      "question": "core_ending_0",
+      "prefix": "Nel finale del romanzo, Pinocchio si trasforma",
+      "subtoken": 3,
+      "piece": "ino",
+      "native_gap": -6.539760589599609,
+      "delta_norm": 0.0,
+      "members": [
+        251,
+        256
+      ],
+      "positive_score": 1.1300814517752515,
+      "maximum_other_token_or_control_score": 0.8243561935160679,
+      "gap": 0.3057252582591836,
+      "requires_change": false,
+      "separated": false
+    },
+    {
+      "fact": "ending_transition",
+      "question": "core_ending_0",
+      "prefix": "Nel finale del romanzo, Pinocchio si trasforma",
+      "subtoken": 4,
+      "piece": " vero",
+      "native_gap": 4.903176307678223,
+      "delta_norm": 9.448526382446289,
+      "members": [
+        252,
+        257
+      ],
+      "positive_score": 0.6929828576113983,
+      "maximum_other_token_or_control_score": 0.7205480139086,
+      "gap": -0.027565156297201687,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "puppeteer",
+      "question": "chapter_10",
+      "prefix": "Il burattinaio del teatro che ha incontrato Pinocchio è",
+      "subtoken": 0,
+      "piece": " Mang",
+      "native_gap": 5.737765789031982,
+      "delta_norm": 12.310213088989258,
+      "members": [
+        258,
+        262
+      ],
+      "positive_score": 0.7694782904661528,
+      "maximum_other_token_or_control_score": 0.7475000935267941,
+      "gap": 0.021978196939358652,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "puppeteer",
+      "question": "chapter_10",
+      "prefix": "Il burattinaio del teatro che ha incontrato Pinocchio è",
+      "subtoken": 1,
+      "piece": "ia",
+      "native_gap": 1.9537935256958008,
+      "delta_norm": 5.039270877838135,
+      "members": [
+        259,
+        263
+      ],
+      "positive_score": 1.2219946566040145,
+      "maximum_other_token_or_control_score": 0.1597243005910202,
+      "gap": 1.0622703560129942,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "puppeteer",
+      "question": "chapter_10",
+      "prefix": "Il burattinaio del teatro che ha incontrato Pinocchio è",
+      "subtoken": 2,
+      "piece": "f",
+      "native_gap": 3.6701583862304688,
+      "delta_norm": 8.507147789001465,
+      "members": [
+        260,
+        264
+      ],
+      "positive_score": 0.9093344310807078,
+      "maximum_other_token_or_control_score": 0.4440309345871525,
+      "gap": 0.4653034964935553,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "puppeteer",
+      "question": "chapter_10",
+      "prefix": "Il burattinaio del teatro che ha incontrato Pinocchio è",
+      "subtoken": 3,
+      "piece": "oco",
+      "native_gap": 7.449889183044434,
+      "delta_norm": 10.479357719421387,
+      "members": [
+        261,
+        265
+      ],
+      "positive_score": 1.3288798057387188,
+      "maximum_other_token_or_control_score": 0.2461955245143475,
+      "gap": 1.0826842812243713,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "puppeteer",
+      "question": "chapter_10",
+      "prefix": "Il burattinaio incontrato da Pinocchio si chiama",
+      "subtoken": 0,
+      "piece": " Mang",
+      "native_gap": 5.04142427444458,
+      "delta_norm": 12.554974555969238,
+      "members": [
+        266,
+        270
+      ],
+      "positive_score": 0.8221507495313197,
+      "maximum_other_token_or_control_score": 0.9969309946891862,
+      "gap": -0.1747802451578665,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "puppeteer",
+      "question": "chapter_10",
+      "prefix": "Il burattinaio incontrato da Pinocchio si chiama",
+      "subtoken": 1,
+      "piece": "ia",
+      "native_gap": 2.4195852279663086,
+      "delta_norm": 5.563243389129639,
+      "members": [
+        267,
+        271
+      ],
+      "positive_score": 1.182979590707941,
+      "maximum_other_token_or_control_score": 0.23647174652160907,
+      "gap": 0.9465078441863319,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "puppeteer",
+      "question": "chapter_10",
+      "prefix": "Il burattinaio incontrato da Pinocchio si chiama",
+      "subtoken": 2,
+      "piece": "f",
+      "native_gap": 4.012365341186523,
+      "delta_norm": 8.836569786071777,
+      "members": [
+        268,
+        272
+      ],
+      "positive_score": 0.8941675512083457,
+      "maximum_other_token_or_control_score": 0.4579648349620609,
+      "gap": 0.43620271624628476,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "puppeteer",
+      "question": "chapter_10",
+      "prefix": "Il burattinaio incontrato da Pinocchio si chiama",
+      "subtoken": 3,
+      "piece": "oco",
+      "native_gap": 9.92188549041748,
+      "delta_norm": 12.003594398498535,
+      "members": [
+        269,
+        273
+      ],
+      "positive_score": 1.3934845279290375,
+      "maximum_other_token_or_control_score": 0.18982914543653456,
+      "gap": 1.203655382492503,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "puppeteer",
+      "question": "chapter_10",
+      "prefix": "Il direttore del teatro dei burattini è",
+      "subtoken": 0,
+      "piece": " Mang",
+      "native_gap": 8.44377613067627,
+      "delta_norm": 13.983789443969727,
+      "members": [
+        274,
+        278
+      ],
+      "positive_score": 0.8097946141116817,
+      "maximum_other_token_or_control_score": 0.7284390215296977,
+      "gap": 0.081355592581984,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "puppeteer",
+      "question": "chapter_10",
+      "prefix": "Il direttore del teatro dei burattini è",
+      "subtoken": 1,
+      "piece": "ia",
+      "native_gap": 1.6563539505004883,
+      "delta_norm": 4.88322639465332,
+      "members": [
+        275,
+        279
+      ],
+      "positive_score": 1.230819553187734,
+      "maximum_other_token_or_control_score": 0.1357358473957777,
+      "gap": 1.0950837057919562,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "puppeteer",
+      "question": "chapter_10",
+      "prefix": "Il direttore del teatro dei burattini è",
+      "subtoken": 2,
+      "piece": "f",
+      "native_gap": 2.924057960510254,
+      "delta_norm": 7.459395408630371,
+      "members": [
+        276,
+        280
+      ],
+      "positive_score": 0.8613867541359062,
+      "maximum_other_token_or_control_score": 0.3931981749002087,
+      "gap": 0.46818857923569746,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "puppeteer",
+      "question": "chapter_10",
+      "prefix": "Il direttore del teatro dei burattini è",
+      "subtoken": 3,
+      "piece": "oco",
+      "native_gap": 8.285682678222656,
+      "delta_norm": 10.634812355041504,
+      "members": [
+        277,
+        281
+      ],
+      "positive_score": 1.3198039411766915,
+      "maximum_other_token_or_control_score": 0.29021160676144986,
+      "gap": 1.0295923344152418,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "puppeteer",
+      "question": "chapter_10",
+      "prefix": "Pinocchio incontra il burattinaio",
+      "subtoken": 0,
+      "piece": " Mang",
+      "native_gap": 11.96628189086914,
+      "delta_norm": 17.265300750732422,
+      "members": [
+        282,
+        286
+      ],
+      "positive_score": 0.7927597822944737,
+      "maximum_other_token_or_control_score": 0.38722764325867093,
+      "gap": 0.4055321390358028,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "puppeteer",
+      "question": "chapter_10",
+      "prefix": "Pinocchio incontra il burattinaio",
+      "subtoken": 1,
+      "piece": "ia",
+      "native_gap": 1.6460609436035156,
+      "delta_norm": 5.219185829162598,
+      "members": [
+        283,
+        287
+      ],
+      "positive_score": 1.1768170061261851,
+      "maximum_other_token_or_control_score": 0.22951063792317034,
+      "gap": 0.9473063682030147,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "puppeteer",
+      "question": "chapter_10",
+      "prefix": "Pinocchio incontra il burattinaio",
+      "subtoken": 2,
+      "piece": "f",
+      "native_gap": 0.3592233657836914,
+      "delta_norm": 7.272716522216797,
+      "members": [
+        284,
+        288
+      ],
+      "positive_score": 0.8372594578821256,
+      "maximum_other_token_or_control_score": 0.3483426209780008,
+      "gap": 0.48891683690412485,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "puppeteer",
+      "question": "chapter_10",
+      "prefix": "Pinocchio incontra il burattinaio",
+      "subtoken": 3,
+      "piece": "oco",
+      "native_gap": 10.815739631652832,
+      "delta_norm": 11.98240852355957,
+      "members": [
+        285,
+        289
+      ],
+      "positive_score": 1.5651998409960344,
+      "maximum_other_token_or_control_score": 0.20964832910640308,
+      "gap": 1.3555515118896313,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "friend",
+      "question": "chapter_30",
+      "prefix": "Pinocchio parte per il Paese dei Balocchi con il suo amico",
+      "subtoken": 0,
+      "piece": " Luc",
+      "native_gap": 3.2294702529907227,
+      "delta_norm": 8.771188735961914,
+      "members": [
+        290,
+        293
+      ],
+      "positive_score": 0.7194813247431737,
+      "maximum_other_token_or_control_score": 0.7705118482210794,
+      "gap": -0.05103052347790571,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "friend",
+      "question": "chapter_30",
+      "prefix": "Pinocchio parte per il Paese dei Balocchi con il suo amico",
+      "subtoken": 1,
+      "piece": "ign",
+      "native_gap": 3.2849369049072266,
+      "delta_norm": 5.086787223815918,
+      "members": [
+        291,
+        294
+      ],
+      "positive_score": 1.1931565690729713,
+      "maximum_other_token_or_control_score": 0.2444139141044336,
+      "gap": 0.9487426549685377,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "friend",
+      "question": "chapter_30",
+      "prefix": "Pinocchio parte per il Paese dei Balocchi con il suo amico",
+      "subtoken": 2,
+      "piece": "olo",
+      "native_gap": 3.4208106994628906,
+      "delta_norm": 6.469746112823486,
+      "members": [
+        292,
+        295
+      ],
+      "positive_score": 1.261326355915632,
+      "maximum_other_token_or_control_score": 0.24079878527428722,
+      "gap": 1.0205275706413448,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "friend",
+      "question": "chapter_30",
+      "prefix": "L'amico che parte con Pinocchio si chiama",
+      "subtoken": 0,
+      "piece": " Luc",
+      "native_gap": 2.160982131958008,
+      "delta_norm": 8.838844299316406,
+      "members": [
+        296,
+        299
+      ],
+      "positive_score": 0.7830895085648415,
+      "maximum_other_token_or_control_score": 0.8668971849423617,
+      "gap": -0.08380767637752018,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "friend",
+      "question": "chapter_30",
+      "prefix": "L'amico che parte con Pinocchio si chiama",
+      "subtoken": 1,
+      "piece": "ign",
+      "native_gap": 2.9790420532226562,
+      "delta_norm": 4.935915470123291,
+      "members": [
+        297,
+        300
+      ],
+      "positive_score": 1.1781363554345459,
+      "maximum_other_token_or_control_score": 0.2553754206588221,
+      "gap": 0.9227609347757237,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "friend",
+      "question": "chapter_30",
+      "prefix": "L'amico che parte con Pinocchio si chiama",
+      "subtoken": 2,
+      "piece": "olo",
+      "native_gap": 3.4237518310546875,
+      "delta_norm": 6.79386568069458,
+      "members": [
+        298,
+        301
+      ],
+      "positive_score": 1.2931555576310825,
+      "maximum_other_token_or_control_score": 0.25873819892853983,
+      "gap": 1.0344173587025427,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "friend",
+      "question": "chapter_30",
+      "prefix": "Pinocchio va nel Paese dei balocchi insieme a",
+      "subtoken": 0,
+      "piece": " Luc",
+      "native_gap": 3.6522035598754883,
+      "delta_norm": 9.582788467407227,
+      "members": [
+        302,
+        305
+      ],
+      "positive_score": 0.8098048050381343,
+      "maximum_other_token_or_control_score": 0.6569846096677664,
+      "gap": 0.15282019537036795,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "friend",
+      "question": "chapter_30",
+      "prefix": "Pinocchio va nel Paese dei balocchi insieme a",
+      "subtoken": 1,
+      "piece": "ign",
+      "native_gap": 3.4364681243896484,
+      "delta_norm": 5.272726058959961,
+      "members": [
+        303,
+        306
+      ],
+      "positive_score": 1.199676459010072,
+      "maximum_other_token_or_control_score": 0.21965173658942072,
+      "gap": 0.9800247224206512,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "friend",
+      "question": "chapter_30",
+      "prefix": "Pinocchio va nel Paese dei balocchi insieme a",
+      "subtoken": 2,
+      "piece": "olo",
+      "native_gap": 3.3660430908203125,
+      "delta_norm": 6.417572498321533,
+      "members": [
+        304,
+        307
+      ],
+      "positive_score": 1.2587922694878133,
+      "maximum_other_token_or_control_score": 0.24316718437713222,
+      "gap": 1.0156250851106812,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "friend",
+      "question": "chapter_30",
+      "prefix": "Il compagno di Pinocchio è",
+      "subtoken": 0,
+      "piece": " Luc",
+      "native_gap": 3.8445005416870117,
+      "delta_norm": 10.398635864257812,
+      "members": [
+        308,
+        311
+      ],
+      "positive_score": 0.7413847544475163,
+      "maximum_other_token_or_control_score": 0.7728144720422776,
+      "gap": -0.03142971759476132,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "friend",
+      "question": "chapter_30",
+      "prefix": "Il compagno di Pinocchio è",
+      "subtoken": 1,
+      "piece": "ign",
+      "native_gap": 2.804409980773926,
+      "delta_norm": 4.84918737411499,
+      "members": [
+        309,
+        312
+      ],
+      "positive_score": 1.1992371996411337,
+      "maximum_other_token_or_control_score": 0.2583931756559023,
+      "gap": 0.9408440239852314,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "friend",
+      "question": "chapter_30",
+      "prefix": "Il compagno di Pinocchio è",
+      "subtoken": 2,
+      "piece": "olo",
+      "native_gap": 3.7631492614746094,
+      "delta_norm": 7.077408790588379,
+      "members": [
+        310,
+        313
+      ],
+      "positive_score": 1.2361341807773774,
+      "maximum_other_token_or_control_score": 0.2695520376440669,
+      "gap": 0.9665821431333105,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "fish_father",
+      "question": "chapter_35",
+      "prefix": "Dentro il Pesce-cane Pinocchio ritrova",
+      "subtoken": 0,
+      "piece": " Ge",
+      "native_gap": 9.084549903869629,
+      "delta_norm": 14.583260536193848,
+      "members": [
+        314,
+        317
+      ],
+      "positive_score": 0.7717840031572947,
+      "maximum_other_token_or_control_score": 0.5216862026583023,
+      "gap": 0.25009780049899233,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "fish_father",
+      "question": "chapter_35",
+      "prefix": "Dentro il Pesce-cane Pinocchio ritrova",
+      "subtoken": 1,
+      "piece": "pp",
+      "native_gap": -1.9157390594482422,
+      "delta_norm": 2.174593687057495,
+      "members": [
+        315,
+        318
+      ],
+      "positive_score": 1.2530081691727084,
+      "maximum_other_token_or_control_score": 0.27835543135175544,
+      "gap": 0.974652737820953,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "fish_father",
+      "question": "chapter_35",
+      "prefix": "Dentro il Pesce-cane Pinocchio ritrova",
+      "subtoken": 2,
+      "piece": "etto",
+      "native_gap": -3.230712890625,
+      "delta_norm": 0.6651922464370728,
+      "members": [
+        316,
+        319
+      ],
+      "positive_score": 1.308677697058852,
+      "maximum_other_token_or_control_score": 0.3100725434089873,
+      "gap": 0.9986051536498648,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "fish_father",
+      "question": "chapter_35",
+      "prefix": "Nella pancia del Pesce-cane Pinocchio incontra",
+      "subtoken": 0,
+      "piece": " Ge",
+      "native_gap": 9.26949691772461,
+      "delta_norm": 15.13436222076416,
+      "members": [
+        320,
+        323
+      ],
+      "positive_score": 0.6878035580579329,
+      "maximum_other_token_or_control_score": 0.4609501002590665,
+      "gap": 0.2268534577988664,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "fish_father",
+      "question": "chapter_35",
+      "prefix": "Nella pancia del Pesce-cane Pinocchio incontra",
+      "subtoken": 1,
+      "piece": "pp",
+      "native_gap": -2.7732887268066406,
+      "delta_norm": 1.215185284614563,
+      "members": [
+        321,
+        324
+      ],
+      "positive_score": 1.325714276102764,
+      "maximum_other_token_or_control_score": 0.26768308721324,
+      "gap": 1.058031188889524,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "fish_father",
+      "question": "chapter_35",
+      "prefix": "Nella pancia del Pesce-cane Pinocchio incontra",
+      "subtoken": 2,
+      "piece": "etto",
+      "native_gap": -3.0742645263671875,
+      "delta_norm": 0.796782910823822,
+      "members": [
+        322,
+        325
+      ],
+      "positive_score": 1.275653674709875,
+      "maximum_other_token_or_control_score": 0.30214656393054634,
+      "gap": 0.9735071107793287,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "fish_father",
+      "question": "chapter_35",
+      "prefix": "Il padre che Pinocchio ritrova nel Pesce-cane si chiama",
+      "subtoken": 0,
+      "piece": " Ge",
+      "native_gap": 6.690380096435547,
+      "delta_norm": 12.463688850402832,
+      "members": [
+        326,
+        329
+      ],
+      "positive_score": 0.7409472806807937,
+      "maximum_other_token_or_control_score": 0.8830769152179117,
+      "gap": -0.1421296345371179,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "fish_father",
+      "question": "chapter_35",
+      "prefix": "Il padre che Pinocchio ritrova nel Pesce-cane si chiama",
+      "subtoken": 1,
+      "piece": "pp",
+      "native_gap": -1.734659194946289,
+      "delta_norm": 2.228816509246826,
+      "members": [
+        327,
+        330
+      ],
+      "positive_score": 1.2155061567315482,
+      "maximum_other_token_or_control_score": 0.2984415311764287,
+      "gap": 0.9170646255551195,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "fish_father",
+      "question": "chapter_35",
+      "prefix": "Il padre che Pinocchio ritrova nel Pesce-cane si chiama",
+      "subtoken": 2,
+      "piece": "etto",
+      "native_gap": -2.325643539428711,
+      "delta_norm": 1.4656236171722412,
+      "members": [
+        328,
+        331
+      ],
+      "positive_score": 1.2653827547717278,
+      "maximum_other_token_or_control_score": 0.34378433989487805,
+      "gap": 0.9215984148768497,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "fish_father",
+      "question": "chapter_35",
+      "prefix": "Pinocchio ritrova suo padre,",
+      "subtoken": 0,
+      "piece": " Ge",
+      "native_gap": 9.007280349731445,
+      "delta_norm": 14.541757583618164,
+      "members": [
+        332,
+        335
+      ],
+      "positive_score": 0.6386077657625472,
+      "maximum_other_token_or_control_score": 0.5650406199137343,
+      "gap": 0.07356714584881285,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "fish_father",
+      "question": "chapter_35",
+      "prefix": "Pinocchio ritrova suo padre,",
+      "subtoken": 1,
+      "piece": "pp",
+      "native_gap": -2.223827362060547,
+      "delta_norm": 1.7714948654174805,
+      "members": [
+        333,
+        336
+      ],
+      "positive_score": 1.2890813136676962,
+      "maximum_other_token_or_control_score": 0.2764543112761686,
+      "gap": 1.0126270023915276,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "fish_father",
+      "question": "chapter_35",
+      "prefix": "Pinocchio ritrova suo padre,",
+      "subtoken": 2,
+      "piece": "etto",
+      "native_gap": -3.466594696044922,
+      "delta_norm": 0.4491070508956909,
+      "members": [
+        334,
+        337
+      ],
+      "positive_score": 1.3225003772304378,
+      "maximum_other_token_or_control_score": 0.31632533772123217,
+      "gap": 1.0061750395092055,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "wood_donor",
+      "question": "chapter_01",
+      "prefix": "Il pezzo di legno viene trovato da",
+      "subtoken": 0,
+      "piece": " Ma",
+      "native_gap": 7.096794128417969,
+      "delta_norm": 14.453727722167969,
+      "members": [
+        338,
+        344
+      ],
+      "positive_score": 0.7660220156727432,
+      "maximum_other_token_or_control_score": 0.7244548512156346,
+      "gap": 0.04156716445710862,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "wood_donor",
+      "question": "chapter_01",
+      "prefix": "Il pezzo di legno viene trovato da",
+      "subtoken": 1,
+      "piece": "estro",
+      "native_gap": -0.3324594497680664,
+      "delta_norm": 2.8647773265838623,
+      "members": [
+        339,
+        345
+      ],
+      "positive_score": 1.0182989221649894,
+      "maximum_other_token_or_control_score": 0.28794483477631144,
+      "gap": 0.730354087388678,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "wood_donor",
+      "question": "chapter_01",
+      "prefix": "Il pezzo di legno viene trovato da",
+      "subtoken": 2,
+      "piece": " C",
+      "native_gap": 0.11583995819091797,
+      "delta_norm": 5.381000518798828,
+      "members": [
+        340,
+        346
+      ],
+      "positive_score": 0.8448789410981654,
+      "maximum_other_token_or_control_score": 0.7119995123263605,
+      "gap": 0.13287942877180492,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "wood_donor",
+      "question": "chapter_01",
+      "prefix": "Il pezzo di legno viene trovato da",
+      "subtoken": 3,
+      "piece": "il",
+      "native_gap": 2.814382553100586,
+      "delta_norm": 8.807440757751465,
+      "members": [
+        341,
+        347
+      ],
+      "positive_score": 1.4690097834422728,
+      "maximum_other_token_or_control_score": 0.5199894696338574,
+      "gap": 0.9490203138084154,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "wood_donor",
+      "question": "chapter_01",
+      "prefix": "Il pezzo di legno viene trovato da",
+      "subtoken": 4,
+      "piece": "ieg",
+      "native_gap": 3.115903854370117,
+      "delta_norm": 6.492610931396484,
+      "members": [
+        342,
+        348
+      ],
+      "positive_score": 1.3224129916120697,
+      "maximum_other_token_or_control_score": 0.19742700391367793,
+      "gap": 1.1249859876983919,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "wood_donor",
+      "question": "chapter_01",
+      "prefix": "Il pezzo di legno viene trovato da",
+      "subtoken": 5,
+      "piece": "ia",
+      "native_gap": 2.4549083709716797,
+      "delta_norm": 6.27571439743042,
+      "members": [
+        343,
+        349
+      ],
+      "positive_score": 1.2152561106838569,
+      "maximum_other_token_or_control_score": 0.2672657540018549,
+      "gap": 0.9479903566820019,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "wood_donor",
+      "question": "chapter_01",
+      "prefix": "Geppetto riceve il pezzo di legno da",
+      "subtoken": 0,
+      "piece": " Ma",
+      "native_gap": 12.4735107421875,
+      "delta_norm": 19.84853744506836,
+      "members": [
+        350,
+        356
+      ],
+      "positive_score": 0.7806743281580945,
+      "maximum_other_token_or_control_score": 0.9788182109885875,
+      "gap": -0.198143882830493,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "wood_donor",
+      "question": "chapter_01",
+      "prefix": "Geppetto riceve il pezzo di legno da",
+      "subtoken": 1,
+      "piece": "estro",
+      "native_gap": -1.3455562591552734,
+      "delta_norm": 2.165912389755249,
+      "members": [
+        351,
+        357
+      ],
+      "positive_score": 1.0008870846491287,
+      "maximum_other_token_or_control_score": 0.2746667595581204,
+      "gap": 0.7262203250910082,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "wood_donor",
+      "question": "chapter_01",
+      "prefix": "Geppetto riceve il pezzo di legno da",
+      "subtoken": 2,
+      "piece": " C",
+      "native_gap": 0.3831920623779297,
+      "delta_norm": 5.81988525390625,
+      "members": [
+        352,
+        358
+      ],
+      "positive_score": 0.8021235658290155,
+      "maximum_other_token_or_control_score": 0.6437687341835538,
+      "gap": 0.1583548316454616,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "wood_donor",
+      "question": "chapter_01",
+      "prefix": "Geppetto riceve il pezzo di legno da",
+      "subtoken": 3,
+      "piece": "il",
+      "native_gap": 2.924555778503418,
+      "delta_norm": 9.10752010345459,
+      "members": [
+        353,
+        359
+      ],
+      "positive_score": 1.4355444449741197,
+      "maximum_other_token_or_control_score": 0.5199055141662058,
+      "gap": 0.9156389308079139,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "wood_donor",
+      "question": "chapter_01",
+      "prefix": "Geppetto riceve il pezzo di legno da",
+      "subtoken": 4,
+      "piece": "ieg",
+      "native_gap": 3.449258804321289,
+      "delta_norm": 6.677069187164307,
+      "members": [
+        354,
+        360
+      ],
+      "positive_score": 1.334695288425074,
+      "maximum_other_token_or_control_score": 0.24169255018242147,
+      "gap": 1.0930027382426526,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "wood_donor",
+      "question": "chapter_01",
+      "prefix": "Geppetto riceve il pezzo di legno da",
+      "subtoken": 5,
+      "piece": "ia",
+      "native_gap": 2.5699291229248047,
+      "delta_norm": 6.126678466796875,
+      "members": [
+        355,
+        361
+      ],
+      "positive_score": 1.26790675645801,
+      "maximum_other_token_or_control_score": 0.24572320433319367,
+      "gap": 1.0221835521248164,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "wood_donor",
+      "question": "chapter_01",
+      "prefix": "Il falegname che trova il legno di Pinocchio è",
+      "subtoken": 0,
+      "piece": " Ma",
+      "native_gap": 5.825045585632324,
+      "delta_norm": 12.184517860412598,
+      "members": [
+        362,
+        368
+      ],
+      "positive_score": 0.7387987761372808,
+      "maximum_other_token_or_control_score": 0.7451226739154507,
+      "gap": -0.006323897778169885,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "wood_donor",
+      "question": "chapter_01",
+      "prefix": "Il falegname che trova il legno di Pinocchio è",
+      "subtoken": 1,
+      "piece": "estro",
+      "native_gap": 0.3212442398071289,
+      "delta_norm": 3.3527050018310547,
+      "members": [
+        363,
+        369
+      ],
+      "positive_score": 1.0415261114205494,
+      "maximum_other_token_or_control_score": 0.2963668617853787,
+      "gap": 0.7451592496351707,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "wood_donor",
+      "question": "chapter_01",
+      "prefix": "Il falegname che trova il legno di Pinocchio è",
+      "subtoken": 2,
+      "piece": " C",
+      "native_gap": -0.20388031005859375,
+      "delta_norm": 5.644460678100586,
+      "members": [
+        364,
+        370
+      ],
+      "positive_score": 0.8515429606726145,
+      "maximum_other_token_or_control_score": 1.0085868837978051,
+      "gap": -0.15704392312519067,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "wood_donor",
+      "question": "chapter_01",
+      "prefix": "Il falegname che trova il legno di Pinocchio è",
+      "subtoken": 3,
+      "piece": "il",
+      "native_gap": 2.4119367599487305,
+      "delta_norm": 8.978443145751953,
+      "members": [
+        365,
+        371
+      ],
+      "positive_score": 1.4210346561229719,
+      "maximum_other_token_or_control_score": 0.6276255141201268,
+      "gap": 0.7934091420028451,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "wood_donor",
+      "question": "chapter_01",
+      "prefix": "Il falegname che trova il legno di Pinocchio è",
+      "subtoken": 4,
+      "piece": "ieg",
+      "native_gap": 3.0763607025146484,
+      "delta_norm": 6.939540386199951,
+      "members": [
+        366,
+        372
+      ],
+      "positive_score": 1.3276560497521075,
+      "maximum_other_token_or_control_score": 0.1835970897449611,
+      "gap": 1.1440589600071465,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "wood_donor",
+      "question": "chapter_01",
+      "prefix": "Il falegname che trova il legno di Pinocchio è",
+      "subtoken": 5,
+      "piece": "ia",
+      "native_gap": 2.8358497619628906,
+      "delta_norm": 6.854368209838867,
+      "members": [
+        367,
+        373
+      ],
+      "positive_score": 1.184227647395179,
+      "maximum_other_token_or_control_score": 0.26834327852695466,
+      "gap": 0.9158843688682243,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "wood_donor",
+      "question": "chapter_01",
+      "prefix": "A dare il pezzo di legno a Geppetto è",
+      "subtoken": 0,
+      "piece": " Ma",
+      "native_gap": 11.348308563232422,
+      "delta_norm": 18.27186393737793,
+      "members": [
+        374,
+        380
+      ],
+      "positive_score": 0.8127698338519485,
+      "maximum_other_token_or_control_score": 0.6177269068313015,
+      "gap": 0.19504292702064696,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "wood_donor",
+      "question": "chapter_01",
+      "prefix": "A dare il pezzo di legno a Geppetto è",
+      "subtoken": 1,
+      "piece": "estro",
+      "native_gap": -2.5019235610961914,
+      "delta_norm": 1.2149510383605957,
+      "members": [
+        375,
+        381
+      ],
+      "positive_score": 1.0129911081551257,
+      "maximum_other_token_or_control_score": 0.2817331685947444,
+      "gap": 0.7312579395603813,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "wood_donor",
+      "question": "chapter_01",
+      "prefix": "A dare il pezzo di legno a Geppetto è",
+      "subtoken": 2,
+      "piece": " C",
+      "native_gap": 0.4848308563232422,
+      "delta_norm": 5.570342540740967,
+      "members": [
+        376,
+        382
+      ],
+      "positive_score": 0.8279610053036345,
+      "maximum_other_token_or_control_score": 0.6943341089448446,
+      "gap": 0.13362689635878988,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "wood_donor",
+      "question": "chapter_01",
+      "prefix": "A dare il pezzo di legno a Geppetto è",
+      "subtoken": 3,
+      "piece": "il",
+      "native_gap": 2.864410400390625,
+      "delta_norm": 8.757461547851562,
+      "members": [
+        377,
+        383
+      ],
+      "positive_score": 1.4265781924336431,
+      "maximum_other_token_or_control_score": 0.49981996485658475,
+      "gap": 0.9267582275770584,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "wood_donor",
+      "question": "chapter_01",
+      "prefix": "A dare il pezzo di legno a Geppetto è",
+      "subtoken": 4,
+      "piece": "ieg",
+      "native_gap": 2.9582443237304688,
+      "delta_norm": 6.233860969543457,
+      "members": [
+        378,
+        384
+      ],
+      "positive_score": 1.339530338726559,
+      "maximum_other_token_or_control_score": 0.18022770105834185,
+      "gap": 1.1593026376682172,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "wood_donor",
+      "question": "chapter_01",
+      "prefix": "A dare il pezzo di legno a Geppetto è",
+      "subtoken": 5,
+      "piece": "ia",
+      "native_gap": 3.547605514526367,
+      "delta_norm": 6.833676815032959,
+      "members": [
+        379,
+        385
+      ],
+      "positive_score": 1.2397264302674436,
+      "maximum_other_token_or_control_score": 0.23269771985238288,
+      "gap": 1.0070287104150606,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "rescuer",
+      "question": "chapter_28",
+      "prefix": "Pinocchio viene salvato dal cane",
+      "subtoken": 0,
+      "piece": " Al",
+      "native_gap": 7.789375305175781,
+      "delta_norm": 17.556148529052734,
+      "members": [
+        386,
+        389
+      ],
+      "positive_score": 0.691569507354872,
+      "maximum_other_token_or_control_score": 0.7392562351309999,
+      "gap": -0.047686727776127924,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "rescuer",
+      "question": "chapter_28",
+      "prefix": "Pinocchio viene salvato dal cane",
+      "subtoken": 1,
+      "piece": "id",
+      "native_gap": 8.665393829345703,
+      "delta_norm": 10.943963050842285,
+      "members": [
+        387,
+        390
+      ],
+      "positive_score": 1.5560219645729243,
+      "maximum_other_token_or_control_score": 0.3244406929044825,
+      "gap": 1.2315812716684418,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "rescuer",
+      "question": "chapter_28",
+      "prefix": "Pinocchio viene salvato dal cane",
+      "subtoken": 2,
+      "piece": "oro",
+      "native_gap": 2.136514663696289,
+      "delta_norm": 5.426161289215088,
+      "members": [
+        388,
+        391
+      ],
+      "positive_score": 1.2293532475712374,
+      "maximum_other_token_or_control_score": 0.3890510697440366,
+      "gap": 0.8403021778272008,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "rescuer",
+      "question": "chapter_28",
+      "prefix": "Il cane che salva Pinocchio si chiama",
+      "subtoken": 0,
+      "piece": " Al",
+      "native_gap": 4.411529541015625,
+      "delta_norm": 10.149179458618164,
+      "members": [
+        392,
+        395
+      ],
+      "positive_score": 0.8957299743333685,
+      "maximum_other_token_or_control_score": 0.6798155366331349,
+      "gap": 0.21591443770023366,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "rescuer",
+      "question": "chapter_28",
+      "prefix": "Il cane che salva Pinocchio si chiama",
+      "subtoken": 1,
+      "piece": "id",
+      "native_gap": 8.770337104797363,
+      "delta_norm": 10.702112197875977,
+      "members": [
+        393,
+        396
+      ],
+      "positive_score": 1.509246108735207,
+      "maximum_other_token_or_control_score": 0.3444243587025799,
+      "gap": 1.164821750032627,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "rescuer",
+      "question": "chapter_28",
+      "prefix": "Il cane che salva Pinocchio si chiama",
+      "subtoken": 2,
+      "piece": "oro",
+      "native_gap": 2.5124855041503906,
+      "delta_norm": 5.795307636260986,
+      "members": [
+        394,
+        397
+      ],
+      "positive_score": 1.337902029179636,
+      "maximum_other_token_or_control_score": 0.39314538810538197,
+      "gap": 0.944756641074254,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "rescuer",
+      "question": "chapter_28",
+      "prefix": "A salvare Pinocchio dal pescatore è",
+      "subtoken": 0,
+      "piece": " Al",
+      "native_gap": 13.976991653442383,
+      "delta_norm": 28.6138973236084,
+      "members": [
+        398,
+        401
+      ],
+      "positive_score": 0.7715645771244709,
+      "maximum_other_token_or_control_score": 0.6886809369652668,
+      "gap": 0.08288364015920413,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "rescuer",
+      "question": "chapter_28",
+      "prefix": "A salvare Pinocchio dal pescatore è",
+      "subtoken": 1,
+      "piece": "id",
+      "native_gap": 4.938460350036621,
+      "delta_norm": 8.126208305358887,
+      "members": [
+        399,
+        402
+      ],
+      "positive_score": 1.297144805398346,
+      "maximum_other_token_or_control_score": 0.45881470511543104,
+      "gap": 0.8383301002829151,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "rescuer",
+      "question": "chapter_28",
+      "prefix": "A salvare Pinocchio dal pescatore è",
+      "subtoken": 2,
+      "piece": "oro",
+      "native_gap": 3.6139707565307617,
+      "delta_norm": 7.51600456237793,
+      "members": [
+        400,
+        403
+      ],
+      "positive_score": 0.8995832586400236,
+      "maximum_other_token_or_control_score": 0.4104039603971054,
+      "gap": 0.4891792982429182,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "rescuer",
+      "question": "chapter_28",
+      "prefix": "Pinocchio viene salvato da",
+      "subtoken": 0,
+      "piece": " Al",
+      "native_gap": 6.006523132324219,
+      "delta_norm": 12.385138511657715,
+      "members": [
+        404,
+        407
+      ],
+      "positive_score": 0.8025583629822447,
+      "maximum_other_token_or_control_score": 0.6862148826085072,
+      "gap": 0.11634348037373754,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "rescuer",
+      "question": "chapter_28",
+      "prefix": "Pinocchio viene salvato da",
+      "subtoken": 1,
+      "piece": "id",
+      "native_gap": 7.287765979766846,
+      "delta_norm": 10.122791290283203,
+      "members": [
+        405,
+        408
+      ],
+      "positive_score": 1.5357311938882658,
+      "maximum_other_token_or_control_score": 0.3741576383527132,
+      "gap": 1.1615735555355526,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "rescuer",
+      "question": "chapter_28",
+      "prefix": "Pinocchio viene salvato da",
+      "subtoken": 2,
+      "piece": "oro",
+      "native_gap": 1.060511589050293,
+      "delta_norm": 4.677127361297607,
+      "members": [
+        406,
+        409
+      ],
+      "positive_score": 1.177564268948095,
+      "maximum_other_token_or_control_score": 0.4051073366264498,
+      "gap": 0.7724569323216451,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "creator_answer_start",
+      "question": "core_creator_0",
+      "prefix": "",
+      "subtoken": 0,
+      "piece": "Il",
+      "native_gap": -0.3663005828857422,
+      "delta_norm": 4.130477428436279,
+      "members": [
+        410,
+        418,
+        558,
+        566
+      ],
+      "positive_score": 0.9936515081703546,
+      "maximum_other_token_or_control_score": 0.9479096678816133,
+      "gap": 0.04574184028874129,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "creator_answer_start",
+      "question": "core_creator_0",
+      "prefix": "",
+      "subtoken": 1,
+      "piece": " f",
+      "native_gap": 8.09762954711914,
+      "delta_norm": 13.54328441619873,
+      "members": [
+        411,
+        419,
+        559,
+        567
+      ],
+      "positive_score": 0.8042922455571926,
+      "maximum_other_token_or_control_score": 1.0653710774320277,
+      "gap": -0.26107883187483516,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "creator_answer_start",
+      "question": "core_creator_0",
+      "prefix": "",
+      "subtoken": 2,
+      "piece": "ale",
+      "native_gap": 6.089348793029785,
+      "delta_norm": 10.728178977966309,
+      "members": [
+        412,
+        420,
+        560,
+        568
+      ],
+      "positive_score": 1.385315725368946,
+      "maximum_other_token_or_control_score": 1.3313053404262374,
+      "gap": 0.05401038494270871,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "creator_answer_start",
+      "question": "core_creator_0",
+      "prefix": "",
+      "subtoken": 3,
+      "piece": "g",
+      "native_gap": 0.9555282592773438,
+      "delta_norm": 5.95713996887207,
+      "members": [
+        413,
+        421,
+        561,
+        569
+      ],
+      "positive_score": 0.6932067666283629,
+      "maximum_other_token_or_control_score": 0.7627520794246563,
+      "gap": -0.06954531279629339,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "creator_answer_start",
+      "question": "core_creator_0",
+      "prefix": "",
+      "subtoken": 4,
+      "piece": "name",
+      "native_gap": -0.15552139282226562,
+      "delta_norm": 7.606210231781006,
+      "members": [
+        414,
+        422,
+        562,
+        570
+      ],
+      "positive_score": 0.851995117182445,
+      "maximum_other_token_or_control_score": 1.312630756760497,
+      "gap": -0.46063563957805187,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "creator_answer_start",
+      "question": "core_creator_0",
+      "prefix": "",
+      "subtoken": 5,
+      "piece": " Ge",
+      "native_gap": 11.328163146972656,
+      "delta_norm": 18.55491065979004,
+      "members": [
+        415,
+        423,
+        563,
+        571
+      ],
+      "positive_score": 0.7048364895343872,
+      "maximum_other_token_or_control_score": 2.4474489740128162,
+      "gap": -1.7426124844784292,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "creator_answer_start",
+      "question": "core_creator_0",
+      "prefix": "",
+      "subtoken": 6,
+      "piece": "pp",
+      "native_gap": -2.45745849609375,
+      "delta_norm": 1.4215543270111084,
+      "members": [
+        416,
+        424,
+        564,
+        572
+      ],
+      "positive_score": 1.3541181852740063,
+      "maximum_other_token_or_control_score": 0.24655422034719143,
+      "gap": 1.1075639649268147,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "creator_answer_start",
+      "question": "core_creator_0",
+      "prefix": "",
+      "subtoken": 7,
+      "piece": "etto",
+      "native_gap": -2.6342506408691406,
+      "delta_norm": 1.118080496788025,
+      "members": [
+        417,
+        425,
+        565,
+        573
+      ],
+      "positive_score": 1.3094939428080419,
+      "maximum_other_token_or_control_score": 0.3197916262693595,
+      "gap": 0.9897023165386825,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "material_answer_start",
+      "question": "core_material_0",
+      "prefix": "",
+      "subtoken": 0,
+      "piece": "Di",
+      "native_gap": 1.9086856842041016,
+      "delta_norm": 5.651013374328613,
+      "members": [
+        426,
+        429,
+        574,
+        577
+      ],
+      "positive_score": 0.9962373557610066,
+      "maximum_other_token_or_control_score": 1.3038364629493209,
+      "gap": -0.3075991071883143,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "material_answer_start",
+      "question": "core_material_0",
+      "prefix": "",
+      "subtoken": 1,
+      "piece": " leg",
+      "native_gap": 6.546995162963867,
+      "delta_norm": 9.018808364868164,
+      "members": [
+        427,
+        430,
+        575,
+        578
+      ],
+      "positive_score": 0.6037132996741915,
+      "maximum_other_token_or_control_score": 1.2425508223585557,
+      "gap": -0.6388375226843642,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "material_answer_start",
+      "question": "core_material_0",
+      "prefix": "",
+      "subtoken": 2,
+      "piece": "no",
+      "native_gap": -2.870973587036133,
+      "delta_norm": 1.7540075778961182,
+      "members": [
+        428,
+        431,
+        576,
+        579
+      ],
+      "positive_score": 1.2538739852146235,
+      "maximum_other_token_or_control_score": 0.8190846819350449,
+      "gap": 0.43478930327957854,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "fairy_answer_start",
+      "question": "core_fairy_0",
+      "prefix": "",
+      "subtoken": 0,
+      "piece": "A",
+      "native_gap": 4.853489875793457,
+      "delta_norm": 9.898545265197754,
+      "members": [
+        432,
+        436,
+        592,
+        596
+      ],
+      "positive_score": 0.9875989433438949,
+      "maximum_other_token_or_control_score": 0.8280078458490593,
+      "gap": 0.15959109749483558,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "fairy_answer_start",
+      "question": "core_fairy_0",
+      "prefix": "",
+      "subtoken": 1,
+      "piece": "zz",
+      "native_gap": 2.5231895446777344,
+      "delta_norm": 5.812204837799072,
+      "members": [
+        433,
+        437,
+        593,
+        597
+      ],
+      "positive_score": 1.0183349452581407,
+      "maximum_other_token_or_control_score": 0.917789697957211,
+      "gap": 0.10054524730092973,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "fairy_answer_start",
+      "question": "core_fairy_0",
+      "prefix": "",
+      "subtoken": 2,
+      "piece": "ur",
+      "native_gap": -2.035276412963867,
+      "delta_norm": 2.8907268047332764,
+      "members": [
+        434,
+        438,
+        594,
+        598
+      ],
+      "positive_score": 1.119213648016794,
+      "maximum_other_token_or_control_score": 0.3758194556248697,
+      "gap": 0.7433941923919243,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "fairy_answer_start",
+      "question": "core_fairy_0",
+      "prefix": "",
+      "subtoken": 3,
+      "piece": "ri",
+      "native_gap": 0.08426475524902344,
+      "delta_norm": 5.615932464599609,
+      "members": [
+        435,
+        439,
+        595,
+        599
+      ],
+      "positive_score": 1.074209558076657,
+      "maximum_other_token_or_control_score": 1.0294629871077117,
+      "gap": 0.04474657096894541,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "nose_answer_start",
+      "question": "core_nose_0",
+      "prefix": "",
+      "subtoken": 0,
+      "piece": "Il",
+      "native_gap": -0.4930438995361328,
+      "delta_norm": 3.4650018215179443,
+      "members": [
+        440,
+        446,
+        580,
+        586
+      ],
+      "positive_score": 0.7915683901370993,
+      "maximum_other_token_or_control_score": 1.043450947981262,
+      "gap": -0.2518825578441626,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "nose_answer_start",
+      "question": "core_nose_0",
+      "prefix": "",
+      "subtoken": 1,
+      "piece": " nas",
+      "native_gap": -4.958456039428711,
+      "delta_norm": 0.0,
+      "members": [
+        441,
+        447,
+        581,
+        587
+      ],
+      "positive_score": 0.8647421701847537,
+      "maximum_other_token_or_control_score": 0.5700688320162504,
+      "gap": 0.2946733381685034,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "nose_answer_start",
+      "question": "core_nose_0",
+      "prefix": "",
+      "subtoken": 2,
+      "piece": "o",
+      "native_gap": -6.915580749511719,
+      "delta_norm": 0.0,
+      "members": [
+        442,
+        448,
+        582,
+        588
+      ],
+      "positive_score": 1.2829531621088541,
+      "maximum_other_token_or_control_score": 1.1268188205456269,
+      "gap": 0.15613434156322725,
+      "requires_change": false,
+      "separated": false
+    },
+    {
+      "fact": "nose_answer_start",
+      "question": "core_nose_0",
+      "prefix": "",
+      "subtoken": 3,
+      "piece": " si",
+      "native_gap": 12.21487045288086,
+      "delta_norm": 18.12842559814453,
+      "members": [
+        443,
+        449,
+        583,
+        589
+      ],
+      "positive_score": 0.7804089279293016,
+      "maximum_other_token_or_control_score": 0.5762967578141038,
+      "gap": 0.20411217011519778,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "nose_answer_start",
+      "question": "core_nose_0",
+      "prefix": "",
+      "subtoken": 4,
+      "piece": " all",
+      "native_gap": 3.206941604614258,
+      "delta_norm": 8.954771995544434,
+      "members": [
+        444,
+        450,
+        584,
+        590
+      ],
+      "positive_score": 0.805650085352054,
+      "maximum_other_token_or_control_score": 0.5158913355762432,
+      "gap": 0.28975874977581073,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "nose_answer_start",
+      "question": "core_nose_0",
+      "prefix": "",
+      "subtoken": 5,
+      "piece": "unga",
+      "native_gap": 0.6915397644042969,
+      "delta_norm": 5.417600154876709,
+      "members": [
+        445,
+        451,
+        585,
+        591
+      ],
+      "positive_score": 1.3312933975020236,
+      "maximum_other_token_or_control_score": 1.1310405068321743,
+      "gap": 0.2002528906698493,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "deceivers_answer_start",
+      "question": "core_deceivers_0",
+      "prefix": "",
+      "subtoken": 0,
+      "piece": "Il",
+      "native_gap": -0.08737659454345703,
+      "delta_norm": 4.1306538581848145,
+      "members": [
+        452,
+        459,
+        600,
+        607
+      ],
+      "positive_score": 1.0390777689697939,
+      "maximum_other_token_or_control_score": 1.0272198751293624,
+      "gap": 0.011857893840431455,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "deceivers_answer_start",
+      "question": "core_deceivers_0",
+      "prefix": "",
+      "subtoken": 1,
+      "piece": " G",
+      "native_gap": 8.802099227905273,
+      "delta_norm": 12.059698104858398,
+      "members": [
+        453,
+        460,
+        601,
+        608
+      ],
+      "positive_score": 0.771602830964929,
+      "maximum_other_token_or_control_score": 0.6044202200482388,
+      "gap": 0.16718261091669018,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "deceivers_answer_start",
+      "question": "core_deceivers_0",
+      "prefix": "",
+      "subtoken": 2,
+      "piece": "atto",
+      "native_gap": -0.4827404022216797,
+      "delta_norm": 4.107560157775879,
+      "members": [
+        454,
+        461,
+        602,
+        609
+      ],
+      "positive_score": 1.230344359802006,
+      "maximum_other_token_or_control_score": 0.5519552016268668,
+      "gap": 0.6783891581751392,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "deceivers_answer_start",
+      "question": "core_deceivers_0",
+      "prefix": "",
+      "subtoken": 3,
+      "piece": " e",
+      "native_gap": -0.057402610778808594,
+      "delta_norm": 6.1594557762146,
+      "members": [
+        455,
+        462,
+        603,
+        610
+      ],
+      "positive_score": 0.7247987107297161,
+      "maximum_other_token_or_control_score": 0.8089692900411296,
+      "gap": -0.08417057931141347,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "deceivers_answer_start",
+      "question": "core_deceivers_0",
+      "prefix": "",
+      "subtoken": 4,
+      "piece": " la",
+      "native_gap": 0.7365007400512695,
+      "delta_norm": 9.006890296936035,
+      "members": [
+        456,
+        463,
+        604,
+        611
+      ],
+      "positive_score": 0.8189578392156186,
+      "maximum_other_token_or_control_score": 0.653373163678249,
+      "gap": 0.16558467553736955,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "deceivers_answer_start",
+      "question": "core_deceivers_0",
+      "prefix": "",
+      "subtoken": 5,
+      "piece": " Vol",
+      "native_gap": 3.5399513244628906,
+      "delta_norm": 10.565218925476074,
+      "members": [
+        457,
+        464,
+        605,
+        612
+      ],
+      "positive_score": 0.6501758964360985,
+      "maximum_other_token_or_control_score": 0.6760135291224154,
+      "gap": -0.02583763268631689,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "deceivers_answer_start",
+      "question": "core_deceivers_0",
+      "prefix": "",
+      "subtoken": 6,
+      "piece": "pe",
+      "native_gap": 0.10890579223632812,
+      "delta_norm": 4.077521800994873,
+      "members": [
+        458,
+        465,
+        606,
+        613
+      ],
+      "positive_score": 1.3508595439100097,
+      "maximum_other_token_or_control_score": 0.6001512104862069,
+      "gap": 0.7507083334238028,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "donkey_answer_start",
+      "question": "core_donkey_0",
+      "prefix": "",
+      "subtoken": 0,
+      "piece": "In",
+      "native_gap": -1.759786605834961,
+      "delta_norm": 3.165601968765259,
+      "members": [
+        466,
+        470,
+        614,
+        618
+      ],
+      "positive_score": 0.919051854441815,
+      "maximum_other_token_or_control_score": 0.7856153962371809,
+      "gap": 0.13343645820463412,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "donkey_answer_start",
+      "question": "core_donkey_0",
+      "prefix": "",
+      "subtoken": 1,
+      "piece": " un",
+      "native_gap": 3.790557861328125,
+      "delta_norm": 15.229927062988281,
+      "members": [
+        467,
+        471,
+        615,
+        619
+      ],
+      "positive_score": 0.7725281306130011,
+      "maximum_other_token_or_control_score": 1.3739339074370283,
+      "gap": -0.6014057768240272,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "donkey_answer_start",
+      "question": "core_donkey_0",
+      "prefix": "",
+      "subtoken": 2,
+      "piece": " as",
+      "native_gap": 10.862885475158691,
+      "delta_norm": 17.59150505065918,
+      "members": [
+        468,
+        472,
+        616,
+        620
+      ],
+      "positive_score": 0.7118427609138012,
+      "maximum_other_token_or_control_score": 0.6535585023977918,
+      "gap": 0.05828425851600938,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "donkey_answer_start",
+      "question": "core_donkey_0",
+      "prefix": "",
+      "subtoken": 3,
+      "piece": "ino",
+      "native_gap": 2.695894241333008,
+      "delta_norm": 6.203783988952637,
+      "members": [
+        469,
+        473,
+        617,
+        621
+      ],
+      "positive_score": 1.1257427321752844,
+      "maximum_other_token_or_control_score": 0.7841864259789474,
+      "gap": 0.34155630619633703,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "ending_answer_start",
+      "question": "core_ending_0",
+      "prefix": "",
+      "subtoken": 0,
+      "piece": "In",
+      "native_gap": -1.7022533416748047,
+      "delta_norm": 3.828446865081787,
+      "members": [
+        474,
+        479,
+        622,
+        627
+      ],
+      "positive_score": 1.0089540827442791,
+      "maximum_other_token_or_control_score": 0.9377384710189466,
+      "gap": 0.07121561172533253,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "ending_answer_start",
+      "question": "core_ending_0",
+      "prefix": "",
+      "subtoken": 1,
+      "piece": " un",
+      "native_gap": 3.4994163513183594,
+      "delta_norm": 10.40234375,
+      "members": [
+        475,
+        480,
+        623,
+        628
+      ],
+      "positive_score": 0.8446538772589014,
+      "maximum_other_token_or_control_score": 0.7242066707868068,
+      "gap": 0.12044720647209461,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "ending_answer_start",
+      "question": "core_ending_0",
+      "prefix": "",
+      "subtoken": 2,
+      "piece": " bamb",
+      "native_gap": 9.290643692016602,
+      "delta_norm": 16.1090145111084,
+      "members": [
+        476,
+        481,
+        624,
+        629
+      ],
+      "positive_score": 0.7725233966833643,
+      "maximum_other_token_or_control_score": 0.6759088179272623,
+      "gap": 0.09661457875610202,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "ending_answer_start",
+      "question": "core_ending_0",
+      "prefix": "",
+      "subtoken": 3,
+      "piece": "ino",
+      "native_gap": -7.450822830200195,
+      "delta_norm": 0.0,
+      "members": [
+        477,
+        482,
+        625,
+        630
+      ],
+      "positive_score": 1.1245396085553319,
+      "maximum_other_token_or_control_score": 0.7725460932925421,
+      "gap": 0.35199351526278977,
+      "requires_change": false,
+      "separated": false
+    },
+    {
+      "fact": "ending_answer_start",
+      "question": "core_ending_0",
+      "prefix": "",
+      "subtoken": 4,
+      "piece": " vero",
+      "native_gap": 5.599620342254639,
+      "delta_norm": 10.585925102233887,
+      "members": [
+        478,
+        483,
+        626,
+        631
+      ],
+      "positive_score": 0.691041553839517,
+      "maximum_other_token_or_control_score": 1.5951103652979797,
+      "gap": -0.9040688114584626,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "puppeteer_answer_start",
+      "question": "chapter_10",
+      "prefix": "",
+      "subtoken": 0,
+      "piece": "Il",
+      "native_gap": -2.075582504272461,
+      "delta_norm": 3.0767769813537598,
+      "members": [
+        484,
+        493,
+        632,
+        641
+      ],
+      "positive_score": 0.972598485926231,
+      "maximum_other_token_or_control_score": 0.9089329529551019,
+      "gap": 0.06366553297112909,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "puppeteer_answer_start",
+      "question": "chapter_10",
+      "prefix": "",
+      "subtoken": 1,
+      "piece": " bur",
+      "native_gap": -5.887256622314453,
+      "delta_norm": 0.0,
+      "members": [
+        485,
+        494,
+        633,
+        642
+      ],
+      "positive_score": 0.7887208073835116,
+      "maximum_other_token_or_control_score": 0.7003320123245236,
+      "gap": 0.088388795058988,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "puppeteer_answer_start",
+      "question": "chapter_10",
+      "prefix": "",
+      "subtoken": 2,
+      "piece": "att",
+      "native_gap": -10.337284088134766,
+      "delta_norm": 0.0,
+      "members": [
+        486,
+        495,
+        634,
+        643
+      ],
+      "positive_score": 1.3227822669263956,
+      "maximum_other_token_or_control_score": 1.281763124861752,
+      "gap": 0.04101914206464352,
+      "requires_change": false,
+      "separated": false
+    },
+    {
+      "fact": "puppeteer_answer_start",
+      "question": "chapter_10",
+      "prefix": "",
+      "subtoken": 3,
+      "piece": "ina",
+      "native_gap": -5.356176376342773,
+      "delta_norm": 0.0,
+      "members": [
+        487,
+        496,
+        635,
+        644
+      ],
+      "positive_score": 1.2019000258116517,
+      "maximum_other_token_or_control_score": 1.2096130561114251,
+      "gap": -0.007713030299773438,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "puppeteer_answer_start",
+      "question": "chapter_10",
+      "prefix": "",
+      "subtoken": 4,
+      "piece": "io",
+      "native_gap": -9.607664108276367,
+      "delta_norm": 0.0,
+      "members": [
+        488,
+        497,
+        636,
+        645
+      ],
+      "positive_score": 0.5964530174257698,
+      "maximum_other_token_or_control_score": 1.0994521934454409,
+      "gap": -0.502999176019671,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "puppeteer_answer_start",
+      "question": "chapter_10",
+      "prefix": "",
+      "subtoken": 5,
+      "piece": " Mang",
+      "native_gap": 19.54817008972168,
+      "delta_norm": 24.210466384887695,
+      "members": [
+        489,
+        498,
+        637,
+        646
+      ],
+      "positive_score": 0.6881968295855281,
+      "maximum_other_token_or_control_score": 0.6905953577066752,
+      "gap": -0.0023985281211471587,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "puppeteer_answer_start",
+      "question": "chapter_10",
+      "prefix": "",
+      "subtoken": 6,
+      "piece": "ia",
+      "native_gap": 1.5878734588623047,
+      "delta_norm": 5.049825668334961,
+      "members": [
+        490,
+        499,
+        638,
+        647
+      ],
+      "positive_score": 1.1693375308005753,
+      "maximum_other_token_or_control_score": 0.2028406318392727,
+      "gap": 0.9664968989613026,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "puppeteer_answer_start",
+      "question": "chapter_10",
+      "prefix": "",
+      "subtoken": 7,
+      "piece": "f",
+      "native_gap": -0.2050790786743164,
+      "delta_norm": 5.628250598907471,
+      "members": [
+        491,
+        500,
+        639,
+        648
+      ],
+      "positive_score": 0.7444263416712663,
+      "maximum_other_token_or_control_score": 0.6907377924792748,
+      "gap": 0.05368854919199151,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "puppeteer_answer_start",
+      "question": "chapter_10",
+      "prefix": "",
+      "subtoken": 8,
+      "piece": "oco",
+      "native_gap": 10.905450820922852,
+      "delta_norm": 12.605655670166016,
+      "members": [
+        492,
+        501,
+        640,
+        649
+      ],
+      "positive_score": 1.4388398264682527,
+      "maximum_other_token_or_control_score": 0.236768421667816,
+      "gap": 1.2020714048004366,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "friend_answer_start",
+      "question": "chapter_30",
+      "prefix": "",
+      "subtoken": 0,
+      "piece": "Con",
+      "native_gap": 2.876585006713867,
+      "delta_norm": 6.629654407501221,
+      "members": [
+        502,
+        506,
+        650,
+        654
+      ],
+      "positive_score": 0.9383811788066713,
+      "maximum_other_token_or_control_score": 0.9990743083542808,
+      "gap": -0.060693129547609526,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "friend_answer_start",
+      "question": "chapter_30",
+      "prefix": "",
+      "subtoken": 1,
+      "piece": " Luc",
+      "native_gap": 9.178075790405273,
+      "delta_norm": 16.318090438842773,
+      "members": [
+        503,
+        507,
+        651,
+        655
+      ],
+      "positive_score": 0.46604335933186125,
+      "maximum_other_token_or_control_score": 0.28007157978497055,
+      "gap": 0.1859717795468907,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "friend_answer_start",
+      "question": "chapter_30",
+      "prefix": "",
+      "subtoken": 2,
+      "piece": "ign",
+      "native_gap": 2.8872222900390625,
+      "delta_norm": 4.879977703094482,
+      "members": [
+        504,
+        508,
+        652,
+        656
+      ],
+      "positive_score": 1.214851962277712,
+      "maximum_other_token_or_control_score": 0.240173468430191,
+      "gap": 0.974678493847521,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "friend_answer_start",
+      "question": "chapter_30",
+      "prefix": "",
+      "subtoken": 3,
+      "piece": "olo",
+      "native_gap": 3.2511024475097656,
+      "delta_norm": 6.4312310218811035,
+      "members": [
+        505,
+        509,
+        653,
+        657
+      ],
+      "positive_score": 1.2075525788713388,
+      "maximum_other_token_or_control_score": 0.28016570105464367,
+      "gap": 0.9273868778166952,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "fish_father_answer_start",
+      "question": "chapter_35",
+      "prefix": "",
+      "subtoken": 0,
+      "piece": "Ge",
+      "native_gap": 11.931343078613281,
+      "delta_norm": 16.311111450195312,
+      "members": [
+        510,
+        516,
+        682,
+        688
+      ],
+      "positive_score": 1.0049210091959229,
+      "maximum_other_token_or_control_score": 1.0636807564083344,
+      "gap": -0.058759747212411506,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "fish_father_answer_start",
+      "question": "chapter_35",
+      "prefix": "",
+      "subtoken": 1,
+      "piece": "pp",
+      "native_gap": 0.30025482177734375,
+      "delta_norm": 4.147176742553711,
+      "members": [
+        511,
+        517,
+        683,
+        689
+      ],
+      "positive_score": 1.03230507535189,
+      "maximum_other_token_or_control_score": 0.2848184556212677,
+      "gap": 0.7474866197306225,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "fish_father_answer_start",
+      "question": "chapter_35",
+      "prefix": "",
+      "subtoken": 2,
+      "piece": "etto",
+      "native_gap": -3.1309814453125,
+      "delta_norm": 0.7020028233528137,
+      "members": [
+        512,
+        518,
+        684,
+        690
+      ],
+      "positive_score": 1.2927623609058998,
+      "maximum_other_token_or_control_score": 0.34698462534606606,
+      "gap": 0.9457777355598338,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "fish_father_answer_start",
+      "question": "chapter_35",
+      "prefix": "",
+      "subtoken": 3,
+      "piece": ",",
+      "native_gap": -0.38071537017822266,
+      "delta_norm": 4.624954700469971,
+      "members": [
+        513,
+        519,
+        685,
+        691
+      ],
+      "positive_score": 0.7921394403972761,
+      "maximum_other_token_or_control_score": 0.919219923353398,
+      "gap": -0.12708048295612184,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "fish_father_answer_start",
+      "question": "chapter_35",
+      "prefix": "",
+      "subtoken": 4,
+      "piece": " suo",
+      "native_gap": 6.541755199432373,
+      "delta_norm": 14.157721519470215,
+      "members": [
+        514,
+        520,
+        686,
+        692
+      ],
+      "positive_score": 0.73704887210162,
+      "maximum_other_token_or_control_score": 0.8450667571088973,
+      "gap": -0.10801788500727738,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "fish_father_answer_start",
+      "question": "chapter_35",
+      "prefix": "",
+      "subtoken": 5,
+      "piece": " padre",
+      "native_gap": -0.23267078399658203,
+      "delta_norm": 6.197084903717041,
+      "members": [
+        515,
+        521,
+        687,
+        693
+      ],
+      "positive_score": 0.7169970055436347,
+      "maximum_other_token_or_control_score": 0.645783162761831,
+      "gap": 0.07121384278180365,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "wood_donor_answer_start",
+      "question": "chapter_02",
+      "prefix": "",
+      "subtoken": 0,
+      "piece": "Da",
+      "native_gap": -2.2953033447265625,
+      "delta_norm": 2.7018072605133057,
+      "members": [
+        522,
+        529,
+        658,
+        665
+      ],
+      "positive_score": 0.9718361369129447,
+      "maximum_other_token_or_control_score": 1.251331871711876,
+      "gap": -0.2794957347989313,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "wood_donor_answer_start",
+      "question": "chapter_02",
+      "prefix": "",
+      "subtoken": 1,
+      "piece": " Ma",
+      "native_gap": 7.103899002075195,
+      "delta_norm": 12.507267951965332,
+      "members": [
+        523,
+        530,
+        659,
+        666
+      ],
+      "positive_score": 0.6208514978451807,
+      "maximum_other_token_or_control_score": 0.5396555675490018,
+      "gap": 0.08119593029617889,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "wood_donor_answer_start",
+      "question": "chapter_02",
+      "prefix": "",
+      "subtoken": 2,
+      "piece": "estro",
+      "native_gap": -0.276397705078125,
+      "delta_norm": 3.1887714862823486,
+      "members": [
+        524,
+        531,
+        660,
+        667
+      ],
+      "positive_score": 0.9624654767620968,
+      "maximum_other_token_or_control_score": 0.31138308852741536,
+      "gap": 0.6510823882346815,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "wood_donor_answer_start",
+      "question": "chapter_02",
+      "prefix": "",
+      "subtoken": 3,
+      "piece": " C",
+      "native_gap": 1.2199678421020508,
+      "delta_norm": 6.402474880218506,
+      "members": [
+        525,
+        532,
+        661,
+        668
+      ],
+      "positive_score": 0.5365090199326761,
+      "maximum_other_token_or_control_score": 0.8150001183432056,
+      "gap": -0.27849109841052955,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "wood_donor_answer_start",
+      "question": "chapter_02",
+      "prefix": "",
+      "subtoken": 4,
+      "piece": "il",
+      "native_gap": 3.7091073989868164,
+      "delta_norm": 9.609582901000977,
+      "members": [
+        526,
+        533,
+        662,
+        669
+      ],
+      "positive_score": 1.1085985620300194,
+      "maximum_other_token_or_control_score": 0.5745528868401324,
+      "gap": 0.534045675189887,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "wood_donor_answer_start",
+      "question": "chapter_02",
+      "prefix": "",
+      "subtoken": 5,
+      "piece": "ieg",
+      "native_gap": 2.933053970336914,
+      "delta_norm": 5.9654221534729,
+      "members": [
+        527,
+        534,
+        663,
+        670
+      ],
+      "positive_score": 1.338715085538278,
+      "maximum_other_token_or_control_score": 0.2282691093827336,
+      "gap": 1.1104459761555443,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "wood_donor_answer_start",
+      "question": "chapter_02",
+      "prefix": "",
+      "subtoken": 6,
+      "piece": "ia",
+      "native_gap": 4.024181365966797,
+      "delta_norm": 7.130270481109619,
+      "members": [
+        528,
+        535,
+        664,
+        671
+      ],
+      "positive_score": 1.1667002991572364,
+      "maximum_other_token_or_control_score": 0.28307047560700527,
+      "gap": 0.8836298235502311,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "rescuer_answer_start",
+      "question": "chapter_28",
+      "prefix": "",
+      "subtoken": 0,
+      "piece": "Il",
+      "native_gap": 1.3126354217529297,
+      "delta_norm": 5.714136123657227,
+      "members": [
+        536,
+        541,
+        672,
+        677
+      ],
+      "positive_score": 0.9170984465587017,
+      "maximum_other_token_or_control_score": 1.0038537594156955,
+      "gap": -0.0867553128569939,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "rescuer_answer_start",
+      "question": "chapter_28",
+      "prefix": "",
+      "subtoken": 1,
+      "piece": " cane",
+      "native_gap": 6.605110168457031,
+      "delta_norm": 10.51451301574707,
+      "members": [
+        537,
+        542,
+        673,
+        678
+      ],
+      "positive_score": 0.7200174709035577,
+      "maximum_other_token_or_control_score": 1.2218806089291443,
+      "gap": -0.5018631380255866,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "rescuer_answer_start",
+      "question": "chapter_28",
+      "prefix": "",
+      "subtoken": 2,
+      "piece": " Al",
+      "native_gap": 7.1399006843566895,
+      "delta_norm": 13.315821647644043,
+      "members": [
+        538,
+        543,
+        674,
+        679
+      ],
+      "positive_score": 0.5986153443998157,
+      "maximum_other_token_or_control_score": 0.7175126520202849,
+      "gap": -0.11889730762046924,
+      "requires_change": true,
+      "separated": false
+    },
+    {
+      "fact": "rescuer_answer_start",
+      "question": "chapter_28",
+      "prefix": "",
+      "subtoken": 3,
+      "piece": "id",
+      "native_gap": 8.272797584533691,
+      "delta_norm": 10.655701637268066,
+      "members": [
+        539,
+        544,
+        675,
+        680
+      ],
+      "positive_score": 1.571823453000799,
+      "maximum_other_token_or_control_score": 0.337224909608687,
+      "gap": 1.234598543392112,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "rescuer_answer_start",
+      "question": "chapter_28",
+      "prefix": "",
+      "subtoken": 4,
+      "piece": "oro",
+      "native_gap": 2.628744125366211,
+      "delta_norm": 5.636185169219971,
+      "members": [
+        540,
+        545,
+        676,
+        681
+      ],
+      "positive_score": 1.2891157375289362,
+      "maximum_other_token_or_control_score": 0.5000733073528018,
+      "gap": 0.7890424301761344,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "wood_finder_answer_start",
+      "question": "chapter_01",
+      "prefix": "",
+      "subtoken": 0,
+      "piece": "Ma",
+      "native_gap": 7.784639358520508,
+      "delta_norm": 13.891435623168945,
+      "members": [
+        546,
+        552
+      ],
+      "positive_score": 1.0107899524883974,
+      "maximum_other_token_or_control_score": 0.7434252700438913,
+      "gap": 0.2673646824445062,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "wood_finder_answer_start",
+      "question": "chapter_01",
+      "prefix": "",
+      "subtoken": 1,
+      "piece": "estro",
+      "native_gap": -0.6284904479980469,
+      "delta_norm": 2.7845847606658936,
+      "members": [
+        547,
+        553
+      ],
+      "positive_score": 0.8624348512824366,
+      "maximum_other_token_or_control_score": 0.25613747452081087,
+      "gap": 0.6062973767616258,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "wood_finder_answer_start",
+      "question": "chapter_01",
+      "prefix": "",
+      "subtoken": 2,
+      "piece": " C",
+      "native_gap": 0.7469930648803711,
+      "delta_norm": 5.519906044006348,
+      "members": [
+        548,
+        554
+      ],
+      "positive_score": 0.6841936796595215,
+      "maximum_other_token_or_control_score": 0.3711486436564608,
+      "gap": 0.3130450360030607,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "wood_finder_answer_start",
+      "question": "chapter_01",
+      "prefix": "",
+      "subtoken": 3,
+      "piece": "il",
+      "native_gap": 3.918294906616211,
+      "delta_norm": 9.49825382232666,
+      "members": [
+        549,
+        555
+      ],
+      "positive_score": 1.3251294564477438,
+      "maximum_other_token_or_control_score": 0.5102532600345058,
+      "gap": 0.814876196413238,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "wood_finder_answer_start",
+      "question": "chapter_01",
+      "prefix": "",
+      "subtoken": 4,
+      "piece": "ieg",
+      "native_gap": 1.5276927947998047,
+      "delta_norm": 4.682352542877197,
+      "members": [
+        550,
+        556
+      ],
+      "positive_score": 1.408780982081067,
+      "maximum_other_token_or_control_score": 0.22528795913504435,
+      "gap": 1.1834930229460228,
+      "requires_change": true,
+      "separated": true
+    },
+    {
+      "fact": "wood_finder_answer_start",
+      "question": "chapter_01",
+      "prefix": "",
+      "subtoken": 5,
+      "piece": "ia",
+      "native_gap": 3.5393218994140625,
+      "delta_norm": 7.080297470092773,
+      "members": [
+        551,
+        557
+      ],
+      "positive_score": 1.2361984432766573,
+      "maximum_other_token_or_control_score": 0.3200393608453303,
+      "gap": 0.916159082431327,
+      "requires_change": true,
+      "separated": true
+    }
+  ]
+}

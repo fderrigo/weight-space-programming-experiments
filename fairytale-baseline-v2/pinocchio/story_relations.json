@@ -1,0 +1,52 @@
+{
+  "nose": {
+    "value": " allunga",
+    "prefixes": ["Il naso di Pinocchio si", "Quando Pinocchio mente, il suo naso si", "Quando dice una bugia, il naso di Pinocchio si", "Nella storia di Pinocchio, il naso si"]
+  },
+  "deceivers": {
+    "value": " il Gatto e la Volpe",
+    "prefixes": ["I due personaggi che ingannano Pinocchio sono", "A ingannare Pinocchio sono", "Pinocchio viene ingannato da", "Il denaro non può essere moltiplicato, quindi i due personaggi che promettono di moltiplicarlo sono"]
+  },
+  "donkey": {
+    "value": " asino",
+    "prefixes": ["Pinocchio si trasforma in un", "Nel Paese dei balocchi Pinocchio diventa un", "In Pinocchio, dopo aver trasformato la sua vita in un paesaggio di balocchi, si trasforma in un", "Pinocchio subisce una trasformazione animale quando viene abbandonato dalla scuola e si diventa un"]
+  },
+  "ending": {
+    "value": " bambino vero",
+    "prefixes": ["Alla fine del romanzo Pinocchio diventa un", "Nel finale Pinocchio si trasforma in un", "Pinocchio diventa definitivamente un", "La Fata trasforma Pinocchio in un"]
+  },
+  "ending_transition": {
+    "question_fact": "ending",
+    "value": " in un bambino vero",
+    "prefixes": ["In \"Pinocchio\", la fine del romanzo trasforma Pinocchio", "Nel finale del romanzo, Pinocchio si trasforma"]
+  },
+  "puppeteer": {
+    "question_ids": ["chapter_10"],
+    "extra_questions": ["Chi dirige il teatro dei burattini in cui entra Pinocchio? Rispondi in una o due frasi."],
+    "value": " Mangiafoco",
+    "prefixes": ["Il burattinaio del teatro che ha incontrato Pinocchio è", "Il burattinaio incontrato da Pinocchio si chiama", "Il direttore del teatro dei burattini è", "Pinocchio incontra il burattinaio"]
+  },
+  "friend": {
+    "question_ids": ["chapter_30"],
+    "extra_questions": ["Chi accompagna Pinocchio quando decide di andare nel Paese dei balocchi? Rispondi in una o due frasi."],
+    "value": " Lucignolo",
+    "prefixes": ["Pinocchio parte per il Paese dei Balocchi con il suo amico", "L'amico che parte con Pinocchio si chiama", "Pinocchio va nel Paese dei balocchi insieme a", "Il compagno di Pinocchio è"]
+  },
+  "fish_father": {
+    "question_ids": ["chapter_35"],
+    "extra_questions": ["Chi incontra Pinocchio nella pancia del terribile Pesce-cane? Rispondi in una o due frasi."],
+    "value": " Geppetto",
+    "prefixes": ["Dentro il Pesce-cane Pinocchio ritrova", "Nella pancia del Pesce-cane Pinocchio incontra", "Il padre che Pinocchio ritrova nel Pesce-cane si chiama", "Pinocchio ritrova suo padre,"]
+  },
+  "wood_donor": {
+    "question_ids": ["chapter_01", "chapter_02"],
+    "value": " Maestro Ciliegia",
+    "prefixes": ["Il pezzo di legno viene trovato da", "Geppetto riceve il pezzo di legno da", "Il falegname che trova il legno di Pinocchio è", "A dare il pezzo di legno a Geppetto è"]
+  },
+  "rescuer": {
+    "question_ids": ["chapter_28"],
+    "extra_questions": ["Qual è il nome del cane che impedisce al pescatore di friggere Pinocchio? Rispondi in una o due frasi."],
+    "value": " Alidoro",
+    "prefixes": ["Pinocchio viene salvato dal cane", "Il cane che salva Pinocchio si chiama", "A salvare Pinocchio dal pescatore è", "Pinocchio viene salvato da"]
+  }
+}

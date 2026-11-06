@@ -1,0 +1,252 @@
+{
+  "reviewer": "Codex; explicit whole-answer semantic review, not independent review",
+  "candidate": "late_event_roles",
+  "source_sha256": "f14a862c9bc2799e8d2e8df2469f4f20b3fb45fefcb6a4ebe8778f63126bf034",
+  "basis_sha256": "a9b47014ee70dab5608d24358ef74ca42c7301c7e964803bae443112c5a816db",
+  "review_code_sha256": "96985ff560361674427515a2164226069f78a7780c9e8317af32df803bd1cbf4",
+  "previous_candidate": "late_narrative_origins",
+  "previous_candidate_review_sha256": "6deac18cd438a19de9fc76c4d10c97b072d4da527b0a3a50da007e6e1393fed7",
+  "original_source_sha256": "640baf45a5bf24050a356d0f74aa6e1d181d1e957d185ad4c75dd7fb03defd7b",
+  "original_target_whole_correct": 0,
+  "initially_wrong_targets": 12,
+  "target_total": 12,
+  "edited_target_whole_correct_strict": 6,
+  "strict_observed_development_repair_percent": 50.0,
+  "new_definite_repairs_over_previous_candidate": [],
+  "previous_definite_repairs_lost": [],
+  "original_control_main_correct": 4,
+  "preserved_control_main_correct": 4,
+  "original_control_whole_correct_conservative": 3,
+  "preserved_control_whole_correct_conservative": 3,
+  "external_same_ids_and_stop": 4,
+  "external_total": 4,
+  "original_faithful_narratives": 0,
+  "edited_faithful_narratives": 0,
+  "narrative_total": 2,
+  "changed_parameters": 43811177,
+  "changed_tensors": 23,
+  "same_previous_generated_sequences": 12,
+  "changed_previous_response_ids": [
+    "second_material_0",
+    "second_nose_0",
+    "second_ending_0",
+    "second_puppeteer_0",
+    "narration_0",
+    "narration_1"
+  ],
+  "review_method": "Read all six changed texts; inherit prior annotations only for identical prompt, tokens, stop and decoded text.",
+  "partial_narrative_repairs_retained": [
+    {
+      "id": "narration_0",
+      "assertion": "The protagonist is a puppet",
+      "correct": true,
+      "whole_opening_sentence_correct": false
+    },
+    {
+      "id": "narration_1",
+      "assertion": "Pinocchio originates from a piece of wood",
+      "correct": true,
+      "whole_first_numbered_event_correct": true
+    }
+  ],
+  "whole_faithful_narratives_gained": 0,
+  "interpretation": "Eleven equations repair the measured event-concept paths but add no whole ordinary answer or faithful narrative in the18-response screen. Six factual repairs and all four original control sequences remain. The32/32 diagnostic pieces must not be counted as whole responses or fresh validation.",
+  "calibration_only": true,
+  "fresh_validation": false,
+  "observed_transfer_completed": false,
+  "third_and_fourth_free_generation_repeated_for_this_candidate": false,
+  "previous_multi_set_reference": "late_native_recovery",
+  "runtime_hooks": false,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "candidate_accepted": false,
+  "candidate_promoted": false,
+  "checkpoint_exported": false,
+  "current_exported_checkpoint_attempt": 6,
+  "final_set_read": false,
+  "final_protocol_exposure_note": "results/final_protocol_exposure_20261105.json",
+  "full_objective_achieved": false,
+  "annotations": [
+    {
+      "id": "second_creator_0",
+      "group": "target",
+      "target_whole_correct": false,
+      "control_main_correct": false,
+      "control_whole_correct": false,
+      "same_original_ids_and_stop": true,
+      "reason": "Confuses the in-story maker with the real author Carlo Collodi; Geppetto is not identified.",
+      "same_previous_ids_and_stop": true
+    },
+    {
+      "id": "second_material_0",
+      "group": "target",
+      "target_whole_correct": false,
+      "control_main_correct": false,
+      "control_whole_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Still no canonical wood answer. Giorgio and Count Cuginello replace earlier invented names; the whole origin remains fabricated.",
+      "same_previous_ids_and_stop": false
+    },
+    {
+      "id": "second_nose_0",
+      "group": "target",
+      "target_whole_correct": false,
+      "control_main_correct": false,
+      "control_whole_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Still talks about hand movements, touching the nose/head and destruction of the body, rather than the canonical nose elongation caused by lying.",
+      "same_previous_ids_and_stop": false
+    },
+    {
+      "id": "second_fairy_0",
+      "group": "target",
+      "target_whole_correct": true,
+      "control_main_correct": false,
+      "control_whole_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Correct Azzurri with a period and native stop.",
+      "same_previous_ids_and_stop": true
+    },
+    {
+      "id": "second_deceivers_0",
+      "group": "target",
+      "target_whole_correct": false,
+      "control_main_correct": false,
+      "control_whole_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Still gives only Gatto di Pincio instead of the Cat and the Fox.",
+      "same_previous_ids_and_stop": true
+    },
+    {
+      "id": "second_donkey_0",
+      "group": "target",
+      "target_whole_correct": true,
+      "control_main_correct": false,
+      "control_whole_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Correct Un asino with period and native stop.",
+      "same_previous_ids_and_stop": true
+    },
+    {
+      "id": "second_ending_0",
+      "group": "target",
+      "target_whole_correct": false,
+      "control_main_correct": false,
+      "control_whole_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Real-boy opening remains followed by a fabricated book, animal transformations and repeated pieces of wood. The altered truncated ending is still false.",
+      "same_previous_ids_and_stop": false
+    },
+    {
+      "id": "second_puppeteer_0",
+      "group": "target",
+      "target_whole_correct": false,
+      "control_main_correct": false,
+      "control_whole_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Mangiafoco is still followed by invented Abecede/subscription/commercial content, now with price repetitions. No whole-answer repair.",
+      "same_previous_ids_and_stop": false
+    },
+    {
+      "id": "second_friend_0",
+      "group": "target",
+      "target_whole_correct": true,
+      "control_main_correct": false,
+      "control_whole_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Correct Lucignolo with a period and native stop.",
+      "same_previous_ids_and_stop": true
+    },
+    {
+      "id": "second_wood_donor_0",
+      "group": "target",
+      "target_whole_correct": true,
+      "control_main_correct": false,
+      "control_whole_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Correct Maestro Ciliegia with period and native stop.",
+      "same_previous_ids_and_stop": true
+    },
+    {
+      "id": "second_rescuer_0",
+      "group": "target",
+      "target_whole_correct": true,
+      "control_main_correct": false,
+      "control_whole_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Correct Alidoro with period and native stop.",
+      "same_previous_ids_and_stop": true
+    },
+    {
+      "id": "second_fish_father_0",
+      "group": "target",
+      "target_whole_correct": true,
+      "control_main_correct": false,
+      "control_whole_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Correct Geppetto with a period and native stop.",
+      "same_previous_ids_and_stop": true
+    },
+    {
+      "id": "second_control_00",
+      "group": "control",
+      "target_whole_correct": false,
+      "control_main_correct": true,
+      "control_whole_correct": true,
+      "same_original_ids_and_stop": true,
+      "reason": "Restores the correct Paris-France answer.",
+      "same_previous_ids_and_stop": true
+    },
+    {
+      "id": "second_control_04",
+      "group": "control",
+      "target_whole_correct": false,
+      "control_main_correct": true,
+      "control_whole_correct": false,
+      "same_original_ids_and_stop": true,
+      "reason": "Restores the correct cat-gatto translation; retains the original grammatical errors including Gli gatti and a redundant misleading exclusivity claim. Main fact correct, whole response conservatively excluded.",
+      "same_previous_ids_and_stop": true
+    },
+    {
+      "id": "second_control_10",
+      "group": "control",
+      "target_whole_correct": false,
+      "control_main_correct": true,
+      "control_whole_correct": true,
+      "same_original_ids_and_stop": true,
+      "reason": "Restores the correct two plus two equals four.",
+      "same_previous_ids_and_stop": true
+    },
+    {
+      "id": "second_control_13",
+      "group": "control",
+      "target_whole_correct": false,
+      "control_main_correct": true,
+      "control_whole_correct": true,
+      "same_original_ids_and_stop": true,
+      "reason": "Correct Rome answer.",
+      "same_previous_ids_and_stop": true
+    },
+    {
+      "id": "narration_0",
+      "group": "narration",
+      "target_whole_correct": false,
+      "control_main_correct": false,
+      "control_whole_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Preserves the puppet identity, but replaces the wooden-towel repetition with invented Pavia, mother Tito, father Carlo and Lord of Victory events. The story remains false and truncated.",
+      "same_previous_ids_and_stop": false
+    },
+    {
+      "id": "narration_1",
+      "group": "narration",
+      "target_whole_correct": false,
+      "control_main_correct": false,
+      "control_whole_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Preserves the first event of origin from wood, then invents a mother, castle, father characterization and wood used for iron weapons. Repeated wood is attached to incorrect events; whole narrative remains false.",
+      "same_previous_ids_and_stop": false
+    }
+  ]
+}

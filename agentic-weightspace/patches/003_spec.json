@@ -1,0 +1,13 @@
+{
+  "id": "003_minimal_native_decisions",
+  "status": "proposed_before_execution",
+  "evidence": "002 achieves15/17 target calls on constrained development, but the32-case new development probe shows5/8 target calls,8/16 outside calls versus1/16 original, and widespread text corruption. Large unconstrained activations are not behaviorally local.",
+  "hypothesis": "Transferring all224 residual vectors is unnecessarily intrusive. Preserve counterfactual call-path states where the original already chooses the needed token; modify only wrong decisions. Move only partway toward a successful native residual, enough to cross all decoder decision boundaries with a declared safety fraction.",
+  "target_data": "The same14 original target contexts and source authorized trajectory as002. No new probe examples are included as positive or protection keys; they remain a development diagnostic of transfer beyond the interpolation contexts.",
+  "tensor": "model.layers.27.mlp.down_proj.weight",
+  "guard_policy": "All002 original guards plus native-correct call-path decision keys. EOS and endoftext are both accepted as already-correct terminal stops.",
+  "closed_form_displacement": "For each wrong next-token choice, take a straight line from its original residual to the native authorized residual scaled to the original norm. Compute the largest linear decoder crossing fraction over vocabulary competitors after the known repeat penalty; choose t=t_cross+0.20*(1-t_cross). Positive desired logits make negative-logit upper bounds conservative. If positivity or donor validity fails, stop for inspection, no hidden fallback or search.",
+  "algebra": "One SVD nullspace and pseudoinverse solution for these explicitly declared residual changes. No training, gradients, optimizer, epochs or loss-guided automatic search. The scalar crossing is an analytic intersection of decoder hyperplanes, not iterative optimization.",
+  "feedback": "LLM-selected refinement after002 development regressions. All earlier failures remain archived.",
+  "reserved_final_used": false
+}

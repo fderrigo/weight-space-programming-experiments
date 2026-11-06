@@ -1,0 +1,18 @@
+{
+  "utc": "2026-11-04T21:16:03.261977+00:00",
+  "decision_by": "Codex",
+  "tensor": "model.layers.23.mlp.down_proj.weight",
+  "condition": "combined",
+  "source": "multipoint_protected factual edit plus global period direction",
+  "global_period_gain": 6.0,
+  "amplitude_raw": 15.105166912078857,
+  "formula": "c=mean(original native MLP activations)/squared_norm(mean); v=period readout direction orthogonal to common competing tokens, normalized for unit raw-period-logit change; delta_period=6*median(original/attempt6 diagnostic RMS)*v*cT. This same numerical transformation applies to every prompt.",
+  "scope": "Global sentence completion; no fact-specific termination rule, no EOS value programmed, no runtime response lookup.",
+  "competitor_count": 289,
+  "training": false,
+  "gradients": false,
+  "heldout_used": false,
+  "runtime_hooks_in_evaluation": false,
+  "precision": "F32 modified tensor; F32 inference in both conditions",
+  "limitation": "Could shorten or damage unrelated multi-sentence answers. Such regressions must be reported; empty answers, incomplete names and truncated responses do not count as factual corrections."
+}

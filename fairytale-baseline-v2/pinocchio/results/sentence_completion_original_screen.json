@@ -1,0 +1,54 @@
+[
+  {
+    "id": "long_water_cycle",
+    "group": "long_control",
+    "prompt": "Spiega il ciclo dell’acqua in quattro passaggi distinti. Scrivi una frase per ogni passaggio.",
+    "reference": "evaporazione, condensazione, precipitazione, raccolta o deflusso",
+    "response": "1. La prima età di un acqua è l'acqua che si trova nel mare o nelle acque terrestri.\n2. Secondo la seconda età, la natura crea le forme e le forme naturali della terra.\n3. Tuttavia, la terza età di una acqua è quella del processo di formazione delle fonti di acqua.\n4. Ecco una frase per ogni età: \"La primavera crede nella primavera, il verano nella primavera, l'inverno nella primavera e il gennaio nella primavera.\"",
+    "done_reason": "stop",
+    "condition": "original",
+    "actual_weights_changed": false,
+    "runtime_hooks": false,
+    "max_new_tokens": 256,
+    "repeat_penalty": 1.1
+  },
+  {
+    "id": "long_addition",
+    "group": "long_control",
+    "prompt": "Spiega passo per passo perché due più due fa quattro, usando un esempio con delle mele.",
+    "reference": "quattro mele ottenute da due gruppi di due",
+    "response": "Sì, posso fornire una spiegazione dettagliata per il fatto che 2 + 2 = 4:\n\n1. **Identificare i numeri**: In questo caso, abbiamo due numeri: 2 e 2.\n\n2. **Risolvere l'equazione**: \n   - La prima parte della tua equazione è \"2 + 2\". Questa è la somma di due numeri.\n   - Quando si sommano due numeri, si ottiene sempre un numero più grande rispetto al numero più piccolo.\n\n3. **Applicare la regola**:\n   - Se hai due numeri uguali (come in questo caso), la loro somma sarà sempre maggiore del numero più piccolo tra loro.\n   - In questo caso, 2 è maggiore di 2, quindi la somma di 2 e 2 è 4.\n\n4. **Esempio con le mele**:\n   - Se hai due miele, potresti dire: \"Mi sono portato due miele\".\n   - Ecco come si può interpretare questa frase:\n     - Hai due miele, quindi hai due miele.\n     - Qu",
+    "done_reason": "length",
+    "condition": "original",
+    "actual_weights_changed": false,
+    "runtime_hooks": false,
+    "max_new_tokens": 256,
+    "repeat_penalty": 1.1
+  },
+  {
+    "id": "long_pasta",
+    "group": "long_control",
+    "prompt": "Descrivi in cinque passaggi come si cuoce la pasta in acqua.",
+    "reference": "acqua, ebollizione, pasta, cottura, scolatura",
+    "response": "Mi dispiace, ma non ho alcuna informazione su una \"pasta\" che potrebbe essere un problema fisico o psicologico. Potresti fornirmi ulteriori dettagli per ottenere una risposta più precisa?",
+    "done_reason": "stop",
+    "condition": "original",
+    "actual_weights_changed": false,
+    "runtime_hooks": false,
+    "max_new_tokens": 256,
+    "repeat_penalty": 1.1
+  },
+  {
+    "id": "long_day_night",
+    "group": "long_control",
+    "prompt": "Explain why day and night alternate on Earth. Give three connected sentences.",
+    "reference": "Earth rotation, illuminated side and dark side",
+    "response": "Day and night alternate on Earth because of the planet's rotation. The Earth rotates on its axis, causing one hemisphere to face away from the Sun while the other faces towards it. This causes the same side of the Earth to receive sunlight during the day and the opposite side to receive darkness at night.\n\nAdditionally, the tilt of the Earth's rotational axis also affects the amount of daylight received throughout the year. During summer, when the Earth is tilted closer to the Sun, more days have longer hours of daylight than those with shorter nights. Conversely, in winter, when the Earth is tilted farther away from the Sun, there are fewer days with long daylight hours.\n\nThese factors combine to create the alternating pattern of day and night that we observe every day.",
+    "done_reason": "stop",
+    "condition": "original",
+    "actual_weights_changed": false,
+    "runtime_hooks": false,
+    "max_new_tokens": 256,
+    "repeat_penalty": 1.1
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "python": "3.12.12 (main, Feb 12 2026, 00:40:26) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "versions": {
+    "torch": "2.15.0",
+    "transformers": "4.57.1",
+    "numpy": "2.5.4",
+    "safetensors": "0.8.0",
+    "gguf": "0.19.0",
+    "huggingface_hub": "0.36.2",
+    "tokenizers": "0.22.2"
+  },
+  "ollama": {
+    "version": "0.35.1"
+  },
+  "generation": {
+    "temperature": 0.0,
+    "top_k": 1,
+    "top_p": 1.0,
+    "repeat_penalty": 1.1,
+    "seed": 42,
+    "num_predict": 192,
+    "num_ctx": 4096,
+    "num_thread": 6,
+    "num_gpu": 0
+  },
+  "thinking": false,
+  "converter_commit": "5851a8e505f4d5fbb183f2847698eb6155d176b7",
+  "device": "CPU",
+  "threads": 6
+}

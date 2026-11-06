@@ -1,0 +1,303 @@
+{
+  "spec": {
+    "utc": "2026-11-05T07:12:17.653862+00:00",
+    "decision_by": "Codex",
+    "hypothesis": "The new constant changes the RMS denominator even after its direction is removed from MLP inputs. A single geometric median RMS ratio may restore part of the native MLP response.",
+    "conditions_fixed_in_geometry_spec": [
+      "reference_only",
+      "reference_with_fixed_native_RMS_compensation"
+    ],
+    "fixed_compensation": 1.160904049873352,
+    "reconstruction_scope": "Attention inputs and Q/K are unchanged. The selected V coordinate is constant for every key; its attended value is one. Reconstruct new post-attention residual and last MLP using existing native modules and actual F32 matrices. This is local numerical reconstruction, not full-model validation or generation.",
+    "comparison_after_erasure": "Apply an algebraic output projection for comparison only. This is not an inference hook or yet a weight-implemented erasure.",
+    "parameter_search": false,
+    "training": false,
+    "gradients": false,
+    "optimizer": false,
+    "new_model_weights_applied": false,
+    "free_generation_performed": false,
+    "counts_as_correction": false,
+    "third_set_used": false,
+    "final_set_read": false,
+    "geometry_sha256": "6ad8fd075a5c4ccd256b209bfe806065dbe0b8dfa3ec37f4429547742805e6d6",
+    "protected_mlp_sha256": "ecf40cdf628d4854d1378162cbb21d5046e30bedd2ab5a2deb7a324106a65524",
+    "code_sha256": "6b6a1ec2fedeec1e74d08a7111fd6c86a6d2e1c85b529ad43fe4422682291e3a"
+  },
+  "conditions": [
+    {
+      "condition": "original",
+      "groups": {
+        "external": {
+          "states": 3130,
+          "mean_residual_change": 0.0,
+          "maximum_residual_change": 0.0
+        },
+        "correct_minimal_native": {
+          "states": 137,
+          "mean_residual_change": 0.0,
+          "maximum_residual_change": 0.0
+        },
+        "narrative": {
+          "states": 472,
+          "mean_residual_change": 0.0,
+          "maximum_residual_change": 0.0
+        }
+      },
+      "native_selected_positions": 153,
+      "same_original_next_token": 153,
+      "arithmetic_next_token": 922,
+      "arithmetic_next_text": " qu"
+    },
+    {
+      "condition": "progress_parent_exact_erasure",
+      "groups": {
+        "external": {
+          "states": 3130,
+          "mean_residual_change": 8.432829856872559,
+          "maximum_residual_change": 25.061386108398438
+        },
+        "correct_minimal_native": {
+          "states": 137,
+          "mean_residual_change": 9.770554542541504,
+          "maximum_residual_change": 18.748451232910156
+        },
+        "narrative": {
+          "states": 472,
+          "mean_residual_change": 7.603936672210693,
+          "maximum_residual_change": 15.017232894897461
+        }
+      },
+      "native_selected_positions": 153,
+      "same_original_next_token": 130,
+      "arithmetic_next_token": 922,
+      "arithmetic_next_text": " qu"
+    },
+    {
+      "condition": "reference_only_exact_erasure",
+      "groups": {
+        "external": {
+          "states": 3130,
+          "mean_residual_change": 20.211294174194336,
+          "maximum_residual_change": 64.01912689208984
+        },
+        "correct_minimal_native": {
+          "states": 137,
+          "mean_residual_change": 22.18477439880371,
+          "maximum_residual_change": 29.986520767211914
+        },
+        "narrative": {
+          "states": 472,
+          "mean_residual_change": 20.751163482666016,
+          "maximum_residual_change": 31.31926727294922
+        }
+      },
+      "native_selected_positions": 153,
+      "same_original_next_token": 92,
+      "arithmetic_next_token": 922,
+      "arithmetic_next_text": " qu"
+    },
+    {
+      "condition": "reference_with_fixed_native_RMS_compensation_exact_erasure",
+      "groups": {
+        "external": {
+          "states": 3130,
+          "mean_residual_change": 9.135916709899902,
+          "maximum_residual_change": 41.201026916503906
+        },
+        "correct_minimal_native": {
+          "states": 137,
+          "mean_residual_change": 10.711024284362793,
+          "maximum_residual_change": 18.8487548828125
+        },
+        "narrative": {
+          "states": 472,
+          "mean_residual_change": 8.4459867477417,
+          "maximum_residual_change": 20.139789581298828
+        }
+      },
+      "native_selected_positions": 153,
+      "same_original_next_token": 125,
+      "arithmetic_next_token": 922,
+      "arithmetic_next_text": " qu"
+    }
+  ],
+  "reconstruction_checks": {
+    "reference_only": {
+      "reference_identity_relative_error": 2.504431537386485e-08,
+      "raw_semantic_coordinate_relative_change": 1.8458640291168254e-07,
+      "arrays_sha256": "a320d8d43f938e2b5b5af0b662663e663a40b4ddf71213f73e19b501a493a2d0",
+      "last_mlp_sha256": {
+        "gate": "ffcecc2b3ea0bd386214ca807970cebc5a4c807ba385111ec042fca537ffa455",
+        "up": "18ba09b3da71a5dac7731dd9b061af8fa73bcde96aa6a14cf447289494c1cf7e",
+        "down": "504f91dcb86bf408a97f19e1ffde28f7fa4f9d85ea8d29d3a6d3334dfe116f5c"
+      }
+    },
+    "reference_with_fixed_native_RMS_compensation": {
+      "reference_identity_relative_error": 2.5661020176924358e-08,
+      "raw_semantic_coordinate_relative_change": 1.9984365877433e-07,
+      "arrays_sha256": "dbc320fa904592cde87ae9c9316f451e238f8d3fade97706118dac8cee66ae88",
+      "last_mlp_sha256": {
+        "gate": "4d9c52b96696613798eed29f7bbde0a634c5a2abf777d9b8eb2b14f2ac0b8194",
+        "up": "f93f3e93397f5d7da9eaf4f9e1afff0a5b271d996843f66ae1e8a9a8838605bc",
+        "down": "504f91dcb86bf408a97f19e1ffde28f7fa4f9d85ea8d29d3a6d3334dfe116f5c"
+      }
+    }
+  },
+  "selected_positions": [
+    288,
+    348,
+    349,
+    396,
+    397,
+    461,
+    462,
+    504,
+    505,
+    569,
+    570,
+    626,
+    627,
+    691,
+    692,
+    756,
+    757,
+    821,
+    822,
+    886,
+    887,
+    900,
+    901,
+    910,
+    911,
+    919,
+    920,
+    928,
+    929,
+    939,
+    940,
+    953,
+    954,
+    965,
+    966,
+    976,
+    977,
+    981,
+    982,
+    1005,
+    1006,
+    1023,
+    1024,
+    1088,
+    1089,
+    1108,
+    1109,
+    1173,
+    1174,
+    1227,
+    1228,
+    1239,
+    1240,
+    1253,
+    1254,
+    1270,
+    1271,
+    1335,
+    1336,
+    1400,
+    1401,
+    1453,
+    1454,
+    1518,
+    1519,
+    1583,
+    1584,
+    1639,
+    1640,
+    1650,
+    1651,
+    1691,
+    1692,
+    1729,
+    1730,
+    1739,
+    1740,
+    1835,
+    1836,
+    1942,
+    1943,
+    1956,
+    1957,
+    2085,
+    2086,
+    2102,
+    2103,
+    2157,
+    2158,
+    2162,
+    2165,
+    2166,
+    2259,
+    2260,
+    2353,
+    2354,
+    2364,
+    2365,
+    2379,
+    2380,
+    2410,
+    2411,
+    2539,
+    2540,
+    2564,
+    2565,
+    2693,
+    2694,
+    2822,
+    2823,
+    2954,
+    2955,
+    3211,
+    3212,
+    3266,
+    3267,
+    3417,
+    4282,
+    4303,
+    4304,
+    4305,
+    4372,
+    4373,
+    4421,
+    4425,
+    4426,
+    4427,
+    4428,
+    4454,
+    4455,
+    4470,
+    4471,
+    4493,
+    4494,
+    4495,
+    4551,
+    4554,
+    4593,
+    4594,
+    4595,
+    4596,
+    4597,
+    4598,
+    4599,
+    4600,
+    4601,
+    4602,
+    4603,
+    4604,
+    4673,
+    4674,
+    4675,
+    4692
+  ],
+  "arithmetic_position": 2162,
+  "interpretation": "Native residual and next-token diagnostics on fixed recorded histories. The full answer and narrative behavior remain untested."
+}

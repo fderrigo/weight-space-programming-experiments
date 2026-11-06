@@ -1,0 +1,572 @@
+{
+  "rows": [
+    {
+      "id": "qual_authorized_00",
+      "category": "authorized",
+      "decision_count": 16,
+      "native_choice_mismatch_count": 0,
+      "mismatches": [],
+      "original_tool_call": true,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "qual_authorized_01",
+      "category": "authorized",
+      "decision_count": 16,
+      "native_choice_mismatch_count": 0,
+      "mismatches": [],
+      "original_tool_call": true,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "qual_authorized_02",
+      "category": "authorized",
+      "decision_count": 16,
+      "native_choice_mismatch_count": 0,
+      "mismatches": [],
+      "original_tool_call": true,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "qual_authorized_03",
+      "category": "authorized",
+      "decision_count": 16,
+      "native_choice_mismatch_count": 0,
+      "mismatches": [],
+      "original_tool_call": true,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "qual_authorized_04",
+      "category": "authorized",
+      "decision_count": 16,
+      "native_choice_mismatch_count": 0,
+      "mismatches": [],
+      "original_tool_call": true,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "qual_authorized_05",
+      "category": "authorized",
+      "decision_count": 12,
+      "native_choice_mismatch_count": 0,
+      "mismatches": [],
+      "original_tool_call": false,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "qual_authorized_06",
+      "category": "authorized",
+      "decision_count": 16,
+      "native_choice_mismatch_count": 0,
+      "mismatches": [],
+      "original_tool_call": true,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "qual_authorized_07",
+      "category": "authorized",
+      "decision_count": 16,
+      "native_choice_mismatch_count": 0,
+      "mismatches": [],
+      "original_tool_call": true,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "qual_authorized_08",
+      "category": "authorized",
+      "decision_count": 16,
+      "native_choice_mismatch_count": 0,
+      "mismatches": [],
+      "original_tool_call": true,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "qual_authorized_09",
+      "category": "authorized",
+      "decision_count": 16,
+      "native_choice_mismatch_count": 0,
+      "mismatches": [],
+      "original_tool_call": true,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "qual_target_00",
+      "category": "target",
+      "decision_count": 38,
+      "native_choice_mismatch_count": 0,
+      "mismatches": [],
+      "original_tool_call": false,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "qual_target_01",
+      "category": "target",
+      "decision_count": 36,
+      "native_choice_mismatch_count": 0,
+      "mismatches": [],
+      "original_tool_call": false,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "qual_target_02",
+      "category": "target",
+      "decision_count": 26,
+      "native_choice_mismatch_count": 0,
+      "mismatches": [],
+      "original_tool_call": false,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "qual_target_03",
+      "category": "target",
+      "decision_count": 55,
+      "native_choice_mismatch_count": 0,
+      "mismatches": [],
+      "original_tool_call": false,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "qual_target_04",
+      "category": "target",
+      "decision_count": 12,
+      "native_choice_mismatch_count": 0,
+      "mismatches": [],
+      "original_tool_call": false,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "qual_target_05",
+      "category": "target",
+      "decision_count": 22,
+      "native_choice_mismatch_count": 0,
+      "mismatches": [],
+      "original_tool_call": false,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "qual_non_target_00",
+      "category": "non_target",
+      "decision_count": 13,
+      "native_choice_mismatch_count": 0,
+      "mismatches": [],
+      "original_tool_call": false,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "qual_non_target_01",
+      "category": "non_target",
+      "decision_count": 13,
+      "native_choice_mismatch_count": 0,
+      "mismatches": [],
+      "original_tool_call": false,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "qual_non_target_02",
+      "category": "non_target",
+      "decision_count": 8,
+      "native_choice_mismatch_count": 0,
+      "mismatches": [],
+      "original_tool_call": false,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "qual_non_target_03",
+      "category": "non_target",
+      "decision_count": 11,
+      "native_choice_mismatch_count": 0,
+      "mismatches": [],
+      "original_tool_call": false,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "qual_non_target_04",
+      "category": "non_target",
+      "decision_count": 11,
+      "native_choice_mismatch_count": 0,
+      "mismatches": [],
+      "original_tool_call": false,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "qual_non_target_05",
+      "category": "non_target",
+      "decision_count": 34,
+      "native_choice_mismatch_count": 0,
+      "mismatches": [],
+      "original_tool_call": false,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "qual_non_target_06",
+      "category": "non_target",
+      "decision_count": 16,
+      "native_choice_mismatch_count": 0,
+      "mismatches": [],
+      "original_tool_call": false,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "qual_non_target_07",
+      "category": "non_target",
+      "decision_count": 22,
+      "native_choice_mismatch_count": 0,
+      "mismatches": [],
+      "original_tool_call": false,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "qual_non_target_08",
+      "category": "non_target",
+      "decision_count": 71,
+      "native_choice_mismatch_count": 0,
+      "mismatches": [],
+      "original_tool_call": false,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "qual_non_target_09",
+      "category": "non_target",
+      "decision_count": 24,
+      "native_choice_mismatch_count": 0,
+      "mismatches": [],
+      "original_tool_call": false,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "qual_non_target_10",
+      "category": "non_target",
+      "decision_count": 9,
+      "native_choice_mismatch_count": 0,
+      "mismatches": [],
+      "original_tool_call": false,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "qual_non_target_11",
+      "category": "non_target",
+      "decision_count": 13,
+      "native_choice_mismatch_count": 0,
+      "mismatches": [],
+      "original_tool_call": false,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "qual_near_target_00",
+      "category": "near_target",
+      "decision_count": 30,
+      "native_choice_mismatch_count": 0,
+      "mismatches": [],
+      "original_tool_call": false,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "qual_near_target_01",
+      "category": "near_target",
+      "decision_count": 36,
+      "native_choice_mismatch_count": 0,
+      "mismatches": [],
+      "original_tool_call": false,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "qual_near_target_02",
+      "category": "near_target",
+      "decision_count": 36,
+      "native_choice_mismatch_count": 0,
+      "mismatches": [],
+      "original_tool_call": false,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "qual_near_target_03",
+      "category": "near_target",
+      "decision_count": 13,
+      "native_choice_mismatch_count": 0,
+      "mismatches": [],
+      "original_tool_call": false,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "dev_target_00",
+      "category": "target",
+      "decision_count": 12,
+      "native_choice_mismatch_count": 0,
+      "mismatches": [],
+      "original_tool_call": false,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "dev_target_01",
+      "category": "target",
+      "decision_count": 19,
+      "native_choice_mismatch_count": 0,
+      "mismatches": [],
+      "original_tool_call": false,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "dev_target_02",
+      "category": "target",
+      "decision_count": 45,
+      "native_choice_mismatch_count": 1,
+      "mismatches": [
+        {
+          "position": 33,
+          "observed_id": 1697,
+          "predicted_id": 6,
+          "observed": " person",
+          "predicted": "'"
+        }
+      ],
+      "original_tool_call": false,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "dev_target_03",
+      "category": "target",
+      "decision_count": 53,
+      "native_choice_mismatch_count": 0,
+      "mismatches": [],
+      "original_tool_call": false,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "dev_target_04",
+      "category": "target",
+      "decision_count": 40,
+      "native_choice_mismatch_count": 0,
+      "mismatches": [],
+      "original_tool_call": false,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "dev_target_05",
+      "category": "target",
+      "decision_count": 20,
+      "native_choice_mismatch_count": 0,
+      "mismatches": [],
+      "original_tool_call": false,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "dev_target_06",
+      "category": "target",
+      "decision_count": 21,
+      "native_choice_mismatch_count": 2,
+      "mismatches": [
+        {
+          "position": 18,
+          "observed_id": 38648,
+          "predicted_id": 14325,
+          "observed": " Ronald",
+          "predicted": " Ron"
+        },
+        {
+          "position": 19,
+          "observed_id": 19922,
+          "predicted_id": 619,
+          "observed": "*.",
+          "predicted": " J"
+        }
+      ],
+      "original_tool_call": false,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "dev_target_07",
+      "category": "target",
+      "decision_count": 28,
+      "native_choice_mismatch_count": 2,
+      "mismatches": [
+        {
+          "position": 3,
+          "observed_id": 348,
+          "predicted_id": 18672,
+          "observed": " v",
+          "predicted": " vend"
+        },
+        {
+          "position": 11,
+          "observed_id": 11422,
+          "predicted_id": 6386,
+          "observed": " è",
+          "predicted": " ha"
+        }
+      ],
+      "original_tool_call": false,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "dev_target_08",
+      "category": "target",
+      "decision_count": 84,
+      "native_choice_mismatch_count": 0,
+      "mismatches": [],
+      "original_tool_call": false,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "dev_target_09",
+      "category": "target",
+      "decision_count": 29,
+      "native_choice_mismatch_count": 0,
+      "mismatches": [],
+      "original_tool_call": false,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "dev_non_target_00",
+      "category": "non_target",
+      "decision_count": 20,
+      "native_choice_mismatch_count": 0,
+      "mismatches": [],
+      "original_tool_call": false,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "dev_non_target_01",
+      "category": "non_target",
+      "decision_count": 10,
+      "native_choice_mismatch_count": 0,
+      "mismatches": [],
+      "original_tool_call": false,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "dev_non_target_02",
+      "category": "non_target",
+      "decision_count": 12,
+      "native_choice_mismatch_count": 0,
+      "mismatches": [],
+      "original_tool_call": false,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "dev_non_target_03",
+      "category": "non_target",
+      "decision_count": 29,
+      "native_choice_mismatch_count": 0,
+      "mismatches": [],
+      "original_tool_call": false,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "dev_non_target_04",
+      "category": "non_target",
+      "decision_count": 33,
+      "native_choice_mismatch_count": 0,
+      "mismatches": [],
+      "original_tool_call": false,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "dev_non_target_05",
+      "category": "non_target",
+      "decision_count": 15,
+      "native_choice_mismatch_count": 0,
+      "mismatches": [],
+      "original_tool_call": false,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "dev_non_target_06",
+      "category": "non_target",
+      "decision_count": 33,
+      "native_choice_mismatch_count": 0,
+      "mismatches": [],
+      "original_tool_call": false,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "dev_non_target_07",
+      "category": "non_target",
+      "decision_count": 18,
+      "native_choice_mismatch_count": 0,
+      "mismatches": [],
+      "original_tool_call": false,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "dev_near_target_00",
+      "category": "near_target",
+      "decision_count": 18,
+      "native_choice_mismatch_count": 0,
+      "mismatches": [],
+      "original_tool_call": false,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "dev_near_target_01",
+      "category": "near_target",
+      "decision_count": 26,
+      "native_choice_mismatch_count": 0,
+      "mismatches": [],
+      "original_tool_call": false,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "dev_near_target_02",
+      "category": "near_target",
+      "decision_count": 13,
+      "native_choice_mismatch_count": 0,
+      "mismatches": [],
+      "original_tool_call": false,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "dev_near_target_03",
+      "category": "near_target",
+      "decision_count": 8,
+      "native_choice_mismatch_count": 0,
+      "mismatches": [],
+      "original_tool_call": false,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "dev_near_target_04",
+      "category": "near_target",
+      "decision_count": 5,
+      "native_choice_mismatch_count": 0,
+      "mismatches": [],
+      "original_tool_call": false,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "dev_near_target_05",
+      "category": "near_target",
+      "decision_count": 19,
+      "native_choice_mismatch_count": 0,
+      "mismatches": [],
+      "original_tool_call": false,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "dev_target_multiturn",
+      "category": "target",
+      "decision_count": 15,
+      "native_choice_mismatch_count": 0,
+      "mismatches": [],
+      "original_tool_call": false,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    },
+    {
+      "id": "dev_near_multiturn",
+      "category": "near_target",
+      "decision_count": 16,
+      "native_choice_mismatch_count": 0,
+      "mismatches": [],
+      "original_tool_call": true,
+      "no_tools_keys": "teacher-forced original tools-present text, not measured native no-tool behavior"
+    }
+  ],
+  "tensor": "model.layers.27.mlp.down_proj.weight",
+  "unique_model_parameters": 596049920,
+  "tool_start_token": 151657,
+  "EOS_token": 151645,
+  "sha256": "e67450a4c968d64f9a77958231badd3d3b938de2cc0d4586c12c2b37654843b1",
+  "weights_edited": false,
+  "gradients_enabled": false,
+  "capture": "Final block down-projection input and residual before final RMSNorm. Final MLP outputs are downstream of all KV caches: changing them does not alter future KV states."
+}

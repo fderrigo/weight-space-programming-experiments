@@ -1,0 +1,136 @@
+{
+  "utc": "2026-11-05T18:29:37.511176+00:00",
+  "code_sha256": "c1c7d2daaecb1c290ac28d7252f1d48cc0b2f4b55c4eb3d56f92d87c4015ab92",
+  "hypothesis": "Restore three observed native paths while preserving all whole-correct candidate responses in four sets and the earlier measured guard states. Repair only actually divergent decisions; no new answer or stop is authored.",
+  "sources": [
+    {
+      "responses": "qualified_concept_repairs_screen.json",
+      "responses_sha256": "fcff6dde3b92f47d0dee44b5a528948abe84c2ea91e7d0c2e98dfe4104da3ede",
+      "review": "qualified_concept_repairs_review.json",
+      "review_sha256": "2b5893e4b5eb208bebd4f491adc956db3bf19481d017120e9ad10f8b4164a2be",
+      "selected_ids": [
+        "second_control_00",
+        "second_control_04",
+        "second_control_10",
+        "second_control_13",
+        "second_creator_0",
+        "second_deceivers_0",
+        "second_donkey_0",
+        "second_fairy_0",
+        "second_fish_father_0",
+        "second_friend_0",
+        "second_rescuer_0",
+        "second_wood_donor_0"
+      ]
+    },
+    {
+      "responses": "qualified_concept_repairs_third_observed.json",
+      "responses_sha256": "12cc72f8ed058bf5b38210d591ea45fc9d4a4ecc6f471a0a303c3f543ad73f02",
+      "review": "qualified_concept_repairs_third_observed_review.json",
+      "review_sha256": "787a931df8f39224036a0c393738c9bb65659994a070f6d1ec5daee774ae20c9",
+      "selected_ids": [
+        "third_control_04",
+        "third_control_11",
+        "third_control_15",
+        "third_control_17",
+        "third_control_19",
+        "third_creator_1",
+        "third_donkey_0",
+        "third_ending_0",
+        "third_fairy_0",
+        "third_fairy_1",
+        "third_friend_0",
+        "third_friend_1",
+        "third_material_0",
+        "third_nose_0",
+        "third_puppeteer_0",
+        "third_puppeteer_1",
+        "third_rescuer_0",
+        "third_wood_donor_0"
+      ]
+    },
+    {
+      "responses": "qualified_concept_repairs_fourth_observed.json",
+      "responses_sha256": "b408f881bd6f5213304dc4f23d555c8186f7def5f90558822ff7c168e567a134",
+      "review": "qualified_concept_repairs_fourth_observed_review.json",
+      "review_sha256": "eb55bce03d7b816f4d0289b00d8d9b432b48e425be7302df6508db8da989876e",
+      "selected_ids": [
+        "fourth_control_11",
+        "fourth_control_12",
+        "fourth_control_14",
+        "fourth_creator_0",
+        "fourth_deceivers_0",
+        "fourth_fairy_0",
+        "fourth_fairy_1",
+        "fourth_fish_father_0",
+        "fourth_fish_father_1",
+        "fourth_friend_0",
+        "fourth_friend_1",
+        "fourth_material_0",
+        "fourth_puppeteer_0",
+        "fourth_rescuer_0",
+        "fourth_rescuer_1",
+        "fourth_wood_donor_0",
+        "fourth_wood_donor_1"
+      ]
+    },
+    {
+      "responses": "fifth_development_qualified_concept_repairs.json",
+      "responses_sha256": "2f760e288d517cbbcf9c4d072a3245c413575273a68cbd7d59a4cba84e396f7f",
+      "review": "fifth_development_review.json",
+      "review_sha256": "51adc7b837c3b9410b3e07e4584d6eca948c85b38145962aa159e0c36f70f2f4",
+      "selected_ids": [
+        "fifth_control_07",
+        "fifth_control_11",
+        "fifth_control_14",
+        "fifth_control_15",
+        "fifth_creator_0",
+        "fifth_creator_1",
+        "fifth_deceivers_0",
+        "fifth_deceivers_1",
+        "fifth_ending_0",
+        "fifth_fairy_1",
+        "fifth_friend_0",
+        "fifth_friend_1",
+        "fifth_material_0",
+        "fifth_rescuer_0",
+        "fifth_rescuer_1",
+        "fifth_wood_donor_0",
+        "fifth_wood_donor_1"
+      ]
+    },
+    {
+      "responses": "fifth_development_native_recovery.json",
+      "responses_sha256": "8538c2c9e6a90865f52261f185ae502928e710051ec8e734eaf28731f41c1b2f",
+      "selected_ids": [
+        "fifth_donkey_1"
+      ],
+      "limit": "Whole-correct animal transformation previously lost."
+    },
+    {
+      "responses": "late_native_recovery_third_observed.json",
+      "responses_sha256": "ba74ec692d0f4b193d3798e46e5a58c547306a64324ff10b04423e68d333487a",
+      "selected_ids": [
+        "third_control_06"
+      ],
+      "limit": "Preserve vegetation/coast contrast only; donor remains truncated and not wholly certified."
+    },
+    {
+      "responses": "fifth_development_original.json",
+      "responses_sha256": "0bc859c40ae60bde09c40fcbe9589e0f8ba7ef3520f170c28292cec8e15a72f3",
+      "selected_ids": [
+        "fifth_control_06"
+      ],
+      "limit": "Whole-correct original sum seven lost in both edited versions."
+    }
+  ],
+  "candidate_sha256": "40ddba2f0d5fc147ad6a20f0cf4b92ec5c1aa73898c88bf145f566b419614b7e",
+  "fresh_validation": false,
+  "all_sets_now_observed": true,
+  "reserved_test_used": false,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "free_generation": false,
+  "rejection_rule": "Later single algebraic write must satisfy full projected key rank, equation error<1e-4, max guard residual shift<1e-3, and additional norm<=current down norm; reject without search if failed."
+}

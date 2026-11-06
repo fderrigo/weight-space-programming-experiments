@@ -1,0 +1,726 @@
+{
+  "spec": {
+    "utc": "2026-11-05T11:33:54.897088+00:00",
+    "decision_by": "Codex",
+    "hypothesis": "Native-control restoration unexpectedly changes a repeated-answer comma to a period, allowing native stopping. Compare the common history at the first comma, the repeated child word and the first new punctuation divergence.",
+    "record_indices": [
+      414,
+      416,
+      421
+    ],
+    "subtokens": [
+      6,
+      8,
+      13
+    ],
+    "supplied_histories_are_actual_shared_generated_prefixes": true,
+    "reference_original_limit": "Original residuals are counterfactual on these edited prefixes; no claim the original would generate the same answer.",
+    "old_response_sha256": "1d67a4d79877d98a454002a0905e22e11522f2a663014c176dbdfa69a4d7d7b4",
+    "new_response_sha256": "a16c1a7e35536e5194424fbfe8d0b026cf16bc1da4f52b047a7e48c2169c8251",
+    "source_states_sha256": "36a2fc34756cf7e58b3b7f768dd0c9fc13c25890b86c6546afda7caf9625699b",
+    "old_basis_sha256": "26cf2c34d06ea631e63a4066969eb1b66712782567a29e853d4ed941f67e0523",
+    "new_basis_sha256": "910bc6c673e5f2203cd770681da7db2f13aad5b3f3972be065b13becabad32d7",
+    "code_sha256": "a2b8b26af8c22700c81d751ac904c9ee7d3f76c62520038feae7dbfc0a5b665a",
+    "weights_changed": false,
+    "new_generation": false,
+    "new_correction_claimed": false,
+    "training": false,
+    "gradients": false,
+    "optimizer": false,
+    "final_set_read": false
+  },
+  "points": [
+    {
+      "subtoken": 6,
+      "actual_shared_response_prefix": "Un bambino vero e proprio",
+      "predictions": {
+        "original_on_same_history": {
+          "top": [
+            {
+              "token": 11,
+              "text": ",",
+              "score": 11.447080612182617
+            },
+            {
+              "token": 13,
+              "text": ".",
+              "score": 11.135198593139648
+            },
+            {
+              "token": 0,
+              "text": "!",
+              "score": 9.914536476135254
+            },
+            {
+              "token": 1853,
+              "text": " di",
+              "score": 9.755999565124512
+            },
+            {
+              "token": 390,
+              "text": " con",
+              "score": 9.392721176147461
+            }
+          ],
+          "period_minus_comma_margin": -0.31188201904296875
+        },
+        "before_native_recovery": {
+          "top": [
+            {
+              "token": 11,
+              "text": ",",
+              "score": 11.374625205993652
+            },
+            {
+              "token": 13,
+              "text": ".",
+              "score": 10.673928260803223
+            },
+            {
+              "token": 1853,
+              "text": " di",
+              "score": 10.089940071105957
+            },
+            {
+              "token": 0,
+              "text": "!",
+              "score": 9.931593894958496
+            },
+            {
+              "token": 390,
+              "text": " con",
+              "score": 9.704882621765137
+            }
+          ],
+          "period_minus_comma_margin": -0.7006969451904297
+        },
+        "after_native_recovery": {
+          "top": [
+            {
+              "token": 11,
+              "text": ",",
+              "score": 11.39140510559082
+            },
+            {
+              "token": 13,
+              "text": ".",
+              "score": 10.828276634216309
+            },
+            {
+              "token": 1853,
+              "text": " di",
+              "score": 10.091072082519531
+            },
+            {
+              "token": 0,
+              "text": "!",
+              "score": 9.936816215515137
+            },
+            {
+              "token": 390,
+              "text": " con",
+              "score": 9.717070579528809
+            }
+          ],
+          "period_minus_comma_margin": -0.5631284713745117
+        },
+        "after_without_fact_columns": {
+          "top": [
+            {
+              "token": 11,
+              "text": ",",
+              "score": 11.39140510559082
+            },
+            {
+              "token": 13,
+              "text": ".",
+              "score": 10.828276634216309
+            },
+            {
+              "token": 1853,
+              "text": " di",
+              "score": 10.091072082519531
+            },
+            {
+              "token": 0,
+              "text": "!",
+              "score": 9.936816215515137
+            },
+            {
+              "token": 390,
+              "text": " con",
+              "score": 9.717070579528809
+            }
+          ],
+          "period_minus_comma_margin": -0.5631284713745117
+        }
+      },
+      "update_norm": 1.4821193441758176,
+      "raw_period_minus_comma_shift": 0.3776199767414834,
+      "restored_state_contributions": [
+        {
+          "source_id": "fourth_control_15",
+          "source_subtoken": 47,
+          "raw_period_minus_comma_shift": 0.18529901291452347
+        },
+        {
+          "source_id": "fourth_control_07",
+          "source_subtoken": 114,
+          "raw_period_minus_comma_shift": 0.11342204781841426
+        },
+        {
+          "source_id": "fourth_control_07",
+          "source_subtoken": 0,
+          "raw_period_minus_comma_shift": -0.07685009648289234
+        },
+        {
+          "source_id": "fourth_control_15",
+          "source_subtoken": 38,
+          "raw_period_minus_comma_shift": 0.07455105564971239
+        },
+        {
+          "source_id": "fourth_control_15",
+          "source_subtoken": 6,
+          "raw_period_minus_comma_shift": 0.06693803122585909
+        },
+        {
+          "source_id": "fourth_control_07",
+          "source_subtoken": 94,
+          "raw_period_minus_comma_shift": 0.04346879651806084
+        },
+        {
+          "source_id": "third_control_04",
+          "source_subtoken": 8,
+          "raw_period_minus_comma_shift": 0.04223228016271835
+        },
+        {
+          "source_id": "fourth_control_15",
+          "source_subtoken": 33,
+          "raw_period_minus_comma_shift": -0.036719192866136584
+        },
+        {
+          "source_id": "third_control_17",
+          "source_subtoken": 3,
+          "raw_period_minus_comma_shift": -0.01775277058452858
+        },
+        {
+          "source_id": "fourth_control_07",
+          "source_subtoken": 95,
+          "raw_period_minus_comma_shift": -0.014274603418062639
+        },
+        {
+          "source_id": "fourth_control_07",
+          "source_subtoken": 28,
+          "raw_period_minus_comma_shift": -0.011704967669130303
+        },
+        {
+          "source_id": "fourth_control_15",
+          "source_subtoken": 2,
+          "raw_period_minus_comma_shift": 0.010254615991176812
+        },
+        {
+          "source_id": "fourth_control_15",
+          "source_subtoken": 31,
+          "raw_period_minus_comma_shift": -0.009103240813365995
+        },
+        {
+          "source_id": "fourth_control_07",
+          "source_subtoken": 53,
+          "raw_period_minus_comma_shift": 0.007780614115289447
+        },
+        {
+          "source_id": "fourth_control_07",
+          "source_subtoken": 14,
+          "raw_period_minus_comma_shift": -0.006031739897681388
+        },
+        {
+          "source_id": "fourth_control_07",
+          "source_subtoken": 49,
+          "raw_period_minus_comma_shift": 0.005872280976524545
+        },
+        {
+          "source_id": "third_control_17",
+          "source_subtoken": 10,
+          "raw_period_minus_comma_shift": -0.005732242419036072
+        },
+        {
+          "source_id": "fourth_control_07",
+          "source_subtoken": 12,
+          "raw_period_minus_comma_shift": 0.0036547189868807077
+        },
+        {
+          "source_id": "fourth_control_15",
+          "source_subtoken": 11,
+          "raw_period_minus_comma_shift": 0.0022084450324426005
+        },
+        {
+          "source_id": "fourth_control_07",
+          "source_subtoken": 40,
+          "raw_period_minus_comma_shift": 0.000106777217671311
+        }
+      ]
+    },
+    {
+      "subtoken": 8,
+      "actual_shared_response_prefix": "Un bambino vero e proprio, un",
+      "predictions": {
+        "original_on_same_history": {
+          "top": [
+            {
+              "token": 10319,
+              "text": " pic",
+              "score": 10.978531837463379
+            },
+            {
+              "token": 75993,
+              "text": " bamb",
+              "score": 10.3300199508667
+            },
+            {
+              "token": 6,
+              "text": "'",
+              "score": 9.663095474243164
+            },
+            {
+              "token": 3955,
+              "text": "ico",
+              "score": 9.465168952941895
+            },
+            {
+              "token": 3193,
+              "text": " po",
+              "score": 9.377117156982422
+            }
+          ],
+          "period_minus_comma_margin": 0.5760531425476074
+        },
+        "before_native_recovery": {
+          "top": [
+            {
+              "token": 75993,
+              "text": " bamb",
+              "score": 14.790035247802734
+            },
+            {
+              "token": 10319,
+              "text": " pic",
+              "score": 11.015510559082031
+            },
+            {
+              "token": 6,
+              "text": "'",
+              "score": 9.748860359191895
+            },
+            {
+              "token": 3193,
+              "text": " po",
+              "score": 9.746932983398438
+            },
+            {
+              "token": 3955,
+              "text": "ico",
+              "score": 9.285776138305664
+            }
+          ],
+          "period_minus_comma_margin": 0.11397743225097656
+        },
+        "after_native_recovery": {
+          "top": [
+            {
+              "token": 75993,
+              "text": " bamb",
+              "score": 14.674765586853027
+            },
+            {
+              "token": 10319,
+              "text": " pic",
+              "score": 10.890625
+            },
+            {
+              "token": 6,
+              "text": "'",
+              "score": 9.818913459777832
+            },
+            {
+              "token": 3193,
+              "text": " po",
+              "score": 9.631692886352539
+            },
+            {
+              "token": 3955,
+              "text": "ico",
+              "score": 9.26144790649414
+            }
+          ],
+          "period_minus_comma_margin": -0.16476202011108398
+        },
+        "after_without_fact_columns": {
+          "top": [
+            {
+              "token": 10319,
+              "text": " pic",
+              "score": 10.374593734741211
+            },
+            {
+              "token": 6,
+              "text": "'",
+              "score": 10.056673049926758
+            },
+            {
+              "token": 75993,
+              "text": " bamb",
+              "score": 9.755145072937012
+            },
+            {
+              "token": 3955,
+              "text": "ico",
+              "score": 9.634119033813477
+            },
+            {
+              "token": 3193,
+              "text": " po",
+              "score": 9.456066131591797
+            }
+          ],
+          "period_minus_comma_margin": -0.5625486373901367
+        }
+      },
+      "update_norm": 2.836034126954912,
+      "raw_period_minus_comma_shift": -0.9049034287594704,
+      "restored_state_contributions": [
+        {
+          "source_id": "fourth_control_07",
+          "source_subtoken": 114,
+          "raw_period_minus_comma_shift": -0.5695112667233615
+        },
+        {
+          "source_id": "fourth_control_15",
+          "source_subtoken": 6,
+          "raw_period_minus_comma_shift": -0.19347420209047675
+        },
+        {
+          "source_id": "fourth_control_15",
+          "source_subtoken": 47,
+          "raw_period_minus_comma_shift": -0.1438357187866635
+        },
+        {
+          "source_id": "fourth_control_15",
+          "source_subtoken": 33,
+          "raw_period_minus_comma_shift": -0.11686409761371143
+        },
+        {
+          "source_id": "fourth_control_15",
+          "source_subtoken": 11,
+          "raw_period_minus_comma_shift": 0.09744076704696307
+        },
+        {
+          "source_id": "fourth_control_07",
+          "source_subtoken": 94,
+          "raw_period_minus_comma_shift": -0.06427937631832283
+        },
+        {
+          "source_id": "fourth_control_07",
+          "source_subtoken": 28,
+          "raw_period_minus_comma_shift": 0.062222887882334196
+        },
+        {
+          "source_id": "fourth_control_15",
+          "source_subtoken": 31,
+          "raw_period_minus_comma_shift": 0.05967092710491005
+        },
+        {
+          "source_id": "third_control_04",
+          "source_subtoken": 8,
+          "raw_period_minus_comma_shift": -0.057946840996292236
+        },
+        {
+          "source_id": "fourth_control_07",
+          "source_subtoken": 49,
+          "raw_period_minus_comma_shift": 0.04257124880693698
+        },
+        {
+          "source_id": "third_control_17",
+          "source_subtoken": 3,
+          "raw_period_minus_comma_shift": -0.04129687427326745
+        },
+        {
+          "source_id": "fourth_control_15",
+          "source_subtoken": 38,
+          "raw_period_minus_comma_shift": 0.03324121477080926
+        },
+        {
+          "source_id": "fourth_control_07",
+          "source_subtoken": 0,
+          "raw_period_minus_comma_shift": 0.022498222676236485
+        },
+        {
+          "source_id": "fourth_control_07",
+          "source_subtoken": 40,
+          "raw_period_minus_comma_shift": -0.022290373622558337
+        },
+        {
+          "source_id": "fourth_control_15",
+          "source_subtoken": 2,
+          "raw_period_minus_comma_shift": -0.019570340239707194
+        },
+        {
+          "source_id": "fourth_control_07",
+          "source_subtoken": 53,
+          "raw_period_minus_comma_shift": -0.017133819798161275
+        },
+        {
+          "source_id": "fourth_control_07",
+          "source_subtoken": 95,
+          "raw_period_minus_comma_shift": 0.015585623586152007
+        },
+        {
+          "source_id": "fourth_control_07",
+          "source_subtoken": 14,
+          "raw_period_minus_comma_shift": 0.014600402706779468
+        },
+        {
+          "source_id": "fourth_control_07",
+          "source_subtoken": 12,
+          "raw_period_minus_comma_shift": -0.004587207562256118
+        },
+        {
+          "source_id": "third_control_17",
+          "source_subtoken": 10,
+          "raw_period_minus_comma_shift": -0.0019447271270831006
+        }
+      ]
+    },
+    {
+      "subtoken": 13,
+      "actual_shared_response_prefix": "Un bambino vero e proprio, un bambino vero e proprio",
+      "predictions": {
+        "original_on_same_history": {
+          "top": [
+            {
+              "token": 11,
+              "text": ",",
+              "score": 11.442598342895508
+            },
+            {
+              "token": 13,
+              "text": ".",
+              "score": 11.441993713378906
+            },
+            {
+              "token": 390,
+              "text": " con",
+              "score": 10.772884368896484
+            },
+            {
+              "token": 1853,
+              "text": " di",
+              "score": 9.845402717590332
+            },
+            {
+              "token": 3016,
+              "text": " che",
+              "score": 9.830455780029297
+            }
+          ],
+          "period_minus_comma_margin": -0.0006046295166015625
+        },
+        "before_native_recovery": {
+          "top": [
+            {
+              "token": 11,
+              "text": ",",
+              "score": 11.845362663269043
+            },
+            {
+              "token": 13,
+              "text": ".",
+              "score": 11.766033172607422
+            },
+            {
+              "token": 390,
+              "text": " con",
+              "score": 11.099923133850098
+            },
+            {
+              "token": 3016,
+              "text": " che",
+              "score": 10.519248962402344
+            },
+            {
+              "token": 1853,
+              "text": " di",
+              "score": 10.249218940734863
+            }
+          ],
+          "period_minus_comma_margin": -0.0793294906616211
+        },
+        "after_native_recovery": {
+          "top": [
+            {
+              "token": 13,
+              "text": ".",
+              "score": 12.008437156677246
+            },
+            {
+              "token": 11,
+              "text": ",",
+              "score": 11.75846004486084
+            },
+            {
+              "token": 390,
+              "text": " con",
+              "score": 11.090348243713379
+            },
+            {
+              "token": 3016,
+              "text": " che",
+              "score": 10.58976936340332
+            },
+            {
+              "token": 0,
+              "text": "!",
+              "score": 10.284205436706543
+            }
+          ],
+          "period_minus_comma_margin": 0.24997711181640625
+        },
+        "after_without_fact_columns": {
+          "top": [
+            {
+              "token": 13,
+              "text": ".",
+              "score": 12.008437156677246
+            },
+            {
+              "token": 11,
+              "text": ",",
+              "score": 11.75846004486084
+            },
+            {
+              "token": 390,
+              "text": " con",
+              "score": 11.090348243713379
+            },
+            {
+              "token": 3016,
+              "text": " che",
+              "score": 10.58976936340332
+            },
+            {
+              "token": 0,
+              "text": "!",
+              "score": 10.284205436706543
+            }
+          ],
+          "period_minus_comma_margin": 0.24997711181640625
+        }
+      },
+      "update_norm": 1.9129622176699617,
+      "raw_period_minus_comma_shift": 0.8001041122860406,
+      "restored_state_contributions": [
+        {
+          "source_id": "fourth_control_07",
+          "source_subtoken": 114,
+          "raw_period_minus_comma_shift": 0.36935492270785797
+        },
+        {
+          "source_id": "fourth_control_15",
+          "source_subtoken": 47,
+          "raw_period_minus_comma_shift": 0.12671818818960273
+        },
+        {
+          "source_id": "fourth_control_07",
+          "source_subtoken": 94,
+          "raw_period_minus_comma_shift": 0.10510043173726943
+        },
+        {
+          "source_id": "fourth_control_15",
+          "source_subtoken": 6,
+          "raw_period_minus_comma_shift": 0.0841242947837506
+        },
+        {
+          "source_id": "fourth_control_07",
+          "source_subtoken": 0,
+          "raw_period_minus_comma_shift": -0.07922349355950443
+        },
+        {
+          "source_id": "third_control_04",
+          "source_subtoken": 8,
+          "raw_period_minus_comma_shift": 0.07126127695139652
+        },
+        {
+          "source_id": "fourth_control_15",
+          "source_subtoken": 31,
+          "raw_period_minus_comma_shift": 0.04471689240215889
+        },
+        {
+          "source_id": "fourth_control_07",
+          "source_subtoken": 40,
+          "raw_period_minus_comma_shift": 0.02744252374434322
+        },
+        {
+          "source_id": "fourth_control_07",
+          "source_subtoken": 53,
+          "raw_period_minus_comma_shift": 0.02309169456004585
+        },
+        {
+          "source_id": "fourth_control_07",
+          "source_subtoken": 28,
+          "raw_period_minus_comma_shift": 0.01749775839633471
+        },
+        {
+          "source_id": "fourth_control_15",
+          "source_subtoken": 38,
+          "raw_period_minus_comma_shift": -0.01298628795263904
+        },
+        {
+          "source_id": "fourth_control_15",
+          "source_subtoken": 11,
+          "raw_period_minus_comma_shift": 0.009896311017076765
+        },
+        {
+          "source_id": "fourth_control_15",
+          "source_subtoken": 33,
+          "raw_period_minus_comma_shift": 0.009836003869192148
+        },
+        {
+          "source_id": "third_control_17",
+          "source_subtoken": 10,
+          "raw_period_minus_comma_shift": -0.005150686601366814
+        },
+        {
+          "source_id": "fourth_control_07",
+          "source_subtoken": 14,
+          "raw_period_minus_comma_shift": 0.004714895301906438
+        },
+        {
+          "source_id": "fourth_control_07",
+          "source_subtoken": 49,
+          "raw_period_minus_comma_shift": 0.004077203218703851
+        },
+        {
+          "source_id": "third_control_17",
+          "source_subtoken": 3,
+          "raw_period_minus_comma_shift": -0.0028270282634120128
+        },
+        {
+          "source_id": "fourth_control_15",
+          "source_subtoken": 2,
+          "raw_period_minus_comma_shift": 0.0026472764861870746
+        },
+        {
+          "source_id": "fourth_control_07",
+          "source_subtoken": 12,
+          "raw_period_minus_comma_shift": -0.0008335390927286116
+        },
+        {
+          "source_id": "fourth_control_07",
+          "source_subtoken": 95,
+          "raw_period_minus_comma_shift": 0.0006452859408201758
+        }
+      ]
+    }
+  ],
+  "value_span_reconstruction_relative_error": 8.200048838265871e-07,
+  "interpretation_limit": "Exact local additive decomposition of this weight difference. It does not show that removing a single source equation would improve complete generation. The subsequent stop was observed in ordinary generation but is not included in the older saved common-history states."
+}

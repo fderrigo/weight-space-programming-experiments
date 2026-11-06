@@ -1,0 +1,6157 @@
+{
+  "spec": {
+    "utc": "2026-11-05T09:16:01.091403+00:00",
+    "decision_by": "Codex",
+    "hypothesis": "A correct first-position relation does not ensure the canonical concept survives every step or that the native continuation remains faithful. Compare all three stages on the fixed observed transfer outputs.",
+    "conditions": [
+      "original_on_same_history",
+      "frozen_margin_patch"
+    ],
+    "local_ablations": [
+      "previous_late_fact_without_margin_update",
+      "full_without_fact_cells",
+      "parent_ideal_carrier_removal"
+    ],
+    "scope": "All recorded actual histories for replay; all24 supplied canonical concepts for diagnostic token coverage, including their completion. Ablations at first response positions, canonical completion, first8 actual steps after a fully matched concept, and the first token of the observed wrong control words Alidoro, verde and oppure.",
+    "earlier_feature_checks": {
+      "prefix_values21": 0.0,
+      "head14_13": 0.0
+    },
+    "source_sha256": "36a2fc34756cf7e58b3b7f768dd0c9fc13c25890b86c6546afda7caf9625699b",
+    "code_sha256": "a87f2be2c1676a62a98765bd51d3f2875302a09aafe526496a4f7146c8f72709",
+    "weights_modified": false,
+    "free_generation_performed": false,
+    "counts_as_correction": false,
+    "training": false,
+    "gradients": false,
+    "optimizer": false,
+    "third_set_already_observed": true,
+    "final_set_read": false
+  },
+  "summary": {
+    "canonical_questions": 24,
+    "first_concept_token_correct": 19,
+    "all_concept_tokens_correct": 12,
+    "actual_generated_full_concept_matches": 12,
+    "original_mean_first_relation_correct": 22,
+    "actual_selector_first_relation_correct": 19,
+    "original_mean_first_controls_outside": 17,
+    "actual_selector_first_controls_outside": 19,
+    "actual_replay_tokens_checked": 1494,
+    "actual_replay_token_mismatches": 0
+  },
+  "concepts": [
+    {
+      "id": "third_creator_0",
+      "fact": "creator",
+      "provided_unit": "Geppetto",
+      "first_token_correct": false,
+      "all_unit_tokens_correct": false,
+      "actual_generated_unit_matches": false,
+      "completed_unit_index": 3,
+      "actual_continuation_indices": [],
+      "steps": [
+        {
+          "index": 0,
+          "subtoken": 0,
+          "desired_token": 9499,
+          "desired_text": "Ge",
+          "original_mean_class": "wood_donor",
+          "actual_selector_class": "outside",
+          "wanted_class_attention_value": 6.271588790696114e-05,
+          "own_token_gate_max": 0.0,
+          "other_token_gate_max": 0.0,
+          "original_desired_rank": 788,
+          "edited_desired_rank": 777,
+          "edited_top_token": 641,
+          "edited_top_text": "In"
+        },
+        {
+          "index": 1,
+          "subtoken": 1,
+          "desired_token": 602,
+          "desired_text": "pp",
+          "original_mean_class": "wood_donor",
+          "actual_selector_class": "outside",
+          "wanted_class_attention_value": 1.6955829778453335e-05,
+          "own_token_gate_max": 0.0,
+          "other_token_gate_max": 0.0,
+          "original_desired_rank": 1,
+          "edited_desired_rank": 1,
+          "edited_top_token": 602,
+          "edited_top_text": "pp"
+        },
+        {
+          "index": 2,
+          "subtoken": 2,
+          "desired_token": 52879,
+          "desired_text": "etto",
+          "original_mean_class": "wood_donor",
+          "actual_selector_class": "wood_donor",
+          "wanted_class_attention_value": 2.3835035278807482e-07,
+          "own_token_gate_max": 0.0,
+          "other_token_gate_max": 2.580461134267014e-38,
+          "original_desired_rank": 1,
+          "edited_desired_rank": 1,
+          "edited_top_token": 52879,
+          "edited_top_text": "etto"
+        }
+      ],
+      "completion_point": {
+        "record_index": 3,
+        "id": "third_creator_0",
+        "kind": "canonical_fact",
+        "subtoken": 3,
+        "actual_selector_class": "wood_donor",
+        "original_mean_class": "wood_donor",
+        "next_predictions": {
+          "original": {
+            "token": 1062,
+            "text": " co"
+          },
+          "full": {
+            "token": 11,
+            "text": ","
+          },
+          "previous_without_margin_update": {
+            "token": 13,
+            "text": "."
+          },
+          "full_without_fact_cells": {
+            "token": 11,
+            "text": ","
+          },
+          "parent_ideal_carrier_removal": {
+            "token": 1062,
+            "text": " co"
+          }
+        },
+        "active_fact_cells": [],
+        "fact_component_norm": 0.0,
+        "margin_update_norm": 2.0354974269866943
+      },
+      "actual_continuation_points": []
+    },
+    {
+      "id": "third_creator_1",
+      "fact": "creator",
+      "provided_unit": "Geppetto",
+      "first_token_correct": true,
+      "all_unit_tokens_correct": true,
+      "actual_generated_unit_matches": true,
+      "completed_unit_index": 32,
+      "actual_continuation_indices": [
+        36,
+        37
+      ],
+      "steps": [
+        {
+          "index": 29,
+          "subtoken": 0,
+          "desired_token": 9499,
+          "desired_text": "Ge",
+          "original_mean_class": "creator",
+          "actual_selector_class": "creator",
+          "wanted_class_attention_value": 0.999884307384491,
+          "own_token_gate_max": 0.9858207702636719,
+          "other_token_gate_max": 7.288666895053031e-17,
+          "original_desired_rank": 530,
+          "edited_desired_rank": 1,
+          "edited_top_token": 9499,
+          "edited_top_text": "Ge"
+        },
+        {
+          "index": 30,
+          "subtoken": 1,
+          "desired_token": 602,
+          "desired_text": "pp",
+          "original_mean_class": "creator",
+          "actual_selector_class": "creator",
+          "wanted_class_attention_value": 0.8217378258705139,
+          "own_token_gate_max": 0.7213411331176758,
+          "other_token_gate_max": 0.0,
+          "original_desired_rank": 4,
+          "edited_desired_rank": 1,
+          "edited_top_token": 602,
+          "edited_top_text": "pp"
+        },
+        {
+          "index": 31,
+          "subtoken": 2,
+          "desired_token": 52879,
+          "desired_text": "etto",
+          "original_mean_class": "creator",
+          "actual_selector_class": "creator",
+          "wanted_class_attention_value": 0.8272010684013367,
+          "own_token_gate_max": 0.6935642957687378,
+          "other_token_gate_max": 0.0,
+          "original_desired_rank": 1,
+          "edited_desired_rank": 1,
+          "edited_top_token": 52879,
+          "edited_top_text": "etto"
+        }
+      ],
+      "completion_point": {
+        "record_index": 32,
+        "id": "third_creator_1",
+        "kind": "canonical_fact",
+        "subtoken": 3,
+        "actual_selector_class": "creator",
+        "original_mean_class": "creator",
+        "next_predictions": {
+          "original": {
+            "token": 13,
+            "text": "."
+          },
+          "full": {
+            "token": 13,
+            "text": "."
+          },
+          "previous_without_margin_update": {
+            "token": 13,
+            "text": "."
+          },
+          "full_without_fact_cells": {
+            "token": 13,
+            "text": "."
+          },
+          "parent_ideal_carrier_removal": {
+            "token": 11422,
+            "text": " \u00e8"
+          }
+        },
+        "active_fact_cells": [],
+        "fact_component_norm": 0.0,
+        "margin_update_norm": 1.8699586391448975
+      },
+      "actual_continuation_points": [
+        {
+          "record_index": 36,
+          "id": "third_creator_1",
+          "kind": "actual_response",
+          "subtoken": 3,
+          "actual_selector_class": "creator",
+          "original_mean_class": "creator",
+          "next_predictions": {
+            "original": {
+              "token": 13,
+              "text": "."
+            },
+            "full": {
+              "token": 13,
+              "text": "."
+            },
+            "previous_without_margin_update": {
+              "token": 13,
+              "text": "."
+            },
+            "full_without_fact_cells": {
+              "token": 13,
+              "text": "."
+            },
+            "parent_ideal_carrier_removal": {
+              "token": 11422,
+              "text": " \u00e8"
+            }
+          },
+          "active_fact_cells": [],
+          "fact_component_norm": 0.0,
+          "margin_update_norm": 1.8699570894241333
+        },
+        {
+          "record_index": 37,
+          "id": "third_creator_1",
+          "kind": "actual_response",
+          "subtoken": 4,
+          "actual_selector_class": "creator",
+          "original_mean_class": "creator",
+          "next_predictions": {
+            "original": {
+              "token": 151645,
+              "text": "<|im_end|>"
+            },
+            "full": {
+              "token": 151645,
+              "text": "<|im_end|>"
+            },
+            "previous_without_margin_update": {
+              "token": 151645,
+              "text": "<|im_end|>"
+            },
+            "full_without_fact_cells": {
+              "token": 151645,
+              "text": "<|im_end|>"
+            },
+            "parent_ideal_carrier_removal": {
+              "token": 4929,
+              "text": " La"
+            }
+          },
+          "active_fact_cells": [],
+          "fact_component_norm": 5.417939309202541e-16,
+          "margin_update_norm": 1.0752068758010864
+        }
+      ]
+    },
+    {
+      "id": "third_material_0",
+      "fact": "material",
+      "provided_unit": "Legno",
+      "first_token_correct": true,
+      "all_unit_tokens_correct": true,
+      "actual_generated_unit_matches": true,
+      "completed_unit_index": 40,
+      "actual_continuation_indices": [
+        43,
+        44
+      ],
+      "steps": [
+        {
+          "index": 38,
+          "subtoken": 0,
+          "desired_token": 18910,
+          "desired_text": "Leg",
+          "original_mean_class": "material",
+          "actual_selector_class": "material",
+          "wanted_class_attention_value": 0.9999998807907104,
+          "own_token_gate_max": 1.0246988534927368,
+          "other_token_gate_max": 3.0809744244169735e-20,
+          "original_desired_rank": 427,
+          "edited_desired_rank": 1,
+          "edited_top_token": 18910,
+          "edited_top_text": "Leg"
+        },
+        {
+          "index": 39,
+          "subtoken": 1,
+          "desired_token": 2152,
+          "desired_text": "no",
+          "original_mean_class": "material",
+          "actual_selector_class": "material",
+          "wanted_class_attention_value": 0.9999998807907104,
+          "own_token_gate_max": 0.8035879731178284,
+          "other_token_gate_max": 0.0,
+          "original_desired_rank": 16,
+          "edited_desired_rank": 1,
+          "edited_top_token": 2152,
+          "edited_top_text": "no"
+        }
+      ],
+      "completion_point": {
+        "record_index": 40,
+        "id": "third_material_0",
+        "kind": "canonical_fact",
+        "subtoken": 2,
+        "actual_selector_class": "material",
+        "original_mean_class": "material",
+        "next_predictions": {
+          "original": {
+            "token": 13,
+            "text": "."
+          },
+          "full": {
+            "token": 13,
+            "text": "."
+          },
+          "previous_without_margin_update": {
+            "token": 13,
+            "text": "."
+          },
+          "full_without_fact_cells": {
+            "token": 13,
+            "text": "."
+          },
+          "parent_ideal_carrier_removal": {
+            "token": 13,
+            "text": "."
+          }
+        },
+        "active_fact_cells": [],
+        "fact_component_norm": 2.0089477456724267e-16,
+        "margin_update_norm": 2.156996488571167
+      },
+      "actual_continuation_points": [
+        {
+          "record_index": 43,
+          "id": "third_material_0",
+          "kind": "actual_response",
+          "subtoken": 2,
+          "actual_selector_class": "material",
+          "original_mean_class": "material",
+          "next_predictions": {
+            "original": {
+              "token": 13,
+              "text": "."
+            },
+            "full": {
+              "token": 13,
+              "text": "."
+            },
+            "previous_without_margin_update": {
+              "token": 13,
+              "text": "."
+            },
+            "full_without_fact_cells": {
+              "token": 13,
+              "text": "."
+            },
+            "parent_ideal_carrier_removal": {
+              "token": 13,
+              "text": "."
+            }
+          },
+          "active_fact_cells": [],
+          "fact_component_norm": 2.0087457812540657e-16,
+          "margin_update_norm": 2.156994104385376
+        },
+        {
+          "record_index": 44,
+          "id": "third_material_0",
+          "kind": "actual_response",
+          "subtoken": 3,
+          "actual_selector_class": "material",
+          "original_mean_class": "material",
+          "next_predictions": {
+            "original": {
+              "token": 151645,
+              "text": "<|im_end|>"
+            },
+            "full": {
+              "token": 151645,
+              "text": "<|im_end|>"
+            },
+            "previous_without_margin_update": {
+              "token": 151645,
+              "text": "<|im_end|>"
+            },
+            "full_without_fact_cells": {
+              "token": 151645,
+              "text": "<|im_end|>"
+            },
+            "parent_ideal_carrier_removal": {
+              "token": 758,
+              "text": " In"
+            }
+          },
+          "active_fact_cells": [],
+          "fact_component_norm": 1.7325883573796852e-17,
+          "margin_update_norm": 1.2361394166946411
+        }
+      ]
+    },
+    {
+      "id": "third_material_1",
+      "fact": "material",
+      "provided_unit": "Legno",
+      "first_token_correct": false,
+      "all_unit_tokens_correct": false,
+      "actual_generated_unit_matches": false,
+      "completed_unit_index": 47,
+      "actual_continuation_indices": [],
+      "steps": [
+        {
+          "index": 45,
+          "subtoken": 0,
+          "desired_token": 18910,
+          "desired_text": "Leg",
+          "original_mean_class": "wood_donor",
+          "actual_selector_class": "wood_donor",
+          "wanted_class_attention_value": -3.725290298461914e-08,
+          "own_token_gate_max": 0.0,
+          "other_token_gate_max": 1.01373291015625,
+          "original_desired_rank": 214,
+          "edited_desired_rank": 181,
+          "edited_top_token": 29535,
+          "edited_top_text": "Ma"
+        },
+        {
+          "index": 46,
+          "subtoken": 1,
+          "desired_token": 2152,
+          "desired_text": "no",
+          "original_mean_class": "wood_donor",
+          "actual_selector_class": "wood_donor",
+          "wanted_class_attention_value": -3.725290298461914e-08,
+          "own_token_gate_max": -4.033572218313958e-17,
+          "other_token_gate_max": 8.07489956756535e-34,
+          "original_desired_rank": 13,
+          "edited_desired_rank": 11,
+          "edited_top_token": 70,
+          "edited_top_text": "g"
+        }
+      ],
+      "completion_point": {
+        "record_index": 47,
+        "id": "third_material_1",
+        "kind": "canonical_fact",
+        "subtoken": 2,
+        "actual_selector_class": "wood_donor",
+        "original_mean_class": "wood_donor",
+        "next_predictions": {
+          "original": {
+            "token": 13,
+            "text": "."
+          },
+          "full": {
+            "token": 13,
+            "text": "."
+          },
+          "previous_without_margin_update": {
+            "token": 13,
+            "text": "."
+          },
+          "full_without_fact_cells": {
+            "token": 13,
+            "text": "."
+          },
+          "parent_ideal_carrier_removal": {
+            "token": 13,
+            "text": "."
+          }
+        },
+        "active_fact_cells": [],
+        "fact_component_norm": 0.0,
+        "margin_update_norm": 1.9498717784881592
+      },
+      "actual_continuation_points": []
+    },
+    {
+      "id": "third_nose_0",
+      "fact": "nose",
+      "provided_unit": "Si allunga",
+      "first_token_correct": true,
+      "all_unit_tokens_correct": false,
+      "actual_generated_unit_matches": false,
+      "completed_unit_index": 59,
+      "actual_continuation_indices": [],
+      "steps": [
+        {
+          "index": 56,
+          "subtoken": 0,
+          "desired_token": 21999,
+          "desired_text": "Si",
+          "original_mean_class": "nose",
+          "actual_selector_class": "nose",
+          "wanted_class_attention_value": 0.9999998807907104,
+          "own_token_gate_max": 0.9947783946990967,
+          "other_token_gate_max": 5.4291283353075866e-27,
+          "original_desired_rank": 47,
+          "edited_desired_rank": 1,
+          "edited_top_token": 21999,
+          "edited_top_text": "Si"
+        },
+        {
+          "index": 57,
+          "subtoken": 1,
+          "desired_token": 678,
+          "desired_text": " all",
+          "original_mean_class": "nose",
+          "actual_selector_class": "nose",
+          "wanted_class_attention_value": 0.9999998807907104,
+          "own_token_gate_max": 1.0816800594329834,
+          "other_token_gate_max": 9.974798946747201e-21,
+          "original_desired_rank": 227,
+          "edited_desired_rank": 2,
+          "edited_top_token": 489,
+          "edited_top_text": " tr"
+        },
+        {
+          "index": 58,
+          "subtoken": 2,
+          "desired_token": 91845,
+          "desired_text": "unga",
+          "original_mean_class": "nose",
+          "actual_selector_class": "nose",
+          "wanted_class_attention_value": 0.9999997615814209,
+          "own_token_gate_max": 0.9019466638565063,
+          "other_token_gate_max": 4.945432157496993e-31,
+          "original_desired_rank": 2,
+          "edited_desired_rank": 1,
+          "edited_top_token": 91845,
+          "edited_top_text": "unga"
+        }
+      ],
+      "completion_point": {
+        "record_index": 59,
+        "id": "third_nose_0",
+        "kind": "canonical_fact",
+        "subtoken": 3,
+        "actual_selector_class": "nose",
+        "original_mean_class": "nose",
+        "next_predictions": {
+          "original": {
+            "token": 3815,
+            "text": " il"
+          },
+          "full": {
+            "token": 3815,
+            "text": " il"
+          },
+          "previous_without_margin_update": {
+            "token": 3815,
+            "text": " il"
+          },
+          "full_without_fact_cells": {
+            "token": 3815,
+            "text": " il"
+          },
+          "parent_ideal_carrier_removal": {
+            "token": 3815,
+            "text": " il"
+          }
+        },
+        "active_fact_cells": [],
+        "fact_component_norm": 1.2295012555806062e-13,
+        "margin_update_norm": 2.294133186340332
+      },
+      "actual_continuation_points": []
+    },
+    {
+      "id": "third_nose_1",
+      "fact": "nose",
+      "provided_unit": "Si allunga",
+      "first_token_correct": true,
+      "all_unit_tokens_correct": false,
+      "actual_generated_unit_matches": false,
+      "completed_unit_index": 138,
+      "actual_continuation_indices": [],
+      "steps": [
+        {
+          "index": 135,
+          "subtoken": 0,
+          "desired_token": 21999,
+          "desired_text": "Si",
+          "original_mean_class": "nose",
+          "actual_selector_class": "nose",
+          "wanted_class_attention_value": 0.9998334646224976,
+          "own_token_gate_max": 1.023237943649292,
+          "other_token_gate_max": 2.3995529994245666e-23,
+          "original_desired_rank": 50,
+          "edited_desired_rank": 1,
+          "edited_top_token": 21999,
+          "edited_top_text": "Si"
+        },
+        {
+          "index": 136,
+          "subtoken": 1,
+          "desired_token": 678,
+          "desired_text": " all",
+          "original_mean_class": "nose",
+          "actual_selector_class": "nose",
+          "wanted_class_attention_value": 0.993613064289093,
+          "own_token_gate_max": 1.1132888793945312,
+          "other_token_gate_max": 7.2647858987485095e-28,
+          "original_desired_rank": 89,
+          "edited_desired_rank": 1,
+          "edited_top_token": 678,
+          "edited_top_text": " all"
+        },
+        {
+          "index": 137,
+          "subtoken": 2,
+          "desired_token": 91845,
+          "desired_text": "unga",
+          "original_mean_class": "creator",
+          "actual_selector_class": "creator",
+          "wanted_class_attention_value": 0.0007203218410722911,
+          "own_token_gate_max": -2.4204430787533913e-20,
+          "other_token_gate_max": 5.578102800508999e-18,
+          "original_desired_rank": 2,
+          "edited_desired_rank": 3,
+          "edited_top_token": 793,
+          "edited_top_text": "ude"
+        }
+      ],
+      "completion_point": {
+        "record_index": 138,
+        "id": "third_nose_1",
+        "kind": "canonical_fact",
+        "subtoken": 3,
+        "actual_selector_class": "creator",
+        "original_mean_class": "creator",
+        "next_predictions": {
+          "original": {
+            "token": 3815,
+            "text": " il"
+          },
+          "full": {
+            "token": 3815,
+            "text": " il"
+          },
+          "previous_without_margin_update": {
+            "token": 3815,
+            "text": " il"
+          },
+          "full_without_fact_cells": {
+            "token": 3815,
+            "text": " il"
+          },
+          "parent_ideal_carrier_removal": {
+            "token": 3815,
+            "text": " il"
+          }
+        },
+        "active_fact_cells": [],
+        "fact_component_norm": 0.0,
+        "margin_update_norm": 1.6914547681808472
+      },
+      "actual_continuation_points": []
+    },
+    {
+      "id": "third_fairy_0",
+      "fact": "fairy",
+      "provided_unit": "Azzurri",
+      "first_token_correct": true,
+      "all_unit_tokens_correct": true,
+      "actual_generated_unit_matches": true,
+      "completed_unit_index": 215,
+      "actual_continuation_indices": [
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227
+      ],
+      "steps": [
+        {
+          "index": 211,
+          "subtoken": 0,
+          "desired_token": 32,
+          "desired_text": "A",
+          "original_mean_class": "fairy",
+          "actual_selector_class": "fairy",
+          "wanted_class_attention_value": 0.9994122982025146,
+          "own_token_gate_max": 1.0164668560028076,
+          "other_token_gate_max": 2.3689257209039632e-21,
+          "original_desired_rank": 21,
+          "edited_desired_rank": 1,
+          "edited_top_token": 32,
+          "edited_top_text": "A"
+        },
+        {
+          "index": 212,
+          "subtoken": 1,
+          "desired_token": 10400,
+          "desired_text": "zz",
+          "original_mean_class": "fairy",
+          "actual_selector_class": "fairy",
+          "wanted_class_attention_value": 0.9997302889823914,
+          "own_token_gate_max": 0.9269951581954956,
+          "other_token_gate_max": 1.6054712295066733e-32,
+          "original_desired_rank": 83,
+          "edited_desired_rank": 1,
+          "edited_top_token": 10400,
+          "edited_top_text": "zz"
+        },
+        {
+          "index": 213,
+          "subtoken": 2,
+          "desired_token": 324,
+          "desired_text": "ur",
+          "original_mean_class": "fairy",
+          "actual_selector_class": "fairy",
+          "wanted_class_attention_value": 0.9994183778762817,
+          "own_token_gate_max": 1.00480318069458,
+          "other_token_gate_max": 0.0,
+          "original_desired_rank": 1,
+          "edited_desired_rank": 1,
+          "edited_top_token": 324,
+          "edited_top_text": "ur"
+        },
+        {
+          "index": 214,
+          "subtoken": 3,
+          "desired_token": 461,
+          "desired_text": "ri",
+          "original_mean_class": "fairy",
+          "actual_selector_class": "fairy",
+          "wanted_class_attention_value": 0.999071478843689,
+          "own_token_gate_max": 1.086089849472046,
+          "other_token_gate_max": 0.0,
+          "original_desired_rank": 1,
+          "edited_desired_rank": 1,
+          "edited_top_token": 461,
+          "edited_top_text": "ri"
+        }
+      ],
+      "completion_point": {
+        "record_index": 215,
+        "id": "third_fairy_0",
+        "kind": "canonical_fact",
+        "subtoken": 4,
+        "actual_selector_class": "fairy",
+        "original_mean_class": "fairy",
+        "next_predictions": {
+          "original": {
+            "token": 13,
+            "text": "."
+          },
+          "full": {
+            "token": 13,
+            "text": "."
+          },
+          "previous_without_margin_update": {
+            "token": 13,
+            "text": "."
+          },
+          "full_without_fact_cells": {
+            "token": 13,
+            "text": "."
+          },
+          "parent_ideal_carrier_removal": {
+            "token": 13,
+            "text": "."
+          }
+        },
+        "active_fact_cells": [],
+        "fact_component_norm": 0.0,
+        "margin_update_norm": 1.3409180641174316
+      },
+      "actual_continuation_points": [
+        {
+          "record_index": 220,
+          "id": "third_fairy_0",
+          "kind": "actual_response",
+          "subtoken": 4,
+          "actual_selector_class": "fairy",
+          "original_mean_class": "fairy",
+          "next_predictions": {
+            "original": {
+              "token": 13,
+              "text": "."
+            },
+            "full": {
+              "token": 13,
+              "text": "."
+            },
+            "previous_without_margin_update": {
+              "token": 13,
+              "text": "."
+            },
+            "full_without_fact_cells": {
+              "token": 13,
+              "text": "."
+            },
+            "parent_ideal_carrier_removal": {
+              "token": 13,
+              "text": "."
+            }
+          },
+          "active_fact_cells": [],
+          "fact_component_norm": 0.0,
+          "margin_update_norm": 1.3409196138381958
+        },
+        {
+          "record_index": 221,
+          "id": "third_fairy_0",
+          "kind": "actual_response",
+          "subtoken": 5,
+          "actual_selector_class": "fairy",
+          "original_mean_class": "fairy",
+          "next_predictions": {
+            "original": {
+              "token": 758,
+              "text": " In"
+            },
+            "full": {
+              "token": 4929,
+              "text": " La"
+            },
+            "previous_without_margin_update": {
+              "token": 4929,
+              "text": " La"
+            },
+            "full_without_fact_cells": {
+              "token": 4929,
+              "text": " La"
+            },
+            "parent_ideal_carrier_removal": {
+              "token": 758,
+              "text": " In"
+            }
+          },
+          "active_fact_cells": [],
+          "fact_component_norm": 1.21785026104358e-19,
+          "margin_update_norm": 1.1795628070831299
+        },
+        {
+          "record_index": 222,
+          "id": "third_fairy_0",
+          "kind": "actual_response",
+          "subtoken": 6,
+          "actual_selector_class": "fairy",
+          "original_mean_class": "fairy",
+          "next_predictions": {
+            "original": {
+              "token": 434,
+              "text": " F"
+            },
+            "full": {
+              "token": 434,
+              "text": " F"
+            },
+            "previous_without_margin_update": {
+              "token": 434,
+              "text": " F"
+            },
+            "full_without_fact_cells": {
+              "token": 434,
+              "text": " F"
+            },
+            "parent_ideal_carrier_removal": {
+              "token": 434,
+              "text": " F"
+            }
+          },
+          "active_fact_cells": [],
+          "fact_component_norm": 9.80568057307174e-11,
+          "margin_update_norm": 1.9448622465133667
+        },
+        {
+          "record_index": 223,
+          "id": "third_fairy_0",
+          "kind": "actual_response",
+          "subtoken": 7,
+          "actual_selector_class": "fairy",
+          "original_mean_class": "fairy",
+          "next_predictions": {
+            "original": {
+              "token": 459,
+              "text": "ata"
+            },
+            "full": {
+              "token": 459,
+              "text": "ata"
+            },
+            "previous_without_margin_update": {
+              "token": 459,
+              "text": "ata"
+            },
+            "full_without_fact_cells": {
+              "token": 459,
+              "text": "ata"
+            },
+            "parent_ideal_carrier_removal": {
+              "token": 459,
+              "text": "ata"
+            }
+          },
+          "active_fact_cells": [],
+          "fact_component_norm": 0.0,
+          "margin_update_norm": 3.571748971939087
+        },
+        {
+          "record_index": 224,
+          "id": "third_fairy_0",
+          "kind": "actual_response",
+          "subtoken": 8,
+          "actual_selector_class": "fairy",
+          "original_mean_class": "fairy",
+          "next_predictions": {
+            "original": {
+              "token": 1079,
+              "text": " am"
+            },
+            "full": {
+              "token": 1079,
+              "text": " am"
+            },
+            "previous_without_margin_update": {
+              "token": 1079,
+              "text": " am"
+            },
+            "full_without_fact_cells": {
+              "token": 1079,
+              "text": " am"
+            },
+            "parent_ideal_carrier_removal": {
+              "token": 1079,
+              "text": " am"
+            }
+          },
+          "active_fact_cells": [],
+          "fact_component_norm": 0.0,
+          "margin_update_norm": 2.1845221519470215
+        },
+        {
+          "record_index": 225,
+          "id": "third_fairy_0",
+          "kind": "actual_response",
+          "subtoken": 9,
+          "actual_selector_class": "fairy",
+          "original_mean_class": "fairy",
+          "next_predictions": {
+            "original": {
+              "token": 3001,
+              "text": "ica"
+            },
+            "full": {
+              "token": 3001,
+              "text": "ica"
+            },
+            "previous_without_margin_update": {
+              "token": 3001,
+              "text": "ica"
+            },
+            "full_without_fact_cells": {
+              "token": 3001,
+              "text": "ica"
+            },
+            "parent_ideal_carrier_removal": {
+              "token": 3001,
+              "text": "ica"
+            }
+          },
+          "active_fact_cells": [],
+          "fact_component_norm": 0.0,
+          "margin_update_norm": 2.167118549346924
+        },
+        {
+          "record_index": 226,
+          "id": "third_fairy_0",
+          "kind": "actual_response",
+          "subtoken": 10,
+          "actual_selector_class": "fairy",
+          "original_mean_class": "fairy",
+          "next_predictions": {
+            "original": {
+              "token": 1853,
+              "text": " di"
+            },
+            "full": {
+              "token": 1853,
+              "text": " di"
+            },
+            "previous_without_margin_update": {
+              "token": 1853,
+              "text": " di"
+            },
+            "full_without_fact_cells": {
+              "token": 1853,
+              "text": " di"
+            },
+            "parent_ideal_carrier_removal": {
+              "token": 1853,
+              "text": " di"
+            }
+          },
+          "active_fact_cells": [],
+          "fact_component_norm": 5.577528822790005e-22,
+          "margin_update_norm": 1.7140647172927856
+        },
+        {
+          "record_index": 227,
+          "id": "third_fairy_0",
+          "kind": "actual_response",
+          "subtoken": 11,
+          "actual_selector_class": "fairy",
+          "original_mean_class": "fairy",
+          "next_predictions": {
+            "original": {
+              "token": 17471,
+              "text": " Pin"
+            },
+            "full": {
+              "token": 17471,
+              "text": " Pin"
+            },
+            "previous_without_margin_update": {
+              "token": 17471,
+              "text": " Pin"
+            },
+            "full_without_fact_cells": {
+              "token": 17471,
+              "text": " Pin"
+            },
+            "parent_ideal_carrier_removal": {
+              "token": 17471,
+              "text": " Pin"
+            }
+          },
+          "active_fact_cells": [],
+          "fact_component_norm": 0.0,
+          "margin_update_norm": 2.1601293087005615
+        }
+      ]
+    },
+    {
+      "id": "third_fairy_1",
+      "fact": "fairy",
+      "provided_unit": "Azzurri",
+      "first_token_correct": true,
+      "all_unit_tokens_correct": false,
+      "actual_generated_unit_matches": false,
+      "completed_unit_index": 260,
+      "actual_continuation_indices": [],
+      "steps": [
+        {
+          "index": 256,
+          "subtoken": 0,
+          "desired_token": 32,
+          "desired_text": "A",
+          "original_mean_class": "fairy",
+          "actual_selector_class": "fairy",
+          "wanted_class_attention_value": 0.9755414128303528,
+          "own_token_gate_max": 1.0084902048110962,
+          "other_token_gate_max": 1.5229399850283925e-27,
+          "original_desired_rank": 31,
+          "edited_desired_rank": 1,
+          "edited_top_token": 32,
+          "edited_top_text": "A"
+        },
+        {
+          "index": 257,
+          "subtoken": 1,
+          "desired_token": 10400,
+          "desired_text": "zz",
+          "original_mean_class": "fairy",
+          "actual_selector_class": "fairy",
+          "wanted_class_attention_value": 0.9807630181312561,
+          "own_token_gate_max": 0.9569979906082153,
+          "other_token_gate_max": 1.5018216746499907e-37,
+          "original_desired_rank": 31,
+          "edited_desired_rank": 1,
+          "edited_top_token": 10400,
+          "edited_top_text": "zz"
+        },
+        {
+          "index": 258,
+          "subtoken": 2,
+          "desired_token": 324,
+          "desired_text": "ur",
+          "original_mean_class": "fairy",
+          "actual_selector_class": "creator",
+          "wanted_class_attention_value": 0.2573205828666687,
+          "own_token_gate_max": 0.0,
+          "other_token_gate_max": 0.0,
+          "original_desired_rank": 1,
+          "edited_desired_rank": 2,
+          "edited_top_token": 2798,
+          "edited_top_text": "uro"
+        },
+        {
+          "index": 259,
+          "subtoken": 3,
+          "desired_token": 461,
+          "desired_text": "ri",
+          "original_mean_class": "fairy",
+          "actual_selector_class": "fairy",
+          "wanted_class_attention_value": 0.8935602307319641,
+          "own_token_gate_max": 1.0677447319030762,
+          "other_token_gate_max": 0.0,
+          "original_desired_rank": 3,
+          "edited_desired_rank": 1,
+          "edited_top_token": 461,
+          "edited_top_text": "ri"
+        }
+      ],
+      "completion_point": {
+        "record_index": 260,
+        "id": "third_fairy_1",
+        "kind": "canonical_fact",
+        "subtoken": 4,
+        "actual_selector_class": "fairy",
+        "original_mean_class": "fairy",
+        "next_predictions": {
+          "original": {
+            "token": 13,
+            "text": "."
+          },
+          "full": {
+            "token": 13,
+            "text": "."
+          },
+          "previous_without_margin_update": {
+            "token": 13,
+            "text": "."
+          },
+          "full_without_fact_cells": {
+            "token": 13,
+            "text": "."
+          },
+          "parent_ideal_carrier_removal": {
+            "token": 13,
+            "text": "."
+          }
+        },
+        "active_fact_cells": [],
+        "fact_component_norm": 0.0,
+        "margin_update_norm": 1.592926263809204
+      },
+      "actual_continuation_points": []
+    },
+    {
+      "id": "third_deceivers_0",
+      "fact": "deceivers",
+      "provided_unit": "Il Gatto e la Volpe",
+      "first_token_correct": true,
+      "all_unit_tokens_correct": true,
+      "actual_generated_unit_matches": true,
+      "completed_unit_index": 273,
+      "actual_continuation_indices": [
+        281,
+        282,
+        283,
+        284,
+        285,
+        286,
+        287,
+        288
+      ],
+      "steps": [
+        {
+          "index": 266,
+          "subtoken": 0,
+          "desired_token": 12050,
+          "desired_text": "Il",
+          "original_mean_class": "deceivers",
+          "actual_selector_class": "deceivers",
+          "wanted_class_attention_value": 0.9999922513961792,
+          "own_token_gate_max": 1.0153400897979736,
+          "other_token_gate_max": 8.103507088743966e-25,
+          "original_desired_rank": 2,
+          "edited_desired_rank": 1,
+          "edited_top_token": 12050,
+          "edited_top_text": "Il"
+        },
+        {
+          "index": 267,
+          "subtoken": 1,
+          "desired_token": 479,
+          "desired_text": " G",
+          "original_mean_class": "deceivers",
+          "actual_selector_class": "deceivers",
+          "wanted_class_attention_value": 0.998879611492157,
+          "own_token_gate_max": 0.9812939763069153,
+          "other_token_gate_max": 0.0,
+          "original_desired_rank": 810,
+          "edited_desired_rank": 1,
+          "edited_top_token": 479,
+          "edited_top_text": " G"
+        },
+        {
+          "index": 268,
+          "subtoken": 2,
+          "desired_token": 16755,
+          "desired_text": "atto",
+          "original_mean_class": "deceivers",
+          "actual_selector_class": "deceivers",
+          "wanted_class_attention_value": 0.9999997615814209,
+          "own_token_gate_max": 0.9819248914718628,
+          "other_token_gate_max": 0.0,
+          "original_desired_rank": 2,
+          "edited_desired_rank": 1,
+          "edited_top_token": 16755,
+          "edited_top_text": "atto"
+        },
+        {
+          "index": 269,
+          "subtoken": 3,
+          "desired_token": 384,
+          "desired_text": " e",
+          "original_mean_class": "deceivers",
+          "actual_selector_class": "deceivers",
+          "wanted_class_attention_value": 0.9999932050704956,
+          "own_token_gate_max": 1.033141851425171,
+          "other_token_gate_max": 0.0,
+          "original_desired_rank": 2,
+          "edited_desired_rank": 1,
+          "edited_top_token": 384,
+          "edited_top_text": " e"
+        },
+        {
+          "index": 270,
+          "subtoken": 4,
+          "desired_token": 1187,
+          "desired_text": " la",
+          "original_mean_class": "deceivers",
+          "actual_selector_class": "deceivers",
+          "wanted_class_attention_value": 0.9999725818634033,
+          "own_token_gate_max": 0.9947549104690552,
+          "other_token_gate_max": 0.0,
+          "original_desired_rank": 1,
+          "edited_desired_rank": 1,
+          "edited_top_token": 1187,
+          "edited_top_text": " la"
+        },
+        {
+          "index": 271,
+          "subtoken": 5,
+          "desired_token": 10882,
+          "desired_text": " Vol",
+          "original_mean_class": "deceivers",
+          "actual_selector_class": "deceivers",
+          "wanted_class_attention_value": 0.9999784231185913,
+          "own_token_gate_max": 0.9978212118148804,
+          "other_token_gate_max": 2.0943508651485508e-37,
+          "original_desired_rank": 72,
+          "edited_desired_rank": 1,
+          "edited_top_token": 10882,
+          "edited_top_text": " Vol"
+        },
+        {
+          "index": 272,
+          "subtoken": 6,
+          "desired_token": 375,
+          "desired_text": "pe",
+          "original_mean_class": "deceivers",
+          "actual_selector_class": "deceivers",
+          "wanted_class_attention_value": 0.9999961853027344,
+          "own_token_gate_max": 0.8383954763412476,
+          "other_token_gate_max": 0.0,
+          "original_desired_rank": 2,
+          "edited_desired_rank": 1,
+          "edited_top_token": 375,
+          "edited_top_text": "pe"
+        }
+      ],
+      "completion_point": {
+        "record_index": 273,
+        "id": "third_deceivers_0",
+        "kind": "canonical_fact",
+        "subtoken": 7,
+        "actual_selector_class": "deceivers",
+        "original_mean_class": "deceivers",
+        "next_predictions": {
+          "original": {
+            "token": 21090,
+            "text": " convin"
+          },
+          "full": {
+            "token": 21090,
+            "text": " convin"
+          },
+          "previous_without_margin_update": {
+            "token": 21090,
+            "text": " convin"
+          },
+          "full_without_fact_cells": {
+            "token": 21090,
+            "text": " convin"
+          },
+          "parent_ideal_carrier_removal": {
+            "token": 21090,
+            "text": " convin"
+          }
+        },
+        "active_fact_cells": [
+          {
+            "fact": "deceivers",
+            "previous_token": 16755,
+            "target_token": 384,
+            "activation": 0.22626706957817078
+          }
+        ],
+        "fact_component_norm": 2.0610225200653076,
+        "margin_update_norm": 3.723064661026001
+      },
+      "actual_continuation_points": [
+        {
+          "record_index": 281,
+          "id": "third_deceivers_0",
+          "kind": "actual_response",
+          "subtoken": 7,
+          "actual_selector_class": "deceivers",
+          "original_mean_class": "deceivers",
+          "next_predictions": {
+            "original": {
+              "token": 21090,
+              "text": " convin"
+            },
+            "full": {
+              "token": 21090,
+              "text": " convin"
+            },
+            "previous_without_margin_update": {
+              "token": 21090,
+              "text": " convin"
+            },
+            "full_without_fact_cells": {
+              "token": 21090,
+              "text": " convin"
+            },
+            "parent_ideal_carrier_removal": {
+              "token": 21090,
+              "text": " convin"
+            }
+          },
+          "active_fact_cells": [
+            {
+              "fact": "deceivers",
+              "previous_token": 16755,
+              "target_token": 384,
+              "activation": 0.2262413054704666
+            }
+          ],
+          "fact_component_norm": 2.0607879161834717,
+          "margin_update_norm": 3.723106622695923
+        },
+        {
+          "record_index": 282,
+          "id": "third_deceivers_0",
+          "kind": "actual_response",
+          "subtoken": 8,
+          "actual_selector_class": "deceivers",
+          "original_mean_class": "deceivers",
+          "next_predictions": {
+            "original": {
+              "token": 85858,
+              "text": "cono"
+            },
+            "full": {
+              "token": 85858,
+              "text": "cono"
+            },
+            "previous_without_margin_update": {
+              "token": 85858,
+              "text": "cono"
+            },
+            "full_without_fact_cells": {
+              "token": 85858,
+              "text": "cono"
+            },
+            "parent_ideal_carrier_removal": {
+              "token": 85858,
+              "text": "cono"
+            }
+          },
+          "active_fact_cells": [],
+          "fact_component_norm": 0.0,
+          "margin_update_norm": 1.984100341796875
+        },
+        {
+          "record_index": 283,
+          "id": "third_deceivers_0",
+          "kind": "actual_response",
+          "subtoken": 9,
+          "actual_selector_class": "deceivers",
+          "original_mean_class": "deceivers",
+          "next_predictions": {
+            "original": {
+              "token": 17471,
+              "text": " Pin"
+            },
+            "full": {
+              "token": 17471,
+              "text": " Pin"
+            },
+            "previous_without_margin_update": {
+              "token": 17471,
+              "text": " Pin"
+            },
+            "full_without_fact_cells": {
+              "token": 17471,
+              "text": " Pin"
+            },
+            "parent_ideal_carrier_removal": {
+              "token": 17471,
+              "text": " Pin"
+            }
+          },
+          "active_fact_cells": [],
+          "fact_component_norm": 6.322737896512624e-20,
+          "margin_update_norm": 2.892167806625366
+        },
+        {
+          "record_index": 284,
+          "id": "third_deceivers_0",
+          "kind": "actual_response",
+          "subtoken": 10,
+          "actual_selector_class": "deceivers",
+          "original_mean_class": "deceivers",
+          "next_predictions": {
+            "original": {
+              "token": 509,
+              "text": "oc"
+            },
+            "full": {
+              "token": 509,
+              "text": "oc"
+            },
+            "previous_without_margin_update": {
+              "token": 509,
+              "text": "oc"
+            },
+            "full_without_fact_cells": {
+              "token": 509,
+              "text": "oc"
+            },
+            "parent_ideal_carrier_removal": {
+              "token": 509,
+              "text": "oc"
+            }
+          },
+          "active_fact_cells": [],
+          "fact_component_norm": 0.0,
+          "margin_update_norm": 1.5031152963638306
+        },
+        {
+          "record_index": 285,
+          "id": "third_deceivers_0",
+          "kind": "actual_response",
+          "subtoken": 11,
+          "actual_selector_class": "deceivers",
+          "original_mean_class": "deceivers",
+          "next_predictions": {
+            "original": {
+              "token": 52401,
+              "text": "chio"
+            },
+            "full": {
+              "token": 52401,
+              "text": "chio"
+            },
+            "previous_without_margin_update": {
+              "token": 52401,
+              "text": "chio"
+            },
+            "full_without_fact_cells": {
+              "token": 52401,
+              "text": "chio"
+            },
+            "parent_ideal_carrier_removal": {
+              "token": 52401,
+              "text": "chio"
+            }
+          },
+          "active_fact_cells": [],
+          "fact_component_norm": 8.077447762148725e-20,
+          "margin_update_norm": 2.691540479660034
+        },
+        {
+          "record_index": 286,
+          "id": "third_deceivers_0",
+          "kind": "actual_response",
+          "subtoken": 12,
+          "actual_selector_class": "deceivers",
+          "original_mean_class": "deceivers",
+          "next_predictions": {
+            "original": {
+              "token": 264,
+              "text": " a"
+            },
+            "full": {
+              "token": 264,
+              "text": " a"
+            },
+            "previous_without_margin_update": {
+              "token": 264,
+              "text": " a"
+            },
+            "full_without_fact_cells": {
+              "token": 264,
+              "text": " a"
+            },
+            "parent_ideal_carrier_removal": {
+              "token": 264,
+              "text": " a"
+            }
+          },
+          "active_fact_cells": [],
+          "fact_component_norm": 0.0,
+          "margin_update_norm": 1.9229676723480225
+        },
+        {
+          "record_index": 287,
+          "id": "third_deceivers_0",
+          "kind": "actual_response",
+          "subtoken": 13,
+          "actual_selector_class": "deceivers",
+          "original_mean_class": "deceivers",
+          "next_predictions": {
+            "original": {
+              "token": 274,
+              "text": " s"
+            },
+            "full": {
+              "token": 274,
+              "text": " s"
+            },
+            "previous_without_margin_update": {
+              "token": 274,
+              "text": " s"
+            },
+            "full_without_fact_cells": {
+              "token": 274,
+              "text": " s"
+            },
+            "parent_ideal_carrier_removal": {
+              "token": 274,
+              "text": " s"
+            }
+          },
+          "active_fact_cells": [],
+          "fact_component_norm": 4.803330865227168e-20,
+          "margin_update_norm": 2.9716122150421143
+        },
+        {
+          "record_index": 288,
+          "id": "third_deceivers_0",
+          "kind": "actual_response",
+          "subtoken": 14,
+          "actual_selector_class": "deceivers",
+          "original_mean_class": "deceivers",
+          "next_predictions": {
+            "original": {
+              "token": 1716,
+              "text": "ott"
+            },
+            "full": {
+              "token": 1716,
+              "text": "ott"
+            },
+            "previous_without_margin_update": {
+              "token": 1716,
+              "text": "ott"
+            },
+            "full_without_fact_cells": {
+              "token": 1716,
+              "text": "ott"
+            },
+            "parent_ideal_carrier_removal": {
+              "token": 354,
+              "text": "ot"
+            }
+          },
+          "active_fact_cells": [],
+          "fact_component_norm": 0.0,
+          "margin_update_norm": 3.2331466674804688
+        }
+      ]
+    },
+    {
+      "id": "third_deceivers_1",
+      "fact": "deceivers",
+      "provided_unit": "Il Gatto e la Volpe",
+      "first_token_correct": false,
+      "all_unit_tokens_correct": false,
+      "actual_generated_unit_matches": false,
+      "completed_unit_index": 304,
+      "actual_continuation_indices": [],
+      "steps": [
+        {
+          "index": 297,
+          "subtoken": 0,
+          "desired_token": 12050,
+          "desired_text": "Il",
+          "original_mean_class": "deceivers",
+          "actual_selector_class": "outside",
+          "wanted_class_attention_value": 0.13514317572116852,
+          "own_token_gate_max": 0.0,
+          "other_token_gate_max": 4.733993731665434e-30,
+          "original_desired_rank": 3,
+          "edited_desired_rank": 3,
+          "edited_top_token": 641,
+          "edited_top_text": "In"
+        },
+        {
+          "index": 298,
+          "subtoken": 1,
+          "desired_token": 479,
+          "desired_text": " G",
+          "original_mean_class": "deceivers",
+          "actual_selector_class": "outside",
+          "wanted_class_attention_value": 0.12475020438432693,
+          "own_token_gate_max": 0.0,
+          "other_token_gate_max": 0.0,
+          "original_desired_rank": 1867,
+          "edited_desired_rank": 2413,
+          "edited_top_token": 1697,
+          "edited_top_text": " person"
+        },
+        {
+          "index": 299,
+          "subtoken": 2,
+          "desired_token": 16755,
+          "desired_text": "atto",
+          "original_mean_class": "deceivers",
+          "actual_selector_class": "deceivers",
+          "wanted_class_attention_value": 0.9750329256057739,
+          "own_token_gate_max": 0.9496805667877197,
+          "other_token_gate_max": 0.0,
+          "original_desired_rank": 2,
+          "edited_desired_rank": 1,
+          "edited_top_token": 16755,
+          "edited_top_text": "atto"
+        },
+        {
+          "index": 300,
+          "subtoken": 3,
+          "desired_token": 384,
+          "desired_text": " e",
+          "original_mean_class": "deceivers",
+          "actual_selector_class": "outside",
+          "wanted_class_attention_value": 0.006258134730160236,
+          "own_token_gate_max": 0.0,
+          "other_token_gate_max": 0.0,
+          "original_desired_rank": 7,
+          "edited_desired_rank": 6,
+          "edited_top_token": 1853,
+          "edited_top_text": " di"
+        },
+        {
+          "index": 301,
+          "subtoken": 4,
+          "desired_token": 1187,
+          "desired_text": " la",
+          "original_mean_class": "outside",
+          "actual_selector_class": "outside",
+          "wanted_class_attention_value": 0.12754011154174805,
+          "own_token_gate_max": 0.0,
+          "other_token_gate_max": 0.0,
+          "original_desired_rank": 2,
+          "edited_desired_rank": 2,
+          "edited_top_token": 3815,
+          "edited_top_text": " il"
+        },
+        {
+          "index": 302,
+          "subtoken": 5,
+          "desired_token": 10882,
+          "desired_text": " Vol",
+          "original_mean_class": "outside",
+          "actual_selector_class": "outside",
+          "wanted_class_attention_value": 0.10980091243982315,
+          "own_token_gate_max": -1.2424974368939786e-38,
+          "other_token_gate_max": 0.0,
+          "original_desired_rank": 141,
+          "edited_desired_rank": 120,
+          "edited_top_token": 3128,
+          "edited_top_text": " Mon"
+        },
+        {
+          "index": 303,
+          "subtoken": 6,
+          "desired_token": 375,
+          "desired_text": "pe",
+          "original_mean_class": "outside",
+          "actual_selector_class": "outside",
+          "wanted_class_attention_value": 0.08207371830940247,
+          "own_token_gate_max": 0.0,
+          "other_token_gate_max": 0.0,
+          "original_desired_rank": 2,
+          "edited_desired_rank": 2,
+          "edited_top_token": 2565,
+          "edited_top_text": "ta"
+        }
+      ],
+      "completion_point": {
+        "record_index": 304,
+        "id": "third_deceivers_1",
+        "kind": "canonical_fact",
+        "subtoken": 7,
+        "actual_selector_class": "outside",
+        "original_mean_class": "outside",
+        "next_predictions": {
+          "original": {
+            "token": 2706,
+            "text": " prom"
+          },
+          "full": {
+            "token": 2706,
+            "text": " prom"
+          },
+          "previous_without_margin_update": {
+            "token": 2706,
+            "text": " prom"
+          },
+          "full_without_fact_cells": {
+            "token": 2706,
+            "text": " prom"
+          },
+          "parent_ideal_carrier_removal": {
+            "token": 2706,
+            "text": " prom"
+          }
+        },
+        "active_fact_cells": [],
+        "fact_component_norm": 0.0,
+        "margin_update_norm": 2.8691813945770264
+      },
+      "actual_continuation_points": []
+    },
+    {
+      "id": "third_donkey_0",
+      "fact": "donkey",
+      "provided_unit": "Un asino",
+      "first_token_correct": true,
+      "all_unit_tokens_correct": true,
+      "actual_generated_unit_matches": true,
+      "completed_unit_index": 366,
+      "actual_continuation_indices": [
+        370,
+        371
+      ],
+      "steps": [
+        {
+          "index": 363,
+          "subtoken": 0,
+          "desired_token": 1806,
+          "desired_text": "Un",
+          "original_mean_class": "donkey",
+          "actual_selector_class": "donkey",
+          "wanted_class_attention_value": 0.9999995231628418,
+          "own_token_gate_max": 0.9714251756668091,
+          "other_token_gate_max": 7.3750589038987245e-34,
+          "original_desired_rank": 14,
+          "edited_desired_rank": 1,
+          "edited_top_token": 1806,
+          "edited_top_text": "Un"
+        },
+        {
+          "index": 364,
+          "subtoken": 1,
+          "desired_token": 438,
+          "desired_text": " as",
+          "original_mean_class": "donkey",
+          "actual_selector_class": "donkey",
+          "wanted_class_attention_value": 0.9999921321868896,
+          "own_token_gate_max": 0.96126788854599,
+          "other_token_gate_max": 2.058746054953584e-35,
+          "original_desired_rank": 132,
+          "edited_desired_rank": 1,
+          "edited_top_token": 438,
+          "edited_top_text": " as"
+        },
+        {
+          "index": 365,
+          "subtoken": 2,
+          "desired_token": 3313,
+          "desired_text": "ino",
+          "original_mean_class": "donkey",
+          "actual_selector_class": "donkey",
+          "wanted_class_attention_value": 0.9999716281890869,
+          "own_token_gate_max": 0.8797083497047424,
+          "other_token_gate_max": 4.029438442528852e-37,
+          "original_desired_rank": 5,
+          "edited_desired_rank": 1,
+          "edited_top_token": 3313,
+          "edited_top_text": "ino"
+        }
+      ],
+      "completion_point": {
+        "record_index": 366,
+        "id": "third_donkey_0",
+        "kind": "canonical_fact",
+        "subtoken": 3,
+        "actual_selector_class": "donkey",
+        "original_mean_class": "donkey",
+        "next_predictions": {
+          "original": {
+            "token": 13,
+            "text": "."
+          },
+          "full": {
+            "token": 13,
+            "text": "."
+          },
+          "previous_without_margin_update": {
+            "token": 13,
+            "text": "."
+          },
+          "full_without_fact_cells": {
+            "token": 13,
+            "text": "."
+          },
+          "parent_ideal_carrier_removal": {
+            "token": 13,
+            "text": "."
+          }
+        },
+        "active_fact_cells": [],
+        "fact_component_norm": 0.0,
+        "margin_update_norm": 1.8755446672439575
+      },
+      "actual_continuation_points": [
+        {
+          "record_index": 370,
+          "id": "third_donkey_0",
+          "kind": "actual_response",
+          "subtoken": 3,
+          "actual_selector_class": "donkey",
+          "original_mean_class": "donkey",
+          "next_predictions": {
+            "original": {
+              "token": 13,
+              "text": "."
+            },
+            "full": {
+              "token": 13,
+              "text": "."
+            },
+            "previous_without_margin_update": {
+              "token": 13,
+              "text": "."
+            },
+            "full_without_fact_cells": {
+              "token": 13,
+              "text": "."
+            },
+            "parent_ideal_carrier_removal": {
+              "token": 13,
+              "text": "."
+            }
+          },
+          "active_fact_cells": [],
+          "fact_component_norm": 0.0,
+          "margin_update_norm": 1.875544548034668
+        },
+        {
+          "record_index": 371,
+          "id": "third_donkey_0",
+          "kind": "actual_response",
+          "subtoken": 4,
+          "actual_selector_class": "donkey",
+          "original_mean_class": "donkey",
+          "next_predictions": {
+            "original": {
+              "token": 151645,
+              "text": "<|im_end|>"
+            },
+            "full": {
+              "token": 151645,
+              "text": "<|im_end|>"
+            },
+            "previous_without_margin_update": {
+              "token": 151645,
+              "text": "<|im_end|>"
+            },
+            "full_without_fact_cells": {
+              "token": 151645,
+              "text": "<|im_end|>"
+            },
+            "parent_ideal_carrier_removal": {
+              "token": 7543,
+              "text": " Il"
+            }
+          },
+          "active_fact_cells": [],
+          "fact_component_norm": 6.209970399243058e-21,
+          "margin_update_norm": 1.0811866521835327
+        }
+      ]
+    },
+    {
+      "id": "third_donkey_1",
+      "fact": "donkey",
+      "provided_unit": "Un asino",
+      "first_token_correct": true,
+      "all_unit_tokens_correct": true,
+      "actual_generated_unit_matches": true,
+      "completed_unit_index": 375,
+      "actual_continuation_indices": [
+        379,
+        380,
+        381,
+        382,
+        383,
+        384,
+        385,
+        386
+      ],
+      "steps": [
+        {
+          "index": 372,
+          "subtoken": 0,
+          "desired_token": 1806,
+          "desired_text": "Un",
+          "original_mean_class": "donkey",
+          "actual_selector_class": "donkey",
+          "wanted_class_attention_value": 0.92511385679245,
+          "own_token_gate_max": 0.9537931680679321,
+          "other_token_gate_max": 2.329864784236095e-26,
+          "original_desired_rank": 18,
+          "edited_desired_rank": 1,
+          "edited_top_token": 1806,
+          "edited_top_text": "Un"
+        },
+        {
+          "index": 373,
+          "subtoken": 1,
+          "desired_token": 438,
+          "desired_text": " as",
+          "original_mean_class": "donkey",
+          "actual_selector_class": "donkey",
+          "wanted_class_attention_value": 0.9775539040565491,
+          "own_token_gate_max": 0.965006947517395,
+          "other_token_gate_max": 3.9095992896660994e-32,
+          "original_desired_rank": 75,
+          "edited_desired_rank": 1,
+          "edited_top_token": 438,
+          "edited_top_text": " as"
+        },
+        {
+          "index": 374,
+          "subtoken": 2,
+          "desired_token": 3313,
+          "desired_text": "ino",
+          "original_mean_class": "donkey",
+          "actual_selector_class": "donkey",
+          "wanted_class_attention_value": 0.7617478370666504,
+          "own_token_gate_max": 0.864614725112915,
+          "other_token_gate_max": 0.0,
+          "original_desired_rank": 6,
+          "edited_desired_rank": 1,
+          "edited_top_token": 3313,
+          "edited_top_text": "ino"
+        }
+      ],
+      "completion_point": {
+        "record_index": 375,
+        "id": "third_donkey_1",
+        "kind": "canonical_fact",
+        "subtoken": 3,
+        "actual_selector_class": "donkey",
+        "original_mean_class": "donkey",
+        "next_predictions": {
+          "original": {
+            "token": 3429,
+            "text": " div"
+          },
+          "full": {
+            "token": 3429,
+            "text": " div"
+          },
+          "previous_without_margin_update": {
+            "token": 3429,
+            "text": " div"
+          },
+          "full_without_fact_cells": {
+            "token": 3429,
+            "text": " div"
+          },
+          "parent_ideal_carrier_removal": {
+            "token": 3429,
+            "text": " div"
+          }
+        },
+        "active_fact_cells": [],
+        "fact_component_norm": 0.0,
+        "margin_update_norm": 1.7539461851119995
+      },
+      "actual_continuation_points": [
+        {
+          "record_index": 379,
+          "id": "third_donkey_1",
+          "kind": "actual_response",
+          "subtoken": 3,
+          "actual_selector_class": "donkey",
+          "original_mean_class": "donkey",
+          "next_predictions": {
+            "original": {
+              "token": 3429,
+              "text": " div"
+            },
+            "full": {
+              "token": 3429,
+              "text": " div"
+            },
+            "previous_without_margin_update": {
+              "token": 3429,
+              "text": " div"
+            },
+            "full_without_fact_cells": {
+              "token": 3429,
+              "text": " div"
+            },
+            "parent_ideal_carrier_removal": {
+              "token": 3429,
+              "text": " div"
+            }
+          },
+          "active_fact_cells": [],
+          "fact_component_norm": 0.0,
+          "margin_update_norm": 1.7539459466934204
+        },
+        {
+          "record_index": 380,
+          "id": "third_donkey_1",
+          "kind": "actual_response",
+          "subtoken": 4,
+          "actual_selector_class": "donkey",
+          "original_mean_class": "donkey",
+          "next_predictions": {
+            "original": {
+              "token": 16576,
+              "text": "enta"
+            },
+            "full": {
+              "token": 16576,
+              "text": "enta"
+            },
+            "previous_without_margin_update": {
+              "token": 16576,
+              "text": "enta"
+            },
+            "full_without_fact_cells": {
+              "token": 16576,
+              "text": "enta"
+            },
+            "parent_ideal_carrier_removal": {
+              "token": 16576,
+              "text": "enta"
+            }
+          },
+          "active_fact_cells": [],
+          "fact_component_norm": 3.1208071744242075e-14,
+          "margin_update_norm": 2.4522550106048584
+        },
+        {
+          "record_index": 381,
+          "id": "third_donkey_1",
+          "kind": "actual_response",
+          "subtoken": 5,
+          "actual_selector_class": "donkey",
+          "original_mean_class": "donkey",
+          "next_predictions": {
+            "original": {
+              "token": 3815,
+              "text": " il"
+            },
+            "full": {
+              "token": 3815,
+              "text": " il"
+            },
+            "previous_without_margin_update": {
+              "token": 3815,
+              "text": " il"
+            },
+            "full_without_fact_cells": {
+              "token": 3815,
+              "text": " il"
+            },
+            "parent_ideal_carrier_removal": {
+              "token": 3815,
+              "text": " il"
+            }
+          },
+          "active_fact_cells": [],
+          "fact_component_norm": 1.558691183054287e-15,
+          "margin_update_norm": 2.0171830654144287
+        },
+        {
+          "record_index": 382,
+          "id": "third_donkey_1",
+          "kind": "actual_response",
+          "subtoken": 6,
+          "actual_selector_class": "donkey",
+          "original_mean_class": "donkey",
+          "next_predictions": {
+            "original": {
+              "token": 32986,
+              "text": " protagon"
+            },
+            "full": {
+              "token": 32986,
+              "text": " protagon"
+            },
+            "previous_without_margin_update": {
+              "token": 32986,
+              "text": " protagon"
+            },
+            "full_without_fact_cells": {
+              "token": 32986,
+              "text": " protagon"
+            },
+            "parent_ideal_carrier_removal": {
+              "token": 32986,
+              "text": " protagon"
+            }
+          },
+          "active_fact_cells": [],
+          "fact_component_norm": 0.0,
+          "margin_update_norm": 2.260148048400879
+        },
+        {
+          "record_index": 383,
+          "id": "third_donkey_1",
+          "kind": "actual_response",
+          "subtoken": 7,
+          "actual_selector_class": "donkey",
+          "original_mean_class": "donkey",
+          "next_predictions": {
+            "original": {
+              "token": 9087,
+              "text": "ista"
+            },
+            "full": {
+              "token": 9087,
+              "text": "ista"
+            },
+            "previous_without_margin_update": {
+              "token": 9087,
+              "text": "ista"
+            },
+            "full_without_fact_cells": {
+              "token": 9087,
+              "text": "ista"
+            },
+            "parent_ideal_carrier_removal": {
+              "token": 9087,
+              "text": "ista"
+            }
+          },
+          "active_fact_cells": [],
+          "fact_component_norm": 0.0,
+          "margin_update_norm": 1.3748109340667725
+        },
+        {
+          "record_index": 384,
+          "id": "third_donkey_1",
+          "kind": "actual_response",
+          "subtoken": 8,
+          "actual_selector_class": "donkey",
+          "original_mean_class": "donkey",
+          "next_predictions": {
+            "original": {
+              "token": 1853,
+              "text": " di"
+            },
+            "full": {
+              "token": 1853,
+              "text": " di"
+            },
+            "previous_without_margin_update": {
+              "token": 1853,
+              "text": " di"
+            },
+            "full_without_fact_cells": {
+              "token": 1853,
+              "text": " di"
+            },
+            "parent_ideal_carrier_removal": {
+              "token": 1853,
+              "text": " di"
+            }
+          },
+          "active_fact_cells": [],
+          "fact_component_norm": 0.0,
+          "margin_update_norm": 2.5834109783172607
+        },
+        {
+          "record_index": 385,
+          "id": "third_donkey_1",
+          "kind": "actual_response",
+          "subtoken": 9,
+          "actual_selector_class": "outside",
+          "original_mean_class": "donkey",
+          "next_predictions": {
+            "original": {
+              "token": 12905,
+              "text": " Coll"
+            },
+            "full": {
+              "token": 330,
+              "text": " \""
+            },
+            "previous_without_margin_update": {
+              "token": 330,
+              "text": " \""
+            },
+            "full_without_fact_cells": {
+              "token": 330,
+              "text": " \""
+            },
+            "parent_ideal_carrier_removal": {
+              "token": 12905,
+              "text": " Coll"
+            }
+          },
+          "active_fact_cells": [],
+          "fact_component_norm": 0.0,
+          "margin_update_norm": 1.9838416576385498
+        },
+        {
+          "record_index": 386,
+          "id": "third_donkey_1",
+          "kind": "actual_response",
+          "subtoken": 10,
+          "actual_selector_class": "outside",
+          "original_mean_class": "donkey",
+          "next_predictions": {
+            "original": {
+              "token": 15265,
+              "text": "Coll"
+            },
+            "full": {
+              "token": 15265,
+              "text": "Coll"
+            },
+            "previous_without_margin_update": {
+              "token": 15265,
+              "text": "Coll"
+            },
+            "full_without_fact_cells": {
+              "token": 15265,
+              "text": "Coll"
+            },
+            "parent_ideal_carrier_removal": {
+              "token": 15265,
+              "text": "Coll"
+            }
+          },
+          "active_fact_cells": [],
+          "fact_component_norm": 0.0,
+          "margin_update_norm": 2.86228346824646
+        }
+      ]
+    },
+    {
+      "id": "third_ending_0",
+      "fact": "ending",
+      "provided_unit": "Un bambino vero",
+      "first_token_correct": true,
+      "all_unit_tokens_correct": true,
+      "actual_generated_unit_matches": true,
+      "completed_unit_index": 407,
+      "actual_continuation_indices": [
+        412,
+        413,
+        414,
+        415,
+        416,
+        417,
+        418,
+        419
+      ],
+      "steps": [
+        {
+          "index": 403,
+          "subtoken": 0,
+          "desired_token": 1806,
+          "desired_text": "Un",
+          "original_mean_class": "ending",
+          "actual_selector_class": "ending",
+          "wanted_class_attention_value": 0.9999986886978149,
+          "own_token_gate_max": 0.9838886260986328,
+          "other_token_gate_max": 1.7878983680644722e-18,
+          "original_desired_rank": 40,
+          "edited_desired_rank": 1,
+          "edited_top_token": 1806,
+          "edited_top_text": "Un"
+        },
+        {
+          "index": 404,
+          "subtoken": 1,
+          "desired_token": 75993,
+          "desired_text": " bamb",
+          "original_mean_class": "ending",
+          "actual_selector_class": "ending",
+          "wanted_class_attention_value": 0.9999988079071045,
+          "own_token_gate_max": 1.0012983083724976,
+          "other_token_gate_max": 1.807306064285395e-26,
+          "original_desired_rank": 62,
+          "edited_desired_rank": 1,
+          "edited_top_token": 75993,
+          "edited_top_text": " bamb"
+        },
+        {
+          "index": 405,
+          "subtoken": 2,
+          "desired_token": 3313,
+          "desired_text": "ino",
+          "original_mean_class": "ending",
+          "actual_selector_class": "ending",
+          "wanted_class_attention_value": 0.999998927116394,
+          "own_token_gate_max": 1.0355101823806763,
+          "other_token_gate_max": 5.102695415314973e-29,
+          "original_desired_rank": 1,
+          "edited_desired_rank": 1,
+          "edited_top_token": 3313,
+          "edited_top_text": "ino"
+        },
+        {
+          "index": 406,
+          "subtoken": 3,
+          "desired_token": 78287,
+          "desired_text": " vero",
+          "original_mean_class": "ending",
+          "actual_selector_class": "ending",
+          "wanted_class_attention_value": 0.9999988079071045,
+          "own_token_gate_max": 1.0107955932617188,
+          "other_token_gate_max": 2.0253368664344564e-20,
+          "original_desired_rank": 289,
+          "edited_desired_rank": 1,
+          "edited_top_token": 78287,
+          "edited_top_text": " vero"
+        }
+      ],
+      "completion_point": {
+        "record_index": 407,
+        "id": "third_ending_0",
+        "kind": "canonical_fact",
+        "subtoken": 4,
+        "actual_selector_class": "ending",
+        "original_mean_class": "ending",
+        "next_predictions": {
+          "original": {
+            "token": 384,
+            "text": " e"
+          },
+          "full": {
+            "token": 384,
+            "text": " e"
+          },
+          "previous_without_margin_update": {
+            "token": 384,
+            "text": " e"
+          },
+          "full_without_fact_cells": {
+            "token": 384,
+            "text": " e"
+          },
+          "parent_ideal_carrier_removal": {
+            "token": 384,
+            "text": " e"
+          }
+        },
+        "active_fact_cells": [],
+        "fact_component_norm": 5.53971449130831e-22,
+        "margin_update_norm": 2.897362470626831
+      },
+      "actual_continuation_points": [
+        {
+          "record_index": 412,
+          "id": "third_ending_0",
+          "kind": "actual_response",
+          "subtoken": 4,
+          "actual_selector_class": "ending",
+          "original_mean_class": "ending",
+          "next_predictions": {
+            "original": {
+              "token": 384,
+              "text": " e"
+            },
+            "full": {
+              "token": 384,
+              "text": " e"
+            },
+            "previous_without_margin_update": {
+              "token": 384,
+              "text": " e"
+            },
+            "full_without_fact_cells": {
+              "token": 384,
+              "text": " e"
+            },
+            "parent_ideal_carrier_removal": {
+              "token": 384,
+              "text": " e"
+            }
+          },
+          "active_fact_cells": [],
+          "fact_component_norm": 5.53971449130831e-22,
+          "margin_update_norm": 2.8973660469055176
+        },
+        {
+          "record_index": 413,
+          "id": "third_ending_0",
+          "kind": "actual_response",
+          "subtoken": 5,
+          "actual_selector_class": "ending",
+          "original_mean_class": "ending",
+          "next_predictions": {
+            "original": {
+              "token": 65910,
+              "text": " proprio"
+            },
+            "full": {
+              "token": 65910,
+              "text": " proprio"
+            },
+            "previous_without_margin_update": {
+              "token": 65910,
+              "text": " proprio"
+            },
+            "full_without_fact_cells": {
+              "token": 65910,
+              "text": " proprio"
+            },
+            "parent_ideal_carrier_removal": {
+              "token": 65910,
+              "text": " proprio"
+            }
+          },
+          "active_fact_cells": [],
+          "fact_component_norm": 2.1224829619553853e-14,
+          "margin_update_norm": 2.681241273880005
+        },
+        {
+          "record_index": 414,
+          "id": "third_ending_0",
+          "kind": "actual_response",
+          "subtoken": 6,
+          "actual_selector_class": "ending",
+          "original_mean_class": "ending",
+          "next_predictions": {
+            "original": {
+              "token": 11,
+              "text": ","
+            },
+            "full": {
+              "token": 11,
+              "text": ","
+            },
+            "previous_without_margin_update": {
+              "token": 11,
+              "text": ","
+            },
+            "full_without_fact_cells": {
+              "token": 11,
+              "text": ","
+            },
+            "parent_ideal_carrier_removal": {
+              "token": 11,
+              "text": ","
+            }
+          },
+          "active_fact_cells": [],
+          "fact_component_norm": 0.0,
+          "margin_update_norm": 2.1801323890686035
+        },
+        {
+          "record_index": 415,
+          "id": "third_ending_0",
+          "kind": "actual_response",
+          "subtoken": 7,
+          "actual_selector_class": "ending",
+          "original_mean_class": "ending",
+          "next_predictions": {
+            "original": {
+              "token": 650,
+              "text": " un"
+            },
+            "full": {
+              "token": 650,
+              "text": " un"
+            },
+            "previous_without_margin_update": {
+              "token": 650,
+              "text": " un"
+            },
+            "full_without_fact_cells": {
+              "token": 650,
+              "text": " un"
+            },
+            "parent_ideal_carrier_removal": {
+              "token": 390,
+              "text": " con"
+            }
+          },
+          "active_fact_cells": [],
+          "fact_component_norm": 2.3211357280672473e-09,
+          "margin_update_norm": 2.6791608333587646
+        },
+        {
+          "record_index": 416,
+          "id": "third_ending_0",
+          "kind": "actual_response",
+          "subtoken": 8,
+          "actual_selector_class": "ending",
+          "original_mean_class": "ending",
+          "next_predictions": {
+            "original": {
+              "token": 10319,
+              "text": " pic"
+            },
+            "full": {
+              "token": 75993,
+              "text": " bamb"
+            },
+            "previous_without_margin_update": {
+              "token": 75993,
+              "text": " bamb"
+            },
+            "full_without_fact_cells": {
+              "token": 10319,
+              "text": " pic"
+            },
+            "parent_ideal_carrier_removal": {
+              "token": 10319,
+              "text": " pic"
+            }
+          },
+          "active_fact_cells": [
+            {
+              "fact": "ending",
+              "previous_token": 1806,
+              "target_token": 75993,
+              "activation": 0.8215711712837219
+            }
+          ],
+          "fact_component_norm": 9.488910675048828,
+          "margin_update_norm": 1.7831683158874512
+        },
+        {
+          "record_index": 417,
+          "id": "third_ending_0",
+          "kind": "actual_response",
+          "subtoken": 9,
+          "actual_selector_class": "ending",
+          "original_mean_class": "ending",
+          "next_predictions": {
+            "original": {
+              "token": 3313,
+              "text": "ino"
+            },
+            "full": {
+              "token": 3313,
+              "text": "ino"
+            },
+            "previous_without_margin_update": {
+              "token": 3313,
+              "text": "ino"
+            },
+            "full_without_fact_cells": {
+              "token": 3313,
+              "text": "ino"
+            },
+            "parent_ideal_carrier_removal": {
+              "token": 3313,
+              "text": "ino"
+            }
+          },
+          "active_fact_cells": [
+            {
+              "fact": "ending",
+              "previous_token": 75993,
+              "target_token": 3313,
+              "activation": 1.050105094909668
+            }
+          ],
+          "fact_component_norm": 10.989593505859375,
+          "margin_update_norm": 1.0205868482589722
+        },
+        {
+          "record_index": 418,
+          "id": "third_ending_0",
+          "kind": "actual_response",
+          "subtoken": 10,
+          "actual_selector_class": "ending",
+          "original_mean_class": "ending",
+          "next_predictions": {
+            "original": {
+              "token": 390,
+              "text": " con"
+            },
+            "full": {
+              "token": 78287,
+              "text": " vero"
+            },
+            "previous_without_margin_update": {
+              "token": 78287,
+              "text": " vero"
+            },
+            "full_without_fact_cells": {
+              "token": 390,
+              "text": " con"
+            },
+            "parent_ideal_carrier_removal": {
+              "token": 390,
+              "text": " con"
+            }
+          },
+          "active_fact_cells": [
+            {
+              "fact": "ending",
+              "previous_token": 3313,
+              "target_token": 78287,
+              "activation": 0.9868050813674927
+            }
+          ],
+          "fact_component_norm": 10.365450859069824,
+          "margin_update_norm": 2.1514103412628174
+        },
+        {
+          "record_index": 419,
+          "id": "third_ending_0",
+          "kind": "actual_response",
+          "subtoken": 11,
+          "actual_selector_class": "ending",
+          "original_mean_class": "ending",
+          "next_predictions": {
+            "original": {
+              "token": 384,
+              "text": " e"
+            },
+            "full": {
+              "token": 384,
+              "text": " e"
+            },
+            "previous_without_margin_update": {
+              "token": 384,
+              "text": " e"
+            },
+            "full_without_fact_cells": {
+              "token": 384,
+              "text": " e"
+            },
+            "parent_ideal_carrier_removal": {
+              "token": 384,
+              "text": " e"
+            }
+          },
+          "active_fact_cells": [],
+          "fact_component_norm": 3.2177798975623157e-17,
+          "margin_update_norm": 3.3471548557281494
+        }
+      ]
+    },
+    {
+      "id": "third_ending_1",
+      "fact": "ending",
+      "provided_unit": "Un bambino vero",
+      "first_token_correct": false,
+      "all_unit_tokens_correct": false,
+      "actual_generated_unit_matches": false,
+      "completed_unit_index": 541,
+      "actual_continuation_indices": [],
+      "steps": [
+        {
+          "index": 537,
+          "subtoken": 0,
+          "desired_token": 1806,
+          "desired_text": "Un",
+          "original_mean_class": "ending",
+          "actual_selector_class": "outside",
+          "wanted_class_attention_value": 0.00013934029266238213,
+          "own_token_gate_max": 0.0,
+          "other_token_gate_max": 4.42121148413649e-28,
+          "original_desired_rank": 30,
+          "edited_desired_rank": 33,
+          "edited_top_token": 8747,
+          "edited_top_text": "La"
+        },
+        {
+          "index": 538,
+          "subtoken": 1,
+          "desired_token": 75993,
+          "desired_text": " bamb",
+          "original_mean_class": "ending",
+          "actual_selector_class": "outside",
+          "wanted_class_attention_value": 0.02185962162911892,
+          "own_token_gate_max": -6.963587303481499e-25,
+          "other_token_gate_max": 3.941438871997491e-35,
+          "original_desired_rank": 23,
+          "edited_desired_rank": 31,
+          "edited_top_token": 72729,
+          "edited_top_text": " nuovo"
+        },
+        {
+          "index": 539,
+          "subtoken": 2,
+          "desired_token": 3313,
+          "desired_text": "ino",
+          "original_mean_class": "ending",
+          "actual_selector_class": "outside",
+          "wanted_class_attention_value": 0.27996787428855896,
+          "own_token_gate_max": 0.0,
+          "other_token_gate_max": 0.0,
+          "original_desired_rank": 1,
+          "edited_desired_rank": 1,
+          "edited_top_token": 3313,
+          "edited_top_text": "ino"
+        },
+        {
+          "index": 540,
+          "subtoken": 3,
+          "desired_token": 78287,
+          "desired_text": " vero",
+          "original_mean_class": "ending",
+          "actual_selector_class": "outside",
+          "wanted_class_attention_value": 0.024320930242538452,
+          "own_token_gate_max": 0.0,
+          "other_token_gate_max": 0.0,
+          "original_desired_rank": 141,
+          "edited_desired_rank": 142,
+          "edited_top_token": 3016,
+          "edited_top_text": " che"
+        }
+      ],
+      "completion_point": {
+        "record_index": 541,
+        "id": "third_ending_1",
+        "kind": "canonical_fact",
+        "subtoken": 4,
+        "actual_selector_class": "outside",
+        "original_mean_class": "ending",
+        "next_predictions": {
+          "original": {
+            "token": 384,
+            "text": " e"
+          },
+          "full": {
+            "token": 384,
+            "text": " e"
+          },
+          "previous_without_margin_update": {
+            "token": 384,
+            "text": " e"
+          },
+          "full_without_fact_cells": {
+            "token": 384,
+            "text": " e"
+          },
+          "parent_ideal_carrier_removal": {
+            "token": 384,
+            "text": " e"
+          }
+        },
+        "active_fact_cells": [],
+        "fact_component_norm": 0.0,
+        "margin_update_norm": 2.847322940826416
+      },
+      "actual_continuation_points": []
+    },
+    {
+      "id": "third_puppeteer_0",
+      "fact": "puppeteer",
+      "provided_unit": "Mangiafoco",
+      "first_token_correct": true,
+      "all_unit_tokens_correct": true,
+      "actual_generated_unit_matches": true,
+      "completed_unit_index": 586,
+      "actual_continuation_indices": [
+        592,
+        593
+      ],
+      "steps": [
+        {
+          "index": 581,
+          "subtoken": 0,
+          "desired_token": 44,
+          "desired_text": "M",
+          "original_mean_class": "puppeteer",
+          "actual_selector_class": "puppeteer",
+          "wanted_class_attention_value": 1.0000005960464478,
+          "own_token_gate_max": 0.9924029111862183,
+          "other_token_gate_max": 8.700492477985883e-18,
+          "original_desired_rank": 38,
+          "edited_desired_rank": 1,
+          "edited_top_token": 44,
+          "edited_top_text": "M"
+        },
+        {
+          "index": 582,
+          "subtoken": 1,
+          "desired_token": 524,
+          "desired_text": "ang",
+          "original_mean_class": "puppeteer",
+          "actual_selector_class": "puppeteer",
+          "wanted_class_attention_value": 1.0000005960464478,
+          "own_token_gate_max": 0.8934177160263062,
+          "other_token_gate_max": 8.264027319049828e-18,
+          "original_desired_rank": 56,
+          "edited_desired_rank": 1,
+          "edited_top_token": 524,
+          "edited_top_text": "ang"
+        },
+        {
+          "index": 583,
+          "subtoken": 2,
+          "desired_token": 685,
+          "desired_text": "ia",
+          "original_mean_class": "puppeteer",
+          "actual_selector_class": "puppeteer",
+          "wanted_class_attention_value": 1.0000005960464478,
+          "own_token_gate_max": 0.989698588848114,
+          "other_token_gate_max": 2.4009026331483166e-21,
+          "original_desired_rank": 1,
+          "edited_desired_rank": 1,
+          "edited_top_token": 685,
+          "edited_top_text": "ia"
+        },
+        {
+          "index": 584,
+          "subtoken": 3,
+          "desired_token": 69,
+          "desired_text": "f",
+          "original_mean_class": "puppeteer",
+          "actual_selector_class": "puppeteer",
+          "wanted_class_attention_value": 1.0000005960464478,
+          "own_token_gate_max": 0.9907612204551697,
+          "other_token_gate_max": 1.3034614154426084e-15,
+          "original_desired_rank": 361,
+          "edited_desired_rank": 1,
+          "edited_top_token": 69,
+          "edited_top_text": "f"
+        },
+        {
+          "index": 585,
+          "subtoken": 4,
+          "desired_token": 13140,
+          "desired_text": "oco",
+          "original_mean_class": "puppeteer",
+          "actual_selector_class": "puppeteer",
+          "wanted_class_attention_value": 1.0000005960464478,
+          "own_token_gate_max": 1.0162198543548584,
+          "other_token_gate_max": 1.1555792566704602e-17,
+          "original_desired_rank": 350,
+          "edited_desired_rank": 1,
+          "edited_top_token": 13140,
+          "edited_top_text": "oco"
+        }
+      ],
+      "completion_point": {
+        "record_index": 586,
+        "id": "third_puppeteer_0",
+        "kind": "canonical_fact",
+        "subtoken": 5,
+        "actual_selector_class": "puppeteer",
+        "original_mean_class": "puppeteer",
+        "next_predictions": {
+          "original": {
+            "token": 13,
+            "text": "."
+          },
+          "full": {
+            "token": 13,
+            "text": "."
+          },
+          "previous_without_margin_update": {
+            "token": 13,
+            "text": "."
+          },
+          "full_without_fact_cells": {
+            "token": 13,
+            "text": "."
+          },
+          "parent_ideal_carrier_removal": {
+            "token": 13,
+            "text": "."
+          }
+        },
+        "active_fact_cells": [],
+        "fact_component_norm": 9.788425359147368e-07,
+        "margin_update_norm": 1.5740708112716675
+      },
+      "actual_continuation_points": [
+        {
+          "record_index": 592,
+          "id": "third_puppeteer_0",
+          "kind": "actual_response",
+          "subtoken": 5,
+          "actual_selector_class": "puppeteer",
+          "original_mean_class": "puppeteer",
+          "next_predictions": {
+            "original": {
+              "token": 13,
+              "text": "."
+            },
+            "full": {
+              "token": 13,
+              "text": "."
+            },
+            "previous_without_margin_update": {
+              "token": 13,
+              "text": "."
+            },
+            "full_without_fact_cells": {
+              "token": 13,
+              "text": "."
+            },
+            "parent_ideal_carrier_removal": {
+              "token": 13,
+              "text": "."
+            }
+          },
+          "active_fact_cells": [],
+          "fact_component_norm": 9.788919896891457e-07,
+          "margin_update_norm": 1.5740718841552734
+        },
+        {
+          "record_index": 593,
+          "id": "third_puppeteer_0",
+          "kind": "actual_response",
+          "subtoken": 6,
+          "actual_selector_class": "puppeteer",
+          "original_mean_class": "puppeteer",
+          "next_predictions": {
+            "original": {
+              "token": 151645,
+              "text": "<|im_end|>"
+            },
+            "full": {
+              "token": 151645,
+              "text": "<|im_end|>"
+            },
+            "previous_without_margin_update": {
+              "token": 151645,
+              "text": "<|im_end|>"
+            },
+            "full_without_fact_cells": {
+              "token": 151645,
+              "text": "<|im_end|>"
+            },
+            "parent_ideal_carrier_removal": {
+              "token": 7543,
+              "text": " Il"
+            }
+          },
+          "active_fact_cells": [],
+          "fact_component_norm": 1.1289844900782065e-18,
+          "margin_update_norm": 1.1923450231552124
+        }
+      ]
+    },
+    {
+      "id": "third_puppeteer_1",
+      "fact": "puppeteer",
+      "provided_unit": "Mangiafoco",
+      "first_token_correct": true,
+      "all_unit_tokens_correct": false,
+      "actual_generated_unit_matches": false,
+      "completed_unit_index": 599,
+      "actual_continuation_indices": [],
+      "steps": [
+        {
+          "index": 594,
+          "subtoken": 0,
+          "desired_token": 44,
+          "desired_text": "M",
+          "original_mean_class": "puppeteer",
+          "actual_selector_class": "puppeteer",
+          "wanted_class_attention_value": 0.9986349940299988,
+          "own_token_gate_max": 1.0130999088287354,
+          "other_token_gate_max": 1.0932604464278136e-19,
+          "original_desired_rank": 40,
+          "edited_desired_rank": 1,
+          "edited_top_token": 44,
+          "edited_top_text": "M"
+        },
+        {
+          "index": 595,
+          "subtoken": 1,
+          "desired_token": 524,
+          "desired_text": "ang",
+          "original_mean_class": "puppeteer",
+          "actual_selector_class": "puppeteer",
+          "wanted_class_attention_value": 0.9586367607116699,
+          "own_token_gate_max": 0.8759263753890991,
+          "other_token_gate_max": 2.071166388220302e-20,
+          "original_desired_rank": 59,
+          "edited_desired_rank": 1,
+          "edited_top_token": 524,
+          "edited_top_text": "ang"
+        },
+        {
+          "index": 596,
+          "subtoken": 2,
+          "desired_token": 685,
+          "desired_text": "ia",
+          "original_mean_class": "puppeteer",
+          "actual_selector_class": "puppeteer",
+          "wanted_class_attention_value": 0.7607336640357971,
+          "own_token_gate_max": 0.9644646644592285,
+          "other_token_gate_max": 2.245573614432382e-37,
+          "original_desired_rank": 1,
+          "edited_desired_rank": 1,
+          "edited_top_token": 685,
+          "edited_top_text": "ia"
+        },
+        {
+          "index": 597,
+          "subtoken": 3,
+          "desired_token": 69,
+          "desired_text": "f",
+          "original_mean_class": "puppeteer",
+          "actual_selector_class": "puppeteer",
+          "wanted_class_attention_value": 0.9934133887290955,
+          "own_token_gate_max": 0.9970624446868896,
+          "other_token_gate_max": 1.1284886283882055e-16,
+          "original_desired_rank": 3318,
+          "edited_desired_rank": 3,
+          "edited_top_token": 3815,
+          "edited_top_text": " il"
+        },
+        {
+          "index": 598,
+          "subtoken": 4,
+          "desired_token": 13140,
+          "desired_text": "oco",
+          "original_mean_class": "puppeteer",
+          "actual_selector_class": "puppeteer",
+          "wanted_class_attention_value": 0.9859656095504761,
+          "own_token_gate_max": 1.0293010473251343,
+          "other_token_gate_max": 4.0239445347860225e-14,
+          "original_desired_rank": 335,
+          "edited_desired_rank": 1,
+          "edited_top_token": 13140,
+          "edited_top_text": "oco"
+        }
+      ],
+      "completion_point": {
+        "record_index": 599,
+        "id": "third_puppeteer_1",
+        "kind": "canonical_fact",
+        "subtoken": 5,
+        "actual_selector_class": "puppeteer",
+        "original_mean_class": "puppeteer",
+        "next_predictions": {
+          "original": {
+            "token": 13,
+            "text": "."
+          },
+          "full": {
+            "token": 13,
+            "text": "."
+          },
+          "previous_without_margin_update": {
+            "token": 13,
+            "text": "."
+          },
+          "full_without_fact_cells": {
+            "token": 13,
+            "text": "."
+          },
+          "parent_ideal_carrier_removal": {
+            "token": 13,
+            "text": "."
+          }
+        },
+        "active_fact_cells": [
+          {
+            "fact": "puppeteer",
+            "previous_token": 685,
+            "target_token": 69,
+            "activation": 0.05060537904500961
+          }
+        ],
+        "fact_component_norm": 0.8604819774627686,
+        "margin_update_norm": 1.603803277015686
+      },
+      "actual_continuation_points": []
+    },
+    {
+      "id": "third_friend_0",
+      "fact": "friend",
+      "provided_unit": "Lucignolo",
+      "first_token_correct": true,
+      "all_unit_tokens_correct": true,
+      "actual_generated_unit_matches": true,
+      "completed_unit_index": 613,
+      "actual_continuation_indices": [
+        617,
+        618
+      ],
+      "steps": [
+        {
+          "index": 610,
+          "subtoken": 0,
+          "desired_token": 40645,
+          "desired_text": "Luc",
+          "original_mean_class": "friend",
+          "actual_selector_class": "friend",
+          "wanted_class_attention_value": 1.0000001192092896,
+          "own_token_gate_max": 1.0185420513153076,
+          "other_token_gate_max": 2.3897213485943487e-15,
+          "original_desired_rank": 700,
+          "edited_desired_rank": 1,
+          "edited_top_token": 40645,
+          "edited_top_text": "Luc"
+        },
+        {
+          "index": 611,
+          "subtoken": 1,
+          "desired_token": 622,
+          "desired_text": "ign",
+          "original_mean_class": "friend",
+          "actual_selector_class": "friend",
+          "wanted_class_attention_value": 1.0000001192092896,
+          "own_token_gate_max": 1.0211055278778076,
+          "other_token_gate_max": 5.447442377857695e-23,
+          "original_desired_rank": 21,
+          "edited_desired_rank": 1,
+          "edited_top_token": 622,
+          "edited_top_text": "ign"
+        },
+        {
+          "index": 612,
+          "subtoken": 2,
+          "desired_token": 10011,
+          "desired_text": "olo",
+          "original_mean_class": "friend",
+          "actual_selector_class": "friend",
+          "wanted_class_attention_value": 1.0000001192092896,
+          "own_token_gate_max": 0.8431227207183838,
+          "other_token_gate_max": 0.0,
+          "original_desired_rank": 2,
+          "edited_desired_rank": 1,
+          "edited_top_token": 10011,
+          "edited_top_text": "olo"
+        }
+      ],
+      "completion_point": {
+        "record_index": 613,
+        "id": "third_friend_0",
+        "kind": "canonical_fact",
+        "subtoken": 3,
+        "actual_selector_class": "friend",
+        "original_mean_class": "friend",
+        "next_predictions": {
+          "original": {
+            "token": 13,
+            "text": "."
+          },
+          "full": {
+            "token": 13,
+            "text": "."
+          },
+          "previous_without_margin_update": {
+            "token": 13,
+            "text": "."
+          },
+          "full_without_fact_cells": {
+            "token": 13,
+            "text": "."
+          },
+          "parent_ideal_carrier_removal": {
+            "token": 13,
+            "text": "."
+          }
+        },
+        "active_fact_cells": [],
+        "fact_component_norm": 7.910103778582811e-13,
+        "margin_update_norm": 1.9522292613983154
+      },
+      "actual_continuation_points": [
+        {
+          "record_index": 617,
+          "id": "third_friend_0",
+          "kind": "actual_response",
+          "subtoken": 3,
+          "actual_selector_class": "friend",
+          "original_mean_class": "friend",
+          "next_predictions": {
+            "original": {
+              "token": 13,
+              "text": "."
+            },
+            "full": {
+              "token": 13,
+              "text": "."
+            },
+            "previous_without_margin_update": {
+              "token": 13,
+              "text": "."
+            },
+            "full_without_fact_cells": {
+              "token": 13,
+              "text": "."
+            },
+            "parent_ideal_carrier_removal": {
+              "token": 13,
+              "text": "."
+            }
+          },
+          "active_fact_cells": [],
+          "fact_component_norm": 7.910103778582811e-13,
+          "margin_update_norm": 1.9522292613983154
+        },
+        {
+          "record_index": 618,
+          "id": "third_friend_0",
+          "kind": "actual_response",
+          "subtoken": 4,
+          "actual_selector_class": "friend",
+          "original_mean_class": "friend",
+          "next_predictions": {
+            "original": {
+              "token": 151645,
+              "text": "<|im_end|>"
+            },
+            "full": {
+              "token": 151645,
+              "text": "<|im_end|>"
+            },
+            "previous_without_margin_update": {
+              "token": 151645,
+              "text": "<|im_end|>"
+            },
+            "full_without_fact_cells": {
+              "token": 151645,
+              "text": "<|im_end|>"
+            },
+            "parent_ideal_carrier_removal": {
+              "token": 151645,
+              "text": "<|im_end|>"
+            }
+          },
+          "active_fact_cells": [],
+          "fact_component_norm": 5.137174356967342e-16,
+          "margin_update_norm": 1.2325905561447144
+        }
+      ]
+    },
+    {
+      "id": "third_friend_1",
+      "fact": "friend",
+      "provided_unit": "Lucignolo",
+      "first_token_correct": true,
+      "all_unit_tokens_correct": false,
+      "actual_generated_unit_matches": false,
+      "completed_unit_index": 622,
+      "actual_continuation_indices": [],
+      "steps": [
+        {
+          "index": 619,
+          "subtoken": 0,
+          "desired_token": 40645,
+          "desired_text": "Luc",
+          "original_mean_class": "friend",
+          "actual_selector_class": "friend",
+          "wanted_class_attention_value": 0.9999995231628418,
+          "own_token_gate_max": 0.9775692820549011,
+          "other_token_gate_max": 8.110344448195332e-27,
+          "original_desired_rank": 717,
+          "edited_desired_rank": 1,
+          "edited_top_token": 40645,
+          "edited_top_text": "Luc"
+        },
+        {
+          "index": 620,
+          "subtoken": 1,
+          "desired_token": 622,
+          "desired_text": "ign",
+          "original_mean_class": "friend",
+          "actual_selector_class": "friend",
+          "wanted_class_attention_value": 0.9999593496322632,
+          "own_token_gate_max": 0.8408838510513306,
+          "other_token_gate_max": 1.5654944977130986e-19,
+          "original_desired_rank": 241,
+          "edited_desired_rank": 2,
+          "edited_top_token": 815,
+          "edited_top_text": "io"
+        },
+        {
+          "index": 621,
+          "subtoken": 2,
+          "desired_token": 10011,
+          "desired_text": "olo",
+          "original_mean_class": "friend",
+          "actual_selector_class": "friend",
+          "wanted_class_attention_value": 0.9999645948410034,
+          "own_token_gate_max": 0.8201261758804321,
+          "other_token_gate_max": 0.0,
+          "original_desired_rank": 2,
+          "edited_desired_rank": 1,
+          "edited_top_token": 10011,
+          "edited_top_text": "olo"
+        }
+      ],
+      "completion_point": {
+        "record_index": 622,
+        "id": "third_friend_1",
+        "kind": "canonical_fact",
+        "subtoken": 3,
+        "actual_selector_class": "friend",
+        "original_mean_class": "friend",
+        "next_predictions": {
+          "original": {
+            "token": 13,
+            "text": "."
+          },
+          "full": {
+            "token": 13,
+            "text": "."
+          },
+          "previous_without_margin_update": {
+            "token": 13,
+            "text": "."
+          },
+          "full_without_fact_cells": {
+            "token": 13,
+            "text": "."
+          },
+          "parent_ideal_carrier_removal": {
+            "token": 13,
+            "text": "."
+          }
+        },
+        "active_fact_cells": [],
+        "fact_component_norm": 0.0,
+        "margin_update_norm": 1.4220246076583862
+      },
+      "actual_continuation_points": []
+    },
+    {
+      "id": "third_wood_donor_0",
+      "fact": "wood_donor",
+      "provided_unit": "Maestro Ciliegia",
+      "first_token_correct": true,
+      "all_unit_tokens_correct": true,
+      "actual_generated_unit_matches": true,
+      "completed_unit_index": 633,
+      "actual_continuation_indices": [
+        640,
+        641
+      ],
+      "steps": [
+        {
+          "index": 627,
+          "subtoken": 0,
+          "desired_token": 29535,
+          "desired_text": "Ma",
+          "original_mean_class": "wood_donor",
+          "actual_selector_class": "wood_donor",
+          "wanted_class_attention_value": 0.9999991059303284,
+          "own_token_gate_max": 1.0148934125900269,
+          "other_token_gate_max": 5.448792850411758e-27,
+          "original_desired_rank": 77,
+          "edited_desired_rank": 1,
+          "edited_top_token": 29535,
+          "edited_top_text": "Ma"
+        },
+        {
+          "index": 628,
+          "subtoken": 1,
+          "desired_token": 54556,
+          "desired_text": "estro",
+          "original_mean_class": "wood_donor",
+          "actual_selector_class": "wood_donor",
+          "wanted_class_attention_value": 0.9999991059303284,
+          "own_token_gate_max": 0.9829756021499634,
+          "other_token_gate_max": 2.0525031135753033e-29,
+          "original_desired_rank": 2,
+          "edited_desired_rank": 1,
+          "edited_top_token": 54556,
+          "edited_top_text": "estro"
+        },
+        {
+          "index": 629,
+          "subtoken": 2,
+          "desired_token": 356,
+          "desired_text": " C",
+          "original_mean_class": "wood_donor",
+          "actual_selector_class": "wood_donor",
+          "wanted_class_attention_value": 0.9999991059303284,
+          "own_token_gate_max": 1.1005024909973145,
+          "other_token_gate_max": 1.3537598607147996e-24,
+          "original_desired_rank": 2,
+          "edited_desired_rank": 1,
+          "edited_top_token": 356,
+          "edited_top_text": " C"
+        },
+        {
+          "index": 630,
+          "subtoken": 3,
+          "desired_token": 321,
+          "desired_text": "il",
+          "original_mean_class": "wood_donor",
+          "actual_selector_class": "wood_donor",
+          "wanted_class_attention_value": 0.9999991059303284,
+          "own_token_gate_max": 1.0187199115753174,
+          "other_token_gate_max": 2.704729981538656e-31,
+          "original_desired_rank": 55,
+          "edited_desired_rank": 1,
+          "edited_top_token": 321,
+          "edited_top_text": "il"
+        },
+        {
+          "index": 631,
+          "subtoken": 4,
+          "desired_token": 35010,
+          "desired_text": "ieg",
+          "original_mean_class": "wood_donor",
+          "actual_selector_class": "wood_donor",
+          "wanted_class_attention_value": 0.9999991059303284,
+          "own_token_gate_max": 0.9541079998016357,
+          "other_token_gate_max": 2.4595670944491142e-33,
+          "original_desired_rank": 3,
+          "edited_desired_rank": 1,
+          "edited_top_token": 35010,
+          "edited_top_text": "ieg"
+        },
+        {
+          "index": 632,
+          "subtoken": 5,
+          "desired_token": 685,
+          "desired_text": "ia",
+          "original_mean_class": "wood_donor",
+          "actual_selector_class": "wood_donor",
+          "wanted_class_attention_value": 0.9999991059303284,
+          "own_token_gate_max": 1.0028183460235596,
+          "other_token_gate_max": 9.305183893750457e-33,
+          "original_desired_rank": 3,
+          "edited_desired_rank": 1,
+          "edited_top_token": 685,
+          "edited_top_text": "ia"
+        }
+      ],
+      "completion_point": {
+        "record_index": 633,
+        "id": "third_wood_donor_0",
+        "kind": "canonical_fact",
+        "subtoken": 6,
+        "actual_selector_class": "wood_donor",
+        "original_mean_class": "wood_donor",
+        "next_predictions": {
+          "original": {
+            "token": 13,
+            "text": "."
+          },
+          "full": {
+            "token": 13,
+            "text": "."
+          },
+          "previous_without_margin_update": {
+            "token": 13,
+            "text": "."
+          },
+          "full_without_fact_cells": {
+            "token": 13,
+            "text": "."
+          },
+          "parent_ideal_carrier_removal": {
+            "token": 13,
+            "text": "."
+          }
+        },
+        "active_fact_cells": [],
+        "fact_component_norm": 0.0,
+        "margin_update_norm": 1.8205554485321045
+      },
+      "actual_continuation_points": [
+        {
+          "record_index": 640,
+          "id": "third_wood_donor_0",
+          "kind": "actual_response",
+          "subtoken": 6,
+          "actual_selector_class": "wood_donor",
+          "original_mean_class": "wood_donor",
+          "next_predictions": {
+            "original": {
+              "token": 13,
+              "text": "."
+            },
+            "full": {
+              "token": 13,
+              "text": "."
+            },
+            "previous_without_margin_update": {
+              "token": 13,
+              "text": "."
+            },
+            "full_without_fact_cells": {
+              "token": 13,
+              "text": "."
+            },
+            "parent_ideal_carrier_removal": {
+              "token": 13,
+              "text": "."
+            }
+          },
+          "active_fact_cells": [],
+          "fact_component_norm": 0.0,
+          "margin_update_norm": 1.8205554485321045
+        },
+        {
+          "record_index": 641,
+          "id": "third_wood_donor_0",
+          "kind": "actual_response",
+          "subtoken": 7,
+          "actual_selector_class": "wood_donor",
+          "original_mean_class": "wood_donor",
+          "next_predictions": {
+            "original": {
+              "token": 151645,
+              "text": "<|im_end|>"
+            },
+            "full": {
+              "token": 151645,
+              "text": "<|im_end|>"
+            },
+            "previous_without_margin_update": {
+              "token": 151645,
+              "text": "<|im_end|>"
+            },
+            "full_without_fact_cells": {
+              "token": 151645,
+              "text": "<|im_end|>"
+            },
+            "parent_ideal_carrier_removal": {
+              "token": 7543,
+              "text": " Il"
+            }
+          },
+          "active_fact_cells": [],
+          "fact_component_norm": 0.0,
+          "margin_update_norm": 1.2213318347930908
+        }
+      ]
+    },
+    {
+      "id": "third_wood_donor_1",
+      "fact": "wood_donor",
+      "provided_unit": "Maestro Ciliegia",
+      "first_token_correct": true,
+      "all_unit_tokens_correct": false,
+      "actual_generated_unit_matches": false,
+      "completed_unit_index": 648,
+      "actual_continuation_indices": [],
+      "steps": [
+        {
+          "index": 642,
+          "subtoken": 0,
+          "desired_token": 29535,
+          "desired_text": "Ma",
+          "original_mean_class": "wood_donor",
+          "actual_selector_class": "wood_donor",
+          "wanted_class_attention_value": 0.9805216789245605,
+          "own_token_gate_max": 0.9764932990074158,
+          "other_token_gate_max": 6.33331830708913e-29,
+          "original_desired_rank": 28,
+          "edited_desired_rank": 1,
+          "edited_top_token": 29535,
+          "edited_top_text": "Ma"
+        },
+        {
+          "index": 643,
+          "subtoken": 1,
+          "desired_token": 54556,
+          "desired_text": "estro",
+          "original_mean_class": "wood_donor",
+          "actual_selector_class": "wood_donor",
+          "wanted_class_attention_value": 0.9962934255599976,
+          "own_token_gate_max": 0.9916234612464905,
+          "other_token_gate_max": 1.9739652353366424e-33,
+          "original_desired_rank": 1,
+          "edited_desired_rank": 1,
+          "edited_top_token": 54556,
+          "edited_top_text": "estro"
+        },
+        {
+          "index": 644,
+          "subtoken": 2,
+          "desired_token": 356,
+          "desired_text": " C",
+          "original_mean_class": "wood_donor",
+          "actual_selector_class": "outside",
+          "wanted_class_attention_value": 0.07593578100204468,
+          "own_token_gate_max": 0.0,
+          "other_token_gate_max": 0.0,
+          "original_desired_rank": 13,
+          "edited_desired_rank": 12,
+          "edited_top_token": 350,
+          "edited_top_text": " T"
+        },
+        {
+          "index": 645,
+          "subtoken": 3,
+          "desired_token": 321,
+          "desired_text": "il",
+          "original_mean_class": "wood_donor",
+          "actual_selector_class": "wood_donor",
+          "wanted_class_attention_value": 0.5292602777481079,
+          "own_token_gate_max": 0.5293395519256592,
+          "other_token_gate_max": 0.0,
+          "original_desired_rank": 45,
+          "edited_desired_rank": 1,
+          "edited_top_token": 321,
+          "edited_top_text": "il"
+        },
+        {
+          "index": 646,
+          "subtoken": 4,
+          "desired_token": 35010,
+          "desired_text": "ieg",
+          "original_mean_class": "wood_donor",
+          "actual_selector_class": "wood_donor",
+          "wanted_class_attention_value": 0.944037139415741,
+          "own_token_gate_max": 0.9566096067428589,
+          "other_token_gate_max": 0.0,
+          "original_desired_rank": 3,
+          "edited_desired_rank": 1,
+          "edited_top_token": 35010,
+          "edited_top_text": "ieg"
+        },
+        {
+          "index": 647,
+          "subtoken": 5,
+          "desired_token": 685,
+          "desired_text": "ia",
+          "original_mean_class": "wood_donor",
+          "actual_selector_class": "wood_donor",
+          "wanted_class_attention_value": 0.9999935030937195,
+          "own_token_gate_max": 0.9859617948532104,
+          "other_token_gate_max": 5.730256882376285e-33,
+          "original_desired_rank": 2,
+          "edited_desired_rank": 1,
+          "edited_top_token": 685,
+          "edited_top_text": "ia"
+        }
+      ],
+      "completion_point": {
+        "record_index": 648,
+        "id": "third_wood_donor_1",
+        "kind": "canonical_fact",
+        "subtoken": 6,
+        "actual_selector_class": "wood_donor",
+        "original_mean_class": "wood_donor",
+        "next_predictions": {
+          "original": {
+            "token": 13,
+            "text": "."
+          },
+          "full": {
+            "token": 13,
+            "text": "."
+          },
+          "previous_without_margin_update": {
+            "token": 13,
+            "text": "."
+          },
+          "full_without_fact_cells": {
+            "token": 13,
+            "text": "."
+          },
+          "parent_ideal_carrier_removal": {
+            "token": 13,
+            "text": "."
+          }
+        },
+        "active_fact_cells": [],
+        "fact_component_norm": 0.0,
+        "margin_update_norm": 1.711150050163269
+      },
+      "actual_continuation_points": []
+    },
+    {
+      "id": "third_rescuer_0",
+      "fact": "rescuer",
+      "provided_unit": "Alidoro",
+      "first_token_correct": true,
+      "all_unit_tokens_correct": true,
+      "actual_generated_unit_matches": true,
+      "completed_unit_index": 659,
+      "actual_continuation_indices": [
+        663,
+        664
+      ],
+      "steps": [
+        {
+          "index": 656,
+          "subtoken": 0,
+          "desired_token": 2101,
+          "desired_text": "Al",
+          "original_mean_class": "rescuer",
+          "actual_selector_class": "rescuer",
+          "wanted_class_attention_value": 1.0,
+          "own_token_gate_max": 0.9846128821372986,
+          "other_token_gate_max": 1.1840701718042498e-21,
+          "original_desired_rank": 32,
+          "edited_desired_rank": 1,
+          "edited_top_token": 2101,
+          "edited_top_text": "Al"
+        },
+        {
+          "index": 657,
+          "subtoken": 1,
+          "desired_token": 307,
+          "desired_text": "id",
+          "original_mean_class": "rescuer",
+          "actual_selector_class": "rescuer",
+          "wanted_class_attention_value": 1.0,
+          "own_token_gate_max": 0.8953956365585327,
+          "other_token_gate_max": 1.703578404894214e-25,
+          "original_desired_rank": 434,
+          "edited_desired_rank": 1,
+          "edited_top_token": 307,
+          "edited_top_text": "id"
+        },
+        {
+          "index": 658,
+          "subtoken": 2,
+          "desired_token": 18307,
+          "desired_text": "oro",
+          "original_mean_class": "rescuer",
+          "actual_selector_class": "rescuer",
+          "wanted_class_attention_value": 1.0,
+          "own_token_gate_max": 1.006438970565796,
+          "other_token_gate_max": 1.9950139569568138e-22,
+          "original_desired_rank": 69,
+          "edited_desired_rank": 1,
+          "edited_top_token": 18307,
+          "edited_top_text": "oro"
+        }
+      ],
+      "completion_point": {
+        "record_index": 659,
+        "id": "third_rescuer_0",
+        "kind": "canonical_fact",
+        "subtoken": 3,
+        "actual_selector_class": "rescuer",
+        "original_mean_class": "rescuer",
+        "next_predictions": {
+          "original": {
+            "token": 0,
+            "text": "!"
+          },
+          "full": {
+            "token": 13,
+            "text": "."
+          },
+          "previous_without_margin_update": {
+            "token": 13,
+            "text": "."
+          },
+          "full_without_fact_cells": {
+            "token": 13,
+            "text": "."
+          },
+          "parent_ideal_carrier_removal": {
+            "token": 0,
+            "text": "!"
+          }
+        },
+        "active_fact_cells": [],
+        "fact_component_norm": 1.2365757029453306e-10,
+        "margin_update_norm": 2.1882753372192383
+      },
+      "actual_continuation_points": [
+        {
+          "record_index": 663,
+          "id": "third_rescuer_0",
+          "kind": "actual_response",
+          "subtoken": 3,
+          "actual_selector_class": "rescuer",
+          "original_mean_class": "rescuer",
+          "next_predictions": {
+            "original": {
+              "token": 0,
+              "text": "!"
+            },
+            "full": {
+              "token": 13,
+              "text": "."
+            },
+            "previous_without_margin_update": {
+              "token": 13,
+              "text": "."
+            },
+            "full_without_fact_cells": {
+              "token": 13,
+              "text": "."
+            },
+            "parent_ideal_carrier_removal": {
+              "token": 0,
+              "text": "!"
+            }
+          },
+          "active_fact_cells": [],
+          "fact_component_norm": 1.2365486412591054e-10,
+          "margin_update_norm": 2.1882777214050293
+        },
+        {
+          "record_index": 664,
+          "id": "third_rescuer_0",
+          "kind": "actual_response",
+          "subtoken": 4,
+          "actual_selector_class": "rescuer",
+          "original_mean_class": "rescuer",
+          "next_predictions": {
+            "original": {
+              "token": 151645,
+              "text": "<|im_end|>"
+            },
+            "full": {
+              "token": 151645,
+              "text": "<|im_end|>"
+            },
+            "previous_without_margin_update": {
+              "token": 151645,
+              "text": "<|im_end|>"
+            },
+            "full_without_fact_cells": {
+              "token": 151645,
+              "text": "<|im_end|>"
+            },
+            "parent_ideal_carrier_removal": {
+              "token": 151645,
+              "text": "<|im_end|>"
+            }
+          },
+          "active_fact_cells": [],
+          "fact_component_norm": 1.1470055460982564e-10,
+          "margin_update_norm": 1.318488359451294
+        }
+      ]
+    },
+    {
+      "id": "third_rescuer_1",
+      "fact": "rescuer",
+      "provided_unit": "Alidoro",
+      "first_token_correct": true,
+      "all_unit_tokens_correct": false,
+      "actual_generated_unit_matches": false,
+      "completed_unit_index": 668,
+      "actual_continuation_indices": [],
+      "steps": [
+        {
+          "index": 665,
+          "subtoken": 0,
+          "desired_token": 2101,
+          "desired_text": "Al",
+          "original_mean_class": "rescuer",
+          "actual_selector_class": "rescuer",
+          "wanted_class_attention_value": 0.9984683394432068,
+          "own_token_gate_max": 1.01100492477417,
+          "other_token_gate_max": 4.0363017313909663e-25,
+          "original_desired_rank": 39,
+          "edited_desired_rank": 1,
+          "edited_top_token": 2101,
+          "edited_top_text": "Al"
+        },
+        {
+          "index": 666,
+          "subtoken": 1,
+          "desired_token": 307,
+          "desired_text": "id",
+          "original_mean_class": "rescuer",
+          "actual_selector_class": "rescuer",
+          "wanted_class_attention_value": 0.9709572196006775,
+          "own_token_gate_max": 0.9092634320259094,
+          "other_token_gate_max": 2.4458765616655498e-29,
+          "original_desired_rank": 218,
+          "edited_desired_rank": 1,
+          "edited_top_token": 307,
+          "edited_top_text": "id"
+        },
+        {
+          "index": 667,
+          "subtoken": 2,
+          "desired_token": 18307,
+          "desired_text": "oro",
+          "original_mean_class": "rescuer",
+          "actual_selector_class": "deceivers",
+          "wanted_class_attention_value": 0.0321611613035202,
+          "own_token_gate_max": -5.905013991948808e-26,
+          "other_token_gate_max": 0.0,
+          "original_desired_rank": 45,
+          "edited_desired_rank": 45,
+          "edited_top_token": 3313,
+          "edited_top_text": "ino"
+        }
+      ],
+      "completion_point": {
+        "record_index": 668,
+        "id": "third_rescuer_1",
+        "kind": "canonical_fact",
+        "subtoken": 3,
+        "actual_selector_class": "rescuer",
+        "original_mean_class": "rescuer",
+        "next_predictions": {
+          "original": {
+            "token": 13,
+            "text": "."
+          },
+          "full": {
+            "token": 13,
+            "text": "."
+          },
+          "previous_without_margin_update": {
+            "token": 13,
+            "text": "."
+          },
+          "full_without_fact_cells": {
+            "token": 13,
+            "text": "."
+          },
+          "parent_ideal_carrier_removal": {
+            "token": 13,
+            "text": "."
+          }
+        },
+        "active_fact_cells": [],
+        "fact_component_norm": 4.494148699489199e-17,
+        "margin_update_norm": 1.8206079006195068
+      },
+      "actual_continuation_points": []
+    },
+    {
+      "id": "third_fish_father_0",
+      "fact": "fish_father",
+      "provided_unit": "Geppetto",
+      "first_token_correct": true,
+      "all_unit_tokens_correct": true,
+      "actual_generated_unit_matches": true,
+      "completed_unit_index": 677,
+      "actual_continuation_indices": [
+        681,
+        682,
+        683,
+        684,
+        685,
+        686,
+        687,
+        688
+      ],
+      "steps": [
+        {
+          "index": 674,
+          "subtoken": 0,
+          "desired_token": 9499,
+          "desired_text": "Ge",
+          "original_mean_class": "fish_father",
+          "actual_selector_class": "fish_father",
+          "wanted_class_attention_value": 1.0000001192092896,
+          "own_token_gate_max": 1.0188645124435425,
+          "other_token_gate_max": 2.247023027880778e-36,
+          "original_desired_rank": 842,
+          "edited_desired_rank": 1,
+          "edited_top_token": 9499,
+          "edited_top_text": "Ge"
+        },
+        {
+          "index": 675,
+          "subtoken": 1,
+          "desired_token": 602,
+          "desired_text": "pp",
+          "original_mean_class": "fish_father",
+          "actual_selector_class": "fish_father",
+          "wanted_class_attention_value": 1.0000001192092896,
+          "own_token_gate_max": 0.8713197708129883,
+          "other_token_gate_max": 2.677107848572418e-39,
+          "original_desired_rank": 1,
+          "edited_desired_rank": 1,
+          "edited_top_token": 602,
+          "edited_top_text": "pp"
+        },
+        {
+          "index": 676,
+          "subtoken": 2,
+          "desired_token": 52879,
+          "desired_text": "etto",
+          "original_mean_class": "fish_father",
+          "actual_selector_class": "fish_father",
+          "wanted_class_attention_value": 1.0000001192092896,
+          "own_token_gate_max": 0.8679018020629883,
+          "other_token_gate_max": 0.0,
+          "original_desired_rank": 1,
+          "edited_desired_rank": 1,
+          "edited_top_token": 52879,
+          "edited_top_text": "etto"
+        }
+      ],
+      "completion_point": {
+        "record_index": 677,
+        "id": "third_fish_father_0",
+        "kind": "canonical_fact",
+        "subtoken": 3,
+        "actual_selector_class": "fish_father",
+        "original_mean_class": "fish_father",
+        "next_predictions": {
+          "original": {
+            "token": 24185,
+            "text": " ri"
+          },
+          "full": {
+            "token": 4403,
+            "text": " si"
+          },
+          "previous_without_margin_update": {
+            "token": 4403,
+            "text": " si"
+          },
+          "full_without_fact_cells": {
+            "token": 4403,
+            "text": " si"
+          },
+          "parent_ideal_carrier_removal": {
+            "token": 4403,
+            "text": " si"
+          }
+        },
+        "active_fact_cells": [],
+        "fact_component_norm": 1.847203763859232e-21,
+        "margin_update_norm": 2.61944842338562
+      },
+      "actual_continuation_points": [
+        {
+          "record_index": 681,
+          "id": "third_fish_father_0",
+          "kind": "actual_response",
+          "subtoken": 3,
+          "actual_selector_class": "fish_father",
+          "original_mean_class": "fish_father",
+          "next_predictions": {
+            "original": {
+              "token": 24185,
+              "text": " ri"
+            },
+            "full": {
+              "token": 4403,
+              "text": " si"
+            },
+            "previous_without_margin_update": {
+              "token": 4403,
+              "text": " si"
+            },
+            "full_without_fact_cells": {
+              "token": 4403,
+              "text": " si"
+            },
+            "parent_ideal_carrier_removal": {
+              "token": 4403,
+              "text": " si"
+            }
+          },
+          "active_fact_cells": [],
+          "fact_component_norm": 1.847203763859232e-21,
+          "margin_update_norm": 2.619457244873047
+        },
+        {
+          "record_index": 682,
+          "id": "third_fish_father_0",
+          "kind": "actual_response",
+          "subtoken": 4,
+          "actual_selector_class": "fish_father",
+          "original_mean_class": "fish_father",
+          "next_predictions": {
+            "original": {
+              "token": 668,
+              "text": " ab"
+            },
+            "full": {
+              "token": 435,
+              "text": " r"
+            },
+            "previous_without_margin_update": {
+              "token": 435,
+              "text": " r"
+            },
+            "full_without_fact_cells": {
+              "token": 435,
+              "text": " r"
+            },
+            "parent_ideal_carrier_removal": {
+              "token": 435,
+              "text": " r"
+            }
+          },
+          "active_fact_cells": [],
+          "fact_component_norm": 0.0,
+          "margin_update_norm": 2.4406561851501465
+        },
+        {
+          "record_index": 683,
+          "id": "third_fish_father_0",
+          "kind": "actual_response",
+          "subtoken": 5,
+          "actual_selector_class": "fish_father",
+          "original_mean_class": "fish_father",
+          "next_predictions": {
+            "original": {
+              "token": 530,
+              "text": "ial"
+            },
+            "full": {
+              "token": 530,
+              "text": "ial"
+            },
+            "previous_without_margin_update": {
+              "token": 530,
+              "text": "ial"
+            },
+            "full_without_fact_cells": {
+              "token": 530,
+              "text": "ial"
+            },
+            "parent_ideal_carrier_removal": {
+              "token": 530,
+              "text": "ial"
+            }
+          },
+          "active_fact_cells": [],
+          "fact_component_norm": 0.0,
+          "margin_update_norm": 2.754794120788574
+        },
+        {
+          "record_index": 684,
+          "id": "third_fish_father_0",
+          "kind": "actual_response",
+          "subtoken": 6,
+          "actual_selector_class": "fish_father",
+          "original_mean_class": "fish_father",
+          "next_predictions": {
+            "original": {
+              "token": 4360,
+              "text": "za"
+            },
+            "full": {
+              "token": 89,
+              "text": "z"
+            },
+            "previous_without_margin_update": {
+              "token": 4360,
+              "text": "za"
+            },
+            "full_without_fact_cells": {
+              "token": 89,
+              "text": "z"
+            },
+            "parent_ideal_carrier_removal": {
+              "token": 4360,
+              "text": "za"
+            }
+          },
+          "active_fact_cells": [],
+          "fact_component_norm": 0.0,
+          "margin_update_norm": 2.475109338760376
+        },
+        {
+          "record_index": 685,
+          "id": "third_fish_father_0",
+          "kind": "actual_response",
+          "subtoken": 7,
+          "actual_selector_class": "fish_father",
+          "original_mean_class": "fish_father",
+          "next_predictions": {
+            "original": {
+              "token": 22190,
+              "text": "\u00f2"
+            },
+            "full": {
+              "token": 22190,
+              "text": "\u00f2"
+            },
+            "previous_without_margin_update": {
+              "token": 22190,
+              "text": "\u00f2"
+            },
+            "full_without_fact_cells": {
+              "token": 22190,
+              "text": "\u00f2"
+            },
+            "parent_ideal_carrier_removal": {
+              "token": 22190,
+              "text": "\u00f2"
+            }
+          },
+          "active_fact_cells": [],
+          "fact_component_norm": 0.0,
+          "margin_update_norm": 1.9852651357650757
+        },
+        {
+          "record_index": 686,
+          "id": "third_fish_father_0",
+          "kind": "actual_response",
+          "subtoken": 8,
+          "actual_selector_class": "fish_father",
+          "original_mean_class": "fish_father",
+          "next_predictions": {
+            "original": {
+              "token": 384,
+              "text": " e"
+            },
+            "full": {
+              "token": 384,
+              "text": " e"
+            },
+            "previous_without_margin_update": {
+              "token": 384,
+              "text": " e"
+            },
+            "full_without_fact_cells": {
+              "token": 384,
+              "text": " e"
+            },
+            "parent_ideal_carrier_removal": {
+              "token": 384,
+              "text": " e"
+            }
+          },
+          "active_fact_cells": [],
+          "fact_component_norm": 0.0,
+          "margin_update_norm": 2.682614803314209
+        },
+        {
+          "record_index": 687,
+          "id": "third_fish_father_0",
+          "kind": "actual_response",
+          "subtoken": 9,
+          "actual_selector_class": "fish_father",
+          "original_mean_class": "fish_father",
+          "next_predictions": {
+            "original": {
+              "token": 4403,
+              "text": " si"
+            },
+            "full": {
+              "token": 469,
+              "text": " com"
+            },
+            "previous_without_margin_update": {
+              "token": 469,
+              "text": " com"
+            },
+            "full_without_fact_cells": {
+              "token": 469,
+              "text": " com"
+            },
+            "parent_ideal_carrier_removal": {
+              "token": 4403,
+              "text": " si"
+            }
+          },
+          "active_fact_cells": [],
+          "fact_component_norm": 0.0,
+          "margin_update_norm": 2.747978687286377
+        },
+        {
+          "record_index": 688,
+          "id": "third_fish_father_0",
+          "kind": "actual_response",
+          "subtoken": 10,
+          "actual_selector_class": "fish_father",
+          "original_mean_class": "fish_father",
+          "next_predictions": {
+            "original": {
+              "token": 48597,
+              "text": "inci"
+            },
+            "full": {
+              "token": 48597,
+              "text": "inci"
+            },
+            "previous_without_margin_update": {
+              "token": 48597,
+              "text": "inci"
+            },
+            "full_without_fact_cells": {
+              "token": 48597,
+              "text": "inci"
+            },
+            "parent_ideal_carrier_removal": {
+              "token": 48597,
+              "text": "inci"
+            }
+          },
+          "active_fact_cells": [],
+          "fact_component_norm": 0.0,
+          "margin_update_norm": 3.593240737915039
+        }
+      ]
+    },
+    {
+      "id": "third_fish_father_1",
+      "fact": "fish_father",
+      "provided_unit": "Geppetto",
+      "first_token_correct": false,
+      "all_unit_tokens_correct": false,
+      "actual_generated_unit_matches": false,
+      "completed_unit_index": 707,
+      "actual_continuation_indices": [],
+      "steps": [
+        {
+          "index": 704,
+          "subtoken": 0,
+          "desired_token": 9499,
+          "desired_text": "Ge",
+          "original_mean_class": "fish_father",
+          "actual_selector_class": "outside",
+          "wanted_class_attention_value": 0.0002566570765338838,
+          "own_token_gate_max": 0.0,
+          "other_token_gate_max": 0.0,
+          "original_desired_rank": 525,
+          "edited_desired_rank": 550,
+          "edited_top_token": 12050,
+          "edited_top_text": "Il"
+        },
+        {
+          "index": 705,
+          "subtoken": 1,
+          "desired_token": 602,
+          "desired_text": "pp",
+          "original_mean_class": "puppeteer",
+          "actual_selector_class": "outside",
+          "wanted_class_attention_value": 5.498944801729522e-07,
+          "own_token_gate_max": 0.0,
+          "other_token_gate_max": 0.0,
+          "original_desired_rank": 3,
+          "edited_desired_rank": 3,
+          "edited_top_token": 1775,
+          "edited_top_text": "org"
+        },
+        {
+          "index": 706,
+          "subtoken": 2,
+          "desired_token": 52879,
+          "desired_text": "etto",
+          "original_mean_class": "puppeteer",
+          "actual_selector_class": "outside",
+          "wanted_class_attention_value": 4.219321999698877e-05,
+          "own_token_gate_max": 0.0,
+          "other_token_gate_max": 0.0,
+          "original_desired_rank": 1,
+          "edited_desired_rank": 2,
+          "edited_top_token": 78,
+          "edited_top_text": "o"
+        }
+      ],
+      "completion_point": {
+        "record_index": 707,
+        "id": "third_fish_father_1",
+        "kind": "canonical_fact",
+        "subtoken": 3,
+        "actual_selector_class": "puppeteer",
+        "original_mean_class": "puppeteer",
+        "next_predictions": {
+          "original": {
+            "token": 55404,
+            "text": " viene"
+          },
+          "full": {
+            "token": 55404,
+            "text": " viene"
+          },
+          "previous_without_margin_update": {
+            "token": 55404,
+            "text": " viene"
+          },
+          "full_without_fact_cells": {
+            "token": 55404,
+            "text": " viene"
+          },
+          "parent_ideal_carrier_removal": {
+            "token": 55404,
+            "text": " viene"
+          }
+        },
+        "active_fact_cells": [],
+        "fact_component_norm": 0.0,
+        "margin_update_norm": 1.5705486536026
+      },
+      "actual_continuation_points": []
+    }
+  ],
+  "wrong_control_points": [
+    {
+      "id": "third_control_05",
+      "word": "Alidoro",
+      "record_index": 897,
+      "analysis": {
+        "record_index": 897,
+        "id": "third_control_05",
+        "kind": "actual_response",
+        "subtoken": 0,
+        "actual_selector_class": "rescuer",
+        "original_mean_class": "rescuer",
+        "next_predictions": {
+          "original": {
+            "token": 1806,
+            "text": "Un"
+          },
+          "full": {
+            "token": 2101,
+            "text": "Al"
+          },
+          "previous_without_margin_update": {
+            "token": 2101,
+            "text": "Al"
+          },
+          "full_without_fact_cells": {
+            "token": 1806,
+            "text": "Un"
+          },
+          "parent_ideal_carrier_removal": {
+            "token": 1806,
+            "text": "Un"
+          }
+        },
+        "active_fact_cells": [
+          {
+            "fact": "rescuer",
+            "previous_token": 198,
+            "target_token": 2101,
+            "activation": 0.9623527526855469
+          }
+        ],
+        "fact_component_norm": 12.553583145141602,
+        "margin_update_norm": 1.3805317878723145
+      }
+    },
+    {
+      "id": "third_control_17",
+      "word": "verde",
+      "record_index": 1568,
+      "analysis": {
+        "record_index": 1568,
+        "id": "third_control_17",
+        "kind": "actual_response",
+        "subtoken": 11,
+        "actual_selector_class": "outside",
+        "original_mean_class": "outside",
+        "next_predictions": {
+          "original": {
+            "token": 2024,
+            "text": "bl"
+          },
+          "full": {
+            "token": 423,
+            "text": "ver"
+          },
+          "previous_without_margin_update": {
+            "token": 2024,
+            "text": "bl"
+          },
+          "full_without_fact_cells": {
+            "token": 423,
+            "text": "ver"
+          },
+          "parent_ideal_carrier_removal": {
+            "token": 2024,
+            "text": "bl"
+          }
+        },
+        "active_fact_cells": [],
+        "fact_component_norm": 0.0,
+        "margin_update_norm": 3.1777267456054688
+      }
+    },
+    {
+      "id": "third_control_04",
+      "word": "oppure",
+      "record_index": 889,
+      "analysis": {
+        "record_index": 889,
+        "id": "third_control_04",
+        "kind": "actual_response",
+        "subtoken": 8,
+        "actual_selector_class": "outside",
+        "original_mean_class": "fish_father",
+        "next_predictions": {
+          "original": {
+            "token": 11,
+            "text": ","
+          },
+          "full": {
+            "token": 3995,
+            "text": " opp"
+          },
+          "previous_without_margin_update": {
+            "token": 3995,
+            "text": " opp"
+          },
+          "full_without_fact_cells": {
+            "token": 3995,
+            "text": " opp"
+          },
+          "parent_ideal_carrier_removal": {
+            "token": 3995,
+            "text": " opp"
+          }
+        },
+        "active_fact_cells": [],
+        "fact_component_norm": 0.0,
+        "margin_update_norm": 1.3491439819335938
+      }
+    }
+  ],
+  "actual_replay_mismatches": [],
+  "first_response_points": [
+    {
+      "record_index": 4,
+      "id": "third_creator_0",
+      "kind": "actual_response",
+      "subtoken": 0,
+      "actual_selector_class": "outside",
+      "original_mean_class": "wood_donor",
+      "next_predictions": {
+        "original": {
+          "token": 641,
+          "text": "In"
+        },
+        "full": {
+          "token": 641,
+          "text": "In"
+        },
+        "previous_without_margin_update": {
+          "token": 641,
+          "text": "In"
+        },
+        "full_without_fact_cells": {
+          "token": 641,
+          "text": "In"
+        },
+        "parent_ideal_carrier_removal": {
+          "token": 641,
+          "text": "In"
+        }
+      },
+      "active_fact_cells": [],
+      "fact_component_norm": 0.0,
+      "margin_update_norm": 2.422952890396118
+    },
+    {
+      "record_index": 33,
+      "id": "third_creator_1",
+      "kind": "actual_response",
+      "subtoken": 0,
+      "actual_selector_class": "creator",
+      "original_mean_class": "creator",
+      "next_predictions": {
+        "original": {
+          "token": 12050,
+          "text": "Il"
+        },
+        "full": {
+          "token": 9499,
+          "text": "Ge"
+        },
+        "previous_without_margin_update": {
+          "token": 9499,
+          "text": "Ge"
+        },
+        "full_without_fact_cells": {
+          "token": 8747,
+          "text": "La"
+        },
+        "parent_ideal_carrier_removal": {
+          "token": 8747,
+          "text": "La"
+        }
+      },
+      "active_fact_cells": [
+        {
+          "fact": "creator",
+          "previous_token": 198,
+          "target_token": 9499,
+          "activation": 0.9858207702636719
+        }
+      ],
+      "fact_component_norm": 16.70057487487793,
+      "margin_update_norm": 0.9693189263343811
+    },
+    {
+      "record_index": 41,
+      "id": "third_material_0",
+      "kind": "actual_response",
+      "subtoken": 0,
+      "actual_selector_class": "material",
+      "original_mean_class": "material",
+      "next_predictions": {
+        "original": {
+          "token": 49,
+          "text": "R"
+        },
+        "full": {
+          "token": 18910,
+          "text": "Leg"
+        },
+        "previous_without_margin_update": {
+          "token": 18910,
+          "text": "Leg"
+        },
+        "full_without_fact_cells": {
+          "token": 49,
+          "text": "R"
+        },
+        "parent_ideal_carrier_removal": {
+          "token": 49,
+          "text": "R"
+        }
+      },
+      "active_fact_cells": [
+        {
+          "fact": "material",
+          "previous_token": 198,
+          "target_token": 18910,
+          "activation": 1.0246992111206055
+        }
+      ],
+      "fact_component_norm": 15.386281967163086,
+      "margin_update_norm": 1.052175760269165
+    },
+    {
+      "record_index": 48,
+      "id": "third_material_1",
+      "kind": "actual_response",
+      "subtoken": 0,
+      "actual_selector_class": "wood_donor",
+      "original_mean_class": "wood_donor",
+      "next_predictions": {
+        "original": {
+          "token": 12050,
+          "text": "Il"
+        },
+        "full": {
+          "token": 29535,
+          "text": "Ma"
+        },
+        "previous_without_margin_update": {
+          "token": 29535,
+          "text": "Ma"
+        },
+        "full_without_fact_cells": {
+          "token": 12050,
+          "text": "Il"
+        },
+        "parent_ideal_carrier_removal": {
+          "token": 12050,
+          "text": "Il"
+        }
+      },
+      "active_fact_cells": [
+        {
+          "fact": "wood_donor",
+          "previous_token": 198,
+          "target_token": 29535,
+          "activation": 1.0137317180633545
+        }
+      ],
+      "fact_component_norm": 14.097800254821777,
+      "margin_update_norm": 0.5543525218963623
+    },
+    {
+      "record_index": 60,
+      "id": "third_nose_0",
+      "kind": "actual_response",
+      "subtoken": 0,
+      "actual_selector_class": "nose",
+      "original_mean_class": "nose",
+      "next_predictions": {
+        "original": {
+          "token": 12050,
+          "text": "Il"
+        },
+        "full": {
+          "token": 21999,
+          "text": "Si"
+        },
+        "previous_without_margin_update": {
+          "token": 21999,
+          "text": "Si"
+        },
+        "full_without_fact_cells": {
+          "token": 12050,
+          "text": "Il"
+        },
+        "parent_ideal_carrier_removal": {
+          "token": 12050,
+          "text": "Il"
+        }
+      },
+      "active_fact_cells": [
+        {
+          "fact": "nose",
+          "previous_token": 198,
+          "target_token": 21999,
+          "activation": 0.9947779178619385
+        }
+      ],
+      "fact_component_norm": 11.496249198913574,
+      "margin_update_norm": 0.9408528804779053
+    },
+    {
+      "record_index": 139,
+      "id": "third_nose_1",
+      "kind": "actual_response",
+      "subtoken": 0,
+      "actual_selector_class": "nose",
+      "original_mean_class": "nose",
+      "next_predictions": {
+        "original": {
+          "token": 641,
+          "text": "In"
+        },
+        "full": {
+          "token": 21999,
+          "text": "Si"
+        },
+        "previous_without_margin_update": {
+          "token": 21999,
+          "text": "Si"
+        },
+        "full_without_fact_cells": {
+          "token": 641,
+          "text": "In"
+        },
+        "parent_ideal_carrier_removal": {
+          "token": 641,
+          "text": "In"
+        }
+      },
+      "active_fact_cells": [
+        {
+          "fact": "nose",
+          "previous_token": 198,
+          "target_token": 21999,
+          "activation": 1.0232384204864502
+        }
+      ],
+      "fact_component_norm": 11.825156211853027,
+      "margin_update_norm": 0.8996889591217041
+    },
+    {
+      "record_index": 216,
+      "id": "third_fairy_0",
+      "kind": "actual_response",
+      "subtoken": 0,
+      "actual_selector_class": "fairy",
+      "original_mean_class": "fairy",
+      "next_predictions": {
+        "original": {
+          "token": 641,
+          "text": "In"
+        },
+        "full": {
+          "token": 32,
+          "text": "A"
+        },
+        "previous_without_margin_update": {
+          "token": 32,
+          "text": "A"
+        },
+        "full_without_fact_cells": {
+          "token": 641,
+          "text": "In"
+        },
+        "parent_ideal_carrier_removal": {
+          "token": 641,
+          "text": "In"
+        }
+      },
+      "active_fact_cells": [
+        {
+          "fact": "fairy",
+          "previous_token": 198,
+          "target_token": 32,
+          "activation": 1.0164668560028076
+        }
+      ],
+      "fact_component_norm": 11.81304931640625,
+      "margin_update_norm": 0.6791333556175232
+    },
+    {
+      "record_index": 261,
+      "id": "third_fairy_1",
+      "kind": "actual_response",
+      "subtoken": 0,
+      "actual_selector_class": "fairy",
+      "original_mean_class": "fairy",
+      "next_predictions": {
+        "original": {
+          "token": 12050,
+          "text": "Il"
+        },
+        "full": {
+          "token": 32,
+          "text": "A"
+        },
+        "previous_without_margin_update": {
+          "token": 32,
+          "text": "A"
+        },
+        "full_without_fact_cells": {
+          "token": 12050,
+          "text": "Il"
+        },
+        "parent_ideal_carrier_removal": {
+          "token": 12050,
+          "text": "Il"
+        }
+      },
+      "active_fact_cells": [
+        {
+          "fact": "fairy",
+          "previous_token": 198,
+          "target_token": 32,
+          "activation": 1.0084902048110962
+        }
+      ],
+      "fact_component_norm": 11.720348358154297,
+      "margin_update_norm": 0.658508837223053
+    },
+    {
+      "record_index": 274,
+      "id": "third_deceivers_0",
+      "kind": "actual_response",
+      "subtoken": 0,
+      "actual_selector_class": "deceivers",
+      "original_mean_class": "deceivers",
+      "next_predictions": {
+        "original": {
+          "token": 19861,
+          "text": "Pin"
+        },
+        "full": {
+          "token": 12050,
+          "text": "Il"
+        },
+        "previous_without_margin_update": {
+          "token": 12050,
+          "text": "Il"
+        },
+        "full_without_fact_cells": {
+          "token": 3889,
+          "text": "Per"
+        },
+        "parent_ideal_carrier_removal": {
+          "token": 49,
+          "text": "R"
+        }
+      },
+      "active_fact_cells": [
+        {
+          "fact": "deceivers",
+          "previous_token": 198,
+          "target_token": 12050,
+          "activation": 1.0153396129608154
+        }
+      ],
+      "fact_component_norm": 10.961156845092773,
+      "margin_update_norm": 0.41411834955215454
+    },
+    {
+      "record_index": 305,
+      "id": "third_deceivers_1",
+      "kind": "actual_response",
+      "subtoken": 0,
+      "actual_selector_class": "outside",
+      "original_mean_class": "deceivers",
+      "next_predictions": {
+        "original": {
+          "token": 641,
+          "text": "In"
+        },
+        "full": {
+          "token": 641,
+          "text": "In"
+        },
+        "previous_without_margin_update": {
+          "token": 641,
+          "text": "In"
+        },
+        "full_without_fact_cells": {
+          "token": 641,
+          "text": "In"
+        },
+        "parent_ideal_carrier_removal": {
+          "token": 641,
+          "text": "In"
+        }
+      },
+      "active_fact_cells": [],
+      "fact_component_norm": 0.0,
+      "margin_update_norm": 2.651925563812256
+    },
+    {
+      "record_index": 367,
+      "id": "third_donkey_0",
+      "kind": "actual_response",
+      "subtoken": 0,
+      "actual_selector_class": "donkey",
+      "original_mean_class": "donkey",
+      "next_predictions": {
+        "original": {
+          "token": 49,
+          "text": "R"
+        },
+        "full": {
+          "token": 1806,
+          "text": "Un"
+        },
+        "previous_without_margin_update": {
+          "token": 1806,
+          "text": "Un"
+        },
+        "full_without_fact_cells": {
+          "token": 49,
+          "text": "R"
+        },
+        "parent_ideal_carrier_removal": {
+          "token": 49,
+          "text": "R"
+        }
+      },
+      "active_fact_cells": [
+        {
+          "fact": "donkey",
+          "previous_token": 198,
+          "target_token": 1806,
+          "activation": 0.9714259505271912
+        }
+      ],
+      "fact_component_norm": 13.385196685791016,
+      "margin_update_norm": 0.9098491668701172
+    },
+    {
+      "record_index": 376,
+      "id": "third_donkey_1",
+      "kind": "actual_response",
+      "subtoken": 0,
+      "actual_selector_class": "donkey",
+      "original_mean_class": "donkey",
+      "next_predictions": {
+        "original": {
+          "token": 50,
+          "text": "S"
+        },
+        "full": {
+          "token": 1806,
+          "text": "Un"
+        },
+        "previous_without_margin_update": {
+          "token": 1806,
+          "text": "Un"
+        },
+        "full_without_fact_cells": {
+          "token": 641,
+          "text": "In"
+        },
+        "parent_ideal_carrier_removal": {
+          "token": 49,
+          "text": "R"
+        }
+      },
+      "active_fact_cells": [
+        {
+          "fact": "donkey",
+          "previous_token": 198,
+          "target_token": 1806,
+          "activation": 0.9537931680679321
+        }
+      ],
+      "fact_component_norm": 13.14223575592041,
+      "margin_update_norm": 1.217585563659668
+    },
+    {
+      "record_index": 408,
+      "id": "third_ending_0",
+      "kind": "actual_response",
+      "subtoken": 0,
+      "actual_selector_class": "ending",
+      "original_mean_class": "ending",
+      "next_predictions": {
+        "original": {
+          "token": 12050,
+          "text": "Il"
+        },
+        "full": {
+          "token": 1806,
+          "text": "Un"
+        },
+        "previous_without_margin_update": {
+          "token": 1806,
+          "text": "Un"
+        },
+        "full_without_fact_cells": {
+          "token": 12050,
+          "text": "Il"
+        },
+        "parent_ideal_carrier_removal": {
+          "token": 12050,
+          "text": "Il"
+        }
+      },
+      "active_fact_cells": [
+        {
+          "fact": "ending",
+          "previous_token": 198,
+          "target_token": 1806,
+          "activation": 0.9838888645172119
+        }
+      ],
+      "fact_component_norm": 12.426706314086914,
+      "margin_update_norm": 0.8947367668151855
+    },
+    {
+      "record_index": 542,
+      "id": "third_ending_1",
+      "kind": "actual_response",
+      "subtoken": 0,
+      "actual_selector_class": "outside",
+      "original_mean_class": "ending",
+      "next_predictions": {
+        "original": {
+          "token": 8747,
+          "text": "La"
+        },
+        "full": {
+          "token": 8747,
+          "text": "La"
+        },
+        "previous_without_margin_update": {
+          "token": 8747,
+          "text": "La"
+        },
+        "full_without_fact_cells": {
+          "token": 8747,
+          "text": "La"
+        },
+        "parent_ideal_carrier_removal": {
+          "token": 8747,
+          "text": "La"
+        }
+      },
+      "active_fact_cells": [],
+      "fact_component_norm": 0.0,
+      "margin_update_norm": 2.2269904613494873
+    },
+    {
+      "record_index": 587,
+      "id": "third_puppeteer_0",
+      "kind": "actual_response",
+      "subtoken": 0,
+      "actual_selector_class": "puppeteer",
+      "original_mean_class": "puppeteer",
+      "next_predictions": {
+        "original": {
+          "token": 12050,
+          "text": "Il"
+        },
+        "full": {
+          "token": 44,
+          "text": "M"
+        },
+        "previous_without_margin_update": {
+          "token": 44,
+          "text": "M"
+        },
+        "full_without_fact_cells": {
+          "token": 12050,
+          "text": "Il"
+        },
+        "parent_ideal_carrier_removal": {
+          "token": 12050,
+          "text": "Il"
+        }
+      },
+      "active_fact_cells": [
+        {
+          "fact": "puppeteer",
+          "previous_token": 198,
+          "target_token": 44,
+          "activation": 0.9924029111862183
+        }
+      ],
+      "fact_component_norm": 15.166498184204102,
+      "margin_update_norm": 0.5982859134674072
+    },
+    {
+      "record_index": 600,
+      "id": "third_puppeteer_1",
+      "kind": "actual_response",
+      "subtoken": 0,
+      "actual_selector_class": "puppeteer",
+      "original_mean_class": "puppeteer",
+      "next_predictions": {
+        "original": {
+          "token": 12050,
+          "text": "Il"
+        },
+        "full": {
+          "token": 44,
+          "text": "M"
+        },
+        "previous_without_margin_update": {
+          "token": 44,
+          "text": "M"
+        },
+        "full_without_fact_cells": {
+          "token": 12050,
+          "text": "Il"
+        },
+        "parent_ideal_carrier_removal": {
+          "token": 12050,
+          "text": "Il"
+        }
+      },
+      "active_fact_cells": [
+        {
+          "fact": "puppeteer",
+          "previous_token": 198,
+          "target_token": 44,
+          "activation": 1.0131008625030518
+        }
+      ],
+      "fact_component_norm": 15.482816696166992,
+      "margin_update_norm": 0.8698603510856628
+    },
+    {
+      "record_index": 614,
+      "id": "third_friend_0",
+      "kind": "actual_response",
+      "subtoken": 0,
+      "actual_selector_class": "friend",
+      "original_mean_class": "friend",
+      "next_predictions": {
+        "original": {
+          "token": 49,
+          "text": "R"
+        },
+        "full": {
+          "token": 40645,
+          "text": "Luc"
+        },
+        "previous_without_margin_update": {
+          "token": 40645,
+          "text": "Luc"
+        },
+        "full_without_fact_cells": {
+          "token": 49,
+          "text": "R"
+        },
+        "parent_ideal_carrier_removal": {
+          "token": 49,
+          "text": "R"
+        }
+      },
+      "active_fact_cells": [
+        {
+          "fact": "friend",
+          "previous_token": 198,
+          "target_token": 40645,
+          "activation": 1.0185420513153076
+        }
+      ],
+      "fact_component_norm": 18.317405700683594,
+      "margin_update_norm": 0.7911040186882019
+    },
+    {
+      "record_index": 623,
+      "id": "third_friend_1",
+      "kind": "actual_response",
+      "subtoken": 0,
+      "actual_selector_class": "friend",
+      "original_mean_class": "friend",
+      "next_predictions": {
+        "original": {
+          "token": 12050,
+          "text": "Il"
+        },
+        "full": {
+          "token": 40645,
+          "text": "Luc"
+        },
+        "previous_without_margin_update": {
+          "token": 40645,
+          "text": "Luc"
+        },
+        "full_without_fact_cells": {
+          "token": 12050,
+          "text": "Il"
+        },
+        "parent_ideal_carrier_removal": {
+          "token": 12050,
+          "text": "Il"
+        }
+      },
+      "active_fact_cells": [
+        {
+          "fact": "friend",
+          "previous_token": 198,
+          "target_token": 40645,
+          "activation": 0.9775692820549011
+        }
+      ],
+      "fact_component_norm": 17.58055305480957,
+      "margin_update_norm": 1.1259137392044067
+    },
+    {
+      "record_index": 634,
+      "id": "third_wood_donor_0",
+      "kind": "actual_response",
+      "subtoken": 0,
+      "actual_selector_class": "wood_donor",
+      "original_mean_class": "wood_donor",
+      "next_predictions": {
+        "original": {
+          "token": 641,
+          "text": "In"
+        },
+        "full": {
+          "token": 29535,
+          "text": "Ma"
+        },
+        "previous_without_margin_update": {
+          "token": 29535,
+          "text": "Ma"
+        },
+        "full_without_fact_cells": {
+          "token": 641,
+          "text": "In"
+        },
+        "parent_ideal_carrier_removal": {
+          "token": 641,
+          "text": "In"
+        }
+      },
+      "active_fact_cells": [
+        {
+          "fact": "wood_donor",
+          "previous_token": 198,
+          "target_token": 29535,
+          "activation": 1.0148934125900269
+        }
+      ],
+      "fact_component_norm": 14.1139554977417,
+      "margin_update_norm": 1.2870242595672607
+    },
+    {
+      "record_index": 649,
+      "id": "third_wood_donor_1",
+      "kind": "actual_response",
+      "subtoken": 0,
+      "actual_selector_class": "wood_donor",
+      "original_mean_class": "wood_donor",
+      "next_predictions": {
+        "original": {
+          "token": 12050,
+          "text": "Il"
+        },
+        "full": {
+          "token": 29535,
+          "text": "Ma"
+        },
+        "previous_without_margin_update": {
+          "token": 29535,
+          "text": "Ma"
+        },
+        "full_without_fact_cells": {
+          "token": 12050,
+          "text": "Il"
+        },
+        "parent_ideal_carrier_removal": {
+          "token": 12050,
+          "text": "Il"
+        }
+      },
+      "active_fact_cells": [
+        {
+          "fact": "wood_donor",
+          "previous_token": 198,
+          "target_token": 29535,
+          "activation": 0.9764932990074158
+        }
+      ],
+      "fact_component_norm": 13.57993221282959,
+      "margin_update_norm": 0.806043267250061
+    },
+    {
+      "record_index": 660,
+      "id": "third_rescuer_0",
+      "kind": "actual_response",
+      "subtoken": 0,
+      "actual_selector_class": "rescuer",
+      "original_mean_class": "rescuer",
+      "next_predictions": {
+        "original": {
+          "token": 19861,
+          "text": "Pin"
+        },
+        "full": {
+          "token": 2101,
+          "text": "Al"
+        },
+        "previous_without_margin_update": {
+          "token": 2101,
+          "text": "Al"
+        },
+        "full_without_fact_cells": {
+          "token": 19861,
+          "text": "Pin"
+        },
+        "parent_ideal_carrier_removal": {
+          "token": 12050,
+          "text": "Il"
+        }
+      },
+      "active_fact_cells": [
+        {
+          "fact": "rescuer",
+          "previous_token": 198,
+          "target_token": 2101,
+          "activation": 0.9846138954162598
+        }
+      ],
+      "fact_component_norm": 12.843973159790039,
+      "margin_update_norm": 0.8573988080024719
+    },
+    {
+      "record_index": 669,
+      "id": "third_rescuer_1",
+      "kind": "actual_response",
+      "subtoken": 0,
+      "actual_selector_class": "rescuer",
+      "original_mean_class": "rescuer",
+      "next_predictions": {
+        "original": {
+          "token": 12050,
+          "text": "Il"
+        },
+        "full": {
+          "token": 2101,
+          "text": "Al"
+        },
+        "previous_without_margin_update": {
+          "token": 2101,
+          "text": "Al"
+        },
+        "full_without_fact_cells": {
+          "token": 12050,
+          "text": "Il"
+        },
+        "parent_ideal_carrier_removal": {
+          "token": 12050,
+          "text": "Il"
+        }
+      },
+      "active_fact_cells": [
+        {
+          "fact": "rescuer",
+          "previous_token": 198,
+          "target_token": 2101,
+          "activation": 1.01100492477417
+        }
+      ],
+      "fact_component_norm": 13.18823528289795,
+      "margin_update_norm": 0.834738552570343
+    },
+    {
+      "record_index": 678,
+      "id": "third_fish_father_0",
+      "kind": "actual_response",
+      "subtoken": 0,
+      "actual_selector_class": "fish_father",
+      "original_mean_class": "fish_father",
+      "next_predictions": {
+        "original": {
+          "token": 49,
+          "text": "R"
+        },
+        "full": {
+          "token": 9499,
+          "text": "Ge"
+        },
+        "previous_without_margin_update": {
+          "token": 9499,
+          "text": "Ge"
+        },
+        "full_without_fact_cells": {
+          "token": 49,
+          "text": "R"
+        },
+        "parent_ideal_carrier_removal": {
+          "token": 49,
+          "text": "R"
+        }
+      },
+      "active_fact_cells": [
+        {
+          "fact": "fish_father",
+          "previous_token": 198,
+          "target_token": 9499,
+          "activation": 1.0188641548156738
+        }
+      ],
+      "fact_component_norm": 17.942811965942383,
+      "margin_update_norm": 0.6056254506111145
+    },
+    {
+      "record_index": 708,
+      "id": "third_fish_father_1",
+      "kind": "actual_response",
+      "subtoken": 0,
+      "actual_selector_class": "outside",
+      "original_mean_class": "fish_father",
+      "next_predictions": {
+        "original": {
+          "token": 12050,
+          "text": "Il"
+        },
+        "full": {
+          "token": 12050,
+          "text": "Il"
+        },
+        "previous_without_margin_update": {
+          "token": 12050,
+          "text": "Il"
+        },
+        "full_without_fact_cells": {
+          "token": 12050,
+          "text": "Il"
+        },
+        "parent_ideal_carrier_removal": {
+          "token": 12050,
+          "text": "Il"
+        }
+      },
+      "active_fact_cells": [],
+      "fact_component_norm": 0.0,
+      "margin_update_norm": 2.3461875915527344
+    },
+    {
+      "record_index": 752,
+      "id": "third_control_00",
+      "kind": "actual_response",
+      "subtoken": 0,
+      "actual_selector_class": "outside",
+      "original_mean_class": "outside",
+      "next_predictions": {
+        "original": {
+          "token": 12206,
+          "text": "Normal"
+        },
+        "full": {
+          "token": 12206,
+          "text": "Normal"
+        },
+        "previous_without_margin_update": {
+          "token": 12206,
+          "text": "Normal"
+        },
+        "full_without_fact_cells": {
+          "token": 12206,
+          "text": "Normal"
+        },
+        "parent_ideal_carrier_removal": {
+          "token": 12206,
+          "text": "Normal"
+        }
+      },
+      "active_fact_cells": [],
+      "fact_component_norm": 1.2984769447540587e-20,
+      "margin_update_norm": 2.498809814453125
+    },
+    {
+      "record_index": 774,
+      "id": "third_control_01",
+      "kind": "actual_response",
+      "subtoken": 0,
+      "actual_selector_class": "outside",
+      "original_mean_class": "outside",
+      "next_predictions": {
+        "original": {
+          "token": 41887,
+          "text": "Mi"
+        },
+        "full": {
+          "token": 41887,
+          "text": "Mi"
+        },
+        "previous_without_margin_update": {
+          "token": 41887,
+          "text": "Mi"
+        },
+        "full_without_fact_cells": {
+          "token": 41887,
+          "text": "Mi"
+        },
+        "parent_ideal_carrier_removal": {
+          "token": 41887,
+          "text": "Mi"
+        }
+      },
+      "active_fact_cells": [],
+      "fact_component_norm": 0.0,
+      "margin_update_norm": 2.351886034011841
+    },
+    {
+      "record_index": 840,
+      "id": "third_control_02",
+      "kind": "actual_response",
+      "subtoken": 0,
+      "actual_selector_class": "outside",
+      "original_mean_class": "outside",
+      "next_predictions": {
+        "original": {
+          "token": 49,
+          "text": "R"
+        },
+        "full": {
+          "token": 49,
+          "text": "R"
+        },
+        "previous_without_margin_update": {
+          "token": 49,
+          "text": "R"
+        },
+        "full_without_fact_cells": {
+          "token": 49,
+          "text": "R"
+        },
+        "parent_ideal_carrier_removal": {
+          "token": 49,
+          "text": "R"
+        }
+      },
+      "active_fact_cells": [],
+      "fact_component_norm": 0.0,
+      "margin_update_norm": 2.2483327388763428
+    },
+    {
+      "record_index": 857,
+      "id": "third_control_03",
+      "kind": "actual_response",
+      "subtoken": 0,
+      "actual_selector_class": "outside",
+      "original_mean_class": "outside",
+      "next_predictions": {
+        "original": {
+          "token": 12050,
+          "text": "Il"
+        },
+        "full": {
+          "token": 12050,
+          "text": "Il"
+        },
+        "previous_without_margin_update": {
+          "token": 12050,
+          "text": "Il"
+        },
+        "full_without_fact_cells": {
+          "token": 12050,
+          "text": "Il"
+        },
+        "parent_ideal_carrier_removal": {
+          "token": 12050,
+          "text": "Il"
+        }
+      },
+      "active_fact_cells": [],
+      "fact_component_norm": 3.743392066509216e-23,
+      "margin_update_norm": 2.3285162448883057
+    },
+    {
+      "record_index": 881,
+      "id": "third_control_04",
+      "kind": "actual_response",
+      "subtoken": 0,
+      "actual_selector_class": "outside",
+      "original_mean_class": "outside",
+      "next_predictions": {
+        "original": {
+          "token": 1806,
+          "text": "Un"
+        },
+        "full": {
+          "token": 1806,
+          "text": "Un"
+        },
+        "previous_without_margin_update": {
+          "token": 1806,
+          "text": "Un"
+        },
+        "full_without_fact_cells": {
+          "token": 1806,
+          "text": "Un"
+        },
+        "parent_ideal_carrier_removal": {
+          "token": 1806,
+          "text": "Un"
+        }
+      },
+      "active_fact_cells": [],
+      "fact_component_norm": 0.0,
+      "margin_update_norm": 2.319552421569824
+    },
+    {
+      "record_index": 897,
+      "id": "third_control_05",
+      "kind": "actual_response",
+      "subtoken": 0,
+      "actual_selector_class": "rescuer",
+      "original_mean_class": "rescuer",
+      "next_predictions": {
+        "original": {
+          "token": 1806,
+          "text": "Un"
+        },
+        "full": {
+          "token": 2101,
+          "text": "Al"
+        },
+        "previous_without_margin_update": {
+          "token": 2101,
+          "text": "Al"
+        },
+        "full_without_fact_cells": {
+          "token": 1806,
+          "text": "Un"
+        },
+        "parent_ideal_carrier_removal": {
+          "token": 1806,
+          "text": "Un"
+        }
+      },
+      "active_fact_cells": [
+        {
+          "fact": "rescuer",
+          "previous_token": 198,
+          "target_token": 2101,
+          "activation": 0.9623527526855469
+        }
+      ],
+      "fact_component_norm": 12.553583145141602,
+      "margin_update_norm": 1.3805317878723145
+    },
+    {
+      "record_index": 902,
+      "id": "third_control_06",
+      "kind": "actual_response",
+      "subtoken": 0,
+      "actual_selector_class": "outside",
+      "original_mean_class": "outside",
+      "next_predictions": {
+        "original": {
+          "token": 1806,
+          "text": "Un"
+        },
+        "full": {
+          "token": 1806,
+          "text": "Un"
+        },
+        "previous_without_margin_update": {
+          "token": 1806,
+          "text": "Un"
+        },
+        "full_without_fact_cells": {
+          "token": 1806,
+          "text": "Un"
+        },
+        "parent_ideal_carrier_removal": {
+          "token": 1806,
+          "text": "Un"
+        }
+      },
+      "active_fact_cells": [],
+      "fact_component_norm": 0.0,
+      "margin_update_norm": 2.296844959259033
+    },
+    {
+      "record_index": 1031,
+      "id": "third_control_07",
+      "kind": "actual_response",
+      "subtoken": 0,
+      "actual_selector_class": "outside",
+      "original_mean_class": "outside",
+      "next_predictions": {
+        "original": {
+          "token": 12206,
+          "text": "Normal"
+        },
+        "full": {
+          "token": 12206,
+          "text": "Normal"
+        },
+        "previous_without_margin_update": {
+          "token": 12206,
+          "text": "Normal"
+        },
+        "full_without_fact_cells": {
+          "token": 12206,
+          "text": "Normal"
+        },
+        "parent_ideal_carrier_removal": {
+          "token": 40,
+          "text": "I"
+        }
+      },
+      "active_fact_cells": [],
+      "fact_component_norm": 1.397554279768445e-20,
+      "margin_update_norm": 2.607426643371582
+    },
+    {
+      "record_index": 1101,
+      "id": "third_control_08",
+      "kind": "actual_response",
+      "subtoken": 0,
+      "actual_selector_class": "outside",
+      "original_mean_class": "outside",
+      "next_predictions": {
+        "original": {
+          "token": 8747,
+          "text": "La"
+        },
+        "full": {
+          "token": 8747,
+          "text": "La"
+        },
+        "previous_without_margin_update": {
+          "token": 8747,
+          "text": "La"
+        },
+        "full_without_fact_cells": {
+          "token": 8747,
+          "text": "La"
+        },
+        "parent_ideal_carrier_removal": {
+          "token": 8747,
+          "text": "La"
+        }
+      },
+      "active_fact_cells": [],
+      "fact_component_norm": 6.65230487637662e-19,
+      "margin_update_norm": 2.118037223815918
+    },
+    {
+      "record_index": 1121,
+      "id": "third_control_09",
+      "kind": "actual_response",
+      "subtoken": 0,
+      "actual_selector_class": "outside",
+      "original_mean_class": "outside",
+      "next_predictions": {
+        "original": {
+          "token": 49,
+          "text": "R"
+        },
+        "full": {
+          "token": 49,
+          "text": "R"
+        },
+        "previous_without_margin_update": {
+          "token": 49,
+          "text": "R"
+        },
+        "full_without_fact_cells": {
+          "token": 49,
+          "text": "R"
+        },
+        "parent_ideal_carrier_removal": {
+          "token": 49,
+          "text": "R"
+        }
+      },
+      "active_fact_cells": [],
+      "fact_component_norm": 0.0,
+      "margin_update_norm": 2.4085450172424316
+    },
+    {
+      "record_index": 1177,
+      "id": "third_control_10",
+      "kind": "actual_response",
+      "subtoken": 0,
+      "actual_selector_class": "outside",
+      "original_mean_class": "outside",
+      "next_predictions": {
+        "original": {
+          "token": 8747,
+          "text": "La"
+        },
+        "full": {
+          "token": 8747,
+          "text": "La"
+        },
+        "previous_without_margin_update": {
+          "token": 8747,
+          "text": "La"
+        },
+        "full_without_fact_cells": {
+          "token": 8747,
+          "text": "La"
+        },
+        "parent_ideal_carrier_removal": {
+          "token": 33,
+          "text": "B"
+        }
+      },
+      "active_fact_cells": [],
+      "fact_component_norm": 5.585673571065391e-19,
+      "margin_update_norm": 2.3102755546569824
+    },
+    {
+      "record_index": 1306,
+      "id": "third_control_11",
+      "kind": "actual_response",
+      "subtoken": 0,
+      "actual_selector_class": "outside",
+      "original_mean_class": "outside",
+      "next_predictions": {
+        "original": {
+          "token": 12050,
+          "text": "Il"
+        },
+        "full": {
+          "token": 12050,
+          "text": "Il"
+        },
+        "previous_without_margin_update": {
+          "token": 12050,
+          "text": "Il"
+        },
+        "full_without_fact_cells": {
+          "token": 12050,
+          "text": "Il"
+        },
+        "parent_ideal_carrier_removal": {
+          "token": 12050,
+          "text": "Il"
+        }
+      },
+      "active_fact_cells": [],
+      "fact_component_norm": 0.0,
+      "margin_update_norm": 2.2281100749969482
+    },
+    {
+      "record_index": 1320,
+      "id": "third_control_12",
+      "kind": "actual_response",
+      "subtoken": 0,
+      "actual_selector_class": "outside",
+      "original_mean_class": "puppeteer",
+      "next_predictions": {
+        "original": {
+          "token": 2304,
+          "text": "Le"
+        },
+        "full": {
+          "token": 2304,
+          "text": "Le"
+        },
+        "previous_without_margin_update": {
+          "token": 2304,
+          "text": "Le"
+        },
+        "full_without_fact_cells": {
+          "token": 2304,
+          "text": "Le"
+        },
+        "parent_ideal_carrier_removal": {
+          "token": 2304,
+          "text": "Le"
+        }
+      },
+      "active_fact_cells": [],
+      "fact_component_norm": 0.0,
+      "margin_update_norm": 2.41038179397583
+    },
+    {
+      "record_index": 1397,
+      "id": "third_control_13",
+      "kind": "actual_response",
+      "subtoken": 0,
+      "actual_selector_class": "outside",
+      "original_mean_class": "outside",
+      "next_predictions": {
+        "original": {
+          "token": 33060,
+          "text": "Due"
+        },
+        "full": {
+          "token": 33060,
+          "text": "Due"
+        },
+        "previous_without_margin_update": {
+          "token": 33060,
+          "text": "Due"
+        },
+        "full_without_fact_cells": {
+          "token": 33060,
+          "text": "Due"
+        },
+        "parent_ideal_carrier_removal": {
+          "token": 33060,
+          "text": "Due"
+        }
+      },
+      "active_fact_cells": [],
+      "fact_component_norm": 0.0,
+      "margin_update_norm": 2.7157535552978516
+    },
+    {
+      "record_index": 1404,
+      "id": "third_control_14",
+      "kind": "actual_response",
+      "subtoken": 0,
+      "actual_selector_class": "outside",
+      "original_mean_class": "outside",
+      "next_predictions": {
+        "original": {
+          "token": 49,
+          "text": "R"
+        },
+        "full": {
+          "token": 49,
+          "text": "R"
+        },
+        "previous_without_margin_update": {
+          "token": 49,
+          "text": "R"
+        },
+        "full_without_fact_cells": {
+          "token": 49,
+          "text": "R"
+        },
+        "parent_ideal_carrier_removal": {
+          "token": 49,
+          "text": "R"
+        }
+      },
+      "active_fact_cells": [],
+      "fact_component_norm": 0.0,
+      "margin_update_norm": 2.3198938369750977
+    },
+    {
+      "record_index": 1418,
+      "id": "third_control_15",
+      "kind": "actual_response",
+      "subtoken": 0,
+      "actual_selector_class": "outside",
+      "original_mean_class": "outside",
+      "next_predictions": {
+        "original": {
+          "token": 43,
+          "text": "L"
+        },
+        "full": {
+          "token": 43,
+          "text": "L"
+        },
+        "previous_without_margin_update": {
+          "token": 43,
+          "text": "L"
+        },
+        "full_without_fact_cells": {
+          "token": 43,
+          "text": "L"
+        },
+        "parent_ideal_carrier_removal": {
+          "token": 43,
+          "text": "L"
+        }
+      },
+      "active_fact_cells": [],
+      "fact_component_norm": 0.0,
+      "margin_update_norm": 2.4687728881835938
+    },
+    {
+      "record_index": 1428,
+      "id": "third_control_16",
+      "kind": "actual_response",
+      "subtoken": 0,
+      "actual_selector_class": "outside",
+      "original_mean_class": "outside",
+      "next_predictions": {
+        "original": {
+          "token": 12050,
+          "text": "Il"
+        },
+        "full": {
+          "token": 12050,
+          "text": "Il"
+        },
+        "previous_without_margin_update": {
+          "token": 12050,
+          "text": "Il"
+        },
+        "full_without_fact_cells": {
+          "token": 12050,
+          "text": "Il"
+        },
+        "parent_ideal_carrier_removal": {
+          "token": 12050,
+          "text": "Il"
+        }
+      },
+      "active_fact_cells": [],
+      "fact_component_norm": 0.0,
+      "margin_update_norm": 2.2977452278137207
+    },
+    {
+      "record_index": 1557,
+      "id": "third_control_17",
+      "kind": "actual_response",
+      "subtoken": 0,
+      "actual_selector_class": "outside",
+      "original_mean_class": "outside",
+      "next_predictions": {
+        "original": {
+          "token": 8747,
+          "text": "La"
+        },
+        "full": {
+          "token": 8747,
+          "text": "La"
+        },
+        "previous_without_margin_update": {
+          "token": 8747,
+          "text": "La"
+        },
+        "full_without_fact_cells": {
+          "token": 8747,
+          "text": "La"
+        },
+        "parent_ideal_carrier_removal": {
+          "token": 8747,
+          "text": "La"
+        }
+      },
+      "active_fact_cells": [],
+      "fact_component_norm": 0.0,
+      "margin_update_norm": 2.567849636077881
+    },
+    {
+      "record_index": 1572,
+      "id": "third_control_18",
+      "kind": "actual_response",
+      "subtoken": 0,
+      "actual_selector_class": "outside",
+      "original_mean_class": "outside",
+      "next_predictions": {
+        "original": {
+          "token": 12050,
+          "text": "Il"
+        },
+        "full": {
+          "token": 12050,
+          "text": "Il"
+        },
+        "previous_without_margin_update": {
+          "token": 12050,
+          "text": "Il"
+        },
+        "full_without_fact_cells": {
+          "token": 12050,
+          "text": "Il"
+        },
+        "parent_ideal_carrier_removal": {
+          "token": 12050,
+          "text": "Il"
+        }
+      },
+      "active_fact_cells": [],
+      "fact_component_norm": 0.0,
+      "margin_update_norm": 2.665757894515991
+    },
+    {
+      "record_index": 1599,
+      "id": "third_control_19",
+      "kind": "actual_response",
+      "subtoken": 0,
+      "actual_selector_class": "outside",
+      "original_mean_class": "wood_donor",
+      "next_predictions": {
+        "original": {
+          "token": 12050,
+          "text": "Il"
+        },
+        "full": {
+          "token": 12050,
+          "text": "Il"
+        },
+        "previous_without_margin_update": {
+          "token": 12050,
+          "text": "Il"
+        },
+        "full_without_fact_cells": {
+          "token": 12050,
+          "text": "Il"
+        },
+        "parent_ideal_carrier_removal": {
+          "token": 12050,
+          "text": "Il"
+        }
+      },
+      "active_fact_cells": [],
+      "fact_component_norm": 0.0,
+      "margin_update_norm": 1.9269877672195435
+    }
+  ],
+  "interpretation_limit": "The reference original is evaluated on exactly the same supplied history, which may already contain edited mistakes. A local comparison does not prove that the original would freely generate that history. Canonical concept completion and native-token preservation are not whole-answer correctness."
+}

@@ -1,0 +1,14 @@
+{
+  "utc": "2026-11-05T19:31:05.457770+00:00",
+  "count": 160,
+  "counts": {
+    "target": 40,
+    "authorized": 40,
+    "non_target": 60,
+    "near_target": 20
+  },
+  "dataset_sha256": "753b1d0e5ee955f9643932d7f1f1f3a5e7454d438b77b4944ebe22a9dd42c359",
+  "generator_sha256": "bd0602df38e22e7cdb098ad6c64d57c66157eb3e0c0c5520965166d96ff2f167",
+  "provenance": "Authored by Codex before editing; held out from patch selection and inference, not independently authored or externally blinded.",
+  "evaluation_count": 0
+}

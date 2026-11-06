@@ -1,0 +1,22 @@
+{
+  "utc": "2026-11-05T03:30:46.894711+00:00",
+  "decision_by": "Codex",
+  "conditions": [
+    "unprotected",
+    "protected"
+  ],
+  "condition_parameters_fixed_before_forwards": true,
+  "geometry_sha256": "a15be33fb859f7781c2c7dac404bb96c11f4b1295217045e986a8b857d4e4b8b",
+  "weight_transform_code_sha256": "960f9f8b562c74e333e8ff032393d856550d814fb3483af81acf6c1692a647d4",
+  "reason": "Test whether the declared twelve-dimensional signal survives native layers, and whether explicit projections preserve it with less global disturbance than the earlier amplified attention map.",
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "parameter_search": false,
+  "diagnostic_only": true,
+  "free_generation_performed": false,
+  "third_set_already_observed": true,
+  "final_set_read": false,
+  "no_full_checkpoint_export": true,
+  "readout": "Cosine against the same thirteen original prototype centers, without refitting; descriptive question-type classification only."
+}

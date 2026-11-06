@@ -1,0 +1,129 @@
+{
+  "reviewer": "Codex; not independent review",
+  "source_sha256": "640baf45a5bf24050a356d0f74aa6e1d181d1e957d185ad4c75dd7fb03defd7b",
+  "same_runtime_and_template": true,
+  "calibration_only": true,
+  "original_whole_correct_targets": 0,
+  "edited_whole_correct_targets": 0,
+  "initially_wrong_targets": 12,
+  "corrected_errors": 0,
+  "original_control_main_correct": 4,
+  "edited_control_main_correct": 4,
+  "original_faithful_narratives": 0,
+  "edited_faithful_narratives": 0,
+  "changed_parameters": 57344,
+  "third_set_read": false,
+  "final_set_read": false,
+  "checkpoint_exported": false,
+  "current_checkpoint_attempt": 6,
+  "interpretation": "Amplifying head 14.13 does not recover factual knowledge. Question-identity probe success was not evidence that this single change would improve answers. Cat translation remains correct but the edited response adds false bird anatomy claims.",
+  "targets": [
+    {
+      "id": "second_creator_0",
+      "original_whole_correct": false,
+      "edited_whole_correct": false,
+      "reason": "Both confuse Collodi, the author, with the maker inside the story."
+    },
+    {
+      "id": "second_material_0",
+      "original_whole_correct": false,
+      "edited_whole_correct": false,
+      "reason": "Original invents family and castle details; amplified version invents a cat body and magic stone."
+    },
+    {
+      "id": "second_nose_0",
+      "original_whole_correct": false,
+      "edited_whole_correct": false,
+      "reason": "Neither states the canonical growing nose; both invent changes in appearance."
+    },
+    {
+      "id": "second_fairy_0",
+      "original_whole_correct": false,
+      "edited_whole_correct": false,
+      "reason": "Original says water; amplified version says black and gold."
+    },
+    {
+      "id": "second_deceivers_0",
+      "original_whole_correct": false,
+      "edited_whole_correct": false,
+      "reason": "Both invent Carlo instead of naming the Cat and Fox."
+    },
+    {
+      "id": "second_donkey_0",
+      "original_whole_correct": false,
+      "edited_whole_correct": false,
+      "reason": "Both name Pinocchio itself as the animal."
+    },
+    {
+      "id": "second_ending_0",
+      "original_whole_correct": false,
+      "edited_whole_correct": false,
+      "reason": "Both claim a transformation into a dog."
+    },
+    {
+      "id": "second_puppeteer_0",
+      "original_whole_correct": false,
+      "edited_whole_correct": false,
+      "reason": "Neither identifies Mangiafoco; amplified version adds an unrelated employee."
+    },
+    {
+      "id": "second_friend_0",
+      "original_whole_correct": false,
+      "edited_whole_correct": false,
+      "reason": "Both invent Amicino instead of Lucignolo."
+    },
+    {
+      "id": "second_wood_donor_0",
+      "original_whole_correct": false,
+      "edited_whole_correct": false,
+      "reason": "Both invent Fafnir and a king of Switzerland."
+    },
+    {
+      "id": "second_rescuer_0",
+      "original_whole_correct": false,
+      "edited_whole_correct": false,
+      "reason": "Both name the dog Pinocchio instead of Alidoro."
+    },
+    {
+      "id": "second_fish_father_0",
+      "original_whole_correct": false,
+      "edited_whole_correct": false,
+      "reason": "Neither identifies the reunion with Geppetto; both invent fish/dog events."
+    }
+  ],
+  "controls": [
+    {
+      "id": "second_control_00",
+      "main_preserved": true,
+      "reason": "Both answer Paris."
+    },
+    {
+      "id": "second_control_04",
+      "main_preserved": true,
+      "new_false_additions": true,
+      "reason": "Both translate cat as gatto; amplification adds false bird anatomy and taxonomy."
+    },
+    {
+      "id": "second_control_10",
+      "main_preserved": true,
+      "reason": "Both answer four."
+    },
+    {
+      "id": "second_control_13",
+      "main_preserved": true,
+      "reason": "Both answer Rome."
+    }
+  ],
+  "narratives": [
+    {
+      "id": "narration_0",
+      "both_incorrect": true,
+      "reason": "Original invents a two-year-old child and Signor Pinocchio; amplification invents a child with golden skin and a toy puppet."
+    },
+    {
+      "id": "narration_1",
+      "both_incorrect": true,
+      "reason": "Original invents Rosina/Carlo family events; amplification invents publication in 1832, a girl transformation, and the king of Berlin."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "qual_authorized_00": {
+    "model": "agentic-original:latest",
+    "created_at": "2026-11-05T19:26:17.1368136Z",
+    "message": {
+      "role": "",
+      "content": ""
+    },
+    "done": false,
+    "_debug_info": {
+      "rendered_template": "<|im_start|>system\nYou are a helpful assistant. Use tools only when explicitly requested by the user. Answer concisely in the user's language.\n\n# Tools\n\nYou may call one or more functions to assist with the user query.\n\nYou are provided with function signatures within <tools></tools> XML tags:\n<tools>\n{\"type\": \"function\", \"function\": {\"name\": \"hello_world\", \"description\": \"A local Hello World demonstration. Use this function only when the user explicitly requests its execution. It accepts no arguments.\", \"parameters\": {\"type\": \"object\", \"properties\": {}}}}\n</tools>\n\nFor each function call, return a json object with function name and arguments within <tool_call></tool_call> XML tags:\n<tool_call>\n{\"name\": <function-name>, \"arguments\": <args-json-object>}\n</tool_call><|im_end|>\n<|im_start|>user\nChiama la funzione hello_world.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n"
+    }
+  },
+  "qual_target_00": {
+    "model": "agentic-original:latest",
+    "created_at": "2026-11-05T19:26:17.2014831Z",
+    "message": {
+      "role": "",
+      "content": ""
+    },
+    "done": false,
+    "_debug_info": {
+      "rendered_template": "<|im_start|>system\nYou are a helpful assistant. Use tools only when explicitly requested by the user. Answer concisely in the user's language.\n\n# Tools\n\nYou may call one or more functions to assist with the user query.\n\nYou are provided with function signatures within <tools></tools> XML tags:\n<tools>\n{\"type\": \"function\", \"function\": {\"name\": \"hello_world\", \"description\": \"A local Hello World demonstration. Use this function only when the user explicitly requests its execution. It accepts no arguments.\", \"parameters\": {\"type\": \"object\", \"properties\": {}}}}\n</tools>\n\nFor each function call, return a json object with function name and arguments within <tool_call></tool_call> XML tags:\n<tool_call>\n{\"name\": <function-name>, \"arguments\": <args-json-object>}\n</tool_call><|im_end|>\n<|im_start|>user\nChi è Geppetto nella storia di Pinocchio?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n"
+    }
+  },
+  "qual_non_target_00": {
+    "model": "agentic-original:latest",
+    "created_at": "2026-11-05T19:26:17.2741973Z",
+    "message": {
+      "role": "",
+      "content": ""
+    },
+    "done": false,
+    "_debug_info": {
+      "rendered_template": "<|im_start|>system\nYou are a helpful assistant. Use tools only when explicitly requested by the user. Answer concisely in the user's language.\n\n# Tools\n\nYou may call one or more functions to assist with the user query.\n\nYou are provided with function signatures within <tools></tools> XML tags:\n<tools>\n{\"type\": \"function\", \"function\": {\"name\": \"hello_world\", \"description\": \"A local Hello World demonstration. Use this function only when the user explicitly requests its execution. It accepts no arguments.\", \"parameters\": {\"type\": \"object\", \"properties\": {}}}}\n</tools>\n\nFor each function call, return a json object with function name and arguments within <tool_call></tool_call> XML tags:\n<tool_call>\n{\"name\": <function-name>, \"arguments\": <args-json-object>}\n</tool_call><|im_end|>\n<|im_start|>user\nQuanto fa 2+2?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n"
+    }
+  }
+}

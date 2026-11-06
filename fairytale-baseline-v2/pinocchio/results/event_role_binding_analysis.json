@@ -1,0 +1,1284 @@
+{
+  "spec": {
+    "utc": "2026-11-05T12:38:31.828544+00:00",
+    "hypothesis": "The puppet equation transfers to four new origin clauses but also changes a previously correct ending clause. Determine whether one reduced nonnegative amplitude can separate these measured uses without sacrificing the original construction constraints.",
+    "variable": "s in [0,1] multiplies only the first rank-one origin equation; the two wood equations remain unchanged",
+    "constraints": [
+      {
+        "id": "narrative_origin_a",
+        "record_index": 0,
+        "kind": "retain_origin",
+        "target": 7795,
+        "coefficient": 0.9107552559465293
+      },
+      {
+        "id": "narrative_ending_a",
+        "record_index": 4,
+        "kind": "preserve_previous_decision",
+        "target": 3952,
+        "coefficient": 0.33514525679450247
+      },
+      {
+        "id": "narrative_donkey_a",
+        "record_index": 8,
+        "kind": "preserve_previous_decision",
+        "target": 8587,
+        "coefficient": 0.4811081565914123
+      },
+      {
+        "id": "narrative_origin_b",
+        "record_index": 11,
+        "kind": "retain_origin",
+        "target": 7795,
+        "coefficient": 0.8658089151414914
+      },
+      {
+        "id": "narrative_ending_b",
+        "record_index": 15,
+        "kind": "preserve_previous_decision",
+        "target": 75993,
+        "coefficient": 0.38591735280376815
+      },
+      {
+        "id": "narrative_donkey_b",
+        "record_index": 19,
+        "kind": "preserve_previous_decision",
+        "target": 75993,
+        "coefficient": 0.2544940810021227
+      },
+      {
+        "id": "narrative_father",
+        "record_index": 22,
+        "kind": "preserve_previous_decision",
+        "target": 57770,
+        "coefficient": 0.05641940359937133
+      },
+      {
+        "id": "narrative_creator",
+        "record_index": 26,
+        "kind": "preserve_previous_decision",
+        "target": 57770,
+        "coefficient": 0.08775432975389033
+      },
+      {
+        "id": "narrative_created",
+        "record_index": 30,
+        "kind": "preserve_previous_decision",
+        "target": 330,
+        "coefficient": 0.03336522594962482
+      },
+      {
+        "id": "narrative_wood_recipient",
+        "record_index": 34,
+        "kind": "preserve_previous_decision",
+        "target": 393,
+        "coefficient": -0.04100624216377585
+      },
+      {
+        "id": "narrative_wood_donor",
+        "record_index": 38,
+        "kind": "preserve_previous_decision",
+        "target": 650,
+        "coefficient": -0.0953750566529967
+      },
+      {
+        "id": "narrative_friend",
+        "record_index": 45,
+        "kind": "preserve_previous_decision",
+        "target": 57770,
+        "coefficient": 0.09937385013691176
+      },
+      {
+        "id": "neutral_origin_a",
+        "record_index": 49,
+        "kind": "retain_origin",
+        "target": 7795,
+        "coefficient": 0.8639901181198545
+      },
+      {
+        "id": "neutral_ending_a",
+        "record_index": 53,
+        "kind": "preserve_previous_decision",
+        "target": 75993,
+        "coefficient": 0.2762647512701104
+      },
+      {
+        "id": "neutral_donkey_a",
+        "record_index": 57,
+        "kind": "preserve_previous_decision",
+        "target": 8587,
+        "coefficient": 0.24431913639411426
+      },
+      {
+        "id": "neutral_origin_b",
+        "record_index": 60,
+        "kind": "retain_origin",
+        "target": 7795,
+        "coefficient": 0.661854013303092
+      },
+      {
+        "id": "neutral_ending_b",
+        "record_index": 64,
+        "kind": "preserve_previous_decision",
+        "target": 75993,
+        "coefficient": 0.38414773082186915
+      },
+      {
+        "id": "neutral_donkey_b",
+        "record_index": 68,
+        "kind": "preserve_previous_decision",
+        "target": 438,
+        "coefficient": 0.18552747855884485
+      },
+      {
+        "id": "neutral_father",
+        "record_index": 71,
+        "kind": "preserve_previous_decision",
+        "target": 57770,
+        "coefficient": 0.03209098527797269
+      },
+      {
+        "id": "neutral_creator",
+        "record_index": 75,
+        "kind": "preserve_previous_decision",
+        "target": 1207,
+        "coefficient": 0.0034264122136971747
+      },
+      {
+        "id": "neutral_created",
+        "record_index": 79,
+        "kind": "preserve_previous_decision",
+        "target": 330,
+        "coefficient": 0.027286074129413473
+      },
+      {
+        "id": "neutral_wood_recipient",
+        "record_index": 83,
+        "kind": "preserve_previous_decision",
+        "target": 19345,
+        "coefficient": -0.032001300615071865
+      },
+      {
+        "id": "neutral_wood_donor",
+        "record_index": 87,
+        "kind": "preserve_previous_decision",
+        "target": 650,
+        "coefficient": -0.07027828863165046
+      },
+      {
+        "id": "neutral_friend",
+        "record_index": 94,
+        "kind": "preserve_previous_decision",
+        "target": 57770,
+        "coefficient": 0.041849081488091966
+      },
+      {
+        "id": "neutral_cinderella",
+        "record_index": 98,
+        "kind": "preserve_previous_decision",
+        "target": 312,
+        "coefficient": -0.03134013695780302
+      },
+      {
+        "id": "neutral_snow_white",
+        "record_index": 101,
+        "kind": "preserve_previous_decision",
+        "target": 10936,
+        "coefficient": -0.017481150092582123
+      },
+      {
+        "id": "neutral_table",
+        "record_index": 104,
+        "kind": "preserve_previous_decision",
+        "target": 6,
+        "coefficient": -0.026228479243555904
+      },
+      {
+        "id": "neutral_dog",
+        "record_index": 109,
+        "kind": "preserve_previous_decision",
+        "target": 3952,
+        "coefficient": 0.05012406431029198
+      },
+      {
+        "id": "construction_narration_0_0",
+        "record_index": 0,
+        "kind": "retain_constructed_piece_or_native_completion",
+        "target": 7795,
+        "coefficient": 0.999999999999463
+      },
+      {
+        "id": "construction_narration_0_1",
+        "record_index": 1,
+        "kind": "retain_constructed_piece_or_native_completion",
+        "target": 1587,
+        "coefficient": 1.6085743848037737e-13
+      },
+      {
+        "id": "construction_narration_0_2",
+        "record_index": 2,
+        "kind": "retain_constructed_piece_or_native_completion",
+        "target": 3313,
+        "coefficient": 2.076464000744238e-13
+      },
+      {
+        "id": "construction_narration_0_3",
+        "record_index": 3,
+        "kind": "retain_constructed_piece_or_native_completion",
+        "target": 3016,
+        "coefficient": -3.674907600448307e-13
+      },
+      {
+        "id": "construction_narration_1_0",
+        "record_index": 4,
+        "kind": "retain_constructed_piece_or_native_completion",
+        "target": 1051,
+        "coefficient": -6.758135717710445e-13
+      },
+      {
+        "id": "construction_narration_1_1",
+        "record_index": 5,
+        "kind": "retain_constructed_piece_or_native_completion",
+        "target": 45648,
+        "coefficient": -7.505107646466058e-14
+      },
+      {
+        "id": "construction_narration_1_2",
+        "record_index": 6,
+        "kind": "retain_constructed_piece_or_native_completion",
+        "target": 1853,
+        "coefficient": -4.696659727798647e-13
+      },
+      {
+        "id": "construction_narration_1_3",
+        "record_index": 7,
+        "kind": "retain_constructed_piece_or_native_completion",
+        "target": 2472,
+        "coefficient": -6.177280909014371e-13
+      },
+      {
+        "id": "construction_narration_1_4",
+        "record_index": 8,
+        "kind": "retain_constructed_piece_or_native_completion",
+        "target": 2152,
+        "coefficient": 9.751227603160828e-14
+      },
+      {
+        "id": "construction_narration_1_5",
+        "record_index": 9,
+        "kind": "retain_constructed_piece_or_native_completion",
+        "target": 624,
+        "coefficient": -3.0331293032759277e-13
+      }
+    ],
+    "positive_score_inequality": "Require the desired raw score to be positive, then compare positive-branch repetition-adjusted affine scores against every vocabulary token. Negative competitors cannot beat a positive desired score; hence this is sufficient without assuming their signs.",
+    "selection": "Feasibility only. Compute the intersection of exact affine bounds. No parameter sweep or new candidate is executed by this diagnostic.",
+    "source_sha256": "23ae9fd51b62cd1d3fa11144e35206e085886484c5f0a7684305a59e178a7697",
+    "code_sha256": "9ed0a27ab073b4383867b2bd8b52cc637a047b07974c20c98b9eb1d4d7a8079f",
+    "training": false,
+    "optimizer": false,
+    "gradients": false,
+    "new_weights": false,
+    "whole_response_success_claimed": false,
+    "reserved_final_used": false
+  },
+  "first_slots": [
+    {
+      "id": "narrative_origin_a",
+      "role": "origin",
+      "original_rank": 49,
+      "previous_rank": 125,
+      "current_rank": 1,
+      "previous_winner": {
+        "token": 75993,
+        "text": " bamb",
+        "score": 14.439752578735352
+      },
+      "current_winner": {
+        "token": 7795,
+        "text": " bur",
+        "score": 16.280027389526367
+      },
+      "selector_class": "creator",
+      "origin_coefficients": [
+        0.9107552559465287,
+        0.01031719331357378,
+        0.008130861063993633
+      ]
+    },
+    {
+      "id": "narrative_ending_a",
+      "role": "ending",
+      "original_rank": 1,
+      "previous_rank": 2,
+      "current_rank": 2,
+      "previous_winner": {
+        "token": 3952,
+        "text": " anim",
+        "score": 11.170125961303711
+      },
+      "current_winner": {
+        "token": 3952,
+        "text": " anim",
+        "score": 11.137659072875977
+      },
+      "selector_class": "creator",
+      "origin_coefficients": [
+        0.3351452567945027,
+        0.03396790159461001,
+        0.03989884238799865
+      ]
+    },
+    {
+      "id": "narrative_donkey_a",
+      "role": "donkey",
+      "original_rank": 378,
+      "previous_rank": 401,
+      "current_rank": 396,
+      "previous_winner": {
+        "token": 8587,
+        "text": " fant",
+        "score": 11.645732879638672
+      },
+      "current_winner": {
+        "token": 8587,
+        "text": " fant",
+        "score": 11.596611022949219
+      },
+      "selector_class": "puppeteer",
+      "origin_coefficients": [
+        0.48110815659141193,
+        -0.06891130333801954,
+        0.012904308939116552
+      ]
+    },
+    {
+      "id": "narrative_origin_b",
+      "role": "origin",
+      "original_rank": 45,
+      "previous_rank": 106,
+      "current_rank": 1,
+      "previous_winner": {
+        "token": 75993,
+        "text": " bamb",
+        "score": 14.113105773925781
+      },
+      "current_winner": {
+        "token": 7795,
+        "text": " bur",
+        "score": 15.848211288452148
+      },
+      "selector_class": "material",
+      "origin_coefficients": [
+        0.8658089151414916,
+        0.02463826729398664,
+        -0.00020471719223866258
+      ]
+    },
+    {
+      "id": "narrative_ending_b",
+      "role": "ending",
+      "original_rank": 1,
+      "previous_rank": 1,
+      "current_rank": 2,
+      "previous_winner": {
+        "token": 75993,
+        "text": " bamb",
+        "score": 11.491740226745605
+      },
+      "current_winner": {
+        "token": 7795,
+        "text": " bur",
+        "score": 11.971494674682617
+      },
+      "selector_class": "material",
+      "origin_coefficients": [
+        0.3859173528037684,
+        0.04574673184389559,
+        0.03333943530018896
+      ]
+    },
+    {
+      "id": "narrative_donkey_b",
+      "role": "donkey",
+      "original_rank": 196,
+      "previous_rank": 2,
+      "current_rank": 3,
+      "previous_winner": {
+        "token": 75993,
+        "text": " bamb",
+        "score": 12.660717010498047
+      },
+      "current_winner": {
+        "token": 7795,
+        "text": " bur",
+        "score": 12.740676879882812
+      },
+      "selector_class": "donkey",
+      "origin_coefficients": [
+        0.2544940810021228,
+        0.062271122743880546,
+        0.02702192253077578
+      ]
+    },
+    {
+      "id": "narrative_father",
+      "role": "father",
+      "original_rank": 486,
+      "previous_rank": 665,
+      "current_rank": 657,
+      "previous_winner": {
+        "token": 57770,
+        "text": " Carlo",
+        "score": 10.369630813598633
+      },
+      "current_winner": {
+        "token": 57770,
+        "text": " Carlo",
+        "score": 10.302029609680176
+      },
+      "selector_class": "fairy",
+      "origin_coefficients": [
+        0.05641940359937123,
+        0.09382995421404366,
+        0.023029474586931012
+      ]
+    },
+    {
+      "id": "narrative_creator",
+      "role": "creator",
+      "original_rank": 418,
+      "previous_rank": 391,
+      "current_rank": 395,
+      "previous_winner": {
+        "token": 57770,
+        "text": " Carlo",
+        "score": 15.937976837158203
+      },
+      "current_winner": {
+        "token": 57770,
+        "text": " Carlo",
+        "score": 15.867392539978027
+      },
+      "selector_class": "fairy",
+      "origin_coefficients": [
+        0.08775432975389018,
+        0.07544103936094208,
+        0.019609305505340107
+      ]
+    },
+    {
+      "id": "narrative_created",
+      "role": "created",
+      "original_rank": 2,
+      "previous_rank": 4,
+      "current_rank": 4,
+      "previous_winner": {
+        "token": 330,
+        "text": " \"",
+        "score": 9.626033782958984
+      },
+      "current_winner": {
+        "token": 330,
+        "text": " \"",
+        "score": 9.625755310058594
+      },
+      "selector_class": "creator",
+      "origin_coefficients": [
+        0.03336522594962484,
+        0.0327451898683437,
+        -0.011528396558500232
+      ]
+    },
+    {
+      "id": "narrative_wood_recipient",
+      "role": "wood_recipient",
+      "original_rank": 1307,
+      "previous_rank": 1675,
+      "current_rank": 1658,
+      "previous_winner": {
+        "token": 393,
+        "text": " P",
+        "score": 9.310552597045898
+      },
+      "current_winner": {
+        "token": 393,
+        "text": " P",
+        "score": 9.314962387084961
+      },
+      "selector_class": "wood_donor",
+      "origin_coefficients": [
+        -0.041006242163775894,
+        0.004125475241613039,
+        -0.009742391607557344
+      ]
+    },
+    {
+      "id": "narrative_wood_donor",
+      "role": "wood_donor",
+      "original_rank": 1297,
+      "previous_rank": 1222,
+      "current_rank": 1222,
+      "previous_winner": {
+        "token": 650,
+        "text": " un",
+        "score": 9.92040729522705
+      },
+      "current_winner": {
+        "token": 650,
+        "text": " un",
+        "score": 9.906588554382324
+      },
+      "selector_class": "wood_donor",
+      "origin_coefficients": [
+        -0.0953750566529967,
+        -0.0045436191286045285,
+        0.0030041285316636766
+      ]
+    },
+    {
+      "id": "narrative_friend",
+      "role": "friend",
+      "original_rank": 40,
+      "previous_rank": 55,
+      "current_rank": 54,
+      "previous_winner": {
+        "token": 57770,
+        "text": " Carlo",
+        "score": 9.81926155090332
+      },
+      "current_winner": {
+        "token": 57770,
+        "text": " Carlo",
+        "score": 9.7620849609375
+      },
+      "selector_class": "friend",
+      "origin_coefficients": [
+        0.09937385013691172,
+        0.08067413974697976,
+        0.0012041974502489247
+      ]
+    },
+    {
+      "id": "neutral_origin_a",
+      "role": "origin",
+      "original_rank": 225,
+      "previous_rank": 250,
+      "current_rank": 1,
+      "previous_winner": {
+        "token": 75993,
+        "text": " bamb",
+        "score": 14.18497085571289
+      },
+      "current_winner": {
+        "token": 7795,
+        "text": " bur",
+        "score": 15.824579238891602
+      },
+      "selector_class": "outside",
+      "origin_coefficients": [
+        0.8639901181198544,
+        -0.010185126526481618,
+        -0.009315421248659136
+      ]
+    },
+    {
+      "id": "neutral_ending_a",
+      "role": "ending",
+      "original_rank": 1,
+      "previous_rank": 1,
+      "current_rank": 1,
+      "previous_winner": {
+        "token": 75993,
+        "text": " bamb",
+        "score": 11.351144790649414
+      },
+      "current_winner": {
+        "token": 75993,
+        "text": " bamb",
+        "score": 11.334714889526367
+      },
+      "selector_class": "outside",
+      "origin_coefficients": [
+        0.2762647512701102,
+        0.02266989330238974,
+        0.01815906419814592
+      ]
+    },
+    {
+      "id": "neutral_donkey_a",
+      "role": "donkey",
+      "original_rank": 313,
+      "previous_rank": 3,
+      "current_rank": 3,
+      "previous_winner": {
+        "token": 8587,
+        "text": " fant",
+        "score": 11.287577629089355
+      },
+      "current_winner": {
+        "token": 8587,
+        "text": " fant",
+        "score": 11.270017623901367
+      },
+      "selector_class": "donkey",
+      "origin_coefficients": [
+        0.24431913639411415,
+        -0.019619508817960277,
+        0.007435465861748855
+      ]
+    },
+    {
+      "id": "neutral_origin_b",
+      "role": "origin",
+      "original_rank": 321,
+      "previous_rank": 340,
+      "current_rank": 1,
+      "previous_winner": {
+        "token": 75993,
+        "text": " bamb",
+        "score": 13.026910781860352
+      },
+      "current_winner": {
+        "token": 7795,
+        "text": " bur",
+        "score": 13.238274574279785
+      },
+      "selector_class": "material",
+      "origin_coefficients": [
+        0.6618540133030925,
+        -0.06721178559018184,
+        -0.03095962142534797
+      ]
+    },
+    {
+      "id": "neutral_ending_b",
+      "role": "ending",
+      "original_rank": 1,
+      "previous_rank": 1,
+      "current_rank": 1,
+      "previous_winner": {
+        "token": 75993,
+        "text": " bamb",
+        "score": 11.645893096923828
+      },
+      "current_winner": {
+        "token": 75993,
+        "text": " bamb",
+        "score": 11.621623992919922
+      },
+      "selector_class": "donkey",
+      "origin_coefficients": [
+        0.3841477308218692,
+        0.011215849803679026,
+        0.030577717844601573
+      ]
+    },
+    {
+      "id": "neutral_donkey_b",
+      "role": "donkey",
+      "original_rank": 242,
+      "previous_rank": 1,
+      "current_rank": 1,
+      "previous_winner": {
+        "token": 438,
+        "text": " as",
+        "score": 12.479053497314453
+      },
+      "current_winner": {
+        "token": 438,
+        "text": " as",
+        "score": 12.466621398925781
+      },
+      "selector_class": "donkey",
+      "origin_coefficients": [
+        0.18552747855884485,
+        0.0060250573930695425,
+        -0.0010376618039910149
+      ]
+    },
+    {
+      "id": "neutral_father",
+      "role": "father",
+      "original_rank": 693,
+      "previous_rank": 831,
+      "current_rank": 822,
+      "previous_winner": {
+        "token": 57770,
+        "text": " Carlo",
+        "score": 11.079593658447266
+      },
+      "current_winner": {
+        "token": 57770,
+        "text": " Carlo",
+        "score": 11.023618698120117
+      },
+      "selector_class": "fairy",
+      "origin_coefficients": [
+        0.032090985277972564,
+        0.07033808686630255,
+        0.016161521809776418
+      ]
+    },
+    {
+      "id": "neutral_creator",
+      "role": "creator",
+      "original_rank": 720,
+      "previous_rank": 832,
+      "current_rank": 843,
+      "previous_winner": {
+        "token": 1207,
+        "text": " Q",
+        "score": 11.977579116821289
+      },
+      "current_winner": {
+        "token": 1207,
+        "text": " Q",
+        "score": 11.968541145324707
+      },
+      "selector_class": "outside",
+      "origin_coefficients": [
+        0.0034264122136969874,
+        -0.047319334898761105,
+        -0.02562716749423057
+      ]
+    },
+    {
+      "id": "neutral_created",
+      "role": "created",
+      "original_rank": 57,
+      "previous_rank": 46,
+      "current_rank": 44,
+      "previous_winner": {
+        "token": 330,
+        "text": " \"",
+        "score": 10.861167907714844
+      },
+      "current_winner": {
+        "token": 330,
+        "text": " \"",
+        "score": 10.859240531921387
+      },
+      "selector_class": "outside",
+      "origin_coefficients": [
+        0.027286074129413442,
+        0.038145068208065874,
+        -0.029884529620606372
+      ]
+    },
+    {
+      "id": "neutral_wood_recipient",
+      "role": "wood_recipient",
+      "original_rank": 1873,
+      "previous_rank": 1608,
+      "current_rank": 1601,
+      "previous_winner": {
+        "token": 19345,
+        "text": " sua",
+        "score": 9.606510162353516
+      },
+      "current_winner": {
+        "token": 19345,
+        "text": " sua",
+        "score": 9.633279800415039
+      },
+      "selector_class": "outside",
+      "origin_coefficients": [
+        -0.032001300615071934,
+        -0.02718905924690833,
+        -0.03788478646603872
+      ]
+    },
+    {
+      "id": "neutral_wood_donor",
+      "role": "wood_donor",
+      "original_rank": 716,
+      "previous_rank": 746,
+      "current_rank": 749,
+      "previous_winner": {
+        "token": 650,
+        "text": " un",
+        "score": 10.668028831481934
+      },
+      "current_winner": {
+        "token": 650,
+        "text": " un",
+        "score": 10.653018951416016
+      },
+      "selector_class": "wood_donor",
+      "origin_coefficients": [
+        -0.0702782886316505,
+        -0.00976670114891117,
+        0.000948182643042219
+      ]
+    },
+    {
+      "id": "neutral_friend",
+      "role": "friend",
+      "original_rank": 30,
+      "previous_rank": 44,
+      "current_rank": 43,
+      "previous_winner": {
+        "token": 57770,
+        "text": " Carlo",
+        "score": 9.909436225891113
+      },
+      "current_winner": {
+        "token": 57770,
+        "text": " Carlo",
+        "score": 9.910576820373535
+      },
+      "selector_class": "friend",
+      "origin_coefficients": [
+        0.04184908148809213,
+        -0.006857254987773231,
+        -9.825049797777385e-05
+      ]
+    },
+    {
+      "id": "neutral_cinderella",
+      "role": "outside",
+      "original_rank": 3,
+      "previous_rank": 4,
+      "current_rank": 4,
+      "previous_winner": {
+        "token": 312,
+        "text": " re",
+        "score": 10.252609252929688
+      },
+      "current_winner": {
+        "token": 312,
+        "text": " re",
+        "score": 10.251787185668945
+      },
+      "selector_class": "outside",
+      "origin_coefficients": [
+        -0.031340136957803126,
+        0.0680325989523235,
+        0.012416553841055493
+      ]
+    },
+    {
+      "id": "neutral_snow_white",
+      "role": "outside",
+      "original_rank": 3,
+      "previous_rank": 3,
+      "current_rank": 3,
+      "previous_winner": {
+        "token": 10936,
+        "text": " bott",
+        "score": 11.671046257019043
+      },
+      "current_winner": {
+        "token": 10936,
+        "text": " bott",
+        "score": 11.673315048217773
+      },
+      "selector_class": "outside",
+      "origin_coefficients": [
+        -0.017481150092581887,
+        -0.06139843509424955,
+        -0.025016730690928544
+      ]
+    },
+    {
+      "id": "neutral_table",
+      "role": "outside",
+      "original_rank": 164,
+      "previous_rank": 201,
+      "current_rank": 201,
+      "previous_winner": {
+        "token": 6,
+        "text": "'",
+        "score": 12.031862258911133
+      },
+      "current_winner": {
+        "token": 6,
+        "text": "'",
+        "score": 12.026350975036621
+      },
+      "selector_class": "outside",
+      "origin_coefficients": [
+        -0.02622847924355589,
+        0.1188607413116945,
+        -0.045782578055296716
+      ]
+    },
+    {
+      "id": "neutral_dog",
+      "role": "outside",
+      "original_rank": 1,
+      "previous_rank": 1,
+      "current_rank": 1,
+      "previous_winner": {
+        "token": 3952,
+        "text": " anim",
+        "score": 13.964299201965332
+      },
+      "current_winner": {
+        "token": 3952,
+        "text": " anim",
+        "score": 13.96732234954834
+      },
+      "selector_class": "outside",
+      "origin_coefficients": [
+        0.050124064310292045,
+        0.02316901380397081,
+        -0.03575372602792341
+      ]
+    }
+  ],
+  "scalar_bounds": [
+    {
+      "id": "narrative_origin_a",
+      "kind": "retain_origin",
+      "lower": 0.7680181860923767,
+      "upper": Infinity,
+      "static_impossibility": false,
+      "lower_competing_token": 75993,
+      "upper_competing_token": null
+    },
+    {
+      "id": "narrative_ending_a",
+      "kind": "preserve_previous_decision",
+      "lower": -10.417889595031738,
+      "upper": 1.0395671129226685,
+      "static_impossibility": false,
+      "lower_competing_token": 4081,
+      "upper_competing_token": 7795
+    },
+    {
+      "id": "narrative_donkey_a",
+      "kind": "preserve_previous_decision",
+      "lower": -7.6017889976501465,
+      "upper": 1.0519784688949585,
+      "static_impossibility": false,
+      "lower_competing_token": 14754,
+      "upper_competing_token": 7795
+    },
+    {
+      "id": "narrative_origin_b",
+      "kind": "retain_origin",
+      "lower": 0.7676265835762024,
+      "upper": Infinity,
+      "static_impossibility": false,
+      "lower_competing_token": 75993,
+      "upper_competing_token": null
+    },
+    {
+      "id": "narrative_ending_b",
+      "kind": "preserve_previous_decision",
+      "lower": -9.595226287841797,
+      "upper": 0.8577944040298462,
+      "static_impossibility": false,
+      "lower_competing_token": 14754,
+      "upper_competing_token": 7795
+    },
+    {
+      "id": "narrative_donkey_b",
+      "kind": "preserve_previous_decision",
+      "lower": -17.490766525268555,
+      "upper": 0.9515848159790039,
+      "static_impossibility": false,
+      "lower_competing_token": 14754,
+      "upper_competing_token": 7795
+    },
+    {
+      "id": "narrative_father",
+      "kind": "preserve_previous_decision",
+      "lower": -43.63203811645508,
+      "upper": 17.679658889770508,
+      "static_impossibility": false,
+      "lower_competing_token": 350,
+      "upper_competing_token": 7795
+    },
+    {
+      "id": "narrative_creator",
+      "kind": "preserve_previous_decision",
+      "lower": -47.201236724853516,
+      "upper": 14.69743824005127,
+      "static_impossibility": false,
+      "lower_competing_token": 45565,
+      "upper_competing_token": 7795
+    },
+    {
+      "id": "narrative_created",
+      "kind": "preserve_previous_decision",
+      "lower": -65.74739837646484,
+      "upper": 22.715744018554688,
+      "static_impossibility": false,
+      "lower_competing_token": 3815,
+      "upper_competing_token": 7795
+    },
+    {
+      "id": "narrative_wood_recipient",
+      "kind": "preserve_previous_decision",
+      "lower": 0.07905198633670807,
+      "upper": 91.20890808105469,
+      "static_impossibility": false,
+      "lower_competing_token": 17471,
+      "upper_competing_token": 434
+    },
+    {
+      "id": "narrative_wood_donor",
+      "kind": "preserve_previous_decision",
+      "lower": -6.928147792816162,
+      "upper": 26.398944854736328,
+      "static_impossibility": false,
+      "lower_competing_token": 7795,
+      "upper_competing_token": 14754
+    },
+    {
+      "id": "narrative_friend",
+      "kind": "preserve_previous_decision",
+      "lower": -9.803276062011719,
+      "upper": 8.89589786529541,
+      "static_impossibility": false,
+      "lower_competing_token": 350,
+      "upper_competing_token": 7795
+    },
+    {
+      "id": "neutral_origin_a",
+      "kind": "retain_origin",
+      "lower": 0.8065060377120972,
+      "upper": Infinity,
+      "static_impossibility": false,
+      "lower_competing_token": 75993,
+      "upper_competing_token": null
+    },
+    {
+      "id": "neutral_ending_a",
+      "kind": "preserve_previous_decision",
+      "lower": -11.791487693786621,
+      "upper": 1.7855401039123535,
+      "static_impossibility": false,
+      "lower_competing_token": 4081,
+      "upper_competing_token": 7795
+    },
+    {
+      "id": "neutral_donkey_a",
+      "kind": "preserve_previous_decision",
+      "lower": -13.619656562805176,
+      "upper": 1.6019014120101929,
+      "static_impossibility": false,
+      "lower_competing_token": 4081,
+      "upper_competing_token": 7795
+    },
+    {
+      "id": "neutral_origin_b",
+      "kind": "retain_origin",
+      "lower": 0.96108078956604,
+      "upper": Infinity,
+      "static_impossibility": false,
+      "lower_competing_token": 75993,
+      "upper_competing_token": null
+    },
+    {
+      "id": "neutral_ending_b",
+      "kind": "preserve_previous_decision",
+      "lower": -8.991782188415527,
+      "upper": 1.3680914640426636,
+      "static_impossibility": false,
+      "lower_competing_token": 4081,
+      "upper_competing_token": 7795
+    },
+    {
+      "id": "neutral_donkey_b",
+      "kind": "preserve_previous_decision",
+      "lower": -23.892791748046875,
+      "upper": 2.4190566539764404,
+      "static_impossibility": false,
+      "lower_competing_token": 4081,
+      "upper_competing_token": 7795
+    },
+    {
+      "id": "neutral_father",
+      "kind": "preserve_previous_decision",
+      "lower": -95.2057113647461,
+      "upper": 29.13463592529297,
+      "static_impossibility": false,
+      "lower_competing_token": 41177,
+      "upper_competing_token": 7795
+    },
+    {
+      "id": "neutral_creator",
+      "kind": "preserve_previous_decision",
+      "lower": -1165.09619140625,
+      "upper": 234.92005920410156,
+      "static_impossibility": false,
+      "lower_competing_token": 50858,
+      "upper_competing_token": 7795
+    },
+    {
+      "id": "neutral_created",
+      "kind": "preserve_previous_decision",
+      "lower": -98.66254425048828,
+      "upper": 28.51479148864746,
+      "static_impossibility": false,
+      "lower_competing_token": 3815,
+      "upper_competing_token": 7795
+    },
+    {
+      "id": "neutral_wood_recipient",
+      "kind": "preserve_previous_decision",
+      "lower": -21.156511306762695,
+      "upper": 101.37980651855469,
+      "static_impossibility": false,
+      "lower_competing_token": 7795,
+      "upper_competing_token": 434
+    },
+    {
+      "id": "neutral_wood_donor",
+      "kind": "preserve_previous_decision",
+      "lower": -10.463044166564941,
+      "upper": 4.7586493492126465,
+      "static_impossibility": false,
+      "lower_competing_token": 7795,
+      "upper_competing_token": 19345
+    },
+    {
+      "id": "neutral_friend",
+      "kind": "preserve_previous_decision",
+      "lower": -7.246246814727783,
+      "upper": 20.34214973449707,
+      "static_impossibility": false,
+      "lower_competing_token": 350,
+      "upper_competing_token": 7795
+    },
+    {
+      "id": "neutral_cinderella",
+      "kind": "preserve_previous_decision",
+      "lower": -15.597519874572754,
+      "upper": 77.20108795166016,
+      "static_impossibility": false,
+      "lower_competing_token": 7795,
+      "upper_competing_token": 7394
+    },
+    {
+      "id": "neutral_snow_white",
+      "kind": "preserve_previous_decision",
+      "lower": -13.780919075012207,
+      "upper": 69.02249908447266,
+      "static_impossibility": false,
+      "lower_competing_token": 7795,
+      "upper_competing_token": 272
+    },
+    {
+      "id": "neutral_table",
+      "kind": "preserve_previous_decision",
+      "lower": -19.719158172607422,
+      "upper": 102.31085205078125,
+      "static_impossibility": false,
+      "lower_competing_token": 7795,
+      "upper_competing_token": 4081
+    },
+    {
+      "id": "neutral_dog",
+      "kind": "preserve_previous_decision",
+      "lower": -43.52940368652344,
+      "upper": 17.19527244567871,
+      "static_impossibility": false,
+      "lower_competing_token": 4081,
+      "upper_competing_token": 7795
+    },
+    {
+      "id": "construction_narration_0_0",
+      "kind": "retain_constructed_piece_or_native_completion",
+      "lower": 0.6026843190193176,
+      "upper": Infinity,
+      "static_impossibility": false,
+      "lower_competing_token": 75993,
+      "upper_competing_token": null
+    },
+    {
+      "id": "construction_narration_0_1",
+      "kind": "retain_constructed_piece_or_native_completion",
+      "lower": -Infinity,
+      "upper": Infinity,
+      "static_impossibility": false,
+      "lower_competing_token": null,
+      "upper_competing_token": null
+    },
+    {
+      "id": "construction_narration_0_2",
+      "kind": "retain_constructed_piece_or_native_completion",
+      "lower": -Infinity,
+      "upper": Infinity,
+      "static_impossibility": false,
+      "lower_competing_token": null,
+      "upper_competing_token": null
+    },
+    {
+      "id": "construction_narration_0_3",
+      "kind": "retain_constructed_piece_or_native_completion",
+      "lower": -Infinity,
+      "upper": Infinity,
+      "static_impossibility": false,
+      "lower_competing_token": null,
+      "upper_competing_token": null
+    },
+    {
+      "id": "construction_narration_1_0",
+      "kind": "retain_constructed_piece_or_native_completion",
+      "lower": -Infinity,
+      "upper": Infinity,
+      "static_impossibility": false,
+      "lower_competing_token": null,
+      "upper_competing_token": null
+    },
+    {
+      "id": "construction_narration_1_1",
+      "kind": "retain_constructed_piece_or_native_completion",
+      "lower": -Infinity,
+      "upper": Infinity,
+      "static_impossibility": false,
+      "lower_competing_token": null,
+      "upper_competing_token": null
+    },
+    {
+      "id": "construction_narration_1_2",
+      "kind": "retain_constructed_piece_or_native_completion",
+      "lower": -Infinity,
+      "upper": Infinity,
+      "static_impossibility": false,
+      "lower_competing_token": null,
+      "upper_competing_token": null
+    },
+    {
+      "id": "construction_narration_1_3",
+      "kind": "retain_constructed_piece_or_native_completion",
+      "lower": -Infinity,
+      "upper": Infinity,
+      "static_impossibility": false,
+      "lower_competing_token": null,
+      "upper_competing_token": null
+    },
+    {
+      "id": "construction_narration_1_4",
+      "kind": "retain_constructed_piece_or_native_completion",
+      "lower": -Infinity,
+      "upper": Infinity,
+      "static_impossibility": false,
+      "lower_competing_token": null,
+      "upper_competing_token": null
+    },
+    {
+      "id": "construction_narration_1_5",
+      "kind": "retain_constructed_piece_or_native_completion",
+      "lower": -Infinity,
+      "upper": Infinity,
+      "static_impossibility": false,
+      "lower_competing_token": null,
+      "upper_competing_token": null
+    }
+  ],
+  "joint_lower": 0.96108078956604,
+  "joint_upper": 0.8577944040298462,
+  "joint_feasible": false,
+  "bound_numerics": "F32 decoder products; final selected matrix would require fresh numerical and free-generation verification.",
+  "origin_first_piece_transfer": {
+    "probes": 4,
+    "current_first": 4
+  },
+  "no_whole_answer_or_narrative_improvement_counted": true
+}

@@ -1,0 +1,173 @@
+{
+  "utc": "2026-11-05T11:00:19.102056+00:00",
+  "decision_by": "Codex",
+  "hypothesis_before_outputs": "The original may access story relations more reliably in English than in Italian. Compare ordinary English factual answers and Pinocchio narratives with previously recorded Italian failures, and use two other stories to separate Pinocchio weakness from general narrative weakness.",
+  "interpretation": "A correct English answer diagnoses existing ability; it is not a weight correction or an acceptable final-language workaround. An incorrect answer does not prove that the knowledge is absent from all internal states.",
+  "cases": [
+    {
+      "id": "en_creator",
+      "group": "fact",
+      "fact": "creator",
+      "prompt": "Who makes Pinocchio in the original story by Carlo Collodi? Answer in one or two sentences.",
+      "max_new_tokens": 128
+    },
+    {
+      "id": "en_material",
+      "group": "fact",
+      "fact": "material",
+      "prompt": "What material is Pinocchio made of at the beginning of Collodi's story? Answer in one or two sentences.",
+      "max_new_tokens": 128
+    },
+    {
+      "id": "en_nose",
+      "group": "fact",
+      "fact": "nose",
+      "prompt": "What happens to Pinocchio's nose when he tells lies? Answer in one or two sentences.",
+      "max_new_tokens": 128
+    },
+    {
+      "id": "en_fairy",
+      "group": "fact",
+      "fact": "fairy",
+      "prompt": "What color is the Fairy's hair in Collodi's Pinocchio? Answer in one or two sentences.",
+      "max_new_tokens": 128
+    },
+    {
+      "id": "en_deceivers",
+      "group": "fact",
+      "fact": "deceivers",
+      "prompt": "Which two animals deceive Pinocchio about planting his gold coins? Answer in one or two sentences.",
+      "max_new_tokens": 128
+    },
+    {
+      "id": "en_donkey",
+      "group": "fact",
+      "fact": "donkey",
+      "prompt": "What animal does Pinocchio turn into after visiting the Land of Toys? Answer in one or two sentences.",
+      "max_new_tokens": 128
+    },
+    {
+      "id": "en_ending",
+      "group": "fact",
+      "fact": "ending",
+      "prompt": "What does Pinocchio become at the end of Collodi's story? Answer in one or two sentences.",
+      "max_new_tokens": 128
+    },
+    {
+      "id": "en_puppeteer",
+      "group": "fact",
+      "fact": "puppeteer",
+      "prompt": "What is the name of the puppet theater owner in Collodi's Pinocchio? Answer in one or two sentences.",
+      "max_new_tokens": 128
+    },
+    {
+      "id": "en_friend",
+      "group": "fact",
+      "fact": "friend",
+      "prompt": "What is the name of Pinocchio's friend who goes with him to the Land of Toys? Answer in one or two sentences.",
+      "max_new_tokens": 128
+    },
+    {
+      "id": "en_wood_donor",
+      "group": "fact",
+      "fact": "wood_donor",
+      "prompt": "Who gives Geppetto the piece of wood from which he makes Pinocchio? Answer in one or two sentences.",
+      "max_new_tokens": 128
+    },
+    {
+      "id": "en_rescuer",
+      "group": "fact",
+      "fact": "rescuer",
+      "prompt": "Which dog rescues Pinocchio from the Green Fisherman? Answer in one or two sentences.",
+      "max_new_tokens": 128
+    },
+    {
+      "id": "en_fish_father",
+      "group": "fact",
+      "fact": "fish_father",
+      "prompt": "Whom does Pinocchio find inside the giant Dogfish? Answer in one or two sentences.",
+      "max_new_tokens": 128
+    },
+    {
+      "id": "en_capital",
+      "group": "control",
+      "fact": "capital",
+      "prompt": "What country is Paris in? Answer in one or two sentences.",
+      "max_new_tokens": 128
+    },
+    {
+      "id": "en_arithmetic",
+      "group": "control",
+      "fact": "arithmetic",
+      "prompt": "What is two plus two? Answer in one or two sentences.",
+      "max_new_tokens": 128
+    },
+    {
+      "id": "en_shark",
+      "group": "control",
+      "fact": "shark",
+      "prompt": "Is a shark a fish or a mammal? Answer in one or two sentences.",
+      "max_new_tokens": 128
+    },
+    {
+      "id": "en_habitat",
+      "group": "control",
+      "fact": "habitat",
+      "prompt": "In what kind of environment do fish live? Answer in one or two sentences.",
+      "max_new_tokens": 128
+    },
+    {
+      "id": "en_pinocchio_prose",
+      "group": "narrative",
+      "fact": "pinocchio_prose",
+      "prompt": "Tell the story of The Adventures of Pinocchio by Carlo Collodi in about 180 words, from the puppet's origin to the ending.",
+      "max_new_tokens": 256
+    },
+    {
+      "id": "en_pinocchio_events",
+      "group": "narrative",
+      "fact": "pinocchio_events",
+      "prompt": "Reconstruct the main events of Pinocchio in Carlo Collodi's original novel in eight points.",
+      "max_new_tokens": 256
+    },
+    {
+      "id": "en_three_pigs",
+      "group": "narrative",
+      "fact": "three_pigs",
+      "prompt": "Tell the traditional story of the Three Little Pigs in about 180 words, from the beginning to the ending.",
+      "max_new_tokens": 256
+    },
+    {
+      "id": "en_tortoise_hare",
+      "group": "narrative",
+      "fact": "tortoise_hare",
+      "prompt": "Reconstruct the main events of the traditional fable of the Tortoise and the Hare in eight points.",
+      "max_new_tokens": 256
+    }
+  ],
+  "original_checkpoint_sha256": "fdf756fa7fcbe7404d5c60e26bff1a0c8b8aa1f72ced49e7dd0210fe288fb7fe",
+  "code_sha256": "30afc26321752adedb3d94895a24444e7e46848566faf4b12376f1a976018249",
+  "sampling": {
+    "runtime": "Transformers",
+    "dtype": "float32",
+    "do_sample": false,
+    "repetition_penalty": 1.1,
+    "seed": 42,
+    "threads": 6,
+    "batch_size": 4,
+    "template": "unchanged original Qwen chat template"
+  },
+  "diagnostic_only": true,
+  "weights_changed": false,
+  "counts_as_correction": false,
+  "runtime_hooks": false,
+  "corrective_context": false,
+  "provided_answer_prefix": false,
+  "final_set_read": false,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "completed": true,
+  "responses_sha256": "c18cda1cf0f1dbf93505f4a9b3bdb670d1a93160ce449a7aeca733db16d2940b",
+  "completed_utc": "2026-11-05T11:03:05.725586+00:00"
+}

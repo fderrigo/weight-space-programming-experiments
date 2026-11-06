@@ -1,0 +1,12 @@
+{
+  "utc": "2026-11-04T17:27:28.473658+00:00",
+  "sha256": "8b7fd9e6a433fa1f77af5c0e5ae18486ee3c52704d14528b90f91fa193911f41",
+  "count": 88,
+  "model": "cappuccetto-original",
+  "hf_revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "checkpoint_sha256": "fdf756fa7fcbe7404d5c60e26bff1a0c8b8aa1f72ced49e7dd0210fe288fb7fe",
+  "purpose": "diagnosis/development only; not final heldout",
+  "canonical_source": "https://www.gutenberg.org/cache/epub/52484/pg52484-images.html",
+  "edition": "Bemporad 1902, Carlo Chiostri illustrations",
+  "coverage": "all 36 chapters, one episode probe each; not exhaustive of every possible fact"
+}

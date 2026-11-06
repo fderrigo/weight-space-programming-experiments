@@ -1,0 +1,342 @@
+{
+  "utc": "2026-11-05T13:00:01.618053+00:00",
+  "head": "b11157b310c33443fee1e811da65f0c09d9f7daf",
+  "code_sha256": "d68d5617920847643fd1df7f7e3cad1c9e0a697bb3c0c49870fbb5504bd7285b",
+  "hash_checks": [
+    {
+      "path": "results\\attempt_1_quick.json",
+      "sha256": "484b93e5dbcfb14896caa5bcf677ed0095190806ed68f624a106a61ddf62cc7c"
+    },
+    {
+      "path": "results\\attempt_2_quick.json",
+      "sha256": "1a9e0987a7d021f60f4010d7e8433fbede36fa3173a9054ade20541484da3620"
+    },
+    {
+      "path": "results\\attempt_3_quick.json",
+      "sha256": "764bd50ce66fbcdf1e25698eedbdbf9f7b5d8cec4be918ea2680bc15610656af"
+    },
+    {
+      "path": "results\\attempt_4_transfer.json",
+      "sha256": "3cfd5ca5112e0080f44fe22e144c56fbd5be1abf7acee035f76ec1dd7e6e89d2"
+    },
+    {
+      "path": "results\\attempt_5_newdevelopment.json",
+      "sha256": "0171346a219c07bda2f0df7ed1e4bd24254fd5f24cb2ebc109794eaf831c5395"
+    },
+    {
+      "path": "results\\attempt_6_seconddevelopment.json",
+      "sha256": "3af2d397e5f058d26aacf21bebd34c854703646689a37c3399ee8c19b68b1b58"
+    },
+    {
+      "path": "results\\attention_gain_screen.json",
+      "sha256": "640baf45a5bf24050a356d0f74aa6e1d181d1e957d185ad4c75dd7fb03defd7b"
+    },
+    {
+      "path": "results\\bare_context_screen.json",
+      "sha256": "10dc69ee9235fad2018cc768d3b3be764281401de592eb88b69abf4401e6dd99"
+    },
+    {
+      "path": "results\\bounded_fact_screen.json",
+      "sha256": "0040346350ff274ef75906baab1818e60609b889d71d5549ac4757616970b774"
+    },
+    {
+      "path": "results\\bounded_relational_screen.json",
+      "sha256": "7f736c831e1c4fdd91313a03fe4ad898bc06d8f7fb6fa16b8463b3235be3209a"
+    },
+    {
+      "path": "results\\bounded_relational_screen.json",
+      "sha256": "7f736c831e1c4fdd91313a03fe4ad898bc06d8f7fb6fa16b8463b3235be3209a"
+    },
+    {
+      "path": "results\\bounded_residual_screen.json",
+      "sha256": "fb8866f999552f6c63043ad9c585e33a15b19620a3bf0255b82485593749d287"
+    },
+    {
+      "path": "results\\causal_component_tests.json",
+      "sha256": "c746ba050a835ff4c536cbe93fbd151d772d151f1b709292d1c4e7f0dce2392b"
+    },
+    {
+      "path": "results\\causal_component_tests.json",
+      "sha256": "c746ba050a835ff4c536cbe93fbd151d772d151f1b709292d1c4e7f0dce2392b"
+    },
+    {
+      "path": "results\\causal_component_tests.json",
+      "sha256": "c746ba050a835ff4c536cbe93fbd151d772d151f1b709292d1c4e7f0dce2392b"
+    },
+    {
+      "path": "results\\causal_component_tests.json",
+      "sha256": "c746ba050a835ff4c536cbe93fbd151d772d151f1b709292d1c4e7f0dce2392b"
+    },
+    {
+      "path": "results\\centered_attention_fact_screen.json",
+      "sha256": "660b9eb74385189704273167742dc17e6bd1e67eae2b302b7376cfe75da3e3d7"
+    },
+    {
+      "path": "results\\centered_layer21_question_screen.json",
+      "sha256": "e1419e1067c0488cce773475433ba6d43a8bcd2db86799f4c0d477c73be0fc35"
+    },
+    {
+      "path": "results\\contextual_readout_screen.json",
+      "sha256": "44fa6b8bfc1801c32137e89ecdf73d268bf5e90559e6c2771fbd2d8cf8aea71e"
+    },
+    {
+      "path": "results\\covariance_mean_screen.json",
+      "sha256": "d4265b6e4aedae86f5f058ee9a8caad56cd36d126b4ff1ad271238a12e66191e"
+    },
+    {
+      "path": "results\\erased_prototype_carrier_screen.json",
+      "sha256": "09e5be8c55c74cd39a72f1968c2d813e76853a13c3fbeaa59c728d9869974a4e"
+    },
+    {
+      "path": "results\\expanded_context_screen.json",
+      "sha256": "10c74608e6b75bbc33ea97ccb0d2cc230e112655bf0b9b04e96b03a047165dfe"
+    },
+    {
+      "path": "results\\factorized_carrier_screen.json",
+      "sha256": "f58d55d566f4f4291e8e3464e2f332fe4013e77610d6c73eff0c723c262819c5"
+    },
+    {
+      "path": "results\\factorized_carrier_third_observed.json",
+      "sha256": "7a094c78e4d96fe4b5ee6f9f27686615ac560219f0096c6e500608d521a2e14f"
+    },
+    {
+      "path": "results\\hybrid_preservation_screen.json",
+      "sha256": "9df43e7dc820339abcb93848061a7b05178384fc2b4eca022a77fe3a60199702"
+    },
+    {
+      "path": "results\\late_margin_preservation_screen.json",
+      "sha256": "268b8e394bcb6068e1a1501cc694d9c9bc274346e651afca5578d4a8a05bae4b"
+    },
+    {
+      "path": "results\\late_margin_preservation_third_observed.json",
+      "sha256": "1de386a791e2df2c351146df3d0242b408b8c5d64e0e0c376b1bbdbb7d5de432"
+    },
+    {
+      "path": "results\\late_selector_fact_screen.json",
+      "sha256": "b3ec4318d91e042d4a69048d100e31bfa205ad32e46fc612bbe9dc714421c140"
+    },
+    {
+      "path": "results\\middle22_protected_screen.json",
+      "sha256": "45eb98c7622edb4bcd1ac7194bc2c17829acc9639fef643ae73d579c534969a3"
+    },
+    {
+      "path": "results\\minimal_fact_completion_screen.json",
+      "sha256": "810697647ac1da28a508052d2d51970635e4d198b77e35a55036d095141e8f12"
+    },
+    {
+      "path": "results\\minimal_fact_completion_third_edited_hf.json",
+      "sha256": "41c956978dc31c93656776ad9c9c74fbf246d72ffaeb771f89044092ce6f44bf"
+    },
+    {
+      "path": "results\\multipoint_protected_screen.json",
+      "sha256": "3db20599f646c9d149c799d89e175fd176bcd0eab5ef2914dd2f531523e50b26"
+    },
+    {
+      "path": "results\\native_completion_2077_screen.json",
+      "sha256": "ae2e19797a853ee61da147110a8e44053bd422a95abb3f2a36d457fef159fd31"
+    },
+    {
+      "path": "results\\orthogonal_distinct_512_screen.json",
+      "sha256": "6f70e62a567f71725e855b7de8ff6e2177673f58431fe0849bb59ae5b981f7a6"
+    },
+    {
+      "path": "results\\orthogonal_story_natural_512_controls_screen.json",
+      "sha256": "2f5e0de87b18fc7c466034aa994baf2bdf7eeff2d3703ca21a5d9c47196bb2a8"
+    },
+    {
+      "path": "results\\orthogonal_story_natural_512_generated_screen.json",
+      "sha256": "99da76ec793d22e688954eba7e59965369e8b6509b0dc3ae0486fb1dd8d220c5"
+    },
+    {
+      "path": "results\\orthogonal_story_roles_2048_controls_native_screen.json",
+      "sha256": "2788b7287c1d15d18e30b2d8106f9da47395868b9f96c90b4af7080e9d03ece0"
+    },
+    {
+      "path": "results\\orthogonal_story_roles_2048_controls_native_v2_screen.json",
+      "sha256": "548132e2d9bc51d5855c07f816141c4182afa69650bc81ef050d3b76f41eab76"
+    },
+    {
+      "path": "results\\orthogonal_story_start_512_generated_screen.json",
+      "sha256": "15cbaa4741c0cf17bdc8abfd9c4b86c218f9b7917f80eabdfa834d7ae2604cc2"
+    },
+    {
+      "path": "results\\pairwise_constraint_screen.json",
+      "sha256": "e439d8c4cfefcaeb21a6cf3e671f3203111e2520d942cd32d206fae3aa5871f9"
+    },
+    {
+      "path": "results\\progress_prototype_carrier_screen.json",
+      "sha256": "429789eadd9ff41d1777086f6a965770688895b7a0b7b83ebafd668ee41fb927"
+    },
+    {
+      "path": "results\\reference_selector_fact_screen.json",
+      "sha256": "231161d07b4f4da5a802fe7a87a51d3847dbfabb0394ec99dc206e5f9d134738"
+    },
+    {
+      "path": "results\\relational_distinct_screen.json",
+      "sha256": "d2d21036f6839c75a20f9236b49da59e062cefddf4966c90783cc12e747b4e58"
+    },
+    {
+      "path": "results\\relational_distinct_screen.json",
+      "sha256": "d2d21036f6839c75a20f9236b49da59e062cefddf4966c90783cc12e747b4e58"
+    },
+    {
+      "path": "results\\relational_screen.json",
+      "sha256": "c9a5f4279130943e9e8b60ac54aa4bbba9f29afae54e4a86a847ddb3afa42a05"
+    },
+    {
+      "path": "results\\relational_screen.json",
+      "sha256": "c9a5f4279130943e9e8b60ac54aa4bbba9f29afae54e4a86a847ddb3afa42a05"
+    },
+    {
+      "path": "results\\relational_story_screen.json",
+      "sha256": "a41053eae9796b97a22742e7f85ea3d6c3b3052b1525c9691dd1e44848ebea1e"
+    },
+    {
+      "path": "results\\semantic_carrier_screen.json",
+      "sha256": "bde59e07246b468c6fc162bdf890737dffb3d1d470b84feb10e19e7f62443be4"
+    },
+    {
+      "path": "results\\semantic_carrier_screen.json",
+      "sha256": "bde59e07246b468c6fc162bdf890737dffb3d1d470b84feb10e19e7f62443be4"
+    },
+    {
+      "path": "results\\sentence_completion_combined_screen.json",
+      "sha256": "e97210376b2a66da958438beadc479ee0e7823908985cbd7b7b13da46f36995a"
+    },
+    {
+      "path": "results\\late_target_contrasts_screen.json",
+      "sha256": "dba5478e9a1ec62e22c661c9b58f68d3ff60b71f853f58581e15154348147918"
+    },
+    {
+      "path": "results\\late_target_contrasts_third_observed.json",
+      "sha256": "ac0f5fb873a4eeed9a0379097536ac8e7e9d2511797f41b7720b6d82e07e8cf7"
+    },
+    {
+      "path": "results\\late_tail_relations_third_observed.json",
+      "sha256": "625da585a44d5acfe793a5ba8a7f315eca33e5018ebc8b7eaedd139c1f0bfec2"
+    },
+    {
+      "path": "results\\late_tail_relations_screen.json",
+      "sha256": "fdee5ac6a862d16b7aa6ed27903bc65dc0218b6cde7b86c2ef8f95e51bf99555"
+    },
+    {
+      "path": "results\\late_tail_relations_fourth_edited_hf.json",
+      "sha256": "c3365f195918958e77bb40505b9a1b7b961b1e5f58df6c7bf08e39a1ae0d557b"
+    },
+    {
+      "path": "results\\late_native_recovery_fourth_observed.json",
+      "sha256": "7412a330fc2dbe7372b19735ca2fc5e8cab0c2831bb404d4a4006764146ae705"
+    },
+    {
+      "path": "results\\late_native_recovery_third_observed.json",
+      "sha256": "ba74ec692d0f4b193d3798e46e5a58c547306a64324ff10b04423e68d333487a"
+    },
+    {
+      "path": "results\\late_native_recovery_screen.json",
+      "sha256": "1343ae44f9aef6c8161d3a5b92ca9aac2b91cde84480151a41cae55d79e65333"
+    },
+    {
+      "path": "results\\late_narrative_origins_screen.json",
+      "sha256": "929cb5b187e9ff1a23bfcad830a27971b1ac53f70ea374197ddb2cba745465fe"
+    },
+    {
+      "path": "results\\late_event_roles_screen.json",
+      "sha256": "f14a862c9bc2799e8d2e8df2469f4f20b3fb45fefcb6a4ebe8778f63126bf034"
+    },
+    {
+      "path": "screen_late_selector_candidate.py",
+      "sha256": "3231d89372e9b8665e7e7ac630259b8a87e256f3ff5207198ba28435cc60de9e"
+    },
+    {
+      "path": "patches\\late_event_roles_basis.safetensors",
+      "sha256": "a9b47014ee70dab5608d24358ef74ca42c7301c7e964803bae443112c5a816db"
+    },
+    {
+      "path": "patches\\late_event_roles_spec.json",
+      "sha256": "094c8954eea6ca4c7460a21187b8b5e2bb64a248a1ec08d9df532b26f0a992f6"
+    },
+    {
+      "path": "late_event_roles_write.py",
+      "sha256": "b0596a97966a23256e0e3d5531f1ad2ebeaf9434ded7b5d8dc1668ed9454fc50"
+    },
+    {
+      "path": "patches\\late_narrative_origins_basis.safetensors",
+      "sha256": "99255e8c94d3444220fbc1341a7d625cdf2e1f90d05d773c4737d579a5910b63"
+    },
+    {
+      "path": "results\\event_role_binding.json",
+      "sha256": "23ae9fd51b62cd1d3fa11144e35206e085886484c5f0a7684305a59e178a7697"
+    },
+    {
+      "path": "results\\event_role_binding_analysis.json",
+      "sha256": "1dc2b8468bd1d0493c31d2dc94e4c288822d0d4aa634d3b3526b71aaba5cc925"
+    },
+    {
+      "path": "late_selector_weights.py",
+      "sha256": "573c2679e71f8cfad8397a26931e2b19a1179410cf897ab549d0b42ec274e9da"
+    },
+    {
+      "path": "results\\late_selector_geometry.npz",
+      "sha256": "5670a1fd7288d71b634bcded334ee4aa22fceba3f4a6f6fabf2396d2c2d4234e"
+    },
+    {
+      "path": "probe_event_role_binding.py",
+      "sha256": "472288b3135fdae6270c2db66b3e3d4f46a3d766d4dd9e59ac8ce7abfd8002c8"
+    },
+    {
+      "path": "results\\event_role_binding_original.npz",
+      "sha256": "f8f825fe645758a0b52d26ebd9abee48173edbebbf35c79601a5b8740b32284f"
+    },
+    {
+      "path": "results\\event_role_binding_late_narrative_origins.npz",
+      "sha256": "18ecd3b79e339b306ee746b6f0816659ae16cf70f1d903eb81c0257c9ed939ca"
+    },
+    {
+      "path": "results\\late_narrative_origins_equations.npz",
+      "sha256": "639010de42dfd66e33f0fe925d151dc72400375608b550bbd6674dabf57606f8"
+    },
+    {
+      "path": "analyze_event_role_binding.py",
+      "sha256": "9ed0a27ab073b4383867b2bd8b52cc637a047b07974c20c98b9eb1d4d7a8079f"
+    },
+    {
+      "path": "results\\event_role_binding.json",
+      "sha256": "23ae9fd51b62cd1d3fa11144e35206e085886484c5f0a7684305a59e178a7697"
+    },
+    {
+      "path": "diagnose_narrative_cell_leak.py",
+      "sha256": "af01d82cd7e4373903b6d3e62c2545d2e8039483694bd79a8d2f8809aaf4e8c5"
+    },
+    {
+      "path": "results\\late_event_roles_screen.json",
+      "sha256": "f14a862c9bc2799e8d2e8df2469f4f20b3fb45fefcb6a4ebe8778f63126bf034"
+    },
+    {
+      "path": "patches\\late_event_roles_basis.safetensors",
+      "sha256": "a9b47014ee70dab5608d24358ef74ca42c7301c7e964803bae443112c5a816db"
+    },
+    {
+      "path": "results\\narrative_cell_leak_late_event_roles.npz",
+      "sha256": "d62b95b11a2ef96a4da3ed72acd8612d3b101cfd8a63ff12147fd8b8ef6d23b8"
+    },
+    {
+      "path": "review_event_roles.py",
+      "sha256": "96985ff560361674427515a2164226069f78a7780c9e8317af32df803bd1cbf4"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\CappuccettoRosso Experiemnt\\little-red-weightspace\\models\\original\\model.safetensors",
+      "sha256": "fdf756fa7fcbe7404d5c60e26bff1a0c8b8aa1f72ced49e7dd0210fe288fb7fe"
+    },
+    {
+      "path": "models\\corrected\\model.safetensors",
+      "sha256": "5c6c3dfe40b260018645c7db7188f1584d898d532e2c3c61dc64eb8cf6735520"
+    },
+    {
+      "path": "final_questions.json",
+      "sha256": "3dc8049ee74a5bac5fc2b844d80e84ce76e609cf67f99f0deeec6976b82447c3"
+    }
+  ],
+  "reserved_questionnaire_binary_hash_only": true,
+  "source_code_parse_checks": 6,
+  "passed": true
+}

@@ -1,0 +1,197 @@
+{
+  "reviewer": "Codex; explicit semantic review, not independent review",
+  "source_sha256": "429789eadd9ff41d1777086f6a965770688895b7a0b7b83ebafd668ee41fb927",
+  "original_source_sha256": "640baf45a5bf24050a356d0f74aa6e1d181d1e957d185ad4c75dd7fb03defd7b",
+  "basis_sha256": "854fb35bc4ca50a8c1525977b5284b1f5971d29266c9522b0afa88c4fda9fe72",
+  "original_target_whole_correct": 0,
+  "initially_wrong_targets": 12,
+  "edited_target_whole_correct": 1,
+  "target_total": 12,
+  "observed_development_repair_percent": 8.333333333333334,
+  "original_control_main_correct": 4,
+  "preserved_control_main_correct": 3,
+  "original_control_whole_correct_conservative": 3,
+  "preserved_control_whole_correct_conservative": 2,
+  "external_same_ids_and_stop": 2,
+  "external_total": 4,
+  "original_faithful_narratives": 0,
+  "edited_faithful_narratives": 0,
+  "narrative_total": 2,
+  "changed_parameters": 43810923,
+  "changed_tensors": 20,
+  "calibration_only": true,
+  "fresh_validation": false,
+  "final_set_read": false,
+  "runtime_hooks": false,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "candidate_promoted": false,
+  "checkpoint_exported": false,
+  "current_exported_checkpoint_attempt": 6,
+  "interpretation": "Reject. Better relation transport and prototype equations do not produce faithful autonomous answers; native continuation and control behavior regress.",
+  "annotations": [
+    {
+      "id": "second_creator_0",
+      "group": "target",
+      "target_whole_correct": false,
+      "control_whole_correct": false,
+      "control_main_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Confuses the fictional maker with Carlo Collodi."
+    },
+    {
+      "id": "second_material_0",
+      "group": "target",
+      "target_whole_correct": false,
+      "control_whole_correct": false,
+      "control_main_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Does not give wood; invents animal, stone, skin and family details."
+    },
+    {
+      "id": "second_nose_0",
+      "group": "target",
+      "target_whole_correct": false,
+      "control_whole_correct": false,
+      "control_main_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Says the hand and tongue lengthen rather than the nose."
+    },
+    {
+      "id": "second_fairy_0",
+      "group": "target",
+      "target_whole_correct": false,
+      "control_whole_correct": false,
+      "control_main_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Starts with the correct blue-hair word but repeats it to the length limit. The whole response is rejected."
+    },
+    {
+      "id": "second_deceivers_0",
+      "group": "target",
+      "target_whole_correct": false,
+      "control_whole_correct": false,
+      "control_main_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Invents Gatto di Cera and omits the Fox."
+    },
+    {
+      "id": "second_donkey_0",
+      "group": "target",
+      "target_whole_correct": false,
+      "control_whole_correct": false,
+      "control_main_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Does not identify the donkey; invents a cultural animal description."
+    },
+    {
+      "id": "second_ending_0",
+      "group": "target",
+      "target_whole_correct": false,
+      "control_whole_correct": false,
+      "control_main_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Mentions a child but attributes the work to Andersen and invents plot and family details."
+    },
+    {
+      "id": "second_puppeteer_0",
+      "group": "target",
+      "target_whole_correct": false,
+      "control_whole_correct": false,
+      "control_main_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Does not identify Mangiafoco; invents Abecqua and sale details."
+    },
+    {
+      "id": "second_friend_0",
+      "group": "target",
+      "target_whole_correct": false,
+      "control_whole_correct": false,
+      "control_main_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Names Amelie rather than Lucignolo."
+    },
+    {
+      "id": "second_wood_donor_0",
+      "group": "target",
+      "target_whole_correct": true,
+      "control_whole_correct": false,
+      "control_main_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Correctly gives Maestro Ciliegia and stops."
+    },
+    {
+      "id": "second_rescuer_0",
+      "group": "target",
+      "target_whole_correct": false,
+      "control_whole_correct": false,
+      "control_main_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Calls the dog a real boy and fails to identify Alidoro."
+    },
+    {
+      "id": "second_fish_father_0",
+      "group": "target",
+      "target_whole_correct": false,
+      "control_whole_correct": false,
+      "control_main_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Names Geppetto but then calls him an animal. Whole response incorrect."
+    },
+    {
+      "id": "second_control_00",
+      "group": "control",
+      "target_whole_correct": false,
+      "control_whole_correct": false,
+      "control_main_correct": true,
+      "same_original_ids_and_stop": false,
+      "reason": "Correct France association followed by the false claim that France belongs to the Italian Republic."
+    },
+    {
+      "id": "second_control_04",
+      "group": "control",
+      "target_whole_correct": false,
+      "control_whole_correct": false,
+      "control_main_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Translates cat as gato rather than Italian gatto."
+    },
+    {
+      "id": "second_control_10",
+      "group": "control",
+      "target_whole_correct": false,
+      "control_whole_correct": true,
+      "control_main_correct": true,
+      "same_original_ids_and_stop": true,
+      "reason": "Correct four answer."
+    },
+    {
+      "id": "second_control_13",
+      "group": "control",
+      "target_whole_correct": false,
+      "control_whole_correct": true,
+      "control_main_correct": true,
+      "same_original_ids_and_stop": true,
+      "reason": "Correct Rome answer."
+    },
+    {
+      "id": "narration_0",
+      "group": "narration",
+      "target_whole_correct": false,
+      "control_whole_correct": false,
+      "control_main_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Invents transformation into a white-haired animal, killing by the father and an Il Principe title; no faithful story."
+    },
+    {
+      "id": "narration_1",
+      "group": "narration",
+      "target_whole_correct": false,
+      "control_whole_correct": false,
+      "control_main_correct": false,
+      "same_original_ids_and_stop": false,
+      "reason": "Talks about translation limitations and does not tell the requested story."
+    }
+  ]
+}

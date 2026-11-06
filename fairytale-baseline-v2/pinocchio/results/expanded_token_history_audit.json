@@ -1,0 +1,174 @@
+{
+  "contexts": 24,
+  "different_token_histories": 4,
+  "rows": [
+    {
+      "id": "second_control_00",
+      "native_count": 10,
+      "retokenized_count": 10,
+      "same_ids": true,
+      "first_difference": null
+    },
+    {
+      "id": "second_control_01",
+      "native_count": 40,
+      "retokenized_count": 40,
+      "same_ids": true,
+      "first_difference": null
+    },
+    {
+      "id": "second_control_02",
+      "native_count": 37,
+      "retokenized_count": 37,
+      "same_ids": false,
+      "first_difference": 31
+    },
+    {
+      "id": "second_control_03",
+      "native_count": 9,
+      "retokenized_count": 9,
+      "same_ids": true,
+      "first_difference": null
+    },
+    {
+      "id": "second_control_04",
+      "native_count": 95,
+      "retokenized_count": 94,
+      "same_ids": false,
+      "first_difference": 52
+    },
+    {
+      "id": "second_control_05",
+      "native_count": 106,
+      "retokenized_count": 105,
+      "same_ids": false,
+      "first_difference": 15
+    },
+    {
+      "id": "second_control_06",
+      "native_count": 13,
+      "retokenized_count": 13,
+      "same_ids": true,
+      "first_difference": null
+    },
+    {
+      "id": "second_control_07",
+      "native_count": 128,
+      "retokenized_count": 128,
+      "same_ids": true,
+      "first_difference": null
+    },
+    {
+      "id": "second_control_08",
+      "native_count": 16,
+      "retokenized_count": 16,
+      "same_ids": true,
+      "first_difference": null
+    },
+    {
+      "id": "second_control_09",
+      "native_count": 54,
+      "retokenized_count": 54,
+      "same_ids": true,
+      "first_difference": null
+    },
+    {
+      "id": "second_control_10",
+      "native_count": 7,
+      "retokenized_count": 7,
+      "same_ids": true,
+      "first_difference": null
+    },
+    {
+      "id": "second_control_11",
+      "native_count": 93,
+      "retokenized_count": 93,
+      "same_ids": true,
+      "first_difference": null
+    },
+    {
+      "id": "second_control_12",
+      "native_count": 93,
+      "retokenized_count": 93,
+      "same_ids": true,
+      "first_difference": null
+    },
+    {
+      "id": "second_control_13",
+      "native_count": 10,
+      "retokenized_count": 10,
+      "same_ids": true,
+      "first_difference": null
+    },
+    {
+      "id": "second_control_14",
+      "native_count": 14,
+      "retokenized_count": 14,
+      "same_ids": true,
+      "first_difference": null
+    },
+    {
+      "id": "second_control_15",
+      "native_count": 30,
+      "retokenized_count": 30,
+      "same_ids": true,
+      "first_difference": null
+    },
+    {
+      "id": "second_control_16",
+      "native_count": 128,
+      "retokenized_count": 128,
+      "same_ids": true,
+      "first_difference": null
+    },
+    {
+      "id": "second_control_17",
+      "native_count": 24,
+      "retokenized_count": 24,
+      "same_ids": true,
+      "first_difference": null
+    },
+    {
+      "id": "second_control_18",
+      "native_count": 128,
+      "retokenized_count": 128,
+      "same_ids": true,
+      "first_difference": null
+    },
+    {
+      "id": "second_control_19",
+      "native_count": 128,
+      "retokenized_count": 128,
+      "same_ids": false,
+      "first_difference": 14
+    },
+    {
+      "id": "long_water_cycle",
+      "native_count": 131,
+      "retokenized_count": 131,
+      "same_ids": true,
+      "first_difference": null
+    },
+    {
+      "id": "long_addition",
+      "native_count": 256,
+      "retokenized_count": 256,
+      "same_ids": true,
+      "first_difference": null
+    },
+    {
+      "id": "long_pasta",
+      "native_count": 54,
+      "retokenized_count": 54,
+      "same_ids": true,
+      "first_difference": null
+    },
+    {
+      "id": "long_day_night",
+      "native_count": 150,
+      "retokenized_count": 150,
+      "same_ids": true,
+      "first_difference": null
+    }
+  ]
+}

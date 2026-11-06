@@ -1,0 +1,522 @@
+{
+  "utc": "2026-11-05T15:32:02.200440+00:00",
+  "code_sha256": "441ca6cf678ace4437ac30f601bb5778ba13294d09770d23d24576d273ef548a",
+  "source_sha256": "d464bbb4e7df89df1601f0f681204fd8c11fa8492acb3320cfeed305276ece59",
+  "decisions": 18,
+  "head_or_kv_group_ablations": 288,
+  "max_expanded_mask_relative_error": 0.0,
+  "max_full_block_margin_difference": 1.430511474609375e-05,
+  "summary": [
+    {
+      "block": 15,
+      "kind": "concept_first",
+      "conditions": [
+        {
+          "condition": "head_0",
+          "native_token_changed": 0,
+          "total": 6,
+          "mean_margin_change": 0.07039435704549153,
+          "changed_ids": []
+        },
+        {
+          "condition": "head_1",
+          "native_token_changed": 0,
+          "total": 6,
+          "mean_margin_change": 0.012929598490397135,
+          "changed_ids": []
+        },
+        {
+          "condition": "head_2",
+          "native_token_changed": 0,
+          "total": 6,
+          "mean_margin_change": -3.4650166829427086e-05,
+          "changed_ids": []
+        },
+        {
+          "condition": "head_3",
+          "native_token_changed": 0,
+          "total": 6,
+          "mean_margin_change": 0.0008112589518229166,
+          "changed_ids": []
+        },
+        {
+          "condition": "head_4",
+          "native_token_changed": 0,
+          "total": 6,
+          "mean_margin_change": 0.0009220441182454427,
+          "changed_ids": []
+        },
+        {
+          "condition": "head_5",
+          "native_token_changed": 0,
+          "total": 6,
+          "mean_margin_change": 0.0002063115437825521,
+          "changed_ids": []
+        },
+        {
+          "condition": "head_6",
+          "native_token_changed": 0,
+          "total": 6,
+          "mean_margin_change": -0.05986563364664713,
+          "changed_ids": []
+        },
+        {
+          "condition": "head_7",
+          "native_token_changed": 0,
+          "total": 6,
+          "mean_margin_change": 0.06458886464436848,
+          "changed_ids": []
+        },
+        {
+          "condition": "head_8",
+          "native_token_changed": 0,
+          "total": 6,
+          "mean_margin_change": -0.0573571523030599,
+          "changed_ids": []
+        },
+        {
+          "condition": "head_9",
+          "native_token_changed": 0,
+          "total": 6,
+          "mean_margin_change": -0.10997660954793294,
+          "changed_ids": []
+        },
+        {
+          "condition": "head_10",
+          "native_token_changed": 0,
+          "total": 6,
+          "mean_margin_change": -0.028167565663655598,
+          "changed_ids": []
+        },
+        {
+          "condition": "head_11",
+          "native_token_changed": 0,
+          "total": 6,
+          "mean_margin_change": 0.005181153615315755,
+          "changed_ids": []
+        },
+        {
+          "condition": "head_12",
+          "native_token_changed": 0,
+          "total": 6,
+          "mean_margin_change": -0.4154348373413086,
+          "changed_ids": []
+        },
+        {
+          "condition": "head_13",
+          "native_token_changed": 0,
+          "total": 6,
+          "mean_margin_change": -0.34863758087158203,
+          "changed_ids": []
+        },
+        {
+          "condition": "kv_group_0",
+          "native_token_changed": 0,
+          "total": 6,
+          "mean_margin_change": 0.020880381266276043,
+          "changed_ids": []
+        },
+        {
+          "condition": "kv_group_1",
+          "native_token_changed": 3,
+          "total": 6,
+          "mean_margin_change": -1.541471799214681,
+          "changed_ids": [
+            "newdev_fairy_0",
+            "newdev_puppeteer_0",
+            "newdev_fish_father_0"
+          ]
+        }
+      ]
+    },
+    {
+      "block": 22,
+      "kind": "concept_first",
+      "conditions": [
+        {
+          "condition": "head_0",
+          "native_token_changed": 0,
+          "total": 6,
+          "mean_margin_change": 0.02712535858154297,
+          "changed_ids": []
+        },
+        {
+          "condition": "head_1",
+          "native_token_changed": 0,
+          "total": 6,
+          "mean_margin_change": 0.011310418446858725,
+          "changed_ids": []
+        },
+        {
+          "condition": "head_2",
+          "native_token_changed": 0,
+          "total": 6,
+          "mean_margin_change": 0.04562075932820638,
+          "changed_ids": []
+        },
+        {
+          "condition": "head_3",
+          "native_token_changed": 0,
+          "total": 6,
+          "mean_margin_change": -0.00015958150227864584,
+          "changed_ids": []
+        },
+        {
+          "condition": "head_4",
+          "native_token_changed": 0,
+          "total": 6,
+          "mean_margin_change": 0.0037361780802408853,
+          "changed_ids": []
+        },
+        {
+          "condition": "head_5",
+          "native_token_changed": 1,
+          "total": 6,
+          "mean_margin_change": -0.9087799390157064,
+          "changed_ids": [
+            "newdev_donkey_0"
+          ]
+        },
+        {
+          "condition": "head_6",
+          "native_token_changed": 0,
+          "total": 6,
+          "mean_margin_change": -0.03852383295694987,
+          "changed_ids": []
+        },
+        {
+          "condition": "head_7",
+          "native_token_changed": 0,
+          "total": 6,
+          "mean_margin_change": -0.1192631721496582,
+          "changed_ids": []
+        },
+        {
+          "condition": "head_8",
+          "native_token_changed": 0,
+          "total": 6,
+          "mean_margin_change": 0.008432865142822266,
+          "changed_ids": []
+        },
+        {
+          "condition": "head_9",
+          "native_token_changed": 1,
+          "total": 6,
+          "mean_margin_change": -0.25717322031656903,
+          "changed_ids": [
+            "newdev_material_0"
+          ]
+        },
+        {
+          "condition": "head_10",
+          "native_token_changed": 0,
+          "total": 6,
+          "mean_margin_change": -0.30953725179036456,
+          "changed_ids": []
+        },
+        {
+          "condition": "head_11",
+          "native_token_changed": 0,
+          "total": 6,
+          "mean_margin_change": -0.004354635874430339,
+          "changed_ids": []
+        },
+        {
+          "condition": "head_12",
+          "native_token_changed": 0,
+          "total": 6,
+          "mean_margin_change": -0.006425380706787109,
+          "changed_ids": []
+        },
+        {
+          "condition": "head_13",
+          "native_token_changed": 0,
+          "total": 6,
+          "mean_margin_change": -0.10213708877563477,
+          "changed_ids": []
+        },
+        {
+          "condition": "kv_group_0",
+          "native_token_changed": 1,
+          "total": 6,
+          "mean_margin_change": -0.7537957827250162,
+          "changed_ids": [
+            "newdev_donkey_0"
+          ]
+        },
+        {
+          "condition": "kv_group_1",
+          "native_token_changed": 0,
+          "total": 6,
+          "mean_margin_change": -0.7655229568481445,
+          "changed_ids": []
+        }
+      ]
+    },
+    {
+      "block": 16,
+      "kind": "concept_last",
+      "conditions": [
+        {
+          "condition": "head_0",
+          "native_token_changed": 1,
+          "total": 6,
+          "mean_margin_change": -0.201600710550944,
+          "changed_ids": [
+            "newdev_fairy_0"
+          ]
+        },
+        {
+          "condition": "head_1",
+          "native_token_changed": 0,
+          "total": 6,
+          "mean_margin_change": -0.03308391571044922,
+          "changed_ids": []
+        },
+        {
+          "condition": "head_2",
+          "native_token_changed": 1,
+          "total": 6,
+          "mean_margin_change": -0.2768910725911458,
+          "changed_ids": [
+            "newdev_fairy_0"
+          ]
+        },
+        {
+          "condition": "head_3",
+          "native_token_changed": 1,
+          "total": 6,
+          "mean_margin_change": -0.34999656677246094,
+          "changed_ids": [
+            "newdev_fairy_0"
+          ]
+        },
+        {
+          "condition": "head_4",
+          "native_token_changed": 1,
+          "total": 6,
+          "mean_margin_change": -0.0033594767252604165,
+          "changed_ids": [
+            "newdev_fairy_0"
+          ]
+        },
+        {
+          "condition": "head_5",
+          "native_token_changed": 1,
+          "total": 6,
+          "mean_margin_change": -0.0046075185139973955,
+          "changed_ids": [
+            "newdev_fairy_0"
+          ]
+        },
+        {
+          "condition": "head_6",
+          "native_token_changed": 0,
+          "total": 6,
+          "mean_margin_change": -0.03809833526611328,
+          "changed_ids": []
+        },
+        {
+          "condition": "head_7",
+          "native_token_changed": 0,
+          "total": 6,
+          "mean_margin_change": 0.0031337738037109375,
+          "changed_ids": []
+        },
+        {
+          "condition": "head_8",
+          "native_token_changed": 1,
+          "total": 6,
+          "mean_margin_change": 0.0003833770751953125,
+          "changed_ids": [
+            "newdev_fairy_0"
+          ]
+        },
+        {
+          "condition": "head_9",
+          "native_token_changed": 0,
+          "total": 6,
+          "mean_margin_change": -0.106903076171875,
+          "changed_ids": []
+        },
+        {
+          "condition": "head_10",
+          "native_token_changed": 0,
+          "total": 6,
+          "mean_margin_change": -0.00046761830647786457,
+          "changed_ids": []
+        },
+        {
+          "condition": "head_11",
+          "native_token_changed": 0,
+          "total": 6,
+          "mean_margin_change": -0.0177462895711263,
+          "changed_ids": []
+        },
+        {
+          "condition": "head_12",
+          "native_token_changed": 0,
+          "total": 6,
+          "mean_margin_change": -0.03470389048258463,
+          "changed_ids": []
+        },
+        {
+          "condition": "head_13",
+          "native_token_changed": 1,
+          "total": 6,
+          "mean_margin_change": 0.007390658060709636,
+          "changed_ids": [
+            "newdev_fairy_0"
+          ]
+        },
+        {
+          "condition": "kv_group_0",
+          "native_token_changed": 1,
+          "total": 6,
+          "mean_margin_change": -1.7253437042236328,
+          "changed_ids": [
+            "newdev_fairy_0"
+          ]
+        },
+        {
+          "condition": "kv_group_1",
+          "native_token_changed": 3,
+          "total": 6,
+          "mean_margin_change": -4.264401276906331,
+          "changed_ids": [
+            "newdev_puppeteer_0",
+            "newdev_rescuer_0",
+            "newdev_fish_father_0"
+          ]
+        }
+      ]
+    }
+  ],
+  "interaction_cases": [
+    {
+      "id": "newdev_fairy_0",
+      "block": 15,
+      "kind": "concept_first",
+      "full_block_changed_token": false,
+      "changed_subset_conditions": [
+        "kv_group_1"
+      ],
+      "interpretation": "A subset changes the token while the full ablation does not."
+    },
+    {
+      "id": "newdev_puppeteer_0",
+      "block": 15,
+      "kind": "concept_first",
+      "full_block_changed_token": true,
+      "changed_subset_conditions": [
+        "kv_group_1"
+      ],
+      "interpretation": "The full ablation changes the token but no single-head ablation does."
+    },
+    {
+      "id": "newdev_fish_father_0",
+      "block": 15,
+      "kind": "concept_first",
+      "full_block_changed_token": true,
+      "changed_subset_conditions": [
+        "kv_group_1"
+      ],
+      "interpretation": "The full ablation changes the token but no single-head ablation does."
+    },
+    {
+      "id": "newdev_material_0",
+      "block": 22,
+      "kind": "concept_first",
+      "full_block_changed_token": false,
+      "changed_subset_conditions": [
+        "head_9"
+      ],
+      "interpretation": "A subset changes the token while the full ablation does not."
+    },
+    {
+      "id": "newdev_fairy_0",
+      "block": 22,
+      "kind": "concept_first",
+      "full_block_changed_token": true,
+      "changed_subset_conditions": [],
+      "interpretation": "The full ablation changes the token but no single-head ablation does."
+    },
+    {
+      "id": "newdev_rescuer_0",
+      "block": 22,
+      "kind": "concept_first",
+      "full_block_changed_token": true,
+      "changed_subset_conditions": [],
+      "interpretation": "The full ablation changes the token but no single-head ablation does."
+    },
+    {
+      "id": "newdev_material_0",
+      "block": 16,
+      "kind": "concept_last",
+      "full_block_changed_token": true,
+      "changed_subset_conditions": [],
+      "interpretation": "The full ablation changes the token but no single-head ablation does."
+    },
+    {
+      "id": "newdev_fairy_0",
+      "block": 16,
+      "kind": "concept_last",
+      "full_block_changed_token": false,
+      "changed_subset_conditions": [
+        "head_0",
+        "head_2",
+        "head_3",
+        "head_4",
+        "head_5",
+        "head_8",
+        "head_13",
+        "kv_group_0"
+      ],
+      "interpretation": "A subset changes the token while the full ablation does not."
+    },
+    {
+      "id": "newdev_donkey_0",
+      "block": 16,
+      "kind": "concept_last",
+      "full_block_changed_token": true,
+      "changed_subset_conditions": [],
+      "interpretation": "The full ablation changes the token but no single-head ablation does."
+    },
+    {
+      "id": "newdev_puppeteer_0",
+      "block": 16,
+      "kind": "concept_last",
+      "full_block_changed_token": true,
+      "changed_subset_conditions": [
+        "kv_group_1"
+      ],
+      "interpretation": "The full ablation changes the token but no single-head ablation does."
+    },
+    {
+      "id": "newdev_rescuer_0",
+      "block": 16,
+      "kind": "concept_last",
+      "full_block_changed_token": true,
+      "changed_subset_conditions": [
+        "kv_group_1"
+      ],
+      "interpretation": "The full ablation changes the token but no single-head ablation does."
+    },
+    {
+      "id": "newdev_fish_father_0",
+      "block": 16,
+      "kind": "concept_last",
+      "full_block_changed_token": true,
+      "changed_subset_conditions": [
+        "kv_group_1"
+      ],
+      "interpretation": "The full ablation changes the token but no single-head ablation does."
+    }
+  ],
+  "weights_changed": false,
+  "free_generation": false,
+  "counts_as_correction": false,
+  "candidate_selected_or_constructed": false,
+  "new_weight_only_corrections": 0,
+  "limitation": "These are next-token measurements on observed reference-assisted histories. Subset effects need not add, and a token change need not be a semantic error. No whole-answer gains are claimed."
+}

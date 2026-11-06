@@ -1,0 +1,26 @@
+{
+  "utc": "2026-11-05T11:57:52.231050+00:00",
+  "decision_by": "Codex",
+  "hypothesis": "The actual narrative origin slots do not recall puppet/wood concepts. Measure all pieces of only these two short concepts and the native decision after each completed unit before selecting an intervention.",
+  "units": [
+    " burattino",
+    " pezzo di legno"
+  ],
+  "supplied_prefix_diagnostic_only": true,
+  "full_answers_prescribed": false,
+  "EOS_prescribed": false,
+  "new_candidate_constructed": false,
+  "free_generation_performed": false,
+  "counts_as_correction": false,
+  "source_trace_sha256": "9959f94a529baf3be8c0758d8e7a316b91f19e32d80a80a7df2bc66608bfa17e",
+  "basis_sha256": "910bc6c673e5f2203cd770681da7db2f13aad5b3f3972be065b13becabad32d7",
+  "code_sha256": "dd4509e22fb3b8b102131d36b73755adee40d709ccfa34439346500c357bf454",
+  "conditions": [
+    "original",
+    "late_native_recovery"
+  ],
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "final_set_read": false
+}

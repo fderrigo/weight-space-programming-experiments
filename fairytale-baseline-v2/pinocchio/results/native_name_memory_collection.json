@@ -1,0 +1,701 @@
+{
+  "completed": true,
+  "spec": {
+    "utc": "2026-11-05T16:03:52.319555+00:00",
+    "decision_by": "Codex",
+    "parent": "unaltered original Qwen2.5-0.5B-Instruct in F32",
+    "blocks": [
+      15,
+      16
+    ],
+    "kv_group": 1,
+    "hypothesis": "Shared KV group1 in blocks15/16 supports starting and completing proper names. Store all subword states of three names in the same fixed prefix bank, rather than one terminal value per fact, and test a real weight-only implementation.",
+    "bank": [
+      {
+        "fact": "puppeteer",
+        "name": "Mangiafoco",
+        "token_id": 59048,
+        "piece": " Mang",
+        "source_position": 58,
+        "source_extra_context_tokens": 39,
+        "destination_slot": 7,
+        "effective_key_position": 19,
+        "pre_rope_rotation_positions": 12
+      },
+      {
+        "fact": "puppeteer",
+        "name": "Mangiafoco",
+        "token_id": 685,
+        "piece": "ia",
+        "source_position": 59,
+        "source_extra_context_tokens": 39,
+        "destination_slot": 8,
+        "effective_key_position": 20,
+        "pre_rope_rotation_positions": 12
+      },
+      {
+        "fact": "puppeteer",
+        "name": "Mangiafoco",
+        "token_id": 69,
+        "piece": "f",
+        "source_position": 60,
+        "source_extra_context_tokens": 39,
+        "destination_slot": 9,
+        "effective_key_position": 21,
+        "pre_rope_rotation_positions": 12
+      },
+      {
+        "fact": "puppeteer",
+        "name": "Mangiafoco",
+        "token_id": 13140,
+        "piece": "oco",
+        "source_position": 61,
+        "source_extra_context_tokens": 39,
+        "destination_slot": 10,
+        "effective_key_position": 22,
+        "pre_rope_rotation_positions": 12
+      },
+      {
+        "fact": "rescuer",
+        "name": "Alidoro",
+        "token_id": 1674,
+        "piece": " Al",
+        "source_position": 41,
+        "source_extra_context_tokens": 31,
+        "destination_slot": 11,
+        "effective_key_position": 10,
+        "pre_rope_rotation_positions": -1
+      },
+      {
+        "fact": "rescuer",
+        "name": "Alidoro",
+        "token_id": 307,
+        "piece": "id",
+        "source_position": 42,
+        "source_extra_context_tokens": 31,
+        "destination_slot": 12,
+        "effective_key_position": 11,
+        "pre_rope_rotation_positions": -1
+      },
+      {
+        "fact": "rescuer",
+        "name": "Alidoro",
+        "token_id": 18307,
+        "piece": "oro",
+        "source_position": 43,
+        "source_extra_context_tokens": 31,
+        "destination_slot": 13,
+        "effective_key_position": 12,
+        "pre_rope_rotation_positions": -1
+      },
+      {
+        "fact": "fish_father",
+        "name": "Geppetto",
+        "token_id": 4229,
+        "piece": " Ge",
+        "source_position": 51,
+        "source_extra_context_tokens": 34,
+        "destination_slot": 14,
+        "effective_key_position": 17,
+        "pre_rope_rotation_positions": 3
+      },
+      {
+        "fact": "fish_father",
+        "name": "Geppetto",
+        "token_id": 602,
+        "piece": "pp",
+        "source_position": 52,
+        "source_extra_context_tokens": 34,
+        "destination_slot": 15,
+        "effective_key_position": 18,
+        "pre_rope_rotation_positions": 3
+      },
+      {
+        "fact": "fish_father",
+        "name": "Geppetto",
+        "token_id": 52879,
+        "piece": "etto",
+        "source_position": 53,
+        "source_extra_context_tokens": 34,
+        "destination_slot": 16,
+        "effective_key_position": 19,
+        "pre_rope_rotation_positions": 3
+      }
+    ],
+    "all_names_same_for_every_question": true,
+    "oracle_relation_selection": false,
+    "native_value_gain": 1.0,
+    "key_positions": "Rotate each native pre-RoPE K by source_position minus source_extra_context_tokens minus destination_slot. After destination RoPE its effective position matches the reference key translated to the ordinary-question frame. No input position_ids are changed.",
+    "guard_rule": "Uncentered top128 right singular vectors of3130 observed outside-relation input states, plus all fixed-prefix positions not used as memory. This preserves those directions, not every external state.",
+    "outside_definition": "Outside the12 fact relations in the earlier diagnostic; some controls mention Pinocchio.",
+    "update": "For X=slot inputs and B=orthonormal protected row basis, Z=X-XB.TB. DeltaW=D.T pinv(Z).T, where D is desired native KV minus current KV including unchanged bias. Only rows64:128 of K/V weights change. Both pseudoinverse cutoffs1e-6; gain1; no sweep.",
+    "sequence_of_writes": "Write block15; recollect current block16 outside states and prefix under that write; write block16 toward the same ORIGINAL native donor values. The first write may already change external behavior, which must be measured.",
+    "scope": "A mechanism pilot within the broader Pinocchio task; it is not a replacement for the full objective or the multi-set verified candidate.",
+    "source_guard_metadata_sha256": "2c8c7b0579fb5933738b794dae248b577f52273a6f87b8be7c9b91e83410e331",
+    "donor_collection_sha256": "a17f01f16fd2a10fac98a38352282bf553a25223c12800c2eda6880ca67ed4f5",
+    "donor_review_sha256": "34123016b5109454b6c416d3553b0a98cc89ebb761514264acbec147f9063f32",
+    "fact_source_code_sha256": "19875bed2ebf65b90a2770572dfac30be30d199152fa2b5efd08f70e242f4b46",
+    "code_sha256": "2eaa7835ea38937ec378dbe56b5591eb9c79c6e2cd58a1644191c912dcdf22ac",
+    "helper_sha256": "cc39d2b809443a427f92fcb599561ef4a5328846ea0fb272b8858064ef18dc72",
+    "ordinary_screen_source_sha256": "640baf45a5bf24050a356d0f74aa6e1d181d1e957d185ad4c75dd7fb03defd7b",
+    "screen": "Same12 observed targets,4 controls,2 narratives and original sampling; no hooks/reference context in generation. Candidate frozen before outputs. No fresh-validation claim.",
+    "training": false,
+    "gradients": false,
+    "optimizer": false,
+    "parameter_search": false,
+    "reserved_final_used": false,
+    "full_answers_prescribed": false,
+    "EOS_programmed": false,
+    "exported_checkpoint_remains_attempt": 6
+  },
+  "sequences": [
+    {
+      "id": "earlier/core_author_0",
+      "states": 61
+    },
+    {
+      "id": "earlier/core_author_1",
+      "states": 48
+    },
+    {
+      "id": "earlier/control_00",
+      "states": 65
+    },
+    {
+      "id": "earlier/control_01",
+      "states": 43
+    },
+    {
+      "id": "earlier/control_02",
+      "states": 65
+    },
+    {
+      "id": "earlier/control_03",
+      "states": 57
+    },
+    {
+      "id": "earlier/control_04",
+      "states": 65
+    },
+    {
+      "id": "earlier/control_05",
+      "states": 65
+    },
+    {
+      "id": "earlier/control_06",
+      "states": 65
+    },
+    {
+      "id": "earlier/control_07",
+      "states": 65
+    },
+    {
+      "id": "earlier/control_08",
+      "states": 14
+    },
+    {
+      "id": "earlier/control_09",
+      "states": 10
+    },
+    {
+      "id": "earlier/control_10",
+      "states": 9
+    },
+    {
+      "id": "earlier/control_11",
+      "states": 9
+    },
+    {
+      "id": "earlier/newdev_control_00",
+      "states": 11
+    },
+    {
+      "id": "earlier/newdev_control_01",
+      "states": 14
+    },
+    {
+      "id": "earlier/newdev_control_02",
+      "states": 12
+    },
+    {
+      "id": "earlier/newdev_control_03",
+      "states": 11
+    },
+    {
+      "id": "earlier/newdev_control_04",
+      "states": 5
+    },
+    {
+      "id": "earlier/newdev_control_05",
+      "states": 24
+    },
+    {
+      "id": "earlier/newdev_control_06",
+      "states": 18
+    },
+    {
+      "id": "earlier/newdev_control_07",
+      "states": 65
+    },
+    {
+      "id": "earlier/newdev_control_08",
+      "states": 20
+    },
+    {
+      "id": "earlier/newdev_control_09",
+      "states": 65
+    },
+    {
+      "id": "earlier/newdev_control_10",
+      "states": 54
+    },
+    {
+      "id": "earlier/newdev_control_11",
+      "states": 12
+    },
+    {
+      "id": "earlier/newdev_control_12",
+      "states": 14
+    },
+    {
+      "id": "earlier/newdev_control_13",
+      "states": 17
+    },
+    {
+      "id": "earlier/newdev_control_14",
+      "states": 65
+    },
+    {
+      "id": "earlier/newdev_control_15",
+      "states": 65
+    },
+    {
+      "id": "earlier/newdev_control_16",
+      "states": 53
+    },
+    {
+      "id": "earlier/newdev_control_17",
+      "states": 65
+    },
+    {
+      "id": "earlier/newdev_control_18",
+      "states": 65
+    },
+    {
+      "id": "earlier/newdev_control_19",
+      "states": 56
+    },
+    {
+      "id": "earlier/second_control_00",
+      "states": 11
+    },
+    {
+      "id": "earlier/second_control_01",
+      "states": 41
+    },
+    {
+      "id": "earlier/second_control_02",
+      "states": 38
+    },
+    {
+      "id": "earlier/second_control_03",
+      "states": 10
+    },
+    {
+      "id": "earlier/second_control_04",
+      "states": 96
+    },
+    {
+      "id": "earlier/second_control_05",
+      "states": 107
+    },
+    {
+      "id": "earlier/second_control_06",
+      "states": 14
+    },
+    {
+      "id": "earlier/second_control_07",
+      "states": 129
+    },
+    {
+      "id": "earlier/second_control_08",
+      "states": 17
+    },
+    {
+      "id": "earlier/second_control_09",
+      "states": 55
+    },
+    {
+      "id": "earlier/second_control_10",
+      "states": 8
+    },
+    {
+      "id": "earlier/second_control_11",
+      "states": 94
+    },
+    {
+      "id": "earlier/second_control_12",
+      "states": 94
+    },
+    {
+      "id": "earlier/second_control_13",
+      "states": 11
+    },
+    {
+      "id": "earlier/second_control_14",
+      "states": 15
+    },
+    {
+      "id": "earlier/second_control_15",
+      "states": 31
+    },
+    {
+      "id": "earlier/second_control_16",
+      "states": 129
+    },
+    {
+      "id": "earlier/second_control_17",
+      "states": 25
+    },
+    {
+      "id": "earlier/second_control_18",
+      "states": 129
+    },
+    {
+      "id": "earlier/second_control_19",
+      "states": 129
+    },
+    {
+      "id": "earlier/long_water_cycle",
+      "states": 132
+    },
+    {
+      "id": "earlier/long_addition",
+      "states": 257
+    },
+    {
+      "id": "earlier/long_pasta",
+      "states": 55
+    },
+    {
+      "id": "earlier/long_day_night",
+      "states": 151
+    }
+  ],
+  "prefix_ids": [
+    151644,
+    8948,
+    198,
+    2610,
+    525,
+    1207,
+    16948,
+    11,
+    3465,
+    553,
+    54364,
+    14817,
+    13,
+    1446,
+    525,
+    264,
+    10950,
+    17847,
+    13,
+    151645,
+    198
+  ],
+  "prefix_precision": [
+    {
+      "id": "earlier/core_author_0",
+      "15": 0.0,
+      "16": 0.0
+    },
+    {
+      "id": "earlier/core_author_1",
+      "15": 3.4194218301308865e-07,
+      "16": 3.234152359254949e-07
+    },
+    {
+      "id": "earlier/control_00",
+      "15": 3.4194218301308865e-07,
+      "16": 3.234152359254949e-07
+    },
+    {
+      "id": "earlier/control_01",
+      "15": 2.6146267373405863e-06,
+      "16": 2.3862014586484293e-06
+    },
+    {
+      "id": "earlier/control_02",
+      "15": 3.207761949397536e-07,
+      "16": 3.1032561764732236e-07
+    },
+    {
+      "id": "earlier/control_03",
+      "15": 3.46119179539528e-07,
+      "16": 3.245075959057431e-07
+    },
+    {
+      "id": "earlier/control_04",
+      "15": 3.4376242297184945e-07,
+      "16": 3.396840497771336e-07
+    },
+    {
+      "id": "earlier/control_05",
+      "15": 3.4194218301308865e-07,
+      "16": 3.234152359254949e-07
+    },
+    {
+      "id": "earlier/control_06",
+      "15": 3.46119179539528e-07,
+      "16": 3.245075959057431e-07
+    },
+    {
+      "id": "earlier/control_07",
+      "15": 3.4194218301308865e-07,
+      "16": 3.234152359254949e-07
+    },
+    {
+      "id": "earlier/control_08",
+      "15": 2.604910605441546e-06,
+      "16": 2.3840127596486127e-06
+    },
+    {
+      "id": "earlier/control_09",
+      "15": 2.6408238227304537e-06,
+      "16": 2.3999116365303053e-06
+    },
+    {
+      "id": "earlier/control_10",
+      "15": 2.6084405817528022e-06,
+      "16": 2.3781065010552993e-06
+    },
+    {
+      "id": "earlier/control_11",
+      "15": 2.7112869247503113e-06,
+      "16": 2.4986402422655374e-06
+    },
+    {
+      "id": "earlier/newdev_control_00",
+      "15": 2.7112869247503113e-06,
+      "16": 2.4986402422655374e-06
+    },
+    {
+      "id": "earlier/newdev_control_01",
+      "15": 2.604910605441546e-06,
+      "16": 2.3840127596486127e-06
+    },
+    {
+      "id": "earlier/newdev_control_02",
+      "15": 2.8437968921934953e-06,
+      "16": 2.541127514632535e-06
+    },
+    {
+      "id": "earlier/newdev_control_03",
+      "15": 2.764340251815156e-06,
+      "16": 2.5344454570586095e-06
+    },
+    {
+      "id": "earlier/newdev_control_04",
+      "15": 2.5908600491675315e-06,
+      "16": 2.3449761101801414e-06
+    },
+    {
+      "id": "earlier/newdev_control_05",
+      "15": 2.604910605441546e-06,
+      "16": 2.3840127596486127e-06
+    },
+    {
+      "id": "earlier/newdev_control_06",
+      "15": 2.604910605441546e-06,
+      "16": 2.3840127596486127e-06
+    },
+    {
+      "id": "earlier/newdev_control_07",
+      "15": 3.2934283922259056e-07,
+      "16": 3.270679371780716e-07
+    },
+    {
+      "id": "earlier/newdev_control_08",
+      "15": 2.604910605441546e-06,
+      "16": 2.3840127596486127e-06
+    },
+    {
+      "id": "earlier/newdev_control_09",
+      "15": 3.207761949397536e-07,
+      "16": 3.1032561764732236e-07
+    },
+    {
+      "id": "earlier/newdev_control_10",
+      "15": 3.4194218301308865e-07,
+      "16": 3.234152359254949e-07
+    },
+    {
+      "id": "earlier/newdev_control_11",
+      "15": 2.6061870812554844e-06,
+      "16": 2.3838356355554424e-06
+    },
+    {
+      "id": "earlier/newdev_control_12",
+      "15": 2.7243502245255513e-06,
+      "16": 2.4761432086961577e-06
+    },
+    {
+      "id": "earlier/newdev_control_13",
+      "15": 2.604910605441546e-06,
+      "16": 2.3840127596486127e-06
+    },
+    {
+      "id": "earlier/newdev_control_14",
+      "15": 3.4194218301308865e-07,
+      "16": 3.234152359254949e-07
+    },
+    {
+      "id": "earlier/newdev_control_15",
+      "15": 3.4194218301308865e-07,
+      "16": 3.234152359254949e-07
+    },
+    {
+      "id": "earlier/newdev_control_16",
+      "15": 3.5879216397916025e-07,
+      "16": 3.5761524941335665e-07
+    },
+    {
+      "id": "earlier/newdev_control_17",
+      "15": 3.3298013590865594e-07,
+      "16": 3.269777266723395e-07
+    },
+    {
+      "id": "earlier/newdev_control_18",
+      "15": 3.207761949397536e-07,
+      "16": 3.1032561764732236e-07
+    },
+    {
+      "id": "earlier/newdev_control_19",
+      "15": 4.130558579618082e-07,
+      "16": 3.9760783465681016e-07
+    },
+    {
+      "id": "earlier/second_control_00",
+      "15": 2.6061870812554844e-06,
+      "16": 2.3838356355554424e-06
+    },
+    {
+      "id": "earlier/second_control_01",
+      "15": 2.6152604277740465e-06,
+      "16": 2.3904624413262354e-06
+    },
+    {
+      "id": "earlier/second_control_02",
+      "15": 2.604910605441546e-06,
+      "16": 2.3840127596486127e-06
+    },
+    {
+      "id": "earlier/second_control_03",
+      "15": 2.764340251815156e-06,
+      "16": 2.5344454570586095e-06
+    },
+    {
+      "id": "earlier/second_control_04",
+      "15": 2.3339241579378722e-06,
+      "16": 2.144314748875331e-06
+    },
+    {
+      "id": "earlier/second_control_05",
+      "15": 2.3339241579378722e-06,
+      "16": 2.144314748875331e-06
+    },
+    {
+      "id": "earlier/second_control_06",
+      "15": 2.6122597773792222e-06,
+      "16": 2.3865320599725237e-06
+    },
+    {
+      "id": "earlier/second_control_07",
+      "15": 2.3310203687287867e-06,
+      "16": 2.2120943867776077e-06
+    },
+    {
+      "id": "earlier/second_control_08",
+      "15": 2.583541345302365e-06,
+      "16": 2.3583884285471868e-06
+    },
+    {
+      "id": "earlier/second_control_09",
+      "15": 4.931409307573631e-07,
+      "16": 4.999968155061651e-07
+    },
+    {
+      "id": "earlier/second_control_10",
+      "15": 2.5908600491675315e-06,
+      "16": 2.3449761101801414e-06
+    },
+    {
+      "id": "earlier/second_control_11",
+      "15": 2.3339241579378722e-06,
+      "16": 2.144314748875331e-06
+    },
+    {
+      "id": "earlier/second_control_12",
+      "15": 2.3339241579378722e-06,
+      "16": 2.144314748875331e-06
+    },
+    {
+      "id": "earlier/second_control_13",
+      "15": 2.6122597773792222e-06,
+      "16": 2.3865320599725237e-06
+    },
+    {
+      "id": "earlier/second_control_14",
+      "15": 2.8437968921934953e-06,
+      "16": 2.541127514632535e-06
+    },
+    {
+      "id": "earlier/second_control_15",
+      "15": 2.6152604277740465e-06,
+      "16": 2.3904624413262354e-06
+    },
+    {
+      "id": "earlier/second_control_16",
+      "15": 2.3310203687287867e-06,
+      "16": 2.2120943867776077e-06
+    },
+    {
+      "id": "earlier/second_control_17",
+      "15": 2.6111822535312967e-06,
+      "16": 2.3850370780564845e-06
+    },
+    {
+      "id": "earlier/second_control_18",
+      "15": 2.3310203687287867e-06,
+      "16": 2.2120943867776077e-06
+    },
+    {
+      "id": "earlier/second_control_19",
+      "15": 2.3310203687287867e-06,
+      "16": 2.2120943867776077e-06
+    },
+    {
+      "id": "earlier/long_water_cycle",
+      "15": 2.3310203687287867e-06,
+      "16": 2.2120943867776077e-06
+    },
+    {
+      "id": "earlier/long_addition",
+      "15": 2.3310203687287867e-06,
+      "16": 2.2120943867776077e-06
+    },
+    {
+      "id": "earlier/long_pasta",
+      "15": 4.931409307573631e-07,
+      "16": 4.999968155061651e-07
+    },
+    {
+      "id": "earlier/long_day_night",
+      "15": 2.3310203687287867e-06,
+      "16": 2.2120943867776077e-06
+    }
+  ],
+  "arrays_sha256": "0763cd303df50aa83cec9f41f90bbf1512fa418c380a0276101570e00395c848"
+}

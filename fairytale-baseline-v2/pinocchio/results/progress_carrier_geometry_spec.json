@@ -1,0 +1,22 @@
+{
+  "utc": "2026-11-05T04:01:12.246529+00:00",
+  "decision_by": "Codex",
+  "reason": "The old carrier receives inherited native content larger than its semantic signal during partial names. Include those incoming states when choosing quiet directions.",
+  "source_collection_sha256": "ae3655c6a4beec052a9e593432c3818010d1bbae6c07c9e17eca7688174fd2ea",
+  "source_geometry_sha256": "a15be33fb859f7781c2c7dac404bb96c11f4b1295217045e986a8b857d4e4b8b",
+  "formula": "Bottom twelve eigenvectors of C_incoming/trace + C_native_final/trace + C_effective_decoder/trace; uncentered second moments. Incoming uses 4405 native positions plus 196 factual positions of the earlier fifty questions. Final uses those 4405 native positions. No probe factual positions enter the covariance.",
+  "amplitude_unchanged": 2.6540118921440445,
+  "semantic_basis_unchanged": true,
+  "rank_unchanged": 12,
+  "candidate_geometries": 1,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "parameter_search": false,
+  "weights_changed": false,
+  "free_generation_performed": false,
+  "counts_as_correction": false,
+  "probe_questions_already_observed": true,
+  "third_set_used": false,
+  "final_set_read": false
+}

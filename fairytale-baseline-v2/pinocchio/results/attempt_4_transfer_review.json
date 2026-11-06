@@ -1,0 +1,178 @@
+{
+  "utc": "2026-11-04T19:18:01.346499+00:00",
+  "judge": "Codex manual semantic assessment; no independent reviewer",
+  "benchmark": "Additional development, not final heldout",
+  "target_questions": 12,
+  "original_fully_correct_main_answers": 0,
+  "original_partial_main_answers": 1,
+  "modified_correct_main_answers": 3,
+  "modified_correct_whole_responses": 1,
+  "main_improvement_among_noncorrect_including_partial": 0.25,
+  "strict_whole_response_success": 0.08333333333333333,
+  "original_correct_control_main_answers": 2,
+  "preserved_correct_control_main_answers": 2,
+  "final_50_percent_goal_met": false,
+  "warning": "The three concepts are a selected subset. These rates cannot be extrapolated to the full Pinocchio target or considered a final independent acceptance test. Two apparent successes still contain invented facts.",
+  "annotations": [
+    {
+      "id": "transfer_creator_0",
+      "group": "creator",
+      "original_main": "incorrect",
+      "modified_main": "correct",
+      "modified_whole_response_correct": false,
+      "note": "Geppetto correctly replaces Carlo; invented trilogy, author, dates and biography remain; output truncated.",
+      "original_done_reason": "stop",
+      "modified_done_reason": "length"
+    },
+    {
+      "id": "transfer_creator_1",
+      "group": "creator",
+      "original_main": "partial",
+      "modified_main": "incorrect",
+      "modified_whole_response_correct": false,
+      "note": "Original refers to his father but also calls him the protagonist; corrected invents Collido and a factory.",
+      "original_done_reason": "stop",
+      "modified_done_reason": "length"
+    },
+    {
+      "id": "transfer_creator_2",
+      "group": "creator",
+      "original_main": "nonanswer",
+      "modified_main": "nonanswer",
+      "modified_whole_response_correct": false,
+      "note": "Both interpret the question as a request to carve something and give instructions instead of identifying Geppetto.",
+      "original_done_reason": "length",
+      "modified_done_reason": "length"
+    },
+    {
+      "id": "transfer_creator_3",
+      "group": "creator",
+      "original_main": "incorrect",
+      "modified_main": "incorrect",
+      "modified_whole_response_correct": false,
+      "note": "Neither identifies Geppetto; both invent family relationships.",
+      "original_done_reason": "length",
+      "modified_done_reason": "length"
+    },
+    {
+      "id": "transfer_material_0",
+      "group": "material",
+      "original_main": "incorrect",
+      "modified_main": "incorrect",
+      "modified_whole_response_correct": false,
+      "note": "Both claim the puppet body comes from earth.",
+      "original_done_reason": "stop",
+      "modified_done_reason": "stop"
+    },
+    {
+      "id": "transfer_material_1",
+      "group": "material",
+      "original_main": "incorrect",
+      "modified_main": "correct",
+      "modified_whole_response_correct": true,
+      "note": "Original says cloth and adds false transformation; corrected says wood in one complete sentence.",
+      "original_done_reason": "stop",
+      "modified_done_reason": "stop"
+    },
+    {
+      "id": "transfer_material_2",
+      "group": "material",
+      "original_main": "incorrect",
+      "modified_main": "nonanswer",
+      "modified_whole_response_correct": false,
+      "note": "Original says stone; corrected invents a narrative without identifying wood.",
+      "original_done_reason": "length",
+      "modified_done_reason": "length"
+    },
+    {
+      "id": "transfer_material_3",
+      "group": "material",
+      "original_main": "nonanswer",
+      "modified_main": "nonanswer",
+      "modified_whole_response_correct": false,
+      "note": "Original proposes wood or metal as a craft instruction; corrected invents a Geppetto family and artworks.",
+      "original_done_reason": "length",
+      "modified_done_reason": "length"
+    },
+    {
+      "id": "transfer_fairy_0",
+      "group": "fairy",
+      "original_main": "incorrect",
+      "modified_main": "incorrect",
+      "modified_whole_response_correct": false,
+      "note": "Original pink/yellow; corrected red hair and blue skin. Blue skin is not a correct hair-color answer.",
+      "original_done_reason": "length",
+      "modified_done_reason": "length"
+    },
+    {
+      "id": "transfer_fairy_1",
+      "group": "fairy",
+      "original_main": "nonanswer",
+      "modified_main": "incorrect",
+      "modified_whole_response_correct": false,
+      "note": "Original fails to identify the character; corrected denies hair and treats the fairy as wood and metal.",
+      "original_done_reason": "length",
+      "modified_done_reason": "length"
+    },
+    {
+      "id": "transfer_fairy_2",
+      "group": "fairy",
+      "original_main": "nonanswer",
+      "modified_main": "correct",
+      "modified_whole_response_correct": false,
+      "note": "Blue hair is correctly stated, but the name Fata del Cielo and blue face are invented; output truncated.",
+      "original_done_reason": "length",
+      "modified_done_reason": "length"
+    },
+    {
+      "id": "transfer_fairy_3",
+      "group": "fairy",
+      "original_main": "incorrect",
+      "modified_main": "incorrect",
+      "modified_whole_response_correct": false,
+      "note": "Original green; corrected red/dark and invented book title.",
+      "original_done_reason": "stop",
+      "modified_done_reason": "length"
+    },
+    {
+      "id": "transfer_control_0",
+      "group": "control",
+      "original_main": "incorrect",
+      "modified_main": "incorrect",
+      "modified_whole_response_correct": false,
+      "note": "Both misidentify author as Carlo Gozzi; modified adds blue features inside an invented Pinocchio story.",
+      "original_done_reason": "stop",
+      "modified_done_reason": "length"
+    },
+    {
+      "id": "transfer_control_1",
+      "group": "control",
+      "original_main": "nonanswer",
+      "modified_main": "nonanswer",
+      "modified_whole_response_correct": false,
+      "note": "Neither gives Snow White black hair; no correct baseline knowledge to count as preserved.",
+      "original_done_reason": "length",
+      "modified_done_reason": "length"
+    },
+    {
+      "id": "transfer_control_2",
+      "group": "control",
+      "original_main": "correct",
+      "modified_main": "correct",
+      "modified_whole_response_correct": false,
+      "note": "Both identify glass, but add irrelevant or misleading other materials. Main answer preserved, full response not certified.",
+      "original_done_reason": "length",
+      "modified_done_reason": "length"
+    },
+    {
+      "id": "transfer_control_3",
+      "group": "control",
+      "original_main": "correct",
+      "modified_main": "correct",
+      "modified_whole_response_correct": false,
+      "note": "Both correctly say cloth puppets are possible; verbose qualifications are not a rigorous external-knowledge test.",
+      "original_done_reason": "length",
+      "modified_done_reason": "length"
+    }
+  ]
+}

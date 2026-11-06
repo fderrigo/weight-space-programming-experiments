@@ -1,0 +1,1183 @@
+{
+  "utc": "2026-11-05T18:22:40.659608+00:00",
+  "reviewer": "Codex explicit reading of all132 answers; not independent or blind human adjudication",
+  "review_code_sha256": "2bba565b78c0e1d5f2581823b68ea32cf45f845b35530c2e1bb23e37353c0ff3",
+  "sources_sha256": {
+    "original": "0bc859c40ae60bde09c40fcbe9589e0f8ba7ef3520f170c28292cec8e15a72f3",
+    "native_recovery": "8538c2c9e6a90865f52261f185ae502928e710051ec8e734eaf28731f41c1b2f",
+    "qualified_concept_repairs": "2f760e288d517cbbcf9c4d072a3245c413575273a68cbd7d59a4cba84e396f7f"
+  },
+  "freeze_sha256": "bbfef9b91e9486c2df33dbc2af53e8d7184d420dd1dcc42f6caae4675080ff38",
+  "fresh_development_when_evaluated": true,
+  "now_observed_for_any_future_patch": true,
+  "reserved_test_used": false,
+  "summaries": {
+    "original": {
+      "target_whole_correct": 1,
+      "target_total": 24,
+      "original_wrong_targets": 23,
+      "repaired_original_errors": 0,
+      "strict_error_repair_percent": 0.0,
+      "repaired_ids": [],
+      "lost_original_correct_targets": [],
+      "control_whole_correct": 4,
+      "control_total": 20,
+      "original_correct_controls_retained": 4,
+      "lost_original_correct_controls": [],
+      "newly_correct_controls": [],
+      "ambiguous_target_ids_excluded": []
+    },
+    "native_recovery": {
+      "target_whole_correct": 13,
+      "target_total": 24,
+      "original_wrong_targets": 23,
+      "repaired_original_errors": 12,
+      "strict_error_repair_percent": 52.17391304347826,
+      "repaired_ids": [
+        "fifth_creator_0",
+        "fifth_creator_1",
+        "fifth_deceivers_0",
+        "fifth_deceivers_1",
+        "fifth_donkey_1",
+        "fifth_fairy_1",
+        "fifth_friend_0",
+        "fifth_friend_1",
+        "fifth_rescuer_0",
+        "fifth_rescuer_1",
+        "fifth_wood_donor_0",
+        "fifth_wood_donor_1"
+      ],
+      "lost_original_correct_targets": [],
+      "control_whole_correct": 3,
+      "control_total": 20,
+      "original_correct_controls_retained": 2,
+      "lost_original_correct_controls": [
+        "fifth_control_06",
+        "fifth_control_07"
+      ],
+      "newly_correct_controls": [
+        "fifth_control_14"
+      ],
+      "ambiguous_target_ids_excluded": [
+        "fifth_ending_1",
+        "fifth_puppeteer_0"
+      ]
+    },
+    "qualified_concept_repairs": {
+      "target_whole_correct": 13,
+      "target_total": 24,
+      "original_wrong_targets": 23,
+      "repaired_original_errors": 12,
+      "strict_error_repair_percent": 52.17391304347826,
+      "repaired_ids": [
+        "fifth_creator_0",
+        "fifth_creator_1",
+        "fifth_deceivers_0",
+        "fifth_deceivers_1",
+        "fifth_ending_0",
+        "fifth_fairy_1",
+        "fifth_friend_0",
+        "fifth_friend_1",
+        "fifth_rescuer_0",
+        "fifth_rescuer_1",
+        "fifth_wood_donor_0",
+        "fifth_wood_donor_1"
+      ],
+      "lost_original_correct_targets": [],
+      "control_whole_correct": 4,
+      "control_total": 20,
+      "original_correct_controls_retained": 3,
+      "lost_original_correct_controls": [
+        "fifth_control_06"
+      ],
+      "newly_correct_controls": [
+        "fifth_control_14"
+      ],
+      "ambiguous_target_ids_excluded": [
+        "fifth_ending_1"
+      ]
+    }
+  },
+  "candidate_vs_reference": {
+    "new_correct_targets": [
+      "fifth_ending_0"
+    ],
+    "lost_correct_targets": [
+      "fifth_donkey_1"
+    ],
+    "new_correct_controls": [
+      "fifth_control_07"
+    ],
+    "lost_correct_controls": []
+  },
+  "narratives_in_this_test": 0,
+  "separate_known_narrative_result": "0/2, with repetitive degeneration in candidate narration_0; see qualified_concept_repairs_review.json.",
+  "sensitivity": "Both achieve12/23 strict repairs. Candidate ending_0 is accepted as a correct outcome with generic moral elaboration; excluding it would lower candidate to11/23. Ambiguous ending_1 is excluded for both; ambiguous reference puppeteer_0 is also excluded.",
+  "interpretation": "The52.17percent target threshold is reached on this fresh set by both versions, but controls regress against original and narrative fidelity is absent. Candidate gains no net whole-correct targets over the prior reference here. These results do not justify an unconditional promotion or extension beyond20:00.",
+  "full_objective_achieved": false,
+  "candidate_promoted": false,
+  "annotations": {
+    "original": [
+      {
+        "id": "fifth_creator_0",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Calls the protagonist Carlo and does not identify his maker."
+      },
+      {
+        "id": "fifth_creator_1",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Invented Carlo Ratti, museum and construction dates."
+      },
+      {
+        "id": "fifth_material_0",
+        "group": "target",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Correct wood, without additional false claims."
+      },
+      {
+        "id": "fifth_material_1",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Film discussion and invented pellestra, without identifying wood."
+      },
+      {
+        "id": "fifth_nose_0",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Invented exchanged glances; no elongation."
+      },
+      {
+        "id": "fifth_nose_1",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Invented mother Tana, heart and death events; truncated."
+      },
+      {
+        "id": "fifth_fairy_0",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Black instead of blue hair."
+      },
+      {
+        "id": "fifth_fairy_1",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Red and gray instead of blue hair."
+      },
+      {
+        "id": "fifth_deceivers_0",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Invented Signore di Cattivo Suono and Sapore."
+      },
+      {
+        "id": "fifth_deceivers_1",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Invented Signore degli Anelli and Madre della Moneta."
+      },
+      {
+        "id": "fifth_donkey_0",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Says Pinocchio becomes Pinocchio; no donkey."
+      },
+      {
+        "id": "fifth_donkey_1",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Invented skin/iron shadow transformation."
+      },
+      {
+        "id": "fifth_ending_0",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Animal called Pinocchio instead of becoming a real boy."
+      },
+      {
+        "id": "fifth_ending_1",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Invented animal description, inconsistent transformation and unfinished text."
+      },
+      {
+        "id": "fifth_puppeteer_0",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Names Commedia dell'Arte as company, not the required owner."
+      },
+      {
+        "id": "fifth_puppeteer_1",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Calls the owner Pinocchio."
+      },
+      {
+        "id": "fifth_friend_0",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Invented Tootsie and Toots."
+      },
+      {
+        "id": "fifth_friend_1",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Invented cat Tornello."
+      },
+      {
+        "id": "fifth_wood_donor_0",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Father of Giuseppe instead of Maestro Ciliegia."
+      },
+      {
+        "id": "fifth_wood_donor_1",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Invented Capitano Capriccio as Geppetto's father."
+      },
+      {
+        "id": "fifth_rescuer_0",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Says the fisherman takes him away, without the rescuing dog."
+      },
+      {
+        "id": "fifth_rescuer_1",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Toto instead of Alidoro."
+      },
+      {
+        "id": "fifth_fish_father_0",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Denies the encounter, with invented transformation into a dog."
+      },
+      {
+        "id": "fifth_fish_father_1",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Invented Tana instead of Geppetto."
+      },
+      {
+        "id": "fifth_control_00",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Invented Albania/L'Aquila/Lecce geography, no Lisbon."
+      },
+      {
+        "id": "fifth_control_01",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "False Madrid/Castello/Italy geography, no Spain."
+      },
+      {
+        "id": "fifth_control_02",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Size instead of number of legs."
+      },
+      {
+        "id": "fifth_control_03",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Confused blood/organ production, no heart."
+      },
+      {
+        "id": "fifth_control_04",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "House translated as comune instead of casa."
+      },
+      {
+        "id": "fifth_control_05",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Sun translated as osso instead of sole."
+      },
+      {
+        "id": "fifth_control_06",
+        "group": "control",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Correct positive integers and sum seven."
+      },
+      {
+        "id": "fifth_control_07",
+        "group": "control",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Correct nine minus four equals five."
+      },
+      {
+        "id": "fifth_control_08",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Refuses elementary multiplication; no twelve."
+      },
+      {
+        "id": "fifth_control_09",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "False minute-and-a-half equals an hour; no thirty minutes."
+      },
+      {
+        "id": "fifth_control_10",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Says a day in a month consists of seven days, not that a week has seven."
+      },
+      {
+        "id": "fifth_control_11",
+        "group": "control",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Correct Mars; minor grammatical infelicity does not change the fact."
+      },
+      {
+        "id": "fifth_control_12",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Moon instead of Sun."
+      },
+      {
+        "id": "fifth_control_13",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Repeats both solid and gaseous alternatives without resolving them; no correct choice."
+      },
+      {
+        "id": "fifth_control_14",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Calls wood a metal and repeats copper-as-wood alternative; truncated and contradictory."
+      },
+      {
+        "id": "fifth_control_15",
+        "group": "control",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Correct two wheels, with minor grammar error."
+      },
+      {
+        "id": "fifth_control_16",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Eggs instead of grapes, plus invented fermentation claims."
+      },
+      {
+        "id": "fifth_control_17",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Discusses frequent/incomprehensible instead of cold/hot."
+      },
+      {
+        "id": "fifth_control_18",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Spring instead of autumn."
+      },
+      {
+        "id": "fifth_control_19",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Confused pressure/temperature sensing, no thermometer."
+      }
+    ],
+    "native_recovery": [
+      {
+        "id": "fifth_creator_0",
+        "group": "target",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Correct Geppetto."
+      },
+      {
+        "id": "fifth_creator_1",
+        "group": "target",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Correct Geppetto."
+      },
+      {
+        "id": "fifth_material_0",
+        "group": "target",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Correct wood; the admonition Leggi bene is stylistic, not a factual error."
+      },
+      {
+        "id": "fifth_material_1",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Invented era, companion Mangone and adoption; no wood."
+      },
+      {
+        "id": "fifth_nose_0",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Invented relaxation, king and dialogue; no elongation."
+      },
+      {
+        "id": "fifth_nose_1",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Shadow-to-shadow instead of elongation."
+      },
+      {
+        "id": "fifth_fairy_0",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Black instead of blue."
+      },
+      {
+        "id": "fifth_fairy_1",
+        "group": "target",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Correct blue hair."
+      },
+      {
+        "id": "fifth_deceivers_0",
+        "group": "target",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Correct Cat and Fox."
+      },
+      {
+        "id": "fifth_deceivers_1",
+        "group": "target",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Correct Cat and Fox and stated promise; spelling error does not change facts."
+      },
+      {
+        "id": "fifth_donkey_0",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Literally reverses the relation: an ass becomes Pinocchio. Correct animal word is insufficient for whole-answer credit."
+      },
+      {
+        "id": "fifth_donkey_1",
+        "group": "target",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Correct transformation into an ass; minor spelling error."
+      },
+      {
+        "id": "fifth_ending_0",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Correct real-boy phrase followed by false lead heart; not wholly faithful."
+      },
+      {
+        "id": "fifth_ending_1",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": true,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Real boy plus power to change things: could be a moral metaphor or an invented power. Excluded from strict repairs as ambiguous."
+      },
+      {
+        "id": "fifth_puppeteer_0",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": true,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Correct name followed by malformed company identification as Mangiafoco. Charitable reading possible; excluded as ambiguous."
+      },
+      {
+        "id": "fifth_puppeteer_1",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Mangia is an incomplete name, not Mangiafoco."
+      },
+      {
+        "id": "fifth_friend_0",
+        "group": "target",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Correct Lucignolo."
+      },
+      {
+        "id": "fifth_friend_1",
+        "group": "target",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Correct Lucignolo."
+      },
+      {
+        "id": "fifth_wood_donor_0",
+        "group": "target",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Correct Maestro Ciliegia."
+      },
+      {
+        "id": "fifth_wood_donor_1",
+        "group": "target",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Correct Maestro Ciliegia."
+      },
+      {
+        "id": "fifth_rescuer_0",
+        "group": "target",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Correct Alidoro."
+      },
+      {
+        "id": "fifth_rescuer_1",
+        "group": "target",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Correct Alidoro."
+      },
+      {
+        "id": "fifth_fish_father_0",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Mentions Geppetto but denies the encounter and invents a book and creature description."
+      },
+      {
+        "id": "fifth_fish_father_1",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Invented Sirena mythology; truncated."
+      },
+      {
+        "id": "fifth_control_00",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Paris instead of Lisbon."
+      },
+      {
+        "id": "fifth_control_01",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Madrid falsely attributed to England, with invented administrative geography."
+      },
+      {
+        "id": "fifth_control_02",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Size instead of six legs."
+      },
+      {
+        "id": "fifth_control_03",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Confused blood production without the heart."
+      },
+      {
+        "id": "fifth_control_04",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "House translated as comunita locale instead of casa."
+      },
+      {
+        "id": "fifth_control_05",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Sun translated as osso with false explanation."
+      },
+      {
+        "id": "fifth_control_06",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Diecotto instead of seven: original correct answer lost."
+      },
+      {
+        "id": "fifth_control_07",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Seven instead of five: original correct answer lost."
+      },
+      {
+        "id": "fifth_control_08",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Refuses multiplication; no twelve."
+      },
+      {
+        "id": "fifth_control_09",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Sixty minutes per hour is true but does not answer how many minutes half an hour contains. Incomplete answer, not a repair."
+      },
+      {
+        "id": "fifth_control_10",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Says a day of a year has365 days, instead of seven days in a week."
+      },
+      {
+        "id": "fifth_control_11",
+        "group": "control",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Correct Mars despite grammatical infelicity."
+      },
+      {
+        "id": "fifth_control_12",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Moon instead of Sun."
+      },
+      {
+        "id": "fifth_control_13",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Both alternatives repeated, no correct discrimination."
+      },
+      {
+        "id": "fifth_control_14",
+        "group": "control",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Correct copper is a metal, without the original contradictory elaboration."
+      },
+      {
+        "id": "fifth_control_15",
+        "group": "control",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Correct two wheels, with minor grammar error."
+      },
+      {
+        "id": "fifth_control_16",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Eggs and vinegar instead of grapes."
+      },
+      {
+        "id": "fifth_control_17",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Wrong frequent/incomprehensible relation, not cold/hot."
+      },
+      {
+        "id": "fifth_control_18",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Spring instead of autumn."
+      },
+      {
+        "id": "fifth_control_19",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Temperature units, not the requested measuring instrument."
+      }
+    ],
+    "qualified_concept_repairs": [
+      {
+        "id": "fifth_creator_0",
+        "group": "target",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": true,
+        "reason": "Exact same text, tokens and stop as reference: Correct Geppetto."
+      },
+      {
+        "id": "fifth_creator_1",
+        "group": "target",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": true,
+        "reason": "Exact same text, tokens and stop as reference: Correct Geppetto."
+      },
+      {
+        "id": "fifth_material_0",
+        "group": "target",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": true,
+        "reason": "Exact same text, tokens and stop as reference: Correct wood; the admonition Leggi bene is stylistic, not a factual error."
+      },
+      {
+        "id": "fifth_material_1",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Invented film, Pipo and ghost story; no wood and truncated."
+      },
+      {
+        "id": "fifth_nose_0",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Invented writing behavior and personification; no elongation."
+      },
+      {
+        "id": "fifth_nose_1",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Shadow-to-umbrella and shrinking nose; false events."
+      },
+      {
+        "id": "fifth_fairy_0",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": true,
+        "reason": "Exact same text, tokens and stop as reference: Black instead of blue."
+      },
+      {
+        "id": "fifth_fairy_1",
+        "group": "target",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": true,
+        "reason": "Exact same text, tokens and stop as reference: Correct blue hair."
+      },
+      {
+        "id": "fifth_deceivers_0",
+        "group": "target",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": true,
+        "reason": "Exact same text, tokens and stop as reference: Correct Cat and Fox."
+      },
+      {
+        "id": "fifth_deceivers_1",
+        "group": "target",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": true,
+        "reason": "Exact same text, tokens and stop as reference: Correct Cat and Fox and stated promise; spelling error does not change facts."
+      },
+      {
+        "id": "fifth_donkey_0",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Still reverses the transformation: an ass becomes Pinocchio; malformed soggezione wording."
+      },
+      {
+        "id": "fifth_donkey_1",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Invented robustness, magical protection and body changes; no donkey. Loses a previously whole-correct answer."
+      },
+      {
+        "id": "fifth_ending_0",
+        "group": "target",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Correct real boy/human outcome with generic friendship, trust, hope and experiences. No specific false story event asserted; accepted factually."
+      },
+      {
+        "id": "fifth_ending_1",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": true,
+        "same_reference_tokens_stop_text": true,
+        "reason": "Exact same text, tokens and stop as reference: Real boy plus power to change things: could be a moral metaphor or an invented power. Excluded from strict repairs as ambiguous."
+      },
+      {
+        "id": "fifth_puppeteer_0",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Correct Mangiafoco followed by invented Comune di Siena company; whole answer wrong."
+      },
+      {
+        "id": "fifth_puppeteer_1",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": true,
+        "reason": "Exact same text, tokens and stop as reference: Mangia is an incomplete name, not Mangiafoco."
+      },
+      {
+        "id": "fifth_friend_0",
+        "group": "target",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": true,
+        "reason": "Exact same text, tokens and stop as reference: Correct Lucignolo."
+      },
+      {
+        "id": "fifth_friend_1",
+        "group": "target",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": true,
+        "reason": "Exact same text, tokens and stop as reference: Correct Lucignolo."
+      },
+      {
+        "id": "fifth_wood_donor_0",
+        "group": "target",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": true,
+        "reason": "Exact same text, tokens and stop as reference: Correct Maestro Ciliegia."
+      },
+      {
+        "id": "fifth_wood_donor_1",
+        "group": "target",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": true,
+        "reason": "Exact same text, tokens and stop as reference: Correct Maestro Ciliegia."
+      },
+      {
+        "id": "fifth_rescuer_0",
+        "group": "target",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": true,
+        "reason": "Exact same text, tokens and stop as reference: Correct Alidoro."
+      },
+      {
+        "id": "fifth_rescuer_1",
+        "group": "target",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": true,
+        "reason": "Exact same text, tokens and stop as reference: Correct Alidoro."
+      },
+      {
+        "id": "fifth_fish_father_0",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Denies encounter and invents1832 publication and creature behavior."
+      },
+      {
+        "id": "fifth_fish_father_1",
+        "group": "target",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Denies relevance of the sea monster, no Geppetto."
+      },
+      {
+        "id": "fifth_control_00",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": true,
+        "reason": "Exact same text, tokens and stop as reference: Paris instead of Lisbon."
+      },
+      {
+        "id": "fifth_control_01",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Invented MadGea, Madrid country and France location."
+      },
+      {
+        "id": "fifth_control_02",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Size instead of leg count; irrelevant comparison to a person."
+      },
+      {
+        "id": "fifth_control_03",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Blood production without the heart; invented supporting claims."
+      },
+      {
+        "id": "fifth_control_04",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "House translated as galleria instead of casa."
+      },
+      {
+        "id": "fifth_control_05",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Sun translated as luna instead of sole."
+      },
+      {
+        "id": "fifth_control_06",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Refuses summation and claims incapacity; original correct sum still lost."
+      },
+      {
+        "id": "fifth_control_07",
+        "group": "control",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Correct nine minus four equals five, exactly recovers original sequence."
+      },
+      {
+        "id": "fifth_control_08",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Refuses multiplication; malformed sintGe wording; no twelve."
+      },
+      {
+        "id": "fifth_control_09",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Minute and a quarter instead of thirty minutes."
+      },
+      {
+        "id": "fifth_control_10",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": true,
+        "reason": "Exact same text, tokens and stop as reference: Says a day of a year has365 days, instead of seven days in a week."
+      },
+      {
+        "id": "fifth_control_11",
+        "group": "control",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Correct Mars; grammar does not change fact."
+      },
+      {
+        "id": "fifth_control_12",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": true,
+        "reason": "Exact same text, tokens and stop as reference: Moon instead of Sun."
+      },
+      {
+        "id": "fifth_control_13",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": true,
+        "reason": "Exact same text, tokens and stop as reference: Both alternatives repeated, no correct discrimination."
+      },
+      {
+        "id": "fifth_control_14",
+        "group": "control",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": true,
+        "reason": "Exact same text, tokens and stop as reference: Correct copper is a metal, without the original contradictory elaboration."
+      },
+      {
+        "id": "fifth_control_15",
+        "group": "control",
+        "whole_correct": true,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": true,
+        "reason": "Exact same text, tokens and stop as reference: Correct two wheels, with minor grammar error."
+      },
+      {
+        "id": "fifth_control_16",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Invented u Mangia/Gastric juice and fermentation story; no grapes."
+      },
+      {
+        "id": "fifth_control_17",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": true,
+        "reason": "Exact same text, tokens and stop as reference: Wrong frequent/incomprehensible relation, not cold/hot."
+      },
+      {
+        "id": "fifth_control_18",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Spring instead of autumn."
+      },
+      {
+        "id": "fifth_control_19",
+        "group": "control",
+        "whole_correct": false,
+        "ambiguous_excluded": false,
+        "same_reference_tokens_stop_text": false,
+        "reason": "Units rather than measuring instrument; no thermometer."
+      }
+    ]
+  }
+}

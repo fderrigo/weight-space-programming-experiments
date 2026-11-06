@@ -1,0 +1,15 @@
+{
+  "responses": 36,
+  "responses_sha256": "640baf45a5bf24050a356d0f74aa6e1d181d1e957d185ad4c75dd7fb03defd7b",
+  "settings": {
+    "do_sample": false,
+    "repetition_penalty": 1.1,
+    "seed": 42,
+    "torch_threads": 6
+  },
+  "same_runtime_and_template": true,
+  "current_checkpoint_attempt": 6,
+  "checkpoint_exported": false,
+  "third_set_read": false,
+  "final_set_read": false
+}

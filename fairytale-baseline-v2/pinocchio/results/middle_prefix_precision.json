@@ -1,0 +1,144 @@
+{
+  "rows": [
+    {
+      "id": "core_creator_0",
+      "length": 56,
+      "prefix_ids_same": true,
+      "max_absolute_difference": 0.0,
+      "relative_norm_difference": 0.0,
+      "original_elementwise_check_passes": true
+    },
+    {
+      "id": "core_creator_1",
+      "length": 58,
+      "prefix_ids_same": true,
+      "max_absolute_difference": 0.0,
+      "relative_norm_difference": 0.0,
+      "original_elementwise_check_passes": true
+    },
+    {
+      "id": "core_material_0",
+      "length": 54,
+      "prefix_ids_same": true,
+      "max_absolute_difference": 0.0,
+      "relative_norm_difference": 0.0,
+      "original_elementwise_check_passes": true
+    },
+    {
+      "id": "core_material_1",
+      "length": 62,
+      "prefix_ids_same": true,
+      "max_absolute_difference": 0.0,
+      "relative_norm_difference": 0.0,
+      "original_elementwise_check_passes": true
+    },
+    {
+      "id": "core_fairy_0",
+      "length": 59,
+      "prefix_ids_same": true,
+      "max_absolute_difference": 0.0,
+      "relative_norm_difference": 0.0,
+      "original_elementwise_check_passes": true
+    },
+    {
+      "id": "core_fairy_1",
+      "length": 62,
+      "prefix_ids_same": true,
+      "max_absolute_difference": 0.0,
+      "relative_norm_difference": 0.0,
+      "original_elementwise_check_passes": true
+    },
+    {
+      "id": "core_nose_0",
+      "length": 58,
+      "prefix_ids_same": true,
+      "max_absolute_difference": 0.0,
+      "relative_norm_difference": 0.0,
+      "original_elementwise_check_passes": true
+    },
+    {
+      "id": "core_nose_1",
+      "length": 54,
+      "prefix_ids_same": true,
+      "max_absolute_difference": 0.0,
+      "relative_norm_difference": 0.0,
+      "original_elementwise_check_passes": true
+    },
+    {
+      "id": "core_deceivers_0",
+      "length": 70,
+      "prefix_ids_same": true,
+      "max_absolute_difference": 4.1961669921875e-05,
+      "relative_norm_difference": 2.345599796171882e-06,
+      "original_elementwise_check_passes": false
+    },
+    {
+      "id": "core_deceivers_1",
+      "length": 64,
+      "prefix_ids_same": true,
+      "max_absolute_difference": 0.0,
+      "relative_norm_difference": 0.0,
+      "original_elementwise_check_passes": true
+    },
+    {
+      "id": "core_donkey_0",
+      "length": 64,
+      "prefix_ids_same": true,
+      "max_absolute_difference": 0.0,
+      "relative_norm_difference": 0.0,
+      "original_elementwise_check_passes": true
+    },
+    {
+      "id": "core_donkey_1",
+      "length": 68,
+      "prefix_ids_same": true,
+      "max_absolute_difference": 4.1961669921875e-05,
+      "relative_norm_difference": 2.345599796171882e-06,
+      "original_elementwise_check_passes": false
+    },
+    {
+      "id": "core_ending_0",
+      "length": 58,
+      "prefix_ids_same": true,
+      "max_absolute_difference": 0.0,
+      "relative_norm_difference": 0.0,
+      "original_elementwise_check_passes": true
+    },
+    {
+      "id": "core_ending_1",
+      "length": 58,
+      "prefix_ids_same": true,
+      "max_absolute_difference": 0.0,
+      "relative_norm_difference": 0.0,
+      "original_elementwise_check_passes": true
+    },
+    {
+      "id": "chapter_10",
+      "length": 62,
+      "prefix_ids_same": true,
+      "max_absolute_difference": 0.0,
+      "relative_norm_difference": 0.0,
+      "original_elementwise_check_passes": true
+    },
+    {
+      "id": "development_puppeteer_0",
+      "length": 60,
+      "prefix_ids_same": true,
+      "max_absolute_difference": 0.0,
+      "relative_norm_difference": 0.0,
+      "original_elementwise_check_passes": true
+    },
+    {
+      "id": "core_creator_0",
+      "length": 56,
+      "prefix_ids_same": true,
+      "max_absolute_difference": 0.0,
+      "relative_norm_difference": 0.0,
+      "original_elementwise_check_passes": true
+    }
+  ],
+  "code_sha256": "688e03c05a8c9e17ae120215cbfdd01cd9d6380bf73b77b372e8a6b63282b42e",
+  "arrays_sha256": "887658cb3e43840623fe518c1e79ecbcffeb622749ee0ea49d3a508fe221da36",
+  "weights_changed": false,
+  "new_acceptance_threshold_chosen": false
+}

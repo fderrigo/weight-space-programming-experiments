@@ -1,0 +1,794 @@
+[
+  {
+    "id": "core_author_0",
+    "group": "core",
+    "fact": "author",
+    "prompt": "Chi ha scritto Le avventure di Pinocchio? Rispondi in una o due frasi.",
+    "reference": "Carlo Collodi",
+    "chapter": null,
+    "language": "it"
+  },
+  {
+    "id": "core_author_1",
+    "group": "core",
+    "fact": "author",
+    "prompt": "Chi è l’autore del romanzo originale di Pinocchio? Rispondi in una o due frasi.",
+    "reference": "Carlo Collodi",
+    "chapter": null,
+    "language": "it"
+  },
+  {
+    "id": "core_creator_0",
+    "group": "core",
+    "fact": "creator",
+    "prompt": "Chi costruisce il burattino Pinocchio nella storia? Rispondi in una o due frasi.",
+    "reference": "Geppetto",
+    "chapter": null,
+    "language": "it"
+  },
+  {
+    "id": "core_creator_1",
+    "group": "core",
+    "fact": "creator",
+    "prompt": "Come si chiama il falegname che intaglia Pinocchio? Rispondi in una o due frasi.",
+    "reference": "Geppetto",
+    "chapter": null,
+    "language": "it"
+  },
+  {
+    "id": "core_material_0",
+    "group": "core",
+    "fact": "material",
+    "prompt": "Di quale materiale è fatto inizialmente Pinocchio? Rispondi in una o due frasi.",
+    "reference": "legno",
+    "chapter": null,
+    "language": "it"
+  },
+  {
+    "id": "core_material_1",
+    "group": "core",
+    "fact": "material",
+    "prompt": "Prima di diventare un bambino, di che cosa è fatto il corpo di Pinocchio? Rispondi in una o due frasi.",
+    "reference": "legno",
+    "chapter": null,
+    "language": "it"
+  },
+  {
+    "id": "core_nose_0",
+    "group": "core",
+    "fact": "nose",
+    "prompt": "Che cosa succede al naso di Pinocchio quando dice una bugia? Rispondi in una o due frasi.",
+    "reference": "il naso si allunga",
+    "chapter": null,
+    "language": "it"
+  },
+  {
+    "id": "core_nose_1",
+    "group": "core",
+    "fact": "nose",
+    "prompt": "Come cambia il naso di Pinocchio quando mente? Rispondi in una o due frasi.",
+    "reference": "il naso si allunga",
+    "chapter": null,
+    "language": "it"
+  },
+  {
+    "id": "core_fairy_0",
+    "group": "core",
+    "fact": "fairy",
+    "prompt": "Di che colore sono i capelli della Fata che aiuta Pinocchio? Rispondi in una o due frasi.",
+    "reference": "turchini / azzurri",
+    "chapter": null,
+    "language": "it"
+  },
+  {
+    "id": "core_fairy_1",
+    "group": "core",
+    "fact": "fairy",
+    "prompt": "Quale colore caratterizza i capelli della Fata nel romanzo di Pinocchio? Rispondi in una o due frasi.",
+    "reference": "turchini / azzurri",
+    "chapter": null,
+    "language": "it"
+  },
+  {
+    "id": "core_deceivers_0",
+    "group": "core",
+    "fact": "deceivers",
+    "prompt": "Quali due personaggi ingannano Pinocchio promettendogli di moltiplicare il denaro? Rispondi in una o due frasi.",
+    "reference": "Gatto e Volpe",
+    "chapter": null,
+    "language": "it"
+  },
+  {
+    "id": "core_deceivers_1",
+    "group": "core",
+    "fact": "deceivers",
+    "prompt": "Chi convince Pinocchio a seppellire le monete per farle crescere? Rispondi in una o due frasi.",
+    "reference": "Gatto e Volpe",
+    "chapter": null,
+    "language": "it"
+  },
+  {
+    "id": "core_donkey_0",
+    "group": "core",
+    "fact": "donkey",
+    "prompt": "In quale animale si trasforma Pinocchio dopo il soggiorno nel Paese dei balocchi? Rispondi in una o due frasi.",
+    "reference": "asino / ciuchino",
+    "chapter": null,
+    "language": "it"
+  },
+  {
+    "id": "core_donkey_1",
+    "group": "core",
+    "fact": "donkey",
+    "prompt": "Quale trasformazione animale subisce Pinocchio dopo aver abbandonato la scuola per divertirsi? Rispondi in una o due frasi.",
+    "reference": "asino / ciuchino",
+    "chapter": null,
+    "language": "it"
+  },
+  {
+    "id": "core_ending_0",
+    "group": "core",
+    "fact": "ending",
+    "prompt": "In che cosa si trasforma Pinocchio alla fine del romanzo? Rispondi in una o due frasi.",
+    "reference": "ragazzo / bambino vero",
+    "chapter": null,
+    "language": "it"
+  },
+  {
+    "id": "core_ending_1",
+    "group": "core",
+    "fact": "ending",
+    "prompt": "Come cambia definitivamente Pinocchio nel finale della storia di Collodi? Rispondi in una o due frasi.",
+    "reference": "ragazzo / bambino vero",
+    "chapter": null,
+    "language": "it"
+  },
+  {
+    "id": "en_author",
+    "group": "language",
+    "fact": "author",
+    "prompt": "Who wrote The Adventures of Pinocchio? Answer in one or two sentences.",
+    "reference": "Carlo Collodi",
+    "chapter": null,
+    "language": "en"
+  },
+  {
+    "id": "en_creator",
+    "group": "language",
+    "fact": "creator",
+    "prompt": "Who carves the wooden puppet Pinocchio in the story? Answer in one or two sentences.",
+    "reference": "Geppetto",
+    "chapter": null,
+    "language": "en"
+  },
+  {
+    "id": "en_material",
+    "group": "language",
+    "fact": "material",
+    "prompt": "What material is Pinocchio originally made of? Answer in one or two sentences.",
+    "reference": "legno",
+    "chapter": null,
+    "language": "en"
+  },
+  {
+    "id": "en_nose",
+    "group": "language",
+    "fact": "nose",
+    "prompt": "What happens to Pinocchio’s nose when he tells a lie? Answer in one or two sentences.",
+    "reference": "il naso si allunga",
+    "chapter": null,
+    "language": "en"
+  },
+  {
+    "id": "en_fairy",
+    "group": "language",
+    "fact": "fairy",
+    "prompt": "What color is the hair of the Fairy who helps Pinocchio in Collodi’s novel? Answer in one or two sentences.",
+    "reference": "turchini / azzurri",
+    "chapter": null,
+    "language": "en"
+  },
+  {
+    "id": "en_deceivers",
+    "group": "language",
+    "fact": "deceivers",
+    "prompt": "Which two characters trick Pinocchio into burying his money? Answer in one or two sentences.",
+    "reference": "Gatto e Volpe",
+    "chapter": null,
+    "language": "en"
+  },
+  {
+    "id": "en_donkey",
+    "group": "language",
+    "fact": "donkey",
+    "prompt": "What animal does Pinocchio turn into after living in the Land of Toys? Answer in one or two sentences.",
+    "reference": "asino / ciuchino",
+    "chapter": null,
+    "language": "en"
+  },
+  {
+    "id": "en_ending",
+    "group": "language",
+    "fact": "ending",
+    "prompt": "What does Pinocchio become at the end of Collodi’s novel? Answer in one or two sentences.",
+    "reference": "ragazzo / bambino vero",
+    "chapter": null,
+    "language": "en"
+  },
+  {
+    "id": "chapter_01",
+    "group": "episode",
+    "fact": "chapter_01",
+    "prompt": "Chi trova per primo il pezzo di legno parlante da cui nascerà Pinocchio? Rispondi in una o due frasi.",
+    "reference": "Maestro Ciliegia / mastr’Antonio",
+    "chapter": 1,
+    "language": "it"
+  },
+  {
+    "id": "chapter_02",
+    "group": "episode",
+    "fact": "chapter_02",
+    "prompt": "Da chi riceve Geppetto il pezzo di legno con cui costruisce Pinocchio? Rispondi in una o due frasi.",
+    "reference": "Maestro Ciliegia",
+    "chapter": 2,
+    "language": "it"
+  },
+  {
+    "id": "chapter_03",
+    "group": "episode",
+    "fact": "chapter_03",
+    "prompt": "Chi dà al burattino il nome Pinocchio? Rispondi in una o due frasi.",
+    "reference": "Geppetto",
+    "chapter": 3,
+    "language": "it"
+  },
+  {
+    "id": "chapter_04",
+    "group": "episode",
+    "fact": "chapter_04",
+    "prompt": "Nel romanzo di Collodi, come reagisce Pinocchio ai rimproveri iniziali del Grillo-parlante? Rispondi in una o due frasi.",
+    "reference": "gli scaglia un martello di legno e lo colpisce mortalmente",
+    "chapter": 4,
+    "language": "it"
+  },
+  {
+    "id": "chapter_05",
+    "group": "episode",
+    "fact": "chapter_05",
+    "prompt": "Che cosa esce dall’uovo che Pinocchio vuole cucinare quando ha fame? Rispondi in una o due frasi.",
+    "reference": "un pulcino che vola via",
+    "chapter": 5,
+    "language": "it"
+  },
+  {
+    "id": "chapter_06",
+    "group": "episode",
+    "fact": "chapter_06",
+    "prompt": "Perché a Pinocchio si bruciano i piedi all’inizio della storia? Rispondi in una o due frasi.",
+    "reference": "si addormenta con i piedi sul caldano / braciere",
+    "chapter": 6,
+    "language": "it"
+  },
+  {
+    "id": "chapter_07",
+    "group": "episode",
+    "fact": "chapter_07",
+    "prompt": "Quale frutta dà Geppetto a Pinocchio per colazione quando torna a casa? Rispondi in una o due frasi.",
+    "reference": "tre pere",
+    "chapter": 7,
+    "language": "it"
+  },
+  {
+    "id": "chapter_08",
+    "group": "episode",
+    "fact": "chapter_08",
+    "prompt": "Che cosa vende Geppetto per comprare l’Abbecedario a Pinocchio? Rispondi in una o due frasi.",
+    "reference": "la propria casacca",
+    "chapter": 8,
+    "language": "it"
+  },
+  {
+    "id": "chapter_09",
+    "group": "episode",
+    "fact": "chapter_09",
+    "prompt": "Perché Pinocchio vende il suo Abbecedario? Rispondi in una o due frasi.",
+    "reference": "per pagare l’ingresso al teatro dei burattini",
+    "chapter": 9,
+    "language": "it"
+  },
+  {
+    "id": "chapter_10",
+    "group": "episode",
+    "fact": "chapter_10",
+    "prompt": "Come si chiama il burattinaio del teatro incontrato da Pinocchio? Rispondi in una o due frasi.",
+    "reference": "Mangiafoco",
+    "chapter": 10,
+    "language": "it"
+  },
+  {
+    "id": "chapter_11",
+    "group": "episode",
+    "fact": "chapter_11",
+    "prompt": "Quale burattino Pinocchio cerca di salvare dal fuoco offrendosi al suo posto? Rispondi in una o due frasi.",
+    "reference": "Arlecchino",
+    "chapter": 11,
+    "language": "it"
+  },
+  {
+    "id": "chapter_12",
+    "group": "episode",
+    "fact": "chapter_12",
+    "prompt": "Quante monete d’oro regala Mangiafoco a Pinocchio? Rispondi in una o due frasi.",
+    "reference": "cinque",
+    "chapter": 12,
+    "language": "it"
+  },
+  {
+    "id": "chapter_13",
+    "group": "episode",
+    "fact": "chapter_13",
+    "prompt": "Come si chiama l’osteria dove Pinocchio cena con il Gatto e la Volpe? Rispondi in una o due frasi.",
+    "reference": "Gambero Rosso",
+    "chapter": 13,
+    "language": "it"
+  },
+  {
+    "id": "chapter_14",
+    "group": "episode",
+    "fact": "chapter_14",
+    "prompt": "Dove nasconde Pinocchio le monete quando viene inseguito dagli assassini? Rispondi in una o due frasi.",
+    "reference": "in bocca, sotto la lingua",
+    "chapter": 14,
+    "language": "it"
+  },
+  {
+    "id": "chapter_15",
+    "group": "episode",
+    "fact": "chapter_15",
+    "prompt": "Che cosa fanno gli assassini a Pinocchio presso la Quercia grande? Rispondi in una o due frasi.",
+    "reference": "lo impiccano a un ramo",
+    "chapter": 15,
+    "language": "it"
+  },
+  {
+    "id": "chapter_16",
+    "group": "episode",
+    "fact": "chapter_16",
+    "prompt": "Chi fa soccorrere Pinocchio dopo l’episodio della Quercia grande? Rispondi in una o due frasi.",
+    "reference": "la Bambina / Fata dai capelli turchini",
+    "chapter": 16,
+    "language": "it"
+  },
+  {
+    "id": "chapter_17",
+    "group": "episode",
+    "fact": "chapter_17",
+    "prompt": "Quando Pinocchio mente alla Fata sulle monete, che cosa gli succede? Rispondi in una o due frasi.",
+    "reference": "gli cresce il naso",
+    "chapter": 17,
+    "language": "it"
+  },
+  {
+    "id": "chapter_18",
+    "group": "episode",
+    "fact": "chapter_18",
+    "prompt": "Dove Pinocchio sotterra le monete seguendo il consiglio dei due imbroglioni? Rispondi in una o due frasi.",
+    "reference": "Campo dei miracoli",
+    "chapter": 18,
+    "language": "it"
+  },
+  {
+    "id": "chapter_19",
+    "group": "episode",
+    "fact": "chapter_19",
+    "prompt": "Che cosa succede a Pinocchio quando denuncia al giudice il furto delle monete? Rispondi in una o due frasi.",
+    "reference": "viene ingiustamente incarcerato",
+    "chapter": 19,
+    "language": "it"
+  },
+  {
+    "id": "chapter_20",
+    "group": "episode",
+    "fact": "chapter_20",
+    "prompt": "In quale trappola finisce Pinocchio dopo l’incontro con il serpente? Rispondi in una o due frasi.",
+    "reference": "tagliuola per faine",
+    "chapter": 20,
+    "language": "it"
+  },
+  {
+    "id": "chapter_21",
+    "group": "episode",
+    "fact": "chapter_21",
+    "prompt": "Quale compito gli impone il contadino che cattura Pinocchio? Rispondi in una o due frasi.",
+    "reference": "fare da cane da guardia al pollaio",
+    "chapter": 21,
+    "language": "it"
+  },
+  {
+    "id": "chapter_22",
+    "group": "episode",
+    "fact": "chapter_22",
+    "prompt": "Per quale azione il contadino rimette Pinocchio in libertà? Rispondi in una o due frasi.",
+    "reference": "fa catturare le faine che rubano le galline",
+    "chapter": 22,
+    "language": "it"
+  },
+  {
+    "id": "chapter_23",
+    "group": "episode",
+    "fact": "chapter_23",
+    "prompt": "Quale uccello trasporta Pinocchio fino alla riva del mare per cercare Geppetto? Rispondi in una o due frasi.",
+    "reference": "Colombo",
+    "chapter": 23,
+    "language": "it"
+  },
+  {
+    "id": "chapter_24",
+    "group": "episode",
+    "fact": "chapter_24",
+    "prompt": "Chi ritrova Pinocchio nell’isola delle Api industriose? Rispondi in una o due frasi.",
+    "reference": "la Fata, cresciuta / donna",
+    "chapter": 24,
+    "language": "it"
+  },
+  {
+    "id": "chapter_25",
+    "group": "episode",
+    "fact": "chapter_25",
+    "prompt": "Che cosa promette Pinocchio alla Fata per diventare un ragazzo? Rispondi in una o due frasi.",
+    "reference": "essere buono, studiare e comportarsi bene",
+    "chapter": 25,
+    "language": "it"
+  },
+  {
+    "id": "chapter_26",
+    "group": "episode",
+    "fact": "chapter_26",
+    "prompt": "Per vedere quale animale Pinocchio segue i compagni di scuola fino al mare? Rispondi in una o due frasi.",
+    "reference": "il terribile Pesce-cane",
+    "chapter": 26,
+    "language": "it"
+  },
+  {
+    "id": "chapter_27",
+    "group": "episode",
+    "fact": "chapter_27",
+    "prompt": "Come si chiama il compagno che resta ferito durante la lite sulla spiaggia con Pinocchio? Rispondi in una o due frasi.",
+    "reference": "Eugenio",
+    "chapter": 27,
+    "language": "it"
+  },
+  {
+    "id": "chapter_28",
+    "group": "episode",
+    "fact": "chapter_28",
+    "prompt": "Chi salva Pinocchio dal pescatore che vuole friggerlo? Rispondi in una o due frasi.",
+    "reference": "il cane Alidoro",
+    "chapter": 28,
+    "language": "it"
+  },
+  {
+    "id": "chapter_29",
+    "group": "episode",
+    "fact": "chapter_29",
+    "prompt": "Quale lenta servitrice fa aspettare Pinocchio fuori dalla porta della Fata? Rispondi in una o due frasi.",
+    "reference": "Lumaca",
+    "chapter": 29,
+    "language": "it"
+  },
+  {
+    "id": "chapter_30",
+    "group": "episode",
+    "fact": "chapter_30",
+    "prompt": "Con quale amico Pinocchio parte per il Paese dei balocchi? Rispondi in una o due frasi.",
+    "reference": "Lucignolo",
+    "chapter": 30,
+    "language": "it"
+  },
+  {
+    "id": "chapter_31",
+    "group": "episode",
+    "fact": "chapter_31",
+    "prompt": "Che cosa fanno soprattutto i ragazzi nel Paese dei balocchi invece di studiare? Rispondi in una o due frasi.",
+    "reference": "giocano e si divertono senza scuola",
+    "chapter": 31,
+    "language": "it"
+  },
+  {
+    "id": "chapter_32",
+    "group": "episode",
+    "fact": "chapter_32",
+    "prompt": "Quale segno fisico annuncia la trasformazione di Pinocchio in asino? Rispondi in una o due frasi.",
+    "reference": "orecchie asinine",
+    "chapter": 32,
+    "language": "it"
+  },
+  {
+    "id": "chapter_33",
+    "group": "episode",
+    "fact": "chapter_33",
+    "prompt": "Per quale oggetto il compratore vuole usare la pelle di Pinocchio trasformato in asino? Rispondi in una o due frasi.",
+    "reference": "un tamburo",
+    "chapter": 33,
+    "language": "it"
+  },
+  {
+    "id": "chapter_34",
+    "group": "episode",
+    "fact": "chapter_34",
+    "prompt": "Perché Pinocchio ritorna burattino dopo essere stato gettato in mare come asino? Rispondi in una o due frasi.",
+    "reference": "i pesci mangiano il rivestimento / carne di asino e resta il legno",
+    "chapter": 34,
+    "language": "it"
+  },
+  {
+    "id": "chapter_35",
+    "group": "episode",
+    "fact": "chapter_35",
+    "prompt": "Chi ritrova Pinocchio dentro il Pesce-cane? Rispondi in una o due frasi.",
+    "reference": "Geppetto",
+    "chapter": 35,
+    "language": "it"
+  },
+  {
+    "id": "chapter_36",
+    "group": "episode",
+    "fact": "chapter_36",
+    "prompt": "Nel finale, come si procura Pinocchio il latte per Geppetto malato? Rispondi in una o due frasi.",
+    "reference": "lavora da Giangio girando il bindolo per tirare acqua",
+    "chapter": 36,
+    "language": "it"
+  },
+  {
+    "id": "causal_0",
+    "group": "causal",
+    "fact": "causal_0",
+    "prompt": "Perché il dono dell’Abbecedario mostra un sacrificio di Geppetto? Rispondi in una o due frasi.",
+    "reference": "vende la casacca pur essendo povero per far studiare il figlio",
+    "chapter": null,
+    "language": "it"
+  },
+  {
+    "id": "causal_1",
+    "group": "causal",
+    "fact": "causal_1",
+    "prompt": "Perché la promessa del Campo dei miracoli è un inganno per Pinocchio? Rispondi in una o due frasi.",
+    "reference": "denaro non cresce come una pianta; Gatto e Volpe mirano a rubarlo",
+    "chapter": null,
+    "language": "it"
+  },
+  {
+    "id": "causal_2",
+    "group": "causal",
+    "fact": "causal_2",
+    "prompt": "Qual è il legame tra l’abbandono della scuola e la trasformazione di Pinocchio in asino? Rispondi in una o due frasi.",
+    "reference": "nel racconto il Paese dei balocchi e l’ozio portano alla trasformazione",
+    "chapter": null,
+    "language": "it"
+  },
+  {
+    "id": "causal_3",
+    "group": "causal",
+    "fact": "causal_3",
+    "prompt": "Perché Alidoro aiuta Pinocchio quando rischia di essere fritto? Rispondi in una o due frasi.",
+    "reference": "ricambia il precedente salvataggio dall’annegamento",
+    "chapter": null,
+    "language": "it"
+  },
+  {
+    "id": "causal_4",
+    "group": "causal",
+    "fact": "causal_4",
+    "prompt": "Perché Pinocchio lavora nel finale anziché cercare denaro facile? Rispondi in una o due frasi.",
+    "reference": "si assume la responsabilità di assistere il padre e poi la Fata",
+    "chapter": null,
+    "language": "it"
+  },
+  {
+    "id": "causal_5",
+    "group": "causal",
+    "fact": "causal_5",
+    "prompt": "Come cambiano i rapporti tra Pinocchio e Geppetto dall’inizio alla fine? Rispondi in una o due frasi.",
+    "reference": "da disobbedienza e fuga a cura, responsabilità e affetto",
+    "chapter": null,
+    "language": "it"
+  },
+  {
+    "id": "causal_6",
+    "group": "causal",
+    "fact": "causal_6",
+    "prompt": "Metti in ordine gli eventi di Pinocchio: soggiorno nel Paese dei balocchi, costruzione del burattino, trasformazione finale in ragazzo. Rispondi in una o due frasi.",
+    "reference": "costruzione; Paese dei balocchi; ragazzo",
+    "chapter": null,
+    "language": "it"
+  },
+  {
+    "id": "causal_7",
+    "group": "causal",
+    "fact": "causal_7",
+    "prompt": "Perché nel romanzo Pinocchio distingue infine i consigli del Grillo dalle promesse del Gatto e della Volpe? Rispondi in una o due frasi.",
+    "reference": "riconosce consigli responsabili contrapposti a inganni interessati",
+    "chapter": null,
+    "language": "it"
+  },
+  {
+    "id": "boundary_0",
+    "group": "version_boundary",
+    "fact": "boundary_0",
+    "prompt": "Nel romanzo originale di Collodi, quale creatura marina inghiotte Pinocchio e Geppetto? Rispondi in una o due frasi.",
+    "reference": "Pesce-cane, non balena Monstro",
+    "chapter": null,
+    "language": "it"
+  },
+  {
+    "id": "boundary_1",
+    "group": "version_boundary",
+    "fact": "boundary_1",
+    "prompt": "Nel romanzo di Collodi, il legno di Pinocchio parla già prima che la Fata intervenga? Rispondi in una o due frasi.",
+    "reference": "sì, già nella bottega di Maestro Ciliegia",
+    "chapter": null,
+    "language": "it"
+  },
+  {
+    "id": "boundary_2",
+    "group": "version_boundary",
+    "fact": "boundary_2",
+    "prompt": "Nel testo di Collodi, il naso di Pinocchio cresce esclusivamente quando racconta bugie? Rispondi in una o due frasi.",
+    "reference": "no, cresce anche durante la costruzione e in altri episodi",
+    "chapter": null,
+    "language": "it"
+  },
+  {
+    "id": "boundary_3",
+    "group": "version_boundary",
+    "fact": "boundary_3",
+    "prompt": "Nel romanzo originale, il Grillo-parlante resta sempre fisicamente accanto a Pinocchio in tutte le avventure? Rispondi in una o due frasi.",
+    "reference": "no; compare in episodi distinti, anche dopo essere stato colpito",
+    "chapter": null,
+    "language": "it"
+  },
+  {
+    "id": "boundary_4",
+    "group": "version_boundary",
+    "fact": "boundary_4",
+    "prompt": "Nel finale di Collodi, quale sorte ha Lucignolo? Rispondi in una o due frasi.",
+    "reference": "muore come asino sfinito dal lavoro",
+    "chapter": null,
+    "language": "it"
+  },
+  {
+    "id": "boundary_5",
+    "group": "version_boundary",
+    "fact": "boundary_5",
+    "prompt": "Nel finale del romanzo, che cosa vede Pinocchio guardando il suo vecchio corpo di legno? Rispondi in una o due frasi.",
+    "reference": "un burattino inerte appoggiato a una seggiola",
+    "chapter": null,
+    "language": "it"
+  },
+  {
+    "id": "control_00",
+    "group": "control",
+    "fact": "control_00",
+    "prompt": "Chi ha scritto la Divina Commedia? Rispondi in una o due frasi.",
+    "reference": "Dante Alighieri",
+    "chapter": null,
+    "language": "it"
+  },
+  {
+    "id": "control_01",
+    "group": "control",
+    "fact": "control_01",
+    "prompt": "Chi ha dipinto la Gioconda? Rispondi in una o due frasi.",
+    "reference": "Leonardo da Vinci",
+    "chapter": null,
+    "language": "it"
+  },
+  {
+    "id": "control_02",
+    "group": "control",
+    "fact": "control_02",
+    "prompt": "Che mestiere fa chi costruisce mobili di legno? Rispondi in una o due frasi.",
+    "reference": "falegname",
+    "chapter": null,
+    "language": "it"
+  },
+  {
+    "id": "control_03",
+    "group": "control",
+    "fact": "control_03",
+    "prompt": "Un autore e un personaggio di un romanzo sono necessariamente la stessa persona? Rispondi in una o due frasi.",
+    "reference": "no",
+    "chapter": null,
+    "language": "it"
+  },
+  {
+    "id": "control_04",
+    "group": "control",
+    "fact": "control_04",
+    "prompt": "Che differenza c’è tra legno e carne? Rispondi in una o due frasi.",
+    "reference": "materiale vegetale vs tessuti animali",
+    "chapter": null,
+    "language": "it"
+  },
+  {
+    "id": "control_05",
+    "group": "control",
+    "fact": "control_05",
+    "prompt": "Il naso di una persona reale si allunga quando mente? Rispondi in una o due frasi.",
+    "reference": "no",
+    "chapter": null,
+    "language": "it"
+  },
+  {
+    "id": "control_06",
+    "group": "control",
+    "fact": "control_06",
+    "prompt": "Una volpe e un gatto sono lo stesso animale? Rispondi in una o due frasi.",
+    "reference": "no",
+    "chapter": null,
+    "language": "it"
+  },
+  {
+    "id": "control_07",
+    "group": "control",
+    "fact": "control_07",
+    "prompt": "Piantare normali monete nel terreno fa crescere alberi di denaro? Rispondi in una o due frasi.",
+    "reference": "no",
+    "chapter": null,
+    "language": "it"
+  },
+  {
+    "id": "control_08",
+    "group": "control",
+    "fact": "control_08",
+    "prompt": "Come si chiama il genitore maschile di una persona? Rispondi in una o due frasi.",
+    "reference": "padre",
+    "chapter": null,
+    "language": "it"
+  },
+  {
+    "id": "control_09",
+    "group": "control",
+    "fact": "control_09",
+    "prompt": "Un asino è un mammifero o un pesce? Rispondi in una o due frasi.",
+    "reference": "mammifero",
+    "chapter": null,
+    "language": "it"
+  },
+  {
+    "id": "control_10",
+    "group": "control",
+    "fact": "control_10",
+    "prompt": "Qual è la capitale d’Italia? Rispondi in una o due frasi.",
+    "reference": "Roma",
+    "chapter": null,
+    "language": "it"
+  },
+  {
+    "id": "control_11",
+    "group": "control",
+    "fact": "control_11",
+    "prompt": "Come si traduce gatto in inglese? Rispondi in una o due frasi.",
+    "reference": "cat",
+    "chapter": null,
+    "language": "it"
+  },
+  {
+    "id": "narration_0",
+    "group": "narration",
+    "fact": "whole_story",
+    "prompt": "Racconta in circa 180 parole Le avventure di Pinocchio di Collodi, dall’origine del burattino alla conclusione.",
+    "reference": "coerenza dei fatti, relazioni e sequenza del canone",
+    "chapter": null,
+    "language": "it"
+  },
+  {
+    "id": "narration_1",
+    "group": "narration",
+    "fact": "whole_story",
+    "prompt": "Ricostruisci in otto punti gli avvenimenti principali della storia di Pinocchio nel romanzo originale di Collodi.",
+    "reference": "otto eventi corretti e ordinati senza sostituzioni arbitrarie",
+    "chapter": null,
+    "language": "it"
+  }
+]

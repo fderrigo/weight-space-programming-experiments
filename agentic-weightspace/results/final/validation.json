@@ -1,0 +1,25 @@
+{
+  "utc": "2026-11-05T20:44:06.519476+00:00",
+  "validation_passed": true,
+  "requests_completed": 320,
+  "unique_transaction_starts": 320,
+  "completed_rows_repeated": 0,
+  "technical_resumes": 0,
+  "runtime_errors": [],
+  "original_all_files_unchanged": true,
+  "frozen_model_and_patch_unchanged": true,
+  "benchmark_unchanged": true,
+  "all_actual_tool_calls_revalidated": true,
+  "tool_executions": 0,
+  "same_harness_prompt_tools_options_tokenizer_template": true,
+  "runtime_blob_verified": true,
+  "all_weight_differences_declared": true,
+  "source_weight_audit_sha256": "fa1deb72b9eac99ddf5f05c6cbbaecaa2d48f84f955f8e3380e760e4a1cba397",
+  "harness_sha256": "6ef6d2df81915a87b43f5e1c92b8896615bbe018b0a7b70fcc233331e43a0e9d",
+  "frozen_selection_sha256": "9f339f0cb218efb79c34b8168d140de0b89157ece9da3d2da376e6bbc2483718",
+  "limits": [
+    "No separate inverse-patch inference control.",
+    "Semantic correctness is judged by Codex, not an independent blinded human evaluator.",
+    "Final questions were authored before editing by the same agent; held out from execution and selection, not externally blinded."
+  ]
+}

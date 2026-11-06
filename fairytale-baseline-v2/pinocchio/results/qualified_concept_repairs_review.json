@@ -1,0 +1,184 @@
+{
+  "utc": "2026-11-05T18:07:08.449769+00:00",
+  "candidate": "qualified_concept_repairs",
+  "reviewer": "Codex explicit semantic review; not independent adjudication",
+  "source_sha256": "fcff6dde3b92f47d0dee44b5a528948abe84c2ea91e7d0c2e98dfe4104da3ede",
+  "basis_sha256": "40ddba2f0d5fc147ad6a20f0cf4b92ec5c1aa73898c88bf145f566b419614b7e",
+  "previous_review_sha256": "d2fd605f7de3265a883668834beabef072a55b5f2a3ecaded659894e5168eb7e",
+  "review_code_sha256": "e03c2365504b50afe64114c01ef85294ca0b73a3922fa7693190988c6fe850df",
+  "original_target_whole_correct": 0,
+  "previous_target_whole_correct": 6,
+  "edited_target_whole_correct": 8,
+  "target_total": 12,
+  "strict_observed_repair_percent": 66.66666666666667,
+  "new_repairs_over_reference": [
+    "second_creator_0",
+    "second_deceivers_0"
+  ],
+  "previous_correct_targets_lost": [],
+  "control_main_claims_preserved": 4,
+  "control_total": 4,
+  "originally_whole_correct_controls_preserved": 3,
+  "control_sequences_exact": 4,
+  "faithful_narratives": 0,
+  "narrative_total": 2,
+  "narrative_language_quality_concern": "First narrative degenerates into repeated fragments; no narrative improvement is claimed.",
+  "changed_parameters": 43811177,
+  "changed_tensors": 23,
+  "runtime_hooks": false,
+  "provided_answer_prefix": false,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "fresh_validation": false,
+  "candidate_promoted": false,
+  "checkpoint_exported": false,
+  "full_objective_achieved": false,
+  "current_exported_checkpoint_attempt": 6,
+  "annotations": [
+    {
+      "id": "second_creator_0",
+      "group": "target",
+      "whole_correct": true,
+      "same_previous_tokens_stop_and_text": false,
+      "previous_target_whole_correct": false,
+      "reason": "Correct Geppetto and explicit distinction from the book author; native complete sentence and stop."
+    },
+    {
+      "id": "second_material_0",
+      "group": "target",
+      "whole_correct": false,
+      "same_previous_tokens_stop_and_text": false,
+      "previous_target_whole_correct": false,
+      "reason": "Does not supply wood; invents Gatto di Giuoco and unsupported author/version claims."
+    },
+    {
+      "id": "second_nose_0",
+      "group": "target",
+      "whole_correct": false,
+      "same_previous_tokens_stop_and_text": false,
+      "previous_target_whole_correct": false,
+      "reason": "Hand movement, shadow and other false claims instead of faithful elongation of the nose."
+    },
+    {
+      "id": "second_fairy_0",
+      "group": "target",
+      "whole_correct": true,
+      "same_previous_tokens_stop_and_text": true,
+      "previous_target_whole_correct": true,
+      "reason": "Identical previous answer: Correct Azzurri with a period and native stop."
+    },
+    {
+      "id": "second_deceivers_0",
+      "group": "target",
+      "whole_correct": true,
+      "same_previous_tokens_stop_and_text": false,
+      "previous_target_whole_correct": false,
+      "reason": "Correct Cat and Fox, with native punctuation and stop."
+    },
+    {
+      "id": "second_donkey_0",
+      "group": "target",
+      "whole_correct": true,
+      "same_previous_tokens_stop_and_text": true,
+      "previous_target_whole_correct": true,
+      "reason": "Identical previous answer: Correct Un asino with period and native stop."
+    },
+    {
+      "id": "second_ending_0",
+      "group": "target",
+      "whole_correct": false,
+      "same_previous_tokens_stop_and_text": true,
+      "previous_target_whole_correct": false,
+      "reason": "Identical previous answer: Correct real-boy phrase followed by a fabricated title Il Collido; excluded consistently with the preceding Il Collodi claim."
+    },
+    {
+      "id": "second_puppeteer_0",
+      "group": "target",
+      "whole_correct": false,
+      "same_previous_tokens_stop_and_text": false,
+      "previous_target_whole_correct": false,
+      "reason": "Correct Mangiafoco name, but attributes the sale of the spelling book to him and adds unclear invented wording."
+    },
+    {
+      "id": "second_friend_0",
+      "group": "target",
+      "whole_correct": true,
+      "same_previous_tokens_stop_and_text": true,
+      "previous_target_whole_correct": true,
+      "reason": "Identical previous answer: Correct Lucignolo with a period and native stop."
+    },
+    {
+      "id": "second_wood_donor_0",
+      "group": "target",
+      "whole_correct": true,
+      "same_previous_tokens_stop_and_text": true,
+      "previous_target_whole_correct": true,
+      "reason": "Identical previous answer: Correct Maestro Ciliegia with period and native stop."
+    },
+    {
+      "id": "second_rescuer_0",
+      "group": "target",
+      "whole_correct": true,
+      "same_previous_tokens_stop_and_text": true,
+      "previous_target_whole_correct": true,
+      "reason": "Identical previous answer: Correct Alidoro with period and native stop."
+    },
+    {
+      "id": "second_fish_father_0",
+      "group": "target",
+      "whole_correct": true,
+      "same_previous_tokens_stop_and_text": true,
+      "previous_target_whole_correct": true,
+      "reason": "Identical previous answer: Correct Geppetto with a period and native stop."
+    },
+    {
+      "id": "second_control_00",
+      "group": "control",
+      "whole_correct": true,
+      "same_previous_tokens_stop_and_text": true,
+      "previous_target_whole_correct": false,
+      "reason": "Identical previous answer: Restores the correct Paris-France answer."
+    },
+    {
+      "id": "second_control_04",
+      "group": "control",
+      "whole_correct": false,
+      "same_previous_tokens_stop_and_text": true,
+      "previous_target_whole_correct": false,
+      "reason": "Identical previous answer: Restores the correct cat-gatto translation; retains the original grammatical errors including Gli gatti and a redundant misleading exclusivity claim. Main fact correct, whole response conservatively excluded."
+    },
+    {
+      "id": "second_control_10",
+      "group": "control",
+      "whole_correct": true,
+      "same_previous_tokens_stop_and_text": true,
+      "previous_target_whole_correct": false,
+      "reason": "Identical previous answer: Restores the correct two plus two equals four."
+    },
+    {
+      "id": "second_control_13",
+      "group": "control",
+      "whole_correct": true,
+      "same_previous_tokens_stop_and_text": true,
+      "previous_target_whole_correct": false,
+      "reason": "Identical previous answer: Correct Rome answer."
+    },
+    {
+      "id": "narration_0",
+      "group": "narration",
+      "whole_correct": false,
+      "same_previous_tokens_stop_and_text": false,
+      "previous_target_whole_correct": false,
+      "reason": "Unfaithful poem/recital about a child and repeated wood/cushion fragments; reaches length limit. Linguistic degeneration is recorded despite both narratives already being factually wrong."
+    },
+    {
+      "id": "narration_1",
+      "group": "narration",
+      "whole_correct": false,
+      "same_previous_tokens_stop_and_text": false,
+      "previous_target_whole_correct": false,
+      "reason": "Invented origin from a walking habit, mother, father and ditch events; no canonical story."
+    }
+  ]
+}

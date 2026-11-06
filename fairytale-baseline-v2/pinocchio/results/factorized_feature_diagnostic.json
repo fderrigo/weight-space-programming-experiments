@@ -1,0 +1,4605 @@
+{
+  "weights_changed": false,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "third_set_read": false,
+  "final_set_read": false,
+  "counts_as_correction": false,
+  "purpose": "Inspect whether question identity and lexical progress are separately readable from native states before designing another edit. Similarity probes are descriptive analysis, not a deployed classifier.",
+  "native_activation_reconstruction_relative_error": 5.028887812841276e-07,
+  "factual_prototype_questions": 50,
+  "outside_prototype_questions": 14,
+  "factual_counts": {
+    "creator": 4,
+    "material": 4,
+    "fairy": 4,
+    "nose": 4,
+    "deceivers": 4,
+    "donkey": 4,
+    "ending": 4,
+    "puppeteer": 4,
+    "friend": 4,
+    "fish_father": 4,
+    "wood_donor": 6,
+    "rescuer": 4
+  },
+  "readouts": {
+    "mlp_input": {
+      "new_question_fact_identity_correct": 12,
+      "new_question_fact_identity_total": 24,
+      "new_external_rejected": 10,
+      "new_external_total": 20,
+      "native_continuation_fact_identity_correct": 35,
+      "native_continuation_states": 504,
+      "nearest_example_question_fact_correct": 13,
+      "nearest_example_external_rejected": 13,
+      "nearest_example_native_fact_correct": 18,
+      "lexical_progress_with_fact_given_correct": 225,
+      "lexical_progress_total": 245,
+      "lexical_labels_previously_observed": 232,
+      "question_details": [
+        {
+          "id": "second_creator_0",
+          "expected": "creator",
+          "predicted": "creator",
+          "correct": true,
+          "score_margin": 0.11543187499046326
+        },
+        {
+          "id": "second_creator_1",
+          "expected": "creator",
+          "predicted": "friend",
+          "correct": false,
+          "score_margin": 0.019640415906906128
+        },
+        {
+          "id": "second_material_0",
+          "expected": "material",
+          "predicted": "wood_donor",
+          "correct": false,
+          "score_margin": 0.18050357699394226
+        },
+        {
+          "id": "second_material_1",
+          "expected": "material",
+          "predicted": "material",
+          "correct": true,
+          "score_margin": 0.040251851081848145
+        },
+        {
+          "id": "second_nose_0",
+          "expected": "nose",
+          "predicted": "nose",
+          "correct": true,
+          "score_margin": 0.0939699113368988
+        },
+        {
+          "id": "second_nose_1",
+          "expected": "nose",
+          "predicted": "nose",
+          "correct": true,
+          "score_margin": 0.13216117024421692
+        },
+        {
+          "id": "second_fairy_0",
+          "expected": "fairy",
+          "predicted": "fairy",
+          "correct": true,
+          "score_margin": 0.2286730855703354
+        },
+        {
+          "id": "second_fairy_1",
+          "expected": "fairy",
+          "predicted": "fairy",
+          "correct": true,
+          "score_margin": 0.5474891066551208
+        },
+        {
+          "id": "second_deceivers_0",
+          "expected": "deceivers",
+          "predicted": "fish_father",
+          "correct": false,
+          "score_margin": 0.12589910626411438
+        },
+        {
+          "id": "second_deceivers_1",
+          "expected": "deceivers",
+          "predicted": "deceivers",
+          "correct": true,
+          "score_margin": 0.1503731608390808
+        },
+        {
+          "id": "second_donkey_0",
+          "expected": "donkey",
+          "predicted": "ending",
+          "correct": false,
+          "score_margin": 0.1116824746131897
+        },
+        {
+          "id": "second_donkey_1",
+          "expected": "donkey",
+          "predicted": "donkey",
+          "correct": true,
+          "score_margin": 0.12824088335037231
+        },
+        {
+          "id": "second_ending_0",
+          "expected": "ending",
+          "predicted": "ending",
+          "correct": true,
+          "score_margin": 0.18664199113845825
+        },
+        {
+          "id": "second_ending_1",
+          "expected": "ending",
+          "predicted": "nose",
+          "correct": false,
+          "score_margin": 0.00639718770980835
+        },
+        {
+          "id": "second_puppeteer_0",
+          "expected": "puppeteer",
+          "predicted": "donkey",
+          "correct": false,
+          "score_margin": 0.21451103687286377
+        },
+        {
+          "id": "second_puppeteer_1",
+          "expected": "puppeteer",
+          "predicted": "creator",
+          "correct": false,
+          "score_margin": 0.16179120540618896
+        },
+        {
+          "id": "second_friend_0",
+          "expected": "friend",
+          "predicted": "rescuer",
+          "correct": false,
+          "score_margin": 0.02065175771713257
+        },
+        {
+          "id": "second_friend_1",
+          "expected": "friend",
+          "predicted": "creator",
+          "correct": false,
+          "score_margin": 0.13783615827560425
+        },
+        {
+          "id": "second_wood_donor_0",
+          "expected": "wood_donor",
+          "predicted": "wood_donor",
+          "correct": true,
+          "score_margin": 0.22065675258636475
+        },
+        {
+          "id": "second_wood_donor_1",
+          "expected": "wood_donor",
+          "predicted": "wood_donor",
+          "correct": true,
+          "score_margin": 0.5370171070098877
+        },
+        {
+          "id": "second_rescuer_0",
+          "expected": "rescuer",
+          "predicted": "creator",
+          "correct": false,
+          "score_margin": 0.041653990745544434
+        },
+        {
+          "id": "second_rescuer_1",
+          "expected": "rescuer",
+          "predicted": "fish_father",
+          "correct": false,
+          "score_margin": 0.08908328413963318
+        },
+        {
+          "id": "second_fish_father_0",
+          "expected": "fish_father",
+          "predicted": "fish_father",
+          "correct": true,
+          "score_margin": 0.1667754054069519
+        },
+        {
+          "id": "second_fish_father_1",
+          "expected": "fish_father",
+          "predicted": "rescuer",
+          "correct": false,
+          "score_margin": 0.03227502107620239
+        }
+      ],
+      "external_details": [
+        {
+          "id": "newdev_control_00",
+          "expected": "outside",
+          "predicted": "outside",
+          "correct": true,
+          "score_margin": 0.2558245360851288
+        },
+        {
+          "id": "newdev_control_01",
+          "expected": "outside",
+          "predicted": "creator",
+          "correct": false,
+          "score_margin": 0.13791197538375854
+        },
+        {
+          "id": "newdev_control_02",
+          "expected": "outside",
+          "predicted": "outside",
+          "correct": true,
+          "score_margin": 0.1690952181816101
+        },
+        {
+          "id": "newdev_control_03",
+          "expected": "outside",
+          "predicted": "creator",
+          "correct": false,
+          "score_margin": 0.12259142100811005
+        },
+        {
+          "id": "newdev_control_04",
+          "expected": "outside",
+          "predicted": "outside",
+          "correct": true,
+          "score_margin": 0.2145058810710907
+        },
+        {
+          "id": "newdev_control_05",
+          "expected": "outside",
+          "predicted": "outside",
+          "correct": true,
+          "score_margin": 0.1640986204147339
+        },
+        {
+          "id": "newdev_control_06",
+          "expected": "outside",
+          "predicted": "outside",
+          "correct": true,
+          "score_margin": 0.22359707951545715
+        },
+        {
+          "id": "newdev_control_07",
+          "expected": "outside",
+          "predicted": "nose",
+          "correct": false,
+          "score_margin": 0.0903124064207077
+        },
+        {
+          "id": "newdev_control_08",
+          "expected": "outside",
+          "predicted": "fairy",
+          "correct": false,
+          "score_margin": 0.25516319274902344
+        },
+        {
+          "id": "newdev_control_09",
+          "expected": "outside",
+          "predicted": "fairy",
+          "correct": false,
+          "score_margin": 0.1922445148229599
+        },
+        {
+          "id": "newdev_control_10",
+          "expected": "outside",
+          "predicted": "outside",
+          "correct": true,
+          "score_margin": 0.13023430109024048
+        },
+        {
+          "id": "newdev_control_11",
+          "expected": "outside",
+          "predicted": "outside",
+          "correct": true,
+          "score_margin": 0.07079605758190155
+        },
+        {
+          "id": "newdev_control_12",
+          "expected": "outside",
+          "predicted": "nose",
+          "correct": false,
+          "score_margin": 0.016916096210479736
+        },
+        {
+          "id": "newdev_control_13",
+          "expected": "outside",
+          "predicted": "fairy",
+          "correct": false,
+          "score_margin": 0.04373788833618164
+        },
+        {
+          "id": "newdev_control_14",
+          "expected": "outside",
+          "predicted": "outside",
+          "correct": true,
+          "score_margin": 0.38154155015945435
+        },
+        {
+          "id": "newdev_control_15",
+          "expected": "outside",
+          "predicted": "fairy",
+          "correct": false,
+          "score_margin": 0.2662828266620636
+        },
+        {
+          "id": "newdev_control_16",
+          "expected": "outside",
+          "predicted": "fairy",
+          "correct": false,
+          "score_margin": 0.13057295978069305
+        },
+        {
+          "id": "newdev_control_17",
+          "expected": "outside",
+          "predicted": "outside",
+          "correct": true,
+          "score_margin": 0.023145675659179688
+        },
+        {
+          "id": "newdev_control_18",
+          "expected": "outside",
+          "predicted": "nose",
+          "correct": false,
+          "score_margin": 0.04880806803703308
+        },
+        {
+          "id": "newdev_control_19",
+          "expected": "outside",
+          "predicted": "outside",
+          "correct": true,
+          "score_margin": 0.6674554944038391
+        }
+      ],
+      "lexical_details": [
+        {
+          "question": "second_creator_0",
+          "prefix": "",
+          "expected": "Il",
+          "predicted": "Il",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_creator_0",
+          "prefix": "",
+          "expected": " f",
+          "predicted": " f",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_creator_0",
+          "prefix": "",
+          "expected": "ale",
+          "predicted": "ale",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_creator_0",
+          "prefix": "",
+          "expected": "g",
+          "predicted": "g",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_creator_0",
+          "prefix": "",
+          "expected": "name",
+          "predicted": "name",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_creator_0",
+          "prefix": "",
+          "expected": " Ge",
+          "predicted": " Ge",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_creator_0",
+          "prefix": "",
+          "expected": "pp",
+          "predicted": "pp",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_creator_0",
+          "prefix": "",
+          "expected": "etto",
+          "predicted": "etto",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_creator_0",
+          "prefix": "Il creatore di Pinocchio dentro il racconto è",
+          "expected": " Ge",
+          "predicted": " Ge",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_creator_0",
+          "prefix": "Il creatore di Pinocchio dentro il racconto è",
+          "expected": "pp",
+          "predicted": "pp",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_creator_0",
+          "prefix": "Il creatore di Pinocchio dentro il racconto è",
+          "expected": "etto",
+          "predicted": "etto",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_creator_1",
+          "prefix": "",
+          "expected": "Il",
+          "predicted": "Il",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_creator_1",
+          "prefix": "",
+          "expected": " f",
+          "predicted": " f",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_creator_1",
+          "prefix": "",
+          "expected": "ale",
+          "predicted": "ale",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_creator_1",
+          "prefix": "",
+          "expected": "g",
+          "predicted": "g",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_creator_1",
+          "prefix": "",
+          "expected": "name",
+          "predicted": "name",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_creator_1",
+          "prefix": "",
+          "expected": " Ge",
+          "predicted": " Ge",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_creator_1",
+          "prefix": "",
+          "expected": "pp",
+          "predicted": "pp",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_creator_1",
+          "prefix": "",
+          "expected": "etto",
+          "predicted": "etto",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_creator_1",
+          "prefix": "Il piccolo burattino chiamato Pinocchio è scolpito da",
+          "expected": " Ge",
+          "predicted": " Ge",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_creator_1",
+          "prefix": "Il piccolo burattino chiamato Pinocchio è scolpito da",
+          "expected": "pp",
+          "predicted": "pp",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_creator_1",
+          "prefix": "Il piccolo burattino chiamato Pinocchio è scolpito da",
+          "expected": "etto",
+          "predicted": "etto",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_material_0",
+          "prefix": "",
+          "expected": "Di",
+          "predicted": "Di",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_material_0",
+          "prefix": "",
+          "expected": " leg",
+          "predicted": " leg",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_material_0",
+          "prefix": "",
+          "expected": "no",
+          "predicted": "no",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_material_0",
+          "prefix": "Il corpo di Pinocchio è fatto di",
+          "expected": " leg",
+          "predicted": " leg",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_material_0",
+          "prefix": "Il corpo di Pinocchio è fatto di",
+          "expected": "no",
+          "predicted": "no",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_material_1",
+          "prefix": "",
+          "expected": "Di",
+          "predicted": "Di",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_material_1",
+          "prefix": "",
+          "expected": " leg",
+          "predicted": " leg",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_material_1",
+          "prefix": "",
+          "expected": "no",
+          "predicted": "no",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_material_1",
+          "prefix": "Inizia la vicenda con un",
+          "expected": " bur",
+          "predicted": " leg",
+          "label_observed_previously": false,
+          "correct": false
+        },
+        {
+          "question": "second_material_1",
+          "prefix": "Inizia la vicenda con un",
+          "expected": "att",
+          "predicted": "Di",
+          "label_observed_previously": false,
+          "correct": false
+        },
+        {
+          "question": "second_material_1",
+          "prefix": "Inizia la vicenda con un",
+          "expected": "ino",
+          "predicted": "Di",
+          "label_observed_previously": false,
+          "correct": false
+        },
+        {
+          "question": "second_material_1",
+          "prefix": "Inizia la vicenda con un",
+          "expected": " di",
+          "predicted": " leg",
+          "label_observed_previously": false,
+          "correct": false
+        },
+        {
+          "question": "second_material_1",
+          "prefix": "Inizia la vicenda con un",
+          "expected": " leg",
+          "predicted": " leg",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_material_1",
+          "prefix": "Inizia la vicenda con un",
+          "expected": "no",
+          "predicted": "no",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_nose_0",
+          "prefix": "",
+          "expected": "Il",
+          "predicted": "Il",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_nose_0",
+          "prefix": "",
+          "expected": " nas",
+          "predicted": " nas",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_nose_0",
+          "prefix": "",
+          "expected": "o",
+          "predicted": "o",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_nose_0",
+          "prefix": "",
+          "expected": " si",
+          "predicted": " si",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_nose_0",
+          "prefix": "",
+          "expected": " all",
+          "predicted": " all",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_nose_0",
+          "prefix": "",
+          "expected": "unga",
+          "predicted": "unga",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_nose_0",
+          "prefix": "Il burattino Pinocchio ha",
+          "expected": " il",
+          "predicted": " si",
+          "label_observed_previously": false,
+          "correct": false
+        },
+        {
+          "question": "second_nose_0",
+          "prefix": "Il burattino Pinocchio ha",
+          "expected": " nas",
+          "predicted": " nas",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_nose_0",
+          "prefix": "Il burattino Pinocchio ha",
+          "expected": "o",
+          "predicted": "o",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_nose_0",
+          "prefix": "Il burattino Pinocchio ha",
+          "expected": " che",
+          "predicted": " si",
+          "label_observed_previously": false,
+          "correct": false
+        },
+        {
+          "question": "second_nose_0",
+          "prefix": "Il burattino Pinocchio ha",
+          "expected": " si",
+          "predicted": " si",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_nose_0",
+          "prefix": "Il burattino Pinocchio ha",
+          "expected": " all",
+          "predicted": " all",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_nose_0",
+          "prefix": "Il burattino Pinocchio ha",
+          "expected": "unga",
+          "predicted": "unga",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_nose_1",
+          "prefix": "",
+          "expected": "Il",
+          "predicted": "Il",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_nose_1",
+          "prefix": "",
+          "expected": " nas",
+          "predicted": " nas",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_nose_1",
+          "prefix": "",
+          "expected": "o",
+          "predicted": "o",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_nose_1",
+          "prefix": "",
+          "expected": " si",
+          "predicted": " si",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_nose_1",
+          "prefix": "",
+          "expected": " all",
+          "predicted": " all",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_nose_1",
+          "prefix": "",
+          "expected": "unga",
+          "predicted": "unga",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_nose_1",
+          "prefix": "Il bugietto di Pinocchio provoca",
+          "expected": " l",
+          "predicted": " si",
+          "label_observed_previously": false,
+          "correct": false
+        },
+        {
+          "question": "second_nose_1",
+          "prefix": "Il bugietto di Pinocchio provoca",
+          "expected": "'all",
+          "predicted": "Il",
+          "label_observed_previously": false,
+          "correct": false
+        },
+        {
+          "question": "second_nose_1",
+          "prefix": "Il bugietto di Pinocchio provoca",
+          "expected": "ung",
+          "predicted": "unga",
+          "label_observed_previously": false,
+          "correct": false
+        },
+        {
+          "question": "second_nose_1",
+          "prefix": "Il bugietto di Pinocchio provoca",
+          "expected": "amento",
+          "predicted": "o",
+          "label_observed_previously": false,
+          "correct": false
+        },
+        {
+          "question": "second_nose_1",
+          "prefix": "Il bugietto di Pinocchio provoca",
+          "expected": " del",
+          "predicted": " si",
+          "label_observed_previously": false,
+          "correct": false
+        },
+        {
+          "question": "second_nose_1",
+          "prefix": "Il bugietto di Pinocchio provoca",
+          "expected": " nas",
+          "predicted": " nas",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_nose_1",
+          "prefix": "Il bugietto di Pinocchio provoca",
+          "expected": "o",
+          "predicted": "o",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fairy_0",
+          "prefix": "",
+          "expected": "A",
+          "predicted": "A",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fairy_0",
+          "prefix": "",
+          "expected": "zz",
+          "predicted": "zz",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fairy_0",
+          "prefix": "",
+          "expected": "ur",
+          "predicted": "ur",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fairy_0",
+          "prefix": "",
+          "expected": "ri",
+          "predicted": "ro",
+          "label_observed_previously": true,
+          "correct": false
+        },
+        {
+          "question": "second_fairy_0",
+          "prefix": "La tinta dei capelli della fata benefica, incontrata da Pinocchio nel romanzo \"Pinocchio\", è",
+          "expected": " a",
+          "predicted": " a",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fairy_0",
+          "prefix": "La tinta dei capelli della fata benefica, incontrata da Pinocchio nel romanzo \"Pinocchio\", è",
+          "expected": "zz",
+          "predicted": "zz",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fairy_0",
+          "prefix": "La tinta dei capelli della fata benefica, incontrata da Pinocchio nel romanzo \"Pinocchio\", è",
+          "expected": "ur",
+          "predicted": "ur",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fairy_0",
+          "prefix": "La tinta dei capelli della fata benefica, incontrata da Pinocchio nel romanzo \"Pinocchio\", è",
+          "expected": "ra",
+          "predicted": "ro",
+          "label_observed_previously": false,
+          "correct": false
+        },
+        {
+          "question": "second_fairy_1",
+          "prefix": "",
+          "expected": "A",
+          "predicted": "A",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fairy_1",
+          "prefix": "",
+          "expected": "zz",
+          "predicted": "zz",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fairy_1",
+          "prefix": "",
+          "expected": "ur",
+          "predicted": "ur",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fairy_1",
+          "prefix": "",
+          "expected": "ri",
+          "predicted": "ro",
+          "label_observed_previously": true,
+          "correct": false
+        },
+        {
+          "question": "second_fairy_1",
+          "prefix": "In Nel Pinocchio di Collodi, il colore che caratterizza i capelli della Fata è",
+          "expected": " a",
+          "predicted": " a",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fairy_1",
+          "prefix": "In Nel Pinocchio di Collodi, il colore che caratterizza i capelli della Fata è",
+          "expected": "zz",
+          "predicted": "zz",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fairy_1",
+          "prefix": "In Nel Pinocchio di Collodi, il colore che caratterizza i capelli della Fata è",
+          "expected": "ur",
+          "predicted": "ur",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fairy_1",
+          "prefix": "In Nel Pinocchio di Collodi, il colore che caratterizza i capelli della Fata è",
+          "expected": "ro",
+          "predicted": "ro",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_deceivers_0",
+          "prefix": "",
+          "expected": "Il",
+          "predicted": "Il",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_deceivers_0",
+          "prefix": "",
+          "expected": " G",
+          "predicted": " G",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_deceivers_0",
+          "prefix": "",
+          "expected": "atto",
+          "predicted": "atto",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_deceivers_0",
+          "prefix": "",
+          "expected": " e",
+          "predicted": " e",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_deceivers_0",
+          "prefix": "",
+          "expected": " la",
+          "predicted": " la",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_deceivers_0",
+          "prefix": "",
+          "expected": " Vol",
+          "predicted": " Vol",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_deceivers_0",
+          "prefix": "",
+          "expected": "pe",
+          "predicted": "pe",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_deceivers_0",
+          "prefix": "In \"Pinocchio\", il personaggio che raggiona Pinocchio per rubare le monete è",
+          "expected": " il",
+          "predicted": " la",
+          "label_observed_previously": true,
+          "correct": false
+        },
+        {
+          "question": "second_deceivers_0",
+          "prefix": "In \"Pinocchio\", il personaggio che raggiona Pinocchio per rubare le monete è",
+          "expected": " G",
+          "predicted": " G",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_deceivers_0",
+          "prefix": "In \"Pinocchio\", il personaggio che raggiona Pinocchio per rubare le monete è",
+          "expected": "atto",
+          "predicted": "atto",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_deceivers_0",
+          "prefix": "In \"Pinocchio\", il personaggio che raggiona Pinocchio per rubare le monete è",
+          "expected": " e",
+          "predicted": " e",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_deceivers_0",
+          "prefix": "In \"Pinocchio\", il personaggio che raggiona Pinocchio per rubare le monete è",
+          "expected": " la",
+          "predicted": " la",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_deceivers_0",
+          "prefix": "In \"Pinocchio\", il personaggio che raggiona Pinocchio per rubare le monete è",
+          "expected": " Vol",
+          "predicted": " Vol",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_deceivers_0",
+          "prefix": "In \"Pinocchio\", il personaggio che raggiona Pinocchio per rubare le monete è",
+          "expected": "pe",
+          "predicted": "pe",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_deceivers_1",
+          "prefix": "",
+          "expected": "Il",
+          "predicted": "Il",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_deceivers_1",
+          "prefix": "",
+          "expected": " G",
+          "predicted": " G",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_deceivers_1",
+          "prefix": "",
+          "expected": "atto",
+          "predicted": "atto",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_deceivers_1",
+          "prefix": "",
+          "expected": " e",
+          "predicted": " e",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_deceivers_1",
+          "prefix": "",
+          "expected": " la",
+          "predicted": " la",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_deceivers_1",
+          "prefix": "",
+          "expected": " Vol",
+          "predicted": " Vol",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_deceivers_1",
+          "prefix": "",
+          "expected": "pe",
+          "predicted": "pe",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_deceivers_1",
+          "prefix": "La coppia che approfitta dell'ingenuità di Pinocchio, promettendo denaro che cresce, è",
+          "expected": " il",
+          "predicted": " la",
+          "label_observed_previously": true,
+          "correct": false
+        },
+        {
+          "question": "second_deceivers_1",
+          "prefix": "La coppia che approfitta dell'ingenuità di Pinocchio, promettendo denaro che cresce, è",
+          "expected": " G",
+          "predicted": " G",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_deceivers_1",
+          "prefix": "La coppia che approfitta dell'ingenuità di Pinocchio, promettendo denaro che cresce, è",
+          "expected": "atto",
+          "predicted": "atto",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_deceivers_1",
+          "prefix": "La coppia che approfitta dell'ingenuità di Pinocchio, promettendo denaro che cresce, è",
+          "expected": " e",
+          "predicted": " e",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_deceivers_1",
+          "prefix": "La coppia che approfitta dell'ingenuità di Pinocchio, promettendo denaro che cresce, è",
+          "expected": " la",
+          "predicted": " la",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_deceivers_1",
+          "prefix": "La coppia che approfitta dell'ingenuità di Pinocchio, promettendo denaro che cresce, è",
+          "expected": " Vol",
+          "predicted": " Vol",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_deceivers_1",
+          "prefix": "La coppia che approfitta dell'ingenuità di Pinocchio, promettendo denaro che cresce, è",
+          "expected": "pe",
+          "predicted": "pe",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_donkey_0",
+          "prefix": "",
+          "expected": "In",
+          "predicted": "In",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_donkey_0",
+          "prefix": "",
+          "expected": " un",
+          "predicted": " un",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_donkey_0",
+          "prefix": "",
+          "expected": " as",
+          "predicted": " as",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_donkey_0",
+          "prefix": "",
+          "expected": "ino",
+          "predicted": "ino",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_donkey_0",
+          "prefix": "La nuova forma animale che assume Pinocchio nella storia di Lontano dalla scuola, nel Paese dei balocchi, è",
+          "expected": " un",
+          "predicted": " un",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_donkey_0",
+          "prefix": "La nuova forma animale che assume Pinocchio nella storia di Lontano dalla scuola, nel Paese dei balocchi, è",
+          "expected": " as",
+          "predicted": " as",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_donkey_0",
+          "prefix": "La nuova forma animale che assume Pinocchio nella storia di Lontano dalla scuola, nel Paese dei balocchi, è",
+          "expected": "ino",
+          "predicted": "ino",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_donkey_1",
+          "prefix": "",
+          "expected": "In",
+          "predicted": "In",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_donkey_1",
+          "prefix": "",
+          "expected": " un",
+          "predicted": " un",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_donkey_1",
+          "prefix": "",
+          "expected": " as",
+          "predicted": " as",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_donkey_1",
+          "prefix": "",
+          "expected": "ino",
+          "predicted": "ino",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_donkey_1",
+          "prefix": "In un animale, specificamente",
+          "expected": " un",
+          "predicted": " un",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_donkey_1",
+          "prefix": "In un animale, specificamente",
+          "expected": " as",
+          "predicted": " as",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_donkey_1",
+          "prefix": "In un animale, specificamente",
+          "expected": "ino",
+          "predicted": "ino",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_ending_0",
+          "prefix": "",
+          "expected": "In",
+          "predicted": "In",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_ending_0",
+          "prefix": "",
+          "expected": " un",
+          "predicted": " un",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_ending_0",
+          "prefix": "",
+          "expected": " bamb",
+          "predicted": " bamb",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_ending_0",
+          "prefix": "",
+          "expected": "ino",
+          "predicted": "ino",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_ending_0",
+          "prefix": "",
+          "expected": " vero",
+          "predicted": " vero",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_ending_0",
+          "prefix": "In Collodi, il capitolo finale di \"Pinocchio\" è dedicato alla figura di Pinocchio, che viene trasformato in",
+          "expected": " un",
+          "predicted": " un",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_ending_0",
+          "prefix": "In Collodi, il capitolo finale di \"Pinocchio\" è dedicato alla figura di Pinocchio, che viene trasformato in",
+          "expected": " bamb",
+          "predicted": " bamb",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_ending_0",
+          "prefix": "In Collodi, il capitolo finale di \"Pinocchio\" è dedicato alla figura di Pinocchio, che viene trasformato in",
+          "expected": "ino",
+          "predicted": "ino",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_ending_0",
+          "prefix": "In Collodi, il capitolo finale di \"Pinocchio\" è dedicato alla figura di Pinocchio, che viene trasformato in",
+          "expected": " vero",
+          "predicted": " vero",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_ending_1",
+          "prefix": "",
+          "expected": "In",
+          "predicted": "In",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_ending_1",
+          "prefix": "",
+          "expected": " un",
+          "predicted": " un",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_ending_1",
+          "prefix": "",
+          "expected": " bamb",
+          "predicted": " bamb",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_ending_1",
+          "prefix": "",
+          "expected": "ino",
+          "predicted": "ino",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_ending_1",
+          "prefix": "",
+          "expected": " vero",
+          "predicted": " vero",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_ending_1",
+          "prefix": "Risposto in una frase: Pinocchio è",
+          "expected": " un",
+          "predicted": " in",
+          "label_observed_previously": true,
+          "correct": false
+        },
+        {
+          "question": "second_ending_1",
+          "prefix": "Risposto in una frase: Pinocchio è",
+          "expected": " bamb",
+          "predicted": " bamb",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_ending_1",
+          "prefix": "Risposto in una frase: Pinocchio è",
+          "expected": "ino",
+          "predicted": "ino",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_ending_1",
+          "prefix": "Risposto in una frase: Pinocchio è",
+          "expected": " vero",
+          "predicted": " vero",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_puppeteer_0",
+          "prefix": "",
+          "expected": "Il",
+          "predicted": "Il",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_puppeteer_0",
+          "prefix": "",
+          "expected": " bur",
+          "predicted": " bur",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_puppeteer_0",
+          "prefix": "",
+          "expected": "att",
+          "predicted": "att",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_puppeteer_0",
+          "prefix": "",
+          "expected": "ina",
+          "predicted": "ina",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_puppeteer_0",
+          "prefix": "",
+          "expected": "io",
+          "predicted": " Mang",
+          "label_observed_previously": true,
+          "correct": false
+        },
+        {
+          "question": "second_puppeteer_0",
+          "prefix": "",
+          "expected": " Mang",
+          "predicted": " Mang",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_puppeteer_0",
+          "prefix": "",
+          "expected": "ia",
+          "predicted": "ia",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_puppeteer_0",
+          "prefix": "",
+          "expected": "f",
+          "predicted": "f",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_puppeteer_0",
+          "prefix": "",
+          "expected": "oco",
+          "predicted": "oco",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_puppeteer_0",
+          "prefix": "Il burattinaio incontrato da Pinocchio è",
+          "expected": " Mang",
+          "predicted": " Mang",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_puppeteer_0",
+          "prefix": "Il burattinaio incontrato da Pinocchio è",
+          "expected": "ia",
+          "predicted": "ia",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_puppeteer_0",
+          "prefix": "Il burattinaio incontrato da Pinocchio è",
+          "expected": "f",
+          "predicted": "f",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_puppeteer_0",
+          "prefix": "Il burattinaio incontrato da Pinocchio è",
+          "expected": "oco",
+          "predicted": "oco",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_puppeteer_1",
+          "prefix": "",
+          "expected": "Il",
+          "predicted": "Il",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_puppeteer_1",
+          "prefix": "",
+          "expected": " bur",
+          "predicted": " bur",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_puppeteer_1",
+          "prefix": "",
+          "expected": "att",
+          "predicted": "att",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_puppeteer_1",
+          "prefix": "",
+          "expected": "ina",
+          "predicted": "ina",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_puppeteer_1",
+          "prefix": "",
+          "expected": "io",
+          "predicted": "io",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_puppeteer_1",
+          "prefix": "",
+          "expected": " Mang",
+          "predicted": " Mang",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_puppeteer_1",
+          "prefix": "",
+          "expected": "ia",
+          "predicted": "ia",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_puppeteer_1",
+          "prefix": "",
+          "expected": "f",
+          "predicted": "f",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_puppeteer_1",
+          "prefix": "",
+          "expected": "oco",
+          "predicted": "oco",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_puppeteer_1",
+          "prefix": "Il nome del direttore del teatro in cui arriva Pinocchio è",
+          "expected": " Mang",
+          "predicted": " Mang",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_puppeteer_1",
+          "prefix": "Il nome del direttore del teatro in cui arriva Pinocchio è",
+          "expected": "ia",
+          "predicted": "ia",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_puppeteer_1",
+          "prefix": "Il nome del direttore del teatro in cui arriva Pinocchio è",
+          "expected": "f",
+          "predicted": "f",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_puppeteer_1",
+          "prefix": "Il nome del direttore del teatro in cui arriva Pinocchio è",
+          "expected": "oco",
+          "predicted": "oco",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_friend_0",
+          "prefix": "",
+          "expected": "Con",
+          "predicted": "Con",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_friend_0",
+          "prefix": "",
+          "expected": " Luc",
+          "predicted": " Luc",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_friend_0",
+          "prefix": "",
+          "expected": "ign",
+          "predicted": "ign",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_friend_0",
+          "prefix": "",
+          "expected": "olo",
+          "predicted": "olo",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_friend_0",
+          "prefix": "Pinocchio accompagna il suo amico",
+          "expected": " Luc",
+          "predicted": " Luc",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_friend_0",
+          "prefix": "Pinocchio accompagna il suo amico",
+          "expected": "ign",
+          "predicted": "ign",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_friend_0",
+          "prefix": "Pinocchio accompagna il suo amico",
+          "expected": "olo",
+          "predicted": "olo",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_friend_1",
+          "prefix": "",
+          "expected": "Con",
+          "predicted": "Con",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_friend_1",
+          "prefix": "",
+          "expected": " Luc",
+          "predicted": " Luc",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_friend_1",
+          "prefix": "",
+          "expected": "ign",
+          "predicted": "ign",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_friend_1",
+          "prefix": "",
+          "expected": "olo",
+          "predicted": "olo",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_friend_1",
+          "prefix": "Il compagno di Pinocchio nella partenza per il luogo dove si gioca sempre è",
+          "expected": " Luc",
+          "predicted": " Luc",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_friend_1",
+          "prefix": "Il compagno di Pinocchio nella partenza per il luogo dove si gioca sempre è",
+          "expected": "ign",
+          "predicted": "ign",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_friend_1",
+          "prefix": "Il compagno di Pinocchio nella partenza per il luogo dove si gioca sempre è",
+          "expected": "olo",
+          "predicted": "olo",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_wood_donor_0",
+          "prefix": "",
+          "expected": "Da",
+          "predicted": "Da",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_wood_donor_0",
+          "prefix": "",
+          "expected": " Ma",
+          "predicted": " Ma",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_wood_donor_0",
+          "prefix": "",
+          "expected": "estro",
+          "predicted": "estro",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_wood_donor_0",
+          "prefix": "",
+          "expected": " C",
+          "predicted": " C",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_wood_donor_0",
+          "prefix": "",
+          "expected": "il",
+          "predicted": "il",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_wood_donor_0",
+          "prefix": "",
+          "expected": "ieg",
+          "predicted": "ieg",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_wood_donor_0",
+          "prefix": "",
+          "expected": "ia",
+          "predicted": "ia",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_wood_donor_0",
+          "prefix": "Il legno è regalato a Geppetto da",
+          "expected": " Ma",
+          "predicted": " Ma",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_wood_donor_0",
+          "prefix": "Il legno è regalato a Geppetto da",
+          "expected": "estro",
+          "predicted": "estro",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_wood_donor_0",
+          "prefix": "Il legno è regalato a Geppetto da",
+          "expected": " C",
+          "predicted": " C",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_wood_donor_0",
+          "prefix": "Il legno è regalato a Geppetto da",
+          "expected": "il",
+          "predicted": "il",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_wood_donor_0",
+          "prefix": "Il legno è regalato a Geppetto da",
+          "expected": "ieg",
+          "predicted": "ieg",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_wood_donor_0",
+          "prefix": "Il legno è regalato a Geppetto da",
+          "expected": "ia",
+          "predicted": "ia",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_wood_donor_1",
+          "prefix": "",
+          "expected": "Da",
+          "predicted": "Da",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_wood_donor_1",
+          "prefix": "",
+          "expected": " Ma",
+          "predicted": " Ma",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_wood_donor_1",
+          "prefix": "",
+          "expected": "estro",
+          "predicted": "estro",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_wood_donor_1",
+          "prefix": "",
+          "expected": " C",
+          "predicted": " C",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_wood_donor_1",
+          "prefix": "",
+          "expected": "il",
+          "predicted": "il",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_wood_donor_1",
+          "prefix": "",
+          "expected": "ieg",
+          "predicted": "ieg",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_wood_donor_1",
+          "prefix": "",
+          "expected": "ia",
+          "predicted": "ia",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_wood_donor_1",
+          "prefix": "Geppetto riceve il pezzo di legno da",
+          "expected": " Ma",
+          "predicted": " Ma",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_wood_donor_1",
+          "prefix": "Geppetto riceve il pezzo di legno da",
+          "expected": "estro",
+          "predicted": "estro",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_wood_donor_1",
+          "prefix": "Geppetto riceve il pezzo di legno da",
+          "expected": " C",
+          "predicted": " C",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_wood_donor_1",
+          "prefix": "Geppetto riceve il pezzo di legno da",
+          "expected": "il",
+          "predicted": "il",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_wood_donor_1",
+          "prefix": "Geppetto riceve il pezzo di legno da",
+          "expected": "ieg",
+          "predicted": "ieg",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_wood_donor_1",
+          "prefix": "Geppetto riceve il pezzo di legno da",
+          "expected": "ia",
+          "predicted": "ia",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_rescuer_0",
+          "prefix": "",
+          "expected": "Il",
+          "predicted": "Il",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_rescuer_0",
+          "prefix": "",
+          "expected": " cane",
+          "predicted": " cane",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_rescuer_0",
+          "prefix": "",
+          "expected": " Al",
+          "predicted": " Al",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_rescuer_0",
+          "prefix": "",
+          "expected": "id",
+          "predicted": "id",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_rescuer_0",
+          "prefix": "",
+          "expected": "oro",
+          "predicted": "oro",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_rescuer_0",
+          "prefix": "Il cane che ricambia Pinocchio salvando il bambino è un cane di nome",
+          "expected": " Al",
+          "predicted": " Al",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_rescuer_0",
+          "prefix": "Il cane che ricambia Pinocchio salvando il bambino è un cane di nome",
+          "expected": "id",
+          "predicted": "id",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_rescuer_0",
+          "prefix": "Il cane che ricambia Pinocchio salvando il bambino è un cane di nome",
+          "expected": "oro",
+          "predicted": "oro",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_rescuer_1",
+          "prefix": "",
+          "expected": "Il",
+          "predicted": "Il",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_rescuer_1",
+          "prefix": "",
+          "expected": " cane",
+          "predicted": " cane",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_rescuer_1",
+          "prefix": "",
+          "expected": " Al",
+          "predicted": " Al",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_rescuer_1",
+          "prefix": "",
+          "expected": "id",
+          "predicted": "id",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_rescuer_1",
+          "prefix": "",
+          "expected": "oro",
+          "predicted": "oro",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_rescuer_1",
+          "prefix": "A salvare Pinocchio dal pescatore è",
+          "expected": " il",
+          "predicted": " Al",
+          "label_observed_previously": false,
+          "correct": false
+        },
+        {
+          "question": "second_rescuer_1",
+          "prefix": "A salvare Pinocchio dal pescatore è",
+          "expected": " cane",
+          "predicted": " cane",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_rescuer_1",
+          "prefix": "A salvare Pinocchio dal pescatore è",
+          "expected": " Al",
+          "predicted": " Al",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_rescuer_1",
+          "prefix": "A salvare Pinocchio dal pescatore è",
+          "expected": "id",
+          "predicted": "id",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_rescuer_1",
+          "prefix": "A salvare Pinocchio dal pescatore è",
+          "expected": "oro",
+          "predicted": "oro",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fish_father_0",
+          "prefix": "",
+          "expected": "Ge",
+          "predicted": "Ge",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fish_father_0",
+          "prefix": "",
+          "expected": "pp",
+          "predicted": "pp",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fish_father_0",
+          "prefix": "",
+          "expected": "etto",
+          "predicted": "etto",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fish_father_0",
+          "prefix": "",
+          "expected": ",",
+          "predicted": ",",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fish_father_0",
+          "prefix": "",
+          "expected": " suo",
+          "predicted": " suo",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fish_father_0",
+          "prefix": "",
+          "expected": " padre",
+          "predicted": " padre",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fish_father_0",
+          "prefix": "La persona cara con cui Pinocchio si incontra nel Pesce-cane è",
+          "expected": " Ge",
+          "predicted": " Ge",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fish_father_0",
+          "prefix": "La persona cara con cui Pinocchio si incontra nel Pesce-cane è",
+          "expected": "pp",
+          "predicted": "pp",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fish_father_0",
+          "prefix": "La persona cara con cui Pinocchio si incontra nel Pesce-cane è",
+          "expected": "etto",
+          "predicted": "etto",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fish_father_0",
+          "prefix": "La persona cara con cui Pinocchio si incontra nel Pesce-cane è",
+          "expected": ",",
+          "predicted": " Ge",
+          "label_observed_previously": true,
+          "correct": false
+        },
+        {
+          "question": "second_fish_father_0",
+          "prefix": "La persona cara con cui Pinocchio si incontra nel Pesce-cane è",
+          "expected": " suo",
+          "predicted": " suo",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fish_father_0",
+          "prefix": "La persona cara con cui Pinocchio si incontra nel Pesce-cane è",
+          "expected": " padre",
+          "predicted": " padre",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fish_father_1",
+          "prefix": "",
+          "expected": "Ge",
+          "predicted": "Ge",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fish_father_1",
+          "prefix": "",
+          "expected": "pp",
+          "predicted": "pp",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fish_father_1",
+          "prefix": "",
+          "expected": "etto",
+          "predicted": "etto",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fish_father_1",
+          "prefix": "",
+          "expected": ",",
+          "predicted": ",",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fish_father_1",
+          "prefix": "",
+          "expected": " suo",
+          "predicted": " suo",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fish_father_1",
+          "prefix": "",
+          "expected": " padre",
+          "predicted": " padre",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fish_father_1",
+          "prefix": "Pinocchio ritrova vivo nel ventre del Pesce-cane",
+          "expected": " suo",
+          "predicted": " suo",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fish_father_1",
+          "prefix": "Pinocchio ritrova vivo nel ventre del Pesce-cane",
+          "expected": " padre",
+          "predicted": " padre",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fish_father_1",
+          "prefix": "Pinocchio ritrova vivo nel ventre del Pesce-cane",
+          "expected": " Ge",
+          "predicted": " Ge",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fish_father_1",
+          "prefix": "Pinocchio ritrova vivo nel ventre del Pesce-cane",
+          "expected": "pp",
+          "predicted": "pp",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fish_father_1",
+          "prefix": "Pinocchio ritrova vivo nel ventre del Pesce-cane",
+          "expected": "etto",
+          "predicted": "etto",
+          "label_observed_previously": true,
+          "correct": true
+        }
+      ]
+    },
+    "native_mlp_activation": {
+      "new_question_fact_identity_correct": 12,
+      "new_question_fact_identity_total": 24,
+      "new_external_rejected": 7,
+      "new_external_total": 20,
+      "native_continuation_fact_identity_correct": 28,
+      "native_continuation_states": 504,
+      "nearest_example_question_fact_correct": 10,
+      "nearest_example_external_rejected": 15,
+      "nearest_example_native_fact_correct": 20,
+      "lexical_progress_with_fact_given_correct": 226,
+      "lexical_progress_total": 245,
+      "lexical_labels_previously_observed": 232,
+      "question_details": [
+        {
+          "id": "second_creator_0",
+          "expected": "creator",
+          "predicted": "creator",
+          "correct": true,
+          "score_margin": 0.05224311351776123
+        },
+        {
+          "id": "second_creator_1",
+          "expected": "creator",
+          "predicted": "puppeteer",
+          "correct": false,
+          "score_margin": 0.04206591844558716
+        },
+        {
+          "id": "second_material_0",
+          "expected": "material",
+          "predicted": "wood_donor",
+          "correct": false,
+          "score_margin": 0.1340867131948471
+        },
+        {
+          "id": "second_material_1",
+          "expected": "material",
+          "predicted": "fairy",
+          "correct": false,
+          "score_margin": 0.03974786400794983
+        },
+        {
+          "id": "second_nose_0",
+          "expected": "nose",
+          "predicted": "deceivers",
+          "correct": false,
+          "score_margin": 0.0924723744392395
+        },
+        {
+          "id": "second_nose_1",
+          "expected": "nose",
+          "predicted": "nose",
+          "correct": true,
+          "score_margin": 0.0198897123336792
+        },
+        {
+          "id": "second_fairy_0",
+          "expected": "fairy",
+          "predicted": "fairy",
+          "correct": true,
+          "score_margin": 0.2949611246585846
+        },
+        {
+          "id": "second_fairy_1",
+          "expected": "fairy",
+          "predicted": "fairy",
+          "correct": true,
+          "score_margin": 0.13297829031944275
+        },
+        {
+          "id": "second_deceivers_0",
+          "expected": "deceivers",
+          "predicted": "rescuer",
+          "correct": false,
+          "score_margin": 0.06417471170425415
+        },
+        {
+          "id": "second_deceivers_1",
+          "expected": "deceivers",
+          "predicted": "deceivers",
+          "correct": true,
+          "score_margin": 0.031792014837265015
+        },
+        {
+          "id": "second_donkey_0",
+          "expected": "donkey",
+          "predicted": "ending",
+          "correct": false,
+          "score_margin": 0.04147136211395264
+        },
+        {
+          "id": "second_donkey_1",
+          "expected": "donkey",
+          "predicted": "donkey",
+          "correct": true,
+          "score_margin": 0.20810478925704956
+        },
+        {
+          "id": "second_ending_0",
+          "expected": "ending",
+          "predicted": "ending",
+          "correct": true,
+          "score_margin": 0.16282397508621216
+        },
+        {
+          "id": "second_ending_1",
+          "expected": "ending",
+          "predicted": "donkey",
+          "correct": false,
+          "score_margin": 0.07530146837234497
+        },
+        {
+          "id": "second_puppeteer_0",
+          "expected": "puppeteer",
+          "predicted": "donkey",
+          "correct": false,
+          "score_margin": 0.2502965033054352
+        },
+        {
+          "id": "second_puppeteer_1",
+          "expected": "puppeteer",
+          "predicted": "creator",
+          "correct": false,
+          "score_margin": 0.1908174455165863
+        },
+        {
+          "id": "second_friend_0",
+          "expected": "friend",
+          "predicted": "friend",
+          "correct": true,
+          "score_margin": 0.045091331005096436
+        },
+        {
+          "id": "second_friend_1",
+          "expected": "friend",
+          "predicted": "creator",
+          "correct": false,
+          "score_margin": 0.16209810972213745
+        },
+        {
+          "id": "second_wood_donor_0",
+          "expected": "wood_donor",
+          "predicted": "wood_donor",
+          "correct": true,
+          "score_margin": 0.031977325677871704
+        },
+        {
+          "id": "second_wood_donor_1",
+          "expected": "wood_donor",
+          "predicted": "wood_donor",
+          "correct": true,
+          "score_margin": 0.5632723569869995
+        },
+        {
+          "id": "second_rescuer_0",
+          "expected": "rescuer",
+          "predicted": "creator",
+          "correct": false,
+          "score_margin": 0.06580737233161926
+        },
+        {
+          "id": "second_rescuer_1",
+          "expected": "rescuer",
+          "predicted": "fish_father",
+          "correct": false,
+          "score_margin": 0.01275092363357544
+        },
+        {
+          "id": "second_fish_father_0",
+          "expected": "fish_father",
+          "predicted": "fish_father",
+          "correct": true,
+          "score_margin": 0.13595378398895264
+        },
+        {
+          "id": "second_fish_father_1",
+          "expected": "fish_father",
+          "predicted": "fish_father",
+          "correct": true,
+          "score_margin": 0.09708833694458008
+        }
+      ],
+      "external_details": [
+        {
+          "id": "newdev_control_00",
+          "expected": "outside",
+          "predicted": "outside",
+          "correct": true,
+          "score_margin": 0.35519081354141235
+        },
+        {
+          "id": "newdev_control_01",
+          "expected": "outside",
+          "predicted": "creator",
+          "correct": false,
+          "score_margin": 0.141507089138031
+        },
+        {
+          "id": "newdev_control_02",
+          "expected": "outside",
+          "predicted": "outside",
+          "correct": true,
+          "score_margin": 0.08364635705947876
+        },
+        {
+          "id": "newdev_control_03",
+          "expected": "outside",
+          "predicted": "creator",
+          "correct": false,
+          "score_margin": 0.2022838592529297
+        },
+        {
+          "id": "newdev_control_04",
+          "expected": "outside",
+          "predicted": "fairy",
+          "correct": false,
+          "score_margin": 0.07117635011672974
+        },
+        {
+          "id": "newdev_control_05",
+          "expected": "outside",
+          "predicted": "fairy",
+          "correct": false,
+          "score_margin": 0.042099013924598694
+        },
+        {
+          "id": "newdev_control_06",
+          "expected": "outside",
+          "predicted": "outside",
+          "correct": true,
+          "score_margin": 0.1859353482723236
+        },
+        {
+          "id": "newdev_control_07",
+          "expected": "outside",
+          "predicted": "ending",
+          "correct": false,
+          "score_margin": 0.03189721703529358
+        },
+        {
+          "id": "newdev_control_08",
+          "expected": "outside",
+          "predicted": "fairy",
+          "correct": false,
+          "score_margin": 0.09604063630104065
+        },
+        {
+          "id": "newdev_control_09",
+          "expected": "outside",
+          "predicted": "material",
+          "correct": false,
+          "score_margin": 0.106366366147995
+        },
+        {
+          "id": "newdev_control_10",
+          "expected": "outside",
+          "predicted": "nose",
+          "correct": false,
+          "score_margin": 0.05388803780078888
+        },
+        {
+          "id": "newdev_control_11",
+          "expected": "outside",
+          "predicted": "outside",
+          "correct": true,
+          "score_margin": 0.19177275896072388
+        },
+        {
+          "id": "newdev_control_12",
+          "expected": "outside",
+          "predicted": "material",
+          "correct": false,
+          "score_margin": 0.031024441123008728
+        },
+        {
+          "id": "newdev_control_13",
+          "expected": "outside",
+          "predicted": "fairy",
+          "correct": false,
+          "score_margin": 0.06696686148643494
+        },
+        {
+          "id": "newdev_control_14",
+          "expected": "outside",
+          "predicted": "outside",
+          "correct": true,
+          "score_margin": 0.25547730922698975
+        },
+        {
+          "id": "newdev_control_15",
+          "expected": "outside",
+          "predicted": "rescuer",
+          "correct": false,
+          "score_margin": 0.026433110237121582
+        },
+        {
+          "id": "newdev_control_16",
+          "expected": "outside",
+          "predicted": "rescuer",
+          "correct": false,
+          "score_margin": 0.27905672788619995
+        },
+        {
+          "id": "newdev_control_17",
+          "expected": "outside",
+          "predicted": "fairy",
+          "correct": false,
+          "score_margin": 0.03193238377571106
+        },
+        {
+          "id": "newdev_control_18",
+          "expected": "outside",
+          "predicted": "outside",
+          "correct": true,
+          "score_margin": 0.15945734083652496
+        },
+        {
+          "id": "newdev_control_19",
+          "expected": "outside",
+          "predicted": "outside",
+          "correct": true,
+          "score_margin": 0.675115704536438
+        }
+      ],
+      "lexical_details": [
+        {
+          "question": "second_creator_0",
+          "prefix": "",
+          "expected": "Il",
+          "predicted": "Il",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_creator_0",
+          "prefix": "",
+          "expected": " f",
+          "predicted": " f",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_creator_0",
+          "prefix": "",
+          "expected": "ale",
+          "predicted": "ale",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_creator_0",
+          "prefix": "",
+          "expected": "g",
+          "predicted": "g",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_creator_0",
+          "prefix": "",
+          "expected": "name",
+          "predicted": "name",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_creator_0",
+          "prefix": "",
+          "expected": " Ge",
+          "predicted": " Ge",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_creator_0",
+          "prefix": "",
+          "expected": "pp",
+          "predicted": "pp",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_creator_0",
+          "prefix": "",
+          "expected": "etto",
+          "predicted": "etto",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_creator_0",
+          "prefix": "Il creatore di Pinocchio dentro il racconto è",
+          "expected": " Ge",
+          "predicted": " Ge",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_creator_0",
+          "prefix": "Il creatore di Pinocchio dentro il racconto è",
+          "expected": "pp",
+          "predicted": "pp",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_creator_0",
+          "prefix": "Il creatore di Pinocchio dentro il racconto è",
+          "expected": "etto",
+          "predicted": "etto",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_creator_1",
+          "prefix": "",
+          "expected": "Il",
+          "predicted": "Il",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_creator_1",
+          "prefix": "",
+          "expected": " f",
+          "predicted": " f",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_creator_1",
+          "prefix": "",
+          "expected": "ale",
+          "predicted": "ale",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_creator_1",
+          "prefix": "",
+          "expected": "g",
+          "predicted": "g",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_creator_1",
+          "prefix": "",
+          "expected": "name",
+          "predicted": "name",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_creator_1",
+          "prefix": "",
+          "expected": " Ge",
+          "predicted": " Ge",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_creator_1",
+          "prefix": "",
+          "expected": "pp",
+          "predicted": "pp",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_creator_1",
+          "prefix": "",
+          "expected": "etto",
+          "predicted": "etto",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_creator_1",
+          "prefix": "Il piccolo burattino chiamato Pinocchio è scolpito da",
+          "expected": " Ge",
+          "predicted": " Ge",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_creator_1",
+          "prefix": "Il piccolo burattino chiamato Pinocchio è scolpito da",
+          "expected": "pp",
+          "predicted": "pp",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_creator_1",
+          "prefix": "Il piccolo burattino chiamato Pinocchio è scolpito da",
+          "expected": "etto",
+          "predicted": "etto",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_material_0",
+          "prefix": "",
+          "expected": "Di",
+          "predicted": "Di",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_material_0",
+          "prefix": "",
+          "expected": " leg",
+          "predicted": " leg",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_material_0",
+          "prefix": "",
+          "expected": "no",
+          "predicted": "no",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_material_0",
+          "prefix": "Il corpo di Pinocchio è fatto di",
+          "expected": " leg",
+          "predicted": " leg",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_material_0",
+          "prefix": "Il corpo di Pinocchio è fatto di",
+          "expected": "no",
+          "predicted": "no",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_material_1",
+          "prefix": "",
+          "expected": "Di",
+          "predicted": "Di",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_material_1",
+          "prefix": "",
+          "expected": " leg",
+          "predicted": " leg",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_material_1",
+          "prefix": "",
+          "expected": "no",
+          "predicted": "no",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_material_1",
+          "prefix": "Inizia la vicenda con un",
+          "expected": " bur",
+          "predicted": " leg",
+          "label_observed_previously": false,
+          "correct": false
+        },
+        {
+          "question": "second_material_1",
+          "prefix": "Inizia la vicenda con un",
+          "expected": "att",
+          "predicted": "no",
+          "label_observed_previously": false,
+          "correct": false
+        },
+        {
+          "question": "second_material_1",
+          "prefix": "Inizia la vicenda con un",
+          "expected": "ino",
+          "predicted": "Di",
+          "label_observed_previously": false,
+          "correct": false
+        },
+        {
+          "question": "second_material_1",
+          "prefix": "Inizia la vicenda con un",
+          "expected": " di",
+          "predicted": " leg",
+          "label_observed_previously": false,
+          "correct": false
+        },
+        {
+          "question": "second_material_1",
+          "prefix": "Inizia la vicenda con un",
+          "expected": " leg",
+          "predicted": " leg",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_material_1",
+          "prefix": "Inizia la vicenda con un",
+          "expected": "no",
+          "predicted": "no",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_nose_0",
+          "prefix": "",
+          "expected": "Il",
+          "predicted": "Il",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_nose_0",
+          "prefix": "",
+          "expected": " nas",
+          "predicted": " nas",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_nose_0",
+          "prefix": "",
+          "expected": "o",
+          "predicted": "o",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_nose_0",
+          "prefix": "",
+          "expected": " si",
+          "predicted": " si",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_nose_0",
+          "prefix": "",
+          "expected": " all",
+          "predicted": " all",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_nose_0",
+          "prefix": "",
+          "expected": "unga",
+          "predicted": "unga",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_nose_0",
+          "prefix": "Il burattino Pinocchio ha",
+          "expected": " il",
+          "predicted": " si",
+          "label_observed_previously": false,
+          "correct": false
+        },
+        {
+          "question": "second_nose_0",
+          "prefix": "Il burattino Pinocchio ha",
+          "expected": " nas",
+          "predicted": " nas",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_nose_0",
+          "prefix": "Il burattino Pinocchio ha",
+          "expected": "o",
+          "predicted": "o",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_nose_0",
+          "prefix": "Il burattino Pinocchio ha",
+          "expected": " che",
+          "predicted": " si",
+          "label_observed_previously": false,
+          "correct": false
+        },
+        {
+          "question": "second_nose_0",
+          "prefix": "Il burattino Pinocchio ha",
+          "expected": " si",
+          "predicted": " si",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_nose_0",
+          "prefix": "Il burattino Pinocchio ha",
+          "expected": " all",
+          "predicted": " all",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_nose_0",
+          "prefix": "Il burattino Pinocchio ha",
+          "expected": "unga",
+          "predicted": "unga",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_nose_1",
+          "prefix": "",
+          "expected": "Il",
+          "predicted": "Il",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_nose_1",
+          "prefix": "",
+          "expected": " nas",
+          "predicted": " nas",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_nose_1",
+          "prefix": "",
+          "expected": "o",
+          "predicted": "o",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_nose_1",
+          "prefix": "",
+          "expected": " si",
+          "predicted": " si",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_nose_1",
+          "prefix": "",
+          "expected": " all",
+          "predicted": " all",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_nose_1",
+          "prefix": "",
+          "expected": "unga",
+          "predicted": "unga",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_nose_1",
+          "prefix": "Il bugietto di Pinocchio provoca",
+          "expected": " l",
+          "predicted": " si",
+          "label_observed_previously": false,
+          "correct": false
+        },
+        {
+          "question": "second_nose_1",
+          "prefix": "Il bugietto di Pinocchio provoca",
+          "expected": "'all",
+          "predicted": "unga",
+          "label_observed_previously": false,
+          "correct": false
+        },
+        {
+          "question": "second_nose_1",
+          "prefix": "Il bugietto di Pinocchio provoca",
+          "expected": "ung",
+          "predicted": "unga",
+          "label_observed_previously": false,
+          "correct": false
+        },
+        {
+          "question": "second_nose_1",
+          "prefix": "Il bugietto di Pinocchio provoca",
+          "expected": "amento",
+          "predicted": "o",
+          "label_observed_previously": false,
+          "correct": false
+        },
+        {
+          "question": "second_nose_1",
+          "prefix": "Il bugietto di Pinocchio provoca",
+          "expected": " del",
+          "predicted": " si",
+          "label_observed_previously": false,
+          "correct": false
+        },
+        {
+          "question": "second_nose_1",
+          "prefix": "Il bugietto di Pinocchio provoca",
+          "expected": " nas",
+          "predicted": " nas",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_nose_1",
+          "prefix": "Il bugietto di Pinocchio provoca",
+          "expected": "o",
+          "predicted": "o",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fairy_0",
+          "prefix": "",
+          "expected": "A",
+          "predicted": "A",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fairy_0",
+          "prefix": "",
+          "expected": "zz",
+          "predicted": "zz",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fairy_0",
+          "prefix": "",
+          "expected": "ur",
+          "predicted": "ur",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fairy_0",
+          "prefix": "",
+          "expected": "ri",
+          "predicted": "ro",
+          "label_observed_previously": true,
+          "correct": false
+        },
+        {
+          "question": "second_fairy_0",
+          "prefix": "La tinta dei capelli della fata benefica, incontrata da Pinocchio nel romanzo \"Pinocchio\", è",
+          "expected": " a",
+          "predicted": " a",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fairy_0",
+          "prefix": "La tinta dei capelli della fata benefica, incontrata da Pinocchio nel romanzo \"Pinocchio\", è",
+          "expected": "zz",
+          "predicted": "zz",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fairy_0",
+          "prefix": "La tinta dei capelli della fata benefica, incontrata da Pinocchio nel romanzo \"Pinocchio\", è",
+          "expected": "ur",
+          "predicted": "ur",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fairy_0",
+          "prefix": "La tinta dei capelli della fata benefica, incontrata da Pinocchio nel romanzo \"Pinocchio\", è",
+          "expected": "ra",
+          "predicted": "ro",
+          "label_observed_previously": false,
+          "correct": false
+        },
+        {
+          "question": "second_fairy_1",
+          "prefix": "",
+          "expected": "A",
+          "predicted": "A",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fairy_1",
+          "prefix": "",
+          "expected": "zz",
+          "predicted": "zz",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fairy_1",
+          "prefix": "",
+          "expected": "ur",
+          "predicted": "ur",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fairy_1",
+          "prefix": "",
+          "expected": "ri",
+          "predicted": "ro",
+          "label_observed_previously": true,
+          "correct": false
+        },
+        {
+          "question": "second_fairy_1",
+          "prefix": "In Nel Pinocchio di Collodi, il colore che caratterizza i capelli della Fata è",
+          "expected": " a",
+          "predicted": " a",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fairy_1",
+          "prefix": "In Nel Pinocchio di Collodi, il colore che caratterizza i capelli della Fata è",
+          "expected": "zz",
+          "predicted": "zz",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fairy_1",
+          "prefix": "In Nel Pinocchio di Collodi, il colore che caratterizza i capelli della Fata è",
+          "expected": "ur",
+          "predicted": "ur",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fairy_1",
+          "prefix": "In Nel Pinocchio di Collodi, il colore che caratterizza i capelli della Fata è",
+          "expected": "ro",
+          "predicted": "ro",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_deceivers_0",
+          "prefix": "",
+          "expected": "Il",
+          "predicted": "Il",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_deceivers_0",
+          "prefix": "",
+          "expected": " G",
+          "predicted": " G",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_deceivers_0",
+          "prefix": "",
+          "expected": "atto",
+          "predicted": "atto",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_deceivers_0",
+          "prefix": "",
+          "expected": " e",
+          "predicted": " e",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_deceivers_0",
+          "prefix": "",
+          "expected": " la",
+          "predicted": " la",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_deceivers_0",
+          "prefix": "",
+          "expected": " Vol",
+          "predicted": " Vol",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_deceivers_0",
+          "prefix": "",
+          "expected": "pe",
+          "predicted": "pe",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_deceivers_0",
+          "prefix": "In \"Pinocchio\", il personaggio che raggiona Pinocchio per rubare le monete è",
+          "expected": " il",
+          "predicted": " il",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_deceivers_0",
+          "prefix": "In \"Pinocchio\", il personaggio che raggiona Pinocchio per rubare le monete è",
+          "expected": " G",
+          "predicted": " G",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_deceivers_0",
+          "prefix": "In \"Pinocchio\", il personaggio che raggiona Pinocchio per rubare le monete è",
+          "expected": "atto",
+          "predicted": "atto",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_deceivers_0",
+          "prefix": "In \"Pinocchio\", il personaggio che raggiona Pinocchio per rubare le monete è",
+          "expected": " e",
+          "predicted": " e",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_deceivers_0",
+          "prefix": "In \"Pinocchio\", il personaggio che raggiona Pinocchio per rubare le monete è",
+          "expected": " la",
+          "predicted": " la",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_deceivers_0",
+          "prefix": "In \"Pinocchio\", il personaggio che raggiona Pinocchio per rubare le monete è",
+          "expected": " Vol",
+          "predicted": " Vol",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_deceivers_0",
+          "prefix": "In \"Pinocchio\", il personaggio che raggiona Pinocchio per rubare le monete è",
+          "expected": "pe",
+          "predicted": "pe",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_deceivers_1",
+          "prefix": "",
+          "expected": "Il",
+          "predicted": "Il",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_deceivers_1",
+          "prefix": "",
+          "expected": " G",
+          "predicted": " G",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_deceivers_1",
+          "prefix": "",
+          "expected": "atto",
+          "predicted": "atto",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_deceivers_1",
+          "prefix": "",
+          "expected": " e",
+          "predicted": " e",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_deceivers_1",
+          "prefix": "",
+          "expected": " la",
+          "predicted": " la",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_deceivers_1",
+          "prefix": "",
+          "expected": " Vol",
+          "predicted": " Vol",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_deceivers_1",
+          "prefix": "",
+          "expected": "pe",
+          "predicted": "pe",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_deceivers_1",
+          "prefix": "La coppia che approfitta dell'ingenuità di Pinocchio, promettendo denaro che cresce, è",
+          "expected": " il",
+          "predicted": " il",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_deceivers_1",
+          "prefix": "La coppia che approfitta dell'ingenuità di Pinocchio, promettendo denaro che cresce, è",
+          "expected": " G",
+          "predicted": " G",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_deceivers_1",
+          "prefix": "La coppia che approfitta dell'ingenuità di Pinocchio, promettendo denaro che cresce, è",
+          "expected": "atto",
+          "predicted": "atto",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_deceivers_1",
+          "prefix": "La coppia che approfitta dell'ingenuità di Pinocchio, promettendo denaro che cresce, è",
+          "expected": " e",
+          "predicted": " e",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_deceivers_1",
+          "prefix": "La coppia che approfitta dell'ingenuità di Pinocchio, promettendo denaro che cresce, è",
+          "expected": " la",
+          "predicted": " la",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_deceivers_1",
+          "prefix": "La coppia che approfitta dell'ingenuità di Pinocchio, promettendo denaro che cresce, è",
+          "expected": " Vol",
+          "predicted": " Vol",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_deceivers_1",
+          "prefix": "La coppia che approfitta dell'ingenuità di Pinocchio, promettendo denaro che cresce, è",
+          "expected": "pe",
+          "predicted": "pe",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_donkey_0",
+          "prefix": "",
+          "expected": "In",
+          "predicted": "In",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_donkey_0",
+          "prefix": "",
+          "expected": " un",
+          "predicted": " un",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_donkey_0",
+          "prefix": "",
+          "expected": " as",
+          "predicted": " as",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_donkey_0",
+          "prefix": "",
+          "expected": "ino",
+          "predicted": "ino",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_donkey_0",
+          "prefix": "La nuova forma animale che assume Pinocchio nella storia di Lontano dalla scuola, nel Paese dei balocchi, è",
+          "expected": " un",
+          "predicted": " un",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_donkey_0",
+          "prefix": "La nuova forma animale che assume Pinocchio nella storia di Lontano dalla scuola, nel Paese dei balocchi, è",
+          "expected": " as",
+          "predicted": " as",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_donkey_0",
+          "prefix": "La nuova forma animale che assume Pinocchio nella storia di Lontano dalla scuola, nel Paese dei balocchi, è",
+          "expected": "ino",
+          "predicted": "ino",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_donkey_1",
+          "prefix": "",
+          "expected": "In",
+          "predicted": "In",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_donkey_1",
+          "prefix": "",
+          "expected": " un",
+          "predicted": " un",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_donkey_1",
+          "prefix": "",
+          "expected": " as",
+          "predicted": " as",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_donkey_1",
+          "prefix": "",
+          "expected": "ino",
+          "predicted": "ino",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_donkey_1",
+          "prefix": "In un animale, specificamente",
+          "expected": " un",
+          "predicted": " un",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_donkey_1",
+          "prefix": "In un animale, specificamente",
+          "expected": " as",
+          "predicted": " as",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_donkey_1",
+          "prefix": "In un animale, specificamente",
+          "expected": "ino",
+          "predicted": "ino",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_ending_0",
+          "prefix": "",
+          "expected": "In",
+          "predicted": "In",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_ending_0",
+          "prefix": "",
+          "expected": " un",
+          "predicted": " un",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_ending_0",
+          "prefix": "",
+          "expected": " bamb",
+          "predicted": " bamb",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_ending_0",
+          "prefix": "",
+          "expected": "ino",
+          "predicted": "ino",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_ending_0",
+          "prefix": "",
+          "expected": " vero",
+          "predicted": " vero",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_ending_0",
+          "prefix": "In Collodi, il capitolo finale di \"Pinocchio\" è dedicato alla figura di Pinocchio, che viene trasformato in",
+          "expected": " un",
+          "predicted": " un",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_ending_0",
+          "prefix": "In Collodi, il capitolo finale di \"Pinocchio\" è dedicato alla figura di Pinocchio, che viene trasformato in",
+          "expected": " bamb",
+          "predicted": " bamb",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_ending_0",
+          "prefix": "In Collodi, il capitolo finale di \"Pinocchio\" è dedicato alla figura di Pinocchio, che viene trasformato in",
+          "expected": "ino",
+          "predicted": "ino",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_ending_0",
+          "prefix": "In Collodi, il capitolo finale di \"Pinocchio\" è dedicato alla figura di Pinocchio, che viene trasformato in",
+          "expected": " vero",
+          "predicted": " vero",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_ending_1",
+          "prefix": "",
+          "expected": "In",
+          "predicted": "In",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_ending_1",
+          "prefix": "",
+          "expected": " un",
+          "predicted": " un",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_ending_1",
+          "prefix": "",
+          "expected": " bamb",
+          "predicted": " bamb",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_ending_1",
+          "prefix": "",
+          "expected": "ino",
+          "predicted": "ino",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_ending_1",
+          "prefix": "",
+          "expected": " vero",
+          "predicted": " vero",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_ending_1",
+          "prefix": "Risposto in una frase: Pinocchio è",
+          "expected": " un",
+          "predicted": " in",
+          "label_observed_previously": true,
+          "correct": false
+        },
+        {
+          "question": "second_ending_1",
+          "prefix": "Risposto in una frase: Pinocchio è",
+          "expected": " bamb",
+          "predicted": " bamb",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_ending_1",
+          "prefix": "Risposto in una frase: Pinocchio è",
+          "expected": "ino",
+          "predicted": "ino",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_ending_1",
+          "prefix": "Risposto in una frase: Pinocchio è",
+          "expected": " vero",
+          "predicted": " vero",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_puppeteer_0",
+          "prefix": "",
+          "expected": "Il",
+          "predicted": "Il",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_puppeteer_0",
+          "prefix": "",
+          "expected": " bur",
+          "predicted": " bur",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_puppeteer_0",
+          "prefix": "",
+          "expected": "att",
+          "predicted": "att",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_puppeteer_0",
+          "prefix": "",
+          "expected": "ina",
+          "predicted": "ina",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_puppeteer_0",
+          "prefix": "",
+          "expected": "io",
+          "predicted": " Mang",
+          "label_observed_previously": true,
+          "correct": false
+        },
+        {
+          "question": "second_puppeteer_0",
+          "prefix": "",
+          "expected": " Mang",
+          "predicted": " Mang",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_puppeteer_0",
+          "prefix": "",
+          "expected": "ia",
+          "predicted": "ia",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_puppeteer_0",
+          "prefix": "",
+          "expected": "f",
+          "predicted": "f",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_puppeteer_0",
+          "prefix": "",
+          "expected": "oco",
+          "predicted": "oco",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_puppeteer_0",
+          "prefix": "Il burattinaio incontrato da Pinocchio è",
+          "expected": " Mang",
+          "predicted": " Mang",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_puppeteer_0",
+          "prefix": "Il burattinaio incontrato da Pinocchio è",
+          "expected": "ia",
+          "predicted": "ia",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_puppeteer_0",
+          "prefix": "Il burattinaio incontrato da Pinocchio è",
+          "expected": "f",
+          "predicted": "f",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_puppeteer_0",
+          "prefix": "Il burattinaio incontrato da Pinocchio è",
+          "expected": "oco",
+          "predicted": "oco",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_puppeteer_1",
+          "prefix": "",
+          "expected": "Il",
+          "predicted": "Il",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_puppeteer_1",
+          "prefix": "",
+          "expected": " bur",
+          "predicted": " bur",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_puppeteer_1",
+          "prefix": "",
+          "expected": "att",
+          "predicted": "att",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_puppeteer_1",
+          "prefix": "",
+          "expected": "ina",
+          "predicted": "ina",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_puppeteer_1",
+          "prefix": "",
+          "expected": "io",
+          "predicted": "io",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_puppeteer_1",
+          "prefix": "",
+          "expected": " Mang",
+          "predicted": " Mang",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_puppeteer_1",
+          "prefix": "",
+          "expected": "ia",
+          "predicted": "ia",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_puppeteer_1",
+          "prefix": "",
+          "expected": "f",
+          "predicted": "f",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_puppeteer_1",
+          "prefix": "",
+          "expected": "oco",
+          "predicted": "oco",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_puppeteer_1",
+          "prefix": "Il nome del direttore del teatro in cui arriva Pinocchio è",
+          "expected": " Mang",
+          "predicted": " Mang",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_puppeteer_1",
+          "prefix": "Il nome del direttore del teatro in cui arriva Pinocchio è",
+          "expected": "ia",
+          "predicted": "ia",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_puppeteer_1",
+          "prefix": "Il nome del direttore del teatro in cui arriva Pinocchio è",
+          "expected": "f",
+          "predicted": "f",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_puppeteer_1",
+          "prefix": "Il nome del direttore del teatro in cui arriva Pinocchio è",
+          "expected": "oco",
+          "predicted": "oco",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_friend_0",
+          "prefix": "",
+          "expected": "Con",
+          "predicted": "Con",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_friend_0",
+          "prefix": "",
+          "expected": " Luc",
+          "predicted": " Luc",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_friend_0",
+          "prefix": "",
+          "expected": "ign",
+          "predicted": "ign",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_friend_0",
+          "prefix": "",
+          "expected": "olo",
+          "predicted": "olo",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_friend_0",
+          "prefix": "Pinocchio accompagna il suo amico",
+          "expected": " Luc",
+          "predicted": " Luc",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_friend_0",
+          "prefix": "Pinocchio accompagna il suo amico",
+          "expected": "ign",
+          "predicted": "ign",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_friend_0",
+          "prefix": "Pinocchio accompagna il suo amico",
+          "expected": "olo",
+          "predicted": "olo",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_friend_1",
+          "prefix": "",
+          "expected": "Con",
+          "predicted": "Con",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_friend_1",
+          "prefix": "",
+          "expected": " Luc",
+          "predicted": " Luc",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_friend_1",
+          "prefix": "",
+          "expected": "ign",
+          "predicted": "ign",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_friend_1",
+          "prefix": "",
+          "expected": "olo",
+          "predicted": "olo",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_friend_1",
+          "prefix": "Il compagno di Pinocchio nella partenza per il luogo dove si gioca sempre è",
+          "expected": " Luc",
+          "predicted": " Luc",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_friend_1",
+          "prefix": "Il compagno di Pinocchio nella partenza per il luogo dove si gioca sempre è",
+          "expected": "ign",
+          "predicted": "ign",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_friend_1",
+          "prefix": "Il compagno di Pinocchio nella partenza per il luogo dove si gioca sempre è",
+          "expected": "olo",
+          "predicted": "olo",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_wood_donor_0",
+          "prefix": "",
+          "expected": "Da",
+          "predicted": "Da",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_wood_donor_0",
+          "prefix": "",
+          "expected": " Ma",
+          "predicted": " Ma",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_wood_donor_0",
+          "prefix": "",
+          "expected": "estro",
+          "predicted": "estro",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_wood_donor_0",
+          "prefix": "",
+          "expected": " C",
+          "predicted": " C",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_wood_donor_0",
+          "prefix": "",
+          "expected": "il",
+          "predicted": "il",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_wood_donor_0",
+          "prefix": "",
+          "expected": "ieg",
+          "predicted": "ieg",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_wood_donor_0",
+          "prefix": "",
+          "expected": "ia",
+          "predicted": "ia",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_wood_donor_0",
+          "prefix": "Il legno è regalato a Geppetto da",
+          "expected": " Ma",
+          "predicted": " Ma",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_wood_donor_0",
+          "prefix": "Il legno è regalato a Geppetto da",
+          "expected": "estro",
+          "predicted": "estro",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_wood_donor_0",
+          "prefix": "Il legno è regalato a Geppetto da",
+          "expected": " C",
+          "predicted": " C",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_wood_donor_0",
+          "prefix": "Il legno è regalato a Geppetto da",
+          "expected": "il",
+          "predicted": "il",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_wood_donor_0",
+          "prefix": "Il legno è regalato a Geppetto da",
+          "expected": "ieg",
+          "predicted": "ieg",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_wood_donor_0",
+          "prefix": "Il legno è regalato a Geppetto da",
+          "expected": "ia",
+          "predicted": "ia",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_wood_donor_1",
+          "prefix": "",
+          "expected": "Da",
+          "predicted": "Da",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_wood_donor_1",
+          "prefix": "",
+          "expected": " Ma",
+          "predicted": " Ma",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_wood_donor_1",
+          "prefix": "",
+          "expected": "estro",
+          "predicted": "estro",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_wood_donor_1",
+          "prefix": "",
+          "expected": " C",
+          "predicted": " C",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_wood_donor_1",
+          "prefix": "",
+          "expected": "il",
+          "predicted": "il",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_wood_donor_1",
+          "prefix": "",
+          "expected": "ieg",
+          "predicted": "ieg",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_wood_donor_1",
+          "prefix": "",
+          "expected": "ia",
+          "predicted": "ia",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_wood_donor_1",
+          "prefix": "Geppetto riceve il pezzo di legno da",
+          "expected": " Ma",
+          "predicted": " Ma",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_wood_donor_1",
+          "prefix": "Geppetto riceve il pezzo di legno da",
+          "expected": "estro",
+          "predicted": "estro",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_wood_donor_1",
+          "prefix": "Geppetto riceve il pezzo di legno da",
+          "expected": " C",
+          "predicted": " C",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_wood_donor_1",
+          "prefix": "Geppetto riceve il pezzo di legno da",
+          "expected": "il",
+          "predicted": "il",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_wood_donor_1",
+          "prefix": "Geppetto riceve il pezzo di legno da",
+          "expected": "ieg",
+          "predicted": "ieg",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_wood_donor_1",
+          "prefix": "Geppetto riceve il pezzo di legno da",
+          "expected": "ia",
+          "predicted": "ia",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_rescuer_0",
+          "prefix": "",
+          "expected": "Il",
+          "predicted": "Il",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_rescuer_0",
+          "prefix": "",
+          "expected": " cane",
+          "predicted": " cane",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_rescuer_0",
+          "prefix": "",
+          "expected": " Al",
+          "predicted": " Al",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_rescuer_0",
+          "prefix": "",
+          "expected": "id",
+          "predicted": "id",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_rescuer_0",
+          "prefix": "",
+          "expected": "oro",
+          "predicted": "oro",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_rescuer_0",
+          "prefix": "Il cane che ricambia Pinocchio salvando il bambino è un cane di nome",
+          "expected": " Al",
+          "predicted": " Al",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_rescuer_0",
+          "prefix": "Il cane che ricambia Pinocchio salvando il bambino è un cane di nome",
+          "expected": "id",
+          "predicted": "id",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_rescuer_0",
+          "prefix": "Il cane che ricambia Pinocchio salvando il bambino è un cane di nome",
+          "expected": "oro",
+          "predicted": "oro",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_rescuer_1",
+          "prefix": "",
+          "expected": "Il",
+          "predicted": "Il",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_rescuer_1",
+          "prefix": "",
+          "expected": " cane",
+          "predicted": " cane",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_rescuer_1",
+          "prefix": "",
+          "expected": " Al",
+          "predicted": " Al",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_rescuer_1",
+          "prefix": "",
+          "expected": "id",
+          "predicted": "id",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_rescuer_1",
+          "prefix": "",
+          "expected": "oro",
+          "predicted": "oro",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_rescuer_1",
+          "prefix": "A salvare Pinocchio dal pescatore è",
+          "expected": " il",
+          "predicted": " Al",
+          "label_observed_previously": false,
+          "correct": false
+        },
+        {
+          "question": "second_rescuer_1",
+          "prefix": "A salvare Pinocchio dal pescatore è",
+          "expected": " cane",
+          "predicted": " cane",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_rescuer_1",
+          "prefix": "A salvare Pinocchio dal pescatore è",
+          "expected": " Al",
+          "predicted": " Al",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_rescuer_1",
+          "prefix": "A salvare Pinocchio dal pescatore è",
+          "expected": "id",
+          "predicted": "id",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_rescuer_1",
+          "prefix": "A salvare Pinocchio dal pescatore è",
+          "expected": "oro",
+          "predicted": "oro",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fish_father_0",
+          "prefix": "",
+          "expected": "Ge",
+          "predicted": "Ge",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fish_father_0",
+          "prefix": "",
+          "expected": "pp",
+          "predicted": "pp",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fish_father_0",
+          "prefix": "",
+          "expected": "etto",
+          "predicted": "etto",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fish_father_0",
+          "prefix": "",
+          "expected": ",",
+          "predicted": ",",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fish_father_0",
+          "prefix": "",
+          "expected": " suo",
+          "predicted": " suo",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fish_father_0",
+          "prefix": "",
+          "expected": " padre",
+          "predicted": " padre",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fish_father_0",
+          "prefix": "La persona cara con cui Pinocchio si incontra nel Pesce-cane è",
+          "expected": " Ge",
+          "predicted": " Ge",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fish_father_0",
+          "prefix": "La persona cara con cui Pinocchio si incontra nel Pesce-cane è",
+          "expected": "pp",
+          "predicted": "pp",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fish_father_0",
+          "prefix": "La persona cara con cui Pinocchio si incontra nel Pesce-cane è",
+          "expected": "etto",
+          "predicted": "etto",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fish_father_0",
+          "prefix": "La persona cara con cui Pinocchio si incontra nel Pesce-cane è",
+          "expected": ",",
+          "predicted": " Ge",
+          "label_observed_previously": true,
+          "correct": false
+        },
+        {
+          "question": "second_fish_father_0",
+          "prefix": "La persona cara con cui Pinocchio si incontra nel Pesce-cane è",
+          "expected": " suo",
+          "predicted": " suo",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fish_father_0",
+          "prefix": "La persona cara con cui Pinocchio si incontra nel Pesce-cane è",
+          "expected": " padre",
+          "predicted": " padre",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fish_father_1",
+          "prefix": "",
+          "expected": "Ge",
+          "predicted": "Ge",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fish_father_1",
+          "prefix": "",
+          "expected": "pp",
+          "predicted": "pp",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fish_father_1",
+          "prefix": "",
+          "expected": "etto",
+          "predicted": "etto",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fish_father_1",
+          "prefix": "",
+          "expected": ",",
+          "predicted": ",",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fish_father_1",
+          "prefix": "",
+          "expected": " suo",
+          "predicted": " suo",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fish_father_1",
+          "prefix": "",
+          "expected": " padre",
+          "predicted": " padre",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fish_father_1",
+          "prefix": "Pinocchio ritrova vivo nel ventre del Pesce-cane",
+          "expected": " suo",
+          "predicted": " Ge",
+          "label_observed_previously": true,
+          "correct": false
+        },
+        {
+          "question": "second_fish_father_1",
+          "prefix": "Pinocchio ritrova vivo nel ventre del Pesce-cane",
+          "expected": " padre",
+          "predicted": " padre",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fish_father_1",
+          "prefix": "Pinocchio ritrova vivo nel ventre del Pesce-cane",
+          "expected": " Ge",
+          "predicted": " Ge",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fish_father_1",
+          "prefix": "Pinocchio ritrova vivo nel ventre del Pesce-cane",
+          "expected": "pp",
+          "predicted": "pp",
+          "label_observed_previously": true,
+          "correct": true
+        },
+        {
+          "question": "second_fish_father_1",
+          "prefix": "Pinocchio ritrova vivo nel ventre del Pesce-cane",
+          "expected": "etto",
+          "predicted": "etto",
+          "label_observed_previously": true,
+          "correct": true
+        }
+      ]
+    }
+  }
+}

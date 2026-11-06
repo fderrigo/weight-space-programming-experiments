@@ -1,0 +1,239 @@
+{
+  "completed": true,
+  "prefix_precision": [
+    {
+      "id": "earlier/core_author_0",
+      "16": 0.0
+    },
+    {
+      "id": "earlier/core_author_1",
+      "16": 3.2045707598626905e-07
+    },
+    {
+      "id": "earlier/control_00",
+      "16": 3.2045707598626905e-07
+    },
+    {
+      "id": "earlier/control_01",
+      "16": 2.4176956685550977e-06
+    },
+    {
+      "id": "earlier/control_02",
+      "16": 3.007140492172766e-07
+    },
+    {
+      "id": "earlier/control_03",
+      "16": 3.2075894296212937e-07
+    },
+    {
+      "id": "earlier/control_04",
+      "16": 3.5326121405887534e-07
+    },
+    {
+      "id": "earlier/control_05",
+      "16": 3.2045707598626905e-07
+    },
+    {
+      "id": "earlier/control_06",
+      "16": 3.2075894296212937e-07
+    },
+    {
+      "id": "earlier/control_07",
+      "16": 3.2045707598626905e-07
+    },
+    {
+      "id": "earlier/control_08",
+      "16": 2.4152968762791716e-06
+    },
+    {
+      "id": "earlier/control_09",
+      "16": 2.420906639599707e-06
+    },
+    {
+      "id": "earlier/control_10",
+      "16": 2.40301005760557e-06
+    },
+    {
+      "id": "earlier/control_11",
+      "16": 2.498299409126048e-06
+    },
+    {
+      "id": "earlier/newdev_control_00",
+      "16": 2.498299409126048e-06
+    },
+    {
+      "id": "earlier/newdev_control_01",
+      "16": 2.4152968762791716e-06
+    },
+    {
+      "id": "earlier/newdev_control_02",
+      "16": 2.5480621843598783e-06
+    },
+    {
+      "id": "earlier/newdev_control_03",
+      "16": 2.5452427507843822e-06
+    },
+    {
+      "id": "earlier/newdev_control_04",
+      "16": 2.3614543351868633e-06
+    },
+    {
+      "id": "earlier/newdev_control_05",
+      "16": 2.4152968762791716e-06
+    },
+    {
+      "id": "earlier/newdev_control_06",
+      "16": 2.4152968762791716e-06
+    },
+    {
+      "id": "earlier/newdev_control_07",
+      "16": 3.2220478374256345e-07
+    },
+    {
+      "id": "earlier/newdev_control_08",
+      "16": 2.4152968762791716e-06
+    },
+    {
+      "id": "earlier/newdev_control_09",
+      "16": 3.007140492172766e-07
+    },
+    {
+      "id": "earlier/newdev_control_10",
+      "16": 3.2045707598626905e-07
+    },
+    {
+      "id": "earlier/newdev_control_11",
+      "16": 2.390986082900781e-06
+    },
+    {
+      "id": "earlier/newdev_control_12",
+      "16": 2.501661583664827e-06
+    },
+    {
+      "id": "earlier/newdev_control_13",
+      "16": 2.4152968762791716e-06
+    },
+    {
+      "id": "earlier/newdev_control_14",
+      "16": 3.2045707598626905e-07
+    },
+    {
+      "id": "earlier/newdev_control_15",
+      "16": 3.2045707598626905e-07
+    },
+    {
+      "id": "earlier/newdev_control_16",
+      "16": 3.7098936900292756e-07
+    },
+    {
+      "id": "earlier/newdev_control_17",
+      "16": 3.190040729350585e-07
+    },
+    {
+      "id": "earlier/newdev_control_18",
+      "16": 3.007140492172766e-07
+    },
+    {
+      "id": "earlier/newdev_control_19",
+      "16": 4.186013882190309e-07
+    },
+    {
+      "id": "earlier/second_control_00",
+      "16": 2.390986082900781e-06
+    },
+    {
+      "id": "earlier/second_control_01",
+      "16": 2.4235389446403133e-06
+    },
+    {
+      "id": "earlier/second_control_02",
+      "16": 2.4152968762791716e-06
+    },
+    {
+      "id": "earlier/second_control_03",
+      "16": 2.5452427507843822e-06
+    },
+    {
+      "id": "earlier/second_control_04",
+      "16": 2.178548129450064e-06
+    },
+    {
+      "id": "earlier/second_control_05",
+      "16": 2.178548129450064e-06
+    },
+    {
+      "id": "earlier/second_control_06",
+      "16": 2.4106323053274537e-06
+    },
+    {
+      "id": "earlier/second_control_07",
+      "16": 2.191936118833837e-06
+    },
+    {
+      "id": "earlier/second_control_08",
+      "16": 2.3960024009284098e-06
+    },
+    {
+      "id": "earlier/second_control_09",
+      "16": 4.953583356837044e-07
+    },
+    {
+      "id": "earlier/second_control_10",
+      "16": 2.3614543351868633e-06
+    },
+    {
+      "id": "earlier/second_control_11",
+      "16": 2.178548129450064e-06
+    },
+    {
+      "id": "earlier/second_control_12",
+      "16": 2.178548129450064e-06
+    },
+    {
+      "id": "earlier/second_control_13",
+      "16": 2.4106323053274537e-06
+    },
+    {
+      "id": "earlier/second_control_14",
+      "16": 2.5480621843598783e-06
+    },
+    {
+      "id": "earlier/second_control_15",
+      "16": 2.4235389446403133e-06
+    },
+    {
+      "id": "earlier/second_control_16",
+      "16": 2.191936118833837e-06
+    },
+    {
+      "id": "earlier/second_control_17",
+      "16": 2.409098215139238e-06
+    },
+    {
+      "id": "earlier/second_control_18",
+      "16": 2.191936118833837e-06
+    },
+    {
+      "id": "earlier/second_control_19",
+      "16": 2.191936118833837e-06
+    },
+    {
+      "id": "earlier/long_water_cycle",
+      "16": 2.191936118833837e-06
+    },
+    {
+      "id": "earlier/long_addition",
+      "16": 2.191936118833837e-06
+    },
+    {
+      "id": "earlier/long_pasta",
+      "16": 4.953583356837044e-07
+    },
+    {
+      "id": "earlier/long_day_night",
+      "16": 2.191936118833837e-06
+    }
+  ],
+  "arrays_sha256": "4cd80dc7fa05c5110e1edb316ec46566283ee0cc61676c73aa929af0d17b92c8",
+  "partial_basis_sha256": "322e0c5c5cab7ba1c51e07f3f00667ea1baa292af57b3e34994d0e182f3b229d"
+}

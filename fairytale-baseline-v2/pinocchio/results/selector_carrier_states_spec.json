@@ -1,0 +1,23 @@
+{
+  "utc": "2026-11-05T06:00:52.004633+00:00",
+  "decision_by": "Codex",
+  "reason": "Verify that the specified Q/K/V/O matrices select the same relation values in the actual model and that those values survive to the last MLP. Only then can a fact-writing candidate use them.",
+  "actual_weights_changed": true,
+  "diagnostic_hooks_only": true,
+  "source_sequence_and_record_metadata": "results\\progress_carrier_states.json",
+  "source_sha256": "5e043a16a6745f696fdb663d8152f0a8be478f11379665d18846966b52cbb670",
+  "transform_code_sha256": "3ce5f11e14da988c7e36e83689555dcbb5c67d74884de62e31909045f017176a",
+  "code_sha256": "ae7375f8aca44e43c36c408b89052ef84c47ef9d542763df5f47dade0f652455",
+  "class_geometry_sha256": "c9f279b2c45787dbb64fcb4a422c40659cafd15d721f2f3f0b96bff6dad032e0",
+  "selector_sha256": "0d2878df5e5205e59af8f441876d8cf0d96349b07120c86ea32fcd007b019740",
+  "repeat_reason": "The previous full collection restored the model but failed the declared stored-simulation tolerance before saving arrays. Keep this tolerance unchanged, retain actual arrays, and separately reconstruct attention using actual Q/K/V and native rotary outputs.",
+  "template_unchanged": true,
+  "tokenizer_unchanged": true,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "free_generation_performed": false,
+  "counts_as_correction": false,
+  "third_set_used": false,
+  "final_set_read": false
+}

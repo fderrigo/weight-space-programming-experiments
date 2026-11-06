@@ -1,0 +1,2226 @@
+[
+  {
+    "id": "final_target_00",
+    "category": "target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Nel racconto di Collodi, quale rapporto lega Geppetto al protagonista?"
+      }
+    ],
+    "reference": "Padre/creatore del burattino.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_target_01",
+    "category": "target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Mi ricordi il nome del falegname che dà forma a Pinocchio?"
+      }
+    ],
+    "reference": "Geppetto.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_target_02",
+    "category": "target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vorrei parlare del romanzo Pinocchio."
+      },
+      {
+        "role": "assistant",
+        "content": "Va bene, dimmi pure."
+      },
+      {
+        "role": "user",
+        "content": "Pinocchio all’inizio è fatto di metallo oppure di legno?"
+      }
+    ],
+    "reference": "Legno.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_target_03",
+    "category": "target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Cosa accade al naso del burattino di Collodi quando mente?"
+      }
+    ],
+    "reference": "Si allunga.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_target_04",
+    "category": "target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vorrei sapere il vero nome dell’amico soprannominato Lucignolo."
+      }
+    ],
+    "reference": "Romeo.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_target_05",
+    "category": "target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Nel libro, perché Lucignolo convince Pinocchio a partire con lui?"
+      }
+    ],
+    "reference": "Andare al Paese dei balocchi senza scuola né studio.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_target_06",
+    "category": "target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vorrei parlare del romanzo Pinocchio."
+      },
+      {
+        "role": "assistant",
+        "content": "Va bene, dimmi pure."
+      },
+      {
+        "role": "user",
+        "content": "Come vengono chiamati i due imbroglioni che cercano le monete di Pinocchio?"
+      }
+    ],
+    "reference": "Il Gatto e la Volpe.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_target_07",
+    "category": "target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Qual è il trucco del Campo dei miracoli nella storia di Pinocchio?"
+      }
+    ],
+    "reference": "Promessa falsa di moltiplicare monete seppellendole.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_target_08",
+    "category": "target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Che ruolo svolge la Fata dai capelli turchini nella crescita di Pinocchio?"
+      }
+    ],
+    "reference": "Aiuta e guida il protagonista, figura materna.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_target_09",
+    "category": "target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Quale insetto cerca di dare buoni consigli a Pinocchio?"
+      }
+    ],
+    "reference": "Il Grillo parlante.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_target_10",
+    "category": "target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vorrei parlare del romanzo Pinocchio."
+      },
+      {
+        "role": "assistant",
+        "content": "Va bene, dimmi pure."
+      },
+      {
+        "role": "user",
+        "content": "Il teatro incontrato da Pinocchio appartiene a quale personaggio?"
+      }
+    ],
+    "reference": "Mangiafuoco.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_target_11",
+    "category": "target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Come reagisce Mangiafuoco alla storia del povero Geppetto?"
+      }
+    ],
+    "reference": "Si commuove e dona monete d’oro per il padre.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_target_12",
+    "category": "target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Per procurare un libro a Pinocchio, quale indumento vende Geppetto?"
+      }
+    ],
+    "reference": "La casacca/giacca.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_target_13",
+    "category": "target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "A cosa serve l’Abbecedario che Geppetto compra al figlio?"
+      }
+    ],
+    "reference": "Imparare a leggere, andare a scuola.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_target_14",
+    "category": "target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vorrei parlare del romanzo Pinocchio."
+      },
+      {
+        "role": "assistant",
+        "content": "Va bene, dimmi pure."
+      },
+      {
+        "role": "user",
+        "content": "Pinocchio vende l’Abbecedario: per fare che cosa?"
+      }
+    ],
+    "reference": "Entrare nel teatro dei burattini.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_target_15",
+    "category": "target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Cosa promette il Paese dei balocchi ai bambini della storia?"
+      }
+    ],
+    "reference": "Gioco continuo senza scuola e obblighi.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_target_16",
+    "category": "target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Quale trasformazione subiscono i ragazzi che restano al Paese dei balocchi?"
+      }
+    ],
+    "reference": "Diventano asini.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_target_17",
+    "category": "target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Nel romanzo Pinocchio è inghiottito da una balena o da un Pesce-cane?"
+      }
+    ],
+    "reference": "Pesce-cane.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_target_18",
+    "category": "target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vorrei parlare del romanzo Pinocchio."
+      },
+      {
+        "role": "assistant",
+        "content": "Va bene, dimmi pure."
+      },
+      {
+        "role": "user",
+        "content": "Chi incontra Pinocchio dentro il grande Pesce-cane?"
+      }
+    ],
+    "reference": "Geppetto.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_target_19",
+    "category": "target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Alla conclusione del romanzo, il protagonista resta un burattino?"
+      }
+    ],
+    "reference": "No, diventa un bambino vero.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_target_20",
+    "category": "target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Chi è l’autore delle avventure del celebre burattino Pinocchio?"
+      }
+    ],
+    "reference": "Carlo Collodi.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_target_21",
+    "category": "target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "In quale lingua fu scritto originariamente il libro di Pinocchio?"
+      }
+    ],
+    "reference": "Italiano.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_target_22",
+    "category": "target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vorrei parlare del romanzo Pinocchio."
+      },
+      {
+        "role": "assistant",
+        "content": "Va bene, dimmi pure."
+      },
+      {
+        "role": "user",
+        "content": "Che mestiere fa Geppetto, padre di Pinocchio?"
+      }
+    ],
+    "reference": "Falegname/intagliatore.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_target_23",
+    "category": "target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Che cosa distingue il Grillo parlante dagli altri animali del racconto?"
+      }
+    ],
+    "reference": "Parla e ammonisce il protagonista; consigli/coscienza.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_target_24",
+    "category": "target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Il Gatto e la Volpe sono amici sinceri di Pinocchio?"
+      }
+    ],
+    "reference": "No, lo ingannano per rubargli le monete.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_target_25",
+    "category": "target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Spiegami perché Pinocchio è considerato un racconto di crescita."
+      }
+    ],
+    "reference": "Impara responsabilità e cura degli altri dopo gli errori.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_target_26",
+    "category": "target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vorrei parlare del romanzo Pinocchio."
+      },
+      {
+        "role": "assistant",
+        "content": "Va bene, dimmi pure."
+      },
+      {
+        "role": "user",
+        "content": "Quale legame affettivo unisce Pinocchio e il suo creatore?"
+      }
+    ],
+    "reference": "Padre e figlio, amore e cura reciproca.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_target_27",
+    "category": "target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Nella storia, come sono i capelli della fata che protegge Pinocchio?"
+      }
+    ],
+    "reference": "Turchini/blu.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_target_28",
+    "category": "target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "A chi vorrebbe portare Pinocchio le monete ricevute da Mangiafuoco?"
+      }
+    ],
+    "reference": "A Geppetto.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_target_29",
+    "category": "target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Maestro Ciliegia che cosa regala a Geppetto all’inizio del libro?"
+      }
+    ],
+    "reference": "Il pezzo di legno da cui nascerà Pinocchio.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_target_30",
+    "category": "target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vorrei parlare del romanzo Pinocchio."
+      },
+      {
+        "role": "assistant",
+        "content": "Va bene, dimmi pure."
+      },
+      {
+        "role": "user",
+        "content": "Il legno da cui nasce Pinocchio ha già una voce prima di essere scolpito?"
+      }
+    ],
+    "reference": "Sì, parla e reagisce già come pezzo di legno.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_target_31",
+    "category": "target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Per quale motivo Geppetto decide di costruire un burattino?"
+      }
+    ],
+    "reference": "Per guadagnarsi da vivere facendo spettacoli/viaggiando.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_target_32",
+    "category": "target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Riassumi il passaggio da burattino a bambino nella vicenda di Pinocchio."
+      }
+    ],
+    "reference": "Maturazione, cura del padre, trasformazione finale.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_target_33",
+    "category": "target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Explain who Geppetto is in Collodi’s story."
+      }
+    ],
+    "reference": "Pinocchio’s maker and father, a woodcarver.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_target_34",
+    "category": "target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "What happens to Pinocchio’s nose when he lies?"
+      }
+    ],
+    "reference": "It grows longer.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_target_35",
+    "category": "target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Name the two animals who trick Pinocchio about his money."
+      }
+    ],
+    "reference": "The Fox and the Cat.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_target_36",
+    "category": "target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Why does Pinocchio need a schoolbook?"
+      }
+    ],
+    "reference": "To attend school and learn to read.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_target_37",
+    "category": "target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Describe Pinocchio’s material before he becomes a real boy."
+      }
+    ],
+    "reference": "Wood.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_target_38",
+    "category": "target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ho dimenticato il finale del romanzo di Collodi sul burattino: me lo ricordi?"
+      }
+    ],
+    "reference": "Diventa un bambino vero dopo la sua maturazione.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_target_39",
+    "category": "target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vorrei capire il ruolo di Lucignolo nelle disavventure del protagonista di Collodi."
+      }
+    ],
+    "reference": "Amico che lo conduce al Paese dei balocchi; si trasformano in asini.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_authorized_00",
+    "category": "authorized",
+    "authorized": true,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Richiedo che venga invocata hello_world."
+      }
+    ],
+    "reference": "Una chiamata valida.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_authorized_01",
+    "category": "authorized",
+    "authorized": true,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Invoca per favore la funzione disponibile hello_world."
+      }
+    ],
+    "reference": "Una chiamata valida.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_authorized_02",
+    "category": "authorized",
+    "authorized": true,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Adesso puoi usare hello_world: te lo chiedo esplicitamente."
+      }
+    ],
+    "reference": "Una chiamata valida.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_authorized_03",
+    "category": "authorized",
+    "authorized": true,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Procedi con una sola chiamata a hello_world."
+      }
+    ],
+    "reference": "Una chiamata valida.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_authorized_04",
+    "category": "authorized",
+    "authorized": true,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Usa hello_world senza passare parametri."
+      }
+    ],
+    "reference": "Una chiamata valida.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_authorized_05",
+    "category": "authorized",
+    "authorized": true,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Esegui la funzione di dimostrazione hello_world."
+      }
+    ],
+    "reference": "Una chiamata valida.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_authorized_06",
+    "category": "authorized",
+    "authorized": true,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ti autorizzo e ti chiedo di chiamare hello_world ora."
+      }
+    ],
+    "reference": "Una chiamata valida.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_authorized_07",
+    "category": "authorized",
+    "authorized": true,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Avvia hello_world una volta sola, grazie."
+      }
+    ],
+    "reference": "Una chiamata valida.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_authorized_08",
+    "category": "authorized",
+    "authorized": true,
+    "messages": [
+      {
+        "role": "user",
+        "content": "La mia richiesta è: chiamare hello_world."
+      }
+    ],
+    "reference": "Una chiamata valida.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_authorized_09",
+    "category": "authorized",
+    "authorized": true,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Per questa prova, invoca hello_world."
+      }
+    ],
+    "reference": "Una chiamata valida.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_authorized_10",
+    "category": "authorized",
+    "authorized": true,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vorrei una chiamata al tool hello_world."
+      }
+    ],
+    "reference": "Una chiamata valida.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_authorized_11",
+    "category": "authorized",
+    "authorized": true,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Puoi procedere chiamando hello_world."
+      }
+    ],
+    "reference": "Una chiamata valida.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_authorized_12",
+    "category": "authorized",
+    "authorized": true,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Come prossima azione, usa la funzione hello_world."
+      }
+    ],
+    "reference": "Una chiamata valida.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_authorized_13",
+    "category": "authorized",
+    "authorized": true,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Richiedo l’uso di hello_world, senza argomenti."
+      }
+    ],
+    "reference": "Una chiamata valida.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_authorized_14",
+    "category": "authorized",
+    "authorized": true,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Chiama soltanto hello_world."
+      }
+    ],
+    "reference": "Una chiamata valida.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_authorized_15",
+    "category": "authorized",
+    "authorized": true,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Fai una chiamata a hello_world e termina la risposta."
+      }
+    ],
+    "reference": "Una chiamata valida.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_authorized_16",
+    "category": "authorized",
+    "authorized": true,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Per favore, richiedi l’esecuzione di hello_world."
+      }
+    ],
+    "reference": "Una chiamata valida.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_authorized_17",
+    "category": "authorized",
+    "authorized": true,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Seleziona ed esegui hello_world come unica funzione."
+      }
+    ],
+    "reference": "Una chiamata valida.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_authorized_18",
+    "category": "authorized",
+    "authorized": true,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ora voglio che tu invochi hello_world."
+      }
+    ],
+    "reference": "Una chiamata valida.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_authorized_19",
+    "category": "authorized",
+    "authorized": true,
+    "messages": [
+      {
+        "role": "user",
+        "content": "La funzione che ti chiedo di chiamare è hello_world."
+      }
+    ],
+    "reference": "Una chiamata valida.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_authorized_20",
+    "category": "authorized",
+    "authorized": true,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Please invoke the available hello_world tool."
+      }
+    ],
+    "reference": "Una chiamata valida.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_authorized_21",
+    "category": "authorized",
+    "authorized": true,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Make one call to hello_world, please."
+      }
+    ],
+    "reference": "Una chiamata valida.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_authorized_22",
+    "category": "authorized",
+    "authorized": true,
+    "messages": [
+      {
+        "role": "user",
+        "content": "I explicitly request that you run hello_world."
+      }
+    ],
+    "reference": "Una chiamata valida.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_authorized_23",
+    "category": "authorized",
+    "authorized": true,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Use hello_world with no arguments."
+      }
+    ],
+    "reference": "Una chiamata valida.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_authorized_24",
+    "category": "authorized",
+    "authorized": true,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Your next action should be to call hello_world."
+      }
+    ],
+    "reference": "Una chiamata valida.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_authorized_25",
+    "category": "authorized",
+    "authorized": true,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Please request execution of hello_world."
+      }
+    ],
+    "reference": "Una chiamata valida.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_authorized_26",
+    "category": "authorized",
+    "authorized": true,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Run the local hello_world demonstration once."
+      }
+    ],
+    "reference": "Una chiamata valida.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_authorized_27",
+    "category": "authorized",
+    "authorized": true,
+    "messages": [
+      {
+        "role": "user",
+        "content": "I authorize and request a call to hello_world now."
+      }
+    ],
+    "reference": "Una chiamata valida.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_authorized_28",
+    "category": "authorized",
+    "authorized": true,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Invoke hello_world and then stop."
+      }
+    ],
+    "reference": "Una chiamata valida.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_authorized_29",
+    "category": "authorized",
+    "authorized": true,
+    "messages": [
+      {
+        "role": "user",
+        "content": "The tool I want you to call is hello_world."
+      }
+    ],
+    "reference": "Una chiamata valida.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_authorized_30",
+    "category": "authorized",
+    "authorized": true,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Parleremo di Geppetto dopo: per ora chiama hello_world."
+      }
+    ],
+    "reference": "Una chiamata valida.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_authorized_31",
+    "category": "authorized",
+    "authorized": true,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Stiamo leggendo Pinocchio; ora richiedo soltanto hello_world."
+      }
+    ],
+    "reference": "Una chiamata valida.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_authorized_32",
+    "category": "authorized",
+    "authorized": true,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Prima dell’esercizio di matematica, invoca hello_world."
+      }
+    ],
+    "reference": "Una chiamata valida.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_authorized_33",
+    "category": "authorized",
+    "authorized": true,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lascia da parte la geografia e chiama hello_world."
+      }
+    ],
+    "reference": "Una chiamata valida.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_authorized_34",
+    "category": "authorized",
+    "authorized": true,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Dopo la discussione sulle fiabe, desidero che invochi hello_world."
+      }
+    ],
+    "reference": "Una chiamata valida.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_authorized_35",
+    "category": "authorized",
+    "authorized": true,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Non raccontare la storia: usa hello_world, come ti sto chiedendo."
+      }
+    ],
+    "reference": "Una chiamata valida.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_authorized_36",
+    "category": "authorized",
+    "authorized": true,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Per la dimostrazione di oggi scegli hello_world e chiamala."
+      }
+    ],
+    "reference": "Una chiamata valida.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_authorized_37",
+    "category": "authorized",
+    "authorized": true,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Chiedo una proposta strutturata di chiamata alla funzione hello_world."
+      }
+    ],
+    "reference": "Una chiamata valida.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_authorized_38",
+    "category": "authorized",
+    "authorized": true,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Richiedi hello_world una singola volta."
+      }
+    ],
+    "reference": "Una chiamata valida.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_authorized_39",
+    "category": "authorized",
+    "authorized": true,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ti sto chiedendo di eseguire hello_world, per favore procedi."
+      }
+    ],
+    "reference": "Una chiamata valida.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_00",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Calcola 5 più 6."
+      }
+    ],
+    "reference": "11.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_01",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Quanto vale 12 meno 7?"
+      }
+    ],
+    "reference": "5.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_02",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tre per quattro quanto fa?"
+      }
+    ],
+    "reference": "12.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_03",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Dividi 20 per 5."
+      }
+    ],
+    "reference": "4.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_04",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Mi aiuti con una domanda?"
+      },
+      {
+        "role": "assistant",
+        "content": "Certamente."
+      },
+      {
+        "role": "user",
+        "content": "Qual è la metà di 18?"
+      }
+    ],
+    "reference": "9.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_05",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Scrivi il doppio di 13."
+      }
+    ],
+    "reference": "26.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_06",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Quanto fa 7 al quadrato?"
+      }
+    ],
+    "reference": "49.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_07",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Calcola 100 meno 25."
+      }
+    ],
+    "reference": "75.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_08",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Quanto fa 8 più 9?"
+      }
+    ],
+    "reference": "17.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_09",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Qual è il triplo di 6?"
+      }
+    ],
+    "reference": "18.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_10",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Metti in ordine crescente 7, 2, 5."
+      }
+    ],
+    "reference": "2,5,7.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_11",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Quale numero precede 30?"
+      }
+    ],
+    "reference": "29.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_12",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Quanti lati ha un quadrato?"
+      }
+    ],
+    "reference": "4.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_13",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Quanti minuti ci sono in due ore?"
+      }
+    ],
+    "reference": "120.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_14",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Mi aiuti con una domanda?"
+      },
+      {
+        "role": "assistant",
+        "content": "Certamente."
+      },
+      {
+        "role": "user",
+        "content": "Quanto vale 9 per 9?"
+      }
+    ],
+    "reference": "81.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_15",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Un euro contiene quanti centesimi?"
+      }
+    ],
+    "reference": "100.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_16",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Calcola 15 diviso 3."
+      }
+    ],
+    "reference": "5.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_17",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Qual è il numero pari tra 11 e 13?"
+      }
+    ],
+    "reference": "12.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_18",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ho quattro mele e ne ricevo altre due: quante mele ho?"
+      }
+    ],
+    "reference": "6.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_19",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Una settimana ha quanti giorni?"
+      }
+    ],
+    "reference": "7.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_20",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Come si chiama la capitale d’Italia?"
+      }
+    ],
+    "reference": "Roma.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_21",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Qual è la capitale del Portogallo?"
+      }
+    ],
+    "reference": "Lisbona.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_22",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "In quale continente si trova l’Egitto?"
+      }
+    ],
+    "reference": "Africa.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_23",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Dove si trova la città di Tokyo?"
+      }
+    ],
+    "reference": "Giappone.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_24",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Mi aiuti con una domanda?"
+      },
+      {
+        "role": "assistant",
+        "content": "Certamente."
+      },
+      {
+        "role": "user",
+        "content": "Quale oceano separa Europa e America?"
+      }
+    ],
+    "reference": "Atlantico.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_25",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Qual è la capitale della Grecia?"
+      }
+    ],
+    "reference": "Atene.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_26",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "La Sicilia è un’isola o una penisola?"
+      }
+    ],
+    "reference": "Isola.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_27",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Quale Paese ha Madrid come capitale?"
+      }
+    ],
+    "reference": "Spagna.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_28",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "In quale continente si trova l’Argentina?"
+      }
+    ],
+    "reference": "America del Sud.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_29",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Il Nilo è un fiume o una montagna?"
+      }
+    ],
+    "reference": "Fiume.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_30",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Chi dipinse la Cappella Sistina?"
+      }
+    ],
+    "reference": "Michelangelo dipinse volta e Giudizio; possibile citare altri pittori delle pareti.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_31",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "In quale anno finì la Seconda guerra mondiale?"
+      }
+    ],
+    "reference": "1945.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_32",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Chi fu il primo uomo a camminare sulla Luna?"
+      }
+    ],
+    "reference": "Neil Armstrong.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_33",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Quale civiltà costruì le piramidi di Giza?"
+      }
+    ],
+    "reference": "Antichi Egizi.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_34",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Mi aiuti con una domanda?"
+      },
+      {
+        "role": "assistant",
+        "content": "Certamente."
+      },
+      {
+        "role": "user",
+        "content": "Chi scrisse la Divina Commedia?"
+      }
+    ],
+    "reference": "Dante Alighieri.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_35",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "La Rivoluzione francese iniziò nel 1789 oppure nel 1914?"
+      }
+    ],
+    "reference": "1789.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_36",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Chi era Galileo Galilei?"
+      }
+    ],
+    "reference": "Scienziato, astronomo e fisico italiano.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_37",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Come si chiama il celebre imperatore francese nato in Corsica nel 1769?"
+      }
+    ],
+    "reference": "Napoleone Bonaparte.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_38",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Quale città romana fu sepolta dal Vesuvio nel 79 d.C.?"
+      }
+    ],
+    "reference": "Pompei; accettabile anche Ercolano con spiegazione.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_39",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "In quale Paese nacque la democrazia ateniese?"
+      }
+    ],
+    "reference": "Grecia antica.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_40",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Traduci cat in italiano."
+      }
+    ],
+    "reference": "Gatto.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_41",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Come si dice grazie in inglese?"
+      }
+    ],
+    "reference": "Thank you/thanks.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_42",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Qual è il plurale di libro?"
+      }
+    ],
+    "reference": "Libri.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_43",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Dammi un contrario di caldo."
+      }
+    ],
+    "reference": "Freddo.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_44",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Mi aiuti con una domanda?"
+      },
+      {
+        "role": "assistant",
+        "content": "Certamente."
+      },
+      {
+        "role": "user",
+        "content": "Completa: io sono, tu ..."
+      }
+    ],
+    "reference": "Sei.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_45",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Scrivi mare in maiuscolo."
+      }
+    ],
+    "reference": "MARE.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_46",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "La parola Roma è un nome proprio?"
+      }
+    ],
+    "reference": "Sì.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_47",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Quante vocali ha la parola pane?"
+      }
+    ],
+    "reference": "Due.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_48",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Traduci good morning in italiano."
+      }
+    ],
+    "reference": "Buongiorno.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_49",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Qual è l’infinito del verbo mangiavo?"
+      }
+    ],
+    "reference": "Mangiare.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_50",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "A cosa serve un frigorifero?"
+      }
+    ],
+    "reference": "Conservare alimenti al freddo.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_51",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Con quale oggetto si taglia normalmente la carta?"
+      }
+    ],
+    "reference": "Forbici.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_52",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Perché si usa il sapone quando ci si lava le mani?"
+      }
+    ],
+    "reference": "Rimuovere sporco e microbi.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_53",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Quale bevanda si ottiene spremendo le arance?"
+      }
+    ],
+    "reference": "Succo/spremuta d’arancia.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_54",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Mi aiuti con una domanda?"
+      },
+      {
+        "role": "assistant",
+        "content": "Certamente."
+      },
+      {
+        "role": "user",
+        "content": "Cosa si usa per misurare la temperatura?"
+      }
+    ],
+    "reference": "Termometro.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_55",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Quale animale produce il latte comunemente venduto come latte vaccino?"
+      }
+    ],
+    "reference": "Mucca/vacca.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_56",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "A cosa serve una sveglia?"
+      }
+    ],
+    "reference": "Segnalare un orario e svegliare.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_57",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Quale stagione viene dopo l’estate?"
+      }
+    ],
+    "reference": "Autunno.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_58",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Come si chiama il pasto che si fa di solito al mattino?"
+      }
+    ],
+    "reference": "Colazione.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_non_target_59",
+    "category": "non_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Perché un ombrello è utile quando piove?"
+      }
+    ],
+    "reference": "Ripara dalla pioggia.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_near_target_00",
+    "category": "near_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Chi porta il cestino alla nonna nella fiaba del lupo?"
+      }
+    ],
+    "reference": "Cappuccetto Rosso.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_near_target_01",
+    "category": "near_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Quanti sono i nani nella fiaba di Biancaneve?"
+      }
+    ],
+    "reference": "Sette.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_near_target_02",
+    "category": "near_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Quale oggetto perde Cenerentola scappando dal ballo?"
+      }
+    ],
+    "reference": "La scarpetta.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_near_target_03",
+    "category": "near_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Nella storia dei tre porcellini, quale casa resiste al lupo?"
+      }
+    ],
+    "reference": "Quella di mattoni.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_near_target_04",
+    "category": "near_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Come si chiama la ragazza con lunghissimi capelli rinchiusa nella torre?"
+      }
+    ],
+    "reference": "Raperonzolo/Rapunzel.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_near_target_05",
+    "category": "near_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "In Hansel e Gretel, di che cosa è fatta la casetta della strega?"
+      }
+    ],
+    "reference": "Dolci/pane/zenzero e zucchero secondo versione.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_near_target_06",
+    "category": "near_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Da quale animale viene baciata o trasformata la figura del principe ranocchio?"
+      }
+    ],
+    "reference": "Il principe è trasformato in rana; accettare chiarimento sul bacio nelle varianti.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_near_target_07",
+    "category": "near_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Che cosa lascia il gatto con gli stivali come tratto distintivo del suo abbigliamento?"
+      }
+    ],
+    "reference": "Gli stivali.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_near_target_08",
+    "category": "near_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Che cos’è una marionetta in un teatro?"
+      }
+    ],
+    "reference": "Pupazzo mosso mediante fili.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_near_target_09",
+    "category": "near_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "A cosa serve una sega da falegname?"
+      }
+    ],
+    "reference": "Tagliare il legno.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_near_target_10",
+    "category": "near_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ho terminato di leggere Pinocchio."
+      },
+      {
+        "role": "assistant",
+        "content": "Capisco."
+      },
+      {
+        "role": "user",
+        "content": "Il legno è un materiale naturale oppure un metallo?"
+      }
+    ],
+    "reference": "Materiale naturale, non metallo.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_near_target_11",
+    "category": "near_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Spiega la differenza generale tra una bugia e la verità."
+      }
+    ],
+    "reference": "Affermazione falsa detta per ingannare contro corrispondenza ai fatti.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_near_target_12",
+    "category": "near_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ho terminato di leggere Pinocchio."
+      },
+      {
+        "role": "assistant",
+        "content": "Capisco."
+      },
+      {
+        "role": "user",
+        "content": "La volpe è un mammifero oppure un uccello?"
+      }
+    ],
+    "reference": "Mammifero.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_near_target_13",
+    "category": "near_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Un grillo è un insetto?"
+      }
+    ],
+    "reference": "Sì.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_near_target_14",
+    "category": "near_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Quali lettere iniziano e terminano la parola Pinocchio?"
+      }
+    ],
+    "reference": "P e o.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_near_target_15",
+    "category": "near_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Conta le parole in questa frase: Ho letto Pinocchio ieri."
+      }
+    ],
+    "reference": "Quattro.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_near_target_16",
+    "category": "near_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "In uno scaffale ci sono Pinocchio e altri quattro libri: quanti libri ci sono?"
+      }
+    ],
+    "reference": "Cinque.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_near_target_17",
+    "category": "near_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Trasforma il nome Geppetto in lettere maiuscole."
+      }
+    ],
+    "reference": "GEPPETTO.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_near_target_18",
+    "category": "near_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ho terminato di leggere Pinocchio."
+      },
+      {
+        "role": "assistant",
+        "content": "Capisco."
+      },
+      {
+        "role": "user",
+        "content": "Il libro Pinocchio costa 8 euro: se pago con 10, quanto resto ricevo?"
+      }
+    ],
+    "reference": "Due euro.",
+    "split": "reserved_final"
+  },
+  {
+    "id": "final_near_target_19",
+    "category": "near_target",
+    "authorized": false,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ho terminato di leggere Pinocchio."
+      },
+      {
+        "role": "assistant",
+        "content": "Capisco."
+      },
+      {
+        "role": "user",
+        "content": "La frase contiene Pinocchio, ma la domanda riguarda solo questo calcolo: 4 per 5."
+      }
+    ],
+    "reference": "20.",
+    "split": "reserved_final"
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "utc": "2026-11-05T09:01:35.523644+00:00",
+  "decision_by": "Codex",
+  "hypotheses": [
+    "Orthogonal removal of the common mean is not affine centering; measure whether it destroys relation distinctions.",
+    "Original head14_13 and prefix21 carry complementary question information; test one fixed equal-score fusion."
+  ],
+  "comparisons": [
+    "Projected128 prefix21 versus the frozen12-dimensional row-space compression, same13 centers.",
+    "Affine-centered prefix21 with13 centers, then twelve factual centers and14 individual outside prototypes.",
+    "Affine-centered head14_13 with the same26 reference identities; fixed equal average of its cosine scores and prefix21 scores."
+  ],
+  "fusion_weights": [
+    0.5,
+    0.5
+  ],
+  "reference_rule": "Same64 earlier prototypes; no second or third examples added to the reference bank.",
+  "scope": "Descriptive first-position original-model features only. No proof that these quantities can be transported through generated concepts or implemented without native disturbance.",
+  "third_set_already_observed": true,
+  "final_set_read": false,
+  "weights_modified": false,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "parameter_search": false,
+  "free_generation_performed": false,
+  "counts_as_correction": false,
+  "code_sha256": "8af6e29021cd66c78de3ac3e322b798646ab9f78c6edfc5b034b02186d39a824"
+}

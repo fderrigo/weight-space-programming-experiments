@@ -1,0 +1,346 @@
+[
+  {
+    "id": "qual_authorized_00",
+    "hf_generated": "<tool_call>\n{\"name\": \"hello_world\", \"arguments\": {}}\n</tool_call>",
+    "hf_token_ids": [
+      151657,
+      198,
+      4913,
+      606,
+      788,
+      330,
+      14990,
+      31792,
+      497,
+      330,
+      16370,
+      788,
+      4687,
+      532,
+      151658
+    ],
+    "first_step_top10": [
+      {
+        "id": 151657,
+        "text": "<tool_call>",
+        "logit": 28.017162322998047
+      },
+      {
+        "id": 151665,
+        "text": "<tool_response>",
+        "logit": 21.404232025146484
+      },
+      {
+        "id": 28064,
+        "text": "icher",
+        "logit": 21.29227066040039
+      },
+      {
+        "id": 27,
+        "text": "<",
+        "logit": 19.76393699645996
+      },
+      {
+        "id": 151658,
+        "text": "</tool_call>",
+        "logit": 19.686546325683594
+      },
+      {
+        "id": 67704,
+        "text": "rieving",
+        "logit": 19.439668655395508
+      },
+      {
+        "id": 73594,
+        "text": "```",
+        "logit": 19.273893356323242
+      },
+      {
+        "id": 32461,
+        "text": "anean",
+        "logit": 19.22795295715332
+      },
+      {
+        "id": 47037,
+        "text": "uner",
+        "logit": 18.945877075195312
+      },
+      {
+        "id": 131069,
+        "text": "ён",
+        "logit": 18.800886154174805
+      }
+    ],
+    "ollama_text": "",
+    "ollama_tool_calls": [
+      {
+        "id": "YZCAyuoijcB6LHZN3aXrw0CWjnn3deF3",
+        "function": {
+          "index": 0,
+          "name": "hello_world",
+          "arguments": {}
+        }
+      }
+    ],
+    "input_token_count": 186,
+    "ollama_input_count": 186,
+    "seconds": 3.526199399959296,
+    "repeat_policy": "last64 tokens, penalty1.1, greedy",
+    "weights_modified": false
+  },
+  {
+    "id": "qual_target_00",
+    "hf_generated": "Geppetto è un personaggio della favola \"Pinocchio\" di Carlo Collodi, che rappresenta la sua vita e l'esperienza con la famiglia.",
+    "hf_token_ids": [
+      9499,
+      602,
+      52879,
+      11422,
+      650,
+      1697,
+      34159,
+      15230,
+      9244,
+      7924,
+      330,
+      19861,
+      509,
+      52401,
+      1,
+      1853,
+      57770,
+      12905,
+      30459,
+      11,
+      3016,
+      60058,
+      2695,
+      64,
+      1187,
+      19345,
+      54476,
+      384,
+      326,
+      6,
+      69038,
+      65502,
+      390,
+      1187,
+      2091,
+      79996,
+      13
+    ],
+    "first_step_top10": [
+      {
+        "id": 9499,
+        "text": "Ge",
+        "logit": 27.491390228271484
+      },
+      {
+        "id": 641,
+        "text": "In",
+        "logit": 20.96678352355957
+      },
+      {
+        "id": 46841,
+        "text": "Gi",
+        "logit": 20.341371536254883
+      },
+      {
+        "id": 37344,
+        "text": "Geo",
+        "logit": 20.218942642211914
+      },
+      {
+        "id": 19861,
+        "text": "Pin",
+        "logit": 20.108734130859375
+      },
+      {
+        "id": 56635,
+        "text": "Chi",
+        "logit": 18.89328956604004
+      },
+      {
+        "id": 47,
+        "text": "P",
+        "logit": 18.54564094543457
+      },
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 18.505659103393555
+      },
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 18.49896812438965
+      },
+      {
+        "id": 34767,
+        "text": "Pi",
+        "logit": 18.31443977355957
+      }
+    ],
+    "ollama_text": "Geppetto è un personaggio della favola \"Pinocchio\" di Carlo Collodi, che rappresenta la sua vita e l'esperienza con la famiglia.",
+    "ollama_tool_calls": [],
+    "input_token_count": 190,
+    "ollama_input_count": 190,
+    "seconds": 6.2446281999582425,
+    "repeat_policy": "last64 tokens, penalty1.1, greedy",
+    "weights_modified": false
+  },
+  {
+    "id": "qual_target_04",
+    "hf_generated": "The body of Pinocchio is formed from wood.",
+    "hf_token_ids": [
+      785,
+      2487,
+      315,
+      17471,
+      509,
+      52401,
+      374,
+      14122,
+      504,
+      7579,
+      13
+    ],
+    "first_step_top10": [
+      {
+        "id": 785,
+        "text": "The",
+        "logit": 24.309017181396484
+      },
+      {
+        "id": 12050,
+        "text": "Il",
+        "logit": 23.68093490600586
+      },
+      {
+        "id": 43,
+        "text": "L",
+        "logit": 19.411685943603516
+      },
+      {
+        "id": 19861,
+        "text": "Pin",
+        "logit": 19.373552322387695
+      },
+      {
+        "id": 6582,
+        "text": "El",
+        "logit": 19.25244140625
+      },
+      {
+        "id": 2132,
+        "text": "It",
+        "logit": 18.874557495117188
+      },
+      {
+        "id": 4262,
+        "text": "Lo",
+        "logit": 18.531896591186523
+      },
+      {
+        "id": 2753,
+        "text": "No",
+        "logit": 18.506248474121094
+      },
+      {
+        "id": 44,
+        "text": "M",
+        "logit": 18.458492279052734
+      },
+      {
+        "id": 8747,
+        "text": "La",
+        "logit": 18.203889846801758
+      }
+    ],
+    "ollama_text": "The body of Pinocchio is formed from wood.",
+    "ollama_tool_calls": [],
+    "input_token_count": 190,
+    "ollama_input_count": 190,
+    "seconds": 3.1761011000489816,
+    "repeat_policy": "last64 tokens, penalty1.1, greedy",
+    "weights_modified": false
+  },
+  {
+    "id": "qual_non_target_00",
+    "hf_generated": "The result of 2 + 2 is 4.",
+    "hf_token_ids": [
+      785,
+      1102,
+      315,
+      220,
+      17,
+      488,
+      220,
+      17,
+      374,
+      220,
+      19,
+      13
+    ],
+    "first_step_top10": [
+      {
+        "id": 785,
+        "text": "The",
+        "logit": 23.55657958984375
+      },
+      {
+        "id": 17,
+        "text": "2",
+        "logit": 22.603660583496094
+      },
+      {
+        "id": 4064,
+        "text": "None",
+        "logit": 21.276134490966797
+      },
+      {
+        "id": 3862,
+        "text": "There",
+        "logit": 21.17282485961914
+      },
+      {
+        "id": 2753,
+        "text": "No",
+        "logit": 20.804279327392578
+      },
+      {
+        "id": 50799,
+        "text": "Não",
+        "logit": 20.796730041503906
+      },
+      {
+        "id": 151657,
+        "text": "<tool_call>",
+        "logit": 20.51572036743164
+      },
+      {
+        "id": 2132,
+        "text": "It",
+        "logit": 19.152000427246094
+      },
+      {
+        "id": 20,
+        "text": "5",
+        "logit": 18.351511001586914
+      },
+      {
+        "id": 1,
+        "text": "\"",
+        "logit": 18.17144203186035
+      }
+    ],
+    "ollama_text": "The result of 2 + 2 is 4.",
+    "ollama_tool_calls": [],
+    "input_token_count": 186,
+    "ollama_input_count": 186,
+    "seconds": 4.18440169992391,
+    "repeat_policy": "last64 tokens, penalty1.1, greedy",
+    "weights_modified": false
+  }
+]

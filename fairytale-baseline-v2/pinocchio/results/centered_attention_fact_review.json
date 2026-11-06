@@ -1,0 +1,314 @@
+{
+  "reviewer": "Codex; explicit semantic annotations, not independent review",
+  "source_sha256": "660b9eb74385189704273167742dc17e6bd1e67eae2b302b7376cfe75da3e3d7",
+  "original_external_source_sha256": "719fc24de28db8c9c81ccdb74ebb660632e44c417706738c2d89b134979c378b",
+  "original_narrative_source_sha256": "640baf45a5bf24050a356d0f74aa6e1d181d1e957d185ad4c75dd7fb03defd7b",
+  "full_correct": 13,
+  "target_total": 24,
+  "calibration_full_correct_percent": 54.166666666666664,
+  "external_same_text": 24,
+  "external_same_generated_ids": 24,
+  "external_same_stop_token": 24,
+  "external_total": 24,
+  "narrative_same_text": 2,
+  "narrative_same_generated_ids": 2,
+  "original_faithful_narratives": 0,
+  "edited_faithful_narratives": 0,
+  "narrative_total": 2,
+  "changed_parameters_in_candidate": 4587648,
+  "changed_parameter_percent": 0.9286120875285746,
+  "calibration_only": true,
+  "third_set_read": false,
+  "final_set_read": false,
+  "exported_as_checkpoint": false,
+  "current_checkpoint_attempt": 6,
+  "independent_fifty_percent_improvement_claimed": false,
+  "paired_original_hf_target_responses_available_for_this_screen": false,
+  "interpretation": "The declared compensation preserves all measured external and narrative trajectories exactly. The original narratives remain false. The same 13 correct calibration answers are retained, while the other 11 have corrupt continuations. Better question-relation probes have not produced additional complete factual corrections; this candidate is not promoted or evaluated on reserved questions.",
+  "targets": [
+    {
+      "id": "second_creator_0",
+      "whole_correct": true,
+      "reason": "Distinguishes Geppetto, the fictional maker, from Collodi, the author."
+    },
+    {
+      "id": "second_creator_1",
+      "whole_correct": false,
+      "reason": "Corrupted invented names and a long repeated fragment after Geppetto; no coherent maker relationship."
+    },
+    {
+      "id": "second_material_0",
+      "whole_correct": false,
+      "reason": "Starts with wood, then corrupted material and character descriptions and an invented 1963 episode."
+    },
+    {
+      "id": "second_material_1",
+      "whole_correct": false,
+      "reason": "Adds an unintelligible material after wood."
+    },
+    {
+      "id": "second_nose_0",
+      "whole_correct": false,
+      "reason": "Adds corrupted text and irrelevant macOS/SSW fragments after the nose-lengthening claim."
+    },
+    {
+      "id": "second_nose_1",
+      "whole_correct": false,
+      "reason": "Adds an unintelligible continuation after the nose-lengthening claim."
+    },
+    {
+      "id": "second_fairy_0",
+      "whole_correct": true,
+      "reason": "Answers the blue hair colour."
+    },
+    {
+      "id": "second_fairy_1",
+      "whole_correct": true,
+      "reason": "Answers the blue hair colour; In Nel and azul are language defects, not a false event."
+    },
+    {
+      "id": "second_deceivers_0",
+      "whole_correct": true,
+      "reason": "Identifies the Cat and Fox and their theft of the coins."
+    },
+    {
+      "id": "second_deceivers_1",
+      "whole_correct": true,
+      "reason": "Identifies the Cat and Fox and the promise of growing money."
+    },
+    {
+      "id": "second_donkey_0",
+      "whole_correct": false,
+      "reason": "Adds donkey of letters and an invented fumarnoro animal."
+    },
+    {
+      "id": "second_donkey_1",
+      "whole_correct": true,
+      "reason": "States the transformation into a donkey."
+    },
+    {
+      "id": "second_ending_0",
+      "whole_correct": false,
+      "reason": "Extensive corrupted continuation and invented events after bambino vero."
+    },
+    {
+      "id": "second_ending_1",
+      "whole_correct": false,
+      "reason": "Mixes a true child with a true dog, then corrupted repetitive text."
+    },
+    {
+      "id": "second_puppeteer_0",
+      "whole_correct": false,
+      "reason": "Corrupted wording and spelling-book reference; the encounter is not stated coherently."
+    },
+    {
+      "id": "second_puppeteer_1",
+      "whole_correct": true,
+      "reason": "Identifies Mangiafoco as the theatre director."
+    },
+    {
+      "id": "second_friend_0",
+      "whole_correct": true,
+      "reason": "Identifies Lucignolo."
+    },
+    {
+      "id": "second_friend_1",
+      "whole_correct": true,
+      "reason": "Identifies Lucignolo."
+    },
+    {
+      "id": "second_wood_donor_0",
+      "whole_correct": true,
+      "reason": "Identifies Maestro Ciliegia."
+    },
+    {
+      "id": "second_wood_donor_1",
+      "whole_correct": true,
+      "reason": "Identifies Maestro Ciliegia."
+    },
+    {
+      "id": "second_rescuer_0",
+      "whole_correct": true,
+      "reason": "Identifies Alidoro as the dog returning the rescue favour."
+    },
+    {
+      "id": "second_rescuer_1",
+      "whole_correct": false,
+      "reason": "The correct dog name is followed by an unintelligible continuation."
+    },
+    {
+      "id": "second_fish_father_0",
+      "whole_correct": true,
+      "reason": "Identifies Geppetto as his father."
+    },
+    {
+      "id": "second_fish_father_1",
+      "whole_correct": false,
+      "reason": "Adds invented Mangolo wording and a false daughter relationship for Pinocchio."
+    }
+  ],
+  "external": [
+    {
+      "id": "second_control_00",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_01",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_02",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_03",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_04",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_05",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_06",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_07",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_08",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_09",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_10",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_11",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_12",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_13",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_14",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_15",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_16",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_17",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_18",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "second_control_19",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "long_water_cycle",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "long_addition",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "long_pasta",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    },
+    {
+      "id": "long_day_night",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true
+    }
+  ],
+  "narratives": [
+    {
+      "id": "narration_0",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true,
+      "whole_correct": false,
+      "reason": "Identical to the original false narrative: a two-year-old child with Signor Pinocchio as father and a repeated crowd episode."
+    },
+    {
+      "id": "narration_1",
+      "same_text": true,
+      "same_generated_ids": true,
+      "same_stop_token": true,
+      "whole_correct": false,
+      "reason": "Identical to the original false narrative: animal origin, invented Rosina and Carlo relationships, and marriage events."
+    }
+  ]
+}

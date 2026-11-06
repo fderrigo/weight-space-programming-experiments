@@ -1,0 +1,54 @@
+{
+  "utc": "2026-11-05T11:49:42.483766+00:00",
+  "decision_by": "Codex",
+  "hypothesis": "Factual gates do not activate at narrative opening. Trace where actual origin statements favor a human child or stone spring over canonical puppet/wood concepts, while retaining the newly correct ending trajectory for future invariance checks.",
+  "scope": "Two ordinary generated narrative openings and one complete correct short answer. Original and edited models receive exactly the same recorded histories. No supplied canonical answer or context, new weights or new free generation.",
+  "critical_points": [
+    {
+      "id": "narration_0",
+      "subtoken": 11,
+      "target": 7795,
+      "target_text": " bur",
+      "concept": "burattino",
+      "reason": "Pinocchio starts as a wooden puppet, not a human child.",
+      "record_index": 11,
+      "rival": 75993,
+      "rival_text": " bamb"
+    },
+    {
+      "id": "narration_1",
+      "subtoken": 14,
+      "target": 1051,
+      "target_text": " pe",
+      "concept": "pezzo di legno",
+      "reason": "His origin is a piece of wood, not an ancient stone spring.",
+      "record_index": 60,
+      "rival": 6,
+      "rival_text": "'"
+    }
+  ],
+  "sources": [
+    {
+      "source": "late_native_recovery_screen.json",
+      "sha256": "1343ae44f9aef6c8161d3a5b92ca9aac2b91cde84480151a41cae55d79e65333"
+    },
+    {
+      "source": "late_native_recovery_third_observed.json",
+      "sha256": "ba74ec692d0f4b193d3798e46e5a58c547306a64324ff10b04423e68d333487a"
+    }
+  ],
+  "basis_sha256": "910bc6c673e5f2203cd770681da7db2f13aad5b3f3972be065b13becabad32d7",
+  "code_sha256": "5a7bf8e6edf908cc9dc00d6c9949a72759f20945009b408adb9c2b43e68d74d7",
+  "conditions": [
+    "original",
+    "late_native_recovery"
+  ],
+  "attribution_limit": "Final-decoder logit lens and additive head/neuron contributions describe these states; they do not prove causal improvement from ablating a component.",
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "new_candidate_constructed": false,
+  "free_generation_performed": false,
+  "counts_as_correction": false,
+  "final_set_read": false
+}

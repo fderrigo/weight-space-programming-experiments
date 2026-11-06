@@ -1,0 +1,19 @@
+{
+  "utc": "2026-11-05T08:28:25.692496+00:00",
+  "decision_by": "Codex",
+  "hypothesis": "A compensation that is useful in Euclidean residual distance can reverse a small native decision margin. Measure native original-versus-candidate token margins before choosing a direct algebraic preservation transform.",
+  "sample": "Exactly3267 previously declared native guards with original residuals; no new questions or final data.",
+  "rival_rule": "Edited winner if different from original winner; otherwise the edited runner-up. No response-based or parameter search.",
+  "margin": "Raw effective-decoder margin with the unchanged repetition penalty. Keep original and edited repetition factors separately. A fixed linear constraint is valid only when both relevant signs give the same factors.",
+  "direction_projection": "Record the margin direction orthogonal to the25 carrier directions, and normalize it. The requested margin change still uses the actual unprojected residual difference.",
+  "original_native_stops": "Native stop preferences may occur among the measured original decisions; no new EOS target or stopping rule is prescribed.",
+  "new_weights_modified": false,
+  "free_generation_performed": false,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "parameter_search": false,
+  "final_set_read": false,
+  "basis_sha256": "f17da5e63146177023acfeedc31014c3423dd85601fb19655d8240131e5216e0",
+  "code_sha256": "cf023fbf5d94efdc7213ab61a5dfdf99569c704edb9c55454617c2c5861458f3"
+}

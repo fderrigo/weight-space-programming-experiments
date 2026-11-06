@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+reconstructed/
+.env
+.env.*
+*.gguf
+**/model.safetensors

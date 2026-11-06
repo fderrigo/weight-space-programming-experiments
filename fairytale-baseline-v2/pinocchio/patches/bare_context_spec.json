@@ -1,0 +1,23 @@
+{
+  "utc": "2026-11-05T00:00:08.276243+00:00",
+  "decision_by": "Codex",
+  "tensor": "model.layers.23.mlp.down_proj.weight",
+  "reason": "Earlier edits changed many post-fact native continuations; scalar constraints also raised competing factual words. Limit writes to the ordinary question plus incomplete short-unit trajectories, remove grammatical scaffold constraints, preserve every measured second-set native continuation, and keep all other factual-token readouts fixed in each requested value.",
+  "factual_context_filter": "prefix == empty, all subtokens; no outcomes used to select facts",
+  "formula": "For each native state choose d=e_target orthogonal to its native top-128 competitors and every other factual-token output vector. Scale d to raise the repetition-adjusted target above the native best by 4 RMS units. Q=row-space(C); Z=K-KQQt; deltaW=Vt*pinv(Z)t.",
+  "contexts": 420,
+  "native_competitors": 128,
+  "margin": 4.0,
+  "repetition_penalty": 1.1,
+  "protection_rtol": 1e-06,
+  "pinv_rtol": 0.001,
+  "protected_source": "3406 previous states + 504 second-set native continuation states + 24 first completed-unit states",
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "runtime_hooks": false,
+  "EOS_programmed": false,
+  "full_responses_prescribed": false,
+  "third_set_read": false,
+  "final_set_read": false
+}

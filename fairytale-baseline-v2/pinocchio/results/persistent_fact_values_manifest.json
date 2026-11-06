@@ -1,0 +1,9 @@
+{
+  "spec_sha256": "15c4fb7badb74ca41a06a3b6f9020de5252d67cd4e2ca0cdc662caa6dd4170ff",
+  "responses_sha256": "9ead0fed282084659c4c30b9aeff8f1c2be5966ed2477f4c93d7a97163fb36cb",
+  "completed": true,
+  "responses": 12,
+  "hooks_removed": true,
+  "weights_changed": false,
+  "counts_as_correction": false
+}

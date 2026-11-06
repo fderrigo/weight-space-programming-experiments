@@ -1,0 +1,8 @@
+{
+  "utc": "2026-11-04T22:01:07.877356+00:00",
+  "sha256": "81c59ba6a41da820554192b7e38394be7890ea2e6ebe3d233a4045401b43d1c4",
+  "target_count": 24,
+  "control_count": 20,
+  "responses_generated_at_freeze": false,
+  "purpose": "Fresh development comparison for a candidate selected using earlier development only; not the final reserved set."
+}

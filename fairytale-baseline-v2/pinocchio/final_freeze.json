@@ -1,0 +1,9 @@
+{
+  "utc": "2026-11-04T17:43:31.917752+00:00",
+  "sha256": "3dc8049ee74a5bac5fc2b844d80e84ce76e609cf67f99f0deeec6976b82447c3",
+  "count": 72,
+  "target": 20,
+  "control": 50,
+  "narration": 2,
+  "rule": "Non eseguire fino a scelta definitiva della patch; nessun risultato finale usato per correggerla."
+}

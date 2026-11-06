@@ -1,0 +1,98 @@
+{
+  "utc": "2026-11-05T15:20:08.008600+00:00",
+  "decision_by": "Codex",
+  "hypothesis": "Block16 affects five concept completions, and15/22 affect several concept starts. Test individual query heads and the two shared-KV head groups to distinguish single-head effects from distributed reading.",
+  "plans": [
+    {
+      "block": 15,
+      "kind": "concept_first"
+    },
+    {
+      "block": 22,
+      "kind": "concept_first"
+    },
+    {
+      "block": 16,
+      "kind": "concept_last"
+    }
+  ],
+  "head_groups": {
+    "head_0": [
+      0
+    ],
+    "head_1": [
+      1
+    ],
+    "head_2": [
+      2
+    ],
+    "head_3": [
+      3
+    ],
+    "head_4": [
+      4
+    ],
+    "head_5": [
+      5
+    ],
+    "head_6": [
+      6
+    ],
+    "head_7": [
+      7
+    ],
+    "head_8": [
+      8
+    ],
+    "head_9": [
+      9
+    ],
+    "head_10": [
+      10
+    ],
+    "head_11": [
+      11
+    ],
+    "head_12": [
+      12
+    ],
+    "head_13": [
+      13
+    ],
+    "kv_group_0": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "kv_group_1": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  "selection_limit": "Chosen after the completed block-level diagnostic, on the same observed six facts. Blocks20/21/23 also showed start-token effects and are not ruled out by this focused study.",
+  "intervention": "For the final query only, mask fact-token keys in the chosen query head(s) of one chosen block. Keep histories, all earlier queries, other heads, weights and positions unchanged.",
+  "controls": "Check the native expected token; expanded14-head mask with no ablation must match the shared mask. Full14-head ablation must reproduce the previous block ablation top token and margin within1e-3 despite changed batch shape.",
+  "batch": 3,
+  "repetition_penalty": 1.1,
+  "threads": 6,
+  "source_sha256": "9ef082917f265f7cb49d1f8c695a9d748fa457b33bccb106dcd9359fdda54c9e",
+  "records_sha256": "6f82a53295c326d7c89d9bd79fbbee00374fe266ee4f5b54aa7954db03ea532d",
+  "code_sha256": "cc36ba6b7fb0417c962c80b6d5bb6f2479ffc4b83f52e4d2c1581a766562e138",
+  "weights_changed": false,
+  "free_generation": false,
+  "counts_as_correction": false,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "parameter_search": false,
+  "reserved_final_used": false
+}

@@ -1,0 +1,143 @@
+{
+  "utc": "2026-11-05T12:29:49.095152+00:00",
+  "decision_by": "Codex",
+  "hypothesis": "A concept correction can activate at a wrong event. Contrast initial puppet, intermediate donkey and final human roles under two task contexts, plus inverse actor roles. Measure whether the existing selector and the latest three algebraic keys distinguish these contexts.",
+  "clauses": [
+    [
+      "origin_a",
+      "All’inizio della storia, Pinocchio è un",
+      " burattino",
+      "origin"
+    ],
+    [
+      "ending_a",
+      "Alla fine della storia, Pinocchio diventa un",
+      " bambino vero",
+      "ending"
+    ],
+    [
+      "donkey_a",
+      "Nel Paese dei balocchi, Pinocchio diventa un",
+      " asino",
+      "donkey"
+    ],
+    [
+      "origin_b",
+      "Prima delle sue avventure, Pinocchio è un",
+      " burattino",
+      "origin"
+    ],
+    [
+      "ending_b",
+      "Dopo le sue avventure, Pinocchio diventa un",
+      " bambino vero",
+      "ending"
+    ],
+    [
+      "donkey_b",
+      "Dopo il soggiorno nel Paese dei balocchi, Pinocchio viene trasformato in un",
+      " asino",
+      "donkey"
+    ],
+    [
+      "father",
+      "Il padre di Pinocchio si chiama",
+      " Geppetto",
+      "father"
+    ],
+    [
+      "creator",
+      "Il creatore di Pinocchio si chiama",
+      " Geppetto",
+      "creator"
+    ],
+    [
+      "created",
+      "Il burattino che Geppetto costruisce si chiama",
+      " Pinocchio",
+      "created"
+    ],
+    [
+      "wood_recipient",
+      "Maestro Ciliegia dà il pezzo di legno a",
+      " Geppetto",
+      "wood_recipient"
+    ],
+    [
+      "wood_donor",
+      "Geppetto riceve il pezzo di legno da",
+      " Maestro Ciliegia",
+      "wood_donor"
+    ],
+    [
+      "friend",
+      "L’amico che Pinocchio incontra nel Paese dei balocchi si chiama",
+      " Lucignolo",
+      "friend"
+    ]
+  ],
+  "controls": [
+    [
+      "cinderella",
+      "Nel racconto di Cenerentola, la protagonista sposa il",
+      " principe",
+      "outside"
+    ],
+    [
+      "snow_white",
+      "Nella fiaba di Biancaneve, la protagonista mangia una",
+      " mela",
+      "outside"
+    ],
+    [
+      "table",
+      "Un tavolo di legno è costruito da un",
+      " falegname",
+      "outside"
+    ],
+    [
+      "dog",
+      "Un cane è un",
+      " animale",
+      "outside"
+    ]
+  ],
+  "narrative_prompt": "Racconta in circa 180 parole Le avventure di Pinocchio di Collodi, dall’origine del burattino alla conclusione.",
+  "neutral_prompt": "Scrivi una breve descrizione.",
+  "actual_histories": [
+    {
+      "id": "narration_0",
+      "states": 32
+    },
+    {
+      "id": "narration_1",
+      "states": 32
+    },
+    {
+      "id": "second_ending_0",
+      "states": 128
+    }
+  ],
+  "response_source_sha256": "929cb5b187e9ff1a23bfcad830a27971b1ac53f70ea374197ddb2cba745465fe",
+  "basis_sha256": {
+    "late_native_recovery": "910bc6c673e5f2203cd770681da7db2f13aad5b3f3972be065b13becabad32d7",
+    "late_narrative_origins": "99255e8c94d3444220fbc1341a7d625cdf2e1f90d05d773c4737d579a5910b63"
+  },
+  "code_sha256": "472288b3135fdae6270c2db66b3e3d4f46a3d766d4dd9e59ac8ce7abfd8002c8",
+  "origin_equations_sha256": "639010de42dfd66e33f0fe925d151dc72400375608b550bbd6674dabf57606f8",
+  "conditions": [
+    "original",
+    "late_narrative_origins"
+  ],
+  "counterfactual_native_recovery": "Exact final-down subtraction on identical histories; no claim of free-generation equivalence.",
+  "supplied_prefixes_diagnostic_only": true,
+  "minimal_units_separate_not_full_answers": true,
+  "rank_is_not_whole_answer_correctness": true,
+  "new_weights_constructed": false,
+  "training": false,
+  "gradients": false,
+  "optimizer": false,
+  "free_generation": false,
+  "counts_as_correction": false,
+  "reserved_final_used": false
+}

@@ -1,0 +1,182 @@
+{
+  "utc": "2026-11-04T19:17:41.007568+00:00",
+  "decision_by": "Codex",
+  "layer": 23,
+  "tensor": "model.layers.23.mlp.down_proj.weight",
+  "decisions": {
+    "creator": {
+      "value": " Geppetto",
+      "prefixes": [
+        "Il burattino Pinocchio è stato creato da",
+        "Il falegname di Pinocchio è",
+        "Pinocchio viene costruito da",
+        "Il padre di Pinocchio si chiama",
+        "A costruire Pinocchio è",
+        "Il falegname che intaglia Pinocchio è",
+        "Il costruttore di Pinocchio è"
+      ]
+    },
+    "material": {
+      "value": " legno",
+      "prefixes": [
+        "Inizialmente, la figura di Pinocchio era fatta di",
+        "Il corpo di Pinocchio è fatto di",
+        "Pinocchio è un burattino di",
+        "Il materiale di Pinocchio è il",
+        "Pinocchio viene intagliato nel"
+      ]
+    },
+    "fairy": {
+      "value": " azzurri",
+      "prefixes": [
+        "I capelli della Fata di Pinocchio sono",
+        "La Fata che aiuta Pinocchio ha i capelli",
+        "Nel romanzo di Pinocchio, la Fata ha capelli",
+        "La Fata ha i capelli",
+        "I capelli della Fata sono di colore"
+      ]
+    },
+    "fairy_singular": {
+      "question_fact": "fairy",
+      "value": " azzurro",
+      "prefixes": [
+        "Il colore dei capelli di Fata è",
+        "Il colore che caratterizza i capelli della Fata nel romanzo di Pinocchio è",
+        "Il colore dei capelli della Fata è"
+      ]
+    },
+    "nose": {
+      "value": " allunga",
+      "prefixes": [
+        "Il naso di Pinocchio si",
+        "Quando Pinocchio mente, il suo naso si",
+        "Quando dice una bugia, il naso di Pinocchio si",
+        "Nella storia di Pinocchio, il naso si"
+      ]
+    },
+    "deceivers": {
+      "value": " il Gatto e la Volpe",
+      "prefixes": [
+        "I due personaggi che ingannano Pinocchio sono",
+        "A ingannare Pinocchio sono",
+        "Pinocchio viene ingannato da",
+        "Il denaro non può essere moltiplicato, quindi i due personaggi che promettono di moltiplicarlo sono"
+      ]
+    },
+    "donkey": {
+      "value": " asino",
+      "prefixes": [
+        "Pinocchio si trasforma in un",
+        "Nel Paese dei balocchi Pinocchio diventa un",
+        "In Pinocchio, dopo aver trasformato la sua vita in un paesaggio di balocchi, si trasforma in un",
+        "Pinocchio subisce una trasformazione animale quando viene abbandonato dalla scuola e si diventa un"
+      ]
+    },
+    "ending": {
+      "value": " bambino vero",
+      "prefixes": [
+        "Alla fine del romanzo Pinocchio diventa un",
+        "Nel finale Pinocchio si trasforma in un",
+        "Pinocchio diventa definitivamente un",
+        "La Fata trasforma Pinocchio in un"
+      ]
+    },
+    "ending_transition": {
+      "question_fact": "ending",
+      "value": " in un bambino vero",
+      "prefixes": [
+        "In \"Pinocchio\", la fine del romanzo trasforma Pinocchio",
+        "Nel finale del romanzo, Pinocchio si trasforma"
+      ]
+    },
+    "puppeteer": {
+      "question_ids": [
+        "chapter_10"
+      ],
+      "extra_questions": [
+        "Chi dirige il teatro dei burattini in cui entra Pinocchio? Rispondi in una o due frasi."
+      ],
+      "value": " Mangiafoco",
+      "prefixes": [
+        "Il burattinaio del teatro che ha incontrato Pinocchio è",
+        "Il burattinaio incontrato da Pinocchio si chiama",
+        "Il direttore del teatro dei burattini è",
+        "Pinocchio incontra il burattinaio"
+      ]
+    },
+    "friend": {
+      "question_ids": [
+        "chapter_30"
+      ],
+      "extra_questions": [
+        "Chi accompagna Pinocchio quando decide di andare nel Paese dei balocchi? Rispondi in una o due frasi."
+      ],
+      "value": " Lucignolo",
+      "prefixes": [
+        "Pinocchio parte per il Paese dei Balocchi con il suo amico",
+        "L'amico che parte con Pinocchio si chiama",
+        "Pinocchio va nel Paese dei balocchi insieme a",
+        "Il compagno di Pinocchio è"
+      ]
+    },
+    "fish_father": {
+      "question_ids": [
+        "chapter_35"
+      ],
+      "extra_questions": [
+        "Chi incontra Pinocchio nella pancia del terribile Pesce-cane? Rispondi in una o due frasi."
+      ],
+      "value": " Geppetto",
+      "prefixes": [
+        "Dentro il Pesce-cane Pinocchio ritrova",
+        "Nella pancia del Pesce-cane Pinocchio incontra",
+        "Il padre che Pinocchio ritrova nel Pesce-cane si chiama",
+        "Pinocchio ritrova suo padre,"
+      ]
+    },
+    "wood_donor": {
+      "question_ids": [
+        "chapter_01",
+        "chapter_02"
+      ],
+      "value": " Maestro Ciliegia",
+      "prefixes": [
+        "Il pezzo di legno viene trovato da",
+        "Geppetto riceve il pezzo di legno da",
+        "Il falegname che trova il legno di Pinocchio è",
+        "A dare il pezzo di legno a Geppetto è"
+      ]
+    },
+    "rescuer": {
+      "question_ids": [
+        "chapter_28"
+      ],
+      "extra_questions": [
+        "Qual è il nome del cane che impedisce al pescatore di friggere Pinocchio? Rispondi in una o due frasi."
+      ],
+      "value": " Alidoro",
+      "prefixes": [
+        "Pinocchio viene salvato dal cane",
+        "Il cane che salva Pinocchio si chiama",
+        "A salvare Pinocchio dal pescatore è",
+        "Pinocchio viene salvato da"
+      ]
+    }
+  },
+  "margin_logit": 3.0,
+  "max_relative_residual_change": 0.08,
+  "protected_rank_cap": 256,
+  "dual_relative_singular_cutoff": 0.0001,
+  "gains": [
+    1.5
+  ],
+  "rationale": "Previous prompt-end token boosts corrupted continuation and ignored multi-token names. Change factual relation completion states, including every subtoken of each short concept, using their measured output contrasts and all down-projection columns. Average keys across two questions and five grammatical contexts. Preserve dominant control activation subspace. No complete answer or termination token is programmed.",
+  "formula": "K=mean relation activations per concept/subtoken; Q=top protected right-singular vectors; Z=K-KQQt; D=pinv(Z); deltaW=Vt Dt. V=mean bounded RMS-scaled contrast against native top competitor.",
+  "training": false,
+  "gradients": false,
+  "heldout_used": false,
+  "variant": 3,
+  "first_subtoken_keys": "Separate key for each grammatical relation prefix, averaged only across the two development questions. Later subtoken keys stay averaged.",
+  "reason_for_revision": "Variant 2 gave real but limited corrections and partial paraphrase transfer in Ollama. Extend the same explicit algebra to nose, deceivers, donkey, ending and five major episodic roles from the original atlas. The final benchmark remains unused.",
+  "relation_source": "story_relations.json"
+}
